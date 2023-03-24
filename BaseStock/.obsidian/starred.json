@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "基础语法",
+      "path": "markdown语法/基础语法.md"
+    },
+    {
+      "type": "file",
+      "title": "常用命令",
+      "path": "模具UG设计/常用命令.md"
+    }
+  ]
+}
