@@ -4,7 +4,7 @@
 3. git文件夹(标识为本地仓库)git config --list查看参数,然后
 git config --global user.name "账户名"
 git config --global user.email "邮箱"
-git remote add/rm 远程仓库名称 地址 (添加/删除仓库)  这里地址使用http或ssh地址
+git remote add/rm 远程仓库名称 地址 (添加/删除仓库)  这里地址使用http(使用svn即Subversion完成版本控制)或ssh(使用rsa非对称加密通信成功后无需每次输入账号密码)地址
 修改地址使用 git remote set-url 仓库名 新地址
 git remote -v查看是否配置成功
 4. 下载github for windows 便捷完成add commit 和push操作,另外根据需求配置.ignore文件
