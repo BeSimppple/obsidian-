@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b28bf1cdcd3725e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/GIT实现云同步/git云仓库.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/GIT实现云同步/GIT(设置流程).md",
+                "file": "IT/GIT实现云同步/git云仓库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/GIT实现云同步/GIT(设置流程).md",
+                "file": "IT/GIT实现云同步/git云仓库.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/GIT实现云同步/GIT(设置流程).md"
+                "file": "IT/GIT实现云同步/git云仓库.md"
               }
             }
           },
@@ -204,10 +216,11 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "c0f560b0857e988a",
+  "active": "b28bf1cdcd3725e3",
   "lastOpenFiles": [
-    "测试git.md",
     "IT/GIT实现云同步/GIT(设置流程).md",
+    "IT/GIT实现云同步/git云仓库.md",
+    "测试git.md",
     "Day Planners/Day Planner-20230324.md",
     "obsidian--/README.md",
     "obsidian--",
@@ -241,7 +254,6 @@
     "模具UG设计/模具知识管理类/模具设计.md",
     "模具UG设计/模具知识管理类/细节.md",
     "Day Planners/Day Planner-20230314.md",
-    "模具UG设计/模具知识管理类/常用名词.md",
     "模具UG设计/模具知识管理类",
     "模板样式仓库",
     "模具实际加工工艺",
