@@ -18,11 +18,15 @@ git remote -v查看是否配置成功
 详情见[https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/managing-deploy-keys](https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/managing-deploy-keys)
 
 ###### 代理方式
-1.  使用秘钥生成工具生成rsa秘钥和公钥
-2.  将rsa公钥添加到代码托管平台
-3.  将rsa秘钥添加到ssh-agent中，为ssh client指定使用的秘钥文件
-ls -al ~/.ssh(检查全盘电脑是否有SHH秘钥)
-如果没有则:  ssh-keygen -t rsa -C "196550181@qq.com"生成新的ssh,并设置密码
-SHA256:X/4NUvJPyy5sFDchAAv41spUhgm5Wj2I7IaVv46QzlM 196550181@qq.com
+1. 检查是否有公钥  ls -al ~/.ssh(检查全盘电脑是否有SHH秘钥) 
+2. 生成rsa秘钥和公钥(可以随意使用任何rsa的秘钥生成工具或者git bash指令直接生成)
+ssh-keygen -t rsa -C "196550181@qq.com"生成新的ssh,(全程回车设置即可)
+默认地址c/user/用户名/.ssh  文件夹内一个私钥和一个公钥,
+3.  将rsa公钥添加到代码托管平台 (github或gittee)  
+4. 将rsa秘钥添加到ssh-agent中，为ssh client指定使用的秘钥文件
+
+fringerprint:
+SHA256:76Ng6b2uUPBI/2PEmnccwiAhrBRSIy+zNeqnugAs4Hw 196550181@qq.com
+
 
 
