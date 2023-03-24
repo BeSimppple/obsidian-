@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "markdown语法及快捷键/快捷键.md",
+                "file": "IT/GIT实现云同步/GIT(设置流程).md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "markdown语法及快捷键/快捷键.md",
+                "file": "IT/GIT实现云同步/GIT(设置流程).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "markdown语法及快捷键/快捷键.md",
+                "file": "IT/GIT实现云同步/GIT(设置流程).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "markdown语法及快捷键/快捷键.md"
+                "file": "IT/GIT实现云同步/GIT(设置流程).md"
               }
             }
           },
@@ -204,14 +204,14 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "2f3653ef60aee64c",
+  "active": "c0f560b0857e988a",
   "lastOpenFiles": [
-    "markdown语法及快捷键/Pasted image 20230221110311.png",
+    "IT/GIT实现云同步/git云仓库.md",
     "markdown语法及快捷键/快捷键.md",
+    "markdown语法及快捷键/Pasted image 20230221110311.png",
     "markdown语法及快捷键/基础语法.md",
     "代码块.md",
     "测试git.md",
-    "IT/GIT实现云同步/git云仓库.md",
     "IT/GIT实现云同步/GIT(设置流程).md",
     "Day Planners/Day Planner-20230324.md",
     "obsidian--/README.md",
