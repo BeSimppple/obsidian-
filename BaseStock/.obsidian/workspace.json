@@ -37,26 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "markdown语法及快捷键/基础语法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c0f560b0857e988a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/GIT实现云同步/GIT(设置流程).md",
+                "file": "常用语法/markdown语法及快捷键/基础语法.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/GIT实现云同步/GIT(设置流程).md",
+                "file": "常用语法/markdown语法及快捷键/基础语法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/GIT实现云同步/GIT(设置流程).md",
+                "file": "常用语法/markdown语法及快捷键/基础语法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/GIT实现云同步/GIT(设置流程).md"
+                "file": "常用语法/markdown语法及快捷键/基础语法.md"
               }
             }
           },
@@ -204,23 +192,27 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "c0f560b0857e988a",
+  "active": "76cbb3d84b967d89",
   "lastOpenFiles": [
-    "IT/GIT实现云同步/git云仓库.md",
+    "Day Planners/Day Planner-20230314.md",
+    "机械",
+    "Picture",
     "IT/GIT实现云同步/GIT(设置流程).md",
-    "markdown语法及快捷键/基础语法.md",
-    "markdown语法及快捷键/快捷键.md",
+    "常用语法",
+    "IT/GIT实现云同步/git云仓库.md",
+    "常用语法/markdown语法及快捷键/基础语法.md",
+    "常用语法/markdown语法及快捷键/快捷键.md",
     "模具UG设计/常用命令.md",
-    "markdown语法及快捷键/Pasted image 20230221110311.png",
+    "常用语法/markdown语法及快捷键/Pasted image 20230221110311.png",
     "代码块.md",
     "测试git.md",
     "Day Planners/Day Planner-20230324.md",
     "obsidian--/README.md",
     "obsidian--",
     "IT/GIT实现云同步",
-    "markdown语法及快捷键/Pasted image 20230221110524.png",
-    "markdown语法及快捷键/Pasted image 20230221110441.png",
-    "markdown语法及快捷键/Pasted image 20230221110419.png",
+    "常用语法/markdown语法及快捷键/Pasted image 20230221110524.png",
+    "常用语法/markdown语法及快捷键/Pasted image 20230221110441.png",
+    "常用语法/markdown语法及快捷键/Pasted image 20230221110419.png",
     "Day Planners/Day Planner-20230321.md",
     "Day Planners/Day Planner-20230317.md",
     "Day Planners/Day Planner-20230315.md",
@@ -235,16 +227,15 @@
     "模具UG设计/流程.md",
     "Day Planners/Day Planner-20230320.md",
     "Day Planners/Day Planner-20230316.md",
-    "机械图片组/G0.1.2.3曲面.png",
+    "Picture/机械图片组/G0.1.2.3曲面.png",
     "模具UG设计/模具知识管理类/建模-画图-装配知识.md",
-    "机械图片组",
+    "Picture/机械图片组",
     "模具UG设计/模具知识管理类/模具结构.md",
     "模具UG设计/模具知识管理类/模具设计.md",
     "模具UG设计/模具知识管理类/细节.md",
     "模具UG设计/模具知识管理类",
     "模板样式仓库",
     "模具实际加工工艺",
-    "08826678.png",
-    "网络工程"
+    "08826678.png"
   ]
 }

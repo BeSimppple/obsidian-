@@ -1,0 +1,229 @@
+{
+  "main": {
+    "id": "c089e7c2575c2dda",
+    "type": "split",
+    "children": [
+      {
+        "id": "6319b67fa18b3ff4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ad5b2851ae28d369",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "c75e96437ab8c97a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "模具UG设计/常用命令.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "76cbb3d84b967d89",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3a7c073e6d3990c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "ae1c92b88de9dd70",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f3653ef60aee64c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5dea023d3aba5de8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fb0fe04607f526a0",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 220.5
+  },
+  "right": {
+    "id": "da3e55c2c4b72581",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ac9bf1f5d104e8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a6fd1d5285fd3072",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cff65d25f8ee6fe2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "65110aadc53b0aec",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0cae947660aff9c9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "e63225bdeea3e660",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "aecbfd5d065f2e16",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "remotely-save:Remotely Save": false
+    }
+  },
+  "active": "76cbb3d84b967d89",
+  "lastOpenFiles": [
+    "Day Planners/Day Planner-20230314.md",
+    "机械",
+    "Picture",
+    "IT/GIT实现云同步/GIT(设置流程).md",
+    "常用语法",
+    "IT/GIT实现云同步/git云仓库.md",
+    "常用语法/markdown语法及快捷键/基础语法.md",
+    "常用语法/markdown语法及快捷键/快捷键.md",
+    "模具UG设计/常用命令.md",
+    "常用语法/markdown语法及快捷键/Pasted image 20230221110311.png",
+    "代码块.md",
+    "测试git.md",
+    "Day Planners/Day Planner-20230324.md",
+    "obsidian--/README.md",
+    "obsidian--",
+    "IT/GIT实现云同步",
+    "常用语法/markdown语法及快捷键/Pasted image 20230221110524.png",
+    "常用语法/markdown语法及快捷键/Pasted image 20230221110441.png",
+    "常用语法/markdown语法及快捷键/Pasted image 20230221110419.png",
+    "Day Planners/Day Planner-20230321.md",
+    "Day Planners/Day Planner-20230317.md",
+    "Day Planners/Day Planner-20230315.md",
+    "Day Planners/Day Planner-20230313.md",
+    "模具UG设计/UG逆向工程.md",
+    "IT",
+    "Day Planners/Day Planner-20230323.md",
+    "未命名.canvas",
+    "Day Planners/Day Planner-20230322.md",
+    "模具UG设计/UG快捷键.md",
+    "模具UG设计/问题集.md",
+    "模具UG设计/流程.md",
+    "Day Planners/Day Planner-20230320.md",
+    "Day Planners/Day Planner-20230316.md",
+    "Picture/机械图片组/G0.1.2.3曲面.png",
+    "模具UG设计/模具知识管理类/建模-画图-装配知识.md",
+    "Picture/机械图片组",
+    "模具UG设计/模具知识管理类/模具结构.md",
+    "模具UG设计/模具知识管理类/模具设计.md",
+    "模具UG设计/模具知识管理类/细节.md",
+    "模具UG设计/模具知识管理类",
+    "模板样式仓库",
+    "模具实际加工工艺",
+    "08826678.png"
+  ]
+}
