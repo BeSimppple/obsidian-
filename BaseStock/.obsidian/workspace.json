@@ -8,55 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ad5b2851ae28d369",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/GIT实现云同步/GIT(设置流程).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c75e96437ab8c97a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "模具UG设计/常用命令.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "76cbb3d84b967d89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/GIT实现云同步/GIT(设置流程).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "afa5e1ad77a3988e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用语法/VIM语法/linux常用语法.md",
+                "file": "IT/GIT实现云同步/GIT(设置流程).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法/VIM语法/linux常用语法.md",
+                "file": "IT/GIT实现云同步/GIT(设置流程).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法/VIM语法/linux常用语法.md",
+                "file": "IT/GIT实现云同步/GIT(设置流程).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法/VIM语法/linux常用语法.md"
+                "file": "IT/GIT实现云同步/GIT(设置流程).md"
               }
             }
           },
@@ -206,9 +169,9 @@
   },
   "active": "afa5e1ad77a3988e",
   "lastOpenFiles": [
+    "常用语法/VIM语法/linux常用语法.md",
     "常用语法/VIM语法",
     "IT/GIT实现云同步/GIT(设置流程).md",
-    "常用语法/VIM语法/linux常用语法.md",
     "常用语法/markdown语法及快捷键/基础语法.md",
     "Day Planners/Day Planner-20230314.md",
     "机械",
@@ -247,7 +210,6 @@
     "模具UG设计/模具知识管理类/模具结构.md",
     "模具UG设计/模具知识管理类",
     "模板样式仓库",
-    "模具实际加工工艺",
     "08826678.png"
   ]
 }
