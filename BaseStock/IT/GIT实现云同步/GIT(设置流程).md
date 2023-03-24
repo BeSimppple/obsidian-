@@ -16,3 +16,5 @@ git remote -v查看是否配置成功
 4.GitHub App 安装访问令牌
 5.机器用户
 详情见[https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/managing-deploy-keys](https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/managing-deploy-keys)
+
+###### 代理方式
