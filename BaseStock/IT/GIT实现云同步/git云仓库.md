@@ -18,6 +18,8 @@ git config --global user.email "邮箱"
 
 git config --list (查看所有配置信息)
 
+ls -al ~/.ssh(检查全盘电脑是否有SHH秘钥)
+
 git remote -v (查看简要远程服务器信息)
 
 git remote add/rm 远程仓库名称 地址 (添加/删除仓库)
@@ -31,6 +33,10 @@ git checkout 分支名 (切换分支)
 git branch -d 分支名 (删除分支)
 
 git merge 分支名 (合并分支)
+
+git fetch //把远程库的代码更新到本地库
+
+git stash //把未完成的修改缓存到栈容器中 git stash list //查看所有的缓存 git stash pop //恢复本地分支到缓存状态 git blame someFile //查看某个文件的每一行的修改记录（）谁在什么时候修改的） git status //查看当前分支有哪些修改 git log //查看当前分支上面的日志信息 git diff //查看当前没有add的内容 git diff --cache //查看已经add但是没有commit的内容 git diff HEAD //上面两个内容的合并 git reset --hard HEAD //撤销本地修改 echo $HOME //查看git config的HOME路径 export $HOME=/c/gitconfig //配置git config的HOME路径
 
 ![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\aa4997be2e584abfba3579e4b5420f0c\3de0cb7a7fb646178830813b89cde459.jpg)
 
@@ -101,6 +107,20 @@ doc/*.txt
 # 忽略doc文件夹及其子文件夹中的后缀名为pdf的文件
 
 doc/**/*.pdf
+
+关于SSH秘钥
+
+1.SSH代理转发(最常用) SSH部署到SSH-agent
+
+2.使用 OAuth 令牌进行 HTTPS 克隆
+
+3.部署密钥
+
+4.GitHub App 安装访问令牌
+
+5.机器用户
+
+详情见[https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/managing-deploy-keys](https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/managing-deploy-keys)
 
 git本地仓库
 
