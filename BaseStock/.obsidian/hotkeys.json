@@ -27,12 +27,20 @@
   "workspace:goto-tab-1": [],
   "workspace:goto-tab-2": [],
   "workspace:goto-tab-3": [],
-  "obsidian-git:push2": [
+  "obsidian-git:commit": [
     {
       "modifiers": [
         "Shift"
       ],
       "key": "1"
+    }
+  ],
+  "obsidian-git:push2": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "2"
     }
   ]
 }
