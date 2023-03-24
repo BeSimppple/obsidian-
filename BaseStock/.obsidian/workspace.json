@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d5eff9fa09abc159",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "测试ssh链接.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/GIT实现云同步/GIT(设置流程).md",
+                "file": "测试ssh链接.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/GIT实现云同步/GIT(设置流程).md",
+                "file": "测试ssh链接.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/GIT实现云同步/GIT(设置流程).md"
+                "file": "测试ssh链接.md"
               }
             }
           },
@@ -167,11 +180,12 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "afa5e1ad77a3988e",
+  "active": "d5eff9fa09abc159",
   "lastOpenFiles": [
+    "IT/GIT实现云同步/GIT(设置流程).md",
+    "测试ssh链接.md",
     "常用语法/VIM语法/linux常用语法.md",
     "常用语法/VIM语法",
-    "IT/GIT实现云同步/GIT(设置流程).md",
     "常用语法/markdown语法及快捷键/基础语法.md",
     "Day Planners/Day Planner-20230314.md",
     "机械",

@@ -25,7 +25,8 @@ ssh-keygen -t rsa -C "196550181@qq.com"生成新的ssh,(全程回车设置即可
 默认地址c/user/用户名/.ssh  文件夹内一个私钥和一个公钥,
 3.  将rsa公钥添加到代码托管平台 (github或gittee)  
 4. 将rsa秘钥添加到ssh-agent中，为ssh client指定使用的秘钥文件
-
+$ ssh -T git@github.com 检查是否链接,如果出现hi...but not privode access则成功,如果要确定
+fringerprint则确认后输入yes之后再测试一边
 fringerprint:
 SHA256:76Ng6b2uUPBI/2PEmnccwiAhrBRSIy+zNeqnugAs4Hw 196550181@qq.com
 
