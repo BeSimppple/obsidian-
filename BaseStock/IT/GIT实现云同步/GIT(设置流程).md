@@ -1,7 +1,7 @@
 
 1. [下载git for windows](https://gitforwindows.org/)并配置好本地参数(例如在注册表中加入gitbash,默认会帮你加)
-2. 到指定本地文件夹打开gitbash,或使用cd命令到指定文件夹使用git init命令生成.
-3. git文件夹(标识为本地仓库)git config --list查看参数,然后
+2. 到指定本地文件夹打开gitbash,或使用cd命令到指定文件夹使用git init命令生成.git文件夹(标识为本地仓库)
+3. git config --list查看参数,然后
 git config --global user.name "账户名"
 git config --global user.email "邮箱"
 git remote add/rm 远程仓库名称 地址 (添加/删除仓库)  这里地址使用http(使用svn即Subversion完成版本控制)或ssh(使用rsa非对称加密通信成功后无需每次输入账号密码)地址

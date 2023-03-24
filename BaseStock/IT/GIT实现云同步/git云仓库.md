@@ -1,41 +1,22 @@
 GIT(云仓库)
-
 特性:速度快.分布式
-
 git与svn的区别
-
 1.svn是一个集中式的版本管理工具,服务器宕机那么整个svn版本不可用
-
 2.git如果一个仓库服务器宕机,不影响其他服务器
-
 GIT默认是VIM语法(同linux)
-
 git init 在当前本地文件夹创建.git文件夹仓库标识
-
 git config --global user.name "账户名"
-
 git config --global user.email "邮箱"
-
 git config --list (查看所有配置信息)
-
 ls -al ~/.ssh(检查全盘电脑是否有SHH秘钥)
-
 git remote -v (查看简要远程服务器信息)
-
 git remote add/rm 远程仓库名称 地址 (添加/删除仓库)
-
 git branch (查看分支)
-
 git branch 分支名 (创建分支)
-
 git checkout 分支名 (切换分支)
-
 git branch -d 分支名 (删除分支)
-
 git merge 分支名 (合并分支)
-
 git fetch //把远程库的代码更新到本地库
-
 git stash //把未完成的修改缓存到栈容器中 git stash list //查看所有的缓存 git stash pop //恢复本地分支到缓存状态 git blame someFile //查看某个文件的每一行的修改记录（）谁在什么时候修改的） git status //查看当前分支有哪些修改 git log //查看当前分支上面的日志信息 git diff //查看当前没有add的内容 git diff --cache //查看已经add但是没有commit的内容 git diff HEAD //上面两个内容的合并 git reset --hard HEAD //撤销本地修改 echo $HOME //查看git config的HOME路径 export $HOME=/c/gitconfig //配置git config的HOME路径
 
 ![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\aa4997be2e584abfba3579e4b5420f0c\3de0cb7a7fb646178830813b89cde459.jpg)

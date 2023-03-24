@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/GIT实现云同步/GIT(设置流程).md",
+                "file": "IT/GIT实现云同步/git云仓库.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fb9a9a055e64110d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d13d723650d9c035",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/SpringCloud/Sentinel(降级熔断).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/GIT实现云同步/GIT(设置流程).md",
+                "file": "IT/SpringCloud/Sentinel(降级熔断).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/GIT实现云同步/GIT(设置流程).md",
+                "file": "IT/SpringCloud/Sentinel(降级熔断).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/GIT实现云同步/GIT(设置流程).md"
+                "file": "IT/SpringCloud/Sentinel(降级熔断).md"
               }
             }
           },
@@ -163,12 +188,15 @@
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "templater-obsidian:Templater": false,
-      "remotely-save:Remotely Save": false
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "0df04d491743b9b5",
+  "active": "2f3653ef60aee64c",
   "lastOpenFiles": [
+    "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
+    "IT/SpringCloud/Sentinel(降级熔断).md",
+    "IT/GIT实现云同步/GIT(设置流程).md",
+    "IT/GIT实现云同步/git云仓库.md",
     "常用语法/VIM语法/linux常用语法.md",
     "模具UG设计/UG快捷键.md",
     "模具UG设计/UG逆向工程.md",
@@ -178,9 +206,7 @@
     "模具实际加工工艺/模具实际加工流程.md",
     "Picture/机械图片组/G0.1.2.3曲面.png",
     "命名规范.md",
-    "IT/GIT实现云同步/GIT(设置流程).md",
     "IT/SpringCloud",
-    "IT/GIT实现云同步/git云仓库.md",
     "测试ssh链接.md",
     "常用语法/VIM语法",
     "常用语法/markdown语法及快捷键/基础语法.md",
@@ -207,8 +233,6 @@
     "Day Planners/Day Planner-20230323.md",
     "未命名.canvas",
     "Day Planners/Day Planner-20230322.md",
-    "Day Planners/Day Planner-20230320.md",
-    "Day Planners/Day Planner-20230316.md",
     "Picture/机械图片组",
     "模具UG设计/模具知识管理类",
     "08826678.png"
