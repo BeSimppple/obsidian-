@@ -9,3 +9,10 @@ git remote -v查看是否配置成功
 4. 下载github for windows 便捷完成add commit 和push操作,另外根据需求配置.ignore文件
 5. 将需要上传的文件放到指定文件夹内完成add-commit-push操作
 
+### 关于SSH秘钥
+1.SSH代理转发(最常用) SSH部署到SSH-agent
+2.使用 OAuth 令牌进行 HTTPS 克隆
+3.部署密钥
+4.GitHub App 安装访问令牌
+5.机器用户
+详情见[https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/managing-deploy-keys](https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/managing-deploy-keys)
