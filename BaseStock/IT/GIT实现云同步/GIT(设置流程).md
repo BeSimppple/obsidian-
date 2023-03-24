@@ -26,8 +26,8 @@ ssh-keygen -t rsa -C "196550181@qq.com"生成新的ssh,(全程回车设置即可
 3.  将rsa公钥添加到代码托管平台 (github或gittee)  
 4. 将rsa秘钥添加到ssh-agent中，为ssh client指定使用的秘钥文件
 $ ssh -T git@github.com 检查是否链接,如果出现hi...but not privode access则成功,如果要确定
-fringerprint则确认后输入yes之后再测试一边
-fringerprint:
+fingerprint则确认后输入yes之后再测试一边
+fingerprint:远程主机指纹的作用：用于验证远程主机确实是我以前连接过的主机，而不是被DNS劫持的主机。把远程主机的公钥用一种hash算法输出一个较短的数串就是fingerprint
 SHA256:76Ng6b2uUPBI/2PEmnccwiAhrBRSIy+zNeqnugAs4Hw 196550181@qq.com
 
 
