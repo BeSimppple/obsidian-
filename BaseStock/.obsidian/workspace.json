@@ -25,26 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d13d723650d9c035",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/GIT实现云同步/GIT(设置流程).md",
+                "file": "obsidian相关/命名规范.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/GIT实现云同步/GIT(设置流程).md",
+                "file": "obsidian相关/命名规范.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/GIT实现云同步/GIT(设置流程).md",
+                "file": "obsidian相关/命名规范.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/GIT实现云同步/GIT(设置流程).md"
+                "file": "obsidian相关/命名规范.md"
               }
             }
           },
@@ -191,12 +179,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d13d723650d9c035",
+  "active": "2f3653ef60aee64c",
   "lastOpenFiles": [
-    "IT/SpringCloud/Sentinel(降级熔断).md",
     "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
-    "代码块.md",
+    "obsidian相关",
+    "模具实际加工工艺/未命名.canvas",
     "IT/GIT实现云同步/GIT(设置流程).md",
+    "语言学习/日语",
+    "语言学习/英语",
+    "语言学习",
+    "IT/SpringCloud/Sentinel(降级熔断).md",
+    "obsidian相关/代码块.md",
     "IT/GIT实现云同步/git云仓库.md",
     "常用语法/VIM语法/linux常用语法.md",
     "模具UG设计/UG快捷键.md",
@@ -205,15 +198,15 @@
     "模具UG设计/流程.md",
     "模具UG设计/常用命令.md",
     "模具实际加工工艺/模具实际加工流程.md",
-    "Picture/机械图片组/G0.1.2.3曲面.png",
-    "命名规范.md",
+    "obsidian相关/Picture/机械图片组/G0.1.2.3曲面.png",
+    "obsidian相关/命名规范.md",
     "IT/SpringCloud",
     "测试ssh链接.md",
     "常用语法/VIM语法",
     "常用语法/markdown语法及快捷键/基础语法.md",
     "Day Planners/Day Planner-20230314.md",
     "机械",
-    "Picture",
+    "obsidian相关/Picture",
     "常用语法",
     "常用语法/markdown语法及快捷键/快捷键.md",
     "常用语法/markdown语法及快捷键/Pasted image 20230221110311.png",
@@ -221,7 +214,6 @@
     "Day Planners/Day Planner-20230324.md",
     "obsidian--/README.md",
     "obsidian--",
-    "IT/GIT实现云同步",
     "常用语法/markdown语法及快捷键/Pasted image 20230221110524.png",
     "常用语法/markdown语法及快捷键/Pasted image 20230221110441.png",
     "常用语法/markdown语法及快捷键/Pasted image 20230221110419.png",
@@ -229,12 +221,8 @@
     "Day Planners/Day Planner-20230317.md",
     "Day Planners/Day Planner-20230315.md",
     "Day Planners/Day Planner-20230313.md",
-    "IT",
     "Day Planners/Day Planner-20230323.md",
     "未命名.canvas",
-    "Day Planners/Day Planner-20230322.md",
-    "Picture/机械图片组",
-    "模具UG设计/模具知识管理类",
     "08826678.png"
   ]
 }
