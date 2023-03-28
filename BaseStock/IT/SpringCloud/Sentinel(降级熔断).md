@@ -1,23 +1,13 @@
 Sentinel(与gateway整合后直接全局sentinel)
-
 主要解决问题:
-
 雪崩效应(也叫级联失效:指一个点失效导致关联的点无法运行也失效)
-
 Sentinel是什么?
-
 Sentinel 是一个中间件以qps或线程或异常或慢调用为切入点，从流量控制、熔断降级、系统负载保护等多个维度保护服务的稳定性。
-
 sentinel还可以实现对接口参数的限流(热点模式)
-
 sentinel还实现了接口权限的限制
-
 sentinel分两个部分:
-
 核心库（Java 客户端）不依赖任何框架/库，能够运行于所有 Java 运行时环境，同时对 Dubbo / Spring Cloud 等框架也有较好的支持。
-
 控制台（Dashboard）基于 Spring Boot 开发，打包后可以直接运行，不需要额外的 Tomcat 等应用容器。能有实时监控功能看到500台一下机器秒级数据,同时提供spi扩展接口方便开发者自己编写特殊熔断场景需求
-
 ![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\f936547840c44286a812838592d5903f\07d1f766761745fb8bc2306fe728d531.jpg)
 
 Sentiel和Hystrix对比

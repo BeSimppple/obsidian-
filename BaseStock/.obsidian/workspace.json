@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/项目部署/环境部署.md",
+                "file": "网络工程/软路由.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ff9eb115e8939273",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计算机底层原理.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/项目部署/环境部署.md",
+                "file": "计算机底层原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/项目部署/环境部署.md",
+                "file": "计算机底层原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/项目部署/环境部署.md"
+                "file": "计算机底层原理.md"
               }
             }
           },
@@ -190,28 +203,31 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0df04d491743b9b5",
+  "active": "ff9eb115e8939273",
   "lastOpenFiles": [
-    "IT/常用概念.md",
+    "网络工程/软路由.md",
+    "计算机底层原理.md",
+    "网络工程/计算机底层原理",
+    "IT/SpringCloud/Sentinel(降级熔断).md",
     "IT/项目部署/环境部署.md",
+    "IT/常用概念.md",
     "常用语法/markdown语法及快捷键/基础语法.md",
+    "IT/项目部署/所需软件.md",
+    "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
     "obsidian相关/Picture/未命名.md",
     "obsidian相关/Picture/IT知识类",
     "obsidian相关/Picture/IT知识类/JDK和JRE.png",
-    "IT/项目部署/所需软件.md",
     "常用语法/markdown语法及快捷键/快捷键.md",
     "IT/项目部署/GIT实现云同步/git云仓库.md",
     "obsidian相关/命名规范.md",
     "IT/项目部署/idea部署",
     "IT/项目部署",
-    "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
     "obsidian相关",
     "模具实际加工工艺/未命名.canvas",
     "IT/项目部署/GIT实现云同步/GIT(设置流程).md",
     "语言学习/日语",
     "语言学习/英语",
     "语言学习",
-    "IT/SpringCloud/Sentinel(降级熔断).md",
     "obsidian相关/代码块.md",
     "常用语法/VIM语法/linux常用语法.md",
     "模具UG设计/UG快捷键.md",
@@ -225,7 +241,6 @@
     "测试ssh链接.md",
     "常用语法/VIM语法",
     "Day Planners/Day Planner-20230314.md",
-    "机械",
     "常用语法/markdown语法及快捷键/Pasted image 20230221110311.png",
     "测试git.md",
     "Day Planners/Day Planner-20230324.md",
@@ -233,7 +248,6 @@
     "常用语法/markdown语法及快捷键/Pasted image 20230221110524.png",
     "常用语法/markdown语法及快捷键/Pasted image 20230221110441.png",
     "常用语法/markdown语法及快捷键/Pasted image 20230221110419.png",
-    "Day Planners/Day Planner-20230321.md",
     "未命名.canvas",
     "08826678.png"
   ]
