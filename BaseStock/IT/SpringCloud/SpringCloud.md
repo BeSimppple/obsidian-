@@ -132,7 +132,7 @@ SpringCloud常用注解(不包含springboot和spring):
 
 springboot单体架构:
 
-(C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\fb6899eee3dd460fa4d194768b5cc4d2\e958edfe2fad4c68bff7db56e1d020ec.jpg)
+![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\fb6899eee3dd460fa4d194768b5cc4d2\e958edfe2fad4c68bff7db56e1d020ec.jpg)
 
 优点：
 
