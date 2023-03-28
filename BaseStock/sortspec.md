@@ -2,9 +2,10 @@
 ---
 sorting-spec: |
   target-folder: /*
-  /floders
+  /folders
+   < a-z
   /files
-  < a-z
+   < a-z
   target-folder: /IT/Spring/*
   Spring
   AOP
@@ -14,9 +15,10 @@ sorting-spec: |
   Sentinel(降级熔断)
 ---
 
-/floders表示文件夹
+/folders表示文件夹
 /files表示文件
-
+< modifed 表示按照修改日期正序排序
+< createred 按照创建时间正序排序
 
 [排序插件使用详情](https://github.com/SebastianMC/obsidian-custom-sort/blob/master/advanced-README.md#location-of-sorting-specification-yaml-entry)
 [实际使用效果](https://zhuanlan.zhihu.com/p/586842280?utm_id=0)
