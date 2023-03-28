@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "9ec262f05cbde2a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "网络工程/网络通信/网络通信.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "26035e93535de0c8",
             "type": "leaf",
             "state": {
@@ -43,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/项目部署/GIT实现云同步/git云仓库.md",
+                "file": "网络工程/网络通信/网络通信.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/项目部署/GIT实现云同步/git云仓库.md",
+                "file": "网络工程/网络通信/网络通信.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/项目部署/GIT实现云同步/git云仓库.md"
+                "file": "网络工程/网络通信/网络通信.md"
               }
             }
           },
@@ -190,32 +203,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ff9eb115e8939273",
+  "active": "9ec262f05cbde2a0",
   "lastOpenFiles": [
-    "IT/SpringCloud/Sentinel(降级熔断).md",
+    "IT/项目部署/GIT实现云同步/git云仓库.md",
+    "网络工程/网络通信/网络通信.md",
+    "网络工程/网络通信",
+    "IT/项目部署/GIT实现云同步/GIT(设置流程).md",
+    "obsidian相关/命名规范和设置.md",
+    "obsidian相关/代码块.md",
     "常用语法/markdown语法及快捷键/基础语法.md",
-    "计算机底层原理.md",
+    "常用语法/markdown语法及快捷键/快捷键.md",
     "IT/常用概念.md",
+    "obsidian相关/Picture/Pasted image 20230328093739.png",
+    "obsidian相关/Picture/机械图片组/G0.1.2.3曲面.png",
+    "obsidian相关/Picture/3B456DF069524013B3FA55B88DC3FD8F/CE521491CC094D9C9017982F0601C97E.jpg",
+    "obsidian相关/Picture/F1A74A168BC344A2A4B13A14E5220534/8fbc68cd3546461aafd7b3ce9c85fc71.jpg",
+    "obsidian相关/Picture/F1A74A168BC344A2A4B13A14E5220534",
+    "obsidian相关/Picture/EFC787AF5E6140FAB833082310BFC49C/8D27C5801441471696372F39EA1BCBE5.jpg",
+    "obsidian相关/Picture/EFC787AF5E6140FAB833082310BFC49C",
+    "obsidian相关/Picture/EE90790BE28C43E0AA5A135375927507/23205441529.jpeg",
+    "obsidian相关/Picture/EE90790BE28C43E0AA5A135375927507",
+    "obsidian相关/Picture/EE4CFC379E0F42659037589CC418894B/AE24748D55DC49CFAF5AD058407F77D6.jpg",
+    "obsidian相关/Picture/EE4CFC379E0F42659037589CC418894B",
+    "obsidian相关/Picture/EBEF79ABCF8C44599F26CFEB77387533/CE70B64400534945BA1219250F594376.jpg",
+    "obsidian相关/Picture/EBEF79ABCF8C44599F26CFEB77387533",
+    "obsidian相关/Picture/EB566D00F7704DCCA1CCDDA5F6E87919/26D9E73F3B8444A5BB1CBD9AAD602355.jpg",
+    "obsidian相关/Picture/EB566D00F7704DCCA1CCDDA5F6E87919",
+    "obsidian相关/Picture/EA071A02B992409BAB5E3886707CF1FF/92677FB275D44114989DD532564CB496.jpg",
+    "obsidian相关/Picture/EA071A02B992409BAB5E3886707CF1FF",
+    "obsidian相关/Picture/EA9BB20FE252480DAA964D5D7C670797",
+    "obsidian相关/Picture/E91C635696FF4E22991F56428846A30B",
+    "IT/SpringCloud/Sentinel(降级熔断).md",
+    "计算机底层原理.md",
     "网络工程/软路由.md",
-    "网络工程/计算机底层原理",
     "IT/项目部署/环境部署.md",
     "IT/项目部署/所需软件.md",
     "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
     "obsidian相关/Picture/未命名.md",
-    "obsidian相关/Picture/IT知识类",
-    "obsidian相关/Picture/IT知识类/JDK和JRE.png",
-    "常用语法/markdown语法及快捷键/快捷键.md",
-    "IT/项目部署/GIT实现云同步/git云仓库.md",
-    "obsidian相关/命名规范.md",
-    "IT/项目部署/idea部署",
-    "IT/项目部署",
-    "obsidian相关",
     "模具实际加工工艺/未命名.canvas",
-    "IT/项目部署/GIT实现云同步/GIT(设置流程).md",
-    "语言学习/日语",
-    "语言学习/英语",
-    "语言学习",
-    "obsidian相关/代码块.md",
     "常用语法/VIM语法/linux常用语法.md",
     "模具UG设计/UG快捷键.md",
     "模具UG设计/UG逆向工程.md",
@@ -223,19 +248,10 @@
     "模具UG设计/流程.md",
     "模具UG设计/常用命令.md",
     "模具实际加工工艺/模具实际加工流程.md",
-    "obsidian相关/Picture/机械图片组/G0.1.2.3曲面.png",
-    "IT/SpringCloud",
     "测试ssh链接.md",
-    "常用语法/VIM语法",
     "Day Planners/Day Planner-20230314.md",
-    "常用语法/markdown语法及快捷键/Pasted image 20230221110311.png",
     "测试git.md",
     "Day Planners/Day Planner-20230324.md",
-    "obsidian--/README.md",
-    "常用语法/markdown语法及快捷键/Pasted image 20230221110524.png",
-    "常用语法/markdown语法及快捷键/Pasted image 20230221110441.png",
-    "常用语法/markdown语法及快捷键/Pasted image 20230221110419.png",
-    "未命名.canvas",
-    "08826678.png"
+    "未命名.canvas"
   ]
 }

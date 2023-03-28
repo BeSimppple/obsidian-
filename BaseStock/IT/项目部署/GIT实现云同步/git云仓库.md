@@ -32,12 +32,9 @@ git clone 远程仓库地址 (克隆远程仓库到本地)
 可以直接在 c/user/用户名/.gitconfig中修改
 
 git rm 文件名 (本地仓库删除文件)
-
 git status -s (查看文件状态)
 
 ![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\2d968a97d28b44d6ac31437126460fee\bf931032f1134cb8baff7b67fe7eb3c5.jpg)
-
-\
 
 idea集成GIT
 
