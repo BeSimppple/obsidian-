@@ -8,42 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ff9eb115e8939273",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/项目部署/GIT实现云同步/git云仓库.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9ec262f05cbde2a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "网络工程/网络通信/网络通信.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "26035e93535de0c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/常用概念.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f8b0e50c3faacd78",
             "type": "leaf",
             "state": {
@@ -54,9 +18,57 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5ae38ec400176a47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "网络工程/计算机硬件系统/CISC和RISC指令集.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "160f9cca3be4b0b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "db0268a4172306c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/spring/spring.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d196a91da322efec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "常用语法/正则表达式/正则表达式.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网络工程/网络通信/网络通信.md",
+                "file": "常用语法/正则表达式/正则表达式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网络工程/网络通信/网络通信.md",
+                "file": "常用语法/正则表达式/正则表达式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网络工程/网络通信/网络通信.md"
+                "file": "常用语法/正则表达式/正则表达式.md"
               }
             }
           },
@@ -203,17 +215,27 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9ec262f05cbde2a0",
+  "active": "d196a91da322efec",
   "lastOpenFiles": [
+    "IT/spring/spring.md",
+    "常用语法/正则表达式/正则表达式.md",
+    "常用语法/正则表达式",
+    "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
+    "IT/spring",
+    "网络工程/计算机硬件系统/CISC和RISC指令集.md",
+    "网络工程/网络通信/cookie与session.md",
+    "常用语法/markdown语法及快捷键/基础语法.md",
     "IT/项目部署/GIT实现云同步/git云仓库.md",
+    "网络工程/网络通信/软路由.md",
+    "IT/常用概念.md",
     "网络工程/网络通信/网络通信.md",
+    "IT/SpringCloud/Sentinel(降级熔断).md",
+    "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
     "网络工程/网络通信",
     "IT/项目部署/GIT实现云同步/GIT(设置流程).md",
     "obsidian相关/命名规范和设置.md",
     "obsidian相关/代码块.md",
-    "常用语法/markdown语法及快捷键/基础语法.md",
     "常用语法/markdown语法及快捷键/快捷键.md",
-    "IT/常用概念.md",
     "obsidian相关/Picture/Pasted image 20230328093739.png",
     "obsidian相关/Picture/机械图片组/G0.1.2.3曲面.png",
     "obsidian相关/Picture/3B456DF069524013B3FA55B88DC3FD8F/CE521491CC094D9C9017982F0601C97E.jpg",
@@ -231,14 +253,8 @@
     "obsidian相关/Picture/EB566D00F7704DCCA1CCDDA5F6E87919",
     "obsidian相关/Picture/EA071A02B992409BAB5E3886707CF1FF/92677FB275D44114989DD532564CB496.jpg",
     "obsidian相关/Picture/EA071A02B992409BAB5E3886707CF1FF",
-    "obsidian相关/Picture/EA9BB20FE252480DAA964D5D7C670797",
-    "obsidian相关/Picture/E91C635696FF4E22991F56428846A30B",
-    "IT/SpringCloud/Sentinel(降级熔断).md",
-    "计算机底层原理.md",
-    "网络工程/软路由.md",
     "IT/项目部署/环境部署.md",
     "IT/项目部署/所需软件.md",
-    "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
     "obsidian相关/Picture/未命名.md",
     "模具实际加工工艺/未命名.canvas",
     "常用语法/VIM语法/linux常用语法.md",
@@ -248,10 +264,6 @@
     "模具UG设计/流程.md",
     "模具UG设计/常用命令.md",
     "模具实际加工工艺/模具实际加工流程.md",
-    "测试ssh链接.md",
-    "Day Planners/Day Planner-20230314.md",
-    "测试git.md",
-    "Day Planners/Day Planner-20230324.md",
     "未命名.canvas"
   ]
 }
