@@ -54,7 +54,7 @@ springcloud小结
 
 14.Util项目作为自建工具类项目供其他包调用
 
-util包作为工具包经常作为<dependency>依赖被导入其他项目中,然后主项目不写任何工程主项目的pom包作为一个主依赖将通用依赖包一般放到主项目作为父类继承给子项目
+util包作为工具包经常作为<dependency^>依赖被导入其他项目中,然后主项目不写任何工程主项目的pom包作为一个主依赖将通用依赖包一般放到主项目作为父类继承给子项目
 
 然后依赖包的版本控制也是放在主项目的pom依赖中
 
@@ -80,7 +80,7 @@ springcloud是许多分布式框架与工具的集合体
 
 1.创建一个maven项目(不添加任何)作为父工程,不写任何代码,作用是锁定版本和通用依赖(锁定springboot和springcloud和springcloud-alibaba的版本)或加入通用依赖
 
-<dependencyManagement>标签
+<dependencyManagement^>标签
 
 2.new modele(在父工程下new一个子工程)
 
