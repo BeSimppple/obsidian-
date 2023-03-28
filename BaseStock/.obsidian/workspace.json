@@ -8,103 +8,115 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3d37cee8e31dd859",
+            "id": "75584071bba010b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件类使用/Linux/Linux.md",
+                "file": "IT/前端(VScode,VUE,nodejs)/CSS.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a0725f185f5e4b6e",
+            "id": "0140aeeb8af3a102",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件类使用/Editplus.md",
+                "file": "IT/Spring/Servlet(服务器端小型通信).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ff9821556ec698b7",
+            "id": "37fda255c868d529",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian相关/命名规范和设置.md",
+                "file": "IT/MySQL/数据库优化(1).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "14ffca2648aa3d7c",
+            "id": "6b075a5f042fdbdb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件类使用/Python/Python.md",
+                "file": "IT/前端(VScode,VUE,nodejs)/HTML概念.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9413f6f7d0d8d0e1",
+            "id": "2f873eb0903465fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/基础知识点/反射.md",
+                "file": "IT/设计模式/代理模式.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "24e76dc915e95845",
+            "id": "cfe4f7c5663e266c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/基础知识点/常用注解.md",
+                "file": "IT/基础知识点/关系运算符及循环跳转语句及递归.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "80eca1d9e0c8bef6",
+            "id": "466db166b4e87f6b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用语法和算法/VIM语法/linux常用语法.md",
+                "file": "网络工程/网络通信/WEB及HTTP.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8150589fb7e0b1b2",
+            "id": "56a8e84820e6358d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用语法和算法/SQL语法.md",
+                "file": "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "96f83a728c66a871",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sortspec.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -170,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法和算法/SQL语法.md",
+                "file": "sortspec.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法和算法/SQL语法.md",
+                "file": "sortspec.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法和算法/SQL语法.md"
+                "file": "sortspec.md"
               }
             }
           },
@@ -252,10 +264,27 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "8150589fb7e0b1b2",
+  "active": "96f83a728c66a871",
   "lastOpenFiles": [
-    "软件类使用/Mysql/未命名.md",
+    "软件类使用/idea/常用快捷键.md",
+    "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",
+    "软件类使用/idea",
+    "网络工程/网络通信/WEB及HTTP.md",
+    "IT/基础知识点/关系运算符及循环跳转语句及递归.md",
+    "IT/设计模式/代理模式.md",
+    "IT/前端(VScode,VUE,nodejs)/HTML概念.md",
+    "IT/MySQL/数据库优化(1).md",
+    "IT/MySQL/数据库优化(2).md",
+    "IT/MySQL/数据库概念.md",
+    "IT/Spring/Servlet(服务器端小型通信).md",
+    "IT/前端(VScode,VUE,nodejs)/CSS.md",
+    "IT/基础知识点/JVM.md",
+    "IT/前端(VScode,VUE,nodejs)",
+    "网络工程/网络通信/TCP协议三次握手四次挥手.md",
     "常用语法和算法/SQL语法.md",
+    "IT/MySQL",
+    "常用语法和算法/正则表达式.md",
+    "软件类使用/Mysql/未命名.md",
     "常用语法和算法/VIM语法/linux常用语法.md",
     "IT/设计模式/单例设计模式.md",
     "IT/基础知识点/常用注解.md",
@@ -276,30 +305,13 @@
     "obsidian相关/Picture/Linux_image_3.jpg",
     "obsidian相关/Picture/Linux_image_2.jpg",
     "obsidian相关/Picture/Linux_image_1.jpg",
-    "常用语法和算法/常用格式(ymal,xml,property)/常用格式.md",
-    "常用语法和算法/常用格式(ymal,xml,property)/XML.md",
     "常用语法和算法/常用格式(ymal,xml,property)",
-    "软件类使用/Mysql/Mysql快捷键.md",
-    "常用语法和算法/常用算法/常用算法.md",
     "软件类使用/Mysql",
-    "软件类使用/Nginx(反向代理服务器).md",
     "常用语法和算法/常用算法",
     "obsidian相关/Picture/Nginx(反向代理服务器)_image_2.jpg",
     "obsidian相关/Picture/Nginx(反向代理服务器)_image_1.jpg",
-    "IT/Spring/JDBC(数据库连接).md",
     "软件类使用/Linux",
-    "软件类使用/Linux",
-    "软件类使用",
-    "IT/基础知识点",
-    "IT/Spring/SpringMVC(视图-模型-控制器设计模式).md",
-    "IT/Spring/IOC(控制反转给容器).md",
     "obsidian相关/Picture/IOC_image_1.jpg",
-    "IT/Spring/Mybatis(持久层框架).md",
-    "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
-    "IT/SpringBoot/Ribbon和Openfeign.md",
-    "IT/SpringBoot/SpringBoot.md",
-    "IT/SpringCloud/Seata(分布式事务).md",
-    "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
     "模具实际加工工艺/未命名.canvas",
     "未命名.canvas"
   ]
