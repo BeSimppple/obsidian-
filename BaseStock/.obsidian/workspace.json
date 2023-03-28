@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络工程/计算机硬件系统/CISC和RISC指令集.md",
+                "file": "sortspec.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网络工程/计算机硬件系统/CISC和RISC指令集.md",
+                "file": "sortspec.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网络工程/计算机硬件系统/CISC和RISC指令集.md",
+                "file": "sortspec.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网络工程/计算机硬件系统/CISC和RISC指令集.md"
+                "file": "sortspec.md"
               }
             }
           },
@@ -167,12 +167,15 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "33433da276eff7ce",
+  "active": "2f3653ef60aee64c",
   "lastOpenFiles": [
+    "obsidian相关/命名规范和设置.md",
+    "obsidian相关/代码块.md",
+    "sortspec.md",
+    "网络工程/计算机硬件系统/CISC和RISC指令集.md",
     "网络工程/网络通信/cookie与session.md",
     "网络工程/网络通信/网络通信.md",
     "网络工程/网络通信/软路由.md",
-    "sortspec.md",
     "未命名.md",
     "2023-03-28.md",
     "常用语法/markdown语法及快捷键/快捷键.md",
@@ -185,8 +188,6 @@
     "IT/SpringCloud/未命名.md",
     "obsidian相关/Picture/76E6810CF2544D28A84B376C7CBDC3EE.jpg",
     "obsidian相关/Picture/E958EDFE2FAD4C68BFF7DB56E1D020EC 2.jpg",
-    "obsidian相关/代码块.md",
-    "obsidian相关/命名规范和设置.md",
     "IT/常用概念.md",
     "常用语法/正则表达式/正则表达式.md",
     "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
@@ -206,7 +207,6 @@
     "IT/项目部署/GIT实现云同步/git云仓库.md",
     "IT/SpringCloud/e835b6006a194ef7963fd86f22e9df87.jpg.md",
     "IT/项目部署/GIT实现云同步/GIT(设置流程).md",
-    "网络工程/计算机硬件系统/CISC和RISC指令集.md",
     "常用语法/正则表达式",
     "IT/spring",
     "网络工程/网络通信",
