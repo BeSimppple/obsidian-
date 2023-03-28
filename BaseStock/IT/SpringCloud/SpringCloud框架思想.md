@@ -132,8 +132,8 @@ SpringCloud常用注解(不包含springboot和spring):
 
 springboot单体架构:
 
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\fb6899eee3dd460fa4d194768b5cc4d2\e958edfe2fad4c68bff7db56e1d020ec.jpg)
 
+![[E958EDFE2FAD4C68BFF7DB56E1D020EC 2.jpg]]
 优点：
 
 1：部署简单: 由于是完整的结构体，可以直接部署在一个服务器上即可。
@@ -192,4 +192,4 @@ SpringCloud为微服务提供了完美的问题解决方案和框架
 
 3、运维复杂度陡增，如：部署物数量多、监控进程多导致整体运维复杂度提升。
 
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\4ae2c806456649188c5a9123e5e1018f\76e6810cf2544d28a84b376c7cbdc3ee.jpg)
+![[76E6810CF2544D28A84B376C7CBDC3EE.jpg]]

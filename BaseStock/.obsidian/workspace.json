@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "59ca5ead954e01c7",
+        "id": "98e972af23c4b985",
         "type": "tabs",
         "children": [
           {
-            "id": "a43cb58a1dfbfd1e",
+            "id": "166fd5387f119d58",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/SpringCloud/SpringCloud框架思想.md",
+                "file": "sortspec.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/SpringCloud/SpringCloud框架思想.md",
+                "file": "sortspec.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/SpringCloud/SpringCloud框架思想.md",
+                "file": "sortspec.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/SpringCloud/SpringCloud框架思想.md"
+                "file": "sortspec.md"
               }
             }
           },
@@ -145,8 +145,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -163,14 +162,23 @@
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "a43cb58a1dfbfd1e",
+  "active": "2f3653ef60aee64c",
   "lastOpenFiles": [
+    "obsidian相关/Picture/sortspec_image_1.jpg",
+    "sortspec.md",
+    "IT/SpringCloud/SpringCloud框架思想.md",
+    "IT/SpringCloud/未命名.md",
+    "obsidian相关/Picture/76E6810CF2544D28A84B376C7CBDC3EE.jpg",
+    "obsidian相关/Picture/E958EDFE2FAD4C68BFF7DB56E1D020EC 2.jpg",
+    "obsidian相关/代码块.md",
+    "obsidian相关/命名规范和设置.md",
+    "IT/常用概念.md",
     "常用语法/markdown语法及快捷键/基础语法.md",
     "常用语法/正则表达式/正则表达式.md",
-    "IT/SpringCloud/SpringCloud框架思想.md",
     "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
     "IT/SpringCloud/Sentinel(降级熔断).md",
     "常用语法/markdown语法及快捷键/快捷键.md",
@@ -183,13 +191,8 @@
     "常用语法/markdown语法及快捷键/Pasted image 20230221110524.png",
     "常用语法/markdown语法及快捷键/Pasted image 20230221110515.png",
     "常用语法/markdown语法及快捷键/Pasted image 20230221110441.png",
-    "常用语法/markdown语法及快捷键/Pasted image 20230221110419.png",
-    "obsidian相关/Picture/Pasted image 20230328100233.jpg",
-    "obsidian相关/代码块.md",
     "IT/项目部署/环境部署.md",
     "IT/项目部署/所需软件.md",
-    "obsidian相关/命名规范和设置.md",
-    "IT/常用概念.md",
     "IT/spring/AOP.md",
     "IT/spring/spring.md",
     "IT/项目部署/GIT实现云同步/git云仓库.md",
@@ -212,9 +215,6 @@
     "obsidian相关/Picture/EA071A02B992409BAB5E3886707CF1FF",
     "obsidian相关/Picture/未命名.md",
     "模具实际加工工艺/未命名.canvas",
-    "常用语法/VIM语法/linux常用语法.md",
-    "模具UG设计/UG快捷键.md",
-    "模具UG设计/UG逆向工程.md",
     "未命名.canvas"
   ]
 }
