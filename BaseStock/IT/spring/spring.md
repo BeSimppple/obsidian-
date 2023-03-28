@@ -13,7 +13,7 @@ Spring是分层的 Java SE/EE应用轻量级开源框架，以 IoC（Inverse Of 
 
 依赖关系:
 
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\de32086d8507415ab39b11e4f567dd47\15fb117bfc0b4f30a4f2e169e57de47d.jpg)
+![[Spring_image_2.jpg]]
 
 Bean是什么?
 

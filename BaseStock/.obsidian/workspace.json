@@ -8,18 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7219ff6f78aa313c",
+            "id": "7646b10c02e600c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/Spring/Spring.md",
+                "file": "IT/SpringCloud/Docker和Jekins.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "911dfcdf82649920",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/SpringCloud/ElasticSearch.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "C:\\Users\\",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/Spring/Spring.md",
+                "file": "IT/SpringCloud/ElasticSearch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/Spring/Spring.md",
+                "file": "IT/SpringCloud/ElasticSearch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/Spring/Spring.md"
+                "file": "IT/SpringCloud/ElasticSearch.md"
               }
             }
           },
@@ -167,32 +181,37 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "7219ff6f78aa313c",
+  "active": "911dfcdf82649920",
   "lastOpenFiles": [
-    "obsidian相关/Picture/C5638594C267495BA9B7C9311CC7C903.jpg",
+    "obsidian相关/Picture/ElasticSearch_image_2.jpg",
+    "obsidian相关/Picture/ElasticSearch_image_1.jpg",
     "IT/SpringCloud/RocketMQ.md",
-    "obsidian相关/Picture/RocketMQ_image_6.jpg",
-    "obsidian相关/Picture/RocketMQ_image_5.jpg",
-    "obsidian相关/Picture/RocketMQ_image_4.jpg",
-    "obsidian相关/Picture/RocketMQ_image_3.jpg",
-    "obsidian相关/Picture/RocketMQ_image_2.jpg",
-    "obsidian相关/Picture/RocketMQ_image_1.jpg",
+    "obsidian相关/Picture/RocketMQ_image_8.jpg",
+    "obsidian相关/Picture/RocketMQ_image_7.jpg",
+    "IT/SpringCloud/ElasticSearch.md",
+    "IT/SpringCloud/Docker和Jekins.md",
+    "obsidian相关/Picture/Docker和Jekins_image_13.jpg",
+    "obsidian相关/Picture/Docker和Jekins_image_12.jpg",
+    "obsidian相关/Picture/Docker和Jekins_image_11.jpg",
+    "obsidian相关/Picture/Docker和Jekins_image_10.jpg",
+    "obsidian相关/Picture/Docker和Jekins_image_9.jpg",
+    "obsidian相关/Picture/Docker和Jekins_image_8.jpg",
+    "obsidian相关/Picture/Docker和Jekins_image_7.jpg",
+    "IT/SpringCloud/SpringCloud框架思想.md",
+    "IT/Spring/未命名.md",
+    "IT/Spring/SpringMVC.md",
+    "IT/Spring/AOP.md",
+    "IT/Spring/Spring.md",
     "IT/SpringCloud/Sentinel(降级熔断).md",
     "IT/SpringCloud/Gateway.md",
-    "obsidian相关/Picture/Gateway_image_5.jpg",
-    "obsidian相关/Picture/Gateway_image_4.jpg",
-    "obsidian相关/Picture/Gateway_image_3.jpg",
-    "obsidian相关/Picture/Gateway_image_2.jpg",
     "IT/SpringCloud/Sleuth+Zipkin(链路监控).md",
     "IT/SpringCloud/SpringSecurity(安全与权限).md",
     "IT/SpringBoot/SpringBoot.md",
     "IT/SpringBoot",
-    "IT/SpringCloud/SpringCloud框架思想.md",
     "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
     "sortspec.md",
     "常用语法/常用格式.md",
     "常用语法/VIM语法/linux常用语法.md",
-    "IT/Spring/Spring.md",
     "obsidian相关/命名规范和设置.md",
     "obsidian相关/代码块.md",
     "网络工程/计算机硬件系统/CISC和RISC指令集.md",
@@ -201,13 +220,8 @@
     "网络工程/网络通信/软路由.md",
     "未命名.md",
     "2023-03-28.md",
-    "常用语法/markdown语法及快捷键/快捷键.md",
-    "常用语法/markdown语法及快捷键/基础语法.md",
     "常用语法/常用格式",
     "常用语法/yaml语法",
-    "IT/常用概念.md",
-    "常用语法/正则表达式/正则表达式.md",
-    "常用语法/markdown语法及快捷键/markdown笔记操作方式.md",
     "常用语法/正则表达式",
     "IT/Spring",
     "网络工程/网络通信",

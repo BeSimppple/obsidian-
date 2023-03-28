@@ -367,8 +367,7 @@ ConsumeConcurrentlyStatus consumeMessage(List<MessageExt> msgs, ConsumeConcurren
 同步发送就是0丢失,异步发送则可以设置失败多次重试,如果还是失败可以回调函数补偿或进入死信队列后查看问题
 
 消息队列(queue)中如何全局有序?
-
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\68f651c1e8f84329b21d836ebcf82087\02a59c11b0ea4dd1885959dc8cdbdf58.jpg)
+![[RocketMQ_image_7.jpg]]
 
 全局有序消息不适合广播模式,只适合集群模式
 
@@ -411,8 +410,7 @@ MQ的重试机制可能会引发重复消费怎么解决?
 以集群方式消费。假设一条消息发往ConsumerGroup，由A消费，但是由于A消费过慢导致超时，如果Broker将消息发送给B去消费，这样就产生了重复消费问题。因此，使用MQ时应该对一些关键消息进行幂等去重的处理(例如为单个消息设置唯一索引(UUID雪落id等)或先查询后插入或redis介入)。
 
 延时消息(rocketMQ放入temp-queue)
-
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\f853c85f42394fe6923a048ea3db15cd\6cc1c0f07fe7495d826d12464ce09f58.jpg)
+![[RocketMQ_image_8.jpg]]
 
 例如:解决订单长时间未支付
 
