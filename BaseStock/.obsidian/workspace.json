@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "98e972af23c4b985",
+        "id": "fbf029c90221b8b9",
         "type": "tabs",
         "children": [
           {
-            "id": "166fd5387f119d58",
+            "id": "cc435c013440dbb7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -166,11 +166,16 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "166fd5387f119d58",
+  "active": "cc435c013440dbb7",
   "lastOpenFiles": [
+    "常用语法/markdown语法及快捷键/快捷键.md",
+    "常用语法/常用格式.md",
+    "常用语法/markdown语法及快捷键/基础语法.md",
+    "sortspec.md",
+    "网络工程/网络通信/网络通信.md",
+    "常用语法/常用格式",
     "常用语法/yaml语法",
     "网络工程/网络通信/软路由.md",
-    "sortspec.md",
     "obsidian相关/Picture/sortspec_image_1.jpg",
     "IT/SpringCloud/SpringCloud框架思想.md",
     "IT/SpringCloud/未命名.md",
@@ -179,11 +184,9 @@
     "obsidian相关/代码块.md",
     "obsidian相关/命名规范和设置.md",
     "IT/常用概念.md",
-    "常用语法/markdown语法及快捷键/基础语法.md",
     "常用语法/正则表达式/正则表达式.md",
     "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
     "IT/SpringCloud/Sentinel(降级熔断).md",
-    "常用语法/markdown语法及快捷键/快捷键.md",
     "常用语法/markdown语法及快捷键/markdown笔记操作方式.md",
     "常用语法/markdown语法及快捷键/Pasted image 20230221110311.png",
     "常用语法/markdown语法及快捷键/Pasted image 20230221110629.png",
@@ -200,7 +203,6 @@
     "IT/SpringCloud/e835b6006a194ef7963fd86f22e9df87.jpg.md",
     "IT/项目部署/GIT实现云同步/GIT(设置流程).md",
     "网络工程/网络通信/cookie与session.md",
-    "网络工程/网络通信/网络通信.md",
     "网络工程/计算机硬件系统/CISC和RISC指令集.md",
     "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
     "常用语法/正则表达式",
@@ -211,8 +213,6 @@
     "obsidian相关/Picture/EE90790BE28C43E0AA5A135375927507",
     "obsidian相关/Picture/EE4CFC379E0F42659037589CC418894B",
     "obsidian相关/Picture/EBEF79ABCF8C44599F26CFEB77387533",
-    "obsidian相关/Picture/EB566D00F7704DCCA1CCDDA5F6E87919",
-    "obsidian相关/Picture/EA071A02B992409BAB5E3886707CF1FF",
     "obsidian相关/Picture/未命名.md",
     "模具实际加工工艺/未命名.canvas",
     "未命名.canvas"

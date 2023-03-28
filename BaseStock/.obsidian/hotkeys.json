@@ -16,14 +16,7 @@
       "key": "2"
     }
   ],
-  "editor:toggle-blockquote": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "3"
-    }
-  ],
+  "editor:toggle-blockquote": [],
   "workspace:goto-tab-1": [],
   "workspace:goto-tab-2": [],
   "workspace:goto-tab-3": [],
@@ -40,5 +33,34 @@
       "key": "F1"
     }
   ],
-  "app:open-help": []
+  "app:open-help": [],
+  "editor:toggle-bullet-list": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "3"
+    }
+  ],
+  "editor:insert-link": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "4"
+    }
+  ],
+  "editor:insert-wikilink": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "5"
+    }
+  ],
+  "workspace:goto-tab-4": [],
+  "workspace:goto-tab-5": [],
+  "workspace:goto-tab-6": [],
+  "workspace:goto-tab-7": [],
+  "workspace:goto-tab-8": []
 }
