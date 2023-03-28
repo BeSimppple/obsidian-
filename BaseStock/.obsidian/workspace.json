@@ -4,71 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "6319b67fa18b3ff4",
+        "id": "a6311f2cead08a6b",
         "type": "tabs",
         "children": [
           {
-            "id": "f8b0e50c3faacd78",
+            "id": "0d16df76bf713522",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用语法/markdown语法及快捷键/基础语法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5ae38ec400176a47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "网络工程/计算机硬件系统/CISC和RISC指令集.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "160f9cca3be4b0b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "db0268a4172306c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/spring/spring.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d196a91da322efec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "常用语法/正则表达式/正则表达式.md",
+                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法/正则表达式/正则表达式.md",
+                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法/正则表达式/正则表达式.md",
+                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法/正则表达式/正则表达式.md"
+                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md"
               }
             }
           },
@@ -215,46 +166,48 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d196a91da322efec",
+  "active": "0d16df76bf713522",
   "lastOpenFiles": [
+    "obsidian相关/Picture/640038328D6146E795CA8C00A0D1C222.jpg",
+    "obsidian相关/Picture/1CBDC52EE6BE4D10AD52CDE70B96787F.jpg",
+    "obsidian相关/Picture/22CD0D814AB440E1A906DF33925AF331.jpg",
+    "obsidian相关/Picture/CF35B1F3396D41178B211747034B8649.jpg",
+    "obsidian相关/Picture/00C95859CC88464A8701D55412435F46.jpg",
     "IT/spring/spring.md",
+    "IT/spring/AOP.md",
+    "IT/项目部署/所需软件.md",
+    "IT/项目部署/环境部署.md",
+    "IT/项目部署/GIT实现云同步/git云仓库.md",
+    "obsidian相关/Picture/5F626B4E601B4740BB7DBB2E02E835EB.jpg",
+    "obsidian相关/Picture/BF931032F1134CB8BAFF7B67FE7EB3C5.jpg",
+    "obsidian相关/Picture/3DE0CB7A7FB646178830813B89CDE459.jpg",
+    "IT/项目部署/GIT实现云同步/GIT(设置流程).md",
+    "网络工程/网络通信/cookie与session.md",
+    "网络工程/网络通信/网络通信.md",
+    "obsidian相关/Picture/4C0376A6664B418B84804DF356631812.jpg",
+    "obsidian相关/Picture/606F05DB24F643039B79601966A6C0FA.jpg",
+    "网络工程/网络通信/软路由.md",
+    "网络工程/计算机硬件系统/CISC和RISC指令集.md",
+    "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
+    "obsidian相关/Picture/FFA526D7EBFF49A2A0EFE0C34C4BCD1A.jpg",
+    "常用语法/markdown语法及快捷键/基础语法.md",
+    "常用语法/markdown语法及快捷键/快捷键.md",
     "常用语法/正则表达式/正则表达式.md",
     "常用语法/正则表达式",
-    "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
     "IT/spring",
-    "网络工程/计算机硬件系统/CISC和RISC指令集.md",
-    "网络工程/网络通信/cookie与session.md",
-    "常用语法/markdown语法及快捷键/基础语法.md",
-    "IT/项目部署/GIT实现云同步/git云仓库.md",
-    "网络工程/网络通信/软路由.md",
     "IT/常用概念.md",
-    "网络工程/网络通信/网络通信.md",
     "IT/SpringCloud/Sentinel(降级熔断).md",
     "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
     "网络工程/网络通信",
-    "IT/项目部署/GIT实现云同步/GIT(设置流程).md",
     "obsidian相关/命名规范和设置.md",
     "obsidian相关/代码块.md",
-    "常用语法/markdown语法及快捷键/快捷键.md",
-    "obsidian相关/Picture/Pasted image 20230328093739.png",
-    "obsidian相关/Picture/机械图片组/G0.1.2.3曲面.png",
-    "obsidian相关/Picture/3B456DF069524013B3FA55B88DC3FD8F/CE521491CC094D9C9017982F0601C97E.jpg",
-    "obsidian相关/Picture/F1A74A168BC344A2A4B13A14E5220534/8fbc68cd3546461aafd7b3ce9c85fc71.jpg",
     "obsidian相关/Picture/F1A74A168BC344A2A4B13A14E5220534",
-    "obsidian相关/Picture/EFC787AF5E6140FAB833082310BFC49C/8D27C5801441471696372F39EA1BCBE5.jpg",
     "obsidian相关/Picture/EFC787AF5E6140FAB833082310BFC49C",
-    "obsidian相关/Picture/EE90790BE28C43E0AA5A135375927507/23205441529.jpeg",
     "obsidian相关/Picture/EE90790BE28C43E0AA5A135375927507",
-    "obsidian相关/Picture/EE4CFC379E0F42659037589CC418894B/AE24748D55DC49CFAF5AD058407F77D6.jpg",
     "obsidian相关/Picture/EE4CFC379E0F42659037589CC418894B",
-    "obsidian相关/Picture/EBEF79ABCF8C44599F26CFEB77387533/CE70B64400534945BA1219250F594376.jpg",
     "obsidian相关/Picture/EBEF79ABCF8C44599F26CFEB77387533",
-    "obsidian相关/Picture/EB566D00F7704DCCA1CCDDA5F6E87919/26D9E73F3B8444A5BB1CBD9AAD602355.jpg",
     "obsidian相关/Picture/EB566D00F7704DCCA1CCDDA5F6E87919",
-    "obsidian相关/Picture/EA071A02B992409BAB5E3886707CF1FF/92677FB275D44114989DD532564CB496.jpg",
     "obsidian相关/Picture/EA071A02B992409BAB5E3886707CF1FF",
-    "IT/项目部署/环境部署.md",
-    "IT/项目部署/所需软件.md",
     "obsidian相关/Picture/未命名.md",
     "模具实际加工工艺/未命名.canvas",
     "常用语法/VIM语法/linux常用语法.md",
@@ -262,8 +215,6 @@
     "模具UG设计/UG逆向工程.md",
     "模具UG设计/问题集.md",
     "模具UG设计/流程.md",
-    "模具UG设计/常用命令.md",
-    "模具实际加工工艺/模具实际加工流程.md",
     "未命名.canvas"
   ]
 }

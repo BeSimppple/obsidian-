@@ -1,6 +1,6 @@
 (同类型eureka和zookepper)
 
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\7830da552a6d49b8bc504d85fcb3ae1a\00c95859cc88464a8701d55412435f46.jpg)
+![[00C95859CC88464A8701D55412435F46.jpg]]
 
 actuator的作用是监视服务的状态
 
@@ -74,7 +74,7 @@ spring.cloud.nacos.discovery.server-addr:XXX(naocso,ip配置)
 
 nacos实现高可用(集群)
 
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\5c5fdf463f86492293998e2679348449\cf35b1f3396d41178b211747034b8649.jpg)
+![[CF35B1F3396D41178B211747034B8649.jpg]]
 
 1.vip不是必须的,因为nacos主要也是运维在使用不会有太大访问量
 
@@ -120,7 +120,7 @@ NacosServerList.getServers
 
 nacos工作原理
 
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\6961ab34e9f74b5d81e35e6b4c22e51a\22cd0d814ab440e1a906df33925af331.jpg)
+![[22CD0D814AB440E1A906DF33925AF331.jpg]]
 
 服务心跳5s一次由服务客户端发送给nacos
 
@@ -148,7 +148,7 @@ nacos工作原理
 
 nacos底层架构
 
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\3c7b358d8d8b43579ffeb603bf14c2e8\1cbdc52ee6be4d10ad52cde70b96787f.jpg)
+![[1CBDC52EE6BE4D10AD52CDE70B96787F.jpg]]
 
 nacos常用功能：
 
@@ -162,7 +162,7 @@ nacos常用功能：
 
 Nacos集群架构
 
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\d43ec5d28d3d45a98f79c0cd8a3e763f\640038328d6146e795ca8c00a0d1c222.jpg)
+![[640038328D6146E795CA8C00A0D1C222.jpg]]
 
 真集群搭建:nacos实例搭建在不同的服务器里面
 

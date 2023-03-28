@@ -18,8 +18,7 @@ git branch -d 分支名 (删除分支)
 git merge 分支名 (合并分支)
 git fetch //把远程库的代码更新到本地库
 git stash //把未完成的修改缓存到栈容器中 git stash list //查看所有的缓存 git stash pop //恢复本地分支到缓存状态 git blame someFile //查看某个文件的每一行的修改记录（）谁在什么时候修改的） git status //查看当前分支有哪些修改 git log //查看当前分支上面的日志信息 git diff //查看当前没有add的内容 git diff --cache //查看已经add但是没有commit的内容 git diff HEAD //上面两个内容的合并 git reset --hard HEAD //撤销本地修改 echo $HOME //查看git config的HOME路径 export $HOME=/c/gitconfig //配置git config的HOME路径
-
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\aa4997be2e584abfba3579e4b5420f0c\3de0cb7a7fb646178830813b89cde459.jpg)
+![[3DE0CB7A7FB646178830813B89CDE459.jpg]]
 
 git add/reset 文件名 (将工作区文件加入/删除到暂存区)
 
@@ -34,7 +33,7 @@ git clone 远程仓库地址 (克隆远程仓库到本地)
 git rm 文件名 (本地仓库删除文件)
 git status -s (查看文件状态)
 
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\2d968a97d28b44d6ac31437126460fee\bf931032f1134cb8baff7b67fe7eb3c5.jpg)
+![[BF931032F1134CB8BAFF7B67FE7EB3C5.jpg]]
 
 idea集成GIT
 
@@ -122,7 +121,7 @@ git clone https://gitee.com/qiuzhiwei1989/MyGitRepository.git
 
 git提交到本地仓库顺序
 
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\05428b20abc24d5099c3afa1b29ab683\5f626b4e601b4740bb7dbb2e02e835eb.jpg)
+![[5F626B4E601B4740BB7DBB2E02E835EB.jpg]]
 
 必须先提交到暂存区,未在暂存区意味着不在版本控制状态内
 
