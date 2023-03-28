@@ -2,5 +2,6 @@
   "showUnsupportedFiles": true,
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "attachmentFolderPath": "obsidian相关/Picture"
+  "attachmentFolderPath": "obsidian相关/Picture",
+  "promptDelete": false
 }
