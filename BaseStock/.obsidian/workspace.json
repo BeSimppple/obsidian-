@@ -30,9 +30,81 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ff9821556ec698b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian相关/命名规范和设置.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "14ffca2648aa3d7c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "软件类使用/Python/Python.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9413f6f7d0d8d0e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/基础知识点/反射.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "24e76dc915e95845",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/基础知识点/常用注解.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "80eca1d9e0c8bef6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "常用语法和算法/VIM语法/linux常用语法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8150589fb7e0b1b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "常用语法和算法/SQL语法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -61,7 +133,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "C:\\Users\\",
+                "query": "tag:",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件类使用/Editplus.md",
+                "file": "常用语法和算法/SQL语法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件类使用/Editplus.md",
+                "file": "常用语法和算法/SQL语法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件类使用/Editplus.md"
+                "file": "常用语法和算法/SQL语法.md"
               }
             }
           },
@@ -180,10 +252,22 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "a0725f185f5e4b6e",
+  "active": "8150589fb7e0b1b2",
   "lastOpenFiles": [
-    "软件类使用/Linux/Linux.md",
+    "软件类使用/Mysql/未命名.md",
+    "常用语法和算法/SQL语法.md",
+    "常用语法和算法/VIM语法/linux常用语法.md",
+    "IT/设计模式/单例设计模式.md",
+    "IT/基础知识点/常用注解.md",
+    "IT/设计模式",
+    "IT/基础知识点/反射.md",
+    "软件类使用/Python/Python.md",
+    "obsidian相关/命名规范和设置.md",
+    "软件类使用/Python",
+    "IT/项目部署/所需软件.md",
+    "IT/易犯错误和注意事项.md",
     "软件类使用/Editplus.md",
+    "软件类使用/Linux/Linux.md",
     "软件类使用/EditPlus",
     "obsidian相关/Picture/Linux_image_7.jpg",
     "obsidian相关/Picture/Linux_image_6.jpg",
@@ -216,18 +300,6 @@
     "IT/SpringBoot/SpringBoot.md",
     "IT/SpringCloud/Seata(分布式事务).md",
     "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
-    "IT/SpringCloud/RocketMQ(异步同步).md",
-    "IT/SpringCloud/Docker和Jekins(去冲突和快速打包).md",
-    "IT/SpringCloud/SpringCloud框架思想.md",
-    "IT/Spring/AOP(基于面动态代理).md",
-    "IT/Spring/Spring.md",
-    "IT/SpringCloud/Sentinel(降级熔断).md",
-    "IT/SpringCloud/Gateway(网关).md",
-    "IT/SpringCloud/Sleuth+Zipkin(链路监控).md",
-    "IT/SpringCloud/SpringSecurity(安全与权限).md",
-    "IT/SpringBoot",
-    "sortspec.md",
-    "常用语法/常用格式",
     "模具实际加工工艺/未命名.canvas",
     "未命名.canvas"
   ]
