@@ -1,0 +1,3 @@
+editplus可以通过设置FTP服务器链接对应ip去修改linux服务器中的配置文件
+
+更加方便不用再linux中修改

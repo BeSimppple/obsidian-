@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9d7317c25bf24a14",
+            "id": "3d37cee8e31dd859",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用语法和算法/常用格式(ymal,xml,property)/常用格式.md",
+                "file": "软件类使用/Linux/Linux.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f8dabbaacd41a2e5",
+            "id": "a0725f185f5e4b6e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用语法和算法/常用格式(ymal,xml,property)/常用格式.md",
+                "file": "软件类使用/Editplus.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法和算法/常用格式(ymal,xml,property)/常用格式.md",
+                "file": "软件类使用/Editplus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法和算法/常用格式(ymal,xml,property)/常用格式.md",
+                "file": "软件类使用/Editplus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法和算法/常用格式(ymal,xml,property)/常用格式.md"
+                "file": "软件类使用/Editplus.md"
               }
             }
           },
@@ -180,10 +180,20 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "2f3653ef60aee64c",
+  "active": "a0725f185f5e4b6e",
   "lastOpenFiles": [
-    "常用语法和算法/常用格式(ymal,xml,property)/XML.md",
+    "软件类使用/Linux/Linux.md",
+    "软件类使用/Editplus.md",
+    "软件类使用/EditPlus",
+    "obsidian相关/Picture/Linux_image_7.jpg",
+    "obsidian相关/Picture/Linux_image_6.jpg",
+    "obsidian相关/Picture/Linux_image_5.jpg",
+    "obsidian相关/Picture/Linux_image_4.jpg",
+    "obsidian相关/Picture/Linux_image_3.jpg",
+    "obsidian相关/Picture/Linux_image_2.jpg",
+    "obsidian相关/Picture/Linux_image_1.jpg",
     "常用语法和算法/常用格式(ymal,xml,property)/常用格式.md",
+    "常用语法和算法/常用格式(ymal,xml,property)/XML.md",
     "常用语法和算法/常用格式(ymal,xml,property)",
     "软件类使用/Mysql/Mysql快捷键.md",
     "常用语法和算法/常用算法/常用算法.md",
@@ -201,17 +211,10 @@
     "IT/Spring/IOC(控制反转给容器).md",
     "obsidian相关/Picture/IOC_image_1.jpg",
     "IT/Spring/Mybatis(持久层框架).md",
-    "obsidian相关/Picture/Mybatis_image_2.jpg",
-    "obsidian相关/Picture/Mybatis_image_1.jpg",
     "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
     "IT/SpringBoot/Ribbon和Openfeign.md",
-    "obsidian相关/Picture/Ribbon和Openfeign_image_1.jpg",
     "IT/SpringBoot/SpringBoot.md",
     "IT/SpringCloud/Seata(分布式事务).md",
-    "obsidian相关/Picture/Seata(分布式事务)_image_5.jpg",
-    "obsidian相关/Picture/Seata(分布式事务)_image_4.jpg",
-    "obsidian相关/Picture/Seata(分布式事务)_image_3.jpg",
-    "obsidian相关/Picture/Seata(分布式事务)_image_2.jpg",
     "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
     "IT/SpringCloud/RocketMQ(异步同步).md",
     "IT/SpringCloud/Docker和Jekins(去冲突和快速打包).md",
@@ -224,10 +227,7 @@
     "IT/SpringCloud/SpringSecurity(安全与权限).md",
     "IT/SpringBoot",
     "sortspec.md",
-    "常用语法和算法/VIM语法/linux常用语法.md",
-    "obsidian相关/命名规范和设置.md",
     "常用语法/常用格式",
-    "常用语法/yaml语法",
     "模具实际加工工艺/未命名.canvas",
     "未命名.canvas"
   ]
