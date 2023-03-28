@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "C:\\Users\\YuLi\\",
+                "query": "C:",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -168,8 +167,11 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "96f83a728c66a871",
+  "active": "2f3653ef60aee64c",
   "lastOpenFiles": [
+    "obsidian相关/Picture/VUE(脚手架)_image_6.jpg",
+    "obsidian相关/Picture/VUE(脚手架)_image_5.jpg",
+    "obsidian相关/Picture/VUE(脚手架)_image_4.jpg",
     "obsidian相关/Picture/VUE(脚手架)_image_3.jpg",
     "obsidian相关/Picture/VUE(脚手架)_image_2.jpg",
     "obsidian相关/Picture/VUE(脚手架)_image_1.png",
@@ -179,9 +181,6 @@
     "obsidian相关/Picture/TCP协议三次握手四次挥手_image_6.jpeg",
     "obsidian相关/Picture/TCP协议三次握手四次挥手_image_5.jpeg",
     "obsidian相关/Picture/TCP协议三次握手四次挥手_image_4.jpeg",
-    "obsidian相关/Picture/TCP协议三次握手四次挥手_image_3.jpeg",
-    "obsidian相关/Picture/TCP协议三次握手四次挥手_image_2.jpeg",
-    "obsidian相关/Picture/tmp1679989488145_TCP协议三次握手四次挥手_image_3.jpeg",
     "IT/基础知识点/JVM.md",
     "IT/MySQL/数据库优化(1).md",
     "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",

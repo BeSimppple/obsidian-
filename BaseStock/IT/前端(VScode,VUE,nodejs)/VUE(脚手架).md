@@ -187,21 +187,15 @@ router包下index.js可以配置页面的跳转路径和名称
 utils包下request可以配置请求拦截器和响应拦截器
 
 permission.js可以配置请求头(例如token)的获取
-
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\1e4cf4e24b5349048c58e3f846a336a5\f15b7ccbf5bc4ea99b51e1d8367cb4e5.jpg)
-
+![[VUE(脚手架)_image_4.jpg]]
 构建部署(nginx):
 
 1.构建
-
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\68f0c2a5c66146c88c1be6bd73c16da0\2ae2938bb4b54b4cb54819ab597d90ed.jpg)
-
+![[VUE(脚手架)_image_5.jpg]]
 2.复制工程根目录的dist到nginx目录(nginx-1.18.0)下
 
 3.配置nginx.conf
-
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\7084b1c65b1d4161918fe92052424257\5a5f28eab2ed47e5b4a707c9ca3fd584.jpg)
-
+![[VUE(脚手架)_image_6.jpg]]
 注意事项:
 
 如果发生回调回正确内容却报error错误可能是因为 request.js 中 response回调需要判断status code== 20000不可能实现.因此需要删除并修改为     const res = response.data
