@@ -106,8 +106,8 @@ ik_max_word:最细粒度切分
 
 扩展词典和停用词典(config包中IKAnalyzer.cfg.xml配置,然后修改指定文件内容后重启es即可)
 
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\f8846447afd840578b5f7fee9a8f3d62\541f3db346cd40a3bc9079c9c1376711.jpg)
 
+![[ElasticSearch_image_3.jpg]]
   
 
   
@@ -116,7 +116,7 @@ ES实现持久化:
 
 ES中数据存储的走向
 
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\822ea9a223d646158788f02c120d4aad\9c151969eb79435ab8a0104d1aa4afc5.jpg)
+![[ElasticSearch_image_4.jpg]]
 
 1.提交到内存缓冲区(此时客户端还读不到)
 
@@ -134,7 +134,7 @@ ES中数据存储的走向
 
 Translog作用:
 
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\63ae23062864450c8a490869aed38e00\2c552b2db06d41e3862ced2b3dd517e5.jpg)
+![[ElasticSearch_image_5.jpg]]
 
 如果在内存期间宕机则会丢失数据,所以要实现持久化
 
@@ -142,7 +142,7 @@ es自己提供了Translog文件(数据写入到buffer内存的同时也会追加
 
 整体流程:
 
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\a696f85e56fd44638066102bb809c60b\c8434dc111d14158b5da885773b557e1.jpg)
+![[ElasticSearch_image_6.jpg]]
 
 ES实现高可用:
 
