@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",
+                "file": "IT/SpringBoot/SpringBoot.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0b7180e8444d0696",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "常用语法和算法/markdown语法及快捷键/基础语法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2f1e0e2b638cc1af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "常用语法和算法/markdown语法及快捷键/快捷键.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",
+                "file": "IT/SpringBoot/SpringBoot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",
+                "file": "IT/SpringBoot/SpringBoot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md"
+                "file": "IT/SpringBoot/SpringBoot.md"
               }
             }
           },
@@ -145,13 +169,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,8 +189,15 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "2f3653ef60aee64c",
+  "active": "96f83a728c66a871",
   "lastOpenFiles": [
+    "常用语法和算法/markdown语法及快捷键/基础语法.md",
+    "IT/SpringBoot/SpringBoot.md",
+    "常用语法和算法/markdown语法及快捷键/快捷键.md",
+    "IT/SpringBoot/Ribbon和Openfeign.md",
+    "IT/基础知识点/反射.md",
+    "IT/基础知识点/常用注解.md",
+    "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",
     "obsidian相关/Picture/VUE(脚手架)_image_6.jpg",
     "obsidian相关/Picture/VUE(脚手架)_image_5.jpg",
     "obsidian相关/Picture/VUE(脚手架)_image_4.jpg",
@@ -180,10 +209,8 @@
     "obsidian相关/Picture/TCP协议三次握手四次挥手_image_7.jpeg",
     "obsidian相关/Picture/TCP协议三次握手四次挥手_image_6.jpeg",
     "obsidian相关/Picture/TCP协议三次握手四次挥手_image_5.jpeg",
-    "obsidian相关/Picture/TCP协议三次握手四次挥手_image_4.jpeg",
     "IT/基础知识点/JVM.md",
     "IT/MySQL/数据库优化(1).md",
-    "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",
     "IT/前端(VScode,VUE,nodejs)/HTML概念.md",
     "IT/前端(VScode,VUE,nodejs)/CSS.md",
     "IT/设计模式/代理模式.md",
@@ -202,14 +229,9 @@
     "常用语法和算法/正则表达式.md",
     "软件类使用/Mysql/未命名.md",
     "常用语法和算法/VIM语法/linux常用语法.md",
-    "IT/基础知识点/常用注解.md",
     "IT/设计模式",
-    "IT/基础知识点/反射.md",
     "软件类使用/Python/Python.md",
-    "obsidian相关/命名规范和设置.md",
     "软件类使用/Python",
-    "IT/项目部署/所需软件.md",
-    "IT/易犯错误和注意事项.md",
     "软件类使用/EditPlus",
     "常用语法和算法/常用格式(ymal,xml,property)",
     "软件类使用/Mysql",
