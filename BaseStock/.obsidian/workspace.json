@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用语法和算法/markdown语法及快捷键/快捷键.md",
+                "file": "IT/SpringBoot/SpringBoot.md",
                 "mode": "source",
                 "source": false
               }
@@ -173,7 +173,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
