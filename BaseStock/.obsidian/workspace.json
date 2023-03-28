@@ -11,9 +11,11 @@
             "id": "a43cb58a1dfbfd1e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "常用语法/markdown语法及快捷键/Pasted image 20230221110609.png"
+                "file": "常用语法/markdown语法及快捷键/快捷键.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法/markdown语法及快捷键/Pasted image 20230221110609.png",
+                "file": "常用语法/markdown语法及快捷键/快捷键.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法/markdown语法及快捷键/Pasted image 20230221110609.png",
+                "file": "常用语法/markdown语法及快捷键/快捷键.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法/markdown语法及快捷键/Pasted image 20230221110609.png"
+                "file": "常用语法/markdown语法及快捷键/快捷键.md"
               }
             }
           },
@@ -166,21 +168,22 @@
   },
   "active": "a43cb58a1dfbfd1e",
   "lastOpenFiles": [
+    "常用语法/markdown语法及快捷键/快捷键.md",
+    "常用语法/markdown语法及快捷键/markdown笔记操作方式.md",
+    "常用语法/markdown语法及快捷键/Pasted image 20230221110311.png",
+    "常用语法/markdown语法及快捷键/Pasted image 20230221110629.png",
+    "常用语法/markdown语法及快捷键/Pasted image 20230221110620.png",
+    "常用语法/markdown语法及快捷键/Pasted image 20230221110609.png",
     "常用语法/markdown语法及快捷键/Pasted image 20230221110550.png",
     "常用语法/markdown语法及快捷键/Pasted image 20230221110524.png",
     "常用语法/markdown语法及快捷键/Pasted image 20230221110515.png",
     "常用语法/markdown语法及快捷键/Pasted image 20230221110441.png",
     "常用语法/markdown语法及快捷键/Pasted image 20230221110419.png",
-    "常用语法/markdown语法及快捷键/Pasted image 20230221110311.png",
     "常用语法/markdown语法及快捷键/基础语法.md",
     "IT/SpringCloud/SpringCloud.md",
     "IT/SpringCloud/Sentinel(降级熔断).md",
     "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
     "obsidian相关/Picture/Pasted image 20230328100233.jpg",
-    "obsidian相关/Picture/FFA526D7EBFF49A2A0EFE0C34C4BCD1A.jpg",
-    "obsidian相关/Picture/ecba6b92f5214d51b99c1c66b45f9164.jpg",
-    "obsidian相关/Picture/e835b6006a194ef7963fd86f22e9df87.jpg",
-    "obsidian相关/Picture/B05CC64A86624D7C9ADB4D3E1367820D.jpg",
     "obsidian相关/代码块.md",
     "IT/项目部署/环境部署.md",
     "IT/项目部署/所需软件.md",
@@ -196,7 +199,6 @@
     "网络工程/网络通信/软路由.md",
     "网络工程/计算机硬件系统/CISC和RISC指令集.md",
     "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
-    "常用语法/markdown语法及快捷键/快捷键.md",
     "常用语法/正则表达式/正则表达式.md",
     "常用语法/正则表达式",
     "IT/spring",
