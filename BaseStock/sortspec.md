@@ -2,6 +2,8 @@
 ---
 sorting-spec: |
   target-folder: /*
+  /floders
+  /files
   < a-z
   target-folder: /IT/Spring/*
   Spring
@@ -12,9 +14,14 @@ sorting-spec: |
   Sentinel(降级熔断)
 ---
 
+/floders表示文件夹
+/files表示文件
+
+
 [排序插件使用详情](https://github.com/SebastianMC/obsidian-custom-sort/blob/master/advanced-README.md#location-of-sorting-specification-yaml-entry)
 [实际使用效果](https://zhuanlan.zhihu.com/p/586842280?utm_id=0)
 
-注意使用yaml语法不要用tab代替2个空格
+注意同idea中yaml语法使用不要用tab代替2个空格 关键词后接一个空格,如果是子类关系下行缩进一个空格
 下载完插件创建sortspec.md到根目录用于识别然后按照yaml格式编写即可使用
 等同于idea中导入新的jar包配置默认地址的yaml文件配置对应参数提供读取
+
