@@ -8,12 +8,9 @@ sentinel还实现了接口权限的限制
 sentinel分两个部分:
 核心库（Java 客户端）不依赖任何框架/库，能够运行于所有 Java 运行时环境，同时对 Dubbo / Spring Cloud 等框架也有较好的支持。
 控制台（Dashboard）基于 Spring Boot 开发，打包后可以直接运行，不需要额外的 Tomcat 等应用容器。能有实时监控功能看到500台一下机器秒级数据,同时提供spi扩展接口方便开发者自己编写特殊熔断场景需求
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\f936547840c44286a812838592d5903f\07d1f766761745fb8bc2306fe728d531.jpg)
-
+![[07d1f766761745fb8bc2306fe728d531.jpg]]
 Sentiel和Hystrix对比
-
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\0037db7e778548fbbc459febda956390\e835b6006a194ef7963fd86f22e9df87.jpg)
-
+![[e835b6006a194ef7963fd86f22e9df87.jpg]]
 Sentinel整合项目:
 
 1.下载sentinel控制台的jar包
@@ -74,7 +71,7 @@ QPS:Queries-per-second,每秒资源被访问的次数
 
 快速失败(直接返回)
 
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\2aa815b2f3854377bc99b3032c2094d8\20ae6361d8f04f05af2f50df2b545cda.jpg)
+![[20ae6361d8f04f05af2f50df2b545cda.jpg]]
 
 Warm-up方式(该方式常用于某接口需要额外开销场景(例如每次调用需要创建数据库链接)
 

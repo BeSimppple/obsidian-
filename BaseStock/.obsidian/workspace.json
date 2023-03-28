@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a6311f2cead08a6b",
+        "id": "59ca5ead954e01c7",
         "type": "tabs",
         "children": [
           {
-            "id": "0d16df76bf713522",
+            "id": "e2792b35f128127e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
+                "file": "IT/SpringCloud/Sentinel(降级熔断).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
+                "file": "IT/SpringCloud/Sentinel(降级熔断).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
+                "file": "IT/SpringCloud/Sentinel(降级熔断).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md"
+                "file": "IT/SpringCloud/Sentinel(降级熔断).md"
               }
             }
           },
@@ -166,8 +166,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0d16df76bf713522",
+  "active": "e2792b35f128127e",
   "lastOpenFiles": [
+    "obsidian相关/Picture/20ae6361d8f04f05af2f50df2b545cda.jpg",
+    "obsidian相关/Picture/e835b6006a194ef7963fd86f22e9df87.jpg",
+    "IT/SpringCloud/e835b6006a194ef7963fd86f22e9df87.jpg.md",
+    "IT/SpringCloud/Sentinel(降级熔断).md",
+    "obsidian相关/Picture/07d1f766761745fb8bc2306fe728d531.jpg",
+    "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
+    "obsidian相关/Picture/B05CC64A86624D7C9ADB4D3E1367820D.jpg",
+    "obsidian相关/Picture/Pasted image 20230328100233.jpg",
+    "obsidian相关/Picture/03B0BF15763E43F488B7F96F0C1D9651.jpg",
     "obsidian相关/Picture/640038328D6146E795CA8C00A0D1C222.jpg",
     "obsidian相关/Picture/1CBDC52EE6BE4D10AD52CDE70B96787F.jpg",
     "obsidian相关/Picture/22CD0D814AB440E1A906DF33925AF331.jpg",
@@ -178,26 +187,18 @@
     "IT/项目部署/所需软件.md",
     "IT/项目部署/环境部署.md",
     "IT/项目部署/GIT实现云同步/git云仓库.md",
-    "obsidian相关/Picture/5F626B4E601B4740BB7DBB2E02E835EB.jpg",
-    "obsidian相关/Picture/BF931032F1134CB8BAFF7B67FE7EB3C5.jpg",
-    "obsidian相关/Picture/3DE0CB7A7FB646178830813B89CDE459.jpg",
     "IT/项目部署/GIT实现云同步/GIT(设置流程).md",
     "网络工程/网络通信/cookie与session.md",
     "网络工程/网络通信/网络通信.md",
-    "obsidian相关/Picture/4C0376A6664B418B84804DF356631812.jpg",
-    "obsidian相关/Picture/606F05DB24F643039B79601966A6C0FA.jpg",
     "网络工程/网络通信/软路由.md",
     "网络工程/计算机硬件系统/CISC和RISC指令集.md",
     "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
-    "obsidian相关/Picture/FFA526D7EBFF49A2A0EFE0C34C4BCD1A.jpg",
     "常用语法/markdown语法及快捷键/基础语法.md",
     "常用语法/markdown语法及快捷键/快捷键.md",
     "常用语法/正则表达式/正则表达式.md",
     "常用语法/正则表达式",
     "IT/spring",
     "IT/常用概念.md",
-    "IT/SpringCloud/Sentinel(降级熔断).md",
-    "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
     "网络工程/网络通信",
     "obsidian相关/命名规范和设置.md",
     "obsidian相关/代码块.md",
@@ -214,7 +215,6 @@
     "模具UG设计/UG快捷键.md",
     "模具UG设计/UG逆向工程.md",
     "模具UG设计/问题集.md",
-    "模具UG设计/流程.md",
     "未命名.canvas"
   ]
 }
