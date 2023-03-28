@@ -8,91 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "75584071bba010b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/前端(VScode,VUE,nodejs)/CSS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0140aeeb8af3a102",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/Spring/Servlet(服务器端小型通信).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "37fda255c868d529",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/MySQL/数据库优化(1).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6b075a5f042fdbdb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/前端(VScode,VUE,nodejs)/HTML概念.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2f873eb0903465fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/设计模式/代理模式.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cfe4f7c5663e266c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/基础知识点/关系运算符及循环跳转语句及递归.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "466db166b4e87f6b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "网络工程/网络通信/WEB及HTTP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "56a8e84820e6358d",
+            "id": "96f83a728c66a871",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -102,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "96f83a728c66a871",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sortspec.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -145,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:",
+                "query": "C:\\Users\\YuLi\\",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -162,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -182,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sortspec.md",
+                "file": "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sortspec.md",
+                "file": "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sortspec.md"
+                "file": "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md"
               }
             }
           },
@@ -266,27 +170,39 @@
   },
   "active": "96f83a728c66a871",
   "lastOpenFiles": [
-    "软件类使用/idea/常用快捷键.md",
+    "obsidian相关/Picture/VUE(脚手架)_image_3.jpg",
+    "obsidian相关/Picture/VUE(脚手架)_image_2.jpg",
+    "obsidian相关/Picture/VUE(脚手架)_image_1.png",
+    "网络工程/网络通信/TCP协议三次握手四次挥手.md",
+    "obsidian相关/Picture/TCP协议三次握手四次挥手_image_8.jpeg",
+    "obsidian相关/Picture/TCP协议三次握手四次挥手_image_7.jpeg",
+    "obsidian相关/Picture/TCP协议三次握手四次挥手_image_6.jpeg",
+    "obsidian相关/Picture/TCP协议三次握手四次挥手_image_5.jpeg",
+    "obsidian相关/Picture/TCP协议三次握手四次挥手_image_4.jpeg",
+    "obsidian相关/Picture/TCP协议三次握手四次挥手_image_3.jpeg",
+    "obsidian相关/Picture/TCP协议三次握手四次挥手_image_2.jpeg",
+    "obsidian相关/Picture/tmp1679989488145_TCP协议三次握手四次挥手_image_3.jpeg",
+    "IT/基础知识点/JVM.md",
+    "IT/MySQL/数据库优化(1).md",
     "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",
+    "IT/前端(VScode,VUE,nodejs)/HTML概念.md",
+    "IT/前端(VScode,VUE,nodejs)/CSS.md",
+    "IT/设计模式/代理模式.md",
+    "IT/设计模式/单例设计模式.md",
+    "sortspec.md",
+    "软件类使用/idea/常用快捷键.md",
     "软件类使用/idea",
     "网络工程/网络通信/WEB及HTTP.md",
     "IT/基础知识点/关系运算符及循环跳转语句及递归.md",
-    "IT/设计模式/代理模式.md",
-    "IT/前端(VScode,VUE,nodejs)/HTML概念.md",
-    "IT/MySQL/数据库优化(1).md",
     "IT/MySQL/数据库优化(2).md",
     "IT/MySQL/数据库概念.md",
     "IT/Spring/Servlet(服务器端小型通信).md",
-    "IT/前端(VScode,VUE,nodejs)/CSS.md",
-    "IT/基础知识点/JVM.md",
     "IT/前端(VScode,VUE,nodejs)",
-    "网络工程/网络通信/TCP协议三次握手四次挥手.md",
     "常用语法和算法/SQL语法.md",
     "IT/MySQL",
     "常用语法和算法/正则表达式.md",
     "软件类使用/Mysql/未命名.md",
     "常用语法和算法/VIM语法/linux常用语法.md",
-    "IT/设计模式/单例设计模式.md",
     "IT/基础知识点/常用注解.md",
     "IT/设计模式",
     "IT/基础知识点/反射.md",
@@ -295,23 +211,11 @@
     "软件类使用/Python",
     "IT/项目部署/所需软件.md",
     "IT/易犯错误和注意事项.md",
-    "软件类使用/Editplus.md",
-    "软件类使用/Linux/Linux.md",
     "软件类使用/EditPlus",
-    "obsidian相关/Picture/Linux_image_7.jpg",
-    "obsidian相关/Picture/Linux_image_6.jpg",
-    "obsidian相关/Picture/Linux_image_5.jpg",
-    "obsidian相关/Picture/Linux_image_4.jpg",
-    "obsidian相关/Picture/Linux_image_3.jpg",
-    "obsidian相关/Picture/Linux_image_2.jpg",
-    "obsidian相关/Picture/Linux_image_1.jpg",
     "常用语法和算法/常用格式(ymal,xml,property)",
     "软件类使用/Mysql",
     "常用语法和算法/常用算法",
-    "obsidian相关/Picture/Nginx(反向代理服务器)_image_2.jpg",
-    "obsidian相关/Picture/Nginx(反向代理服务器)_image_1.jpg",
     "软件类使用/Linux",
-    "obsidian相关/Picture/IOC_image_1.jpg",
     "模具实际加工工艺/未命名.canvas",
     "未命名.canvas"
   ]

@@ -17,9 +17,7 @@ Vue的常用指令:
 7.v-on 8.v-bind 9
 
 Vue的生命周期
-
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\2c7bae95a9184deda3a963b3ab67b34e\lifecycle.png)
-
+![[VUE(脚手架)_image_1.png]]
 access-control-allow-origin 跨域拦截,浏览器特有为了安全做的限制,不是服务端的限制,底层可以通过JsonP的原理去解决
 
 解决方法:@CrossOrigin在Controller层,
@@ -139,9 +137,7 @@ Vue路由(Route)
 2.导入3.创建路由表 4.挂载路由
 
 路由的作用:(单页工程,管理切换页面)
-
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\8810a45accfa4cc4950caa14a592c565\db7a4271812144daba6d411ae0b3927c.jpg)
-
+![[VUE(脚手架)_image_2.jpg]]
 Vue异步(Axios)
 
 1.安装npm install --save axios vue-axios
@@ -179,9 +175,7 @@ npm install --registry=https://registry.npm.taobao.org
 npm run dev
 
 各个文件作用:
-
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\3f87153a6c404fcb98f89f6d4c181ff6\c3b9b65962534eb7a05075baedb96b9c.jpg)
-
+![[VUE(脚手架)_image_3.jpg]]
 env.development中
 
 # base api

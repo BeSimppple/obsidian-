@@ -6,6 +6,12 @@ sorting-spec: |
    < a-z
   /files
    < a-z
+  IT
+  网络工程
+  常用语法和算法
+  软件类使用
+  语言学习
+  obsidian相关
   target-folder: /IT/Spring/*
   Spring
   AOP

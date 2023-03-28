@@ -1,9 +1,7 @@
 JVM内存模型
 
 根据JVM规范，JVM 内存共分为虚拟机栈，堆，方法区，程序计数器，本地方法栈五个部分。
-
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\a0e0155dfce04c49a9983f6088a50dc9\5c17db5eabf5407ea0564c76385253aa.jpg)
-
+![[JVM_image_1.jpg]]
 关于垃圾回收
 
 你知道哪些垃圾回收算法?
@@ -33,9 +31,7 @@ Java 垃圾回收机制最基本的做法是分代回收。内存中的区域被
 垃圾回收器的选择
 
 按内存大小分：
-
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\8402925ea95b4341b36071fd0d11d120\d124c8afad6e.png)
-
+![[d124c8afad6e.png]]
   
 
 JAVA对象的内存分配
