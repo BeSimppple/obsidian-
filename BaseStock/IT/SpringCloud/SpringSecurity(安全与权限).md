@@ -20,7 +20,7 @@ SpringSecurity本质(过滤器链)
 
 ps:详情见最下方过滤器链
 
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\ebef79abcf8c44599f26cfeb77387533\ce70b64400534945ba1219250f594376.jpg)
+![[SpringSecurity_image_1.jpg]]
 
 绿色部分,过滤器都是可以高度定制修改的
 
@@ -51,8 +51,8 @@ spring-boot-starter-security
   
 
 Springsecurity登录流程
+![[SpringSecurity_image_2.jpg]]
 
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\f137498be9ed49f4b885dee80259c17d\868de945922c4bc9ba2da8e2c4ea9b20.jpg)
 
 其中AuthenticationProvider直接认证方式是基于内存存储主体信息进行认证,可以跳过UserDetailService的认证
 
@@ -165,7 +165,7 @@ BCrypt有四个变量：
 3.  salt: 盐，一个128bits随机字符串，22字符
 4.  myHash: 经过明文密码password和盐salt进行hash，默认10次下 ，循环加盐hash10次，得到myHash
 
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\3549d0357dc44f2f96451d1aba167cb8\8a0c2f1dd8b14161ba787c6b310236a4.jpg)
+![[SpringSecurity_image_3.jpg]]
 
   
 
@@ -201,7 +201,7 @@ JWT，全称JSON Web Token
 
 jwt实现登录校验流程
 
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\762f7dcf765e4a7bb5deaa3bb934a46d\1f18f680a5904e3ba196c0a0e7956a08.jpg)
+![[SpringSecurity_image_4.jpg]]
 
 单独的登录模块将校验成功的验证信息生成JWT放到客户端本地,后续每次请求携带JWT遇到需要校验的请求时拦截器会校验JWT的数据正确则执行业务逻辑
 
@@ -285,7 +285,7 @@ JwtUtils.getInfoFromToken(JWT令牌,公钥,需要生成的格式例如map.class)
 
 难点:Secutiry整合JWT令牌(修改过滤器)
 
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\87a5cc55974348c7913ca06b291e8e88\318c139166564d34a328e85e0b1101d3.jpg)
+![[SpringSecurity_image_5.jpg]]
 
 自定义类继承UsernamePasswordAuthenticationFilter过滤器,主要作用登录校验然后颁发JWT令牌
 

@@ -8,55 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "33433da276eff7ce",
+            "id": "7219ff6f78aa313c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4cc67ed28e141162",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/SpringCloud/SpringCloud框架思想.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "886b732296d5a775",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/SpringCloud/SpringBoot.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "99388bf5e937fb00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/SpringCloud/SpringSecurity.md",
+                "file": "IT/Spring/Spring.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/SpringCloud/SpringSecurity.md",
+                "file": "IT/Spring/Spring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/SpringCloud/SpringSecurity.md",
+                "file": "IT/Spring/Spring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/SpringCloud/SpringSecurity.md"
+                "file": "IT/Spring/Spring.md"
               }
             }
           },
@@ -204,16 +167,29 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "99388bf5e937fb00",
+  "active": "7219ff6f78aa313c",
   "lastOpenFiles": [
-    "IT/SpringCloud/SpringBoot.md",
-    "IT/SpringCloud/SpringSecurity.md",
-    "obsidian相关/Picture/SpringBoot_image_1.jpg",
+    "obsidian相关/Picture/C5638594C267495BA9B7C9311CC7C903.jpg",
+    "IT/SpringCloud/RocketMQ.md",
+    "obsidian相关/Picture/RocketMQ_image_6.jpg",
+    "obsidian相关/Picture/RocketMQ_image_5.jpg",
+    "obsidian相关/Picture/RocketMQ_image_4.jpg",
+    "obsidian相关/Picture/RocketMQ_image_3.jpg",
+    "obsidian相关/Picture/RocketMQ_image_2.jpg",
+    "obsidian相关/Picture/RocketMQ_image_1.jpg",
+    "IT/SpringCloud/Sentinel(降级熔断).md",
+    "IT/SpringCloud/Gateway.md",
+    "obsidian相关/Picture/Gateway_image_5.jpg",
+    "obsidian相关/Picture/Gateway_image_4.jpg",
+    "obsidian相关/Picture/Gateway_image_3.jpg",
+    "obsidian相关/Picture/Gateway_image_2.jpg",
+    "IT/SpringCloud/Sleuth+Zipkin(链路监控).md",
+    "IT/SpringCloud/SpringSecurity(安全与权限).md",
+    "IT/SpringBoot/SpringBoot.md",
+    "IT/SpringBoot",
     "IT/SpringCloud/SpringCloud框架思想.md",
     "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
-    "IT/SpringCloud/Sentinel(降级熔断).md",
     "sortspec.md",
-    "obsidian相关/Picture/sortspec_image_1.png",
     "常用语法/常用格式.md",
     "常用语法/VIM语法/linux常用语法.md",
     "IT/Spring/Spring.md",
@@ -229,21 +205,9 @@
     "常用语法/markdown语法及快捷键/基础语法.md",
     "常用语法/常用格式",
     "常用语法/yaml语法",
-    "obsidian相关/Picture/sortspec_image_1.jpg",
-    "obsidian相关/Picture/76E6810CF2544D28A84B376C7CBDC3EE.jpg",
-    "obsidian相关/Picture/E958EDFE2FAD4C68BFF7DB56E1D020EC 2.jpg",
     "IT/常用概念.md",
     "常用语法/正则表达式/正则表达式.md",
     "常用语法/markdown语法及快捷键/markdown笔记操作方式.md",
-    "常用语法/markdown语法及快捷键/Pasted image 20230221110311.png",
-    "常用语法/markdown语法及快捷键/Pasted image 20230221110629.png",
-    "常用语法/markdown语法及快捷键/Pasted image 20230221110620.png",
-    "常用语法/markdown语法及快捷键/Pasted image 20230221110609.png",
-    "常用语法/markdown语法及快捷键/Pasted image 20230221110550.png",
-    "IT/项目部署/环境部署.md",
-    "IT/项目部署/所需软件.md",
-    "IT/Spring/AOP.md",
-    "IT/项目部署/GIT实现云同步/git云仓库.md",
     "常用语法/正则表达式",
     "IT/Spring",
     "网络工程/网络通信",
@@ -251,7 +215,6 @@
     "obsidian相关/Picture/EFC787AF5E6140FAB833082310BFC49C",
     "obsidian相关/Picture/EE90790BE28C43E0AA5A135375927507",
     "obsidian相关/Picture/EE4CFC379E0F42659037589CC418894B",
-    "obsidian相关/Picture/EBEF79ABCF8C44599F26CFEB77387533",
     "模具实际加工工艺/未命名.canvas",
     "未命名.canvas"
   ]
