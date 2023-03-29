@@ -6,6 +6,7 @@ sorting-spec: |
    < a-z
   /files
    < a-z
+  ...原理
   IT
   软件(原理,部署,特点)
   网络工程
@@ -14,7 +15,7 @@ sorting-spec: |
   obsidian相关
   
   target-folder: /软件(原理,部署,特点)/*
-  ...原理
+  
   
   target-folder: /IT/Spring/*
   Spring

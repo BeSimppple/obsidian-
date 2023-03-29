@@ -8,79 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "509236bfb097bccf",
+            "id": "e1aac55b30738e9e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件(原理,部署,特点)/Maven/Maven原理.md",
+                "file": "IT/前端(VScode,VUE,nodejs)/Bootstrap.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "23bd33fc7b5dab82",
+            "id": "acb73b96782319b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/基础知识点/多线程.md",
+                "file": "IT/前端(VScode,VUE,nodejs)/JSP(java server page).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "980c5af6b2af2fef",
+            "id": "165a86dd4c4c1164",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/Spring/Servlet(服务器端小型通信).md",
+                "file": "IT/Spring/Spring原理.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b25175f273d206d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/Spring/Servlet(服务器端小型通信).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2794c179800f3282",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "常用语法和算法/常用算法/常用算法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7a67b8fce4460647",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/基础知识点/未命名.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "67677862f77bc1b7",
+            "id": "372ba7792eec691b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -92,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -158,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/基础知识点/未命名.md",
+                "file": "sortspec.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/基础知识点/未命名.md",
+                "file": "sortspec.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/基础知识点/未命名.md"
+                "file": "sortspec.md"
               }
             }
           },
@@ -248,10 +212,15 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "7a67b8fce4460647",
+  "active": "372ba7792eec691b",
   "lastOpenFiles": [
+    "IT/Spring/Spring原理.md",
+    "IT/Spring/事务管理.md",
+    "IT/前端(VScode,VUE,nodejs)/JSP(java server page).md",
+    "IT/前端(VScode,VUE,nodejs)/Bootstrap.md",
+    "IT/基础知识点/常用注解.md",
+    "IT/基础知识点/泛型和IO流.md",
     "常用语法和算法/常用算法/常用算法.md",
-    "IT/基础知识点/未命名.md",
     "软件(原理,部署,特点)/Idea/常用配置.md",
     "IT/Spring/Servlet(服务器端小型通信).md",
     "IT/基础知识点/多线程-线程安全.md",
@@ -274,12 +243,7 @@
     "网络工程/计算机硬件系统/机器语言(1代到5代).md",
     "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
     "常用语法和算法/markdown语法及快捷键/快捷键.md",
-    "网络工程/AI/OpenAI.md",
     "网络工程/AI",
-    "IT/SpringBoot/SpringBoot.md",
-    "常用语法和算法/markdown语法及快捷键/基础语法.md",
-    "IT/基础知识点/反射.md",
-    "IT/基础知识点/常用注解.md",
     "obsidian相关/Picture/VUE(脚手架)_image_6.jpg",
     "obsidian相关/Picture/VUE(脚手架)_image_5.jpg",
     "obsidian相关/Picture/VUE(脚手架)_image_4.jpg",
