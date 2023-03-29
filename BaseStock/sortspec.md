@@ -6,21 +6,15 @@ sorting-spec: |
    < a-z
   /files
    < a-z
-  ...原理
   IT
   软件(原理,部署,特点)
   网络工程
   常用语法和算法
   语言学习
   obsidian相关
-  
-  target-folder: /软件(原理,部署,特点)/*
-  
-  
   target-folder: /IT/Spring/*
-  Spring
-  AOP
-  
+  Spring原理
+  AOP(基于面动态代理)
   target-folder: /IT/SpringCloud/*
   SpringCloud框架思想
   Nacos(服务注册与发现,配置)
@@ -40,7 +34,17 @@ sorting-spec: |
 下载完插件创建sortspec.md到根目录用于识别然后按照yaml格式编写即可使用
 等同于idea中导入新的jar包配置默认地址的yaml文件配置对应参数提供读取
 
-还可以改进的点->
+小的会重写大的
+
+
+
+
+
+
+
+
+
+**还可以改进的点->**
 1. 支持改名同步和链接
 2. 直接多个文件夹之间做分割线
 3. 文件夹加小图标
