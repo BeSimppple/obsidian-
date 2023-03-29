@@ -4,22 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "ada6c2c10b3cda7b",
+        "id": "041d4eedff97589d",
         "type": "tabs",
         "children": [
           {
-            "id": "b8687a71db53d830",
+            "id": "a5d34e9a207944db",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-chat-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "e2782eb04ca21a07",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络工程/AI/OpenAI.md",
+                "file": "常用语法和算法/markdown语法及快捷键/快捷键.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网络工程/AI/OpenAI.md",
+                "file": "常用语法和算法/markdown语法及快捷键/快捷键.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网络工程/AI/OpenAI.md",
+                "file": "常用语法和算法/markdown语法及快捷键/快捷键.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网络工程/AI/OpenAI.md"
+                "file": "常用语法和算法/markdown语法及快捷键/快捷键.md"
               }
             }
           },
@@ -175,10 +184,11 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "b8687a71db53d830",
+  "active": "e2782eb04ca21a07",
   "lastOpenFiles": [
-    "网络工程/AI/OpenAI.md",
+    "软件类使用/idea/常用快捷键.md",
     "sortspec.md",
+    "网络工程/AI/OpenAI.md",
     "网络工程/AI",
     "IT/SpringBoot/SpringBoot.md",
     "常用语法和算法/markdown语法及快捷键/基础语法.md",
@@ -204,7 +214,6 @@
     "IT/前端(VScode,VUE,nodejs)/CSS.md",
     "IT/设计模式/代理模式.md",
     "IT/设计模式/单例设计模式.md",
-    "软件类使用/idea/常用快捷键.md",
     "软件类使用/idea",
     "网络工程/网络通信/WEB及HTTP.md",
     "IT/基础知识点/关系运算符及循环跳转语句及递归.md",
