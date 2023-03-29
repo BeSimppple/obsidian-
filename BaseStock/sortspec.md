@@ -7,18 +7,24 @@ sorting-spec: |
   /files
    < a-z
   IT
+  软件(原理,部署,特点)
   网络工程
   常用语法和算法
-  软件(原理,部署,特点)
   语言学习
   obsidian相关
+  
+  target-folder: /软件(原理,部署,特点)/*
+  ...原理
+  
   target-folder: /IT/Spring/*
   Spring
   AOP
+  
   target-folder: /IT/SpringCloud/*
   SpringCloud框架思想
   Nacos(服务注册与发现,配置)
   Sentinel(降级熔断)
+  
 ---
 
 /folders表示文件夹

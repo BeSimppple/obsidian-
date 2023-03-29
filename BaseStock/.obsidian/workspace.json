@@ -8,14 +8,91 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ab00b58c65593bd5",
+            "id": "509236bfb097bccf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "软件(原理,部署,特点)/Maven/Maven原理.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "23bd33fc7b5dab82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/基础知识点/多线程.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "980c5af6b2af2fef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/Spring/Servlet(服务器端小型通信).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b25175f273d206d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/Spring/Servlet(服务器端小型通信).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2794c179800f3282",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "常用语法和算法/常用算法/常用算法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7a67b8fce4460647",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/基础知识点/未命名.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "67677862f77bc1b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sortspec.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -44,7 +121,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "C:",
+                "query": "常用算法",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "IT/基础知识点/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "IT/基础知识点/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +197,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "IT/基础知识点/未命名.md"
+              }
             }
           },
           {
@@ -167,14 +248,26 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "2f3653ef60aee64c",
+  "active": "7a67b8fce4460647",
   "lastOpenFiles": [
-    "软件(原理,部署,特点)/Redis",
+    "常用语法和算法/常用算法/常用算法.md",
+    "IT/基础知识点/未命名.md",
+    "软件(原理,部署,特点)/Idea/常用配置.md",
+    "IT/Spring/Servlet(服务器端小型通信).md",
+    "IT/基础知识点/多线程-线程安全.md",
+    "IT/其他/Freemarker模板技术.md",
+    "IT/基础知识点/多线程.md",
+    "软件(原理,部署,特点)/Maven/Maven原理.md",
+    "软件(原理,部署,特点)/Mysql/Mysql原理.md",
     "sortspec.md",
+    "软件(原理,部署,特点)/Idea/idea原理.md",
+    "软件(原理,部署,特点)/Redis/Redis原理.md",
     "IT/基础知识点/数据结构.md",
+    "软件(原理,部署,特点)/Maven",
+    "软件(原理,部署,特点)/Redis",
     "IT/基础知识点/JVM.md",
-    "软件(原理,部署,特点)/idea/Idea相关.md",
-    "软件(原理,部署,特点)/idea/常用快捷键.md",
+    "软件(原理,部署,特点)/Idea/Idea相关.md",
+    "软件(原理,部署,特点)/Idea/常用快捷键.md",
     "IT/其他/支付sdk.md",
     "IT/其他",
     "IT/SpringBoot/Ribbon和Openfeign.md",
@@ -187,34 +280,22 @@
     "常用语法和算法/markdown语法及快捷键/基础语法.md",
     "IT/基础知识点/反射.md",
     "IT/基础知识点/常用注解.md",
-    "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",
     "obsidian相关/Picture/VUE(脚手架)_image_6.jpg",
     "obsidian相关/Picture/VUE(脚手架)_image_5.jpg",
     "obsidian相关/Picture/VUE(脚手架)_image_4.jpg",
     "obsidian相关/Picture/VUE(脚手架)_image_3.jpg",
     "obsidian相关/Picture/VUE(脚手架)_image_2.jpg",
     "obsidian相关/Picture/VUE(脚手架)_image_1.png",
-    "网络工程/网络通信/TCP协议三次握手四次挥手.md",
     "obsidian相关/Picture/TCP协议三次握手四次挥手_image_8.jpeg",
     "obsidian相关/Picture/TCP协议三次握手四次挥手_image_7.jpeg",
     "obsidian相关/Picture/TCP协议三次握手四次挥手_image_6.jpeg",
     "obsidian相关/Picture/TCP协议三次握手四次挥手_image_5.jpeg",
-    "IT/MySQL/数据库优化(1).md",
-    "IT/前端(VScode,VUE,nodejs)/HTML概念.md",
-    "IT/前端(VScode,VUE,nodejs)/CSS.md",
-    "IT/设计模式/代理模式.md",
-    "IT/设计模式/单例设计模式.md",
-    "软件(原理,部署,特点)/idea",
-    "网络工程/网络通信/WEB及HTTP.md",
-    "IT/基础知识点/关系运算符及循环跳转语句及递归.md",
-    "IT/MySQL/数据库优化(2).md",
+    "软件(原理,部署,特点)/Idea",
     "IT/前端(VScode,VUE,nodejs)",
     "IT/MySQL",
     "IT/设计模式",
     "软件(原理,部署,特点)/Python",
     "软件类使用/EditPlus",
-    "常用语法和算法/常用格式(ymal,xml,property)",
-    "软件(原理,部署,特点)/Mysql",
     "模具实际加工工艺/未命名.canvas",
     "未命名.canvas"
   ]
