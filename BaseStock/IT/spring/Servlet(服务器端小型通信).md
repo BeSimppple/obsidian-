@@ -418,8 +418,7 @@ servlet监听器(具体)
   
 
 过滤器链和拦截器的区别
-
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\f6dc27bcfec543039abf71ca7115095b\09eeab3cee8541e7b6cc932d19c773cb.jpg)
+![[Servlet(服务器端小型通信)_image_1.jpg]]
 
 1、实现原理不同 过滤器和拦截器底层实现方式大不相同，过滤器 是基于函数回调的，拦截器 则是基于Java的反射机制（动态代理）实现的。
 

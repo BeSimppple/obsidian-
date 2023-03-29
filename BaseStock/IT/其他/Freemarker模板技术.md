@@ -3,9 +3,7 @@ Freemarker静态化技术
 什么是Freemarker?
 
 Freemarker是java编写的模板引擎，它可以将模板页面+动态数据渲染成静态html页面
-
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\512d2f6219d64b7faf408de1ba0bf39c\de9c7314391d4dd99737499219859add.jpg)
-
+![[Freemarker模板技术_image_1.jpg]]
 网页静态化技术的作用:
 
 1：减轻数据库访问压力(主要)
@@ -55,9 +53,7 @@ configuration.setDirectoryForTemplateLoading(new File(模板页面路径))
 8.关闭 writer.close()
 
 详情页实现思路
-
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\6efcc0505e05496f80be2632976211d9\c0f3a56577f9498fbec2308d70adfb30.jpg)
-
+![[Freemarker模板技术_image_2.jpg]]
 商品审核通过->调用es模块加入ES数据库->同时通过es模块将商品的id通过MQ发送给page模块->page模块写MQ监听器@service使用广播模式消费->拿到商品id后通过openFeign请求商品模块接口到数据库拿信息->然后使用Freemarker生成静态化页面到nginx的包下->配置nginx的conf的servername进行代理配置
 
 wfx-page集群模块搭载nginx,并且由good-page通过广播模式让每个小nginx都有所有页面,然后由一个大的Nginx负载均衡
@@ -92,9 +88,7 @@ id唯一(雪花算法)
 
 满足1.长度一致2.不包含字符串3,保证唯一
 
-  
-
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\a4898b5b3f3b4b33ade498a57386a57f\4c719ad53a354c408e34cfc7f1808162.jpg)
+![[4C719AD53A354C408E34CFC7F1808162.jpg]]
 
 IdWorker采用的是雪花算法(SnowFlake)
 

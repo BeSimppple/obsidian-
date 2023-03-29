@@ -1,7 +1,5 @@
 为什么使用redis:
-
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\efc787af5e6140fab833082310bfc49c\8d27c5801441471696372f39ea1bcbe5.jpg)
-
+![[Redis原理_image_1.jpg]]
 应对高并发场景,可以将常用(但是不经常修改的)的页面或者数据存入redis（内存）,从而减少到数据库访问次数,提高效率和减少数据库压力
 
 redis还可以充当中间数据库存放登录的session数据,验证码等等，因为分布式集群搭载很多服务器不可能每个都存放复制
@@ -53,9 +51,7 @@ source /etc/profile生效刷新
 之后配合conf启动./redis-server ./redis.conf 启动成功
 
 然后启动redis-cli客户端来输入指令操作
-
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\d858115b74514020b48063e375a2d023\ef2c13935d944e0eb145b5bcf84b4a3a.jpg)
-
+![[Redis原理_image_2.jpg]]
 NoSQL===非关系型数据分为以下2种：
 
 1：KV(Redis、Memcache)
@@ -400,9 +396,7 @@ hash slot只分配给master不会给slave
 
 取数据时根据get的槽的位置找到集群中对应redis
 
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\a30f0f17c79f4e71b90353257e4902e1\0cc8adc40b104ce49d46fc79c6329b2c.jpg)
-
-  
+  ![[0CC8ADC40B104CE49D46FC79C6329B2C.jpg]]
 
 # redis集群版
 

@@ -33,9 +33,7 @@ Maven仓库分为1.本地仓库2.远程仓库3.中央仓库
 
 指的是项目从编译、测试、运行、打包、安装，部署整个过程都交给maven进行管理，这个过程称为构建。 一键构建指的是整个构建过程，使用maven一个命令可以轻松完成整个工作
 
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\6013efb23ed84c0fb05c10c916c91d85\7ec508b6e26440868d829e06216a5f26.jpg)
-
-  
+  ![[Maven原理_image_1.jpg]]
 
   
 
@@ -164,9 +162,7 @@ mvn install:install-file -Dfile=XXX.jar -DgroupId=com.alimama -DartifactId=sms -
 依赖范围scope
 
 概念:程序依赖于构件,程序运行时,构件的范围
-
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\926cef2637be4b46ad46c84adb44a103\ff2ab626b9364eb7be93c57b6783f70d.jpg)
-
+![[Maven原理_image_2.jpg]]
 常用的前四种
 
 compile
@@ -198,9 +194,7 @@ runtime
 构建A依赖构建B,构建B依赖构建C,那么就构成了构建A传递依赖构建C
 
 传递依赖并不一定完全成立
-
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\52473b8086e841f3839b92e519de96a7\e08da31e152d400dbb09aa58ae5d7187.jpg)
-
+![[E08DA31E152D400DBB09AA58AE5D7187.jpg]]
   
 
 依赖版本冲突

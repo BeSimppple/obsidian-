@@ -5,9 +5,7 @@ SDK包含了工具和API
 微信支付申请(native支付(扫码支付))
 
 我们负责商户后台系统
-
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\ea9bb20fe252480daa964d5d7c670797\bd886399102d4e3197ed53c2b6282858.jpg)
-
+![[支付sdk_image_1.jpg]]
 微信公众号注册:
 
 微信支付功能需要注册公众号(服务号)才能使用
@@ -47,9 +45,7 @@ key：商户密钥 f63be239c43f16bd52a3cf8a2fada0ea
 在线微信支付开发文档：[https://pay.weixin.qq.com/wiki/doc/api/index.html](https://pay.weixin.qq.com/wiki/doc/api/index.html)
 
 支付流程图:
-
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\8ac5691d63894fe593d82868a173ca21\fc3c3b37944f4d809875213ee8b35798.jpg)
-
+![[支付sdk_image_2.jpg]]
 微信支付结合IDEA
 
 主要接口(统一下单,查询订单,关闭订单)
@@ -95,9 +91,7 @@ request.requestWithoutCert(指定接口的路径后缀,UUID, xml格式的参数,
 webSocket(双向通信)
 
 作用:客户端和服务端建立长链接,当支付成功或错误后立即返回前端
-
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\3b456df069524013b3fa55b88dc3fd8f\ce521491cc094d9c9017982f0601c97e.jpg)
-
+![[CE521491CC094D9C9017982F0601C97E.jpg]]
 WebSocket 是 HTML5 中一种新的通信协议，能够实现浏览器与服务器之间全双工通信(例如打电话持久性链接,双向数据传输)。
 
 webSoket应用:

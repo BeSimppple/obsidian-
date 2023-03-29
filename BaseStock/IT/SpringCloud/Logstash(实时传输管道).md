@@ -3,8 +3,7 @@ logstash就是一根具备实时数据传输能力的管道，负责将数据信
   
 
 logstash（收集）、elasticsearch（存储+搜索）、kibana（展示），我们将这三个组合起来的技术称之为ELKStack，所以说ELKStack指的是Elasticsearch、Logstash、Kibana技术栈的结合。
-
-![](C:\Users\YuLi\AppData\Local\YNote\data\qq3AE958F571E4572DE9CC711939D04018\e35e9ef6eb904f50acd9592211b54f88\c7285adf30e8468383d79c221adb108d.jpg)
+![[C7285ADF30E8468383D79C221ADB108D.jpg]]
 
 Logstash的事件（logstash将数据流中等每一条数据称之为一个event）处理流水线有三个主要角色完成：inputs –> filters –> outputs：
 
