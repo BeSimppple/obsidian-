@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/SpringBoot/SpringBoot.md",
+                "file": "sortspec.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ca4b8d1065664b2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "网络工程/AI/OpenAI.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/SpringBoot/SpringBoot.md",
+                "file": "网络工程/AI/OpenAI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/SpringBoot/SpringBoot.md",
+                "file": "网络工程/AI/OpenAI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/SpringBoot/SpringBoot.md"
+                "file": "网络工程/AI/OpenAI.md"
               }
             }
           },
@@ -168,13 +181,29 @@
               "type": "todo",
               "state": {}
             }
+          },
+          {
+            "id": "a82a57e2ef2a7506",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-chat-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "505876a4b5300ef1",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,10 +219,13 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "96f83a728c66a871",
+  "active": "ca4b8d1065664b2f",
   "lastOpenFiles": [
-    "常用语法和算法/markdown语法及快捷键/基础语法.md",
+    "sortspec.md",
+    "网络工程/AI/OpenAI.md",
+    "网络工程/AI",
     "IT/SpringBoot/SpringBoot.md",
+    "常用语法和算法/markdown语法及快捷键/基础语法.md",
     "常用语法和算法/markdown语法及快捷键/快捷键.md",
     "IT/SpringBoot/Ribbon和Openfeign.md",
     "IT/基础知识点/反射.md",
@@ -216,7 +248,6 @@
     "IT/前端(VScode,VUE,nodejs)/CSS.md",
     "IT/设计模式/代理模式.md",
     "IT/设计模式/单例设计模式.md",
-    "sortspec.md",
     "软件类使用/idea/常用快捷键.md",
     "软件类使用/idea",
     "网络工程/网络通信/WEB及HTTP.md",
@@ -231,13 +262,11 @@
     "软件类使用/Mysql/未命名.md",
     "常用语法和算法/VIM语法/linux常用语法.md",
     "IT/设计模式",
-    "软件类使用/Python/Python.md",
     "软件类使用/Python",
     "软件类使用/EditPlus",
     "常用语法和算法/常用格式(ymal,xml,property)",
     "软件类使用/Mysql",
     "常用语法和算法/常用算法",
-    "软件类使用/Linux",
     "模具实际加工工艺/未命名.canvas",
     "未命名.canvas"
   ]
