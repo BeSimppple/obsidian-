@@ -16,12 +16,12 @@
             }
           },
           {
-            "id": "e2782eb04ca21a07",
+            "id": "c092154753b45559",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用语法和算法/markdown语法及快捷键/快捷键.md",
+                "file": "网络工程/计算机硬件系统/机器语言和汇编语言.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法和算法/markdown语法及快捷键/快捷键.md",
+                "file": "网络工程/计算机硬件系统/机器语言和汇编语言.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法和算法/markdown语法及快捷键/快捷键.md",
+                "file": "网络工程/计算机硬件系统/机器语言和汇编语言.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法和算法/markdown语法及快捷键/快捷键.md"
+                "file": "网络工程/计算机硬件系统/机器语言和汇编语言.md"
               }
             }
           },
@@ -184,15 +184,16 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "e2782eb04ca21a07",
+  "active": "2f3653ef60aee64c",
   "lastOpenFiles": [
+    "常用语法和算法/markdown语法及快捷键/快捷键.md",
+    "网络工程/计算机硬件系统/机器语言和汇编语言.md",
     "软件类使用/idea/常用快捷键.md",
     "sortspec.md",
     "网络工程/AI/OpenAI.md",
     "网络工程/AI",
     "IT/SpringBoot/SpringBoot.md",
     "常用语法和算法/markdown语法及快捷键/基础语法.md",
-    "常用语法和算法/markdown语法及快捷键/快捷键.md",
     "IT/SpringBoot/Ribbon和Openfeign.md",
     "IT/基础知识点/反射.md",
     "IT/基础知识点/常用注解.md",
@@ -225,7 +226,6 @@
     "IT/MySQL",
     "常用语法和算法/正则表达式.md",
     "软件类使用/Mysql/未命名.md",
-    "常用语法和算法/VIM语法/linux常用语法.md",
     "IT/设计模式",
     "软件类使用/Python",
     "软件类使用/EditPlus",
