@@ -4,26 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "041d4eedff97589d",
+        "id": "d173978c0361c4c0",
         "type": "tabs",
         "children": [
           {
-            "id": "c092154753b45559",
+            "id": "ab00b58c65593bd5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/SpringBoot/Ribbon和Openfeign.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a5d34e9a207944db",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-chat-view",
+              "type": "empty",
               "state": {}
             }
           }
@@ -93,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/SpringBoot/Ribbon和Openfeign.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/SpringBoot/Ribbon和Openfeign.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "IT/SpringBoot/Ribbon和Openfeign.md"
-              }
+              "state": {}
             }
           },
           {
@@ -183,18 +167,24 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "c092154753b45559",
+  "active": "2f3653ef60aee64c",
   "lastOpenFiles": [
+    "软件(原理,部署,特点)/Redis",
+    "sortspec.md",
+    "IT/基础知识点/数据结构.md",
+    "IT/基础知识点/JVM.md",
+    "软件(原理,部署,特点)/idea/Idea相关.md",
+    "软件(原理,部署,特点)/idea/常用快捷键.md",
+    "IT/其他/支付sdk.md",
+    "IT/其他",
+    "IT/SpringBoot/Ribbon和Openfeign.md",
     "网络工程/计算机硬件系统/机器语言(1代到5代).md",
     "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
     "常用语法和算法/markdown语法及快捷键/快捷键.md",
-    "软件类使用/idea/常用快捷键.md",
-    "sortspec.md",
     "网络工程/AI/OpenAI.md",
     "网络工程/AI",
     "IT/SpringBoot/SpringBoot.md",
     "常用语法和算法/markdown语法及快捷键/基础语法.md",
-    "IT/SpringBoot/Ribbon和Openfeign.md",
     "IT/基础知识点/反射.md",
     "IT/基础知识点/常用注解.md",
     "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",
@@ -209,28 +199,22 @@
     "obsidian相关/Picture/TCP协议三次握手四次挥手_image_7.jpeg",
     "obsidian相关/Picture/TCP协议三次握手四次挥手_image_6.jpeg",
     "obsidian相关/Picture/TCP协议三次握手四次挥手_image_5.jpeg",
-    "IT/基础知识点/JVM.md",
     "IT/MySQL/数据库优化(1).md",
     "IT/前端(VScode,VUE,nodejs)/HTML概念.md",
     "IT/前端(VScode,VUE,nodejs)/CSS.md",
     "IT/设计模式/代理模式.md",
     "IT/设计模式/单例设计模式.md",
-    "软件类使用/idea",
+    "软件(原理,部署,特点)/idea",
     "网络工程/网络通信/WEB及HTTP.md",
     "IT/基础知识点/关系运算符及循环跳转语句及递归.md",
     "IT/MySQL/数据库优化(2).md",
-    "IT/MySQL/数据库概念.md",
-    "IT/Spring/Servlet(服务器端小型通信).md",
     "IT/前端(VScode,VUE,nodejs)",
-    "常用语法和算法/SQL语法.md",
     "IT/MySQL",
-    "常用语法和算法/正则表达式.md",
     "IT/设计模式",
-    "软件类使用/Python",
+    "软件(原理,部署,特点)/Python",
     "软件类使用/EditPlus",
     "常用语法和算法/常用格式(ymal,xml,property)",
-    "软件类使用/Mysql",
-    "常用语法和算法/常用算法",
+    "软件(原理,部署,特点)/Mysql",
     "模具实际加工工艺/未命名.canvas",
     "未命名.canvas"
   ]
