@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络工程/网络通信/网络通信.md",
+                "file": "网络工程/网络通信/VPN(virtual private network).md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网络工程/网络通信/网络通信.md",
+                "file": "网络工程/网络通信/VPN(virtual private network).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网络工程/网络通信/网络通信.md",
+                "file": "网络工程/网络通信/VPN(virtual private network).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网络工程/网络通信/网络通信.md"
+                "file": "网络工程/网络通信/VPN(virtual private network).md"
               }
             }
           },
@@ -214,8 +214,8 @@
   },
   "active": "d6b5a61ef2aa4898",
   "lastOpenFiles": [
-    "软件(原理,部署,特点)/Linux/vmware.md",
     "网络工程/网络通信/网络通信.md",
+    "软件(原理,部署,特点)/Linux/vmware.md",
     "软件(原理,部署,特点)/Linux/Linux.md",
     "网络工程/网络通信/文件传输协议FTP和SFTP.md",
     "网络工程/网络通信/VPN(virtual private network).md",
