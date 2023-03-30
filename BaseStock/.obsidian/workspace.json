@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "osi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -200,7 +201,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "d6b5a61ef2aa4898",
+  "active": "5dea023d3aba5de8",
   "lastOpenFiles": [
     "网络工程/网络通信/未命名.md",
     "软件(原理,部署,特点)/Linux/vmware.md",
