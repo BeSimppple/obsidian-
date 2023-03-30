@@ -171,7 +171,7 @@
             }
           },
           {
-            "id": "7fb8c48779907499",
+            "id": "d55abbabe4069040",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -183,8 +183,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,7 +199,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "c163d416ed612849",
+  "active": "d55abbabe4069040",
   "lastOpenFiles": [
     "网络工程/计算机硬件系统/计算机.md",
     "网络工程/网络通信/常见错误码.md",
