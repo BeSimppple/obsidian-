@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络工程/网络通信/文件传输协议.md",
+                "file": "软件(原理,部署,特点)/Linux/vmware.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网络工程/网络通信/文件传输协议.md",
+                "file": "软件(原理,部署,特点)/Linux/vmware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网络工程/网络通信/文件传输协议.md",
+                "file": "软件(原理,部署,特点)/Linux/vmware.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网络工程/网络通信/文件传输协议.md"
+                "file": "软件(原理,部署,特点)/Linux/vmware.md"
               }
             }
           },
@@ -190,8 +190,8 @@
   },
   "active": "5368a4ae338368b5",
   "lastOpenFiles": [
-    "软件(原理,部署,特点)/Linux/SecureCRT.md",
     "网络工程/网络通信/文件传输协议.md",
+    "软件(原理,部署,特点)/Linux/SecureCRT.md",
     "网络工程/网络通信/未命名",
     "软件(原理,部署,特点)/Linux/vmware.md",
     "网络工程/常见问题解决.md",
