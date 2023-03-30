@@ -1,0 +1,6 @@
+SecureCRT 7.0.0.326
+SecureCRT和SecureCRTportable是同一款软件的不同版本。SecureCRT是一款功能强大的终端仿真软件，可用于连接和管理远程计算机和网络设备。它可以通过SSH、Telnet、rlogin、Serial和其他协议连接到服务器，并提供了许多高级功能，如脚本记录、文件传输和会话管理等。
+
+SecureCRTportable是SecureCRT的便携式版本，它可以在不进行安装的情况下运行。这意味着您可以将SecureCRTportable复制到可移动设备（如USB驱动器）中，并在需要时在不同计算机上使用它，而无需在每台计算机上安装软件。
+
+总之，两个版本都提供了类似的功能，但SecureCRTportable更加灵活，因为它可以在任何计算机上运行，而不需要进行安装。
