@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "02e28de37ef0c80e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "网络工程/网络通信/VPN(virtual private network).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5368a4ae338368b5",
             "type": "leaf",
             "state": {
@@ -44,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网络工程/网络通信/网络通信.md",
+                "file": "网络工程/网络通信/VPN(virtual private network).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网络工程/网络通信/网络通信.md",
+                "file": "网络工程/网络通信/VPN(virtual private network).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网络工程/网络通信/网络通信.md"
+                "file": "网络工程/网络通信/VPN(virtual private network).md"
               }
             }
           },
@@ -200,14 +212,16 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "2f3653ef60aee64c",
+  "active": "02e28de37ef0c80e",
   "lastOpenFiles": [
-    "网络工程/网络通信/未命名.md",
+    "obsidian相关/Picture/VPN(virtual private network)_image_1.png",
+    "obsidian相关/Picture/VPN(virtual private network)_image_2.png",
+    "网络工程/网络通信/网络通信.md",
+    "网络工程/网络通信/VPN(virtual private network).md",
     "软件(原理,部署,特点)/Linux/vmware.md",
     "软件(原理,部署,特点)/Linux/Linux.md",
     "软件(原理,部署,特点)/Linux/SecureCRT.md",
     "网络工程/网络通信/文件传输协议FTP和SFTP.md",
-    "网络工程/网络通信/网络通信.md",
     "网络工程/网络通信/WEB及HTTP.md",
     "网络工程/网络通信/TCP协议三次握手四次挥手.md",
     "网络工程/网络通信/cookie与session.md",
@@ -234,11 +248,9 @@
     "IT/SpringCloud/Logstash(实时传输管道).md",
     "obsidian相关/Picture/C7285ADF30E8468383D79C221ADB108D.jpg",
     "IT/其他/Freemarker模板技术.md",
-    "obsidian相关/Picture/4C719AD53A354C408E34CFC7F1808162.jpg",
     "IT/其他/支付sdk.md",
     "IT/基础知识点/数据结构.md",
     "IT/Spring/事务管理.md",
-    "IT/基础知识点/多线程-线程安全.md",
     "软件(原理,部署,特点)/Maven",
     "软件(原理,部署,特点)/Redis",
     "IT/其他",
