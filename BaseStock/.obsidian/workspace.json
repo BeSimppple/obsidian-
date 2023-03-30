@@ -90,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -201,7 +200,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "5dea023d3aba5de8",
+  "active": "2f3653ef60aee64c",
   "lastOpenFiles": [
     "网络工程/网络通信/未命名.md",
     "软件(原理,部署,特点)/Linux/vmware.md",
