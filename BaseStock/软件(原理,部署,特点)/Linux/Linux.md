@@ -50,6 +50,8 @@ chmod命令：该命令用于改变文件的权限
 
 nohup命令：不挂断地运行命令。
 
+sudo命令: super do使普通用户也能快速调用管理员权限的命令(使用需要输入管理员账号密码)
+
 nohup command > nohupcmd.out 2>&1 &
 
 cd /
