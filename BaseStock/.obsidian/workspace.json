@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "d6b5a61ef2aa4898",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "网络工程/网络通信/网络通信.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5368a4ae338368b5",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/Linux/vmware.md",
+                "file": "网络工程/网络通信/网络通信.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/Linux/vmware.md",
+                "file": "网络工程/网络通信/网络通信.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/Linux/vmware.md"
+                "file": "网络工程/网络通信/网络通信.md"
               }
             }
           },
@@ -187,10 +200,11 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "9a44f73763505547",
+  "active": "d6b5a61ef2aa4898",
   "lastOpenFiles": [
-    "软件(原理,部署,特点)/Linux/Linux.md",
+    "网络工程/网络通信/未命名.md",
     "软件(原理,部署,特点)/Linux/vmware.md",
+    "软件(原理,部署,特点)/Linux/Linux.md",
     "软件(原理,部署,特点)/Linux/SecureCRT.md",
     "网络工程/网络通信/文件传输协议FTP和SFTP.md",
     "网络工程/网络通信/网络通信.md",
@@ -225,7 +239,6 @@
     "IT/基础知识点/数据结构.md",
     "IT/Spring/事务管理.md",
     "IT/基础知识点/多线程-线程安全.md",
-    "IT/前端(VScode,VUE,nodejs)/Jquery和Ajax.md",
     "软件(原理,部署,特点)/Maven",
     "软件(原理,部署,特点)/Redis",
     "IT/其他",
