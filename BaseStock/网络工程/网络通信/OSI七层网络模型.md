@@ -13,7 +13,9 @@
 6. 信号传输方式:  有线(电,光),无线(无线波)
 总结:第一层包含网络通信的基础设施,是远程通信成为可能的规范
 -   **Do** | 数据链路层（Data Link Layer）
-定义了数据格式和传输方式,多大数据传输许可时间
+1. 定义了数据格式和传输方式,多大数据传输许可时间,第二层主要是检测第一层可能发生的错误,但不是去纠正.
+2. 子层1(LLC Logical Link Control)逻辑链路控制,主要处理帧的寻址和流量控制,速度取决于两个节点之间的链路例如wifi和以太网
+3. 子层2(MAC Media Access Control)网卡硬件出厂时根据IEEE协议分配的
 -   **Not** | 网络层（Network Layer）
 -   **Tell** （the）| 传输层（Transport Layer） 
 -   **Secret** | 会话层（Session Layer）
