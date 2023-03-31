@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8f2ceab75624530e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "网络工程/网络通信/基础知识/常见网络参数解释.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "10007793d29528ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "网络工程/网络通信/基础知识/常见网络参数解释.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "83b45f9e24e704fb",
             "type": "leaf",
             "state": {
@@ -44,19 +20,19 @@
             }
           },
           {
-            "id": "283b299d65036f51",
+            "id": "4114d3719ad19906",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络工程/网络通信/TCP协议三次握手四次挥手.md",
+                "file": "网络工程/网络通信/OSI七层网络模型.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -122,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网络工程/网络通信/基础知识/常见术语.md",
+                "file": "网络工程/网络通信/OSI七层网络模型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网络工程/网络通信/基础知识/常见术语.md",
+                "file": "网络工程/网络通信/OSI七层网络模型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网络工程/网络通信/基础知识/常见术语.md"
+                "file": "网络工程/网络通信/OSI七层网络模型.md"
               }
             }
           },
@@ -212,11 +189,12 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "83b45f9e24e704fb",
+  "active": "4114d3719ad19906",
   "lastOpenFiles": [
-    "网络工程/网络通信/基础知识/常见网络参数解释.md",
     "网络工程/网络通信/基础知识/常见术语.md",
     "网络工程/网络通信/OSI七层网络模型.md",
+    "网络工程/网络通信/节点(node).md",
+    "网络工程/网络通信/基础知识/常见网络参数解释.md",
     "网络工程/网络通信/TCP协议三次握手四次挥手.md",
     "网络工程/网络通信/cookie与session.md",
     "网络工程/网络通信/基础知识/常见错误码.md",
@@ -250,7 +228,6 @@
     "软件(原理,部署,特点)/Maven/Maven原理.md",
     "IT/SpringCloud/Logstash(实时传输管道).md",
     "IT/其他/Freemarker模板技术.md",
-    "IT/其他/支付sdk.md",
     "软件(原理,部署,特点)/Maven",
     "软件(原理,部署,特点)/Redis",
     "IT/其他",
