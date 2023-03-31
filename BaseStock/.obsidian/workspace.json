@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络工程/网络通信/基础知识/常见协议.md",
+                "file": "网络工程/网络通信/TCP协议三次握手四次挥手.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sudo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网络工程/网络通信/基础知识/常见协议.md",
+                "file": "网络工程/网络通信/OSI七层网络模型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网络工程/网络通信/基础知识/常见协议.md",
+                "file": "网络工程/网络通信/OSI七层网络模型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网络工程/网络通信/基础知识/常见协议.md"
+                "file": "网络工程/网络通信/OSI七层网络模型.md"
               }
             }
           },
@@ -200,16 +200,16 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "283b299d65036f51",
+  "active": "10007793d29528ed",
   "lastOpenFiles": [
+    "网络工程/网络通信/TCP协议三次握手四次挥手.md",
     "网络工程/网络通信/OSI七层网络模型.md",
+    "网络工程/网络通信/cookie与session.md",
+    "网络工程/网络通信/基础知识/常见错误码.md",
+    "网络工程/网络通信/基础知识/常见架构.md",
     "网络工程/网络通信/基础知识/常见参数解释.md",
     "网络工程/网络通信/基础知识/常见协议.md",
-    "网络工程/网络通信/基础知识/常见架构.md",
-    "网络工程/网络通信/基础知识/常见错误码.md",
-    "网络工程/网络通信/TCP协议三次握手四次挥手.md",
     "软件(原理,部署,特点)/Linux/Linux.md",
-    "网络工程/网络通信/cookie与session.md",
     "网络工程/网络通信/VPN(virtual private network).md",
     "obsidian相关/Picture/VPN(virtual private network)_image_9.png",
     "obsidian相关/Picture/VPN(virtual private network)_image_8.png",
