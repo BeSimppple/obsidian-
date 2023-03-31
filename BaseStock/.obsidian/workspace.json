@@ -175,10 +175,11 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "2f3653ef60aee64c",
+  "active": "4114d3719ad19906",
   "lastOpenFiles": [
-    "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
+    "网络工程/网络通信/软路由.md",
     "常用语法和算法/markdown语法及快捷键/基础语法.md",
+    "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
     "软件(原理,部署,特点)/Redis/Redis原理.md",
     "常用语法和算法/正则表达式.md",
     "常用语法和算法/markdown语法及快捷键/[.md",
@@ -212,7 +213,6 @@
     "网络工程/计算机硬件系统/计算机.md",
     "网络工程/计算机硬件系统/CISC和RISC指令集.md",
     "sortspec.md",
-    "IT/Spring/Servlet(服务器端小型通信).md",
     "obsidian相关/Picture/Servlet(服务器端小型通信)_image_1.jpg",
     "软件(原理,部署,特点)/Maven",
     "软件(原理,部署,特点)/Redis",
