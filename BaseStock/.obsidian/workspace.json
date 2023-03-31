@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络工程/网络通信/基础知识/常见参数解释.md",
+                "file": "网络工程/网络通信/基础知识/常见网络参数解释.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络工程/网络通信/OSI七层网络模型.md",
+                "file": "网络工程/网络通信/基础知识/常见网络参数解释.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "83b45f9e24e704fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "网络工程/网络通信/基础知识/常见术语.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网络工程/网络通信/基础知识/常见参数解释.md",
+                "file": "网络工程/网络通信/基础知识/常见术语.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网络工程/网络通信/基础知识/常见参数解释.md",
+                "file": "网络工程/网络通信/基础知识/常见术语.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网络工程/网络通信/基础知识/常见参数解释.md"
+                "file": "网络工程/网络通信/基础知识/常见术语.md"
               }
             }
           },
@@ -199,11 +212,12 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "8f2ceab75624530e",
+  "active": "83b45f9e24e704fb",
   "lastOpenFiles": [
-    "网络工程/网络通信/TCP协议三次握手四次挥手.md",
-    "网络工程/网络通信/基础知识/常见参数解释.md",
+    "网络工程/网络通信/基础知识/常见网络参数解释.md",
+    "网络工程/网络通信/基础知识/常见术语.md",
     "网络工程/网络通信/OSI七层网络模型.md",
+    "网络工程/网络通信/TCP协议三次握手四次挥手.md",
     "网络工程/网络通信/cookie与session.md",
     "网络工程/网络通信/基础知识/常见错误码.md",
     "网络工程/网络通信/基础知识/常见架构.md",

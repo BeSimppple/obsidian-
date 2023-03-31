@@ -3,7 +3,7 @@
 ![[OSI七层网络模型_image_1.jpg|300]]  ![[OSI七层网络模型_image_2.jpg|390]]
 -   分层的原理是根据越硬件实体化越底层
 -   **Please** | 物理层（Physical Layer）
-
+包含节点(node)设备和网络硬件
 -   **Do** | 数据链路层（Data Link Layer）
 -   **Not** | 网络层（Network Layer）
 -   **Tell** （the）| 传输层（Transport Layer）
