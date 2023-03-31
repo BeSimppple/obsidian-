@@ -11,6 +11,7 @@
 4. 电缆协议和规范(最大电缆长度、调制技术、无线电规范、线路编码和位同步)电缆类型(屏蔽或非屏蔽双绞线、非双绞线、同轴电缆等)[详情](https://www.computernetworkingnotes.com/networking-tutorials/network-cable-types-and-specifications.html)
 5. 信号类型(单工,半全双工,全双工)[^1]
 6. 信号传输方式:  有线(电,光),无线(无线波)
+总结:第一层包含网络通信的基础设施,是远程通信成为可能的规范
 -   **Do** | 数据链路层（Data Link Layer）
 -   **Not** | 网络层（Network Layer）
 -   **Tell** （the）| 传输层（Transport Layer） 
