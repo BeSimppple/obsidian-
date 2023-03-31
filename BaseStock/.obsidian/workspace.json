@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络工程/网络通信/基础知识/常见架构.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1b41179c666f372a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "网络工程/网络通信/VPN(virtual private network).md",
+                "file": "网络工程/网络通信/基础知识/常见参数解释.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网络工程/网络通信/VPN(virtual private network).md",
+                "file": "网络工程/网络通信/基础知识/常见参数解释.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网络工程/网络通信/VPN(virtual private network).md",
+                "file": "网络工程/网络通信/基础知识/常见参数解释.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网络工程/网络通信/VPN(virtual private network).md"
+                "file": "网络工程/网络通信/基础知识/常见参数解释.md"
               }
             }
           },
@@ -188,8 +175,15 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "1b41179c666f372a",
+  "active": "8f2ceab75624530e",
   "lastOpenFiles": [
+    "网络工程/网络通信/基础知识/常见架构.md",
+    "软件(原理,部署,特点)/Linux/Linux.md",
+    "网络工程/网络通信/基础知识/常见参数解释.md",
+    "网络工程/网络通信/文件传输协议FTP和SFTP.md",
+    "网络工程/网络通信/cookie与session.md",
+    "网络工程/网络通信/TCP协议三次握手四次挥手.md",
+    "网络工程/网络通信/VPN(virtual private network).md",
     "obsidian相关/Picture/VPN(virtual private network)_image_9.png",
     "obsidian相关/Picture/VPN(virtual private network)_image_8.png",
     "obsidian相关/Picture/VPN(virtual private network)_image_7.png",
@@ -197,23 +191,16 @@
     "obsidian相关/Picture/VPN(virtual private network)_image_5.png",
     "obsidian相关/Picture/VPN(virtual private network)_image_4.png",
     "obsidian相关/Picture/VPN(virtual private network)_image_3.png",
-    "网络工程/网络通信/基础知识/常见架构.md",
-    "网络工程/网络通信/VPN(virtual private network).md",
     "网络工程/网络通信/基础知识",
     "网络工程/网络通信/未命名.md",
     "网络工程/网络通信/WEB及HTTP.md",
-    "网络工程/网络通信/网络通信.md",
     "软件(原理,部署,特点)/Linux/vmware.md",
-    "软件(原理,部署,特点)/Linux/Linux.md",
-    "网络工程/网络通信/文件传输协议FTP和SFTP.md",
     "obsidian相关/Picture/VPN(virtual private network)_image_1.png",
     "obsidian相关/Picture/VPN(virtual private network)_image_2.png",
     "软件(原理,部署,特点)/Linux/SecureCRT.md",
-    "网络工程/网络通信/TCP协议三次握手四次挥手.md",
-    "网络工程/网络通信/cookie与session.md",
     "网络工程/常见问题解决.md",
     "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
-    "网络工程/网络通信/常见错误码.md",
+    "网络工程/网络通信/基础知识/常见错误码.md",
     "网络工程/计算机硬件系统/计算机.md",
     "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
     "网络工程/计算机硬件系统/CISC和RISC指令集.md",
@@ -221,7 +208,6 @@
     "IT/Spring/Servlet(服务器端小型通信).md",
     "obsidian相关/Picture/Servlet(服务器端小型通信)_image_1.jpg",
     "IT/SpringCloud/Redisson分布式锁和SpringTask.md",
-    "obsidian相关/Picture/26D9E73F3B8444A5BB1CBD9AAD602355.jpg",
     "软件(原理,部署,特点)/Redis/Redis原理.md",
     "软件(原理,部署,特点)/Maven/Maven原理.md",
     "IT/SpringCloud/Logstash(实时传输管道).md",
