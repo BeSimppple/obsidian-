@@ -20,18 +20,19 @@
             }
           },
           {
-            "id": "c0b606dad7ca41c2",
+            "id": "da855e240e677ef6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络工程/网络通信/基础知识/常见术语.md",
+                "file": "常用语法和算法/markdown语法及快捷键/基础语法.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网络工程/网络通信/OSI七层网络模型.md",
+                "file": "常用语法和算法/markdown语法及快捷键/基础语法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网络工程/网络通信/OSI七层网络模型.md",
+                "file": "常用语法和算法/markdown语法及快捷键/基础语法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网络工程/网络通信/OSI七层网络模型.md"
+                "file": "常用语法和算法/markdown语法及快捷键/基础语法.md"
               }
             }
           },
@@ -187,14 +188,14 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "4114d3719ad19906",
+  "active": "da855e240e677ef6",
   "lastOpenFiles": [
+    "网络工程/网络通信/OSI七层网络模型.md",
+    "常用语法和算法/markdown语法及快捷键/基础语法.md",
     "网络工程/网络通信/基础知识/常见术语.md",
     "网络工程/网络通信/基础知识/常见网络参数解释.md",
     "obsidian相关/Picture/常见术语_image_1.png",
-    "常用语法和算法/markdown语法及快捷键/基础语法.md",
     "软件(原理,部署,特点)/Redis/Redis原理.md",
-    "网络工程/网络通信/OSI七层网络模型.md",
     "网络工程/网络通信/cookie与session.md",
     "网络工程/网络通信/基础知识/常见协议.md",
     "网络工程/网络通信/软路由.md",
