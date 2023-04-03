@@ -6,4 +6,7 @@ win+r 运行
 alt+tab 切换程序
 
 
+#### vimium语法快捷键
+![[Windows快捷键_image_1.png]]
+
 
