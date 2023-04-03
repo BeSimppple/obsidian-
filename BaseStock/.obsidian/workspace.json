@@ -158,7 +158,7 @@
             }
           },
           {
-            "id": "8c150025519cb9bc",
+            "id": "b6cc4074942908fa",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -187,7 +187,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "4114d3719ad19906",
+  "active": "b6cc4074942908fa",
   "lastOpenFiles": [
     "常用语法和算法/Windows快捷键.md",
     "网络工程/网络通信/OSI七层网络模型.md",
