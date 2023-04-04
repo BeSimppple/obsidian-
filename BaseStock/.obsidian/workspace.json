@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/编程理念.md",
+                "file": "软件(原理,部署,特点)/项目部署/环境部署.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "maven",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/编程理念.md",
+                "file": "软件(原理,部署,特点)/项目部署/环境部署.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/编程理念.md",
+                "file": "软件(原理,部署,特点)/项目部署/环境部署.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/编程理念.md"
+                "file": "软件(原理,部署,特点)/项目部署/环境部署.md"
               }
             }
           },
@@ -190,8 +190,10 @@
   },
   "active": "dd394bb1bb862471",
   "lastOpenFiles": [
-    "软件(原理,部署,特点)/Maven/Maven命令行命令.md",
+    "软件(原理,部署,特点)/项目部署/所需软件.md",
+    "软件(原理,部署,特点)/项目部署/环境部署.md",
     "IT/编程理念.md",
+    "软件(原理,部署,特点)/Maven/Maven命令行命令.md",
     "IT/常用概念.md",
     "软件(原理,部署,特点)/Idea/常用插件.md",
     "软件(原理,部署,特点)/Idea/常见问题.md",
@@ -217,10 +219,8 @@
     "obsidian相关/Picture/Windows快捷键_image_2.png",
     "obsidian相关/Picture/Windows快捷键_image_1.png",
     "网络工程/网络攻击/Raas勒索软件.md",
-    "常用语法和算法/github找项目方式.md",
     "网络工程/网络攻击/Raas勒索软件",
     "网络工程/网络攻击",
-    "网络工程/网络通信/基础知识/常见网络参数解释.md",
     "obsidian相关/Picture/常见术语_image_1.png",
     "obsidian相关/Picture/VPN(virtual private network)_image_9.png",
     "obsidian相关/Picture/VPN(virtual private network)_image_8.png",
