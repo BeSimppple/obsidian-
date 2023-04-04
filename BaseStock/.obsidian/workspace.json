@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "dd394bb1bb862471",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "软件(原理,部署,特点)/Idea/常见问题.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/Maven/Maven命令行命令.md",
+                "file": "软件(原理,部署,特点)/Idea/常见问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/Maven/Maven命令行命令.md",
+                "file": "软件(原理,部署,特点)/Idea/常见问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/Maven/Maven命令行命令.md"
+                "file": "软件(原理,部署,特点)/Idea/常见问题.md"
               }
             }
           },
@@ -175,14 +188,15 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "3cd173923dd8dd0e",
+  "active": "dd394bb1bb862471",
   "lastOpenFiles": [
+    "软件(原理,部署,特点)/Maven/Maven命令行命令.md",
+    "软件(原理,部署,特点)/Idea/常见问题.md",
     "软件(原理,部署,特点)/Maven/Maven原理.md",
     "软件(原理,部署,特点)/Maven/Maven和Gradle的区别.md",
     "软件(原理,部署,特点)/Idea/常用插件.md",
     "软件(原理,部署,特点)/Idea/常用快捷键.md",
     "软件(原理,部署,特点)/Idea/Idea相关配置.md",
-    "软件(原理,部署,特点)/Maven/Maven命令行命令.md",
     "软件(原理,部署,特点)/Linux/Linux.md",
     "IT/其他/支付sdk(software development kit).md",
     "常用语法和算法/常用格式(ymal,xml,property)/XML(Extensible Markup Language).md",
@@ -207,7 +221,6 @@
     "网络工程/网络攻击/Raas勒索软件",
     "网络工程/网络攻击",
     "网络工程/网络通信/基础知识/常见网络参数解释.md",
-    "网络工程/网络通信/基础知识/常见术语.md",
     "obsidian相关/Picture/常见术语_image_1.png",
     "obsidian相关/Picture/VPN(virtual private network)_image_9.png",
     "obsidian相关/Picture/VPN(virtual private network)_image_8.png",
