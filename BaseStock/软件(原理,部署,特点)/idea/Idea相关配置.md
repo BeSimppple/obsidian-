@@ -1,3 +1,6 @@
+[idea2022.3.2破解](https://www.exception.site/essay/how-to-free-use-idea-202021-by-resigter-code)
+2022.3支持 jdk7-19
+2019.3支持jdk6-13
 常用插件:
 idea右键项目local history(选中某个节点)revert可以本地回滚(以后项目中使用gitte云项目回滚)
 最左下边的structure（结构）可以帮忙查看类中属性和方法（查看lombok注解是否生效）
