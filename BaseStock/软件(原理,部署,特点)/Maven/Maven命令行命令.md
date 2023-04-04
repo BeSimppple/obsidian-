@@ -1,6 +1,6 @@
 #### 常用命令:
 1. mvn clean   清除产生的项目
-2. mvn install 打包并安装
+2. mvn install 打包并编译
 3. 
 4. 编译源代码： mvn compile 
 5.  编译测试代码：mvn test-compile    
