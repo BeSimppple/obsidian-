@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络工程/计算机硬件系统/计算机硬件.md",
+                "file": "软件(原理,部署,特点)/项目部署/环境部署.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网络工程/计算机硬件系统/计算机硬件.md",
+                "file": "软件(原理,部署,特点)/项目部署/环境部署.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网络工程/计算机硬件系统/计算机硬件.md",
+                "file": "软件(原理,部署,特点)/项目部署/环境部署.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网络工程/计算机硬件系统/计算机硬件.md"
+                "file": "软件(原理,部署,特点)/项目部署/环境部署.md"
               }
             }
           },
@@ -189,8 +189,8 @@
   },
   "active": "3cd173923dd8dd0e",
   "lastOpenFiles": [
-    "网络工程/计算机硬件系统/计算机.md",
     "网络工程/计算机硬件系统/计算机硬件.md",
+    "网络工程/计算机硬件系统/计算机.md",
     "网络工程/计算机硬件系统/机器语言(1代到5代).md",
     "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
     "软件(原理,部署,特点)/项目部署/环境部署.md",
