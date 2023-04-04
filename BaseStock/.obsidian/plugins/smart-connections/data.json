@@ -4,7 +4,7 @@
   "folder_exclusions": "",
   "header_exclusions": "",
   "path_only": "",
-  "show_full_path": false,
+  "show_full_path": true,
   "expanded_view": true,
   "group_nearest_by_file": false,
   "language": "en",
@@ -15,5 +15,9 @@
   "results_count": 30,
   "view_open": true,
   "version": "1.2.8",
-  "failed_files": []
+  "failed_files": [
+    "",
+    "常用语法和算法/常用格式(ymal,xml,property)/XML(Extensible Markup Language).md",
+    "网络工程/网络通信/基础知识/常见架构.md"
+  ]
 }
