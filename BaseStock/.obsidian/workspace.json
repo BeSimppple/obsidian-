@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件(原理,部署,特点)/Idea/常见问题.md",
+                "file": "软件(原理,部署,特点)/Idea/常用插件.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/Idea/常见问题.md",
+                "file": "软件(原理,部署,特点)/Idea/常用插件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/Idea/常见问题.md",
+                "file": "软件(原理,部署,特点)/Idea/常用插件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/Idea/常见问题.md"
+                "file": "软件(原理,部署,特点)/Idea/常用插件.md"
               }
             }
           },
@@ -190,8 +190,8 @@
   },
   "active": "dd394bb1bb862471",
   "lastOpenFiles": [
-    "软件(原理,部署,特点)/Maven/Maven命令行命令.md",
     "软件(原理,部署,特点)/Idea/常见问题.md",
+    "软件(原理,部署,特点)/Maven/Maven命令行命令.md",
     "软件(原理,部署,特点)/Maven/Maven原理.md",
     "软件(原理,部署,特点)/Maven/Maven和Gradle的区别.md",
     "软件(原理,部署,特点)/Idea/常用插件.md",
