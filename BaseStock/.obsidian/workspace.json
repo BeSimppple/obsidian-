@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件(原理,部署,特点)/Maven/Maven命令行命令.md",
+                "file": "软件(原理,部署,特点)/Idea/Idea相关配置.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/Maven/Maven命令行命令.md",
+                "file": "软件(原理,部署,特点)/Idea/Idea相关配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/Maven/Maven命令行命令.md",
+                "file": "软件(原理,部署,特点)/Idea/Idea相关配置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/Maven/Maven命令行命令.md"
+                "file": "软件(原理,部署,特点)/Idea/Idea相关配置.md"
               }
             }
           },
@@ -177,8 +177,8 @@
   },
   "active": "3cd173923dd8dd0e",
   "lastOpenFiles": [
-    "软件(原理,部署,特点)/Maven/Maven和Gradle的区别.md",
     "软件(原理,部署,特点)/Maven/Maven命令行命令.md",
+    "软件(原理,部署,特点)/Maven/Maven和Gradle的区别.md",
     "软件(原理,部署,特点)/Maven/Maven原理.md",
     "软件(原理,部署,特点)/Linux/Linux.md",
     "IT/其他/支付sdk(software development kit).md",
