@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/MySQL/常用语法.md",
+                "file": "软件(原理,部署,特点)/Mysql/Mysql快捷键.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mysql",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/MySQL/常用语法.md",
+                "file": "软件(原理,部署,特点)/Mysql/Mysql快捷键.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/MySQL/常用语法.md",
+                "file": "软件(原理,部署,特点)/Mysql/Mysql快捷键.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/MySQL/常用语法.md"
+                "file": "软件(原理,部署,特点)/Mysql/Mysql快捷键.md"
               }
             }
           },
@@ -188,10 +188,10 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "615c3c773cf904f5",
+  "active": "2f3653ef60aee64c",
   "lastOpenFiles": [
-    "软件(原理,部署,特点)/Mysql/Mysql快捷键.md",
     "IT/MySQL/常用语法.md",
+    "软件(原理,部署,特点)/Mysql/Mysql快捷键.md",
     "软件(原理,部署,特点)/Mysql/Mysql原理.md",
     "软件(原理,部署,特点)/项目部署/环境部署.md",
     "IT/MySQL/数据库优化(2).md",
