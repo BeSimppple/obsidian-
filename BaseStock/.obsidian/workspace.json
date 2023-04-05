@@ -158,7 +158,7 @@
             }
           },
           {
-            "id": "8baf2a2c35593918",
+            "id": "1fa44d531378e89f",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -170,8 +170,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,7 +186,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "3cd173923dd8dd0e",
+  "active": "1fa44d531378e89f",
   "lastOpenFiles": [
     "网络工程/计算机硬件系统/计算机硬件.md",
     "网络工程/计算机硬件系统/计算机.md",
