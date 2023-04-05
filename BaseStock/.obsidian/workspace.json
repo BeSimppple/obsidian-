@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/环境部署.md",
+                "file": "软件(原理,部署,特点)/Mysql/Mysql快捷键.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "615c3c773cf904f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/MySQL/常用语法.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/环境部署.md",
+                "file": "IT/MySQL/常用语法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/环境部署.md",
+                "file": "IT/MySQL/常用语法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/环境部署.md"
+                "file": "IT/MySQL/常用语法.md"
               }
             }
           },
@@ -175,14 +188,15 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "a178a555560dd986",
+  "active": "615c3c773cf904f5",
   "lastOpenFiles": [
-    "IT/MySQL/数据库优化(2).md",
     "软件(原理,部署,特点)/Mysql/Mysql快捷键.md",
-    "IT/MySQL/数据库优化(1).md",
-    "IT/MySQL/数据库概念.md",
+    "IT/MySQL/常用语法.md",
     "软件(原理,部署,特点)/Mysql/Mysql原理.md",
     "软件(原理,部署,特点)/项目部署/环境部署.md",
+    "IT/MySQL/数据库优化(2).md",
+    "IT/MySQL/数据库优化(1).md",
+    "IT/MySQL/数据库概念.md",
     "网络工程/计算机硬件系统/计算机硬件.md",
     "网络工程/计算机硬件系统/计算机.md",
     "网络工程/计算机硬件系统/机器语言(1代到5代).md",
@@ -202,7 +216,6 @@
     "软件(原理,部署,特点)/Idea/Idea相关配置.md",
     "软件(原理,部署,特点)/Linux/Linux.md",
     "IT/其他/支付sdk(software development kit).md",
-    "常用语法和算法/常用格式(ymal,xml,property)/XML(Extensible Markup Language).md",
     "obsidian相关/Picture/Git与SVN的区别_image_1.png",
     "obsidian相关/Picture/Windows快捷键_image_2.png",
     "obsidian相关/Picture/Windows快捷键_image_1.png",
