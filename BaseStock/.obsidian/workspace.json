@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/环境部署.md",
+                "file": "2023-04-06.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/环境部署.md",
+                "file": "2023-04-06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/环境部署.md",
+                "file": "2023-04-06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/环境部署.md"
+                "file": "2023-04-06.md"
               }
             }
           },
@@ -169,6 +169,8 @@
   },
   "active": "65f8076ede504224",
   "lastOpenFiles": [
+    "软件(原理,部署,特点)/项目部署/环境部署.md",
+    "2023-04-06.md",
     "软件(原理,部署,特点)/Idea/Spring整合Mybatis.md",
     "软件(原理,部署,特点)/Linux/vmware.md",
     "软件(原理,部署,特点)/Linux/SecureCRT.md",
@@ -195,8 +197,6 @@
     "模板样式仓库",
     "模具实际加工工艺/模具实际加工流程.md",
     "模具实际加工工艺",
-    "模具UG设计/模具知识管理类/细节.md",
-    "模具UG设计/模具知识管理类/建模-画图-装配知识.md",
     "模具UG设计/模具知识管理类",
     "模具UG设计",
     "机械图片组/G0.1.2.3曲面.png",
