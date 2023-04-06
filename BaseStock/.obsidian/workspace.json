@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-04-06.md",
+                "file": "IT/基础知识点/JVM.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "springcloud",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-04-06.md",
+                "file": "IT/基础知识点/JVM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-04-06.md",
+                "file": "IT/基础知识点/JVM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-04-06.md"
+                "file": "IT/基础知识点/JVM.md"
               }
             }
           },
@@ -145,8 +145,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -169,8 +168,29 @@
   },
   "active": "65f8076ede504224",
   "lastOpenFiles": [
-    "软件(原理,部署,特点)/项目部署/环境部署.md",
+    "obsidian相关/Picture/JVM_image_2.png",
+    "IT/基础知识点/数据结构.md",
+    "obsidian相关/Picture/数据结构_image_2.jpg",
+    "IT/SpringCloud/Redisson分布式锁和SpringTask.md",
+    "IT/SpringCloud/Logstash(实时传输管道).md",
+    "IT/其他/支付sdk(software development kit).md",
+    "obsidian相关/Picture/支付sdk(software development kit)_image_3.jpg",
+    "obsidian相关/Picture/Logstash(实时传输管道)_image_1.jpg",
+    "IT/其他/Freemarker模板技术.md",
+    "obsidian相关/Picture/Freemarker模板技术_image_3.jpg",
+    "obsidian相关/Picture/Redisson分布式锁和SpringTask_image_1.jpg",
+    "软件(原理,部署,特点)/项目部署/GIT实现云同步/git云仓库.md",
+    "obsidian相关/Picture/git云仓库_image_1.jpg",
+    "obsidian相关/Picture/Windows快捷键_image_1.png",
+    "obsidian相关/Picture/git云仓库_image_3.jpg",
+    "软件(原理,部署,特点)/Redis/Redis原理.md",
+    "obsidian相关/Picture/Redis原理_image_3.jpg",
+    "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
+    "obsidian相关/Picture/Nacos(服务注册与发现,配置)_image_1.jpg",
+    "IT/SpringCloud/Sentinel(降级熔断).md",
+    "IT/SpringCloud/SpringCloud框架思想.md",
     "2023-04-06.md",
+    "软件(原理,部署,特点)/项目部署/环境部署.md",
     "软件(原理,部署,特点)/Idea/Spring整合Mybatis.md",
     "软件(原理,部署,特点)/Linux/vmware.md",
     "软件(原理,部署,特点)/Linux/SecureCRT.md",
@@ -184,32 +204,11 @@
     "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT实现合并,回退.md",
     "软件(原理,部署,特点)/项目部署/GIT实现云同步/Idea中GIT使用.md",
     "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
-    "软件(原理,部署,特点)/Idea/常用插件.md",
-    "软件(原理,部署,特点)/Idea/常见问题.md",
-    "常用语法和算法/常用格式(ymal,xml,property)/XML(Extensible Markup Language).md",
-    "常用语法和算法/常用格式(ymal,xml,property)/常用格式.md",
-    "常用语法和算法/VIM语法/linux常用语法.md",
-    "常用语法和算法/语言(仅需了解).md",
-    "sortspec.md",
-    "软件(原理,部署,特点)/项目部署/GIT实现云同步/git云仓库.md",
-    "软件(原理,部署,特点)/项目部署/GIT实现云同步/Git与SVN的区别.md",
-    "网络工程/软路由.md",
     "模板样式仓库",
-    "模具实际加工工艺/模具实际加工流程.md",
     "模具实际加工工艺",
     "模具UG设计/模具知识管理类",
     "模具UG设计",
-    "机械图片组/G0.1.2.3曲面.png",
     "机械图片组",
-    "markdown语法/Pasted image 20230221110629.png",
-    "markdown语法/Pasted image 20230221110620.png",
-    "markdown语法/Pasted image 20230221110609.png",
-    "markdown语法/Pasted image 20230221110550.png",
-    "markdown语法/Pasted image 20230221110524.png",
-    "markdown语法/Pasted image 20230221110515.png",
-    "markdown语法/Pasted image 20230221110441.png",
-    "markdown语法/Pasted image 20230221110419.png",
-    "markdown语法/Pasted image 20230221110311.png",
     "markdown语法",
     "IT/GIT实现云同步",
     "Day Planners"

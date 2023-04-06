@@ -8,9 +8,9 @@ sentinel还实现了接口权限的限制
 sentinel分两个部分:
 核心库（Java 客户端）不依赖任何框架/库，能够运行于所有 Java 运行时环境，同时对 Dubbo / Spring Cloud 等框架也有较好的支持。
 控制台（Dashboard）基于 Spring Boot 开发，打包后可以直接运行，不需要额外的 Tomcat 等应用容器。能有实时监控功能看到500台一下机器秒级数据,同时提供spi扩展接口方便开发者自己编写特殊熔断场景需求
-![[07d1f766761745fb8bc2306fe728d531.jpg]]
+![[Sentinel(降级熔断)_image_1.jpg]]
 Sentiel和Hystrix对比
-![[e835b6006a194ef7963fd86f22e9df87.jpg]]
+![[Sentinel(降级熔断)_image_2.jpg]]
 Sentinel整合项目:
 
 1.下载sentinel控制台的jar包
@@ -71,7 +71,7 @@ QPS:Queries-per-second,每秒资源被访问的次数
 
 快速失败(直接返回)
 
-![[20ae6361d8f04f05af2f50df2b545cda.jpg]]
+![[Sentinel(降级熔断)_image_3.jpg]]
 
 Warm-up方式(该方式常用于某接口需要额外开销场景(例如每次调用需要创建数据库链接)
 
@@ -91,7 +91,7 @@ Warm-up方式(该方式常用于某接口需要额外开销场景(例如每次�
 
 Sentinel服务熔断降级(几种方式)
 
-![[2793c5db8f3a4ecd8ec75d5dbaed3300.jpg]]
+![[Sentinel(降级熔断)_image_4.jpg]]
 
 达到条件触发熔断->熔断开启->熔断时间结束->关闭熔断降级
 
@@ -138,8 +138,7 @@ sentinel对参数的qps限流(热点限流)
 首先在接口上加入该注解定义资源名之后才能对参数进行限流
 
 在控制台对指定接口添加热点限流后进入编辑
-
-![[ecba6b92f5214d51b99c1c66b45f9164.jpg]]
+![[Sentinel(降级熔断)_image_5.jpg]]
 
 参数索引默认写0,单机阈值表示该接口最多被访问10次
 
@@ -219,7 +218,7 @@ qps(设置单台机器所有入口流量并发qps的阈值)
 
 sentinel底层如何实现的限流和熔断操作(调用已经写好的transport包内的方法去流控)
 
-![[8fbc68cd3546461aafd7b3ce9c85fc71.jpg]]
+![[Sentinel(降级熔断)_image_6.jpg]]
 
 spring.cloud.sentinel.transport.port=8719(相当于有1套额外的server项目,端口8719作用就是工具类注册到sentinel控制台,然后去实现控制台操作的限流和熔断等操作 每个服务都需要注册一个transport-simple才能实现限流)
 
@@ -235,13 +234,13 @@ Sentinel持久化方案(重要,将限流和熔断等规则放到nacos或本地,�
 
 默认模式
 
-![[cf77384eb46d4e99887451130999943a.jpg]]
+![[Sentinel(降级熔断)_image_7.jpg]]
 
 (图表示sentinel默认情况是通过transport里的api将规则直接推到内存中)
 
 Push模式(生产环境常用)
 
-![[6bb67dea2c6b4f65a047d0ddf3b58581.jpg]]
+![[Sentinel(降级熔断)_image_8.jpg]]
 
 对于 push 模式的数据源,如远程配置中心（ZooKeeper, Nacos, Apollo等等），推送的操作不应由 Sentinel 客户端进行，而应该经控制台统一进行管理，直接进行推送，数据源仅负责获取配置中心推送的配置并更新到本地。因此推送规则正确做法应该是 配置中心控制台/Sentinel 控制台 → 配置中心(nacos) → Sentinel 数据源 → Sentinel，而不是经 Sentinel 数据源推送至配置中心。(但是sentinel底层源码还是通过dashborad推送到sentinel客户端而不是nacos配置中心,所以需要修改sentinel源码)：
 
@@ -309,7 +308,7 @@ spring.cloud.sentinel.datasource.ds.nacos.rule-type=flow
 
 pull模式(不常用)
 
-![[074cb45bff024d2eb2026503e3796ee5.jpg]]
+![[Sentinel(降级熔断)_image_9.jpg]]
 
 底层逻辑:
 

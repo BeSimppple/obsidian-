@@ -395,8 +395,7 @@ hash slot只分配给master不会给slave
 保证一台服务器宕机的时候其slave的备份文件并不会一起消失(6台则无该烦恼)
 
 取数据时根据get的槽的位置找到集群中对应redis
-
-  ![[0CC8ADC40B104CE49D46FC79C6329B2C.jpg]]
+  ![[Redis原理_image_3.jpg]]
 
 # redis集群版
 

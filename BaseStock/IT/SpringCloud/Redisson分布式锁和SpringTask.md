@@ -139,7 +139,7 @@ lock.unlock()//释放锁
 写定时任务@Scheduled并ioc到spring容器
 
 流程:
-![[26D9E73F3B8444A5BB1CBD9AAD602355.jpg]]
+![[Redisson分布式锁和SpringTask_image_1.jpg]]
 
 redis存储格式:
 

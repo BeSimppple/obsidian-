@@ -1,6 +1,5 @@
 (同类型eureka和zookepper)
-
-![[00C95859CC88464A8701D55412435F46.jpg]]
+![[Nacos(服务注册与发现,配置)_image_1.jpg]]
 
 actuator的作用是监视服务的状态
 
@@ -74,7 +73,7 @@ spring.cloud.nacos.discovery.server-addr:XXX(naocso,ip配置)
 
 nacos实现高可用(集群)
 
-![[CF35B1F3396D41178B211747034B8649.jpg]]
+![[Nacos(服务注册与发现,配置)_image_2.jpg]]
 
 1.vip不是必须的,因为nacos主要也是运维在使用不会有太大访问量
 
@@ -120,7 +119,7 @@ NacosServerList.getServers
 
 nacos工作原理
 
-![[22CD0D814AB440E1A906DF33925AF331.jpg]]
+![[Nacos(服务注册与发现,配置)_image_3.jpg]]
 
 服务心跳5s一次由服务客户端发送给nacos
 
@@ -148,7 +147,7 @@ nacos工作原理
 
 nacos底层架构
 
-![[1CBDC52EE6BE4D10AD52CDE70B96787F.jpg]]
+![[Nacos(服务注册与发现,配置)_image_4.jpg]]
 
 nacos常用功能：
 
@@ -162,7 +161,7 @@ nacos常用功能：
 
 Nacos集群架构
 
-![[640038328D6146E795CA8C00A0D1C222.jpg]]
+![[Nacos(服务注册与发现,配置)_image_5.jpg]]
 
 真集群搭建:nacos实例搭建在不同的服务器里面
 
@@ -176,10 +175,10 @@ nacos领域模型
 
 不同group的微服务相互隔离
 
-![[B05CC64A86624D7C9ADB4D3E1367820D.jpg]]
+![[Nacos(服务注册与发现,配置)_image_6.jpg]]
 Nacos-config
 
-![[03B0BF15763E43F488B7F96F0C1D9651.jpg]]
+![[Nacos(服务注册与发现,配置)_image_7.jpg]]
 
 nacos-config主要解决什么问题?
 

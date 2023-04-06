@@ -87,8 +87,7 @@ id唯一(雪花算法)
 采用:IdWorker
 
 满足1.长度一致2.不包含字符串3,保证唯一
-
-![[4C719AD53A354C408E34CFC7F1808162.jpg]]
+![[Freemarker模板技术_image_3.jpg]]
 
 IdWorker采用的是雪花算法(SnowFlake)
 

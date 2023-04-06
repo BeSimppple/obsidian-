@@ -131,9 +131,7 @@ SpringCloud常用注解(不包含springboot和spring):
 ### 为什么要用springcloud?
 
 springboot单体架构:
-
-
-![[E958EDFE2FAD4C68BFF7DB56E1D020EC 2.jpg]]
+![[SpringCloud框架思想_image_1.jpg]]
 优点：
 
 1：部署简单: 由于是完整的结构体，可以直接部署在一个服务器上即可。
@@ -192,4 +190,4 @@ SpringCloud为微服务提供了完美的问题解决方案和框架
 
 3、运维复杂度陡增，如：部署物数量多、监控进程多导致整体运维复杂度提升。
 
-![[76E6810CF2544D28A84B376C7CBDC3EE.jpg]]
+![[SpringCloud框架思想_image_2.jpg]]
