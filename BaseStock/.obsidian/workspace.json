@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0e595b320250698b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "软件(原理,部署,特点)/Idea/详解.idea文件夹作用.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "95f24ab96378af35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT的.ignore文件写法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/Idea中GIT使用.md",
+                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT的.ignore文件写法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/Idea中GIT使用.md",
+                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT的.ignore文件写法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/Idea中GIT使用.md"
+                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT的.ignore文件写法.md"
               }
             }
           },
@@ -166,8 +191,11 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "65f8076ede504224",
+  "active": "95f24ab96378af35",
   "lastOpenFiles": [
+    "软件(原理,部署,特点)/Idea/详解.idea文件夹作用.md",
+    "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT的.ignore文件写法.md",
+    "软件(原理,部署,特点)/项目部署/GIT实现云同步/Idea中GIT使用.md",
     "IT/基础知识点/JVM.md",
     "obsidian相关/Picture/JVM_image_2.png",
     "IT/基础知识点/数据结构.md",
@@ -201,9 +229,6 @@
     "软件(原理,部署,特点)/Idea/Idea相关配置.md",
     "软件(原理,部署,特点)/Idea/常用配置.md",
     "软件(原理,部署,特点)/Idea/常用快捷键.md",
-    "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT实现合并,回退.md",
-    "软件(原理,部署,特点)/项目部署/GIT实现云同步/Idea中GIT使用.md",
-    "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
     "模板样式仓库",
     "模具实际加工工艺",
     "模具UG设计/模具知识管理类",
