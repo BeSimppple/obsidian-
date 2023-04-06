@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件(原理,部署,特点)/Idea/详解.idea文件夹作用.md",
+                "file": "软件(原理,部署,特点)/Idea/Idea相关配置.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/Idea/详解.idea文件夹作用.md",
+                "file": "软件(原理,部署,特点)/Idea/Idea相关配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/Idea/详解.idea文件夹作用.md",
+                "file": "软件(原理,部署,特点)/Idea/Idea相关配置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/Idea/详解.idea文件夹作用.md"
+                "file": "软件(原理,部署,特点)/Idea/Idea相关配置.md"
               }
             }
           },
@@ -168,8 +168,9 @@
   },
   "active": "0e595b320250698b",
   "lastOpenFiles": [
-    "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT的.gitignore文件写法.md",
     "软件(原理,部署,特点)/Idea/详解.idea文件夹作用.md",
+    "软件(原理,部署,特点)/Idea/Idea相关配置.md",
+    "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT的.gitignore文件写法.md",
     "软件(原理,部署,特点)/项目部署/GIT实现云同步/Idea中GIT使用.md",
     "IT/基础知识点/JVM.md",
     "obsidian相关/Picture/JVM_image_2.png",
@@ -201,7 +202,6 @@
     "软件(原理,部署,特点)/Maven/Maven原理.md",
     "软件(原理,部署,特点)/Maven/Maven命令行命令.md",
     "软件(原理,部署,特点)/Maven/Maven和Gradle的区别.md",
-    "软件(原理,部署,特点)/Idea/Idea相关配置.md",
     "软件(原理,部署,特点)/Idea/常用配置.md",
     "软件(原理,部署,特点)/Idea/常用快捷键.md",
     "模板样式仓库",
