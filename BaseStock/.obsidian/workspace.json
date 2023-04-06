@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "e0282f2f98b43927",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/未命名.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "615c3c773cf904f5",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
+                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
+                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md"
+                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/未命名.md"
               }
             }
           },
@@ -187,21 +200,27 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "a178a555560dd986",
+  "active": "e0282f2f98b43927",
   "lastOpenFiles": [
-    "软件(原理,部署,特点)/项目部署/GIT实现云同步/Idea中GIT使用.md",
+    "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
+    "软件(原理,部署,特点)/项目部署/GIT实现云同步/未命名.md",
     "软件(原理,部署,特点)/项目部署/GIT实现云同步/github-Token.md",
+    "软件(原理,部署,特点)/项目部署/GIT实现云同步/Idea中GIT使用.md",
     "软件(原理,部署,特点)/项目部署/GIT实现云同步/git云仓库.md",
     "软件(原理,部署,特点)/项目部署/GIT实现云同步/Git与SVN的区别.md",
-    "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
+    "软件(原理,部署,特点)/Idea/常见问题.md",
+    "软件(原理,部署,特点)/Maven/Maven命令行命令.md",
+    "obsidian相关/Picture/IT知识类/环境部署_image_1.png",
+    "IT/其他/支付sdk(software development kit).md",
+    "IT/MySQL/常用语法.md",
+    "obsidian相关/Picture/IT知识类/JDK和JRE.png",
+    "IT/其他/支付sdk.md",
     "软件(原理,部署,特点)/Idea/常用快捷键.md",
     "软件(原理,部署,特点)/Mysql/Mysql快捷键.md",
     "IT/MySQL/数据库优化(1).md",
     "IT/MySQL/数据库优化(2).md",
     "软件(原理,部署,特点)/Idea/常用配置.md",
     "软件(原理,部署,特点)/Idea/常用插件.md",
-    "软件(原理,部署,特点)/Idea/常见问题.md",
-    "IT/MySQL/常用语法.md",
     "IT/MySQL/数据库概念.md",
     "软件(原理,部署,特点)/Mysql/Mysql原理.md",
     "软件(原理,部署,特点)/项目部署/环境部署.md",
@@ -211,10 +230,6 @@
     "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
     "常用语法和算法/Windows快捷键.md",
     "常用语法和算法/github找项目方式.md",
-    "常用语法和算法/SQL语法.md",
-    "软件(原理,部署,特点)/Maven/Maven命令行命令.md",
-    "软件(原理,部署,特点)/项目部署/所需软件.md",
-    "IT/编程理念.md",
     "obsidian相关/Picture/Git与SVN的区别_image_1.png",
     "obsidian相关/Picture/Windows快捷键_image_2.png",
     "obsidian相关/Picture/Windows快捷键_image_1.png",
@@ -225,8 +240,6 @@
     "obsidian相关/Picture/VPN(virtual private network)_image_8.png",
     "obsidian相关/Picture/VPN(virtual private network)_image_7.png",
     "obsidian相关/Picture/VPN(virtual private network)_image_6.png",
-    "obsidian相关/Picture/VPN(virtual private network)_image_5.png",
-    "obsidian相关/Picture/VPN(virtual private network)_image_4.png",
     "网络工程/网络通信/基础知识",
     "软件(原理,部署,特点)/Maven",
     "软件(原理,部署,特点)/Redis",
