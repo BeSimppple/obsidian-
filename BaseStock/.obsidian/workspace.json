@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件(原理,部署,特点)/Mysql/Mysql快捷键.md",
+                "file": "软件(原理,部署,特点)/Idea/常用快捷键.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/Mysql/Mysql快捷键.md",
+                "file": "软件(原理,部署,特点)/Idea/常用快捷键.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/Mysql/Mysql快捷键.md",
+                "file": "软件(原理,部署,特点)/Idea/常用快捷键.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/Mysql/Mysql快捷键.md"
+                "file": "软件(原理,部署,特点)/Idea/常用快捷键.md"
               }
             }
           },
@@ -159,7 +158,7 @@
             }
           },
           {
-            "id": "1fa44d531378e89f",
+            "id": "e8bbcc81ca20f9ae",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -188,15 +187,19 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "2f3653ef60aee64c",
+  "active": "a178a555560dd986",
   "lastOpenFiles": [
+    "软件(原理,部署,特点)/Idea/常用配置.md",
+    "软件(原理,部署,特点)/Idea/常用快捷键.md",
+    "软件(原理,部署,特点)/Idea/常用插件.md",
+    "软件(原理,部署,特点)/Idea/常见问题.md",
     "IT/MySQL/常用语法.md",
+    "IT/MySQL/数据库概念.md",
+    "IT/MySQL/数据库优化(1).md",
+    "IT/MySQL/数据库优化(2).md",
     "软件(原理,部署,特点)/Mysql/Mysql快捷键.md",
     "软件(原理,部署,特点)/Mysql/Mysql原理.md",
     "软件(原理,部署,特点)/项目部署/环境部署.md",
-    "IT/MySQL/数据库优化(2).md",
-    "IT/MySQL/数据库优化(1).md",
-    "IT/MySQL/数据库概念.md",
     "网络工程/计算机硬件系统/计算机硬件.md",
     "网络工程/计算机硬件系统/计算机.md",
     "网络工程/计算机硬件系统/机器语言(1代到5代).md",
@@ -208,14 +211,10 @@
     "软件(原理,部署,特点)/项目部署/所需软件.md",
     "IT/编程理念.md",
     "IT/常用概念.md",
-    "软件(原理,部署,特点)/Idea/常用插件.md",
-    "软件(原理,部署,特点)/Idea/常见问题.md",
     "软件(原理,部署,特点)/Maven/Maven原理.md",
     "软件(原理,部署,特点)/Maven/Maven和Gradle的区别.md",
-    "软件(原理,部署,特点)/Idea/常用快捷键.md",
     "软件(原理,部署,特点)/Idea/Idea相关配置.md",
     "软件(原理,部署,特点)/Linux/Linux.md",
-    "IT/其他/支付sdk(software development kit).md",
     "obsidian相关/Picture/Git与SVN的区别_image_1.png",
     "obsidian相关/Picture/Windows快捷键_image_2.png",
     "obsidian相关/Picture/Windows快捷键_image_1.png",
