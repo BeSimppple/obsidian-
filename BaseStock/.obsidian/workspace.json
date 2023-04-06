@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sortspec.md",
+                "file": "软件(原理,部署,特点)/项目部署/环境部署.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sortspec.md",
+                "file": "软件(原理,部署,特点)/项目部署/环境部署.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sortspec.md",
+                "file": "软件(原理,部署,特点)/项目部署/环境部署.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sortspec.md"
+                "file": "软件(原理,部署,特点)/项目部署/环境部署.md"
               }
             }
           },
@@ -169,30 +169,38 @@
   },
   "active": "65f8076ede504224",
   "lastOpenFiles": [
+    "软件(原理,部署,特点)/Idea/Spring整合Mybatis.md",
+    "软件(原理,部署,特点)/Linux/vmware.md",
+    "软件(原理,部署,特点)/Linux/SecureCRT.md",
+    "软件(原理,部署,特点)/Linux/Linux.md",
+    "软件(原理,部署,特点)/Maven/Maven原理.md",
+    "软件(原理,部署,特点)/Maven/Maven命令行命令.md",
+    "软件(原理,部署,特点)/Maven/Maven和Gradle的区别.md",
+    "软件(原理,部署,特点)/Idea/Idea相关配置.md",
+    "软件(原理,部署,特点)/Idea/常用配置.md",
+    "软件(原理,部署,特点)/Idea/常用快捷键.md",
+    "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT实现合并,回退.md",
+    "软件(原理,部署,特点)/项目部署/GIT实现云同步/Idea中GIT使用.md",
+    "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
+    "软件(原理,部署,特点)/Idea/常用插件.md",
+    "软件(原理,部署,特点)/Idea/常见问题.md",
+    "常用语法和算法/常用格式(ymal,xml,property)/XML(Extensible Markup Language).md",
+    "常用语法和算法/常用格式(ymal,xml,property)/常用格式.md",
+    "常用语法和算法/VIM语法/linux常用语法.md",
+    "常用语法和算法/语言(仅需了解).md",
+    "sortspec.md",
     "软件(原理,部署,特点)/项目部署/GIT实现云同步/git云仓库.md",
     "软件(原理,部署,特点)/项目部署/GIT实现云同步/Git与SVN的区别.md",
-    "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT实现合并,回退.md",
-    "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
     "网络工程/软路由.md",
     "模板样式仓库",
     "模具实际加工工艺/模具实际加工流程.md",
     "模具实际加工工艺",
     "模具UG设计/模具知识管理类/细节.md",
     "模具UG设计/模具知识管理类/建模-画图-装配知识.md",
-    "模具UG设计/模具知识管理类/模具设计.md",
-    "模具UG设计/模具知识管理类/模具结构.md",
-    "模具UG设计/模具知识管理类/常用名词.md",
     "模具UG设计/模具知识管理类",
-    "模具UG设计/问题集.md",
-    "模具UG设计/流程.md",
-    "模具UG设计/常用命令.md",
-    "模具UG设计/UG逆向工程.md",
-    "模具UG设计/UG快捷键.md",
     "模具UG设计",
     "机械图片组/G0.1.2.3曲面.png",
     "机械图片组",
-    "markdown语法/快捷键.md",
-    "markdown语法/基础语法.md",
     "markdown语法/Pasted image 20230221110629.png",
     "markdown语法/Pasted image 20230221110620.png",
     "markdown语法/Pasted image 20230221110609.png",
@@ -202,16 +210,8 @@
     "markdown语法/Pasted image 20230221110441.png",
     "markdown语法/Pasted image 20230221110419.png",
     "markdown语法/Pasted image 20230221110311.png",
-    "markdown语法/markdown笔记操作方式.md",
     "markdown语法",
-    "IT/GIT实现云同步/GIT(设置流程).md",
     "IT/GIT实现云同步",
-    "Day Planners/Day Planner-20230331.md",
-    "Day Planners/Day Planner-20230324.md",
-    "Day Planners/Day Planner-20230323.md",
-    "Day Planners/Day Planner-20230322.md",
-    "Day Planners/Day Planner-20230321.md",
-    "Day Planners/Day Planner-20230320.md",
     "Day Planners"
   ]
 }
