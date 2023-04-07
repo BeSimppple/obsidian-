@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习/学习方法.md",
+                "file": "IT/编程理念.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/学习方法.md",
+                "file": "IT/编程理念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/学习方法.md",
+                "file": "IT/编程理念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/学习方法.md"
+                "file": "IT/编程理念.md"
               }
             }
           },
@@ -194,9 +194,14 @@
   },
   "active": "3d43c629f9800b2a",
   "lastOpenFiles": [
+    "IT/常用概念.md",
+    "常用语法和算法/github找项目方式.md",
+    "常用语法和算法/Windows快捷键.md",
+    "常用语法和算法/正则表达式.md",
+    "常用语法和算法/语言(仅需了解).md",
+    "学习/学习方法.md",
     "学习/英语技巧.md",
     "学习/JAVA学习XIMD图.md",
-    "学习/学习方法.md",
     "sortspec.md",
     "软件(原理,部署,特点)/Idea/Idea相关配置.md",
     "学习",
@@ -226,11 +231,6 @@
     "IT/SpringCloud/SpringCloud框架思想.md",
     "2023-04-06.md",
     "软件(原理,部署,特点)/项目部署/环境部署.md",
-    "软件(原理,部署,特点)/Idea/Spring整合Mybatis.md",
-    "软件(原理,部署,特点)/Linux/vmware.md",
-    "软件(原理,部署,特点)/Linux/SecureCRT.md",
-    "软件(原理,部署,特点)/Linux/Linux.md",
-    "软件(原理,部署,特点)/Maven/Maven原理.md",
     "模板样式仓库",
     "模具实际加工工艺",
     "模具UG设计/模具知识管理类",
