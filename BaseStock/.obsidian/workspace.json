@@ -8,14 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cca041bdb904141a",
+            "id": "efdca9a294f4fdc3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "软件(原理,部署,特点)/JDK/GraaIVM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "de6877ace3b78c46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "常用语法和算法/markdown语法及快捷键/基础语法.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "JDK",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "常用语法和算法/markdown语法及快捷键/基础语法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "常用语法和算法/markdown语法及快捷键/基础语法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "常用语法和算法/markdown语法及快捷键/基础语法.md"
+              }
             }
           },
           {
@@ -167,16 +188,22 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "cca041bdb904141a",
+  "active": "de6877ace3b78c46",
   "lastOpenFiles": [
+    "软件(原理,部署,特点)/JDK/GraaIVM.md",
+    "常用语法和算法/markdown语法及快捷键/基础语法.md",
+    "软件(原理,部署,特点)/项目部署/环境部署.md",
+    "软件(原理,部署,特点)/JDK",
+    "obsidian相关/命名规范和设置.md",
+    "IT/MySQL/常用语法.md",
+    "软件(原理,部署,特点)/Mysql/Mysql快捷键.md",
+    "软件(原理,部署,特点)/项目部署/所需软件.md",
     "2023-04-07.md",
     "IT/常用概念.md",
     "IT/编程理念.md",
     "学习/学习方法.md",
     "学习/英语技巧.md",
     "学习/JAVA学习XIMD图.md",
-    "软件(原理,部署,特点)/项目部署/环境部署.md",
-    "软件(原理,部署,特点)/项目部署/所需软件.md",
     "sortspec.md",
     "软件(原理,部署,特点)/Idea/常用配置.md",
     "常用语法和算法/github找项目方式.md",
@@ -193,18 +220,13 @@
     "IT/基础知识点/数据结构.md",
     "obsidian相关/Picture/数据结构_image_2.jpg",
     "IT/SpringCloud/Redisson分布式锁和SpringTask.md",
-    "IT/SpringCloud/Logstash(实时传输管道).md",
-    "IT/其他/支付sdk(software development kit).md",
     "obsidian相关/Picture/支付sdk(software development kit)_image_3.jpg",
     "obsidian相关/Picture/Logstash(实时传输管道)_image_1.jpg",
-    "IT/其他/Freemarker模板技术.md",
     "obsidian相关/Picture/Freemarker模板技术_image_3.jpg",
     "obsidian相关/Picture/Redisson分布式锁和SpringTask_image_1.jpg",
-    "软件(原理,部署,特点)/项目部署/GIT实现云同步/git云仓库.md",
     "obsidian相关/Picture/git云仓库_image_1.jpg",
     "obsidian相关/Picture/Windows快捷键_image_1.png",
     "obsidian相关/Picture/git云仓库_image_3.jpg",
-    "软件(原理,部署,特点)/Redis/Redis原理.md",
     "obsidian相关/Picture/Redis原理_image_3.jpg",
     "模板样式仓库",
     "模具实际加工工艺",
