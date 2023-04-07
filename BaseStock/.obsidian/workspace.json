@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习/JAVA学习XIMD图.md",
+                "file": "学习/学习方法.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/JAVA学习XIMD图.md",
+                "file": "学习/学习方法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/JAVA学习XIMD图.md",
+                "file": "学习/学习方法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/JAVA学习XIMD图.md"
+                "file": "学习/学习方法.md"
               }
             }
           },
@@ -163,14 +163,15 @@
             }
           },
           {
-            "id": "1c19cfc6c668f218",
+            "id": "49e10e710f4808e0",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -193,8 +194,9 @@
   },
   "active": "3d43c629f9800b2a",
   "lastOpenFiles": [
-    "学习/学习方法.md",
+    "学习/英语技巧.md",
     "学习/JAVA学习XIMD图.md",
+    "学习/学习方法.md",
     "sortspec.md",
     "软件(原理,部署,特点)/Idea/Idea相关配置.md",
     "学习",
@@ -229,7 +231,6 @@
     "软件(原理,部署,特点)/Linux/SecureCRT.md",
     "软件(原理,部署,特点)/Linux/Linux.md",
     "软件(原理,部署,特点)/Maven/Maven原理.md",
-    "软件(原理,部署,特点)/Maven/Maven命令行命令.md",
     "模板样式仓库",
     "模具实际加工工艺",
     "模具UG设计/模具知识管理类",
