@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法和算法/markdown语法及快捷键/基础语法.md",
+                "file": "软件(原理,部署,特点)/JDK/GraaIVM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法和算法/markdown语法及快捷键/基础语法.md",
+                "file": "软件(原理,部署,特点)/JDK/GraaIVM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法和算法/markdown语法及快捷键/基础语法.md"
+                "file": "软件(原理,部署,特点)/JDK/GraaIVM.md"
               }
             }
           },
@@ -188,10 +187,15 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "de6877ace3b78c46",
+  "active": "efdca9a294f4fdc3",
   "lastOpenFiles": [
-    "软件(原理,部署,特点)/JDK/GraaIVM.md",
+    "obsidian相关/Picture/GraaIVM_image_2.png",
+    "obsidian相关/Picture/GraaIVM_image_3.png",
+    "obsidian相关/Picture/GraaIVM_image_1.png",
     "常用语法和算法/markdown语法及快捷键/基础语法.md",
+    "软件(原理,部署,特点)/JDK/GraaIVM.md",
+    "obsidian相关/Picture/tmp1680833538402_GraaIVM_image_2.png",
+    "obsidian相关/Picture/tmp1680833536334_GraaIVM_image_2.png",
     "软件(原理,部署,特点)/项目部署/环境部署.md",
     "软件(原理,部署,特点)/JDK",
     "obsidian相关/命名规范和设置.md",
@@ -219,15 +223,10 @@
     "obsidian相关/Picture/JVM_image_2.png",
     "IT/基础知识点/数据结构.md",
     "obsidian相关/Picture/数据结构_image_2.jpg",
-    "IT/SpringCloud/Redisson分布式锁和SpringTask.md",
     "obsidian相关/Picture/支付sdk(software development kit)_image_3.jpg",
     "obsidian相关/Picture/Logstash(实时传输管道)_image_1.jpg",
     "obsidian相关/Picture/Freemarker模板技术_image_3.jpg",
     "obsidian相关/Picture/Redisson分布式锁和SpringTask_image_1.jpg",
-    "obsidian相关/Picture/git云仓库_image_1.jpg",
-    "obsidian相关/Picture/Windows快捷键_image_1.png",
-    "obsidian相关/Picture/git云仓库_image_3.jpg",
-    "obsidian相关/Picture/Redis原理_image_3.jpg",
     "模板样式仓库",
     "模具实际加工工艺",
     "模具UG设计/模具知识管理类",
