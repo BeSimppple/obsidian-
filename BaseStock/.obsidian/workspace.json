@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "0be05b65b05037bc",
+        "id": "4fa60bab2040d650",
         "type": "tabs",
         "children": [
           {
-            "id": "0e595b320250698b",
+            "id": "cca041bdb904141a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sortspec.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "994a38cf6e09d469",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习/学习方法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3d43c629f9800b2a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/编程理念.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "springcloud",
+                "query": "JDK",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/编程理念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/编程理念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "IT/编程理念.md"
-              }
+              "state": {}
             }
           },
           {
@@ -169,9 +136,17 @@
               "type": "smart-connections-view",
               "state": {}
             }
+          },
+          {
+            "id": "720bb44ba05aea3d",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -192,17 +167,22 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "3d43c629f9800b2a",
+  "active": "cca041bdb904141a",
   "lastOpenFiles": [
+    "2023-04-07.md",
     "IT/常用概念.md",
+    "IT/编程理念.md",
+    "学习/学习方法.md",
+    "学习/英语技巧.md",
+    "学习/JAVA学习XIMD图.md",
+    "软件(原理,部署,特点)/项目部署/环境部署.md",
+    "软件(原理,部署,特点)/项目部署/所需软件.md",
+    "sortspec.md",
+    "软件(原理,部署,特点)/Idea/常用配置.md",
     "常用语法和算法/github找项目方式.md",
     "常用语法和算法/Windows快捷键.md",
     "常用语法和算法/正则表达式.md",
     "常用语法和算法/语言(仅需了解).md",
-    "学习/学习方法.md",
-    "学习/英语技巧.md",
-    "学习/JAVA学习XIMD图.md",
-    "sortspec.md",
     "软件(原理,部署,特点)/Idea/Idea相关配置.md",
     "学习",
     "软件(原理,部署,特点)/Idea/详解.idea文件夹作用.md",
@@ -226,11 +206,6 @@
     "obsidian相关/Picture/git云仓库_image_3.jpg",
     "软件(原理,部署,特点)/Redis/Redis原理.md",
     "obsidian相关/Picture/Redis原理_image_3.jpg",
-    "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
-    "IT/SpringCloud/Sentinel(降级熔断).md",
-    "IT/SpringCloud/SpringCloud框架思想.md",
-    "2023-04-06.md",
-    "软件(原理,部署,特点)/项目部署/环境部署.md",
     "模板样式仓库",
     "模具实际加工工艺",
     "模具UG设计/模具知识管理类",
