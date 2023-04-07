@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "5933e33752d0a5b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "软件(原理,部署,特点)/JDK/Spring AOT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "de6877ace3b78c46",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/JDK/GraaIVM.md",
+                "file": "软件(原理,部署,特点)/JDK/Spring AOT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/JDK/GraaIVM.md",
+                "file": "软件(原理,部署,特点)/JDK/Spring AOT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/JDK/GraaIVM.md"
+                "file": "软件(原理,部署,特点)/JDK/Spring AOT.md"
               }
             }
           },
@@ -187,13 +200,14 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "efdca9a294f4fdc3",
+  "active": "5933e33752d0a5b4",
   "lastOpenFiles": [
+    "软件(原理,部署,特点)/JDK/GraaIVM.md",
+    "软件(原理,部署,特点)/JDK/Spring AOT.md",
     "obsidian相关/Picture/GraaIVM_image_2.png",
     "obsidian相关/Picture/GraaIVM_image_3.png",
     "obsidian相关/Picture/GraaIVM_image_1.png",
     "常用语法和算法/markdown语法及快捷键/基础语法.md",
-    "软件(原理,部署,特点)/JDK/GraaIVM.md",
     "obsidian相关/Picture/tmp1680833538402_GraaIVM_image_2.png",
     "obsidian相关/Picture/tmp1680833536334_GraaIVM_image_2.png",
     "软件(原理,部署,特点)/项目部署/环境部署.md",
@@ -226,7 +240,6 @@
     "obsidian相关/Picture/支付sdk(software development kit)_image_3.jpg",
     "obsidian相关/Picture/Logstash(实时传输管道)_image_1.jpg",
     "obsidian相关/Picture/Freemarker模板技术_image_3.jpg",
-    "obsidian相关/Picture/Redisson分布式锁和SpringTask_image_1.jpg",
     "模板样式仓库",
     "模具实际加工工艺",
     "模具UG设计/模具知识管理类",
