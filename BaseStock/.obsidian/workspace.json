@@ -171,7 +171,7 @@
             }
           },
           {
-            "id": "3e5dcdffcbe51123",
+            "id": "23d60427c8ab5f63",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -183,7 +183,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,7 +200,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "3e5dcdffcbe51123",
+  "active": "23d60427c8ab5f63",
   "lastOpenFiles": [
     "软件(原理,部署,特点)/JDK/Spring AOT.md",
     "软件(原理,部署,特点)/JDK/GraaIVM.md",
