@@ -4,4 +4,6 @@
 常用语法和算法/常用格式(ymal,xml,property)/XML(Extensible Markup Language).md#xml与Html的区别
 常用语法和算法/常用格式(ymal,xml,property)/XML(Extensible Markup Language).md#xml介绍
 网络工程/网络通信/基础知识/常见架构.md
+软件(原理,部署,特点)/JDK/Spring AOT.md
 软件(原理,部署,特点)/Mysql/Mysql快捷键.md
+软件(原理,部署,特点)/项目部署/所需软件.md#工具类
