@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用语法和算法/常用算法/时间复杂度和空间复杂度.md",
+                "file": "软件(原理,部署,特点)/Idea/常用快捷键.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "正则表达式",
+                "query": "注释",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -77,7 +77,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法和算法/常用算法/时间复杂度和空间复杂度.md",
+                "file": "软件(原理,部署,特点)/Idea/常用快捷键.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法和算法/常用算法/时间复杂度和空间复杂度.md",
+                "file": "软件(原理,部署,特点)/Idea/常用快捷键.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法和算法/常用算法/时间复杂度和空间复杂度.md"
+                "file": "软件(原理,部署,特点)/Idea/常用快捷键.md"
               }
             }
           },
@@ -189,9 +190,10 @@
   },
   "active": "5933e33752d0a5b4",
   "lastOpenFiles": [
+    "软件(原理,部署,特点)/Idea/常用插件.md",
+    "常用语法和算法/常用算法/时间复杂度和空间复杂度.md",
     "软件(原理,部署,特点)/项目部署/所需软件.md",
     "obsidian相关/Picture/时间复杂度和空间复杂度_image_3.png",
-    "常用语法和算法/常用算法/时间复杂度和空间复杂度.md",
     "obsidian相关/Picture/时间复杂度和空间复杂度_image_2.png",
     "obsidian相关/Picture/时间复杂度和空间复杂度_image_1.png",
     "常用语法和算法/正则表达式.md",
@@ -218,7 +220,6 @@
     "学习/JAVA学习.md",
     "学习/学习方法.md",
     "网络工程/AI/OpenAI.md",
-    "软件(原理,部署,特点)/JDK/Spring AOT.md",
     "obsidian相关/Picture/GraaIVM_image_2.png",
     "obsidian相关/Picture/GraaIVM_image_3.png",
     "obsidian相关/Picture/GraaIVM_image_1.png",
