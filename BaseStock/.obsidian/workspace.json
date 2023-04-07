@@ -78,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -189,7 +188,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "de6877ace3b78c46",
+  "active": "7278d5866d783733",
   "lastOpenFiles": [
     "软件(原理,部署,特点)/Nginx(反向代理服务器).md",
     "软件(原理,部署,特点)/Editplus.md",
