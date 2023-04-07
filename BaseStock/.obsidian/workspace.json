@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件(原理,部署,特点)/JDK/Spring AOT.md",
+                "file": "学习/JAVA学习.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/JDK/Spring AOT.md",
+                "file": "学习/JAVA学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/JDK/Spring AOT.md",
+                "file": "学习/JAVA学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/JDK/Spring AOT.md"
+                "file": "学习/JAVA学习.md"
               }
             }
           },
@@ -201,11 +201,13 @@
   },
   "active": "efdca9a294f4fdc3",
   "lastOpenFiles": [
+    "学习/学习方法.md",
+    "学习/JAVA学习.md",
+    "软件(原理,部署,特点)/JDK/Spring AOT.md",
     "软件(原理,部署,特点)/JDK/GraaIVM.md",
     "常用语法和算法/markdown语法及快捷键/基础语法.md",
     "软件(原理,部署,特点)/项目部署/所需软件.md",
     "软件(原理,部署,特点)/项目部署/环境部署.md",
-    "软件(原理,部署,特点)/JDK/Spring AOT.md",
     "obsidian相关/Picture/GraaIVM_image_2.png",
     "obsidian相关/Picture/GraaIVM_image_3.png",
     "obsidian相关/Picture/GraaIVM_image_1.png",
@@ -218,9 +220,7 @@
     "2023-04-07.md",
     "IT/常用概念.md",
     "IT/编程理念.md",
-    "学习/学习方法.md",
-    "学习/英语技巧.md",
-    "学习/JAVA学习XIMD图.md",
+    "学习/语言学习/英语/英语技巧.md",
     "sortspec.md",
     "软件(原理,部署,特点)/Idea/常用配置.md",
     "常用语法和算法/github找项目方式.md",
