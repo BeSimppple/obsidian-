@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件(原理,部署,特点)/JDK/Spring AOT.md",
+                "file": "软件(原理,部署,特点)/项目部署/所需软件.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/JDK/Spring AOT.md",
+                "file": "软件(原理,部署,特点)/项目部署/所需软件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/JDK/Spring AOT.md",
+                "file": "软件(原理,部署,特点)/项目部署/所需软件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/JDK/Spring AOT.md"
+                "file": "软件(原理,部署,特点)/项目部署/所需软件.md"
               }
             }
           },
@@ -163,18 +163,18 @@
             }
           },
           {
-            "id": "49e10e710f4808e0",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {}
-            }
-          },
-          {
             "id": "720bb44ba05aea3d",
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "3e5dcdffcbe51123",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
               "state": {}
             }
           }
@@ -183,8 +183,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,10 +199,10 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "5933e33752d0a5b4",
+  "active": "3e5dcdffcbe51123",
   "lastOpenFiles": [
-    "软件(原理,部署,特点)/JDK/GraaIVM.md",
     "软件(原理,部署,特点)/JDK/Spring AOT.md",
+    "软件(原理,部署,特点)/JDK/GraaIVM.md",
     "obsidian相关/Picture/GraaIVM_image_2.png",
     "obsidian相关/Picture/GraaIVM_image_3.png",
     "obsidian相关/Picture/GraaIVM_image_1.png",
