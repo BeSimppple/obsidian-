@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络工程/AI/OpenAI.md",
+                "file": "软件(原理,部署,特点)/Maven/Maven和Gradle的区别.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,10 +72,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "AI",
-                "matchingCase": true,
+                "query": "gradle",
+                "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网络工程/AI/OpenAI.md",
+                "file": "软件(原理,部署,特点)/Maven/Maven和Gradle的区别.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网络工程/AI/OpenAI.md",
+                "file": "软件(原理,部署,特点)/Maven/Maven和Gradle的区别.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网络工程/AI/OpenAI.md"
+                "file": "软件(原理,部署,特点)/Maven/Maven和Gradle的区别.md"
               }
             }
           },
@@ -203,6 +203,7 @@
   "lastOpenFiles": [
     "学习/JAVA学习.md",
     "学习/学习方法.md",
+    "网络工程/AI/OpenAI.md",
     "软件(原理,部署,特点)/JDK/Spring AOT.md",
     "软件(原理,部署,特点)/JDK/GraaIVM.md",
     "常用语法和算法/markdown语法及快捷键/基础语法.md",
@@ -234,7 +235,6 @@
     "软件(原理,部署,特点)/项目部署/GIT实现云同步/Idea中GIT使用.md",
     "IT/基础知识点/JVM.md",
     "obsidian相关/Picture/JVM_image_2.png",
-    "IT/基础知识点/数据结构.md",
     "obsidian相关/Picture/数据结构_image_2.jpg",
     "obsidian相关/Picture/支付sdk(software development kit)_image_3.jpg",
     "obsidian相关/Picture/Logstash(实时传输管道)_image_1.jpg",
