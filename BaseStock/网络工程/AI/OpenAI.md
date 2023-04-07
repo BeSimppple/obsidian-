@@ -1,4 +1,12 @@
-api ky:
+rnn模型
+
+
+
+
+
+
+
+#### api ky:
 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
 ==用于obsidian==
 
