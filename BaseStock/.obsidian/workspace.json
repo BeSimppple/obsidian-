@@ -13,25 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络工程/网络通信/OSI七层网络模型.md",
+                "file": "IT/常用概念.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "de6877ace3b78c46",
+            "id": "29b7fdc94aa9868b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用语法和算法/正则表达式.md",
+                "file": "网络工程/网络通信/OSI七层网络模型.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -60,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dsl",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -187,10 +188,14 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "5933e33752d0a5b4",
+  "active": "29b7fdc94aa9868b",
   "lastOpenFiles": [
-    "网络工程/网络通信/TCP协议三次握手四次挥手.md",
+    "IT/常用概念.md",
+    "网络工程/网络通信/WEB及HTTP.md",
+    "代码块.md",
+    "sortspec.md",
     "网络工程/网络通信/OSI七层网络模型.md",
+    "网络工程/网络通信/TCP协议三次握手四次挥手.md",
     "obsidian相关/Picture/OSI七层网络模型_image_3.png",
     "常用语法和算法/常用格式(ymal,xml,property)/XML(Extensible Markup Language).md",
     "学习/语言学习/英语/英语技巧.md",
@@ -215,11 +220,7 @@
     "IT/基础知识点/多线程.md",
     "IT/基础知识点/多线程-线程安全.md",
     "IT/基础知识点/常用注解.md",
-    "常用语法和算法/markdown语法及快捷键/快捷键.md",
-    "软件(原理,部署,特点)/Idea/常用配置.md",
-    "常用语法和算法/markdown语法及快捷键/基础语法.md",
     "obsidian相关/Picture/正则表达式_image_1.png",
-    "2023-04-07.md",
     "obsidian相关/Picture/GraaIVM_image_2.png",
     "obsidian相关/Picture/GraaIVM_image_3.png",
     "obsidian相关/Picture/GraaIVM_image_1.png",
