@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f16200be9e5fd9f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习/语言学习/英语/常用转接词.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法和算法/常用算法/时间复杂度和空间复杂度.md",
+                "file": "学习/语言学习/英语/常用转接词.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法和算法/常用算法/时间复杂度和空间复杂度.md",
+                "file": "学习/语言学习/英语/常用转接词.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法和算法/常用算法/时间复杂度和空间复杂度.md"
+                "file": "学习/语言学习/英语/常用转接词.md"
               }
             }
           },
@@ -188,8 +200,10 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "6b82549c7aa99807",
+  "active": "f16200be9e5fd9f9",
   "lastOpenFiles": [
+    "常用语法和算法/常用算法/时间复杂度和空间复杂度.md",
+    "学习/语言学习/英语/常用转接词.md",
     "网络工程/网络通信/OSI七层网络模型.md",
     "IT/常用概念.md",
     "网络工程/网络通信/WEB及HTTP.md",
@@ -202,7 +216,6 @@
     "学习/学习方法.md",
     "软件(原理,部署,特点)/Idea/常用快捷键.md",
     "软件(原理,部署,特点)/Idea/常用插件.md",
-    "常用语法和算法/常用算法/时间复杂度和空间复杂度.md",
     "软件(原理,部署,特点)/项目部署/所需软件.md",
     "obsidian相关/Picture/时间复杂度和空间复杂度_image_3.png",
     "obsidian相关/Picture/时间复杂度和空间复杂度_image_2.png",
@@ -219,7 +232,6 @@
     "IT/基础知识点/反射.md",
     "IT/基础知识点/多线程.md",
     "IT/基础知识点/多线程-线程安全.md",
-    "IT/基础知识点/常用注解.md",
     "obsidian相关/Picture/正则表达式_image_1.png",
     "obsidian相关/Picture/GraaIVM_image_2.png",
     "obsidian相关/Picture/GraaIVM_image_3.png",
