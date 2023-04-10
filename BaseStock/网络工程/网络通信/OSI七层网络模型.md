@@ -43,10 +43,15 @@ IP 地址和端口号的组合被称为套接字（#socket）
 常用模型包括C/S模型B/S模型    会话超时或未连接等被视为会话层问题
 **总结:** 负责会话的建立、维持和终止会话
 -   **Password** （to）| 表示层（Presentation Layer）
-负责数据的格式，比如字符编码与转换，以及数据加密。
+1. 负责数据的格式，比如字符编码与转换，以及数据加密.
+2. 保证用户程序可以成功地消费数据
 常用格式包括 ASCII   UTF-8   等
+常用加密协议包括.SSL  TSL  (网络上的节点提供身份认证和数据加密功能)
 **总结:** 该层是在数据完成了交换传输开始会话的基础上以一种人类语言格式表达
 -   **Anyone** | 应用层（Application Layer）
+顾名思义，这一层最终负责支持用户程序使用的服务,应用程序可以在后台执行专门的网络功能，也可以要求第七层中专门的服务
+这一层中运行的协议包括文件传输协议（FTP，File Transfer Protocol）、安全壳协议（SSH，Secure Shell）、简单邮件传输协议（SMTP，Simple Mail Transfer Protocol）、因特网消息访问协议（IMAP，Internet Message Access Protocol）、域名服务（DNS，Domain Name Service）和超文本传输协议（HTTP，Hypertext Transfer Protocol）。
+**总结:** 应用层及应用程序的调用
 
 
 
