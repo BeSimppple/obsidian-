@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用语法和算法/常用格式(ymal,xml,property)/XML(Extensible Markup Language).md",
+                "file": "网络工程/网络通信/OSI七层网络模型.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法和算法/常用格式(ymal,xml,property)/XML(Extensible Markup Language).md",
+                "file": "网络工程/网络通信/OSI七层网络模型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法和算法/常用格式(ymal,xml,property)/XML(Extensible Markup Language).md",
+                "file": "网络工程/网络通信/OSI七层网络模型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法和算法/常用格式(ymal,xml,property)/XML(Extensible Markup Language).md"
+                "file": "网络工程/网络通信/OSI七层网络模型.md"
               }
             }
           },
@@ -187,8 +187,10 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "7278d5866d783733",
+  "active": "5933e33752d0a5b4",
   "lastOpenFiles": [
+    "obsidian相关/Picture/OSI七层网络模型_image_3.png",
+    "常用语法和算法/常用格式(ymal,xml,property)/XML(Extensible Markup Language).md",
     "学习/语言学习/英语/英语技巧.md",
     "学习/学习方法.md",
     "软件(原理,部署,特点)/Idea/常用快捷键.md",
@@ -217,8 +219,6 @@
     "obsidian相关/Picture/正则表达式_image_1.png",
     "2023-04-07.md",
     "软件(原理,部署,特点)/Maven/Maven和Gradle的区别.md",
-    "学习/JAVA学习.md",
-    "网络工程/AI/OpenAI.md",
     "obsidian相关/Picture/GraaIVM_image_2.png",
     "obsidian相关/Picture/GraaIVM_image_3.png",
     "obsidian相关/Picture/GraaIVM_image_1.png",

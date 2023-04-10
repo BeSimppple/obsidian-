@@ -26,6 +26,10 @@
 	2. 多个设备共享一条物理链路,那么就需要mac地址控制数据访问顺序,例如以太网中使用的CSMA/CD（Carrier Sense Multiple Access with Collision Detection）如果多个设备同时发送数据导致碰撞，它们会根据自己的MAC地址进行退避，等待再发送
 总结:数据链路层允许局域网节点链接并对数据流量设置了规范和排错  ,第二层的数据单元是帧(frame)[^2]
 -   **Not** | 网络层（Network Layer）
+路由器(route)是第三层主力,
+1. 链接到了ISP(Internet Service Providers)
+2. 记录网络中每个节点的MAC地址到路由表中
+![[OSI七层网络模型_image_3.png|300]]
 
 -   **Tell** （the）| 传输层（Transport Layer） 
 -   **Secret** | 会话层（Session Layer）
