@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习/语言学习/英语/常用转接词.md",
+                "file": "常用语法和算法/常用算法/数学/群论(阶).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/语言学习/英语/英语技巧.md",
+                "file": "常用语法和算法/常用算法/数学/群论(阶).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/语言学习/英语/英语技巧.md",
+                "file": "常用语法和算法/常用算法/数学/群论(阶).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/语言学习/英语/英语技巧.md"
+                "file": "常用语法和算法/常用算法/数学/群论(阶).md"
               }
             }
           },
@@ -200,10 +200,13 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "e0d98004425bd45f",
+  "active": "7278d5866d783733",
   "lastOpenFiles": [
-    "常用语法和算法/常用算法/时间复杂度和空间复杂度.md",
     "学习/语言学习/英语/常用转接词.md",
+    "学习/语言学习/英语/英语技巧.md",
+    "常用语法和算法/常用算法/数学/群论(阶).md",
+    "常用语法和算法/常用算法/数学",
+    "常用语法和算法/常用算法/时间复杂度和空间复杂度.md",
     "IT/常用概念.md",
     "网络工程/网络通信/OSI七层网络模型.md",
     "网络工程/网络通信/WEB及HTTP.md",
@@ -212,7 +215,6 @@
     "网络工程/网络通信/TCP协议三次握手四次挥手.md",
     "obsidian相关/Picture/OSI七层网络模型_image_3.png",
     "常用语法和算法/常用格式(ymal,xml,property)/XML(Extensible Markup Language).md",
-    "学习/语言学习/英语/英语技巧.md",
     "学习/学习方法.md",
     "软件(原理,部署,特点)/Idea/常用快捷键.md",
     "软件(原理,部署,特点)/Idea/常用插件.md",
@@ -230,8 +232,6 @@
     "IT/基础知识点/关系运算符及循环跳转语句及递归.md",
     "IT/基础知识点/泛型和IO流.md",
     "IT/基础知识点/反射.md",
-    "IT/基础知识点/多线程.md",
-    "IT/基础知识点/多线程-线程安全.md",
     "obsidian相关/Picture/正则表达式_image_1.png",
     "obsidian相关/Picture/GraaIVM_image_2.png",
     "obsidian相关/Picture/GraaIVM_image_3.png",
@@ -246,7 +246,6 @@
     "模具UG设计",
     "机械图片组",
     "markdown语法",
-    "IT/GIT实现云同步",
-    "Day Planners"
+    "IT/GIT实现云同步"
   ]
 }
