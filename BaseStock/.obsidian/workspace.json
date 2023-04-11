@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "586d604073d5d981",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "常用语法和算法/常用算法/数学/简单概念.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法和算法/常用算法/数学/群论(阶).md",
+                "file": "常用语法和算法/常用算法/数学/简单概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法和算法/常用算法/数学/群论(阶).md",
+                "file": "常用语法和算法/常用算法/数学/简单概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法和算法/常用算法/数学/群论(阶).md"
+                "file": "常用语法和算法/常用算法/数学/简单概念.md"
               }
             }
           },
@@ -200,11 +212,12 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "7278d5866d783733",
+  "active": "586d604073d5d981",
   "lastOpenFiles": [
+    "常用语法和算法/常用算法/数学/群论(阶).md",
+    "常用语法和算法/常用算法/数学/简单概念.md",
     "学习/语言学习/英语/常用转接词.md",
     "学习/语言学习/英语/英语技巧.md",
-    "常用语法和算法/常用算法/数学/群论(阶).md",
     "常用语法和算法/常用算法/数学",
     "常用语法和算法/常用算法/时间复杂度和空间复杂度.md",
     "IT/常用概念.md",
