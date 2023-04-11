@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络工程/网络通信/OSI七层网络模型.md",
+                "file": "网络工程/网络通信/基础知识/常见网络参数解释.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网络工程/网络通信/OSI七层网络模型.md",
+                "file": "网络工程/网络通信/基础知识/常见术语.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网络工程/网络通信/OSI七层网络模型.md",
+                "file": "网络工程/网络通信/基础知识/常见术语.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网络工程/网络通信/OSI七层网络模型.md"
+                "file": "网络工程/网络通信/基础知识/常见术语.md"
               }
             }
           },
@@ -200,11 +199,12 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "664a9c05968e9151",
+  "active": "5933e33752d0a5b4",
   "lastOpenFiles": [
+    "网络工程/网络通信/基础知识/常见网络参数解释.md",
+    "网络工程/网络通信/OSI七层网络模型.md",
     "网络工程/网络通信/基础知识/常见术语.md",
     "常用语法和算法/常用算法/数学/简单概念.md",
-    "网络工程/网络通信/基础知识/常见网络参数解释.md",
     "网络工程/网络通信/基础知识/常见协议.md",
     "网络工程/网络通信/基础知识/常见错误码.md",
     "网络工程/网络通信/基础知识/常见架构.md",
@@ -215,7 +215,6 @@
     "学习/语言学习/英语/常用转接词.md",
     "常用语法和算法/常用算法/数学",
     "常用语法和算法/常用算法/时间复杂度和空间复杂度.md",
-    "网络工程/网络通信/OSI七层网络模型.md",
     "网络工程/网络通信/WEB及HTTP.md",
     "代码块.md",
     "sortspec.md",
