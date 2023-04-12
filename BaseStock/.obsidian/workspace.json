@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络工程/网络通信/基础知识/常见硬件.md",
+                "file": "网络工程/计算机硬件系统/计算机.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "端口",
+                "query": "显示器",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网络工程/网络通信/基础知识/常见硬件.md",
+                "file": "网络工程/计算机硬件系统/计算机.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网络工程/网络通信/基础知识/常见硬件.md",
+                "file": "网络工程/计算机硬件系统/计算机.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网络工程/网络通信/基础知识/常见硬件.md"
+                "file": "网络工程/计算机硬件系统/计算机.md"
               }
             }
           },
@@ -202,9 +203,9 @@
   },
   "active": "2e5d05e97e86eb82",
   "lastOpenFiles": [
-    "网络工程/网络通信/基础知识/常见术语.md",
-    "网络工程/网络通信/基础知识/常见硬件.md",
     "网络工程/网络通信/基础知识/常见网络参数解释.md",
+    "网络工程/网络通信/基础知识/常见硬件.md",
+    "网络工程/网络通信/基础知识/常见术语.md",
     "网络工程/网络通信/VPN(virtual private network).md",
     "网络工程/网络通信/WEB及HTTP.md",
     "网络工程/网络通信/TCP协议三次握手四次挥手.md",
