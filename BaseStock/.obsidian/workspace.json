@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "31cff5da5d5a096b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习/语言学习/英语/常用短句.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "069fdc03bb1fdea0",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/语言学习/英语/英语短语.md",
+                "file": "学习/语言学习/英语/常用短句.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/语言学习/英语/英语短语.md",
+                "file": "学习/语言学习/英语/常用短句.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/语言学习/英语/英语短语.md"
+                "file": "学习/语言学习/英语/常用短句.md"
               }
             }
           },
@@ -187,10 +200,13 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "366dd43c8383cf8b",
+  "active": "31cff5da5d5a096b",
   "lastOpenFiles": [
-    "常用语法和算法/markdown语法及快捷键/基础语法.md",
     "学习/语言学习/英语/英语短语.md",
+    "学习/语言学习/英语/常用转接词.md",
+    "学习/语言学习/英语/英语技巧.md",
+    "学习/语言学习/英语/常用短句.md",
+    "常用语法和算法/markdown语法及快捷键/基础语法.md",
     "常用语法和算法/Windows快捷键.md",
     "常用语法和算法/SQL语法.md",
     "常用语法和算法/github找项目方式.md",
@@ -222,9 +238,6 @@
     "IT/基础知识点/反射 2.md",
     "IT/基础知识点/多线程-线程安全 2.md",
     "IT/基础知识点/多线程 2.md",
-    "IT/基础知识点/常用注解 2.md",
-    "软件(原理,部署,特点)/项目部署/所需软件 2.md",
-    "软件(原理,部署,特点)/项目部署/环境部署 2.md",
     "常用语法和算法/常用算法/数学",
     "软件(原理,部署,特点)/JDK",
     "学习",
