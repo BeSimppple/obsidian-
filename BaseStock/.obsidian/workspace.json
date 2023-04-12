@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "2e5d05e97e86eb82",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "网络工程/计算机硬件系统/计算机.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "aad7f4c8bc3c5c88",
             "type": "leaf",
             "state": {
@@ -111,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网络工程/计算机硬件系统/计算机.md",
+                "file": "网络工程/网络通信/基础知识/常见术语.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网络工程/计算机硬件系统/计算机.md",
+                "file": "网络工程/网络通信/基础知识/常见术语.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网络工程/计算机硬件系统/计算机.md"
+                "file": "网络工程/网络通信/基础知识/常见术语.md"
               }
             }
           },
@@ -201,9 +189,10 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "2e5d05e97e86eb82",
+  "active": "aad7f4c8bc3c5c88",
   "lastOpenFiles": [
     "网络工程/网络通信/基础知识/常见网络参数解释.md",
+    "网络工程/计算机硬件系统/计算机.md",
     "网络工程/网络通信/基础知识/常见硬件.md",
     "网络工程/网络通信/基础知识/常见术语.md",
     "网络工程/网络通信/VPN(virtual private network).md",
@@ -219,7 +208,6 @@
     "网络工程/网络通信/基础知识/常见架构 2.md",
     "网络工程/网络通信/基础知识/常见架构.md",
     "网络工程/计算机硬件系统/CISC和RISC指令集.md",
-    "网络工程/计算机硬件系统/计算机.md",
     "网络工程/计算机硬件系统/机器语言(1代到5代).md",
     "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
     "网络工程/常见问题解决.md",
