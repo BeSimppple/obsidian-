@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络工程/网络通信/基础知识/常见术语.md",
+                "file": "网络工程/网络通信/基础知识/常见网络参数解释.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2e5d05e97e86eb82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "网络工程/网络通信/基础知识/常见硬件.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网络工程/网络通信/基础知识/常见术语.md",
+                "file": "网络工程/网络通信/基础知识/常见硬件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网络工程/网络通信/基础知识/常见术语.md",
+                "file": "网络工程/网络通信/基础知识/常见硬件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网络工程/网络通信/基础知识/常见术语.md"
+                "file": "网络工程/网络通信/基础知识/常见硬件.md"
               }
             }
           },
@@ -175,8 +188,11 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "069fdc03bb1fdea0",
+  "active": "2e5d05e97e86eb82",
   "lastOpenFiles": [
+    "网络工程/网络通信/基础知识/常见网络参数解释.md",
+    "网络工程/网络通信/基础知识/常见硬件.md",
+    "网络工程/网络通信/基础知识/常见术语.md",
     "网络工程/网络通信/VPN(virtual private network).md",
     "网络工程/网络通信/WEB及HTTP.md",
     "网络工程/网络通信/TCP协议三次握手四次挥手.md",
@@ -200,9 +216,6 @@
     "学习/语言学习/英语/英语技巧.md",
     "常用语法和算法/markdown语法及快捷键/基础语法.md",
     "常用语法和算法/Windows快捷键.md",
-    "常用语法和算法/SQL语法.md",
-    "常用语法和算法/github找项目方式.md",
-    "sortspec.md",
     "obsidian相关/Picture/IT知识类/环境部署_image_1.png",
     "obsidian相关/Picture/机械图片组/G0.1.2.3曲面.png",
     "obsidian相关/Picture/时间复杂度和空间复杂度_image_1.png",
