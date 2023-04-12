@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "366dd43c8383cf8b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习/语言学习/英语/英语短语.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "31cff5da5d5a096b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习/语言学习/英语/常用短句.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "069fdc03bb1fdea0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用语法和算法/markdown语法及快捷键/基础语法.md",
+                "file": "网络工程/网络通信/基础知识/常见术语.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/语言学习/英语/常用短句.md",
+                "file": "网络工程/网络通信/基础知识/常见术语.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/语言学习/英语/常用短句.md",
+                "file": "网络工程/网络通信/基础知识/常见术语.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/语言学习/英语/常用短句.md"
+                "file": "网络工程/网络通信/基础知识/常见术语.md"
               }
             }
           },
@@ -200,20 +175,34 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "31cff5da5d5a096b",
+  "active": "069fdc03bb1fdea0",
   "lastOpenFiles": [
+    "网络工程/网络通信/VPN(virtual private network).md",
+    "网络工程/网络通信/WEB及HTTP.md",
+    "网络工程/网络通信/TCP协议三次握手四次挥手.md",
+    "网络工程/网络通信/cookie与session.md",
+    "网络工程/网络通信/OSI七层网络模型.md",
+    "网络工程/软路由.md",
+    "网络工程/网络通信/软路由.md",
+    "网络工程/网络通信/基础知识/常见协议 2.md",
+    "网络工程/网络通信/基础知识/常见网络参数解释 2.md",
+    "网络工程/网络通信/基础知识/常见术语 2.md",
+    "网络工程/网络通信/基础知识/常见架构 2.md",
+    "网络工程/网络通信/基础知识/常见架构.md",
+    "网络工程/计算机硬件系统/CISC和RISC指令集.md",
+    "网络工程/计算机硬件系统/计算机.md",
+    "网络工程/计算机硬件系统/机器语言(1代到5代).md",
+    "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
+    "网络工程/常见问题解决.md",
+    "学习/语言学习/英语/常用短句.md",
     "学习/语言学习/英语/英语短语.md",
     "学习/语言学习/英语/常用转接词.md",
     "学习/语言学习/英语/英语技巧.md",
-    "学习/语言学习/英语/常用短句.md",
     "常用语法和算法/markdown语法及快捷键/基础语法.md",
     "常用语法和算法/Windows快捷键.md",
     "常用语法和算法/SQL语法.md",
     "常用语法和算法/github找项目方式.md",
     "sortspec.md",
-    "每日八股文.md",
-    "代码块.md",
-    "obsidian相关/命名规范和设置.md",
     "obsidian相关/Picture/IT知识类/环境部署_image_1.png",
     "obsidian相关/Picture/机械图片组/G0.1.2.3曲面.png",
     "obsidian相关/Picture/时间复杂度和空间复杂度_image_1.png",
@@ -224,20 +213,6 @@
     "obsidian相关/Picture/事务管理_image_3.jpg",
     "obsidian相关/Picture/事务管理_image_2.jpg",
     "obsidian相关/Picture/事务管理_image_1.jpg",
-    "obsidian相关/代码块.md",
-    "IT/常用概念.md",
-    "IT/常用概念 2.md",
-    "IT/编程理念 2.md",
-    "IT/编程理念.md",
-    "IT/MySQL/数据库优化(2).md",
-    "IT/基础知识点/JVM 2.md",
-    "IT/基础知识点/异常 2.md",
-    "IT/基础知识点/关系运算符及循环跳转语句及递归 2.md",
-    "IT/基础知识点/数据结构 2.md",
-    "IT/基础知识点/泛型和IO流 2.md",
-    "IT/基础知识点/反射 2.md",
-    "IT/基础知识点/多线程-线程安全 2.md",
-    "IT/基础知识点/多线程 2.md",
     "常用语法和算法/常用算法/数学",
     "软件(原理,部署,特点)/JDK",
     "学习",
