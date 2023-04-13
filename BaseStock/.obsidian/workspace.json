@@ -78,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -160,7 +159,7 @@
             }
           },
           {
-            "id": "e3a2f071e3297f82",
+            "id": "a7640494f72b6da9",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -189,7 +188,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "aad7f4c8bc3c5c88",
+  "active": "7278d5866d783733",
   "lastOpenFiles": [
     "网络工程/网络通信/基础知识/常见网络参数解释.md",
     "网络工程/计算机硬件系统/计算机.md",
