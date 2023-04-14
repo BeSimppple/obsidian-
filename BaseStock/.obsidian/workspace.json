@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ea09dfddaca63d49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "网络工程/AI/卷积和池化.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网络工程/AI/梯度下降算法.md",
+                "file": "网络工程/AI/卷积和池化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网络工程/AI/梯度下降算法.md",
+                "file": "网络工程/AI/卷积和池化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网络工程/AI/梯度下降算法.md"
+                "file": "网络工程/AI/卷积和池化.md"
               }
             }
           },
@@ -200,10 +212,11 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "780e9972d36fdaaa",
+  "active": "ea09dfddaca63d49",
   "lastOpenFiles": [
-    "网络工程/常见问题解决.md",
     "网络工程/AI/梯度下降算法.md",
+    "网络工程/AI/卷积和池化.md",
+    "网络工程/常见问题解决.md",
     "网络工程/网络通信/基础知识/常见术语.md",
     "网络工程/网络通信/基础知识/常见网络参数解释.md",
     "网络工程/计算机硬件系统/计算机.md",
@@ -227,7 +240,6 @@
     "学习/语言学习/英语/英语短语.md",
     "学习/语言学习/英语/常用转接词.md",
     "学习/语言学习/英语/英语技巧.md",
-    "常用语法和算法/markdown语法及快捷键/基础语法.md",
     "obsidian相关/Picture/IT知识类/环境部署_image_1.png",
     "obsidian相关/Picture/机械图片组/G0.1.2.3曲面.png",
     "obsidian相关/Picture/时间复杂度和空间复杂度_image_1.png",
