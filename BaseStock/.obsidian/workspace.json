@@ -8,54 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "069fdc03bb1fdea0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "网络工程/网络通信/基础知识/常见网络参数解释.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aad7f4c8bc3c5c88",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "网络工程/常见问题解决.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "780e9972d36fdaaa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "网络工程/AI/梯度下降算法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ea09dfddaca63d49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "常用语法和算法/常用算法/常用算法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2aee770bd4f95cfc",
             "type": "leaf",
             "state": {
@@ -67,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
