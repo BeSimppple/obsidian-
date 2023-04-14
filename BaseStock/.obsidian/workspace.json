@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "33d19c300f80c9fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习/语言学习/英语/暂存(自考作文模版).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法和算法/常用算法/数学/简单概念.md",
+                "file": "学习/语言学习/英语/暂存(自考作文模版).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法和算法/常用算法/数学/简单概念.md",
+                "file": "学习/语言学习/英语/暂存(自考作文模版).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法和算法/常用算法/数学/简单概念.md"
+                "file": "学习/语言学习/英语/暂存(自考作文模版).md"
               }
             }
           },
@@ -159,7 +171,7 @@
             }
           },
           {
-            "id": "2c5386589cd70000",
+            "id": "b71177a8468156cf",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -188,8 +200,10 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "7f56b5effba3e2a3",
+  "active": "33d19c300f80c9fb",
   "lastOpenFiles": [
+    "常用语法和算法/常用算法/数学/简单概念.md",
+    "学习/语言学习/英语/暂存(自考作文模版).md",
     "常用语法和算法/常用算法/数学/排列组合A和C的算法.md",
     "常用语法和算法/常用算法/RSA非对称加密.md",
     "常用语法和算法/常用算法/常用算法.md",
@@ -214,8 +228,6 @@
     "网络工程/网络通信/基础知识/常见架构.md",
     "网络工程/计算机硬件系统/CISC和RISC指令集.md",
     "网络工程/计算机硬件系统/机器语言(1代到5代).md",
-    "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
-    "学习/语言学习/英语/常用短句.md",
     "obsidian相关/Picture/IT知识类/环境部署_image_1.png",
     "obsidian相关/Picture/机械图片组/G0.1.2.3曲面.png",
     "obsidian相关/Picture/时间复杂度和空间复杂度_image_1.png",
