@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "模具UG设计/流程.md",
+                "file": "模具UG设计/常用命令.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,10 +60,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "曲线",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -77,7 +77,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "模具UG设计/流程.md",
+                "file": "模具UG设计/常用命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "模具UG设计/流程.md",
+                "file": "模具UG设计/常用命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "模具UG设计/流程.md"
+                "file": "模具UG设计/常用命令.md"
               }
             }
           },
@@ -181,16 +182,16 @@
   },
   "active": "c75e96437ab8c97a",
   "lastOpenFiles": [
+    "模具UG设计/模具知识管理类/建模-画图-装配知识.md",
     "模具UG设计/常用命令.md",
+    "模具UG设计/流程.md",
     "模具UG设计/模具知识管理类/细节.md",
     "模具UG设计/模具知识管理类/模具设计.md",
     "模具UG设计/模具知识管理类/模具结构.md",
-    "模具UG设计/模具知识管理类/建模-画图-装配知识.md",
     "模具UG设计/模具知识管理类/常用名词.md",
     "模具UG设计/UG逆向工程.md",
     "模具UG设计/UG快捷键.md",
     "模具UG设计/问题集.md",
-    "模具UG设计/流程.md",
     "模具实际加工工艺/模具实际加工流程.md",
     "Day Planners/Day Planner-20230314.md",
     "机械",
