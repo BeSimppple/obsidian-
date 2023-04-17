@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "代码块.md",
+                "file": "常用语法和算法/语言(仅需了解).md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码块.md",
+                "file": "常用语法和算法/语言(仅需了解).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代码块.md",
+                "file": "常用语法和算法/语言(仅需了解).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代码块.md"
+                "file": "常用语法和算法/语言(仅需了解).md"
               }
             }
           },
@@ -189,6 +189,9 @@
   },
   "active": "2aee770bd4f95cfc",
   "lastOpenFiles": [
+    "常用语法和算法/github找项目方式.md",
+    "常用语法和算法/正则表达式.md",
+    "代码块.md",
     "每日八股文.md",
     "sortspec.md",
     "常用语法和算法/常用算法/RSA非对称加密.md",
@@ -212,9 +215,6 @@
     "网络工程/网络通信/软路由.md",
     "网络工程/网络通信/基础知识/常见协议 2.md",
     "网络工程/网络通信/基础知识/常见网络参数解释 2.md",
-    "网络工程/网络通信/基础知识/常见术语 2.md",
-    "网络工程/网络通信/基础知识/常见架构 2.md",
-    "网络工程/网络通信/基础知识/常见架构.md",
     "obsidian相关/Picture/IT知识类/环境部署_image_1.png",
     "obsidian相关/Picture/机械图片组/G0.1.2.3曲面.png",
     "obsidian相关/Picture/时间复杂度和空间复杂度_image_1.png",
