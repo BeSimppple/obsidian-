@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "曲线",
+                "query": "1",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -180,7 +180,7 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "c75e96437ab8c97a",
+  "active": "5dea023d3aba5de8",
   "lastOpenFiles": [
     "模具UG设计/模具知识管理类/建模-画图-装配知识.md",
     "模具UG设计/常用命令.md",
