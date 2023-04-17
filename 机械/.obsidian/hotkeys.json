@@ -29,18 +29,16 @@
   "workspace:goto-tab-3": [],
   "obsidian-git:commit": [
     {
-      "modifiers": [
-        "Shift"
-      ],
-      "key": "1"
+      "modifiers": [],
+      "key": "F1"
     }
   ],
   "obsidian-git:push2": [
     {
-      "modifiers": [
-        "Shift"
-      ],
-      "key": "2"
+      "modifiers": [],
+      "key": "F2"
     }
-  ]
+  ],
+  "app:open-help": [],
+  "workspace:edit-file-title": []
 }
