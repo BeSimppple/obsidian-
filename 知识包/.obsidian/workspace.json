@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cc6e5dd5bdb29b54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "说话技巧/演讲技巧.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "建模到动画/建模到动画流程.md",
+                "file": "说话技巧/演讲技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "建模到动画/建模到动画流程.md",
+                "file": "说话技巧/演讲技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "建模到动画/建模到动画流程.md"
+                "file": "说话技巧/演讲技巧.md"
               }
             }
           }
@@ -146,6 +159,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "918de3e90c637c07",
-  "lastOpenFiles": []
+  "active": "cc6e5dd5bdb29b54",
+  "lastOpenFiles": [
+    "建模到动画/建模到动画流程.md",
+    "说话技巧/演讲技巧.md",
+    "说话技巧"
+  ]
 }
