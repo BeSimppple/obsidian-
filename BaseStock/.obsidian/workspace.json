@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
+                "file": "网络工程/计算机硬件系统/CISC和RISC指令集.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "80901a124a6c0ba5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "网络工程/网络通信/OSI七层网络模型.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -60,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "计算机",
+                "query": "七层",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -77,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -97,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
+                "file": "网络工程/网络通信/OSI七层网络模型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
+                "file": "网络工程/网络通信/OSI七层网络模型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网络工程/计算机硬件系统/编码与解码,字符与字节.md"
+                "file": "网络工程/网络通信/OSI七层网络模型.md"
               }
             }
           },
@@ -158,7 +172,7 @@
             }
           },
           {
-            "id": "6cf6cce8463dd786",
+            "id": "ef896ac5b3212b92",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -187,12 +201,14 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "2aee770bd4f95cfc",
+  "active": "80901a124a6c0ba5",
   "lastOpenFiles": [
-    "网络工程/计算机硬件系统/机器语言(1代到5代).md",
-    "网络工程/计算机硬件系统/计算机.md",
-    "网络工程/计算机硬件系统/计算机硬件.md",
+    "网络工程/计算机硬件系统/常用文件后缀解释.md",
     "网络工程/计算机硬件系统/CISC和RISC指令集.md",
+    "网络工程/计算机硬件系统/计算机硬件.md",
+    "网络工程/计算机硬件系统/计算机.md",
+    "网络工程/计算机硬件系统/机器语言(1代到5代).md",
+    "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
     "网络工程/常见问题解决.md",
     "obsidian相关/命名规范和设置.md",
     "网络工程/网络通信/软路由.md",
@@ -213,8 +229,6 @@
     "网络工程/AI/卷积和池化.md",
     "网络工程/AI/梯度下降算法.md",
     "网络工程/网络通信/基础知识/常见术语.md",
-    "网络工程/网络通信/基础知识/常见网络参数解释.md",
-    "网络工程/网络通信/基础知识/常见硬件.md",
     "obsidian相关/Picture/IT知识类/环境部署_image_1.png",
     "obsidian相关/Picture/机械图片组/G0.1.2.3曲面.png",
     "obsidian相关/Picture/时间复杂度和空间复杂度_image_1.png",
