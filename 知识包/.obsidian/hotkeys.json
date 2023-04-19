@@ -1,1 +1,16 @@
-{}
+{
+  "obsidian-git:commit": [
+    {
+      "modifiers": [],
+      "key": "F1"
+    }
+  ],
+  "app:open-help": [],
+  "obsidian-git:push2": [
+    {
+      "modifiers": [],
+      "key": "F2"
+    }
+  ],
+  "workspace:edit-file-title": []
+}
