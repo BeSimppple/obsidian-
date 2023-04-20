@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2aee770bd4f95cfc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "网络工程/计算机硬件系统/CISC和RISC指令集.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "80901a124a6c0ba5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "网络工程/网络通信/OSI七层网络模型.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f12dca9abe3fb3ae",
             "type": "leaf",
             "state": {
@@ -42,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "7f56b5effba3e2a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "常用语法和算法/常用算法/数学/简单概念.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,7 +146,7 @@
             }
           },
           {
-            "id": "ef896ac5b3212b92",
+            "id": "b5c0938e3140e069",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -212,7 +175,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "f12dca9abe3fb3ae",
+  "active": "b5c0938e3140e069",
   "lastOpenFiles": [
     "网络工程/网络通信/OSI七层网络模型.md",
     "IT/前端(VScode,VUE,nodejs)/CDN缓存技术.md",
