@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "8eda3379426cf690",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习/科学/狭义相对论和广义相对论.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/科学/狭义相对论和广义相对论.md",
+                "file": "学习/JAVA学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/科学/狭义相对论和广义相对论.md",
+                "file": "学习/JAVA学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/科学/狭义相对论和广义相对论.md"
+                "file": "学习/JAVA学习.md"
               }
             }
           },
@@ -188,12 +175,12 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "8eda3379426cf690",
+  "active": "7278d5866d783733",
   "lastOpenFiles": [
-    "学习/未命名.md",
-    "学习/科学/狭义相对论和广义相对论.md",
-    "学习/科学",
     "学习/学习方法.md",
+    "学习/科学/狭义相对论和广义相对论.md",
+    "学习/未命名.md",
+    "学习/科学",
     "学习/JAVA学习.md",
     "IT/前端(VScode,VUE,nodejs)/CDN缓存技术.md",
     "网络工程/网络通信/OSI七层网络模型.md",
