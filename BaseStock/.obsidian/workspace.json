@@ -11,8 +11,12 @@
             "id": "f3c9220aad64ebf6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "学习/学习方法.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/JAVA学习.md",
+                "file": "学习/学习方法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/JAVA学习.md",
+                "file": "学习/学习方法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/JAVA学习.md"
+                "file": "学习/学习方法.md"
               }
             }
           },
@@ -171,8 +175,9 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "7278d5866d783733",
+  "active": "f3c9220aad64ebf6",
   "lastOpenFiles": [
+    "学习/JAVA学习.md",
     "学习/学习方法.md",
     "IT/前端(VScode,VUE,nodejs)/CDN缓存技术.md",
     "网络工程/网络通信/OSI七层网络模型.md",
@@ -198,7 +203,6 @@
     "学习/语言学习/英语/暂存(自考作文模版).md",
     "常用语法和算法/常用算法/数学/简单概念.md",
     "常用语法和算法/常用算法/数学/排列组合A和C的算法.md",
-    "常用语法和算法/常用算法/常用算法.md",
     "obsidian相关/Picture/IT知识类/环境部署_image_1.png",
     "obsidian相关/Picture/机械图片组/G0.1.2.3曲面.png",
     "obsidian相关/Picture/时间复杂度和空间复杂度_image_1.png",
