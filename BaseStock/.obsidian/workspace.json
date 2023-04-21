@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4fa60bab2040d650",
+        "id": "107d7cd9290293b2",
         "type": "tabs",
         "children": [
           {
-            "id": "f12dca9abe3fb3ae",
+            "id": "f3c9220aad64ebf6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习/JAVA学习.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -146,7 +142,7 @@
             }
           },
           {
-            "id": "b5c0938e3140e069",
+            "id": "93281f31839bc744",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -175,7 +171,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "f12dca9abe3fb3ae",
+  "active": "7278d5866d783733",
   "lastOpenFiles": [
     "学习/学习方法.md",
     "IT/前端(VScode,VUE,nodejs)/CDN缓存技术.md",
