@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "af575333d5578a11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/基础知识点/常用关键字.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "28a375f97efc9405",
             "type": "leaf",
             "state": {
@@ -43,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "每日八股文.md",
+                "file": "IT/基础知识点/常用关键字.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "每日八股文.md",
+                "file": "IT/基础知识点/常用关键字.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "每日八股文.md"
+                "file": "IT/基础知识点/常用关键字.md"
               }
             }
           },
@@ -207,11 +220,13 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "f3c9220aad64ebf6",
+  "active": "af575333d5578a11",
   "lastOpenFiles": [
+    "sortspec.md",
+    "IT/基础知识点/常用关键字.md",
+    "每日八股文.md",
     "IT/小知识点.md",
     "IT/常用概念.md",
-    "每日八股文.md",
     "学习/学习方法.md",
     "IT/基础知识点/JVM.md",
     "IT/基础知识点/异常.md",
@@ -234,8 +249,6 @@
     "网络工程/计算机硬件系统/常用文件后缀解释.md",
     "网络工程/计算机硬件系统/CISC和RISC指令集.md",
     "网络工程/计算机硬件系统/计算机硬件.md",
-    "网络工程/计算机硬件系统/计算机.md",
-    "网络工程/计算机硬件系统/机器语言(1代到5代).md",
     "obsidian相关/Picture/IT知识类/环境部署_image_1.png",
     "obsidian相关/Picture/机械图片组/G0.1.2.3曲面.png",
     "obsidian相关/Picture/时间复杂度和空间复杂度_image_1.png",
