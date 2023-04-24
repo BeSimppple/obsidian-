@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "28a375f97efc9405",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/小知识点.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -185,13 +197,22 @@
   },
   "active": "f3c9220aad64ebf6",
   "lastOpenFiles": [
-    "IT/常用概念.md",
+    "IT/基础知识点/JVM.md",
+    "IT/小知识点.md",
+    "IT/基础知识点/异常.md",
+    "IT/基础知识点/数据结构.md",
+    "IT/基础知识点/关系运算符及循环跳转语句及递归.md",
+    "IT/基础知识点/泛型和IO流.md",
+    "IT/基础知识点/反射.md",
+    "IT/基础知识点/多线程.md",
+    "IT/基础知识点/多线程-线程安全.md",
+    "IT/基础知识点/常用注解.md",
     "IT/编程理念.md",
+    "IT/常用概念.md",
+    "每日八股文.md",
     "学习/JAVA学习.md",
     "IT/Spring/JDBC(数据库连接).md",
     "IT/SpringCloud/Gateway(网关).md",
-    "IT/基础知识点/泛型和IO流.md",
-    "IT/基础知识点/多线程.md",
     "学习/学习方法.md",
     "学习/科学/狭义相对论和广义相对论.md",
     "学习/未命名.md",
@@ -203,15 +224,6 @@
     "网络工程/计算机硬件系统/计算机硬件.md",
     "网络工程/计算机硬件系统/计算机.md",
     "网络工程/计算机硬件系统/机器语言(1代到5代).md",
-    "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
-    "网络工程/常见问题解决.md",
-    "obsidian相关/命名规范和设置.md",
-    "网络工程/网络通信/软路由.md",
-    "常用语法和算法/Windows快捷键.md",
-    "学习/语言学习/英语/常用转接词.md",
-    "学习/语言学习/英语/常用短句.md",
-    "常用语法和算法/语言(仅需了解).md",
-    "常用语法和算法/github找项目方式.md",
     "obsidian相关/Picture/IT知识类/环境部署_image_1.png",
     "obsidian相关/Picture/机械图片组/G0.1.2.3曲面.png",
     "obsidian相关/Picture/时间复杂度和空间复杂度_image_1.png",
