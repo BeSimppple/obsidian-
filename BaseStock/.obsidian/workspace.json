@@ -89,8 +89,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -210,9 +209,10 @@
   },
   "active": "f3c9220aad64ebf6",
   "lastOpenFiles": [
+    "学习/学习方法.md",
+    "每日八股文.md",
     "IT/小知识点.md",
     "IT/常用概念.md",
-    "每日八股文.md",
     "IT/基础知识点/JVM.md",
     "IT/基础知识点/异常.md",
     "IT/基础知识点/数据结构.md",
@@ -226,7 +226,6 @@
     "学习/JAVA学习.md",
     "IT/Spring/JDBC(数据库连接).md",
     "IT/SpringCloud/Gateway(网关).md",
-    "学习/学习方法.md",
     "学习/科学/狭义相对论和广义相对论.md",
     "学习/未命名.md",
     "学习/科学",
