@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "匿名内部类",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -89,7 +89,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -209,9 +210,11 @@
   },
   "active": "f3c9220aad64ebf6",
   "lastOpenFiles": [
+    "IT/基础知识点/泛型和IO流.md",
+    "IT/基础知识点/多线程.md",
+    "每日八股文.md",
     "IT/基础知识点/常用关键字.md",
     "sortspec.md",
-    "每日八股文.md",
     "IT/小知识点.md",
     "IT/常用概念.md",
     "学习/学习方法.md",
@@ -219,9 +222,7 @@
     "IT/基础知识点/异常.md",
     "IT/基础知识点/数据结构.md",
     "IT/基础知识点/关系运算符及循环跳转语句及递归.md",
-    "IT/基础知识点/泛型和IO流.md",
     "IT/基础知识点/反射.md",
-    "IT/基础知识点/多线程.md",
     "IT/基础知识点/多线程-线程安全.md",
     "IT/基础知识点/常用注解.md",
     "IT/编程理念.md",
