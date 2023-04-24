@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习/学习方法.md",
+                "file": "每日八股文.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "七层",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/学习方法.md",
+                "file": "每日八股文.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/学习方法.md",
+                "file": "每日八股文.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/学习方法.md"
+                "file": "每日八股文.md"
               }
             }
           },
@@ -146,7 +146,15 @@
             }
           },
           {
-            "id": "68bd11694ac9dfca",
+            "id": "faaf9023b62995b2",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-chat-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "631010c9efe4ac9a",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -154,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -175,9 +183,15 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "68bd11694ac9dfca",
+  "active": "f3c9220aad64ebf6",
   "lastOpenFiles": [
+    "IT/常用概念.md",
+    "IT/编程理念.md",
     "学习/JAVA学习.md",
+    "IT/Spring/JDBC(数据库连接).md",
+    "IT/SpringCloud/Gateway(网关).md",
+    "IT/基础知识点/泛型和IO流.md",
+    "IT/基础知识点/多线程.md",
     "学习/学习方法.md",
     "学习/科学/狭义相对论和广义相对论.md",
     "学习/未命名.md",
@@ -198,12 +212,6 @@
     "学习/语言学习/英语/常用短句.md",
     "常用语法和算法/语言(仅需了解).md",
     "常用语法和算法/github找项目方式.md",
-    "常用语法和算法/正则表达式.md",
-    "代码块.md",
-    "每日八股文.md",
-    "sortspec.md",
-    "常用语法和算法/常用算法/RSA非对称加密.md",
-    "学习/语言学习/英语/暂存(自考作文模版).md",
     "obsidian相关/Picture/IT知识类/环境部署_image_1.png",
     "obsidian相关/Picture/机械图片组/G0.1.2.3曲面.png",
     "obsidian相关/Picture/时间复杂度和空间复杂度_image_1.png",
