@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/常用概念.md",
+                "file": "每日八股文.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/常用概念.md",
+                "file": "每日八股文.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/常用概念.md"
+                "file": "每日八股文.md"
               }
             }
           },
@@ -208,11 +207,11 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "efe0e44fce98cf95",
+  "active": "f3c9220aad64ebf6",
   "lastOpenFiles": [
-    "每日八股文.md",
-    "IT/常用概念.md",
     "IT/小知识点.md",
+    "IT/常用概念.md",
+    "每日八股文.md",
     "学习/学习方法.md",
     "IT/基础知识点/JVM.md",
     "IT/基础知识点/异常.md",
