@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "每日八股文.md",
+                "file": "网络工程/网络通信/OSI七层网络模型.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "异常",
+                "query": "七层",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "每日八股文.md",
+                "file": "网络工程/网络通信/OSI七层网络模型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "每日八股文.md",
+                "file": "网络工程/网络通信/OSI七层网络模型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "每日八股文.md"
+                "file": "网络工程/网络通信/OSI七层网络模型.md"
               }
             }
           },
@@ -179,7 +179,7 @@
             }
           },
           {
-            "id": "631010c9efe4ac9a",
+            "id": "ab81b5cf734f682a",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -191,8 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,10 +207,10 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "f3c9220aad64ebf6",
+  "active": "ab81b5cf734f682a",
   "lastOpenFiles": [
-    "IT/基础知识点/常用注解.md",
     "每日八股文.md",
+    "IT/基础知识点/常用注解.md",
     "IT/Spring/SpringMVC(视图-模型-控制器设计模式).md",
     "IT/基础知识点/异常.md",
     "IT/基础知识点/常用关键字.md",
