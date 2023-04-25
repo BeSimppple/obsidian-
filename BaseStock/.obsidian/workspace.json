@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Gc垃圾",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -224,8 +224,9 @@
   "active": "b9251ca68d60bb06",
   "lastOpenFiles": [
     "IT/基础知识点/JVM.md",
-    "IT/Spring/Spring原理.md",
+    "IT/常用概念.md",
     "每日八股文.md",
+    "IT/Spring/Spring原理.md",
     "软件(原理,部署,特点)/项目部署/GIT实现云同步/github-Token.md",
     "常用语法和算法/github找项目方式.md",
     "IT/基础知识点/常用关键字.md",
@@ -239,7 +240,6 @@
     "文档编写标准.md",
     "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
     "IT/小知识点.md",
-    "IT/常用概念.md",
     "网络工程/网络通信/OSI七层网络模型.md",
     "IT/基础知识点/常用注解.md",
     "IT/Spring/SpringMVC(视图-模型-控制器设计模式).md",
