@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f3c9220aad64ebf6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "网络工程/网络通信/OSI七层网络模型.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "28a375f97efc9405",
             "type": "leaf",
             "state": {
@@ -42,8 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b9251ca68d60bb06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "每日八股文.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -89,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网络工程/网络通信/OSI七层网络模型.md",
+                "file": "每日八股文.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网络工程/网络通信/OSI七层网络模型.md",
+                "file": "每日八股文.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网络工程/网络通信/OSI七层网络模型.md"
+                "file": "每日八股文.md"
               }
             }
           },
@@ -191,7 +191,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,18 +208,19 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "ab81b5cf734f682a",
+  "active": "b9251ca68d60bb06",
   "lastOpenFiles": [
+    "IT/小知识点.md",
+    "IT/常用概念.md",
+    "网络工程/网络通信/OSI七层网络模型.md",
     "每日八股文.md",
     "IT/基础知识点/常用注解.md",
     "IT/Spring/SpringMVC(视图-模型-控制器设计模式).md",
     "IT/基础知识点/异常.md",
     "IT/基础知识点/常用关键字.md",
-    "IT/常用概念.md",
     "IT/基础知识点/泛型和IO流.md",
     "IT/基础知识点/多线程.md",
     "sortspec.md",
-    "IT/小知识点.md",
     "学习/学习方法.md",
     "IT/基础知识点/JVM.md",
     "IT/基础知识点/数据结构.md",
@@ -233,7 +235,6 @@
     "学习/未命名.md",
     "学习/科学",
     "IT/前端(VScode,VUE,nodejs)/CDN缓存技术.md",
-    "网络工程/网络通信/OSI七层网络模型.md",
     "网络工程/计算机硬件系统/常用文件后缀解释.md",
     "网络工程/计算机硬件系统/CISC和RISC指令集.md",
     "obsidian相关/Picture/IT知识类/环境部署_image_1.png",
