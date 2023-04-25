@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "每日八股文(2).md",
+                "file": "常用语法和算法/常用算法/数学/简单概念.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "数据库",
+                "query": "熵",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "每日八股文(2).md",
+                "file": "常用语法和算法/常用算法/数学/简单概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "每日八股文(2).md",
+                "file": "常用语法和算法/常用算法/数学/简单概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "每日八股文(2).md"
+                "file": "常用语法和算法/常用算法/数学/简单概念.md"
               }
             }
           },
@@ -210,11 +211,11 @@
   },
   "active": "37decee7ec449bee",
   "lastOpenFiles": [
+    "每日八股文(2).md",
     "每日八股文.md",
     "IT/常用概念.md",
     "IT/小知识点.md",
     "文档编写标准.md",
-    "每日八股文(2).md",
     "IT/基础知识点/JVM.md",
     "IT/MySQL/数据库优化(2).md",
     "IT/MySQL/未命名.md",
