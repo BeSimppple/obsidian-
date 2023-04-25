@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用语法和算法/常用算法/数学/简单概念.md",
+                "file": "常用语法和算法/常用算法/常用算法.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法和算法/常用算法/数学/简单概念.md",
+                "file": "常用语法和算法/常用算法/常用算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法和算法/常用算法/数学/简单概念.md",
+                "file": "常用语法和算法/常用算法/常用算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法和算法/常用算法/数学/简单概念.md"
+                "file": "常用语法和算法/常用算法/常用算法.md"
               }
             }
           },
@@ -211,6 +210,7 @@
   },
   "active": "37decee7ec449bee",
   "lastOpenFiles": [
+    "常用语法和算法/常用算法/数学/简单概念.md",
     "每日八股文(2).md",
     "每日八股文.md",
     "IT/常用概念.md",
@@ -239,7 +239,6 @@
     "IT/基础知识点/异常.md",
     "IT/基础知识点/泛型和IO流.md",
     "学习/学习方法.md",
-    "IT/基础知识点/数据结构.md",
     "学习/科学",
     "obsidian相关/Picture/IT知识类/环境部署_image_1.png",
     "obsidian相关/Picture/机械图片组/G0.1.2.3曲面.png",
