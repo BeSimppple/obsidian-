@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "28a375f97efc9405",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/小知识点.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "efe0e44fce98cf95",
             "type": "leaf",
             "state": {
@@ -32,24 +20,24 @@
             }
           },
           {
-            "id": "b9251ca68d60bb06",
+            "id": "a9ea260413dbf1b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/MySQL/数据库优化(2).md",
+                "file": "每日八股文.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1f55c81501748396",
+            "id": "37decee7ec449bee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/基础知识点/JVM.md",
+                "file": "每日八股文(2).md",
                 "mode": "source",
                 "source": false
               }
@@ -102,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -123,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/MySQL/数据库优化(2).md",
+                "file": "每日八股文(2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/MySQL/数据库优化(2).md",
+                "file": "每日八股文(2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/MySQL/数据库优化(2).md"
+                "file": "每日八股文(2).md"
               }
             }
           },
@@ -221,13 +208,18 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "b9251ca68d60bb06",
+  "active": "37decee7ec449bee",
   "lastOpenFiles": [
+    "每日八股文.md",
+    "IT/常用概念.md",
+    "IT/小知识点.md",
+    "文档编写标准.md",
+    "每日八股文(2).md",
+    "IT/基础知识点/JVM.md",
+    "IT/MySQL/数据库优化(2).md",
+    "IT/MySQL/未命名.md",
     "IT/MySQL/数据库优化(1).md",
     "IT/MySQL/数据库概念.md",
-    "每日八股文.md",
-    "IT/基础知识点/JVM.md",
-    "IT/常用概念.md",
     "IT/Spring/Spring原理.md",
     "软件(原理,部署,特点)/项目部署/GIT实现云同步/github-Token.md",
     "常用语法和算法/github找项目方式.md",
@@ -239,9 +231,7 @@
     "常用语法和算法/markdown语法及快捷键/Pasted image 20230221110550.png",
     "代码块.md",
     "sortspec.md",
-    "文档编写标准.md",
     "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
-    "IT/小知识点.md",
     "网络工程/网络通信/OSI七层网络模型.md",
     "IT/基础知识点/常用注解.md",
     "IT/Spring/SpringMVC(视图-模型-控制器设计模式).md",
@@ -249,9 +239,6 @@
     "IT/基础知识点/泛型和IO流.md",
     "学习/学习方法.md",
     "IT/基础知识点/数据结构.md",
-    "IT/基础知识点/关系运算符及循环跳转语句及递归.md",
-    "IT/基础知识点/反射.md",
-    "IT/基础知识点/多线程-线程安全.md",
     "学习/科学",
     "obsidian相关/Picture/IT知识类/环境部署_image_1.png",
     "obsidian相关/Picture/机械图片组/G0.1.2.3曲面.png",
