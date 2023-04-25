@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "elastic",
+                "query": "多线程",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -210,8 +211,9 @@
   },
   "active": "b9251ca68d60bb06",
   "lastOpenFiles": [
-    "常用语法和算法/markdown语法及快捷键/基础语法.md",
+    "IT/基础知识点/多线程.md",
     "每日八股文.md",
+    "常用语法和算法/markdown语法及快捷键/基础语法.md",
     "常用语法和算法/markdown语法及快捷键/Pasted image 20230221110311.png",
     "常用语法和算法/markdown语法及快捷键/Pasted image 20230221110515.png",
     "常用语法和算法/markdown语法及快捷键/Pasted image 20230221110550.png",
@@ -227,7 +229,6 @@
     "IT/基础知识点/异常.md",
     "IT/基础知识点/常用关键字.md",
     "IT/基础知识点/泛型和IO流.md",
-    "IT/基础知识点/多线程.md",
     "学习/学习方法.md",
     "IT/基础知识点/JVM.md",
     "IT/基础知识点/数据结构.md",
