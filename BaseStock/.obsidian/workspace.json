@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/常用概念.md",
+                "file": "每日八股文(2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/常用概念.md",
+                "file": "每日八股文(2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/常用概念.md"
+                "file": "每日八股文(2).md"
               }
             }
           },
@@ -209,7 +208,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "efe0e44fce98cf95",
+  "active": "5b34c14098961f71",
   "lastOpenFiles": [
     "常用语法和算法/常用算法/常用算法.md",
     "IT/常用概念.md",
