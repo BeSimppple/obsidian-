@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5d467f36a489a281",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/小知识点.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "每日八股文(2).md",
+                "file": "IT/小知识点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "每日八股文(2).md",
+                "file": "IT/小知识点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "每日八股文(2).md"
+                "file": "IT/小知识点.md"
               }
             }
           },
@@ -208,14 +220,14 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "a9ea260413dbf1b1",
+  "active": "5d467f36a489a281",
   "lastOpenFiles": [
+    "每日八股文(2).md",
+    "IT/小知识点.md",
     "每日八股文.md",
     "常用语法和算法/常用算法/常用算法.md",
     "常用语法和算法/常用算法/数学/简单概念.md",
-    "每日八股文(2).md",
     "IT/常用概念.md",
-    "IT/小知识点.md",
     "文档编写标准.md",
     "IT/基础知识点/JVM.md",
     "IT/MySQL/数据库优化(2).md",
