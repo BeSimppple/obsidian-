@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/常用概念.md",
+                "file": "每日八股文(2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/常用概念.md",
+                "file": "每日八股文(2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/常用概念.md"
+                "file": "每日八股文(2).md"
               }
             }
           },
@@ -208,11 +207,11 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "efe0e44fce98cf95",
+  "active": "5b34c14098961f71",
   "lastOpenFiles": [
-    "每日八股文(2).md",
     "IT/常用概念.md",
     "常用语法和算法/常用算法/常用算法.md",
+    "每日八股文(2).md",
     "IT/小知识点.md",
     "常用语法和算法/markdown语法及快捷键/基础语法.md",
     "常用语法和算法/markdown语法及快捷键/常用命令.md",
