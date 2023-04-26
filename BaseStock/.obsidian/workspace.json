@@ -20,24 +20,24 @@
             }
           },
           {
-            "id": "a9ea260413dbf1b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "每日八股文.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "37decee7ec449bee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "常用语法和算法/常用算法/常用算法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a9ea260413dbf1b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "每日八股文(2).md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法和算法/常用算法/常用算法.md",
+                "file": "每日八股文(2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法和算法/常用算法/常用算法.md",
+                "file": "每日八股文(2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法和算法/常用算法/常用算法.md"
+                "file": "每日八股文(2).md"
               }
             }
           },
@@ -179,7 +179,7 @@
             }
           },
           {
-            "id": "ab81b5cf734f682a",
+            "id": "eb7b5a84080e2a51",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -208,11 +208,12 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "37decee7ec449bee",
+  "active": "a9ea260413dbf1b1",
   "lastOpenFiles": [
+    "每日八股文.md",
+    "常用语法和算法/常用算法/常用算法.md",
     "常用语法和算法/常用算法/数学/简单概念.md",
     "每日八股文(2).md",
-    "每日八股文.md",
     "IT/常用概念.md",
     "IT/小知识点.md",
     "文档编写标准.md",
@@ -238,7 +239,6 @@
     "IT/Spring/SpringMVC(视图-模型-控制器设计模式).md",
     "IT/基础知识点/异常.md",
     "IT/基础知识点/泛型和IO流.md",
-    "学习/学习方法.md",
     "学习/科学",
     "obsidian相关/Picture/IT知识类/环境部署_image_1.png",
     "obsidian相关/Picture/机械图片组/G0.1.2.3曲面.png",
