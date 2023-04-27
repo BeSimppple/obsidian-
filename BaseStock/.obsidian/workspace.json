@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "c185d35db1a20d9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/基础知识点/多线程.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "efe0e44fce98cf95",
             "type": "leaf",
             "state": {
@@ -85,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "多线程",
+                "query": "死锁",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -102,7 +114,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -122,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/常用概念.md",
+                "file": "IT/基础知识点/多线程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/常用概念.md",
+                "file": "IT/基础知识点/多线程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/常用概念.md"
+                "file": "IT/基础知识点/多线程.md"
               }
             }
           },
@@ -191,7 +204,7 @@
             }
           },
           {
-            "id": "eb7b5a84080e2a51",
+            "id": "6db9ac9cac0eefda",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -220,11 +233,11 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "efe0e44fce98cf95",
+  "active": "c185d35db1a20d9a",
   "lastOpenFiles": [
     "每日八股文(2).md",
-    "IT/常用概念.md",
     "IT/基础知识点/多线程.md",
+    "IT/常用概念.md",
     "IT/基础知识点/常用关键字.md",
     "常用语法和算法/常用算法/常用算法.md",
     "IT/基础知识点/JVM.md",
