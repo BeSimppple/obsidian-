@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "0856ded769140e04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/MySQL/数据库优化(1).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "eb022fef19f66322",
             "type": "leaf",
             "state": {
@@ -73,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "GC垃圾",
+                "query": "Myisam",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -111,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/基础知识点/JVM.md",
+                "file": "IT/MySQL/数据库优化(1).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/基础知识点/JVM.md",
+                "file": "IT/MySQL/数据库优化(1).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/基础知识点/JVM.md"
+                "file": "IT/MySQL/数据库优化(1).md"
               }
             }
           },
@@ -209,9 +221,10 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "eb022fef19f66322",
+  "active": "0856ded769140e04",
   "lastOpenFiles": [
     "每日八股文(2).md",
+    "IT/MySQL/数据库优化(1).md",
     "IT/基础知识点/JVM.md",
     "IT/常用概念.md",
     "常用语法和算法/VIM语法/Linux常用语法.md",
@@ -238,7 +251,6 @@
     "常用语法和算法/常用算法/数学/简单概念.md",
     "文档编写标准.md",
     "IT/MySQL/数据库优化(2).md",
-    "IT/MySQL/未命名.md",
     "常用语法和算法/Markdown语法及快捷键/Pasted image 20230221110311.png",
     "常用语法和算法/Markdown语法及快捷键/Pasted image 20230221110515.png",
     "常用语法和算法/Markdown语法及快捷键/Pasted image 20230221110550.png",
