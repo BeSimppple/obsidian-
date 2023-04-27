@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/JAVA小知识点.md",
+                "file": "每日八股文(2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/JAVA小知识点.md",
+                "file": "每日八股文(2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/JAVA小知识点.md"
+                "file": "每日八股文(2).md"
               }
             }
           },
@@ -208,11 +207,13 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "61c62a56d8f4d223",
+  "active": "a92d528b8f957c1e",
   "lastOpenFiles": [
+    "IT/JAVA小知识点.md",
+    "obsidian相关/Picture/JAVA小知识点_image_2.png",
+    "每日八股文(2).md",
     "软件(原理,部署,特点)/Redis/部落.md",
     "软件(原理,部署,特点)/Redis/Redis原理.md",
-    "每日八股文(2).md",
     "IT/常用概念.md",
     "IT/Spring/事务管理.md",
     "IT/MySQL/数据库优化(1).md",
@@ -227,7 +228,6 @@
     "IT/基础知识点/常用注解.md",
     "IT/编程理念.md",
     "常用语法和算法/常用算法/常用算法.md",
-    "IT/JAVA小知识点.md",
     "obsidian相关/Picture/JAVA小知识点_image_1.png",
     "obsidian相关/Picture/常用概念_image_1.png",
     "IT/基础知识点/多线程.md",
@@ -237,7 +237,6 @@
     "常用语法和算法/markdown语法及快捷键/常用命令.md",
     "常用语法和算法/Markdown语法及快捷键/快捷键.md",
     "[.md",
-    "每日八股文.md",
     "常用语法和算法/Markdown语法及快捷键/Pasted image 20230221110311.png",
     "常用语法和算法/Markdown语法及快捷键/Pasted image 20230221110515.png",
     "常用语法和算法/Markdown语法及快捷键/Pasted image 20230221110550.png",
@@ -246,7 +245,6 @@
     "obsidian相关/Picture/机械图片组/G0.1.2.3曲面.png",
     "obsidian相关/Picture/时间复杂度和空间复杂度_image_1.png",
     "obsidian相关/Picture/时间复杂度和空间复杂度_image_2.png",
-    "obsidian相关/Picture/数据结构_image_1.jpg",
     "常用语法和算法/常用算法/数学",
     "软件(原理,部署,特点)/JDK",
     "学习",
