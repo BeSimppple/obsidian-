@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "每日八股文(2).md",
+                "file": "IT/基础知识点/JVM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "每日八股文(2).md",
+                "file": "IT/基础知识点/JVM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "每日八股文(2).md"
+                "file": "IT/基础知识点/JVM.md"
               }
             }
           },
@@ -208,10 +209,10 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "a92d528b8f957c1e",
+  "active": "eb022fef19f66322",
   "lastOpenFiles": [
-    "IT/基础知识点/JVM.md",
     "每日八股文(2).md",
+    "IT/基础知识点/JVM.md",
     "IT/常用概念.md",
     "常用语法和算法/VIM语法/Linux常用语法.md",
     "常用语法和算法/Windows快捷键.md",
