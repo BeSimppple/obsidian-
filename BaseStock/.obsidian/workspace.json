@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/Redis/Redis原理.md",
+                "file": "每日八股文(2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/Redis/Redis原理.md",
+                "file": "每日八股文(2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/Redis/Redis原理.md"
+                "file": "每日八股文(2).md"
               }
             }
           },
@@ -209,11 +208,11 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "61c62a56d8f4d223",
+  "active": "a92d528b8f957c1e",
   "lastOpenFiles": [
+    "软件(原理,部署,特点)/Redis/Redis原理.md",
     "IT/常用概念.md",
     "每日八股文(2).md",
-    "软件(原理,部署,特点)/Redis/Redis原理.md",
     "IT/SpringCloud/Redisson分布式锁和SpringTask.md",
     "IT/JAVA小知识点.md",
     "obsidian相关/Picture/JAVA小知识点_image_2.png",
