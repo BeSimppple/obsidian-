@@ -19,14 +19,21 @@
 	1.redis还可以充当中间数据库存放登录的session数据,验证码等等，因为分布式集群搭载很多服务器不可能每个都存放复制
 	2.redis还可以充当消息队列（生产者消费者队列）
 	本质是将存到数据库的内容,放到本地内存中,以此来加快加载速度减少数据库压力，面对高并发压力缓解压力
+**Redis常用的基础数据结构:**
+	1.字符串String
+	2.字典Hash（kv键值对结构 hash可以帮助减少redis中key的数量，hash结构同时很适合存放对象）
+	3.列表List
+	4.集合Set（有set srand命令可加入数据然后实现随机取出）
+	5.有序集合SortedSet(Zset)（通过score进行排序每个key都会设置一个sroce分数该结构适合分页过滤排序）
+	6.HyperLogLog
+	7.Geo
+	8.Pub / Sub
+	9.Redis Module(自定义数据类型)
 **redis底层数据结构**
 	底层就是Hash表的格式,将数据一个个存入hash表中
 	当一个hash值的数据成链表过多的时候
 	不是变成红黑树或者二叉树
 	而是再reHash一个2倍大的Hash表,一个个重新存入新的大的hash表
-
-setnx（set if not exist）解决分布式锁
-jemter工具压力测试
 **Redis的安装(Linux与windows)**
 	**windows**
 	官方不提供windows版本redis，3.2版本是里程碑
@@ -50,132 +57,61 @@ jemter工具压力测试
 	之后配合conf启动./redis-server ./redis.conf 启动成功
 	然后启动redis-cli客户端来输入指令操作
 ![[Redis原理_image_2.jpg]]
-NoSQL===非关系型数据分为以下2种：
-
+NoSQL== =非关系型数据分为以下2种：
 1：KV(Redis、Memcache)
-
 2：文档型（ElasticSearch、Solr、Mongodb）
-
 Redis 优势：
-
 性能极高 – Redis能读的速度是110000次/s,写的速度是81000次/s 。
-
 丰富的数据类型 – Redis支持二进制案例的 Strings, Lists, Hashes, Sets 及 Ordered Sets 数据类型操作。
-
 原子 – Redis的所有操作都是原子性的，意思就是要么成功执行要么失败完全不执行。单个操作是原子性的。多个操作也支持事务，即原子性，通过MULTI和EXEC指令包起来
 
-Redis的基础数据结构:
-
-1.字符串String
-
-2.字典Hash（kv键值对结构 hash可以帮助减少redis中key的数量，hash结构同时很适合存放对象）
-
-3.列表List
-
-4.集合Set（有set srand命令可加入数据然后实现随机取出）
-
-5.有序集合SortedSet(Zset)（通过score进行排序每个key都会设置一个sroce分数该结构适合分页过滤排序）
-
-6.HyperLogLog
-
-7.Geo
-
-8. Pub/Sub
-
-9.Redis Module(自定义数据类型)
-
 可以使用list实现队列等效果
-
 lpush从向左推数据lpop从左取数据同理rpush和rpop
-
 使用lplush存入然后rpop取出就实现了队列的先进先出
-
 同理lpush加lpop就实现了栈的先进后出
-
 Redis常用命令：
-
 list的：lpush，lpop，lrange，llen
-
 set的：sadd，spop，smembers，scard，srandmember
-
 hash的：hset，hget，hmset，hlen，hexisits，hkeys，hvals
-
 zset的：zadd，zrange，zrevrange，zrangebyscore，zrem
-
 其他常用：
-
 key相关的：
-
 keys XXX（查询一类key），exists key（是否存在），del key（删除），expire key seconds（设置key并设置存在时间），ttl key（查看key剩余时间）， persist key（常驻内存key）
-
 db相关的：
-
 select index（切换到指定数据库redis有16个db从0-15默认使用0），move key dbindex（迁移到指定数据库），flushdb（清空数据库），flushall（清空所有数据库），dbsize（数据库数据总条数），tastsave（最后一次保存数据的时间戳）
-
 ACL权限控制命令
-
 auth输入密码
-
 其余命令可以去redis官网commands查看
-
 Redsi事务：
-
 mutli #开启事务
-
 exec #提交事务
-
 discard #回滚事务
 
 单条指令能保证原子性，多条不能
-
 编译时异常会回滚，运行时异常不会回滚
-
 Jedis实现java项目链接redis （以后会用spring整合的spring-data-redis但也需要jedis依赖）
-
 pom依赖后使用jedis类操作
-
 在此之前还需要修改redis的bind配置才能保证链接到redis
-
 可以再cmd使用talnet ip地址 端口命令查看能否链接到
-
 bind配置本机的网卡对应的ip地址，表示只有通过指定网卡进来的主机才能访问redis
-
 默认为127.0.0.1本地回环地址表示只有本地能访问redis无法远程链接
-
 设置完成后redis-cli必须要加-h ip地址来访问指定的ip地址进入
-
 使用redis.properties配置redis连接池等参数
-
 使用applicationContext-redis.xml文件引用redis.properties文件进行整合
-
 使用springcloud后会使用yaml文件配置redis更方便
-
 额外内容：如果要限制redis访问名单可以通过阿里安全组实现
-
 redis的密码及权限控制：
-
 如果要保证数据安全性还需要对redis访问设置密码保证权限控制，需要在conf配置中改requirepass
-
 设置完成后进入redis后必须要输入auth 密码才能有权限操作同理java访问也需要通过jedis的auth方法先输入密码
-
 ACL命令（权限控制命令）Access Control
-
 ACL whoami （查询当前用户）
-
 ACL list（查询所有用户）
-
 ACL setuser allen on >123456 +@all ~*（设置一个新用户allen密码为123456，all代表拥有所有命令权限~*代表拥有所有key使用权）
-
 AUTH allen XXX（auth登录allen账号）
-
 #只能创建以lakers为前缀的key
-
 ACL setuser james on >123456 +@all ~lakers*（同理allen但是只能操作lakers为前缀的keys）
-
 ACL setuser james -SET（不再拥有set权限）
-
 ACL DELUSER james（删除jame用户）
-
 ### redis的持久化方案:
 **RDB(Redis Databases):内存中的数据集快照写入磁盘，也就是 Snapshot 快照,恢复时是将快照文件直接读到内存里。**
 	dbfilename dump.rdb文件修改rdb方案
@@ -352,22 +288,11 @@ spring.redis.cluster.nodes=192.168.234.131:7001,192.168.234.131:7002,192.168.234
 
 Redis常见问题
 
-Redis有哪些数据结构？
-
-字符串String、字典Hash、列表List、集合Set、有序集合SortedSet。
-
-如果你是Redis中高级用户，还需要加上下面几种数据结构HyperLogLog、Geo、Pub/Sub。Redis Module(自定义数据类型)
-
-使用过Redis分布式锁么，它是什么回事？
-
+Redis分布式锁它是什么回事？
 1.先拿setnx来争抢锁，抢到之后，再用expire给锁加一个过期时间防止锁忘记了释放。
-
 2.如果在setnx之后执行expire之前进程意外crash或者要重启维护了，那会怎么样？
-
 set指令有非常复杂的参数，可以同时把setnx和expire合成一条指令来用的！
-
 假如Redis里面有1亿个key，其中有10w个key是以某个固定的已知的前缀开头的，如果将它们全部找出来？
-
 1.使用keys指令可以扫出指定模式的key列表。
 
 2.如果这个redis正在给线上的业务提供服务，那使用keys指令会有什么问题？
@@ -429,7 +354,6 @@ redis的应用场景有哪些?
 4，发布，订阅消息（消息通知）
 5，商品列表，评论列表等
 
-  
 
-  
-
+setnx（set if not exist）解决分布式锁
+jemter工具压力测试
