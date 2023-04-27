@@ -357,3 +357,6 @@ redis的应用场景有哪些?
 
 setnx（set if not exist）解决分布式锁
 jemter工具压力测试
+
+Redis+Lua脚本
+	
