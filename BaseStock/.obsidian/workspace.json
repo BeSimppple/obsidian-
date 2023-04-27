@@ -30,21 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "5b34c14098961f71",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/基础知识点/常用关键字.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/基础知识点/常用关键字.md",
+                "file": "IT/常用概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/基础知识点/常用关键字.md",
+                "file": "IT/常用概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/基础知识点/常用关键字.md"
+                "file": "IT/常用概念.md"
               }
             }
           },
@@ -208,38 +196,39 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "5b34c14098961f71",
+  "active": "efe0e44fce98cf95",
   "lastOpenFiles": [
-    "常用语法和算法/常用算法/常用算法.md",
+    "每日八股文(2).md",
+    "常用语法和算法/VIM语法/Linux常用语法.md",
+    "常用语法和算法/Windows快捷键.md",
+    "常用语法和算法/SQL语法.md",
+    "常用语法和算法/Github找项目语法.md",
+    "常用语法和算法/正则表达式.md",
+    "常用语法和算法/语言(仅需了解).md",
     "IT/常用概念.md",
+    "IT/基础知识点/常用关键字.md",
+    "IT/基础知识点/常用注解.md",
+    "IT/编程理念.md",
+    "常用语法和算法/常用算法/常用算法.md",
     "IT/JAVA小知识点.md",
     "obsidian相关/Picture/JAVA小知识点_image_1.png",
-    "IT/编程理念.md",
     "obsidian相关/Picture/常用概念_image_1.png",
-    "每日八股文(2).md",
     "IT/基础知识点/多线程.md",
     "IT/SpringCloud/Redisson分布式锁和SpringTask.md",
-    "IT/基础知识点/常用关键字.md",
     "IT/基础知识点/JVM.md",
     "网络工程/计算机硬件系统/计算机硬件.md",
-    "常用语法和算法/markdown语法及快捷键/基础语法.md",
+    "常用语法和算法/Markdown语法及快捷键/基础语法.md",
     "常用语法和算法/markdown语法及快捷键/常用命令.md",
-    "常用语法和算法/markdown语法及快捷键/快捷键.md",
+    "常用语法和算法/Markdown语法及快捷键/快捷键.md",
     "[.md",
     "每日八股文.md",
     "常用语法和算法/常用算法/数学/简单概念.md",
     "文档编写标准.md",
     "IT/MySQL/数据库优化(2).md",
     "IT/MySQL/未命名.md",
-    "IT/MySQL/数据库优化(1).md",
-    "IT/MySQL/数据库概念.md",
-    "IT/Spring/Spring原理.md",
-    "软件(原理,部署,特点)/项目部署/GIT实现云同步/github-Token.md",
-    "常用语法和算法/github找项目方式.md",
-    "常用语法和算法/markdown语法及快捷键/Pasted image 20230221110311.png",
-    "常用语法和算法/markdown语法及快捷键/Pasted image 20230221110515.png",
-    "常用语法和算法/markdown语法及快捷键/Pasted image 20230221110550.png",
-    "代码块.md",
+    "常用语法和算法/Markdown语法及快捷键/Pasted image 20230221110311.png",
+    "常用语法和算法/Markdown语法及快捷键/Pasted image 20230221110515.png",
+    "常用语法和算法/Markdown语法及快捷键/Pasted image 20230221110550.png",
     "学习/科学",
     "obsidian相关/Picture/IT知识类/环境部署_image_1.png",
     "obsidian相关/Picture/机械图片组/G0.1.2.3曲面.png",
