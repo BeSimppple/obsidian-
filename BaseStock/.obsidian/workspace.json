@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/JAVA小知识点.md",
+                "file": "软件(原理,部署,特点)/Redis/Redis原理.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -109,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "每日八股文(2).md",
+                "file": "软件(原理,部署,特点)/Redis/Redis原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "每日八股文(2).md",
+                "file": "软件(原理,部署,特点)/Redis/Redis原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "每日八股文(2).md"
+                "file": "软件(原理,部署,特点)/Redis/Redis原理.md"
               }
             }
           },
@@ -207,13 +209,14 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "a92d528b8f957c1e",
+  "active": "61c62a56d8f4d223",
   "lastOpenFiles": [
+    "每日八股文(2).md",
+    "软件(原理,部署,特点)/Redis/Redis原理.md",
+    "IT/SpringCloud/Redisson分布式锁和SpringTask.md",
     "IT/JAVA小知识点.md",
     "obsidian相关/Picture/JAVA小知识点_image_2.png",
-    "每日八股文(2).md",
     "软件(原理,部署,特点)/Redis/部落.md",
-    "软件(原理,部署,特点)/Redis/Redis原理.md",
     "IT/常用概念.md",
     "IT/Spring/事务管理.md",
     "IT/MySQL/数据库优化(1).md",
@@ -231,7 +234,6 @@
     "obsidian相关/Picture/JAVA小知识点_image_1.png",
     "obsidian相关/Picture/常用概念_image_1.png",
     "IT/基础知识点/多线程.md",
-    "IT/SpringCloud/Redisson分布式锁和SpringTask.md",
     "网络工程/计算机硬件系统/计算机硬件.md",
     "常用语法和算法/Markdown语法及快捷键/基础语法.md",
     "常用语法和算法/markdown语法及快捷键/常用命令.md",
