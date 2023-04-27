@@ -19,50 +19,36 @@
 	1.redis还可以充当中间数据库存放登录的session数据,验证码等等，因为分布式集群搭载很多服务器不可能每个都存放复制
 	2.redis还可以充当消息队列（生产者消费者队列）
 	本质是将存到数据库的内容,放到本地内存中,以此来加快加载速度减少数据库压力，面对高并发压力缓解压力
+**redis底层数据结构**
+	底层就是Hash表的格式,将数据一个个存入hash表中
+	当一个hash值的数据成链表过多的时候
+	不是变成红黑树或者二叉树
+	而是再reHash一个2倍大的Hash表,一个个重新存入新的大的hash表
 
 setnx（set if not exist）解决分布式锁
-
 jemter工具压力测试
-
-Redis的安装(Linux与windows)
-
-windows-》官方不提供windows版本redis，3.2版本是里程碑
-
-下载zip包后解压，文件夹内有redis-cli客户端启动和redis-server服务端启动（server是服务器，cli是前端输入指令页面）
-
-linux-》redis6版本要求gcc版本必须5.3以上（默认安装为4.8），查看gcc版本命令gcc -v
-
-挨个执行gcc完成升级命令
-
-yum -y install centos-release-scl
-
-yum -y install devtoolset-9-gcc devtoolset-9-gcc-c++ devtoolset-9-binutils
-
-scl enable devtoolset-9 bash
-
-echo "source /opt/rh/devtoolset-9/enable" >>/etc/profile　　--使永久生效
-
-  
-
-yum install tcl -y
-
-配置完环境开始redis安装，同理其他tomcat等安装
-
-可使用sget和gz包等方式，此处使用gz包下载到目录后tar命令解压到指定目录后进入redis文件夹使用make命令执行makefile文件编译src目录下的c文件然后使用make install安装完毕
-
-到redis下的bin目录启动redis-server完成启动
-
-但是该启动页面会固定在linux主页面没法操作，所以要讲reids源文件的conf文件复制过到bin目录进行后台启动
-
-然后修改复制到bin目录下的conf文件daemonize的值改为yes
-
-/etc/profile配置环境变量 （REDIS_HOME地址 PATH地址为$REDIS_HOME$/bin）
-
-source /etc/profile生效刷新
-
-之后配合conf启动./redis-server ./redis.conf 启动成功
-
-然后启动redis-cli客户端来输入指令操作
+**Redis的安装(Linux与windows)**
+	**windows**
+	官方不提供windows版本redis，3.2版本是里程碑
+	下载zip包后解压，文件夹内有redis-cli客户端启动和redis-server服务端启动（server是服务器，cli是前端输入指令页面）
+	----------------------------------
+	**linux**
+	 redis6版本要求gcc版本必须5.3以上（默认安装为4.8），查看gcc版本命令gcc -v
+	挨个执行gcc完成升级命令
+	yum -y install centos-release-scl
+	yum -y install devtoolset-9-gcc devtoolset-9-gcc-c++ devtoolset-9-binutils
+	scl enable devtoolset-9 bash
+	echo "source /opt/rh/devtoolset-9/enable" >>/etc/profile　　--使永久生效
+	yum install tcl -y
+	配置完环境开始redis安装，同理其他tomcat等安装
+	可使用sget和gz包等方式，此处使用gz包下载到目录后tar命令解压到指定目录后进入redis文件夹使用make命令执行makefile文件编译src目录下的c文件然后使用make install安装完毕
+	到redis下的bin目录启动redis-server完成启动
+	但是该启动页面会固定在linux主页面没法操作，所以要讲reids源文件的conf文件复制过到bin目录进行后台启动
+	然后修改复制到bin目录下的conf文件daemonize的值改为yes
+	/etc/profile配置环境变量 （REDIS_HOME地址 PATH地址为$REDIS_HOME$/bin）
+	source /etc/profile生效刷新
+	之后配合conf启动./redis-server ./redis.conf 启动成功
+	然后启动redis-cli客户端来输入指令操作
 ![[Redis原理_image_2.jpg]]
 NoSQL===非关系型数据分为以下2种：
 
@@ -346,48 +332,23 @@ hash slot只分配给master不会给slave
   ![[Redis原理_image_3.jpg]]
 
 # redis集群版
-
-spring.redis.cluster.nodes=192.168.234.131:7001,192.168.234.131:7002,192.168.234.131:7003
-
-缓存击穿问题(高并发去访问数据库)
-
-缓存击穿解决办法:
-
-加锁(分布式锁)，两次判断，如果redis没有则去数据库取并重新赋值到redis，如果有则直接从redis取（减轻了一直从数据库取消耗的资源和时间减轻数据库压力）
-
-缓存穿透(不存在数据访问)
-
-方式1.缓存空值
-
-数据库中获取不到，就插入{}，注意设置过期时间小于普通数据过期时间
-
-方式2.布隆过滤
-
-提前将数据库中所有的商品id放入布隆过滤器，当添加商品和删除商品（维护布隆过滤器）
-
+缓存击穿问题(热点数据过期,导致高并发去访问数据库)
+	1.加锁(分布式锁)，两次判断，如果redis没有则去数据库取并重新赋值到redis，如果有则直接从redis取（减轻了一直从数据库取消耗的资源和时间减轻数据库压力）
+	2.热点数据永不过期
+缓存穿透(不存在数据访问导致缓存失效一直访问数据库)
+	1.缓存空值和虚假值并设置过滤条件筛除明显不符合条件的数据例如id<0
+	(注意设置过期时间小于普通数据过期时间)
+	2.布隆过滤器(提前将数据库中所有的商品id放入布隆过滤器)
 缓存雪崩(数据同时过期对数据库压力增大)
-
-解决方案
-
-让过期时间平均分布 过期时间=预设置的过期时间+随机数
+	1.设置过期时间函数消减过期峰值,让过期时间平均分布 
 
   
-
+spring.redis.cluster.nodes=192.168.234.131:7001,192.168.234.131:7002,192.168.234.131:7003
   
 
-  
 
-redis底层数据结构
 
-底层就是Hash表的格式,将数据一个个存入hash表中
 
-当一个hash值的数据成链表过多的时候
-
-不是变成红黑树或者二叉树
-
-而是再reHash一个2倍大的Hash表,一个个重新存入新的大的hash表
-
-  
 
 Redis常见问题
 
@@ -464,19 +425,11 @@ Redis Cluster着眼于扩展性，在单个redis内存不足时，使用Cluster�
 redis的应用场景有哪些?
 
 1，会话缓存（最常用）
-
 2，消息队列，比如支付3，活动排行榜或计数
-
 4，发布，订阅消息（消息通知）
-
 5，商品列表，评论列表等
 
   
 
   
 
-zset（sorted set有序集合）
-
-是string类型的有序集合，也不可重复(基于scope实现)
-
-有序集合中的每个元素都需要指定一个分数，根据分数对元素进行升序排序，如果多个元素有相同的分数，则以字典序进行升序排序，sorted set因此非常适合实现排名
