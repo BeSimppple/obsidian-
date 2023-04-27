@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/Redis/Redis原理.md",
+                "file": "IT/常用概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/Redis/Redis原理.md",
+                "file": "IT/常用概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/Redis/Redis原理.md"
+                "file": "IT/常用概念.md"
               }
             }
           },
@@ -208,10 +208,10 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "7278d5866d783733",
+  "active": "efe0e44fce98cf95",
   "lastOpenFiles": [
-    "IT/Spring/事务管理.md",
     "软件(原理,部署,特点)/Redis/Redis原理.md",
+    "IT/Spring/事务管理.md",
     "每日八股文(2).md",
     "IT/MySQL/数据库优化(1).md",
     "IT/基础知识点/JVM.md",
