@@ -56,10 +56,16 @@
 	source /etc/profile生效刷新
 	之后配合conf启动./redis-server ./redis.conf 启动成功
 	然后启动redis-cli客户端来输入指令操作
-![[Redis原理_image_2.jpg]]
+常见的NOSQL数据库：
+	1.  键值数据库：Redis、Memcached、Riak
+	2.  列族数据库：Bigtable、HBase、Cassandra
+	3.  文档数据库：MongoDB、CouchDB、MarkLogic
+	4.  图形数据库：Neo4j、InfoGrid
+
+Memcached和Redis比较
+	![[Redis原理_image_2.jpg]]
 NoSQL== =非关系型数据分为以下2种：
-1：KV(Redis、Memcache)
-2：文档型（ElasticSearch、Solr、Mongodb）
+
 Redis 优势：
 性能极高 – Redis能读的速度是110000次/s,写的速度是81000次/s 。
 丰富的数据类型 – Redis支持二进制案例的 Strings, Lists, Hashes, Sets 及 Ordered Sets 数据类型操作。
