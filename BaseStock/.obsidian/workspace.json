@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件(原理,部署,特点)/Mysql/常用语法.md",
+                "file": "软件(原理,部署,特点)/Mysql/SQL语法.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/Mysql/常用语法.md",
+                "file": "每日八股文(2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/Mysql/常用语法.md",
+                "file": "每日八股文(2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/Mysql/常用语法.md"
+                "file": "每日八股文(2).md"
               }
             }
           },
@@ -220,8 +219,9 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "542901a474350619",
+  "active": "5300c954ecaeed5f",
   "lastOpenFiles": [
+    "软件(原理,部署,特点)/Mysql/SQL语法.md",
     "IT/MySQL/数据库概念.md",
     "obsidian相关/快捷键.md",
     "代码块.md",
@@ -229,7 +229,6 @@
     "常用语法和算法/常用格式(ymal,xml,property)/常用格式.md",
     "IT/常用概念.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
-    "软件(原理,部署,特点)/Mysql/常用语法.md",
     "IT/Spring/JDBC(数据库连接).md",
     "IT/MySQL/数据库优化(1).md",
     "IT/Spring/事务管理.md",
