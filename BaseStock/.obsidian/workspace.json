@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "类的加载",
+                "query": "强引用",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -90,8 +89,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -111,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/JDK(JAVA底层原理)/类加载器和双亲委派模型.md",
+                "file": "每日八股文(2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/JDK(JAVA底层原理)/类加载器和双亲委派模型.md",
+                "file": "每日八股文(2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/JDK(JAVA底层原理)/类加载器和双亲委派模型.md"
+                "file": "每日八股文(2).md"
               }
             }
           },
@@ -209,14 +207,15 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "2ace5b5ce6be630c",
+  "active": "5300c954ecaeed5f",
   "lastOpenFiles": [
-    "每日八股文(2).md",
-    "IT/基础知识点/反射.md",
+    "IT/常用概念.md",
     "软件(原理,部署,特点)/JDK(JAVA底层原理)/类加载器和双亲委派模型.md",
+    "每日八股文(2).md",
+    "每日八股文.md",
+    "IT/基础知识点/反射.md",
     "软件(原理,部署,特点)/Redis/Redis原理.md",
     "IT/基础知识点/JVM.md",
-    "IT/常用概念.md",
     "IT/设计模式/代理模式.md",
     "软件(原理,部署,特点)/JDK(JAVA底层原理)/Spring AOT.md",
     "软件(原理,部署,特点)/JDK(JAVA底层原理)/GraaIVM.md",
@@ -246,7 +245,6 @@
     "IT/基础知识点/常用关键字.md",
     "IT/基础知识点/常用注解.md",
     "IT/编程理念.md",
-    "常用语法和算法/常用算法/常用算法.md",
     "学习/科学",
     "常用语法和算法/常用算法/数学",
     "软件(原理,部署,特点)/JDK(JAVA底层原理)",
