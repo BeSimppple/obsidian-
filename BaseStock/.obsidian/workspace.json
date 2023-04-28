@@ -20,12 +20,36 @@
             }
           },
           {
+            "id": "f98dd5a9c90cad15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/JAVA底层知识/反射.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "2ace5b5ce6be630c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/类加载器和双亲委派模型.md",
+                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/类加载器和双亲委派.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c33adb9f54ec300f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -109,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "每日八股文(2).md",
+                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "每日八股文(2).md",
+                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "每日八股文(2).md"
+                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md"
               }
             }
           },
@@ -207,24 +232,26 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "5300c954ecaeed5f",
+  "active": "c33adb9f54ec300f",
   "lastOpenFiles": [
-    "代码块.md",
+    "obsidian相关/Picture/对象_image_1.png",
+    "IT/JAVA底层知识/JDK(JAVA底层原理)/类加载器和双亲委派.md",
+    "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
+    "IT/JAVA底层知识/反射.md",
     "每日八股文(2).md",
+    "IT/常用概念.md",
+    "代码块.md",
     "IT/JAVA底层知识/泛型和IO流.md",
     "IT/SpringCloud/Redisson分布式锁和SpringTask.md",
-    "IT/常用概念.md",
     "文档编写和分类标准.md",
     "IT/JAVA底层知识/异常.md",
     "IT/JAVA底层知识/数据结构.md",
     "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md",
     "IT/JAVA底层知识/关键字(常用).md",
-    "IT/JAVA底层知识/反射.md",
     "IT/未归类知识点/Spring AOT(应用预编译).md",
     "IT/未归类知识点/GraaIVM(虚拟机).md",
     "IT/JAVA底层知识/常用注解.md",
     "IT/多线程",
-    "IT/JAVA底层知识/JDK(JAVA底层原理)/类加载器和双亲委派模型.md",
     "IT/编程理念.md",
     "IT/JAVA小知识点.md",
     "IT/多线程/多线程.md",
@@ -235,7 +262,6 @@
     "软件(原理,部署,特点)/Redis/Redis原理.md",
     "IT/设计模式/代理模式.md",
     "obsidian相关/Picture/Redis原理_image_3.jpg",
-    "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
     "obsidian相关/Picture/Redis原理_image_2.jpg",
     "obsidian相关/Picture/tmp1680833538402_GraaIVM_image_2.png",
     "obsidian相关/Picture/Redis原理_image_1.jpg",
@@ -245,7 +271,6 @@
     "obsidian相关/Picture/SpringSecurity_image_3.jpg",
     "obsidian相关/Picture/SpringSecurity_image_1.jpg",
     "obsidian相关/Picture/SpringMVC_image_1.jpg",
-    "软件(原理,部署,特点)/Redis/Redis原理_image_3.jpg.md",
     "学习/科学",
     "常用语法和算法/常用算法/数学",
     "IT/JAVA底层知识/JDK(JAVA底层原理)",
