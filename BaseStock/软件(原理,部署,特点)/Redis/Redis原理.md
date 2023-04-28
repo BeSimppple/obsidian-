@@ -34,6 +34,12 @@
 	当一个hash值的数据成链表过多的时候
 	不是变成红黑树或者二叉树
 	而是再reHash一个2倍大的Hash表,一个个重新存入新的大的hash表
+**Redsi事务：**
+	mutli # 开启事务
+	exec # 提交事务
+	discard # 回滚事务
+	**单条指令能保证原子性，多条不能
+	编译时异常会回滚，运行时异常不会回滚
 **Redis的安装(Linux与windows)**
 	**windows**
 	官方不提供windows版本redis，3.2版本是里程碑
@@ -61,13 +67,10 @@
 	2.  列族数据库：Bigtable、HBase、Cassandra
 	3.  文档数据库：MongoDB、CouchDB、MarkLogic
 	4.  图形数据库：Neo4j、InfoGrid
-**Redsi事务：**
-	mutli # 开启事务
-	exec # 提交事务
-	discard # 回滚事务
-	**单条指令能保证原子性，多条不能
-	编译时异常会回滚，运行时异常不会回滚
 Memcached和Redis比较  
+	1.线程上memcached是多线程
+	2.memcached支持图文
+	3.redis支持持久化和多种数据类型
 	![[Redis原理_image_2.jpg]]
 **Redis常用命令：**
 	list的：lpush，lpop，lrange，llen
@@ -91,6 +94,8 @@ Memcached和Redis比较
 	ACL DELUSER james（删除jame用户）
 	auth输入密码
 	其余命令可以去redis官网commands查看
+
+---
 ## redis的持久化方案:
 **RDB(Redis Databases):内存中的数据集快照写入磁盘，也就是 Snapshot 快照,恢复时是将快照文件直接读到内存里。**
 	dbfilename dump.rdb文件修改rdb方案
@@ -126,6 +131,8 @@ Memcached和Redis比较
 	重启后也以AOF文件做恢复（因为数据完整性更高）
 	优化方案:
 	bgsave做镜像全量持久化，aof做增量持久化。因为bgsave会耗费较长时间，不够实时，在停机的时候会导致大量丢失数据，所以需要aof来配合使用。在redis实例重启时，优先使用aof来恢复内存的状态，如果没有aof日志，就会使用rdb文件来恢复。
+
+---
 ## Redis高可用:
 **哨兵模式**
 哨兵模式特点:
