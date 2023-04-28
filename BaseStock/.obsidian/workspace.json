@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/基础知识点/反射.md",
+                "file": "软件(原理,部署,特点)/JDK(JAVA底层原理)/类加载器和双亲委派模型.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "类加载",
+                "query": "类的",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/基础知识点/反射.md",
+                "file": "软件(原理,部署,特点)/Redis/Redis原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/基础知识点/反射.md",
+                "file": "软件(原理,部署,特点)/Redis/Redis原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/基础知识点/反射.md"
+                "file": "软件(原理,部署,特点)/Redis/Redis原理.md"
               }
             }
           },
@@ -221,15 +221,15 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "68447e7ec5dfad2f",
+  "active": "2ace5b5ce6be630c",
   "lastOpenFiles": [
     "软件(原理,部署,特点)/JDK(JAVA底层原理)/类加载器和双亲委派模型.md",
-    "IT/基础知识点/反射.md",
-    "IT/常用概念.md",
     "软件(原理,部署,特点)/Redis/Redis原理.md",
     "每日八股文(2).md",
-    "IT/设计模式/代理模式.md",
     "IT/基础知识点/JVM.md",
+    "IT/基础知识点/反射.md",
+    "IT/常用概念.md",
+    "IT/设计模式/代理模式.md",
     "软件(原理,部署,特点)/JDK(JAVA底层原理)/Spring AOT.md",
     "软件(原理,部署,特点)/JDK(JAVA底层原理)/GraaIVM.md",
     "obsidian相关/Picture/Redis原理_image_3.jpg",
