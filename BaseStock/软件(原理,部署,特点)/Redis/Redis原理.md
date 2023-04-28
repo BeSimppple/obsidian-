@@ -1,5 +1,5 @@
-![[Redis原理_image_1.jpg]]
-**为什么使用Redis?** 因为Redis快
+![[Redis原理_image_1.jpg|600]]
+## **为什么使用Redis?** 因为Redis快
 **[Redis为什么快?](https://segmentfault.com/a/1190000041488709)**(Redis只有在Linux上能发挥速度,因为只有linux有epoll函数，其它系统会自动降级成select函数)
 	1.完全基于内存的IO
 	2.绝大部分情况是单线程(避免竞争和锁定)
@@ -97,7 +97,7 @@ Memcached和Redis比较
 
 
 
-### redis的持久化方案:
+## redis的持久化方案:
 **RDB(Redis Databases):内存中的数据集快照写入磁盘，也就是 Snapshot 快照,恢复时是将快照文件直接读到内存里。**
 	dbfilename dump.rdb文件修改rdb方案
 	生成dump.rdb文件需要修改配置dir参数将rdb文件放到指定文件夹，每次生成新的会覆盖旧的
@@ -132,55 +132,51 @@ Memcached和Redis比较
 	重启后也以AOF文件做恢复（因为数据完整性更高）
 	优化方案:
 	bgsave做镜像全量持久化，aof做增量持久化。因为bgsave会耗费较长时间，不够实时，在停机的时候会导致大量丢失数据，所以需要aof来配合使用。在redis实例重启时，优先使用aof来恢复内存的状态，如果没有aof日志，就会使用rdb文件来恢复。
-### Redis高可用:
+## Redis高可用:
 **哨兵模式**
-一主2从3哨兵 哨兵数量必须为2n+1(保证投票顺利)
-读写分离:为了解决redis的读写压力,从而进行分工
-master:主节点负责写,同时可以负责读
-slave:从节点:只能读不能写
-主从同步和一主多从:保证数据的一致性
-为了能开启多个redis,伪装成集群必须要差异化配置
-主从配置(差异配置必需)
-修改配置项
-pid文件名（pid内存的地址存的进程号）
-port端口
-rdb文件名
-关闭或更换aof名字
-文件配置：
-7001节点配置 :redis7001.conf
-include /export/server/redis/redis.conf
-(指定包含其它的配置文件，可以在同一主机上多个Redis实例之间使用同一份配置文件，而同时各个实例又拥有自己的特定配置文件) 把通用配置引用过来,同时又重写了自己的特异话配置
-port 7001(伪集群 主要通过端口区分 真集群不需要区分)
-pidfile /var/run/redis7001.pid
-dbfilename redis7001.rdb
-appendfilename "appendonly7001.aof"
-持久化的仆从关系 需要在配置上添加以下2句:
-slaveof 192.168.234.131 7001
-masterauth 123456 从master节点读取数据如果master设置了密码需要输入
-
-  
-
-配置完后进入redis-cli -h ip地址 -p 端口号进入redis
-输入命令info replication查看主从关系是否对应
-
-哨兵模式实现
-直接创建sentinel.conf文件使用命令redis-sentinel sentinel.conf启动即可
-三个哨兵就新建3个分别sentinel01.conf 、sentinel02.conf、sentinel03.conf，注意区分端口
-配置内容:
-bind 0.0.0.0
-#哨兵的端口
-port 26379
-#mymaster自定义
-sentinel monitor mymaster 192.168.234.122 7001 1
-sentinel auth-pass mymaster 123456
-然后启动哨兵（需要差异化配置端口）
-redis-sentinel sentinel01.conf
-redis-sentinel sentinel02.conf
-redis-sentinel sentinel03.conf
-redis哨兵模式如何集成springboot
-修改applicationContext。xml的配置将sentinel哨兵信息告知主从信息告知
-集群模式
-# redis集群版
+	一主2从3哨兵 哨兵数量必须为2n+1(保证投票顺利)
+	读写分离:为了解决redis的读写压力,从而进行分工
+	master:主节点负责写,同时可以负责读
+	slave:从节点:只能读不能写
+	主从同步和一主多从:保证数据的一致性
+	为了能开启多个redis,伪装成集群必须要差异化配置
+哨兵模式实现:
+	主从配置(差异配置必需)
+	修改配置项
+	pid文件名（pid内存的地址存的进程号）
+	port端口
+	rdb文件名
+	关闭或更换aof名字
+	文件配置：
+	7001节点配置 :redis7001.conf
+	include /export/server/redis/redis.conf
+	(指定包含其它的配置文件，可以在同一主机上多个Redis实例之间使用同一份配置文件，而同时各个实例又拥有自己的特定配置文件) 把通用配置引用过来,同时又重写了自己的特异话配置
+	port 7001(伪集群 主要通过端口区分 真集群不需要区分)
+	pidfile /var/run/redis7001.pid
+	dbfilename redis7001.rdb
+	appendfilename "appendonly7001.aof"
+	持久化的仆从关系 需要在配置上添加以下2句:
+	slaveof 192.168.234.131 7001
+	masterauth 123456 从master节点读取数据如果master设置了密码需要输入
+	配置完后进入redis-cli -h ip地址 -p 端口号进入redis
+	输入命令info replication查看主从关系是否对应
+	哨兵模式实现
+	直接创建sentinel.conf文件使用命令redis-sentinel sentinel.conf启动即可
+	三个哨兵就新建3个分别sentinel01.conf 、sentinel02.conf、sentinel03.conf，注意区分端口
+	配置内容:
+	bind 0.0.0.0
+	#哨兵的端口
+	port 26379
+	#mymaster自定义
+	sentinel monitor mymaster 192.168.234.122 7001 1
+	sentinel auth-pass mymaster 123456
+	然后启动哨兵（需要差异化配置端口）
+	redis-sentinel sentinel01.conf
+	redis-sentinel sentinel02.conf
+	redis-sentinel sentinel03.conf
+	redis哨兵模式如何集成springboot
+	修改applicationContext。xml的配置将sentinel哨兵信息告知主从信息告知
+## redis集群版
 linux中如何实现Redis集群
 	1.同哨兵模式新建redis7001.conf文件修改差异化配置，在哨兵模式的基础上加cluster-config-file nodes7001.conf（# 生成的node文件）
 	2.没有salveof xxx的配置

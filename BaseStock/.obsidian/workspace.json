@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a92d528b8f957c1e",
+            "id": "5300c954ecaeed5f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "61c62a56d8f4d223",
+            "id": "2ace5b5ce6be630c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "redis事务",
+                "query": "redis",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -90,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -209,15 +208,25 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "61c62a56d8f4d223",
+  "active": "2ace5b5ce6be630c",
   "lastOpenFiles": [
-    "常用语法和算法/VIM语法/Linux常用语法.md",
-    "软件(原理,部署,特点)/Redis/Redis原理.md",
-    "IT/常用概念.md",
     "每日八股文(2).md",
+    "软件(原理,部署,特点)/Redis/Redis原理.md",
+    "obsidian相关/Picture/Redis原理_image_3.jpg",
+    "obsidian相关/Picture/tmp1680833538402_GraaIVM_image_2.png",
+    "obsidian相关/Picture/Redis原理_image_2.jpg",
+    "obsidian相关/Picture/Redis原理_image_1.jpg",
+    "obsidian相关/Picture/tmp1679984439293_Sleuth_image_3.jpg",
+    "obsidian相关/Picture/tmp1679989488145_TCP协议三次握手四次挥手_image_3.jpeg",
+    "obsidian相关/Picture/tmp1680833536334_GraaIVM_image_2.png",
+    "obsidian相关/Picture/SpringSecurity_image_3.jpg",
+    "obsidian相关/Picture/SpringSecurity_image_1.jpg",
+    "obsidian相关/Picture/SpringMVC_image_1.jpg",
+    "软件(原理,部署,特点)/Redis/Redis原理_image_3.jpg.md",
+    "常用语法和算法/VIM语法/Linux常用语法.md",
+    "IT/常用概念.md",
     "IT/SpringCloud/Redisson分布式锁和SpringTask.md",
     "IT/JAVA小知识点.md",
-    "obsidian相关/Picture/JAVA小知识点_image_2.png",
     "软件(原理,部署,特点)/Redis/部落.md",
     "IT/Spring/事务管理.md",
     "IT/MySQL/数据库优化(1).md",
@@ -231,22 +240,12 @@
     "IT/基础知识点/常用注解.md",
     "IT/编程理念.md",
     "常用语法和算法/常用算法/常用算法.md",
-    "obsidian相关/Picture/JAVA小知识点_image_1.png",
-    "obsidian相关/Picture/常用概念_image_1.png",
     "IT/基础知识点/多线程.md",
     "网络工程/计算机硬件系统/计算机硬件.md",
     "常用语法和算法/Markdown语法及快捷键/基础语法.md",
     "常用语法和算法/markdown语法及快捷键/常用命令.md",
     "常用语法和算法/Markdown语法及快捷键/快捷键.md",
-    "[.md",
-    "常用语法和算法/Markdown语法及快捷键/Pasted image 20230221110311.png",
-    "常用语法和算法/Markdown语法及快捷键/Pasted image 20230221110515.png",
-    "常用语法和算法/Markdown语法及快捷键/Pasted image 20230221110550.png",
     "学习/科学",
-    "obsidian相关/Picture/IT知识类/环境部署_image_1.png",
-    "obsidian相关/Picture/机械图片组/G0.1.2.3曲面.png",
-    "obsidian相关/Picture/时间复杂度和空间复杂度_image_1.png",
-    "obsidian相关/Picture/时间复杂度和空间复杂度_image_2.png",
     "常用语法和算法/常用算法/数学",
     "软件(原理,部署,特点)/JDK",
     "学习",
