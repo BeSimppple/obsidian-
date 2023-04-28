@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
+                "file": "每日八股文(2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
+                "file": "每日八股文(2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md"
+                "file": "每日八股文(2).md"
               }
             }
           },
@@ -196,10 +195,10 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "2ace5b5ce6be630c",
+  "active": "5300c954ecaeed5f",
   "lastOpenFiles": [
-    "每日八股文(2).md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
+    "每日八股文(2).md",
     "obsidian相关/Picture/对象_image_1.png",
     "obsidian相关/Picture/tmp1682663321902_对象_image_1.png",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/类加载器和双亲委派.md",
