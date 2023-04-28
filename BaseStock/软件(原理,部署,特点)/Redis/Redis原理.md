@@ -69,54 +69,34 @@
 	编译时异常会回滚，运行时异常不会回滚
 Memcached和Redis比较
 	![[Redis原理_image_2.jpg]]
+**Redis常用命令：**
+	list的：lpush，lpop，lrange，llen
+	set的：sadd，spop，smembers，scard，srandmember
+	hash的：hset，hget，hmset，hlen，hexisits，hkeys，hvals
+	zset的：zadd，zrange，zrevrange，zrangebyscore，zrem
+	**其他常用：**
+	key相关的：
+	keys XXX（查询一类key），exists key（是否存在），del key（删除），expire key seconds（设置key并设置存在时间），ttl key（查看key剩余时间）， persist key（常驻内存key）
+	db相关的：
+	select index（切换到指定数据库redis有16个db从0-15默认使用0），move key dbindex（迁移到指定数据库），flushdb（清空数据库），flushall（清空所有数据库），dbsize（数据库数据总条数），tastsave（最后一次保存数据的时间戳）
+	ACL权限控制命令
+	ACL命令（权限控制命令）Access Control
+	ACL whoami （查询当前用户）
+	ACL list（查询所有用户）
+	ACL setuser allen on >123456 +@all ~*（设置一个新用户allen密码为123456，all代表拥有所有命令权限~*代表拥有所有key使用权）
+	AUTH allen XXX（auth登录allen账号）
+	# 只能创建以lakers为前缀的key
+	ACL setuser james on >123456 +@all ~lakers*（同理allen但是只能操作lakers为前缀的keys）
+	ACL setuser james -SET（不再拥有set权限）
+	ACL DELUSER james（删除jame用户）
+	auth输入密码
+	其余命令可以去redis官网commands查看
 
 
-Redis 优势：
-性能极高 – Redis能读的速度是110000次/s,写的速度是81000次/s 。
-丰富的数据类型 – Redis支持二进制案例的 Strings, Lists, Hashes, Sets 及 Ordered Sets 数据类型操作。
-原子 – Redis的所有操作都是原子性的，意思就是要么成功执行要么失败完全不执行。单个操作是原子性的。多个操作也支持事务，即原子性，通过MULTI和EXEC指令包起来
 
-可以使用list实现队列等效果
-lpush从向左推数据lpop从左取数据同理rpush和rpop
-使用lplush存入然后rpop取出就实现了队列的先进先出
-同理lpush加lpop就实现了栈的先进后出
-Redis常用命令：
-list的：lpush，lpop，lrange，llen
-set的：sadd，spop，smembers，scard，srandmember
-hash的：hset，hget，hmset，hlen，hexisits，hkeys，hvals
-zset的：zadd，zrange，zrevrange，zrangebyscore，zrem
-其他常用：
-key相关的：
-keys XXX（查询一类key），exists key（是否存在），del key（删除），expire key seconds（设置key并设置存在时间），ttl key（查看key剩余时间）， persist key（常驻内存key）
-db相关的：
-select index（切换到指定数据库redis有16个db从0-15默认使用0），move key dbindex（迁移到指定数据库），flushdb（清空数据库），flushall（清空所有数据库），dbsize（数据库数据总条数），tastsave（最后一次保存数据的时间戳）
-ACL权限控制命令
-auth输入密码
-其余命令可以去redis官网commands查看
-**
-Jedis实现java项目链接redis （以后会用spring整合的spring-data-redis但也需要jedis依赖）
-pom依赖后使用jedis类操作
-在此之前还需要修改redis的bind配置才能保证链接到redis
-可以再cmd使用talnet ip地址 端口命令查看能否链接到
-bind配置本机的网卡对应的ip地址，表示只有通过指定网卡进来的主机才能访问redis
-默认为127.0.0.1本地回环地址表示只有本地能访问redis无法远程链接
-设置完成后redis-cli必须要加-h ip地址来访问指定的ip地址进入
-使用redis.properties配置redis连接池等参数
-使用applicationContext-redis.xml文件引用redis.properties文件进行整合
-使用springcloud后会使用yaml文件配置redis更方便
-额外内容：如果要限制redis访问名单可以通过阿里安全组实现
-redis的密码及权限控制：
-如果要保证数据安全性还需要对redis访问设置密码保证权限控制，需要在conf配置中改requirepass
-设置完成后进入redis后必须要输入auth 密码才能有权限操作同理java访问也需要通过jedis的auth方法先输入密码
-ACL命令（权限控制命令）Access Control
-ACL whoami （查询当前用户）
-ACL list（查询所有用户）
-ACL setuser allen on >123456 +@all ~*（设置一个新用户allen密码为123456，all代表拥有所有命令权限~*代表拥有所有key使用权）
-AUTH allen XXX（auth登录allen账号）
-#只能创建以lakers为前缀的key
-ACL setuser james on >123456 +@all ~lakers*（同理allen但是只能操作lakers为前缀的keys）
-ACL setuser james -SET（不再拥有set权限）
-ACL DELUSER james（删除jame用户）
+
+
+
 ### redis的持久化方案:
 **RDB(Redis Databases):内存中的数据集快照写入磁盘，也就是 Snapshot 快照,恢复时是将快照文件直接读到内存里。**
 	dbfilename dump.rdb文件修改rdb方案
@@ -200,7 +180,7 @@ redis-sentinel sentinel03.conf
 redis哨兵模式如何集成springboot
 修改applicationContext。xml的配置将sentinel哨兵信息告知主从信息告知
 集群模式
-
+# redis集群版
 linux中如何实现Redis集群
 	1.同哨兵模式新建redis7001.conf文件修改差异化配置，在哨兵模式的基础上加cluster-config-file nodes7001.conf（# 生成的node文件）
 	2.没有salveof xxx的配置
@@ -214,25 +194,38 @@ linux中如何实现Redis集群
 	192.168.234.131:7006 \
 	--cluster-replicas 1
 	然后就会提示创建集群3个主节点对应3个从节点-yes
-
 redis集群连接java项目
-springboot 同理在xml文件设置
-使用springcloud的yaml会比较方便
+	springboot 同理在xml文件设置
+	使用springcloud的yaml会比较方便
+	Jedis实现java项目链接redis （以后会用spring整合的spring-data-redis但也需要jedis依赖）
+	pom依赖后使用jedis类操作
+	在此之前还需要修改redis的bind配置才能保证链接到redis
+	可以再cmd使用talnet ip地址 端口命令查看能否链接到
+	bind配置本机的网卡对应的ip地址，表示只有通过指定网卡进来的主机才能访问redis
+	默认为127.0.0.1本地回环地址表示只有本地能访问redis无法远程链接
+	设置完成后redis-cli必须要加-h ip地址来访问指定的ip地址进入
+	使用redis.properties配置redis连接池等参数
+	使用applicationContext-redis.xml文件引用redis.properties文件进行整合
+	使用springcloud后会使用yaml文件配置redis更方便
+	额外内容：如果要限制redis访问名单可以通过阿里安全组实现
+	redis的密码及权限控制：
+	如果要保证数据安全性还需要对redis访问设置密码保证权限控制，需要在conf配置中改requirepass
+	设置完成后进入redis后必须要输入auth 密码才能有权限操作同理java访问也需要通过jedis的auth方法先输入密码spring.redis.cluster.nodes=192.168.234.131:7001,192.168.234.131:7002,192.168.234.131:7003
 集群与哨兵的差别？
-1.解决哨兵模式的"写"压力大的问题
-2.解决内存存储的瓶颈
+	1.解决哨兵模式的"写"压力大的问题
+	2.解决内存存储的瓶颈
 
 集群模式特点:
-1.去中心化
-2.master之间可以通过ping-pong相互通讯
-3.redis集群总共有16384个hash slot槽分配到集群
-hash slot只分配给master不会给slave
-三台服务器搭建集群:master和slave必须错开
-保证一台服务器宕机的时候其slave的备份文件并不会一起消失(6台则无该烦恼)
-取数据时根据get的槽的位置找到集群中对应redis
-  ![[Redis原理_image_3.jpg]]
+	1.去中心化
+	2.master之间可以通过ping-pong相互通讯
+	3.redis集群总共有16384个hash slot槽分配到集群
+	hash slot只分配给master不会给slave
+	三台服务器搭建集群:master和slave必须错开
+	保证一台服务器宕机的时候其slave的备份文件并不会一起消失(6台则无该烦恼)
+	取数据时根据get的槽的位置找到集群中对应redis  
+![[Redis原理_image_3.jpg|600]]
 
-# redis集群版
+
 缓存击穿问题(热点数据过期,导致高并发去访问数据库)
 	1.加锁(分布式锁)，两次判断，如果redis没有则去数据库取并重新赋值到redis，如果有则直接从redis取（减轻了一直从数据库取消耗的资源和时间减轻数据库压力）
 	2.热点数据永不过期
@@ -243,15 +236,12 @@ hash slot只分配给master不会给slave
 缓存雪崩(数据同时过期对数据库压力增大)
 	1.设置过期时间函数消减过期峰值,让过期时间平均分布 
 
-  
-spring.redis.cluster.nodes=192.168.234.131:7001,192.168.234.131:7002,192.168.234.131:7003
-  
+**Redis常见问题**
 
-
-
-
-
-Redis常见问题
+Redis如何实现队列和栈效果?
+lpush从向左推数据lpop从左取数据同理rpush和rpop
+使用lplush存入然后rpop取出就实现了队列的先进先出
+同理lpush加lpop就实现了栈的先进后出
 
 Redis分布式锁它是什么回事？
 1.先拿setnx来争抢锁，抢到之后，再用expire给锁加一个过期时间防止锁忘记了释放。
@@ -293,11 +283,6 @@ Redis可以使用主从同步，从从同步。第一次同步时，主节点做
 是否使用过Redis集群，集群的原理是什么？
 Redis Sentinal着眼于高可用，在master宕机时会自动将slave提升为master，继续提供服务。
 Redis Cluster着眼于扩展性，在单个redis内存不足时，使用Cluster进行分片存储。
-
-
-
-setnx（set if not exist）解决分布式锁
-jemter工具压力测试
 
 Redis+Lua脚本
 	lua是轻量化C语言脚本
