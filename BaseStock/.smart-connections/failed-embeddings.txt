@@ -1,4 +1,5 @@
 
+IT/JAVA小知识点.md
 IT/常用概念.md
 学习/JAVA学习XIMD图.md
 常用语法和算法/常用格式(ymal,xml,property)/XML(Extensible Markup Language).md#XML和DSL的区别

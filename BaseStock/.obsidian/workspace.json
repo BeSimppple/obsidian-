@@ -180,7 +180,7 @@
             }
           },
           {
-            "id": "6db9ac9cac0eefda",
+            "id": "def6117328bfa9bd",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -209,7 +209,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "61c62a56d8f4d223",
+  "active": "def6117328bfa9bd",
   "lastOpenFiles": [
     "每日八股文(2).md",
     "软件(原理,部署,特点)/Redis/Redis原理.md",
