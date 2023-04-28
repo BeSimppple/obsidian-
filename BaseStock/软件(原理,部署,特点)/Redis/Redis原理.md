@@ -38,9 +38,9 @@
 	mutli # 开启事务
 	exec # 提交事务
 	discard # 回滚事务
-	**单条指令能保证原子性，多条不能
-	编译时异常会回滚，运行时异常不会回滚
-**Redis的安装(Linux与windows)**
+	**单条指令能保证原子性，多条不能**
+	**编译时异常会回滚，运行时异常不会回滚**
+Redis的安装(Linux与windows)
 	**windows**
 	官方不提供windows版本redis，3.2版本是里程碑
 	下载zip包后解压，文件夹内有redis-cli客户端启动和redis-server服务端启动（server是服务器，cli是前端输入指令页面）
@@ -72,7 +72,7 @@ Memcached和Redis比较
 	2.memcached支持图文
 	3.redis支持持久化和多种数据类型
 	![[Redis原理_image_2.jpg]]
-**Redis常用命令：**
+Redis常用命令：
 	list的：lpush，lpop，lrange，llen
 	set的：sadd，spop，smembers，scard，srandmember
 	hash的：hset，hget，hmset，hlen，hexisits，hkeys，hvals
