@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "f89ec7e10b034d83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "软件(原理,部署,特点)/Redis/Redis常见问题.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "efe0e44fce98cf95",
             "type": "leaf",
             "state": {
@@ -40,6 +52,16 @@
                 "file": "IT/常用概念.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "4fa949602a5d57d5",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "obsidian相关/Picture/Redis原理_image_3.jpg"
               }
             }
           }
@@ -73,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "redis",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -210,11 +232,13 @@
   },
   "active": "2ace5b5ce6be630c",
   "lastOpenFiles": [
-    "每日八股文(2).md",
+    "软件(原理,部署,特点)/Redis/Redis常见问题.md",
     "软件(原理,部署,特点)/Redis/Redis原理.md",
+    "每日八股文(2).md",
+    "obsidian相关/Picture/Redis原理_image_3.jpg",
     "obsidian相关/Picture/Redis原理_image_2.jpg",
+    "IT/常用概念.md",
     "obsidian相关/Picture/tmp1680833538402_GraaIVM_image_2.png",
-    "obsidian相关/Picture/tmp1682648817409_Redis原理_image_2.jpg",
     "obsidian相关/Picture/Redis原理_image_1.jpg",
     "obsidian相关/Picture/tmp1679984439293_Sleuth_image_3.jpg",
     "obsidian相关/Picture/tmp1679989488145_TCP协议三次握手四次挥手_image_3.jpeg",
@@ -224,7 +248,6 @@
     "obsidian相关/Picture/SpringMVC_image_1.jpg",
     "软件(原理,部署,特点)/Redis/Redis原理_image_3.jpg.md",
     "常用语法和算法/VIM语法/Linux常用语法.md",
-    "IT/常用概念.md",
     "IT/SpringCloud/Redisson分布式锁和SpringTask.md",
     "IT/JAVA小知识点.md",
     "软件(原理,部署,特点)/Redis/部落.md",
