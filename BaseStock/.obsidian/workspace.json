@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "f89ec7e10b034d83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "efe0e44fce98cf95",
             "type": "leaf",
             "state": {
@@ -54,19 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4fa949602a5d57d5",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "obsidian相关/Picture/Redis原理_image_3.jpg"
-              }
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -132,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/Redis/Redis原理.md",
+                "file": "IT/常用概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/Redis/Redis原理.md",
+                "file": "IT/常用概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/Redis/Redis原理.md"
+                "file": "IT/常用概念.md"
               }
             }
           },
@@ -230,14 +208,14 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "2ace5b5ce6be630c",
+  "active": "efe0e44fce98cf95",
   "lastOpenFiles": [
-    "每日八股文(2).md",
-    "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
-    "软件(原理,部署,特点)/Redis/Redis原理.md",
     "obsidian相关/Picture/Redis原理_image_3.jpg",
-    "obsidian相关/Picture/Redis原理_image_2.jpg",
     "IT/常用概念.md",
+    "软件(原理,部署,特点)/Redis/Redis原理.md",
+    "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
+    "每日八股文(2).md",
+    "obsidian相关/Picture/Redis原理_image_2.jpg",
     "obsidian相关/Picture/tmp1680833538402_GraaIVM_image_2.png",
     "obsidian相关/Picture/Redis原理_image_1.jpg",
     "obsidian相关/Picture/tmp1679984439293_Sleuth_image_3.jpg",
@@ -267,7 +245,6 @@
     "网络工程/计算机硬件系统/计算机硬件.md",
     "常用语法和算法/Markdown语法及快捷键/基础语法.md",
     "常用语法和算法/markdown语法及快捷键/常用命令.md",
-    "常用语法和算法/Markdown语法及快捷键/快捷键.md",
     "学习/科学",
     "常用语法和算法/常用算法/数学",
     "软件(原理,部署,特点)/JDK",
