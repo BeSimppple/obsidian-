@@ -61,10 +61,15 @@
 	2.  列族数据库：Bigtable、HBase、Cassandra
 	3.  文档数据库：MongoDB、CouchDB、MarkLogic
 	4.  图形数据库：Neo4j、InfoGrid
-
+**Redsi事务：**
+	mutli # 开启事务
+	exec # 提交事务
+	discard # 回滚事务
+	**单条指令能保证原子性，多条不能
+	编译时异常会回滚，运行时异常不会回滚
 Memcached和Redis比较
 	![[Redis原理_image_2.jpg]]
-NoSQL== =非关系型数据分为以下2种：
+
 
 Redis 优势：
 性能极高 – Redis能读的速度是110000次/s,写的速度是81000次/s 。
@@ -88,13 +93,7 @@ select index（切换到指定数据库redis有16个db从0-15默认使用0），
 ACL权限控制命令
 auth输入密码
 其余命令可以去redis官网commands查看
-Redsi事务：
-mutli #开启事务
-exec #提交事务
-discard #回滚事务
-
-单条指令能保证原子性，多条不能
-编译时异常会回滚，运行时异常不会回滚
+**
 Jedis实现java项目链接redis （以后会用spring整合的spring-data-redis但也需要jedis依赖）
 pom依赖后使用jedis类操作
 在此之前还需要修改redis的bind配置才能保证链接到redis
