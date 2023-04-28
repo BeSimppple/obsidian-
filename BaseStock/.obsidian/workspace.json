@@ -20,12 +20,24 @@
             }
           },
           {
+            "id": "2d6971c2a2db16f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/JAVA底层知识/多线程.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "2ace5b5ce6be630c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件(原理,部署,特点)/JDK(JAVA底层原理)/类加载器和双亲委派模型.md",
+                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/类加载器和双亲委派模型.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -72,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "强引用",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "每日八股文(2).md",
+                "file": "IT/JAVA底层知识/多线程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "每日八股文(2).md",
+                "file": "IT/JAVA底层知识/多线程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "每日八股文(2).md"
+                "file": "IT/JAVA底层知识/多线程.md"
               }
             }
           },
@@ -207,18 +220,22 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "5300c954ecaeed5f",
+  "active": "2d6971c2a2db16f5",
   "lastOpenFiles": [
-    "IT/常用概念.md",
-    "软件(原理,部署,特点)/JDK(JAVA底层原理)/类加载器和双亲委派模型.md",
+    "IT/JAVA底层知识/多线程-线程安全.md",
+    "IT/JAVA底层知识/多线程.md",
+    "IT/JAVA底层知识/关键字(常用).md",
+    "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
+    "IT/JAVA底层知识/JDK(JAVA底层原理)/类加载器和双亲委派模型.md",
+    "IT/JAVA底层知识/JDK(JAVA底层原理)/GraaIVM.md",
+    "IT/JAVA底层知识/JDK(JAVA底层原理)/Spring AOT.md",
     "每日八股文(2).md",
+    "IT/SpringBoot/SpringBoot.md",
+    "IT/常用概念.md",
     "每日八股文.md",
-    "IT/基础知识点/反射.md",
+    "IT/JAVA底层知识/反射.md",
     "软件(原理,部署,特点)/Redis/Redis原理.md",
-    "IT/基础知识点/JVM.md",
     "IT/设计模式/代理模式.md",
-    "软件(原理,部署,特点)/JDK(JAVA底层原理)/Spring AOT.md",
-    "软件(原理,部署,特点)/JDK(JAVA底层原理)/GraaIVM.md",
     "obsidian相关/Picture/Redis原理_image_3.jpg",
     "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
     "obsidian相关/Picture/Redis原理_image_2.jpg",
@@ -241,13 +258,9 @@
     "常用语法和算法/SQL语法.md",
     "常用语法和算法/Github找项目语法.md",
     "常用语法和算法/正则表达式.md",
-    "常用语法和算法/语言(仅需了解).md",
-    "IT/基础知识点/常用关键字.md",
-    "IT/基础知识点/常用注解.md",
-    "IT/编程理念.md",
     "学习/科学",
     "常用语法和算法/常用算法/数学",
-    "软件(原理,部署,特点)/JDK(JAVA底层原理)",
+    "IT/JAVA底层知识/JDK(JAVA底层原理)",
     "学习",
     "模板样式仓库",
     "模具实际加工工艺",
