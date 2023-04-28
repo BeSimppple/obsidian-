@@ -32,11 +32,15 @@
             }
           },
           {
-            "id": "2c510649c78811d6",
+            "id": "542901a474350619",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "软件(原理,部署,特点)/Mysql/常用语法.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -118,6 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "软件(原理,部署,特点)/Mysql/常用语法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,6 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "软件(原理,部署,特点)/Mysql/常用语法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +161,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "软件(原理,部署,特点)/Mysql/常用语法.md"
+              }
             }
           },
           {
@@ -212,10 +220,12 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "2c510649c78811d6",
+  "active": "542901a474350619",
   "lastOpenFiles": [
-    "obsidian相关/快捷键.md",
     "IT/MySQL/数据库概念.md",
+    "obsidian相关/快捷键.md",
+    "代码块.md",
+    "obsidian相关/代码块.md",
     "常用语法和算法/常用格式(ymal,xml,property)/常用格式.md",
     "IT/常用概念.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
@@ -231,7 +241,6 @@
     "IT/JAVA底层知识/反射.md",
     "obsidian相关/Picture/tmp1682663107231_对象_image_1.png",
     "IT/JAVA小知识点.md",
-    "代码块.md",
     "IT/JAVA底层知识/泛型和IO流.md",
     "IT/SpringCloud/Redisson分布式锁和SpringTask.md",
     "文档编写和分类标准.md",
@@ -243,7 +252,6 @@
     "IT/未归类知识点/GraaIVM(虚拟机).md",
     "IT/JAVA底层知识/常用注解.md",
     "IT/多线程",
-    "IT/编程理念.md",
     "obsidian相关/Picture/Redis原理_image_3.jpg",
     "obsidian相关/Picture/Redis原理_image_2.jpg",
     "obsidian相关/Picture/tmp1680833538402_GraaIVM_image_2.png",
