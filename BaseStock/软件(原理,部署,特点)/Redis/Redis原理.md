@@ -67,8 +67,7 @@
 	discard # 回滚事务
 	**单条指令能保证原子性，多条不能
 	编译时异常会回滚，运行时异常不会回滚
-Memcached和Redis比较
-	![[Redis原理_image_2.jpg]]
+
 **Redis常用命令：**
 	list的：lpush，lpop，lrange，llen
 	set的：sadd，spop，smembers，scard，srandmember
@@ -91,13 +90,14 @@ Memcached和Redis比较
 	ACL DELUSER james（删除jame用户）
 	auth输入密码
 	其余命令可以去redis官网commands查看
+
 ## redis的持久化方案:
 **RDB(Redis Databases):内存中的数据集快照写入磁盘，也就是 Snapshot 快照,恢复时是将快照文件直接读到内存里。**
 	dbfilename dump.rdb文件修改rdb方案
 	生成dump.rdb文件需要修改配置dir参数将rdb文件放到指定文件夹，每次生成新的会覆盖旧的
 	优点：恢复数据快、节省磁盘空间
 	缺点：如果数据量比较大的情况会影响性能、数据持久化得不到很高的保证
-**两种触发方式:**
+两种触发方式:
 	1.自动触发,同时满足两个条件时候触发,bin/redis.conf中可以设置
 	save 900 1 代表每900秒检测如果修改次数大于1则触发
 	save 60 10000 代表每60秒检测一次如果修改次数大于10000则触发
@@ -170,7 +170,17 @@ Memcached和Redis比较
 	redis-sentinel sentinel03.conf
 	redis哨兵模式如何集成springboot
 	修改applicationContext。xml的配置将sentinel哨兵信息告知主从信息告知
-## redis集群版
+**redis集群版**
+	真正的多主机备份每个都是独立节点
+	每个节点都能实现读写任务
+集群模式特点:
+	1.去中心化
+	2.master之间可以通过ping-pong相互通讯
+	3.redis集群总共有16384个hash slot槽分配到集群
+	hash slot只分配给master不会给slave
+	三台服务器搭建集群:master和slave必须错开
+	保证一台服务器宕机的时候其slave的备份文件并不会一起消失(6台则无该烦恼)
+	取数据时根据get的槽的位置找到集群中对应redis  
 linux中如何实现Redis集群
 	1.同哨兵模式新建redis7001.conf文件修改差异化配置，在哨兵模式的基础上加cluster-config-file nodes7001.conf（# 生成的node文件）
 	2.没有salveof xxx的配置
@@ -204,15 +214,6 @@ redis集群连接java项目
 集群与哨兵的差别？
 	1.解决哨兵模式的"写"压力大的问题
 	2.解决内存存储的瓶颈
-
-集群模式特点:
-	1.去中心化
-	2.master之间可以通过ping-pong相互通讯
-	3.redis集群总共有16384个hash slot槽分配到集群
-	hash slot只分配给master不会给slave
-	三台服务器搭建集群:master和slave必须错开
-	保证一台服务器宕机的时候其slave的备份文件并不会一起消失(6台则无该烦恼)
-	取数据时根据get的槽的位置找到集群中对应redis  
 ![[Redis原理_image_3.jpg|600]]
 缓存击穿问题(热点数据过期,导致高并发去访问数据库)
 	1.加锁(分布式锁)，两次判断，如果redis没有则去数据库取并重新赋值到redis，如果有则直接从redis取（减轻了一直从数据库取消耗的资源和时间减轻数据库压力）
