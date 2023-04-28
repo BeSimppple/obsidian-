@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "c9041c4f121dfb13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/基础知识点/反射.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "2ace5b5ce6be630c",
             "type": "leaf",
             "state": {
@@ -73,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "类加载",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -90,7 +102,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/Redis/Redis原理.md",
+                "file": "IT/基础知识点/反射.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/Redis/Redis原理.md",
+                "file": "IT/基础知识点/反射.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/Redis/Redis原理.md"
+                "file": "IT/基础知识点/反射.md"
               }
             }
           },
@@ -208,11 +221,17 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "2ace5b5ce6be630c",
+  "active": "68447e7ec5dfad2f",
   "lastOpenFiles": [
-    "每日八股文(2).md",
-    "软件(原理,部署,特点)/Redis/Redis原理.md",
+    "软件(原理,部署,特点)/JDK(JAVA底层原理)/类加载器和双亲委派模型.md",
+    "IT/基础知识点/反射.md",
     "IT/常用概念.md",
+    "软件(原理,部署,特点)/Redis/Redis原理.md",
+    "每日八股文(2).md",
+    "IT/设计模式/代理模式.md",
+    "IT/基础知识点/JVM.md",
+    "软件(原理,部署,特点)/JDK(JAVA底层原理)/Spring AOT.md",
+    "软件(原理,部署,特点)/JDK(JAVA底层原理)/GraaIVM.md",
     "obsidian相关/Picture/Redis原理_image_3.jpg",
     "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
     "obsidian相关/Picture/Redis原理_image_2.jpg",
@@ -231,7 +250,6 @@
     "软件(原理,部署,特点)/Redis/部落.md",
     "IT/Spring/事务管理.md",
     "IT/MySQL/数据库优化(1).md",
-    "IT/基础知识点/JVM.md",
     "常用语法和算法/Windows快捷键.md",
     "常用语法和算法/SQL语法.md",
     "常用语法和算法/Github找项目语法.md",
@@ -241,13 +259,9 @@
     "IT/基础知识点/常用注解.md",
     "IT/编程理念.md",
     "常用语法和算法/常用算法/常用算法.md",
-    "IT/基础知识点/多线程.md",
-    "网络工程/计算机硬件系统/计算机硬件.md",
-    "常用语法和算法/Markdown语法及快捷键/基础语法.md",
-    "常用语法和算法/markdown语法及快捷键/常用命令.md",
     "学习/科学",
     "常用语法和算法/常用算法/数学",
-    "软件(原理,部署,特点)/JDK",
+    "软件(原理,部署,特点)/JDK(JAVA底层原理)",
     "学习",
     "模板样式仓库",
     "模具实际加工工艺",
