@@ -1,98 +1,55 @@
 Spring概述:
 	Spring是分层的 Java SE/EE应用轻量级开源框架，以 IoC（Inverse Of Control：反转控制）和 AOP（Aspect Oriented Programming：面向切面编程）为内核。
+作用:
+	Web层：Spring MVC
+	业务层 ：Spring的IoC
+	持久层 ：Spring的JDBC、ORM、等持久层框架；
+	以及业务层事务管理等众多级应用技术，还能整合开源世界众多著名的第三方框架和类库.
+	简化并规范Java开发
 
-提供了视图层SpringMVC和持久层Spring JDBCTemplate以及业务层事务管理等众多的企业级应用技术，还能整合开源世界众多著名的第三方框架和类库.
+体系:                                                                   | 依赖关系:
 
-体系:
-
-![[Spring原理_image_1.jpg|400]]
-
-依赖关系:
-
-![[Spring原理_image_2.jpg|400]]
-
+![[Spring原理_image_1.jpg|350]]![[Spring原理_image_2.jpg|350]]
 Bean是什么?
-
-bean是一个书面注解,凡是需要ioc翻转控制的带有方法和属性的类,需要实例化调用方法都需要祖册到bean来注入(DI)spring容器实现IOC(反转控制)
-
-注入到spring容器中的bean我们就可以使用反射方式获取从而实现减少耦合减少new
-
-Bean的生命周期:
-
-单例在加载时候初始化,容器销毁同时死亡
-
-多例:加载时候初始化,长时间不使用,被java中的gc垃圾回收器回收(不归spring容器管属jvm管)
-
-1、 实例化(Instantiation)
-
-无参构造参数创建bean实例
-
-2、 属性设置(populate)
-
-调用set方法设置属性值
-
-3、 初始化(Initialization)
-
-init初始化
-
-4、 销毁(Destruction)
-
-destroy销毁
+	bean是一个书面注解,凡是需要ioc翻转控制的带有方法和属性的类,需要实例化调用方法都需要祖册到bean来注入(DI)spring容器实现IOC(反转控制)
+	注入到spring容器中的bean我们就可以使用反射方式获取从而实现减少耦合减少new
+**Bean的生命周期:**
+	单例在加载时候初始化,容器销毁同时死亡
+	多例:加载时候初始化,长时间不使用,被java中的gc垃圾回收器回收(不归spring容器管属jvm管)
+	1、 实例化(Instantiation)
+	无参构造参数创建bean实例
+	2、 属性设置(populate)
+	调用set方法设置属性值
+	3、 初始化(Initialization)
+	init初始化
+	4、 销毁(Destruction)
+	destroy销毁
 
 IOC控制反转(inversion of control)
-
-原本是主动获取程序通过new
-
-现在是通过工程,工厂获取(反射)并返回 是被动的
-
-这就是控制反转
-
+原本是主动获取程序通过new现在是通过工程,工厂获取(反射)并返回 是被动的这就是控制反转
 作用:降低计算机程序有耦合
-
 spring常用注解（不包含springmvc和spring boot）
-
-使用DI注入类相关：
-
-@Component：泛指各种组件
-
-@Controller、@Service、@Repository都可以称为@Component。
-
-@Controller：控制层
-
-@Service：业务层
-
-@Repository：数据访问层
-
-@Bean导入第三方包里面的注解
-
-@Import(要导入到容器中的组件)；
-
-@ImportSelector：返回需要导入的组件的全类名数组；
-
+	使用DI注入类相关：
+		@Component：泛指各种组件
+		@Controller、@Service、@Repository都可以称为@Component。
+		@Controller：控制层
+		@Service：业务层
+		@Repository：数据访问层
+		@Bean导入第三方包里面的注解
+		@Import(要导入到容器中的组件)；
+		@ImportSelector：返回需要导入的组件的全类名数组；
 注入Bean相关的：
-
 @Autowired：由bean提供可以作用在变量、setter方法、构造函数上；有个属性为required，可以配置为false；
-
 @Inject：由JSR-330提供用法和@Autowired一样。
-
 @Resource：由JSR-250提供，差别在是按照名称匹配的
-
 映射或序列化相关：
-
 @JsonIgnore在json序列化时将java bean中的一些属性忽略掉，序列化和反序列化都受影响。
-
 一般标记在属性或者方法上，返回的json数据即不包含该属性。
-
 如果是fastjson则使用@JSONField
-
 AOP（切面）相关的：
-
 @Aspect 声明一个切面
-
 @After 在方法执行之后执行（方法上）
-
 @Before 在方法执行之前执行（方法上）
-
 @Around 在方法执行之前与之后执行（方法上）
 
 @PointCut 声明切点
