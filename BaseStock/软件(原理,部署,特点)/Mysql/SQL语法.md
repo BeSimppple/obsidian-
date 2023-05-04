@@ -7,6 +7,10 @@
 	--设置会话隔离级别,不需要重新连接数据库
 	3.select @@tx_isolation;
 	--查看隔离级别
+3. 设置慢查询
+	set global slow_query_log=1; 设置开启全局慢查询日志
+	show variables like '%slow_query_log%';  查询慢查询变量是否开启
+	
 
 
 
