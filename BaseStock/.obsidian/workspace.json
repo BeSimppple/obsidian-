@@ -32,16 +32,6 @@
             }
           },
           {
-            "id": "62e2f0de0e959da7",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "obsidian相关/Picture/数据库优化(相关概念)_image_1.jpg"
-              }
-            }
-          },
-          {
             "id": "c46050ae8caff527",
             "type": "leaf",
             "state": {
@@ -65,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/MySQL/数据库优化(相关概念).md",
+                "file": "每日八股文(2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/MySQL/数据库优化(相关概念).md",
+                "file": "每日八股文(2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/MySQL/数据库优化(相关概念).md"
+                "file": "每日八股文(2).md"
               }
             }
           },
@@ -230,20 +219,21 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "a48001afffcb31ba",
+  "active": "5300c954ecaeed5f",
   "lastOpenFiles": [
-    "obsidian相关/Picture/数据库优化(相关概念)_image_1.jpg",
-    "obsidian相关/Picture/数据库优化(相关概念)_image_2.jpg",
-    "obsidian相关/Picture/tmp1683168390941_数据库优化(相关概念)_image_5.jpg",
-    "obsidian相关/Picture/tmp1682663321902_对象_image_1.png",
-    "obsidian相关/Picture/tmp1679984439293_Sleuth_image_3.jpg",
-    "obsidian相关/Picture/tmp1679989488145_TCP协议三次握手四次挥手_image_3.jpeg",
+    "IT/MySQL/数据库优化(相关概念).md",
+    "每日八股文(2).md",
+    "IT/MySQL/数据库优化(实际操作).md",
     "obsidian相关/Picture/tmp1680833536334_GraaIVM_image_2.png",
     "obsidian相关/Picture/tmp1680833538402_GraaIVM_image_2.png",
     "obsidian相关/Picture/tmp1682663311781_对象_image_1.png",
-    "IT/MySQL/数据库优化(相关概念).md",
-    "IT/MySQL/数据库优化(实际操作).md",
-    "每日八股文(2).md",
+    "obsidian相关/Picture/tmp1682663321902_对象_image_1.png",
+    "obsidian相关/Picture/tmp1683168390941_数据库优化(相关概念)_image_5.jpg",
+    "obsidian相关/Picture/数据库优化(相关概念)_image_1.jpg",
+    "obsidian相关/Picture/数据库优化(相关概念)_image_2.jpg",
+    "obsidian相关/Picture/数据库优化(相关概念)_image_5.jpg",
+    "obsidian相关/Picture/数据库优化(相关概念)_image_4.jpg",
+    "obsidian相关/Picture/数据库优化(相关概念)_image_3.jpg",
     "常用语法和算法/Markdown语法及快捷键/基础语法.md",
     "软件(原理,部署,特点)/Mysql/SQL语法.md",
     "IT/MySQL/数据库概念.md",
@@ -256,10 +246,8 @@
     "IT/Spring/JDBC(数据库连接).md",
     "IT/Spring/事务管理.md",
     "软件(原理,部署,特点)/Mysql/Mysql原理.md",
-    "obsidian相关/Picture/对象_image_1.png",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/类加载器和双亲委派.md",
     "IT/JAVA底层知识/反射.md",
-    "obsidian相关/Picture/tmp1682663107231_对象_image_1.png",
     "IT/JAVA小知识点.md",
     "IT/JAVA底层知识/泛型和IO流.md",
     "IT/SpringCloud/Redisson分布式锁和SpringTask.md",
