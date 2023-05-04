@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/MySQL/数据库概念.md",
+                "file": "每日八股文(2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/MySQL/数据库概念.md",
+                "file": "每日八股文(2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/MySQL/数据库概念.md"
+                "file": "每日八股文(2).md"
               }
             }
           },
@@ -220,10 +219,10 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "6bb3b55c81e827b3",
+  "active": "5300c954ecaeed5f",
   "lastOpenFiles": [
-    "每日八股文(2).md",
     "IT/MySQL/数据库概念.md",
+    "每日八股文(2).md",
     "IT/常用概念.md",
     "软件(原理,部署,特点)/Mysql/SQL语法.md",
     "obsidian相关/快捷键.md",
