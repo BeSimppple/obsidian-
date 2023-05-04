@@ -6,9 +6,7 @@ Spring概述:
 	持久层 ：Spring的JDBC、ORM、等持久层框架；
 	以及业务层事务管理等众多级应用技术，还能整合开源世界众多著名的第三方框架和类库.
 	简化并规范Java开发
-
 体系:                                                                   | 依赖关系:
-
 ![[Spring原理_image_1.jpg|350]]![[Spring原理_image_2.jpg|350]]
 Bean是什么?
 	bean是一个书面注解,凡是需要ioc翻转控制的带有方法和属性的类,需要实例化调用方法都需要祖册到bean来注入(DI)spring容器实现IOC(反转控制)
@@ -30,10 +28,14 @@ Bean是什么?
 	③ Request（web项目中，给每个http request新建一个bean）,
 	④ Session（web项目中，给每个http session新建一个bean）,
 	⑤ GlobalSession（给每一个 global http session新建一个Bean实例）
-IOC控制反转(inversion of control)
+**IOC控制反转(inversion of control)**
 	概念:
 	原本是主动获取程序通过new现在是通过工程,工厂获取(反射)并返回 是被动的这就是控制反转
 	作用:降低计算机程序有耦合
+**AOP面相切面编程(Aspect-Oriented Programming )**
+	概念:
+	使用动态代理在代码的对应节点增加新的代码或将重复的非核心代码封装使用
+	作用:增强了扩展性和可维护性
 **spring常用注解（不包含springmvc和spring boot）**
 	使用DI注入类相关：
 		@Component：泛指各种组件
@@ -87,54 +89,34 @@ IOC控制反转(inversion of control)
 		@ContextConfiguration用来加载配置配置文件，其中classes属性用来加载配置类。通常与@RunWith(SpringJUnit4ClassRunner.class)联合使用用来测试
 		@SuppressWarnings 批注允许您选择性地取消特定代码段（即，类或方法）中的警告
 		@Transient 如果一个属性并非数据库表的字段映射，就务必将其标示为@Transient，否则ORM框架默认其注解为@Basic；
-
-ApplicationContext 接口的实现类ClassPathXmlApplicationContext：
-它是从类的根路径下加载配置文件 推荐使用这种
-会自动在读取配置文件的时候创建对象(空间换取时间)
-注意事项:
-ClassPathXmlApplicationContext()对象操纵bean.xml时候会默认自动调用对象的无参构造对象除了把socpe设置为prototype的多例设计模式
-FileSystemXmlApplicationContext：
-它是从磁盘路径上加载配置文件，配置文件可以在磁盘的任意位置。
-AnnotationConfigApplicationContext:
-当我们使用注解配置容器对象时，需要使用此类来创建 spring 容器。它用来读取注解。
-
+ApplicationContext 
+	接口的实现类ClassPathXmlApplicationContext：它是从类的根路径下加载配置文件 推荐使用这种会自动在读取配置文件的时候创建对象(空间换取时间)
+	注意事项:
+	ClassPathXmlApplicationContext()对象操纵bean.xml时候会默认自动调用对象的无参构造对象除了把socpe设置为prototype的多例设计模式
+	FileSystemXmlApplicationContext：
+	它是从磁盘路径上加载配置文件，配置文件可以在磁盘的任意位置。
+	AnnotationConfigApplicationContext:
+	当我们使用注解配置容器对象时，需要使用此类来创建 spring 容器。它用来读取注解。
 BeanFactory:
-
-是Spring容器中的顶层接口AppliactionContext是他的子接口
-
-区别:BeanFactory不会主动在创建时读取对象
-
-  
-
-耦合及处理方法
-耦合性就是模块之间的关联程度
-内聚就是模块的独立能力强弱
-低耦合高内聚是理想状态
-
+	是Spring容器中的顶层接口AppliactionContext是他的子接口
+	区别:BeanFactory不会主动在创建时读取对象
+ApplicationContext和BeanFactory的区别
+	一般称BeanFactory为IoC容器，而称ApplicationContext为应用上下文。 本质区别：BeanFactory是懒加载，ApplicationContext则在初始化应用上下文时就实例化所有单实例的Bean，可以指定为延迟加载
 Spring解绝三层架构的耦合问题
-
-//1.尽量减少new关键字创建对象 减少导包(使用反射)
-
-//但是使用反射javaBean对象创建次数太多了(配置使其变成单例)
-
-//2.反射2和javaBean之间的耦合度高(使用反射工厂模式来解决)
-
-//3.全限定类名字符串和硬编码问题(使用xml配置文件)
-
+	1.尽量减少new关键字创建对象 减少导包(使用反射)
+	但是使用反射javaBean对象创建次数太多了(配置使其变成单例)
+	2.反射和javaBean之间的耦合度高(使用反射工厂模式来解决)
+	3.全限定类名字符串和硬编码问题(使用xml配置文件)
 Spring创建对象的三种方式
 	1.构造器初始化,Bean对应类必须提供一个无参构造方法
 	2.调用静态工厂 静态工厂内是静态getInstance创建对象,直接类名 点 调用就能生成 这里bean给的就是类名和调用方法名
 	\<bean id ="user3" factory-method="getIntance" class ="com.YL.Bean.Factory01">\</bean>
 	3.调用动态工厂 动态工厂不是静态 需要类 和方法名 factory给的就是类
-
 依赖注入DI
 	依赖注入： Dependency Injection。
 	它是 Spring 框架核心 IOC 的具体实现。
 	在编写程序时，通过控制反转，把对象的创建交给了Spring，但是代码中不可能出现没有依赖的情况
 	IOC 解耦只是降低他们的依赖关系，但不会消除。
-
-  
-
 依赖注入的数据类型
 	1.基本数据类型和String
 	2.javaBean类型
@@ -143,71 +125,33 @@ Spring创建对象的三种方式
 	1. 使用构造函数注入
 	2. 使用set方法注入
 	3. 使用注解
-
-  
-
-注意事项:
-
-DI注入简单类型使用value 引用使用ref
-
-假如父xml导入错误导致配置bean的id相同那么拿出的时候依赖覆盖原则,最晚覆盖的则被拿出
-
-  
-
-注入数组,集合,map
-
-<bean. id. class.>
-
-<property name.. >
-
-<array>
-
-<value>1</value>
-
-<value>1</value>
-
-</array>
-
-同理集合
-
-map则为
-
-<map>
-
-<entry key... value ... ></entry>
-
-</map>
-
-  
-
-团队开发:
-
-分为多个xml文件
-
-可以用过import导入到一个组长类xml文件
-
-Spring程序开发步骤
-
-  
-
-使用此方法
-
-UserDao userDao = Spring客户端.getBean(id标识);
-
-代替UserDao userDao = new UserDaoLmpl();
-
-然后通过Spring框架读取xml配置文件
-
-通过id标识获取到Bean全限定名
-
-通过反射newInstance创建Bean对象 返回对象
-
-1.导入Spring开发的基本包坐标
-
-2.编写Dao接口和实现类
-
-3.创建Spring核心配置文件
-
-4.在Spring配置文件中配置UserDaoLmpl
-
-5.使用Spring的API获得Bean实例
+依赖注入注意事项:
+	DI注入简单类型使用value 引用使用ref
+	假如父xml导入错误导致配置bean的id相同那么拿出的时候依赖覆盖原则,最晚覆盖的则被拿出
+	注入数组,集合,map
+	<bean. id. class.>
+	<property name.. >
+	<array>
+	<value>1</value>
+	<value>1</value>
+	</array>
+	同理集合
+	map则为
+	<map>
+	<entry key... value ... ></entry>
+	</map>
+	团队开发: 
+	分为多个xml文件
+	可以用过import导入到一个组长类xml文件
+	Spring程序开发步骤
+	使用此方法
+	UserDao userDao = Spring客户端.getBean(id标识);
+	代替UserDao userDao = new UserDaoLmpl();
+	然后通过Spring框架读取xml配置文件
+	通过id标识获取到Bean全限定名
+	通过反射newInstance创建Bean对象 返回对象
+	1.导入Spring开发的基本包坐标
+	2.编写Dao接口和实现类
+	3.创建Spring核心配置文件
+	4.在Spring配置文件中配置UserDaoLmpl
+	5.使用Spring的API获得Bean实例

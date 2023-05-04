@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#内聚",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -90,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -209,7 +208,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "3c1c91a2ea757606",
+  "active": "7278d5866d783733",
   "lastOpenFiles": [
     "IT/Spring/IOC(控制反转给容器).md",
     "IT/编程理念.md",
