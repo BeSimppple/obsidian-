@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "每日八股文(2).md",
+                "file": "IT/MySQL/数据库概念.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,31 +32,19 @@
             }
           },
           {
-            "id": "c46050ae8caff527",
+            "id": "d3816bc09c2610f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/MySQL/数据库优化(实际操作).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c0973f4704234cfe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/常用概念.md",
+                "file": "每日八股文(2).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "范式",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -102,12 +90,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 269.5
   },
   "right": {
     "id": "19525c4e90ab0b91",
@@ -123,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/MySQL/数据库优化(相关概念).md",
+                "file": "每日八股文(2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/MySQL/数据库优化(相关概念).md",
+                "file": "每日八股文(2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/MySQL/数据库优化(相关概念).md"
+                "file": "每日八股文(2).md"
               }
             }
           },
@@ -221,13 +208,14 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "a48001afffcb31ba",
+  "active": "d3816bc09c2610f8",
   "lastOpenFiles": [
-    "每日八股文(2).md",
     "IT/MySQL/数据库优化(相关概念).md",
-    "IT/MySQL/数据库优化(实际操作).md",
-    "常用语法和算法/Markdown语法及快捷键/基础语法.md",
     "IT/常用概念.md",
+    "IT/MySQL/数据库概念.md",
+    "IT/MySQL/数据库优化(实际操作).md",
+    "每日八股文(2).md",
+    "常用语法和算法/Markdown语法及快捷键/基础语法.md",
     "软件(原理,部署,特点)/Mysql/SQL语法.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
     "obsidian相关/Picture/tmp1683169498976_数据库优化(相关概念)_image_4.jpg",
@@ -240,7 +228,6 @@
     "obsidian相关/Picture/tmp1680833538402_GraaIVM_image_2.png",
     "obsidian相关/Picture/tmp1682663311781_对象_image_1.png",
     "obsidian相关/Picture/tmp1682663321902_对象_image_1.png",
-    "IT/MySQL/数据库概念.md",
     "obsidian相关/快捷键.md",
     "代码块.md",
     "obsidian相关/代码块.md",
