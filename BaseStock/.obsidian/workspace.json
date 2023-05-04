@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a48001afffcb31ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/MySQL/数据库优化(相关概念).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2b4939f82da518d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件(原理,部署,特点)/Mysql/SQL语法.md",
+                "file": "每日八股文(2).md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "语法",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -77,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/MySQL/数据库优化(相关概念).md",
+                "file": "每日八股文(2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/MySQL/数据库优化(相关概念).md",
+                "file": "每日八股文(2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/MySQL/数据库优化(相关概念).md"
+                "file": "每日八股文(2).md"
               }
             }
           },
@@ -196,13 +183,13 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "a48001afffcb31ba",
+  "active": "2b4939f82da518d8",
   "lastOpenFiles": [
-    "软件(原理,部署,特点)/Mysql/SQL语法.md",
-    "常用语法和算法/SQL语法.md",
-    "IT/MySQL/数据库概念.md",
-    "IT/MySQL/数据库优化(实际操作).md",
     "IT/MySQL/数据库优化(相关概念).md",
+    "IT/MySQL/数据库优化(实际操作).md",
+    "软件(原理,部署,特点)/Mysql/SQL语法.md",
+    "IT/MySQL/数据库概念.md",
+    "常用语法和算法/SQL语法.md",
     "sortspec.md",
     "文档编写和分类标准.md",
     "每日八股文(2).md",
