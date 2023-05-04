@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "a17cdc1c3727afa4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "常用语法和算法/Markdown语法及快捷键/基础语法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c46050ae8caff527",
             "type": "leaf",
             "state": {
@@ -85,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sql",
+                "query": "语法",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -223,10 +235,11 @@
   },
   "active": "a48001afffcb31ba",
   "lastOpenFiles": [
-    "软件(原理,部署,特点)/Mysql/SQL语法.md",
-    "IT/MySQL/数据库优化(相关概念).md",
-    "IT/常用概念.md",
+    "常用语法和算法/Markdown语法及快捷键/基础语法.md",
     "IT/MySQL/数据库优化(实际操作).md",
+    "IT/常用概念.md",
+    "IT/MySQL/数据库优化(相关概念).md",
+    "软件(原理,部署,特点)/Mysql/SQL语法.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
     "obsidian相关/Picture/tmp1683169498976_数据库优化(相关概念)_image_4.jpg",
     "obsidian相关/Picture/tmp1683169081014_数据库优化(相关概念)_image_3.jpg",
@@ -239,7 +252,6 @@
     "obsidian相关/Picture/tmp1682663311781_对象_image_1.png",
     "obsidian相关/Picture/tmp1682663321902_对象_image_1.png",
     "每日八股文(2).md",
-    "常用语法和算法/Markdown语法及快捷键/基础语法.md",
     "IT/MySQL/数据库概念.md",
     "obsidian相关/快捷键.md",
     "代码块.md",
