@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "a17cdc1c3727afa4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "常用语法和算法/Markdown语法及快捷键/基础语法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c46050ae8caff527",
             "type": "leaf",
             "state": {
@@ -67,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -135,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/MySQL/数据库优化(相关概念).md",
+                "file": "每日八股文(2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/MySQL/数据库优化(相关概念).md",
+                "file": "每日八股文(2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/MySQL/数据库优化(相关概念).md"
+                "file": "每日八股文(2).md"
               }
             }
           },
@@ -233,12 +220,12 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "a48001afffcb31ba",
+  "active": "5300c954ecaeed5f",
   "lastOpenFiles": [
-    "常用语法和算法/Markdown语法及快捷键/基础语法.md",
-    "IT/MySQL/数据库优化(实际操作).md",
-    "IT/常用概念.md",
     "IT/MySQL/数据库优化(相关概念).md",
+    "IT/MySQL/数据库优化(实际操作).md",
+    "常用语法和算法/Markdown语法及快捷键/基础语法.md",
+    "IT/常用概念.md",
     "软件(原理,部署,特点)/Mysql/SQL语法.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
     "obsidian相关/Picture/tmp1683169498976_数据库优化(相关概念)_image_4.jpg",
