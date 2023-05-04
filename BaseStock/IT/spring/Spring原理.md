@@ -1,19 +1,15 @@
-
-Spring
-
 Spring概述:
-
-Spring是分层的 Java SE/EE应用轻量级开源框架，以 IoC（Inverse Of Control：反转控制）和 AOP（Aspect Oriented Programming：面向切面编程）为内核。
+	Spring是分层的 Java SE/EE应用轻量级开源框架，以 IoC（Inverse Of Control：反转控制）和 AOP（Aspect Oriented Programming：面向切面编程）为内核。
 
 提供了视图层SpringMVC和持久层Spring JDBCTemplate以及业务层事务管理等众多的企业级应用技术，还能整合开源世界众多著名的第三方框架和类库.
 
 体系:
 
-![[Spring_image_1.jpg]]
+![[Spring原理_image_1.jpg|400]]
 
 依赖关系:
 
-![[Spring_image_2.jpg]]
+![[Spring原理_image_2.jpg|400]]
 
 Bean是什么?
 
