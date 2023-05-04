@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "e770e737174eba84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "常用语法和算法/Markdown语法及快捷键/基础语法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "70a76df16eb7ce94",
             "type": "leaf",
             "state": {
@@ -85,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sql",
+                "query": "语法",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -223,8 +235,9 @@
   },
   "active": "a48001afffcb31ba",
   "lastOpenFiles": [
-    "软件(原理,部署,特点)/Mysql/SQL语法.md",
+    "常用语法和算法/Markdown语法及快捷键/基础语法.md",
     "IT/MySQL/数据库优化(1).md",
+    "软件(原理,部署,特点)/Mysql/SQL语法.md",
     "每日八股文(2).md",
     "IT/MySQL/数据库概念.md",
     "IT/常用概念.md",
@@ -251,7 +264,6 @@
     "IT/JAVA底层知识/关键字(常用).md",
     "IT/未归类知识点/Spring AOT(应用预编译).md",
     "IT/未归类知识点/GraaIVM(虚拟机).md",
-    "IT/JAVA底层知识/常用注解.md",
     "IT/多线程",
     "obsidian相关/Picture/Redis原理_image_3.jpg",
     "obsidian相关/Picture/Redis原理_image_2.jpg",
