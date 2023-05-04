@@ -190,7 +190,7 @@
             }
           },
           {
-            "id": "def6117328bfa9bd",
+            "id": "e195fdcb026d8762",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -219,7 +219,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "5300c954ecaeed5f",
+  "active": "e195fdcb026d8762",
   "lastOpenFiles": [
     "软件(原理,部署,特点)/Mysql/SQL语法.md",
     "IT/MySQL/数据库概念.md",
