@@ -20,31 +20,18 @@
             }
           },
           {
-            "id": "c39748de160870d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/MySQL/数据库概念.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2b4939f82da518d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/MySQL/数据库优化(实际操作).md",
+                "file": "软件(原理,部署,特点)/Mysql/SQL语法.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "数据库",
+                "query": "语法",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -111,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/MySQL/数据库优化(实际操作).md",
+                "file": "IT/MySQL/数据库优化(相关概念).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/MySQL/数据库优化(实际操作).md",
+                "file": "IT/MySQL/数据库优化(相关概念).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/MySQL/数据库优化(实际操作).md"
+                "file": "IT/MySQL/数据库优化(相关概念).md"
               }
             }
           },
@@ -209,18 +196,19 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "2b4939f82da518d8",
+  "active": "a48001afffcb31ba",
   "lastOpenFiles": [
+    "软件(原理,部署,特点)/Mysql/SQL语法.md",
+    "常用语法和算法/SQL语法.md",
     "IT/MySQL/数据库概念.md",
-    "IT/MySQL/数据库优化(相关概念).md",
     "IT/MySQL/数据库优化(实际操作).md",
+    "IT/MySQL/数据库优化(相关概念).md",
     "sortspec.md",
     "文档编写和分类标准.md",
     "每日八股文(2).md",
     "IT/多线程/多线程.md",
     "IT/常用概念.md",
     "常用语法和算法/Markdown语法及快捷键/基础语法.md",
-    "软件(原理,部署,特点)/Mysql/SQL语法.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
     "obsidian相关/Picture/tmp1683169498976_数据库优化(相关概念)_image_4.jpg",
     "obsidian相关/Picture/tmp1683169081014_数据库优化(相关概念)_image_3.jpg",
@@ -246,7 +234,6 @@
     "IT/SpringCloud/Redisson分布式锁和SpringTask.md",
     "IT/JAVA底层知识/异常.md",
     "IT/JAVA底层知识/数据结构.md",
-    "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md",
     "IT/多线程",
     "学习/科学",
     "常用语法和算法/常用算法/数学",

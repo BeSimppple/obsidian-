@@ -24,7 +24,9 @@
 	show index from table_name
 	-删除索引
 	DROP index index_name on table_name
-
+5. 账号密码
+	//查看账号信息不过密码是md5加密的
+	select * from mysql.user;
 
 
 
