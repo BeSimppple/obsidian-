@@ -25,31 +25,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/MySQL/数据库优化(1).md",
+                "file": "IT/MySQL/数据库优化(相关概念).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e770e737174eba84",
+            "id": "62e2f0de0e959da7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "常用语法和算法/Markdown语法及快捷键/基础语法.md",
-                "mode": "source",
-                "source": false
+                "file": "obsidian相关/Picture/数据库优化(相关概念)_image_1.jpg"
               }
             }
           },
           {
-            "id": "70a76df16eb7ce94",
+            "id": "c46050ae8caff527",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件(原理,部署,特点)/Mysql/SQL语法.md",
+                "file": "IT/MySQL/数据库优化(实际操作).md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "语法",
+                "query": "数据库优化",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -114,8 +112,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -135,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/MySQL/数据库优化(1).md",
+                "file": "IT/MySQL/数据库优化(相关概念).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/MySQL/数据库优化(1).md",
+                "file": "IT/MySQL/数据库优化(相关概念).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/MySQL/数据库优化(1).md"
+                "file": "IT/MySQL/数据库优化(相关概念).md"
               }
             }
           },
@@ -235,10 +232,20 @@
   },
   "active": "a48001afffcb31ba",
   "lastOpenFiles": [
-    "常用语法和算法/Markdown语法及快捷键/基础语法.md",
-    "IT/MySQL/数据库优化(1).md",
-    "软件(原理,部署,特点)/Mysql/SQL语法.md",
+    "obsidian相关/Picture/数据库优化(相关概念)_image_1.jpg",
+    "obsidian相关/Picture/数据库优化(相关概念)_image_2.jpg",
+    "obsidian相关/Picture/tmp1683168390941_数据库优化(相关概念)_image_5.jpg",
+    "obsidian相关/Picture/tmp1682663321902_对象_image_1.png",
+    "obsidian相关/Picture/tmp1679984439293_Sleuth_image_3.jpg",
+    "obsidian相关/Picture/tmp1679989488145_TCP协议三次握手四次挥手_image_3.jpeg",
+    "obsidian相关/Picture/tmp1680833536334_GraaIVM_image_2.png",
+    "obsidian相关/Picture/tmp1680833538402_GraaIVM_image_2.png",
+    "obsidian相关/Picture/tmp1682663311781_对象_image_1.png",
+    "IT/MySQL/数据库优化(相关概念).md",
+    "IT/MySQL/数据库优化(实际操作).md",
     "每日八股文(2).md",
+    "常用语法和算法/Markdown语法及快捷键/基础语法.md",
+    "软件(原理,部署,特点)/Mysql/SQL语法.md",
     "IT/MySQL/数据库概念.md",
     "IT/常用概念.md",
     "obsidian相关/快捷键.md",
@@ -250,7 +257,6 @@
     "IT/Spring/事务管理.md",
     "软件(原理,部署,特点)/Mysql/Mysql原理.md",
     "obsidian相关/Picture/对象_image_1.png",
-    "obsidian相关/Picture/tmp1682663321902_对象_image_1.png",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/类加载器和双亲委派.md",
     "IT/JAVA底层知识/反射.md",
     "obsidian相关/Picture/tmp1682663107231_对象_image_1.png",
@@ -262,16 +268,7 @@
     "IT/JAVA底层知识/数据结构.md",
     "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md",
     "IT/JAVA底层知识/关键字(常用).md",
-    "IT/未归类知识点/Spring AOT(应用预编译).md",
-    "IT/未归类知识点/GraaIVM(虚拟机).md",
     "IT/多线程",
-    "obsidian相关/Picture/Redis原理_image_3.jpg",
-    "obsidian相关/Picture/Redis原理_image_2.jpg",
-    "obsidian相关/Picture/tmp1680833538402_GraaIVM_image_2.png",
-    "obsidian相关/Picture/Redis原理_image_1.jpg",
-    "obsidian相关/Picture/tmp1679984439293_Sleuth_image_3.jpg",
-    "obsidian相关/Picture/tmp1679989488145_TCP协议三次握手四次挥手_image_3.jpeg",
-    "obsidian相关/Picture/tmp1680833536334_GraaIVM_image_2.png",
     "学习/科学",
     "常用语法和算法/常用算法/数学",
     "IT/JAVA底层知识/JDK(JAVA底层原理)",
