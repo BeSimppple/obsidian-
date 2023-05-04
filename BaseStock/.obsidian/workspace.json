@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "59c7d35ce5cc6270",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/Spring/AOP(基于面动态代理).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/Spring/Spring原理.md",
+                "file": "IT/Spring/AOP(基于面动态代理).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/Spring/Spring原理.md",
+                "file": "IT/Spring/AOP(基于面动态代理).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/Spring/Spring原理.md"
+                "file": "IT/Spring/AOP(基于面动态代理).md"
               }
             }
           },
@@ -208,12 +220,12 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "7278d5866d783733",
+  "active": "59c7d35ce5cc6270",
   "lastOpenFiles": [
     "IT/Spring/IOC(控制反转给容器).md",
+    "IT/Spring/Spring原理.md",
     "IT/编程理念.md",
     "IT/常用概念.md",
-    "IT/Spring/Spring原理.md",
     "每日八股文(2).md",
     "IT/MySQL/数据库优化(相关概念).md",
     "IT/MySQL/数据库优化(实际操作).md",
