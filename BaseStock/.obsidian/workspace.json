@@ -30,6 +30,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a9eddada7bf466be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/Spring/IOC(控制反转给容器).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -61,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "生命周期",
+                "query": "tag:#内聚",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -78,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -198,8 +211,11 @@
   },
   "active": "3c1c91a2ea757606",
   "lastOpenFiles": [
-    "每日八股文(2).md",
+    "IT/Spring/IOC(控制反转给容器).md",
+    "IT/编程理念.md",
+    "IT/常用概念.md",
     "IT/Spring/Spring原理.md",
+    "每日八股文(2).md",
     "IT/MySQL/数据库优化(相关概念).md",
     "IT/MySQL/数据库优化(实际操作).md",
     "软件(原理,部署,特点)/Mysql/SQL语法.md",
@@ -208,7 +224,6 @@
     "sortspec.md",
     "文档编写和分类标准.md",
     "IT/多线程/多线程.md",
-    "IT/常用概念.md",
     "常用语法和算法/Markdown语法及快捷键/基础语法.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
     "obsidian相关/Picture/tmp1683169498976_数据库优化(相关概念)_image_4.jpg",
@@ -232,8 +247,6 @@
     "IT/JAVA底层知识/反射.md",
     "IT/JAVA小知识点.md",
     "IT/JAVA底层知识/泛型和IO流.md",
-    "IT/SpringCloud/Redisson分布式锁和SpringTask.md",
-    "IT/JAVA底层知识/异常.md",
     "IT/多线程",
     "学习/科学",
     "常用语法和算法/常用算法/数学",
