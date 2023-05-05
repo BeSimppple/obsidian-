@@ -7,6 +7,7 @@
 	xsi:schemaLocation="
 	∙∙∙∙∙∙
 	将这两个配置完成才能引用
+![[IOC(控制反转给容器)_image_1.png]]
 **使用的注解:**
 	注解创建对象
 	@Component
@@ -70,7 +71,7 @@
 	配置简单，维护方便（我们找到类，就相当于找到了对应的配置）。
 	XML 的优势：
 	修改时，不用改源码。不涉及重新编译和部署
-	![[IOC(控制反转给容器)_image_1.jpg|400]]
+	![[IOC(控制反转给容器)_image_2.jpg|400]]
 	我们发现，之所以现在离不开 xml 配置文件，是因为我们有一句很关键的配置：
 	<context:component‐scan base‐package="com.qzw"></context:component‐scan>
 

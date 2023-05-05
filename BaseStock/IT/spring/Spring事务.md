@@ -32,6 +32,16 @@ boolean isReadOnly() 是否只读
 REQUIRED 如果当前没有事务就创建一个事务 如果已经存在一个事务中,一般的选择(默认值)
 SUPPORTS:支持当前事务,如果当前没有事务,就以非事务方式执行(没有事务)
 ![[Spring事务_image_1.jpg]]
+**Spring事务隔离级别:**
+	default:默认级别，使用数据库自定义的隔离级别
+	其它四种隔离级别与mysql一样
+Spring事务失效情况:
+	1. 不是一个容器
+	2. 事务方法不是public
+	3. 方法使用 final 或 static关键字
+	4. 同一类中，一个没有添加事务的方法调用另外以一个添加事务的方法，事务不生效
+	5. 业务自己捕获了异常，事务会认为程序正常秩序
+	6. spring事务默认只回滚运行时异常，可以用rollbackfor属性设置
 事务状态对象
 TransactionStatus 接口 题库功德是事务具体的运行状态
 检测,是否存储回复你点
@@ -89,13 +99,7 @@ isolation = Isolation.REPEATABLE_READ ,readOnly = false)
 	可以写在对应类或者方法上
 	当类和方法上都有时候,方法的将会覆盖类的
 
-Spring事务失效情况:
-	1. 不是一个容器
-	2. 事务方法不是public
-	3. 方法使用 final 或 static关键字
-	4. 同一类中，一个没有添加事务的方法调用另外以一个添加事务的方法，事务不生效
-	5. 业务自己捕获了异常，事务会认为程序正常秩序
-	6. spring事务默认只回滚运行时异常，可以用rollbackfor属性设置
+
 
 
 
