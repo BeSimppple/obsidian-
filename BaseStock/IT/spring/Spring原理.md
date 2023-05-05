@@ -99,7 +99,7 @@ ApplicationContext
 	当我们使用注解配置容器对象时，需要使用此类来创建 spring 容器。它用来读取注解。
 BeanFactory:
 	是Spring容器中的顶层接口AppliactionContext是他的子接口
-	区别:BeanFactory不会主动在创建时读取对象
+	区别:BeanFactory不会主动在创建时读取对象,懒加载模式
 ApplicationContext和BeanFactory的区别
 	一般称BeanFactory为IoC容器，而称ApplicationContext为应用上下文。 本质区别：BeanFactory是懒加载，ApplicationContext则在初始化应用上下文时就实例化所有单实例的Bean，可以指定为延迟加载
 Spring解绝三层架构的耦合问题
