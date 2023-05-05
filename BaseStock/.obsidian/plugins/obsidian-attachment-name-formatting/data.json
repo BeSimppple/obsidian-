@@ -1,5 +1,5 @@
 {
-  "enableAuto": false,
+  "enableAuto": true,
   "excludedFolders": [],
   "enableImage": true,
   "imageExtensions": [
