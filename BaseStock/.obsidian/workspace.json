@@ -54,9 +54,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7b1e22f1c5baff31",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.7"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -99,6 +109,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "9f04cc959e3d55e2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -191,7 +209,7 @@
             }
           },
           {
-            "id": "e195fdcb026d8762",
+            "id": "ae252b136a9a0c1a",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -203,8 +221,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,7 +237,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "59c7d35ce5cc6270",
+  "active": "7b1e22f1c5baff31",
   "lastOpenFiles": [
     "IT/Spring/IOC(控制反转给容器).md",
     "IT/Spring/Spring原理.md",
