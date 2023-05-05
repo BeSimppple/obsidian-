@@ -38,7 +38,10 @@ bean的几种模式（方法上，得有@Bean）
 	使用动态代理在代码的对应节点增加新的代码或将重复的非核心代码封装使用
 	作用:增强了扩展性和可维护性
 **Spring三级缓存**
-	
+	1.  **singletonObjects**：这是Spring缓存单例Bean实例的缓存，当Bean的作用域为Singleton时，Spring会将创建好的Bean实例缓存到这个缓存中。，**从该缓存中取出的 bean 可以直接使用**
+	2.  **earlySingletonObjects**：这个缓存用于缓存早期创建的Singleton Bean实例，即在Bean的实例化过程中，如果Bean依赖了其他Bean，那么Spring会先创建依赖的Bean，然后再创建当前Bean。此时，当前Bean实例还未完全创建完成，但是早期的Bean实例已经创建完成并缓存到这个缓存中，以供后续创建Bean实例时使用。
+	提前曝光的单例对象的cache，存放原始的 bean 对象（尚未填充属性），用于解决循环依赖
+	4.  **singletonFactories**：单例对象工厂的cache，存放 bean 工厂对象，用于解决循环依赖
 spring常用注解（不包含springmvc和spring boot）
 	使用DI注入类相关：
 		@Component：泛指各种组件
