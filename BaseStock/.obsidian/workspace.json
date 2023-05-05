@@ -44,19 +44,31 @@
             }
           },
           {
-            "id": "aeefd8a9b6ce1e2b",
+            "id": "777cc56652e13f44",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用语法和算法/Markdown语法及快捷键/基础语法.md",
+                "file": "IT/SpringCloud/Seata(分布式事务).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6b9927db39ad95dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/常用概念.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -85,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "语法",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -110,8 +122,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -131,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/SpringBoot/SpringBoot.md",
+                "file": "IT/常用概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/SpringBoot/SpringBoot.md",
+                "file": "IT/常用概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/SpringBoot/SpringBoot.md"
+                "file": "IT/常用概念.md"
               }
             }
           },
@@ -229,15 +240,16 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "3c1c91a2ea757606",
+  "active": "6b9927db39ad95dd",
   "lastOpenFiles": [
+    "IT/SpringCloud/Seata(分布式事务).md",
     "IT/Spring/Spring原理.md",
+    "IT/常用概念.md",
+    "IT/SpringBoot/SpringBoot.md",
+    "每日八股文(2).md",
     "IT/JAVA小知识点.md",
     "常用语法和算法/Markdown语法及快捷键/基础语法.md",
     "软件(原理,部署,特点)/Idea/常用配置.md",
-    "IT/SpringBoot/SpringBoot.md",
-    "每日八股文(2).md",
-    "IT/常用概念.md",
     "IT/编程理念.md",
     "IT/Spring/SpringMVC(视图-模型-控制器设计模式).md",
     "IT/Spring/AOP(基于面动态代理).md",
@@ -266,7 +278,6 @@
     "obsidian相关/快捷键.md",
     "代码块.md",
     "obsidian相关/代码块.md",
-    "常用语法和算法/常用格式(ymal,xml,property)/常用格式.md",
     "IT/多线程",
     "学习/科学",
     "常用语法和算法/常用算法/数学",
