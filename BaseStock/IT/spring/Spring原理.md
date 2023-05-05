@@ -29,6 +29,12 @@ bean的几种模式（方法上，得有@Bean）
 	③ Request（web项目中，给每个http request新建一个bean）,
 	④ Session（web项目中，给每个http session新建一个bean）,
 	⑤ GlobalSession（给每一个 global http session新建一个Bean实例）
+spring的bean是线程不安全的
+	spring的默认bean作用域是单例的，单例的bean不是线程安全的，但是开发中大部分的bean都是无状态的，不具备存储功能，比如controller、service、dao，他们不需要保证线程安全。
+	-
+	如果要保证线程安全，可以将bean的作用域改为prototype，比如像Model View。
+	-
+	另外还可以采用ThreadLocal来解决线程安全问题。ThreadLocal为每个线程保存一个副本变量，每个线程只操作自己的副本变量。
 **IOC控制反转(inversion of control)**
 	概念:
 	原本是主动获取程序通过new现在是通过工程,工厂获取(反射)并返回 是被动的这就是控制反转
