@@ -32,31 +32,7 @@
             }
           },
           {
-            "id": "dd0e1a879bb1b42a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/Spring/Spring原理.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "777cc56652e13f44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/SpringCloud/Seata(分布式事务).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6b9927db39ad95dd",
+            "id": "ce909c83701bc663",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -68,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -240,13 +216,14 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "6b9927db39ad95dd",
+  "active": "ce909c83701bc663",
   "lastOpenFiles": [
-    "IT/SpringCloud/Seata(分布式事务).md",
-    "IT/Spring/Spring原理.md",
+    "每日八股文(2).md",
     "IT/常用概念.md",
     "IT/SpringBoot/SpringBoot.md",
-    "每日八股文(2).md",
+    "IT/Spring/Spring原理.md",
+    "IT/SpringCloud/Seata(分布式事务).md",
+    "文档编写和分类标准.md",
     "IT/JAVA小知识点.md",
     "常用语法和算法/Markdown语法及快捷键/基础语法.md",
     "软件(原理,部署,特点)/Idea/常用配置.md",
@@ -272,7 +249,6 @@
     "软件(原理,部署,特点)/Mysql/SQL语法.md",
     "常用语法和算法/SQL语法.md",
     "sortspec.md",
-    "文档编写和分类标准.md",
     "IT/多线程/多线程.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
     "obsidian相关/快捷键.md",
