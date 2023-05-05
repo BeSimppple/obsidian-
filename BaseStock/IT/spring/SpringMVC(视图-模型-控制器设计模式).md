@@ -3,18 +3,18 @@ SpringMVC(视图-模型-控制器)设计模式
 分为model层和view层和controller层
 SpringMVC执行流程
 ![[SpringMVC(视图-模型-控制器设计模式)_image_1.jpg]]
-SpringMVC运行过程(原理):
-1, 用户发送请求至前端控制器DispatcherServlet
-2, DispatcherServlet收到请求调用HandlerMapping处理器映射器。
-3, 返回处理器执行链HandlerExecutionChain。
-4, DispatcherServlet通过HandlerAdapter处理器适配器调用合适的处理器
-5, 执行处理器handler
-6, handler执行完成返回ModelAndView(数据及视图)
-7, HandlerAdapter将果ModelAndView返回给DispatcherServlet
-8, DispatcherServlet将ModelAndView传给ViewReslover视图解析器
-9, ViewReslover解析后返回具体View对象
-10, DispatcherServlet对View进行渲染视图（即将模型数据填充至视图中）。
-11, DispatcherServlet响应用户
+**SpringMVC运行过程(原理):**
+	1, 用户发送请求至前端控制器DispatcherServlet
+	2, DispatcherServlet收到请求调用HandlerMapping处理器映射器。
+	3, 返回处理器执行链HandlerExecutionChain。
+	4, DispatcherServlet通过HandlerAdapter处理器适配器调用合适的处理器
+	5, 执行处理器handler
+	6, handler执行完成返回ModelAndView(数据及视图)
+	7, HandlerAdapter将果ModelAndView返回给DispatcherServlet
+	8, DispatcherServlet将ModelAndView传给ViewReslover视图解析器
+	9, ViewReslover解析后返回具体View对象
+	10, DispatcherServlet对View进行渲染视图（即将模型数据填充至视图中）。
+	11, DispatcherServlet响应用户
 DispatcherServlet：前端控制器前端控制器用户请求到达前端控制器，它就相当于mvc模式中的c，dispatcherServlet是整个流程控制的中心，由它调用其它组件处理用户的请求，dispatcherServlet的存在降低了组件之间的耦合性。
 HandlerMapping：处理器映射器处理器映射器HandlerMapping负责根据用户请求找到Handler即处理器，springmvc提供了不同的映射器实现不同的映射方式，由于Handler涉及到具体的用户业务请求，所以一般情况需要程序员根据业务需求开发Handler。
 HandlerAdapter：处理器适配器通过HandlerAdapter对处理器进行执行，这是适配器模式的应用，通过扩展适配器可以对更多类型的处理器进行执行。
