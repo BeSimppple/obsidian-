@@ -1,5 +1,4 @@
 JdbcTemplate
-事务管理
 平台事务管理器
 PlatformTransactionManager接口 spring的事务管理器
 方法:
@@ -32,7 +31,7 @@ boolean isReadOnly() 是否只读
 	**定义:** 当A事务在处理的时候调用了B事务,那么到底以哪个为标准,这就是事务的传播行为
 REQUIRED 如果当前没有事务就创建一个事务 如果已经存在一个事务中,一般的选择(默认值)
 SUPPORTS:支持当前事务,如果当前没有事务,就以非事务方式执行(没有事务)
-![[事务管理_image_1.jpg]]
+![[Spring事务_image_1.jpg]]
 事务状态对象
 TransactionStatus 接口 题库功德是事务具体的运行状态
 检测,是否存储回复你点
@@ -41,9 +40,9 @@ TransactionStatus 接口 题库功德是事务具体的运行状态
 事务是否回滚
 状态对象不需要我们主动设置,因为他是被动从产生的
 编程式事务控制三大对象
-PlatformTransactionManager 事务管理器
-TransactionDefinition 事务定义
-TransactionStatus 事务状态
+	PlatformTransactionManager 事务管理器
+	TransactionDefinition 事务定义
+	TransactionStatus 事务状态
 基于XML的声明式事务控制
 tx方法
 Spring声明式事务控制 采用声明的方式来处理事务
@@ -60,33 +59,51 @@ tx-advice是配置通知的 id名 事务管理器 然后在其中引入对应平
 @Transactional(propagation = Propagation.REQUIRED,
 isolation = Isolation.REPEATABLE_READ ,readOnly = false)
 编程式事务管理基本步骤:
-1.在Spring.xml文件中配置好context和aop
-2.<context:component-scan base-package="com.YL">
-</context:component-scan> 配置注解编译扫描路劲
-3.创建好基本的Dao层和操作
-并创建一个SelfTransactionManager
-设置其中的开启事务 提交事务 和回滚事务
-![[事务管理_image_2.jpg]]
-4.通过context property-olaceholder来加载c3p0配置文件
-5.ioc jdbcTeplate 并配置属性datasource
-6.配置datasource driverClass等,通过引用上面的c3p0文件
-7.ioc DataSourceTransactionManager
-并且配置datasource 引用上面的datasource
-保证是同一个链接池
-8.在userService中 DI注入SelfTransactionManager
-调用SelfTransactionManager的开始事务和回滚等,进行具体事务管理
+	1.在Spring.xml文件中配置好context和aop
+	2.<context:component-scan base-package="com.YL">
+	</context:component-scan> 配置注解编译扫描路劲
+	3.创建好基本的Dao层和操作
+	并创建一个SelfTransactionManager
+	设置其中的开启事务 提交事务 和回滚事务
+	![[Spring事务_image_2.jpg]]
+	4.通过context property-olaceholder来加载c3p0配置文件
+	5.ioc jdbcTeplate 并配置属性datasource
+	6.配置datasource driverClass等,通过引用上面的c3p0文件
+	7.ioc DataSourceTransactionManager
+	并且配置datasource 引用上面的datasource
+	保证是同一个链接池
+	8.在userService中 DI注入SelfTransactionManager
+	调用SelfTransactionManager的开始事务和回滚等,进行具体事务管理
 优化版:
-将在UserServiceImpl中的事务管理操作
-变成AOP切入操作 将事务管理变成around通知
-然后在对应节点切入
-![[事务管理_image_3.jpg]]
-具体切入那些方法,可以在Spring.xml中配置
-![[事务管理_image_4.jpg]]
+	将在UserServiceImpl中的事务管理操作
+	变成AOP切入操作 将事务管理变成around通知
+	然后在对应节点切入
+	![[Spring事务_image_3.jpg]]
+	具体切入那些方法,可以在Spring.xml中配置
+	![[Spring事务_image_4.jpg]]
 最终注解优化版
-<!-- 事务管理方法3-->
-<tx:annotation-driven transaction-manager="transactionManager"></tx:annotation-driven>
-在xml文件中配置开启注解事务管理
-@Transactional(propagation = Propagation.REQUIRED,isolation = Isolation.REPEATABLE_READ)
-使用注解进行事务管理
-可以写在对应类或者方法上
-当类和方法上都有时候,方法的将会覆盖类的
+	<tx:annotation-driven transaction-manager="transactionManager"></tx:annotation-driven>
+	在xml文件中配置开启注解事务管理
+	@Transactional(propagation = Propagation.REQUIRED,isolation = Isolation.REPEATABLE_READ)
+	使用注解进行事务管理
+	可以写在对应类或者方法上
+	当类和方法上都有时候,方法的将会覆盖类的
+
+Spring事务失效情况:
+	1. 不是一个容器
+	2. 事务方法不是public
+	3. 方法使用 final 或 static关键字
+	4. 同一类中，一个没有添加事务的方法调用另外以一个添加事务的方法，事务不生效
+	5. 业务自己捕获了异常，事务会认为程序正常秩序
+	6. spring事务默认只回滚运行时异常，可以用rollbackfor属性设置
+
+
+
+
+
+
+
+
+
+
+

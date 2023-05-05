@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/Spring/Spring原理.md",
+                "file": "IT/Spring/Spring事务.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -129,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "每日八股文(2).md",
+                "file": "IT/Spring/Spring事务.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "每日八股文(2).md",
+                "file": "IT/Spring/Spring事务.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "每日八股文(2).md"
+                "file": "IT/Spring/Spring事务.md"
               }
             }
           },
@@ -227,11 +228,11 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "2b4939f82da518d8",
+  "active": "3c1c91a2ea757606",
   "lastOpenFiles": [
-    "IT/Spring/Spring原理.md",
-    "IT/Spring/事务管理.md",
     "每日八股文(2).md",
+    "IT/Spring/Spring事务.md",
+    "IT/Spring/Spring原理.md",
     "IT/Spring/IOC(控制反转给容器).md",
     "IT/Spring/AOP(基于面动态代理).md",
     "obsidian相关/Picture/AOP(基于面动态代理)_image_2.png",
