@@ -4,17 +4,15 @@ SpringBoot的主旨是:约定大于配置
 **核心功能（优点）**
 	 1.**==起步依赖==**（spring起步依赖包配置了对应功能需要的整合包例如nosql相关的需要的redis和jedis等减少了插件之间的冲突，减少过多的jar包依赖）,
 	 2.**==自动配置==**（同时起步依赖包内还提供了自动配置类通过java配置类(@Configuration)减少xml配置工厂等步骤,可以一步在properties文件中配置会被识别提取给自动配置类中使用
+	 使用@Configuration注解告知这是一个配置类和@PropertySource指定配置文件路径和@ConfigurationProperties指定配置的前缀提取@bean注解等同于spring的xml文件中的bean作为加入spring容器的书面申请@bean一般放在方法上告诉spring容器可以从下面方法返回一个bean）
 		自动配置原理:
 		 启动类@SpringbootApplication注解下，有三个关键注解
 		（1）@springbootConfiguration:表示启动类是一个自动配置类
 		（2）@CompontScan:扫描启动类所在包外的组件到容器中
 		（3）@EnableConfigutarion:最关键的一个注解，他拥有两个子注解，其中@AutoConfigurationpackageu会将启动类所在包下的所有组件到容器中，@Import会导入一个自动配置文件选择器，他会去加载META_INF目录下的spring.factories文件，这个文件中存放很大自动配置类的全类名，这些类会根据元注解的装配条件生效，生效的类就会被实例化，加载到ioc容器中
-
-使用@Configuration注解告知这是一个配置类和
-@PropertySource指定配置文件路径和@ConfigurationProperties指定配置的前缀提取@bean注解等同于spring的xml文件中的bean作为加入spring容器的书面申请@bean一般放在方法上告诉spring容器可以从下面方法返回一个bean）
-2.内嵌式web服务器（Tomcat\jetty）等（使web服务无需打包成war包可直接打成jar包）
-3.提供POM，简化maven配置
-4.版本锁定，springboot根据使用的版本提供插件版本，如需改变可以version覆盖或parent引用修改
+	2.内嵌式web服务器（Tomcat\jetty）等（使web服务无需打包成war包可直接打成jar包）
+	3.提供POM，简化maven配置
+	4.版本锁定，springboot根据使用的版本提供插件版本，如需改变可以version覆盖或parent引用修改
 springboot2.3.4release需要的环境mavean3.3+和jdk1.8+
 目前2022/10/24最新的正式版是2.7.5于2022年5月发布
 springboot项目的创建
