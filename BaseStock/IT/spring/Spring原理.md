@@ -10,7 +10,8 @@ Spring概述:
 ![[Spring原理_image_1.jpg|350]]![[Spring原理_image_2.jpg|350]]
 Bean是什么?
 	bean是一个书面注解,凡是需要ioc翻转控制的带有方法和属性的类,需要实例化调用方法都需要祖册到bean来注入(DI)spring容器实现IOC(反转控制)
-	注入到spring容器中的bean我们就可以使用反射方式获取从而实现减少耦合减少new
+	(注入到spring容器中的bean我们就可以使用反射方式获取从而实现减少耦合减少new)
+	Spring创建bean实质是：通过一个类的全限定类型用反射去创建对象，最后放入一个Map集合中，需要使用某个bean的话可以用id类查找
 **Bean的生命周期:**
 	单例在加载时候初始化,容器销毁同时死亡
 	多例:加载时候初始化,长时间不使用,被java中的gc垃圾回收器回收(不归spring容器管属jvm管)
@@ -22,7 +23,7 @@ Bean是什么?
 	init初始化
 	4、 销毁(Destruction)
 	destroy销毁
-设置Spring容器如何新建Bean实例（方法上，得有@Bean）
+bean的几种模式（方法上，得有@Bean）
 	① Singleton（单例,一个Spring容器中只有一个bean实例，默认模式）,
 	② Protetype（多例,每次调用新建一个bean）,
 	③ Request（web项目中，给每个http request新建一个bean）,
@@ -36,7 +37,7 @@ Bean是什么?
 	概念:
 	使用动态代理在代码的对应节点增加新的代码或将重复的非核心代码封装使用
 	作用:增强了扩展性和可维护性
-**spring常用注解（不包含springmvc和spring boot）**
+spring常用注解（不包含springmvc和spring boot）
 	使用DI注入类相关：
 		@Component：泛指各种组件
 		@Controller、@Service、@Repository都可以称为@Component。
@@ -89,8 +90,13 @@ Bean是什么?
 		@ContextConfiguration用来加载配置配置文件，其中classes属性用来加载配置类。通常与@RunWith(SpringJUnit4ClassRunner.class)联合使用用来测试
 		@SuppressWarnings 批注允许您选择性地取消特定代码段（即，类或方法）中的警告
 		@Transient 如果一个属性并非数据库表的字段映射，就务必将其标示为@Transient，否则ORM框架默认其注解为@Basic；
+**BeanFactory:**
+	是Spring容器中的顶层接口AppliactionContext是他的子接口
+	BeanFactory是Spring框架中最基本的接口，提供了IoC（控制反转）和DI（依赖注入）的基本功能。它是一个工厂模式的实现，负责创建、定位、配置应用程序中的对象
+	BeanFactory不会在初始化时主动创建时读取对象,懒加载模式
 **ApplicationContext (一般首选ApplicationContext而不是BeanFactory)**
-	ApplicationContext是BeanFactory的子接口包含所有特性,但是内存消耗稍大,一般都是选择ApplicationContext
+	ApplicationContext是BeanFactory的子接口包含所有特性除了IoC和DI之外，ApplicationContext还提供了AOP、事件发布、国际化、资源管理等功能。,但是内存消耗稍大,一般都是选择ApplicationContext
+	ApplicationContext在初始化应用上下文时就预加载实例化所有单实例的Bean,可以延迟加载
 	支持编程式生成bean和声明式生成
 **ApplicationContext接口实现类**
 	实现类ClassPathXmlApplicationContext：它是从类的根路径下加载配置文件 推荐使用这种会自动在读取配置文件的时候创建对象(空间换取时间)
@@ -100,10 +106,7 @@ Bean是什么?
 	它是从磁盘路径上加载配置文件，配置文件可以在磁盘的任意位置。
 	AnnotationConfigApplicationContext:
 	当我们使用注解配置容器对象时，需要使用此类来创建 spring 容器。它用来读取注解。
-BeanFactory:
-	是Spring容器中的顶层接口AppliactionContext是他的子接口
-	区别:BeanFactory不会主动在创建时读取对象,懒加载模式
-ApplicationContext和BeanFactory的区别
+**ApplicationContext和BeanFactory的区别**
 	一般称BeanFactory为IoC容器，而称ApplicationContext为应用上下文。 本质区别：BeanFactory是懒加载，ApplicationContext则在初始化应用上下文时就实例化所有单实例的Bean，可以指定为延迟加载
 	ApplicationContext包含BeanFactory的所有特性,但是内存消耗稍大,一般都是选择ApplicationContext
 Spring解绝三层架构的耦合问题
