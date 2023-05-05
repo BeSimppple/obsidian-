@@ -54,8 +54,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7e35fab658d52afa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/MySQL/数据库优化(相关概念).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c931cb9f044b1d1b",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "obsidian相关/Picture/tmp1683169498976_数据库优化(相关概念)_image_4.jpg"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -84,7 +107,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "aop",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -109,8 +132,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -130,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "每日八股文(2).md",
+                "file": "obsidian相关/Picture/tmp1683169498976_数据库优化(相关概念)_image_4.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "每日八股文(2).md",
+                "file": "obsidian相关/Picture/tmp1683169498976_数据库优化(相关概念)_image_4.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "每日八股文(2).md"
+                "file": "obsidian相关/Picture/tmp1683169498976_数据库优化(相关概念)_image_4.jpg"
               }
             }
           },
@@ -228,34 +250,34 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "2b4939f82da518d8",
+  "active": "c931cb9f044b1d1b",
   "lastOpenFiles": [
+    "obsidian相关/Picture/tmp1682663311781_对象_image_1.png",
+    "obsidian相关/Picture/tmp1682663321902_对象_image_1.png",
+    "obsidian相关/Picture/tmp1683169081014_数据库优化(相关概念)_image_3.jpg",
+    "obsidian相关/Picture/tmp1683169498976_数据库优化(相关概念)_image_4.jpg",
+    "IT/MySQL/数据库优化(相关概念).md",
+    "obsidian相关/Picture/tmp1680833538402_GraaIVM_image_2.png",
+    "obsidian相关/Picture/tmp1680833536334_GraaIVM_image_2.png",
+    "obsidian相关/Picture/tmp1679989488145_TCP协议三次握手四次挥手_image_3.jpeg",
+    "IT/MySQL/数据库优化(实际操作).md",
+    "IT/MySQL/数据库概念.md",
+    "IT/Spring/Spring原理.md",
     "IT/Spring/AOP(基于面动态代理).md",
     "每日八股文(2).md",
-    "IT/Spring/Spring原理.md",
     "IT/Spring/IOC(控制反转给容器).md",
     "IT/编程理念.md",
     "IT/常用概念.md",
-    "IT/MySQL/数据库优化(相关概念).md",
-    "IT/MySQL/数据库优化(实际操作).md",
     "软件(原理,部署,特点)/Mysql/SQL语法.md",
-    "IT/MySQL/数据库概念.md",
     "常用语法和算法/SQL语法.md",
     "sortspec.md",
     "文档编写和分类标准.md",
     "IT/多线程/多线程.md",
     "常用语法和算法/Markdown语法及快捷键/基础语法.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
-    "obsidian相关/Picture/tmp1683169498976_数据库优化(相关概念)_image_4.jpg",
-    "obsidian相关/Picture/tmp1683169081014_数据库优化(相关概念)_image_3.jpg",
     "obsidian相关/Picture/数据库优化(相关概念)_image_4.jpg",
     "obsidian相关/Picture/文档编写和分类标准_image_1.png",
     "obsidian相关/Picture/tmp1679984439293_Sleuth_image_3.jpg",
-    "obsidian相关/Picture/tmp1679989488145_TCP协议三次握手四次挥手_image_3.jpeg",
-    "obsidian相关/Picture/tmp1680833536334_GraaIVM_image_2.png",
-    "obsidian相关/Picture/tmp1680833538402_GraaIVM_image_2.png",
-    "obsidian相关/Picture/tmp1682663311781_对象_image_1.png",
-    "obsidian相关/Picture/tmp1682663321902_对象_image_1.png",
     "obsidian相关/快捷键.md",
     "代码块.md",
     "obsidian相关/代码块.md",
@@ -265,7 +287,6 @@
     "软件(原理,部署,特点)/Mysql/Mysql原理.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/类加载器和双亲委派.md",
     "IT/JAVA底层知识/反射.md",
-    "IT/JAVA小知识点.md",
     "IT/多线程",
     "学习/科学",
     "常用语法和算法/常用算法/数学",

@@ -109,6 +109,8 @@ spring常用注解（不包含springmvc和spring boot）
 **ApplicationContext和BeanFactory的区别**
 	一般称BeanFactory为IoC容器，而称ApplicationContext为应用上下文。 本质区别：BeanFactory是懒加载，ApplicationContext则在初始化应用上下文时就实例化所有单实例的Bean，可以指定为延迟加载
 	ApplicationContext包含BeanFactory的所有特性,但是内存消耗稍大,一般都是选择ApplicationContext
+
+---
 Spring解绝三层架构的耦合问题
 	1.尽量减少new关键字创建对象 减少导包(使用反射)
 	但是使用反射javaBean对象创建次数太多了(配置使其变成单例)
@@ -162,3 +164,26 @@ Spring创建对象的三种方式
 	3.创建Spring核心配置文件
 	4.在Spring配置文件中配置UserDaoLmpl
 	5.使用Spring的API获得Bean实例
+
+如何定义一个全局异常处理类？
+	想要定义一个全局异常处理类的话，我们需要在这个类上添加@ContaollerAdvice注解，然后定义一些用于捕捉不同异常类型的方法，在这些方法上添加@ExceptionHandler(value = 异常类型.class)和@ResponseBody注解，方法参数是HttpServletRequest和异常类型，然后将异常消息进行处理。
+	-
+	如果我们需要自定义异常的话，就写一个自定义异常类，该类需要继承一个异常接口，类属性包括final类型的连续id、错误码、错误信息，再根据需求写构造方法； 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
