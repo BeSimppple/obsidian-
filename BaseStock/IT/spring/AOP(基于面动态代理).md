@@ -37,7 +37,18 @@ OOP与AOP的区别
 AOP运行流程：
 	运行时，Spring监控切面中所配置切入点对应方法的执行，发现执行了匹配的方法，使用AOP代理机制，创建代理对象（AOP代理），将原始方法（切入点）与通知进行融合，形成
 	完整的业务逻辑并进行运行，此过程称为织入。
-切入点表达式
+**切入点表达式**
+	**作用:** 用于指定在哪些地方应该执行额外代码。它可以基于方法名称、方法参数、类名、注解等多种条件进行匹配。
+	1.  **execute**
+	2.  **within**
+	3.  **this**
+	4.  **target**
+	5.  **args**
+	6.  **@target**
+	7.  **@within**
+	8.  **@annotation**
+	9.  @args
+	**execute表达式:**
 	execution( [权限修饰符] 返回值类型 包名.类名/接口名.方法名(参数))
 	权限修饰符可以省略
 	\*代表任意包名、任意类名、任意方法名、任意参数类型
@@ -46,11 +57,11 @@ AOP运行流程：
 	常用:* \*..UserServiceImpl.*(..)
 	可以通过<aop:pointcut>标签进行切入点表达式的抽取
 **通知类别**
-	before:在切入点前运行
-	after: 在切入点后运行，无论方法是否抛出异常
-	after-returning:在切入点后运行，只有方法正常结束才运行，抛出异常则不运行
-	after-throwing:在切入点中如果抛出异常运行,否则不运行
-	around: 在切入点前后运行，通过ProceedingJoinPoint对象调用procee()方法完成对
+	@Before在切入点前运行
+	@After: 在切入点后运行，无论方法是否抛出异常
+	@AfterReturning :在切入点后运行，只有方法正常结束才运行，抛出异常则不运行
+	@AfterThrowing:在切入点中如果抛出异常运行,否则不运行
+	@around: 在切入点前后运行，通过ProceedingJoinPoint对象调用procee()方法完成对
 	around通知可以模拟其他通知获取切入点参数
 Around通知详解:
 	around使用ProceedingJoinPoint获取参数
@@ -59,15 +70,23 @@ Around通知详解:
 	概念:在通知方法中获取到切入点方法的返回值
 	这种情况只存在程序运行后才能获取到返回值
 	所以只有两种通知:around和after-returning
+	-
+	pjp是连接点: 原方法
+	pjp.proceed() 执行原方法
+	如果try catch则jvm处理器认为没有异常,被当前处理了
+	throws则判定为有异常
+	-
 	around中获取到返回值
 	Object msg =null
 	msg=pjp.proceed()
 	return msg;
+	-
 	afterReturning通知获取切入点方法返回值
 	需要第一部在配置文件中添加属性returnning ="msg"
 	public void afterReturning(String msg){
 	System.out.println("after returning,切入点返回值:"+msg);
 	}
+	-
 	afterThrowing通知获取切入点异常对象
 	配置文件:<aop:after-throwing>标签中添加属性throwing="e"
 	通知方法:添加一个形式参数e,变量名要和上面保持一致
@@ -75,10 +94,5 @@ Around通知详解:
 	![[AOP(基于面动态代理)_image_1.png]]
 	异常时:
 	![[AOP(基于面动态代理)_image_2.png]]
-
-@around @Before @AfterReturning @AfterThrowing @After
-pjp是连接点: 原方法
-pjp.proceed() 执行原方法
-如果try catch则jvm处理器认为没有异常,被当前处理了
-throws则判定为有异常
+	
 sulth和sentinel就是使用了aop的面向切面的思想对编程没有入侵性.可以在运行前,运行时和运行后监控

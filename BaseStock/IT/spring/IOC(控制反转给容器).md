@@ -57,6 +57,7 @@
 
 **注解整合JUnit**
 	Spring提供了对JUnit的整合支持
+	Junit作用:用于编写和运行可重复的测试
 	操作步骤:
 	1.导入jar包依赖Spring-test
 	2.设置类运行器(注解添加到运行程序类的上方) @RunWith(SpringJUnit4ClassRunner.class)

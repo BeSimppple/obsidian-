@@ -169,7 +169,9 @@ Spring创建对象的三种方式
 	想要定义一个全局异常处理类的话，我们需要在这个类上添加@ContaollerAdvice注解，然后定义一些用于捕捉不同异常类型的方法，在这些方法上添加@ExceptionHandler(value = 异常类型.class)和@ResponseBody注解，方法参数是HttpServletRequest和异常类型，然后将异常消息进行处理。
 	-
 	如果我们需要自定义异常的话，就写一个自定义异常类，该类需要继承一个异常接口，类属性包括final类型的连续id、错误码、错误信息，再根据需求写构造方法； 
-
+什么是循环依赖,如何解决?
+	当bean A依赖于bean B,且bean B也依赖于bean A时，就发生了循环依赖
+	
 
 
 
