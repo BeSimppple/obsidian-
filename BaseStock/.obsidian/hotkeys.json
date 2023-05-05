@@ -78,5 +78,13 @@
       "key": "-"
     }
   ],
-  "canvas:export-as-image": []
+  "canvas:export-as-image": [],
+  "obsidian-attachment-name-formatting:attachments-rescan-command": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "."
+    }
+  ]
 }

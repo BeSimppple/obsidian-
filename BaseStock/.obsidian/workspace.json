@@ -56,7 +56,7 @@
             }
           },
           {
-            "id": "7e35fab658d52afa",
+            "id": "f930d42f83de9cf4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -66,19 +66,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "c931cb9f044b1d1b",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "obsidian相关/Picture/tmp1683169498976_数据库优化(相关概念)_image_4.jpg"
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -152,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian相关/Picture/tmp1683169498976_数据库优化(相关概念)_image_4.jpg",
+                "file": "IT/MySQL/数据库优化(相关概念).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian相关/Picture/tmp1683169498976_数据库优化(相关概念)_image_4.jpg",
+                "file": "IT/MySQL/数据库优化(相关概念).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian相关/Picture/tmp1683169498976_数据库优化(相关概念)_image_4.jpg"
+                "file": "IT/MySQL/数据库优化(相关概念).md"
               }
             }
           },
@@ -250,20 +240,24 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "c931cb9f044b1d1b",
+  "active": "f930d42f83de9cf4",
   "lastOpenFiles": [
-    "obsidian相关/Picture/tmp1682663311781_对象_image_1.png",
-    "obsidian相关/Picture/tmp1682663321902_对象_image_1.png",
+    "IT/Spring/AOP(基于面动态代理).md",
     "obsidian相关/Picture/tmp1683169081014_数据库优化(相关概念)_image_3.jpg",
+    "obsidian相关/Picture/tmp1683253618013_数据库优化(相关概念)_image_4.jpg",
+    "obsidian相关/Picture/tmp1682663321902_对象_image_1.png",
     "obsidian相关/Picture/tmp1683169498976_数据库优化(相关概念)_image_4.jpg",
+    "obsidian相关/Picture/tmp1683253827433_数据库优化(相关概念)_image_4.jpg",
     "IT/MySQL/数据库优化(相关概念).md",
-    "obsidian相关/Picture/tmp1680833538402_GraaIVM_image_2.png",
-    "obsidian相关/Picture/tmp1680833536334_GraaIVM_image_2.png",
-    "obsidian相关/Picture/tmp1679989488145_TCP协议三次握手四次挥手_image_3.jpeg",
+    "obsidian相关/Picture/数据库优化(相关概念)_image_7.jpg",
+    "obsidian相关/Picture/数据库优化(相关概念)_image_5.jpg",
+    "obsidian相关/Picture/数据库优化(相关概念)_image_4.jpg",
     "IT/MySQL/数据库优化(实际操作).md",
     "IT/MySQL/数据库概念.md",
+    "IT/MySQL/数据库优化(1)_image_8.jpg.md",
+    "obsidian相关/Picture/tmp1679984439293_Sleuth_image_3.jpg",
+    "obsidian相关/Picture/tmp1679989488145_TCP协议三次握手四次挥手_image_3.jpeg",
     "IT/Spring/Spring原理.md",
-    "IT/Spring/AOP(基于面动态代理).md",
     "每日八股文(2).md",
     "IT/Spring/IOC(控制反转给容器).md",
     "IT/编程理念.md",
@@ -275,9 +269,6 @@
     "IT/多线程/多线程.md",
     "常用语法和算法/Markdown语法及快捷键/基础语法.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
-    "obsidian相关/Picture/数据库优化(相关概念)_image_4.jpg",
-    "obsidian相关/Picture/文档编写和分类标准_image_1.png",
-    "obsidian相关/Picture/tmp1679984439293_Sleuth_image_3.jpg",
     "obsidian相关/快捷键.md",
     "代码块.md",
     "obsidian相关/代码块.md",
@@ -286,7 +277,6 @@
     "IT/Spring/事务管理.md",
     "软件(原理,部署,特点)/Mysql/Mysql原理.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/类加载器和双亲委派.md",
-    "IT/JAVA底层知识/反射.md",
     "IT/多线程",
     "学习/科学",
     "常用语法和算法/常用算法/数学",
