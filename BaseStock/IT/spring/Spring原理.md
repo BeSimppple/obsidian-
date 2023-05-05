@@ -37,6 +37,8 @@ bean的几种模式（方法上，得有@Bean）
 	概念:
 	使用动态代理在代码的对应节点增加新的代码或将重复的非核心代码封装使用
 	作用:增强了扩展性和可维护性
+**Spring三级缓存**
+	
 spring常用注解（不包含springmvc和spring boot）
 	使用DI注入类相关：
 		@Component：泛指各种组件
@@ -138,8 +140,8 @@ Spring创建对象的三种方式
 	DI注入简单类型使用value 引用使用ref
 	假如父xml导入错误导致配置bean的id相同那么拿出的时候依赖覆盖原则,最晚覆盖的则被拿出
 	注入数组,集合,map
-	<bean. id. class.>
-	<property name.. >
+	\<bean. id. class.>
+	\<property name.. >
 	<array>
 	<value>1</value>
 	<value>1</value>
@@ -169,7 +171,7 @@ Spring创建对象的三种方式
 	想要定义一个全局异常处理类的话，我们需要在这个类上添加@ContaollerAdvice注解，然后定义一些用于捕捉不同异常类型的方法，在这些方法上添加@ExceptionHandler(value = 异常类型.class)和@ResponseBody注解，方法参数是HttpServletRequest和异常类型，然后将异常消息进行处理。
 	-
 	如果我们需要自定义异常的话，就写一个自定义异常类，该类需要继承一个异常接口，类属性包括final类型的连续id、错误码、错误信息，再根据需求写构造方法； 
-什么是循环依赖,如何解决?
+[什么是循环依赖,如何解决?](https://developer.aliyun.com/article/766880)
 	当bean A依赖于bean B,且bean B也依赖于bean A时
 	必要条件:1.  出现循环依赖的Bean必须要是单例 2.不能全是构造器注入(构造器代码的依赖)
 	主要原因:代码设计有问题
