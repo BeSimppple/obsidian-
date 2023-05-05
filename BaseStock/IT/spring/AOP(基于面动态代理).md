@@ -1,6 +1,9 @@
 AOP面向切面编程(Aspect Oriented Programming)  
 核心最终目的:解耦,提高扩展性和可用性
 @aspect .开启AOP配置支持注解(作用是把当前类标识为一个切面供容器读取)
+	将通知类IoC到Spring容器中
+	<aop:aspectj‐autoproxy></aop:aspectj‐autoproxy>
+	\<bean id="userDao" class="com.YL.dao.UserDao">\</bean>
 简介:
 	**是把我们程序重复的代码抽取出来封装，在需要执行的时候，使用动态代理的技术，在不修改源码的基础上，对我们的已有方法进行增强**。(和目标抽取出来,在引用进其他方法不同的是,不再在方法编程内产生强耦合. 可以使用aop在需要的时候调用引用的方法准确增强指定方法)
 	底层就是通过Spring提供的动态代理技术实现的
@@ -37,10 +40,10 @@ AOP运行流程：
 切入点表达式
 	execution( [权限修饰符] 返回值类型 包名.类名/接口名.方法名(参数))
 	权限修饰符可以省略
-	'*'代表任意包名、任意类名、任意方法名、任意参数类型
-	'.'代表任意一个包下
-	'..'代表任意一个或多个包、任意一个或多个参数（类型任意）
-	常用:* *..UserServiceImpl.*(..)
+	\*代表任意包名、任意类名、任意方法名、任意参数类型
+	.代表任意一个包下
+	..代表任意一个或多个包、任意一个或多个参数（类型任意）
+	常用:* \*..UserServiceImpl.*(..)
 	可以通过<aop:pointcut>标签进行切入点表达式的抽取
 **通知类别**
 	before:在切入点前运行
@@ -68,11 +71,11 @@ Around通知详解:
 	afterThrowing通知获取切入点异常对象
 	配置文件:<aop:after-throwing>标签中添加属性throwing="e"
 	通知方法:添加一个形式参数e,变量名要和上面保持一致
-	AOP注解
-	@aspect .开启AOP配置支持注解@aspect
-	.将通知类IoC到Spring容器中
-	<aop:aspectj‐autoproxy></aop:aspectj‐autoproxy>
-\<bean id="userDao" class="com.YL.dao.UserDao">\</bean>
+切面执行顺序
+	![[AOP(基于面动态代理)_image_1.png]]
+	异常时:
+	![[AOP(基于面动态代理)_image_2.png]]
+
 @around @Before @AfterReturning @AfterThrowing @After
 pjp是连接点: 原方法
 pjp.proceed() 执行原方法
