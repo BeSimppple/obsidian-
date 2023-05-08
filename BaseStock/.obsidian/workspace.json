@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "ce909c83701bc663",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "网络工程/网络通信/OSI七层网络模型.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "00cda7c48aca201b",
             "type": "leaf",
             "state": {
@@ -54,9 +42,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fc1d2959de5d18d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "网络工程/网络通信/TCP协议三次握手四次挥手.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "redis",
+                "query": "tcp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -131,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/Linux/Linux.md",
+                "file": "每日八股文(2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/Linux/Linux.md",
+                "file": "每日八股文(2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/Linux/Linux.md"
+                "file": "每日八股文(2).md"
               }
             }
           },
@@ -229,26 +228,26 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "00cda7c48aca201b",
+  "active": "2b4939f82da518d8",
   "lastOpenFiles": [
-    "软件(原理,部署,特点)/Redis/Redis原理.md",
-    "obsidian相关/Picture/Linux_image_7.jpg",
     "软件(原理,部署,特点)/Linux/Linux.md",
+    "网络工程/网络通信/TCP协议三次握手四次挥手.md",
+    "每日八股文(2).md",
+    "obsidian相关/Picture/每日八股文(2)_image_3.png",
+    "obsidian相关/Picture/每日八股文(2)_image_2.png",
+    "obsidian相关/Picture/每日八股文(2)_image_1.png",
+    "obsidian相关/Picture/tmp1683523256117_每日八股文(2)_image_2.png",
+    "软件(原理,部署,特点)/Redis/Redis原理.md",
+    "网络工程/网络通信/OSI七层网络模型.md",
+    "obsidian相关/Picture/Linux_image_7.jpg",
     "obsidian相关/Picture/Linux_image_5.jpg",
     "obsidian相关/Picture/Linux_image_4.jpg",
     "obsidian相关/Picture/Linux_image_6.jpg",
     "obsidian相关/Picture/tmp1679989488145_TCP协议三次握手四次挥手_image_3.jpeg",
-    "网络工程/网络通信/TCP协议三次握手四次挥手.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
     "obsidian相关/Picture/tmp1682663321902_对象_image_1.png",
-    "obsidian相关/Picture/GraaIVM(虚拟机)_image_4.png",
     "IT/未归类知识点/GraaIVM(虚拟机).md",
-    "obsidian相关/Picture/tmp1680833536334_GraaIVM_image_2.png",
-    "obsidian相关/Picture/GraaIVM(虚拟机)_image_3.png",
-    "obsidian相关/Picture/GraaIVM(虚拟机)_image_2.png",
     "IT/SpringCloud/Sleuth+Zipkin(链路监控).md",
-    "网络工程/网络通信/OSI七层网络模型.md",
-    "每日八股文(2).md",
     "IT/MySQL/数据库概念.md",
     "IT/常用概念.md",
     "IT/SpringCloud/Redisson分布式锁和SpringTask.md",
