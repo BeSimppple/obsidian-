@@ -1,5 +1,6 @@
-三次握手
+***网络编程三要素(IP地址,端口,协议)***
 
+三次握手
 -   seq：（sequence number）序号
 -   ack：（acknowledgement number）确认号
 -   标志位：
@@ -86,8 +87,11 @@ Client和Server进入ESTABLISHED状态，完成三次握手，随后Client与Ser
 	若客户端发送确认释放包后直接关闭，而服务端因为某种原因没有收到客户端的确认释放包，就会一直发送确认请求，而客户端永远不会再响应该请求。
 TCP重传机制和滑动窗口,流量控制:
 	[重传机制和滑动窗口,流量控制](https://www.cnblogs.com/xiaolincoding/p/12732052.html)
-	
-#### 网络编程三要素
+
+TCP报头信息
+	![[每日八股文(2)_image_4.png]]
+
+
 UDP协议:
 	面向无连接，数据不安全，速度快。不区分客户端与服务端。
 	不用确认是否建立链接便开始通信,即无链接通信协议
@@ -113,7 +117,7 @@ TCP协议:
 	（4）服务端socket监听到客户端请求后，被动打开，调用accept()方法接收客户端连接请求，当accept()方法接收到客户端connect()方法返回的响应成功的信息后，连接成功
 	（5）客户端向socket写入(send)请求信息，服务端读取(receive)信息
 	（6）客户端调用close()结束链接，服务端监听到释放连接请求后，也结束链接
-	![[TCP协议三次握手四次挥手_image_9.png|600]]
+	![[TCP协议三次握手四次挥手_image_10.png|600]]
 UDP传输JAVA写法
 	1.发送Send
 	创建DatagramSocket, 随机端口号
