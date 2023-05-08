@@ -47,15 +47,14 @@
             "id": "71b5f45b48f94d53",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "常用语法和算法/常用算法/常用算法.md",
-                "mode": "source",
-                "source": false
+                "file": "obsidian相关/Picture/tmp1683530702158_常用算法_image_1.png"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -129,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "每日八股文(2).md",
+                "file": "obsidian相关/Picture/tmp1683530702158_常用算法_image_1.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "每日八股文(2).md",
+                "file": "obsidian相关/Picture/tmp1683530702158_常用算法_image_1.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "每日八股文(2).md"
+                "file": "obsidian相关/Picture/tmp1683530702158_常用算法_image_1.png"
               }
             }
           },
@@ -227,13 +226,17 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "2b4939f82da518d8",
+  "active": "71b5f45b48f94d53",
   "lastOpenFiles": [
+    "obsidian相关/Picture/tmp1683530470900_常用算法_image_2.png",
+    "obsidian相关/Picture/tmp1683523256117_每日八股文(2)_image_2.png",
+    "obsidian相关/Picture/E958EDFE2FAD4C68BFF7DB56E1D020EC 1.jpg",
+    "obsidian相关/Picture/E08DA31E152D400DBB09AA58AE5D7187.jpg",
+    "obsidian相关/Picture/常用算法_image_1.png",
     "常用语法和算法/常用算法/常用算法.md",
+    "obsidian相关/Picture/tmp1683530702158_常用算法_image_1.png",
     "每日八股文(2).md",
     "IT/SpringCloud/RocketMQ(异步同步).md",
-    "obsidian相关/Picture/常用算法_image_2.png",
-    "obsidian相关/Picture/常用算法_image_1.png",
     "IT/设计模式/设计模式6原则.md",
     "IT/设计模式/单例设计模式.md",
     "网络工程/网络通信/TCP协议三次握手四次挥手.md",
@@ -246,10 +249,7 @@
     "obsidian相关/Picture/每日八股文(2)_image_3.png",
     "obsidian相关/Picture/每日八股文(2)_image_2.png",
     "obsidian相关/Picture/每日八股文(2)_image_1.png",
-    "obsidian相关/Picture/tmp1683523256117_每日八股文(2)_image_2.png",
     "网络工程/网络通信/OSI七层网络模型.md",
-    "obsidian相关/Picture/Linux_image_7.jpg",
-    "obsidian相关/Picture/Linux_image_5.jpg",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
     "IT/未归类知识点/GraaIVM(虚拟机).md",
     "IT/SpringCloud/Sleuth+Zipkin(链路监控).md",
@@ -264,7 +264,6 @@
     "常用语法和算法/Markdown语法及快捷键/基础语法.md",
     "软件(原理,部署,特点)/Idea/常用配置.md",
     "IT/编程理念.md",
-    "IT/Spring/SpringMVC(视图-模型-控制器设计模式).md",
     "IT/多线程",
     "学习/科学",
     "常用语法和算法/常用算法/数学",
