@@ -146,58 +146,56 @@ linux安装软件方法
 	linux安装redis(详情见redis记录)
 	linux安装nginx(详情见nginx记录)
 	linux安装nacos(详情见nacos记录)
+使用shell终端SecureCRTPortable（或者Xshell）去更快捷的敲命令
+SecureFX可视化操作文件夹等·
+
 云主机（腾讯云或阿里云等购买使用）
 没有设置开机启动的需要手动启动，因此写个shell脚本去帮助一键启动会更方便
 \#是root用户 $是普通用户
 发行版本选择centOS或 RHEL 因为比较稳定
 Ubuntu带桌面系统 Gentoo自由探索
 
-ip配置
-ip:192.168.2.254
-mask(掩码):255.255.255.0
-为什么是255(因为能匹配所有段落)
-因为255拆成2进制为:11111111
-1& 1或0 都是原数
-0& 1或0 都是0
-吧192转成2进制:11000000
-两者一&就是192为同一个网段
-dns：192.168.174.2 网上的服务器帮助找其他网站的主机 国内的114.114.114.114 和google的8.8.8.8.8
-host里面是域名和ip的映射关系
-dns是找到网络上对应的host文件去根据网址和ip找主机地址（例如百度网址找百度主机）
-NAT链接虚拟局域网
-![[Linux_image_6.jpg]]
-1：先查看虚拟的交换机的ip地址
-2：配置虚拟机的ip地址（默认是DHCP动态ip）
-3：nat上网模式特点，与宿主机在一个局域网、只要宿主机能连接外网，那么虚拟机就可以连接外网
-桥接上网模式
-使用真实交换机要求虚拟机配置静态的ip、且必须和真实交换机在同一网段，弊端电脑换地交换机更换ip网段变更需要变更虚拟机网段设置
-使用shell终端SecureCRTPortable（或者Xshell）去更快捷的敲命令
-SecureFX可视化操作文件夹等·
+ip配置和上网模式配置
+	ip:192.168.2.254
+	mask(掩码):255.255.255.0
+	为什么是255(因为能匹配所有段落)
+	因为255拆成2进制为:11111111
+	1& 1或0 都是原数
+	0& 1或0 都是0
+	吧192转成2进制:11000000
+	两者一&就是192为同一个网段
+	dns：192.168.174.2 网上的服务器帮助找其他网站的主机 国内的114.114.114.114 和google的8.8.8.8.8
+	host里面是域名和ip的映射关系
+	dns是找到网络上对应的host文件去根据网址和ip找主机地址（例如百度网址找百度主机）
+	**NAT链接虚拟局域网**
+	![[Linux_image_6.jpg]]
+	1：先查看虚拟的交换机的ip地址
+	2：配置虚拟机的ip地址（默认是DHCP动态ip）
+	3：nat上网模式特点，与宿主机在一个局域网、只要宿主机能连接外网，那么虚拟机就可以连接外网
+	**桥接上网模式**
+	使用真实交换机要求虚拟机配置静态的ip、且必须和真实交换机在同一网段，弊端电脑换地交换机更换ip网段变更需要变更虚拟机网段设置
 
-Redis中的事务跟mysql不一样，Redis单条指令可以保证原执行，但是多条不能保证原子性
-\#编译时异常,回滚
-\#运行时异常，不回滚
-注意：
-1：修改bind
-	bind ip错误理解：不是说bind哪个ip ，就只能哪个ip来访问redis
-	bind ip正确理解： bind本机的网卡对应的ip地址，只有通过指定网卡进来的主机才能访问redis
-	bind 127.0.0.1（默认），本地回环地址。那么访问redis服务只能通过本机的客户端连接，而无法通过远程连接
-	bind 192.168.234.131 通过本机ens33网卡进来的主机都可以访问redis，这样设置后基本所有的主机都可以访问
-	如果要限制只允许某些host访问，那么可以通过配置安全组实现
-![[Linux_image_7.jpg]]
-2：redis设置密码
-	Redis6之前Redis就只有一个用户(default)权限最高，通过配置文件的requirepass配置
-	Redis6版本推出了**ACL(Access Control List)访问控制权限**的功能，基于此功能，我们可以设置多个用户，为了保证**向下兼容**，Redis6保留了default用户和使用requirepass的方式给default用户设置密码，默认情况下default用户拥有Redis最大权限，我们使用redis-cli连接时如果没有指定用户名，用户也是默认default
-3:ACL常用命令
-	ACL whoami
-	ACL list
-	ACL setuser allen on >123456 +@all ~*
-	AUTH allen mypasswd
-	#只能创建以lakers为前缀的key
-	ACL setuser james on >123456 +@all ~lakers*
-	#不拥有set权限
-	ACL setuser james -SET
-	ACL DELUSER james
+**注意：**
+	1：修改bind
+		bind ip错误理解：不是说bind哪个ip ，就只能哪个ip来访问redis
+		bind ip正确理解： bind本机的网卡对应的ip地址，只有通过指定网卡进来的主机才能访问redis
+		bind 127.0.0.1（默认），本地回环地址。那么访问redis服务只能通过本机的客户端连接，而无法通过远程连接
+		bind 192.168.234.131 通过本机ens33网卡进来的主机都可以访问redis，这样设置后基本所有的主机都可以访问
+		如果要限制只允许某些host访问，那么可以通过配置安全组实现
+	![[Linux_image_7.jpg]]
+	2：redis设置密码
+		Redis6之前Redis就只有一个用户(default)权限最高，通过配置文件的requirepass配置
+		Redis6版本推出了**ACL(Access Control List)访问控制权限**的功能，基于此功能，我们可以设置多个用户，为了保证**向下兼容**，Redis6保留了default用户和使用requirepass的方式给default用户设置密码，默认情况下default用户拥有Redis最大权限，我们使用redis-cli连接时如果没有指定用户名，用户也是默认default
+	3:ACL常用命令
+		ACL whoami
+		ACL list
+		ACL setuser allen on >123456 +@all ~*
+		AUTH allen mypasswd
+		#只能创建以lakers为前缀的key
+		ACL setuser james on >123456 +@all ~lakers*
+		#不拥有set权限
+		ACL setuser james -SET
+		ACL DELUSER james
 从外部导依赖到mvn中 在cmd执行
 mvn install:install-file -Dfile=taobao-sdk-java-auto_1455552377940-20160607.jar -DgroupId=com.alimama -DartifactId=sms -Dversion=1.0 -Dpackaging=jar
 Linuix常见知识点

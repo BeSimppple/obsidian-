@@ -47,9 +47,11 @@
             "id": "b8e22a3500cecd4c",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "obsidian相关/Picture/Linux_image_7.jpg"
+                "file": "软件(原理,部署,特点)/Redis/Redis原理.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -227,12 +229,13 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "68447e7ec5dfad2f",
+  "active": "00cda7c48aca201b",
   "lastOpenFiles": [
+    "软件(原理,部署,特点)/Redis/Redis原理.md",
+    "obsidian相关/Picture/Linux_image_7.jpg",
+    "软件(原理,部署,特点)/Linux/Linux.md",
     "obsidian相关/Picture/Linux_image_5.jpg",
     "obsidian相关/Picture/Linux_image_4.jpg",
-    "软件(原理,部署,特点)/Linux/Linux.md",
-    "obsidian相关/Picture/Linux_image_7.jpg",
     "obsidian相关/Picture/Linux_image_6.jpg",
     "obsidian相关/Picture/tmp1679989488145_TCP协议三次握手四次挥手_image_3.jpeg",
     "网络工程/网络通信/TCP协议三次握手四次挥手.md",
@@ -245,7 +248,6 @@
     "obsidian相关/Picture/GraaIVM(虚拟机)_image_2.png",
     "IT/SpringCloud/Sleuth+Zipkin(链路监控).md",
     "网络工程/网络通信/OSI七层网络模型.md",
-    "软件(原理,部署,特点)/Redis/Redis原理.md",
     "每日八股文(2).md",
     "IT/MySQL/数据库概念.md",
     "IT/常用概念.md",
