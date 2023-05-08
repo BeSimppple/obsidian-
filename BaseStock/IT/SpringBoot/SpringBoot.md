@@ -57,65 +57,65 @@ spring.redis.password=XXX密码
 一般使用string的
 Springboot整合其他工具软件都是同理最好能有springboot支持的启动类jar包省去其他配置依赖
 例如添加mybatis-plus或element或jenkins
-SpringBoot中常用注解（可能包括spring和springMVC和springcloud）
-@SpringBootApplication 等同于同时使用@Configuration(声明当前类是一个配置类)，@EnableAutoConfiguration(开启自动配置)和
-@ConditionalOnbean 是springboot提供的条件注解，意思是进行mybatis自动配置前，必须要有datasource对象
-@MapperScan,全局扫描在引导类上加（指定扫描位置默认加上@Mapper作为数据库映射的代理类）
-@ComponentScan(配置组件扫描的指令)及其默认属性。
-@PropertySource  导入properties文件
-@ImportResource 将资源导入spring容器
-@Scope指定bean的作用域，默认singleton，其它包括prototype、request、session、globalSession
-@Lazy 使bean懒加载，取消bean预初始化。
-@Primary 自动装配时当出现多个Bean候选者时，被注解为@Primary的Bean将作为首选者，否者将抛出异常
-@AutoConfigureBefore 在指定配置类初始化前加载
-@AutoConfigureOrder 指定配置类初始化顺序，越小初始化越早
-缓存相关：
-@EnableCaching，开启缓存配置，支持子类代理或者AspectJ增强
-@CacheConfig，在一个类下，提供公共缓存配置
-@Cacheable，放着方法和类上，缓存方法或类下所有方法的返回值
-@CachePut，每次先执行方法，再将结果放入缓存
-@CacheEvict，删除缓存
-@Caching，可以配置@Cacheable、@CachePut、@CacheEvict
-注入配置文件properties相关：
-@EnableConfigurationProperties，启动@ConfigurationProperties功能
-@ConfigurationProperties，将properties文件里的内容，自动注入bean对应的属性中
-JPA(持久层api)相关：
-@Entity ，@Table(name="")
-表明这是一个[实体类](https://so.csdn.net/so/search?q=%E5%AE%9E%E4%BD%93%E7%B1%BB&spm=1001.2101.3001.7020)，一般用于jpa，这两个注解一块使用，但是如果表名和实体类名相同的话，@Table可以省略。
-@Alias("goods_")配置别名,有时候会发生别名和其他项目冲突的情况
-@Column 如果字段名和列名相同，则可以省略。
-@Id 表示该属性为主键。
-@TableId(type = IdType.AUTO)mybatis-plus提供的注解表示该属性对应数据库表中主键并且是自增长
-@Transient（常用） 表示该属性并非一个到数据库表的字段的映射，ORM框架将忽略该属性。如果不是数据库表的字段映射而是java项目加的则必须标注该注解
-@JsonIgnore 在实体类向前台返回数据时用来忽略不想传递给前台的属性或接口。
-事务相关：@transactional
-导入配置文件相关：
-@PropertySource 引入单个properties文件：
-@ImportResource 导入xml配置文件
-@Import 导入额外的配置文件
-lombok常用注解：
-@Data注解 （自动包含getter、setter、NoArgsConstructor、equals、canEqual、hashCode、toString）
-@NoArgsConstructor注解：在JavaBean或类JavaBean中使用，使用此注解会生成对应的无参构造方法；
-@AllArgsConstructor注解：在JavaBean或类JavaBean中使用，使用此注解会生成对应的有参构造方法；
-@Slf4j：在需要打印日志的类中使用，当项目中使用了slf4j打印日志框架时使用该注解，会简化日志的打印流程，只需调用info方法即可；
-@Log4j：使用了log4j框架，原理同slf4j
-@ToString(exclude={"column1","column2"}) 其他get和set等同理tostring写法
-意义：排除多个column列所对应的元素，其中间用英文状态下的逗号进行分割，即在生成toString方法时不包含多个column参数；
-@NonNull 给方法中的参数加会自动校验是否为空
-数据库相关注解：
-@MapperScan与
-@Mapper Mybatis 的注解，和 Spring 没有关系，@Repository 和@component 是 Spring 的注解，用于声明一个 Bean。
-在 Spring 程序中，Mybatis 需要找到对应的 mapper接口，在编译的时候动态生成代理类，实现数据库查询功能，所以我们需要在接口上添加 @Mapper 注解。
-通过命令行配置属性（直接通过cmd启动项目）
-命令：
-java -jar xxx.jar --server.port=8888
-通过使用–-server.port属性来设置xxx.jar应用的监听端口为8888
+**SpringBoot中常用注解（可能包括spring和springMVC和springcloud）**
+	@SpringBootApplication 等同于同时使用@Configuration(声明当前类是一个配置类)，@EnableAutoConfiguration(开启自动配置)和
+	@ConditionalOnbean 是springboot提供的条件注解，意思是进行mybatis自动配置前，必须要有datasource对象
+	@MapperScan,全局扫描在引导类上加（指定扫描位置默认加上@Mapper作为数据库映射的代理类）
+	@ComponentScan(配置组件扫描的指令)及其默认属性。
+	@PropertySource  导入properties文件
+	@ImportResource 将资源导入spring容器
+	@Scope指定bean的作用域，默认singleton，其它包括prototype、request、session、globalSession
+	@Lazy 使bean懒加载，取消bean预初始化。
+	@Primary 自动装配时当出现多个Bean候选者时，被注解为@Primary的Bean将作为首选者，否者将抛出异常
+	@AutoConfigureBefore 在指定配置类初始化前加载
+	@AutoConfigureOrder 指定配置类初始化顺序，越小初始化越早
+	缓存相关：
+	@EnableCaching，开启缓存配置，支持子类代理或者AspectJ增强
+	@CacheConfig，在一个类下，提供公共缓存配置
+	@Cacheable，放着方法和类上，缓存方法或类下所有方法的返回值
+	@CachePut，每次先执行方法，再将结果放入缓存
+	@CacheEvict，删除缓存
+	@Caching，可以配置@Cacheable、@CachePut、@CacheEvict
+	注入配置文件properties相关：
+	@EnableConfigurationProperties，启动@ConfigurationProperties功能
+	@ConfigurationProperties，将properties文件里的内容，自动注入bean对应的属性中
+	JPA(持久层api)相关：
+	@Entity ，@Table(name="")
+	表明这是一个[实体类](https://so.csdn.net/so/search?q=%E5%AE%9E%E4%BD%93%E7%B1%BB&spm=1001.2101.3001.7020)，一般用于jpa，这两个注解一块使用，但是如果表名和实体类名相同的话，@Table可以省略。
+	@Alias("goods_")配置别名,有时候会发生别名和其他项目冲突的情况
+	@Column 如果字段名和列名相同，则可以省略。
+	@Id 表示该属性为主键。
+	@TableId(type = IdType.AUTO)mybatis-plus提供的注解表示该属性对应数据库表中主键并且是自增长
+	@Transient（常用） 表示该属性并非一个到数据库表的字段的映射，ORM框架将忽略该属性。如果不是数据库表的字段映射而是java项目加的则必须标注该注解
+	@JsonIgnore 在实体类向前台返回数据时用来忽略不想传递给前台的属性或接口。
+	事务相关：@transactional
+	导入配置文件相关：
+	@PropertySource 引入单个properties文件：
+	@ImportResource 导入xml配置文件
+	@Import 导入额外的配置文件
+	lombok常用注解：
+	@Data注解 （自动包含getter、setter、NoArgsConstructor、equals、canEqual、hashCode、toString）
+	@NoArgsConstructor注解：在JavaBean或类JavaBean中使用，使用此注解会生成对应的无参构造方法；
+	@AllArgsConstructor注解：在JavaBean或类JavaBean中使用，使用此注解会生成对应的有参构造方法；
+	@Slf4j：在需要打印日志的类中使用，当项目中使用了slf4j打印日志框架时使用该注解，会简化日志的打印流程，只需调用info方法即可；
+	@Log4j：使用了log4j框架，原理同slf4j
+	@ToString(exclude={"column1","column2"}) 其他get和set等同理tostring写法
+	意义：排除多个column列所对应的元素，其中间用英文状态下的逗号进行分割，即在生成toString方法时不包含多个column参数；
+	@NonNull 给方法中的参数加会自动校验是否为空
+	数据库相关注解：
+	@MapperScan与
+	@Mapper Mybatis 的注解，和 Spring 没有关系，@Repository 和@component 是 Spring 的注解，用于声明一个 Bean。
+	在 Spring 程序中，Mybatis 需要找到对应的 mapper接口，在编译的时候动态生成代理类，实现数据库查询功能，所以我们需要在接口上添加 @Mapper 注解。
+	通过命令行配置属性（直接通过cmd启动项目）
+	命令：
+	java -jar xxx.jar --server.port=8888
+	通过使用–-server.port属性来设置xxx.jar应用的监听端口为8888
 SpringBoot注意事项
-注意：当你做了pom依赖就立马启动工程，那么启动会报错，为什么呢？因为Mybatis-springboot-starter在自动化配置的时候，需要使用到datasource，但是容器中还没有datasource（因为你都没告诉springboot你的数据库信息）所以第二步就是配置数据库信息
-mybatis-plus代码生成器：
-表-驱动生成--》entity,Mapper接口,Mapper xml文件，Service接口，Service实现类，Controller
-Spring的基础配置等
-springboot2.0以后使用的默认的数据库连接池为HiKariCP
+	注意：当你做了pom依赖就立马启动工程，那么启动会报错，为什么呢？因为Mybatis-springboot-starter在自动化配置的时候，需要使用到datasource，但是容器中还没有datasource（因为你都没告诉springboot你的数据库信息）所以第二步就是配置数据库信息
+	mybatis-plus代码生成器：
+	表-驱动生成--》entity,Mapper接口,Mapper xml文件，Service接口，Service实现类，Controller
+	Spring的基础配置等
+	springboot2.0以后使用的默认的数据库连接池为HiKariCP
 # redis集群版
 spring.redis.cluster.nodes=192.168.234.131:7001,192.168.234.131:7002,192.168.234.131:7003
 spring.redis.password=
