@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "linux命令",
+                "query": "linux",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -219,10 +219,11 @@
   },
   "active": "00cda7c48aca201b",
   "lastOpenFiles": [
-    "每日八股文(2).md",
-    "网络工程/网络通信/OSI七层网络模型.md",
-    "IT/MySQL/数据库概念.md",
     "软件(原理,部署,特点)/Redis/Redis原理.md",
+    "网络工程/网络通信/OSI七层网络模型.md",
+    "每日八股文(2).md",
+    "软件(原理,部署,特点)/Linux/Linux.md",
+    "IT/MySQL/数据库概念.md",
     "IT/常用概念.md",
     "IT/SpringCloud/Redisson分布式锁和SpringTask.md",
     "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
@@ -254,7 +255,6 @@
     "软件(原理,部署,特点)/Mysql/SQL语法.md",
     "常用语法和算法/SQL语法.md",
     "sortspec.md",
-    "IT/多线程/多线程.md",
     "IT/多线程",
     "学习/科学",
     "常用语法和算法/常用算法/数学",
