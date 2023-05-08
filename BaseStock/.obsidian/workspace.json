@@ -20,31 +20,18 @@
             }
           },
           {
-            "id": "3c1c91a2ea757606",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "软件(原理,部署,特点)/Redis/Redis原理.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ce909c83701bc663",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/MySQL/数据库概念.md",
+                "file": "网络工程/网络通信/OSI七层网络模型.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mysql",
+                "query": "osi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -119,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/Redis/Redis原理.md",
+                "file": "每日八股文(2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/Redis/Redis原理.md",
+                "file": "每日八股文(2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/Redis/Redis原理.md"
+                "file": "每日八股文(2).md"
               }
             }
           },
@@ -217,11 +204,12 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "3c1c91a2ea757606",
+  "active": "2b4939f82da518d8",
   "lastOpenFiles": [
+    "网络工程/网络通信/OSI七层网络模型.md",
+    "每日八股文(2).md",
     "IT/MySQL/数据库概念.md",
     "软件(原理,部署,特点)/Redis/Redis原理.md",
-    "每日八股文(2).md",
     "IT/常用概念.md",
     "IT/SpringCloud/Redisson分布式锁和SpringTask.md",
     "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
@@ -254,7 +242,6 @@
     "常用语法和算法/SQL语法.md",
     "sortspec.md",
     "IT/多线程/多线程.md",
-    "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
     "IT/多线程",
     "学习/科学",
     "常用语法和算法/常用算法/数学",
