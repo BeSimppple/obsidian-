@@ -59,31 +59,31 @@ linux命令格式：
 wget与yum的区别
 	一般使用yum(因为yum是从镜像库中取软件)wget是通过http取任何软件
 文件命令：VIM
-文件命令vim/vi（linux中通常使用vim/vi来操作文件内容）
-yum安装vim
-yum -y install vim*
-vim的工作模式（命令模式和底线命令模式）
-![[Linux_image_1.jpg|400]]
-![[Linux_image_2.jpg]]
-命令模式：
-gg 光标到第一行
-G 光标到最后一行
-nG 到第n行
-dd 删除当前行
-10dd 删除n行
-yy 复制当前行 p粘贴
-nyy复制n行 p粘贴
-底线命令模式：
-![[Linux_image_3.jpg|400]]
-:set nu 显示行号
-:set nonu 不显示行号
-:wq保存退出
-:q!不保存退出
-权限指令：
-![[Linux_image_4.jpg]]
-chmod授权命令
-sudo指令
-|grep管道符过滤
+	文件命令vim/vi（linux中通常使用vim/vi来操作文件内容）
+	yum安装vim
+	yum -y install vim*
+	vim的工作模式（命令模式和底线命令模式）
+	![[Linux_image_1.jpg|400]]
+	![[Linux_image_2.jpg]]
+	命令模式：
+	gg 光标到第一行
+	G 光标到最后一行
+	nG 到第n行
+	dd 删除当前行
+	10dd 删除n行
+	yy 复制当前行 p粘贴
+	nyy复制n行 p粘贴
+	底线命令模式：
+	![[Linux_image_3.jpg|400]]
+	:set nu 显示行号
+	:set nonu 不显示行号
+	:wq保存退出
+	:q!不保存退出
+	权限指令：
+	![[Linux_image_4.jpg]]
+	chmod授权命令
+	sudo指令
+	|grep管道符过滤
 linux安装软件方法
 	1.源码包（包内有src这种）-》编译（make执行makefile）-》安装（make install）（不常用效率低容易出问题）
 	2.二进制包（rpm）-》通过（rpm or yum）安装（常用）
@@ -148,6 +148,10 @@ linux安装软件方法
 	linux安装nacos(详情见nacos记录)
 云主机（腾讯云或阿里云等购买使用）
 没有设置开机启动的需要手动启动，因此写个shell脚本去帮助一键启动会更方便
+\#是root用户 $是普通用户
+发行版本选择centOS或 RHEL 因为比较稳定
+Ubuntu带桌面系统 Gentoo自由探索
+
 ip配置
 ip:192.168.2.254
 mask(掩码):255.255.255.0
@@ -157,15 +161,12 @@ mask(掩码):255.255.255.0
 0& 1或0 都是0
 吧192转成2进制:11000000
 两者一&就是192为同一个网段
-#是root用户 $是普通用户
-发行版本选择centOS或 RHEL 因为比较稳定
-Ubuntu带桌面系统 Gentoo自由探索
-![[Linux_image_5.jpg]]
+
 dns：192.168.174.2 网上的服务器帮助找其他网站的主机 国内的114.114.114.114 和google的8.8.8.8.8
 host里面是域名和ip的映射关系
 dns是找到网络上对应的host文件去根据网址和ip找主机地址（例如百度网址找百度主机）
 NAT链接虚拟局域网
-![[Linux_image_6.jpg]]
+![[Linux_image_5.jpg]]
 1：先查看虚拟的交换机的ip地址
 2：配置虚拟机的ip地址（默认是DHCP动态ip）
 3：nat上网模式特点，与宿主机在一个局域网、只要宿主机能连接外网，那么虚拟机就可以连接外网
@@ -183,7 +184,7 @@ bind ip正确理解： bind本机的网卡对应的ip地址，只有通过指定
 bind 127.0.0.1（默认），本地回环地址。那么访问redis服务只能通过本机的客户端连接，而无法通过远程连接
 bind 192.168.234.131 通过本机ens33网卡进来的主机都可以访问redis，这样设置后基本所有的主机都可以访问
 如果要限制只允许某些host访问，那么可以通过配置安全组实现
-![[Linux_image_7.jpg]]
+![[Linux_image_6.jpg]]
 2：redis设置密码
 Redis6之前Redis就只有一个用户(default)权限最高，通过配置文件的requirepass配置
 Redis6版本推出了**ACL(Access Control List)访问控制权限**的功能，基于此功能，我们可以设置多个用户，为了保证**向下兼容**，Redis6保留了default用户和使用requirepass的方式给default用户设置密码，默认情况下default用户拥有Redis最大权限，我们使用redis-cli连接时如果没有指定用户名，用户也是默认default
