@@ -238,4 +238,4 @@ redis集群连接java项目
 
 Redis+Lua脚本
 	lua是轻量化C语言脚本
-	辅助Redis脚本化命令
+	辅助Redis脚本化命令(核心作用将多个命令写成lua脚本从而原子化)
