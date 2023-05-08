@@ -42,6 +42,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b8e22a3500cecd4c",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "obsidian相关/Picture/Linux_image_7.jpg"
+              }
+            }
           }
         ],
         "currentTab": 2
@@ -73,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "linux",
+                "query": "redis",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -217,10 +227,24 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "00cda7c48aca201b",
+  "active": "68447e7ec5dfad2f",
   "lastOpenFiles": [
-    "网络工程/网络通信/OSI七层网络模型.md",
+    "obsidian相关/Picture/Linux_image_5.jpg",
+    "obsidian相关/Picture/Linux_image_4.jpg",
     "软件(原理,部署,特点)/Linux/Linux.md",
+    "obsidian相关/Picture/Linux_image_7.jpg",
+    "obsidian相关/Picture/Linux_image_6.jpg",
+    "obsidian相关/Picture/tmp1679989488145_TCP协议三次握手四次挥手_image_3.jpeg",
+    "网络工程/网络通信/TCP协议三次握手四次挥手.md",
+    "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
+    "obsidian相关/Picture/tmp1682663321902_对象_image_1.png",
+    "obsidian相关/Picture/GraaIVM(虚拟机)_image_4.png",
+    "IT/未归类知识点/GraaIVM(虚拟机).md",
+    "obsidian相关/Picture/tmp1680833536334_GraaIVM_image_2.png",
+    "obsidian相关/Picture/GraaIVM(虚拟机)_image_3.png",
+    "obsidian相关/Picture/GraaIVM(虚拟机)_image_2.png",
+    "IT/SpringCloud/Sleuth+Zipkin(链路监控).md",
+    "网络工程/网络通信/OSI七层网络模型.md",
     "软件(原理,部署,特点)/Redis/Redis原理.md",
     "每日八股文(2).md",
     "IT/MySQL/数据库概念.md",
@@ -239,22 +263,7 @@
     "IT/Spring/AOP(基于面动态代理).md",
     "IT/Spring/Spring事务.md",
     "IT/Spring/IOC(控制反转给容器).md",
-    "obsidian相关/Picture/IOC(控制反转给容器)_image_1.png",
-    "obsidian相关/Picture/AOP(基于面动态代理)_image_2.png",
-    "obsidian相关/Picture/AOP(基于面动态代理)_image_1.png",
-    "obsidian相关/Picture/数据库优化(相关概念)_image_9.jpg",
     "IT/MySQL/数据库优化(相关概念).md",
-    "obsidian相关/Picture/数据库优化(相关概念)_image_13.jpg",
-    "obsidian相关/Picture/文档编写和分类标准_image_1.png",
-    "obsidian相关/Picture/数据库优化(相关概念)_image_6.jpg",
-    "obsidian相关/Picture/数据库优化(相关概念)_image_5.jpg",
-    "obsidian相关/Picture/数据库优化(相关概念)_image_4.jpg",
-    "obsidian相关/Picture/数据库优化(相关概念)_image_2.jpg",
-    "IT/MySQL/数据库优化(实际操作).md",
-    "IT/MySQL/数据库优化(1)_image_8.jpg.md",
-    "软件(原理,部署,特点)/Mysql/SQL语法.md",
-    "常用语法和算法/SQL语法.md",
-    "sortspec.md",
     "IT/多线程",
     "学习/科学",
     "常用语法和算法/常用算法/数学",

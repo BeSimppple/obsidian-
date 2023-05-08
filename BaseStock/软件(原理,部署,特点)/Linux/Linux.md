@@ -3,7 +3,7 @@
 	2.**安全稳定**。核心防火墙组件性能高、配置简单、比window稳定宕机概率很低
 	3.**多用户，多任务**。多用户是指系统资源可以同时被不同的用户使用，每个用户对自己的资源有特定的权限，互不影响。
 centOS系统目录详解:[https://blog.csdn.net/Aplumage/article/details/122590105](https://blog.csdn.net/Aplumage/article/details/122590105)
-使用VMware生成虚拟机 然后在linux上配置redis和niginx以及nacos等技术性组件
+![[Linux_image_1.jpg]]
 linux命令格式：
 	    COMMAND \[OPTIONS...] \[ARGUMENTS...]
 	    COMMAND：命令，表示可执行的二进制格式文件或者脚本程序文件
@@ -63,8 +63,8 @@ wget与yum的区别
 	yum安装vim
 	yum -y install vim*
 	vim的工作模式（命令模式和底线命令模式）
-	![[Linux_image_1.jpg|400]]
-	![[Linux_image_2.jpg]]
+	![[Linux_image_2.jpg|400]]
+	![[Linux_image_3.jpg]]
 	命令模式：
 	gg 光标到第一行
 	G 光标到最后一行
@@ -74,13 +74,13 @@ wget与yum的区别
 	yy 复制当前行 p粘贴
 	nyy复制n行 p粘贴
 	底线命令模式：
-	![[Linux_image_3.jpg|400]]
+	![[Linux_image_4.jpg|400]]
 	:set nu 显示行号
 	:set nonu 不显示行号
 	:wq保存退出
 	:q!不保存退出
 	权限指令：
-	![[Linux_image_4.jpg]]
+	![[Linux_image_5.jpg]]
 	chmod授权命令
 	sudo指令
 	|grep管道符过滤
@@ -161,12 +161,11 @@ mask(掩码):255.255.255.0
 0& 1或0 都是0
 吧192转成2进制:11000000
 两者一&就是192为同一个网段
-
 dns：192.168.174.2 网上的服务器帮助找其他网站的主机 国内的114.114.114.114 和google的8.8.8.8.8
 host里面是域名和ip的映射关系
 dns是找到网络上对应的host文件去根据网址和ip找主机地址（例如百度网址找百度主机）
 NAT链接虚拟局域网
-![[Linux_image_5.jpg]]
+![[Linux_image_6.jpg]]
 1：先查看虚拟的交换机的ip地址
 2：配置虚拟机的ip地址（默认是DHCP动态ip）
 3：nat上网模式特点，与宿主机在一个局域网、只要宿主机能连接外网，那么虚拟机就可以连接外网
@@ -174,30 +173,31 @@ NAT链接虚拟局域网
 使用真实交换机要求虚拟机配置静态的ip、且必须和真实交换机在同一网段，弊端电脑换地交换机更换ip网段变更需要变更虚拟机网段设置
 使用shell终端SecureCRTPortable（或者Xshell）去更快捷的敲命令
 SecureFX可视化操作文件夹等·
+
 Redis中的事务跟mysql不一样，Redis单条指令可以保证原执行，但是多条不能保证原子性
-#编译时异常,回滚
-#运行时异常，不回滚
+\#编译时异常,回滚
+\#运行时异常，不回滚
 注意：
 1：修改bind
-bind ip错误理解：不是说bind哪个ip ，就只能哪个ip来访问redis
-bind ip正确理解： bind本机的网卡对应的ip地址，只有通过指定网卡进来的主机才能访问redis
-bind 127.0.0.1（默认），本地回环地址。那么访问redis服务只能通过本机的客户端连接，而无法通过远程连接
-bind 192.168.234.131 通过本机ens33网卡进来的主机都可以访问redis，这样设置后基本所有的主机都可以访问
-如果要限制只允许某些host访问，那么可以通过配置安全组实现
-![[Linux_image_6.jpg]]
+	bind ip错误理解：不是说bind哪个ip ，就只能哪个ip来访问redis
+	bind ip正确理解： bind本机的网卡对应的ip地址，只有通过指定网卡进来的主机才能访问redis
+	bind 127.0.0.1（默认），本地回环地址。那么访问redis服务只能通过本机的客户端连接，而无法通过远程连接
+	bind 192.168.234.131 通过本机ens33网卡进来的主机都可以访问redis，这样设置后基本所有的主机都可以访问
+	如果要限制只允许某些host访问，那么可以通过配置安全组实现
+![[Linux_image_7.jpg]]
 2：redis设置密码
-Redis6之前Redis就只有一个用户(default)权限最高，通过配置文件的requirepass配置
-Redis6版本推出了**ACL(Access Control List)访问控制权限**的功能，基于此功能，我们可以设置多个用户，为了保证**向下兼容**，Redis6保留了default用户和使用requirepass的方式给default用户设置密码，默认情况下default用户拥有Redis最大权限，我们使用redis-cli连接时如果没有指定用户名，用户也是默认default
+	Redis6之前Redis就只有一个用户(default)权限最高，通过配置文件的requirepass配置
+	Redis6版本推出了**ACL(Access Control List)访问控制权限**的功能，基于此功能，我们可以设置多个用户，为了保证**向下兼容**，Redis6保留了default用户和使用requirepass的方式给default用户设置密码，默认情况下default用户拥有Redis最大权限，我们使用redis-cli连接时如果没有指定用户名，用户也是默认default
 3:ACL常用命令
-ACL whoami
-ACL list
-ACL setuser allen on >123456 +@all ~*
-AUTH allen mypasswd
-#只能创建以lakers为前缀的key
-ACL setuser james on >123456 +@all ~lakers*
-#不拥有set权限
-ACL setuser james -SET
-ACL DELUSER james
+	ACL whoami
+	ACL list
+	ACL setuser allen on >123456 +@all ~*
+	AUTH allen mypasswd
+	#只能创建以lakers为前缀的key
+	ACL setuser james on >123456 +@all ~lakers*
+	#不拥有set权限
+	ACL setuser james -SET
+	ACL DELUSER james
 从外部导依赖到mvn中 在cmd执行
 mvn install:install-file -Dfile=taobao-sdk-java-auto_1455552377940-20160607.jar -DgroupId=com.alimama -DartifactId=sms -Dversion=1.0 -Dpackaging=jar
 Linuix常见知识点
