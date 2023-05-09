@@ -42,6 +42,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d11d478661e54061",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "文档编写和分类标准.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -218,24 +230,24 @@
   },
   "active": "b8e22a3500cecd4c",
   "lastOpenFiles": [
+    "文档编写和分类标准.md",
+    "IT/SpringCloud/Sentinel(降级熔断).md",
+    "网络工程/网络通信/TCP协议三次握手四次挥手.md",
     "obsidian相关/Picture/TCP协议三次握手四次挥手_image_11.png",
     "obsidian相关/Picture/TCP协议三次握手四次挥手_image_10.png",
     "obsidian相关/Picture/TCP协议三次握手四次挥手_image_9.png",
     "obsidian相关/Picture/TCP协议三次握手四次挥手_image_13.png",
     "obsidian相关/Picture/TCP协议三次握手四次挥手_image_12.png",
-    "IT/SpringCloud/Sentinel(降级熔断).md",
     "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
     "IT/SpringCloud/SpringCloud框架思想.md",
     "IT/SpringBoot/SpringBoot.md",
     "IT/SpringBoot/Ribbon和Openfeign.md",
     "常用语法和算法/常用算法/常用算法.md",
-    "网络工程/网络通信/TCP协议三次握手四次挥手.md",
     "obsidian相关/Picture/常用算法_image_2.gif",
     "obsidian相关/Picture/常用算法_image_9.gif",
     "obsidian相关/Picture/常用算法_image_8.gif",
     "obsidian相关/Picture/常用算法_image_7.gif",
     "obsidian相关/Picture/常用算法_image_6.gif",
-    "obsidian相关/Picture/常用算法_image_5.gif",
     "IT/SpringCloud/RocketMQ(异步同步).md",
     "每日八股文(2).md",
     "IT/设计模式/设计模式6原则.md",
@@ -253,7 +265,6 @@
     "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
     "IT/Spring/Spring原理.md",
     "IT/SpringCloud/Seata(分布式事务).md",
-    "文档编写和分类标准.md",
     "IT/多线程",
     "学习/科学",
     "常用语法和算法/常用算法/数学",
