@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络工程/网络通信/TCP协议.md",
+                "file": "IT/SpringCloud/RocketMQ(异步同步).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "算法",
+                "query": "MQ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -110,7 +110,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -130,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网络工程/网络通信/TCP协议.md",
+                "file": "IT/SpringCloud/RocketMQ(异步同步).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网络工程/网络通信/TCP协议.md",
+                "file": "IT/SpringCloud/RocketMQ(异步同步).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网络工程/网络通信/TCP协议.md"
+                "file": "IT/SpringCloud/RocketMQ(异步同步).md"
               }
             }
           },
@@ -230,8 +231,15 @@
   },
   "active": "b8e22a3500cecd4c",
   "lastOpenFiles": [
-    "每日八股文(2).md",
     "网络工程/网络通信/TCP协议.md",
+    "每日八股文(2).md",
+    "网络工程/网络通信/软路由.md",
+    "网络工程/网络通信/基础知识/常见硬件.md",
+    "网络工程/网络通信/基础知识/常见协议.md",
+    "网络工程/网络通信/基础知识/常见网络参数解释.md",
+    "网络工程/网络通信/基础知识/常见术语.md",
+    "网络工程/网络通信/基础知识/常见架构.md",
+    "网络工程/网络通信/基础知识/常见错误码.md",
     "IT/SpringCloud/Sentinel(降级熔断).md",
     "文档编写和分类标准.md",
     "obsidian相关/Picture/TCP协议_image_10.png",
@@ -259,12 +267,6 @@
     "网络工程/网络通信/OSI七层网络模型.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
     "IT/未归类知识点/GraaIVM(虚拟机).md",
-    "IT/SpringCloud/Sleuth+Zipkin(链路监控).md",
-    "IT/MySQL/数据库概念.md",
-    "IT/SpringCloud/Redisson分布式锁和SpringTask.md",
-    "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
-    "IT/Spring/Spring原理.md",
-    "IT/SpringCloud/Seata(分布式事务).md",
     "IT/多线程",
     "学习/科学",
     "常用语法和算法/常用算法/数学",

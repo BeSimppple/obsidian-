@@ -65,7 +65,7 @@ MQ进程角色说明
 	同一类Producer的集合，这类Producer发送同一类消息且发送逻辑一致。如果发送的是事务消息且原始生产者在发送之后崩溃，则Broker服务器会联系同一生产者组的其他生产者实例以提交或回溯消费。
 消费者组（Consumer Group）
 	同一类Consumer的集合，这类Consumer通常消费同一类消息且消费逻辑一致。消费者组的消费者实例必须订阅完全相同的Topic(消费同一种信息,比如订单信息)。
-	RocketMQ 支持两种消息模式：集群消费（Clustering）和广播消费（Broadcasting）。
+	RocketMQ 支持两种消息模式：**集群消费**（Clustering）和**广播消费**（Broadcasting）。
 	消息服务器(Broker)->消息存储中心
 	名称服务器(NameServer)(类似服nacos的NameServer用来存放Broker服务,让Broker注册)
 	解决增加broker集群定位等问题
