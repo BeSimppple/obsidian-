@@ -58,24 +58,25 @@ rocketMQ安装和启动:
 	3.下载控制台源码
 	git clone https://github.com/apache/rocketmq-externals.git
 MQ的启动流程:
-![[RocketMQ(异步同步)_image_2.jpg]]
+	![[RocketMQ(异步同步)_image_2.jpg]]
+
 MQ进程角色说明
-![[RocketMQ(异步同步)_image_3.jpg|600]]
-生产者组（Producer Group）
-	同一类Producer的集合，这类Producer发送同一类消息且发送逻辑一致。如果发送的是事务消息且原始生产者在发送之后崩溃，则Broker服务器会联系同一生产者组的其他生产者实例以提交或回溯消费。
-消费者组（Consumer Group）
-	同一类Consumer的集合，这类Consumer通常消费同一类消息且消费逻辑一致。消费者组的消费者实例必须订阅完全相同的Topic(消费同一种信息,比如订单信息)。
-	RocketMQ 支持两种消息模式：**集群消费**（Clustering）和**广播消费**（Broadcasting）。
-	消息服务器(Broker)->消息存储中心
-	名称服务器(NameServer)(类似服nacos的NameServer用来存放Broker服务,让Broker注册)
-	解决增加broker集群定位等问题
-	用来保存 Broker 相关 Topic 等元信息并给 Producer ，提供 Consumer 查找 Broker 信息。做一个负载均衡
-消息（Message）(传输的最小单位)
-	生产和消费数据的最小单位，消息系统所传输信息的物理载体,每条消息必须属于一个主题(Topic)。RocketMQ中每个消息拥有唯一的Message ID，且可以携带具有业务标识的Key。系统提供了通过Message ID和Key查询消息的功能。
-主题（Topic）(一组消息的组名)
-	主题之间消息完全隔离每条消息只能属于一个主题，是RocketMQ进行消息订阅的基本单位。
-标签（Tag）(用于将一组消息中不同消息标签化分类)
-	方便MQ查询
+	![[RocketMQ(异步同步)_image_3.jpg|600]]
+	生产者组（Producer Group）
+		同一类Producer的集合，这类Producer发送同一类消息且发送逻辑一致。如果发送的是事务消息且原始生产者在发送之后崩溃，则Broker服务器会联系同一生产者组的其他生产者实例以提交或回溯消费。
+	消费者组（Consumer Group）
+		同一类Consumer的集合，这类Consumer通常消费同一类消息且消费逻辑一致。消费者组的消费者实例必须订阅完全相同的Topic(消费同一种信息,比如订单信息)。
+		RocketMQ 支持两种消息模式：**集群消费**（Clustering）和**广播消费**（Broadcasting）。
+		消息服务器(Broker)->消息存储中心
+		名称服务器(NameServer)(类似服nacos的NameServer用来存放Broker服务,让Broker注册)
+		解决增加broker集群定位等问题
+		用来保存 Broker 相关 Topic 等元信息并给 Producer ，提供 Consumer 查找 Broker 信息。做一个负载均衡
+	消息（Message）(传输的最小单位)
+		生产和消费数据的最小单位，消息系统所传输信息的物理载体,每条消息必须属于一个主题(Topic)。RocketMQ中每个消息拥有唯一的Message ID，且可以携带具有业务标识的Key。系统提供了通过Message ID和Key查询消息的功能。
+	主题（Topic）(一组消息的组名)
+		主题之间消息完全隔离每条消息只能属于一个主题，是RocketMQ进行消息订阅的基本单位。
+	标签（Tag）(用于将一组消息中不同消息标签化分类)
+		方便MQ查询
 RocketMQ(分布式架构)启动流程
 	![[RocketMQ(异步同步)_image_4.jpg]]
 	1. 启动 Namesrv，Namesrv起 来后监听端口，等待 Broker、Producer、Consumer连上来，相当于一个路由控制中心。
@@ -88,6 +89,8 @@ MQ常用注解
 	topic = "test-topic4",selectorExpression = "test-tag4",
 	consumeMode = ConsumeMode.CONCURRENTLY,
 	messageModel = MessageModel.CLUSTERING)
+
+---
 ## MQ的事务消息
 ![[RocketMQ(异步同步)_image_5.jpg]]
 正常事务发送与提交阶段
@@ -112,9 +115,11 @@ MQ常用注解
 	4.一个事务消息可能被检查或消费多次
 	5.提交过的消息重新放到用户目标主题可能会失败
 	6.事务消息的生产者ID不能与其他类型消息的生产者ID共享
+
+---
 ## MQ的持久化(消息持久化)
-![[RocketMQ(异步同步)_image_6.jpg]]
 简介:
+	![[RocketMQ(异步同步)_image_6.jpg]]
 	生产者发送消息到Broker后，Master-Broker会将消息写入磁盘上的一个日志文件——CommitLog，按照顺序写入文件末尾，CommitLog中包含了各种各样不同类型的Topic对应的消息内容，CommitLog文件每个限定最大1GB，Master-Broker收到消息之后就将内容直接追加到文件末尾，如果一个CommitLog写满了1GB，就会创建一个新的CommitLog文件。
 	ConsumeQueue文件里存储的是一条消息对应在CommitLog文件中的offset偏移量,消息长度,tag hashcode等而不是data本身
 	优点是(commitLog被所有消费队列共享,所有读写都是由commitLog来串行化访问磁盘读写 ,)
@@ -178,7 +183,10 @@ MQ结合IDEA:
 	多个数据面对多个消费者时,不同消费者不会重复消费同一个消息,默认只允许消息被消费一次,不会被重复消费
 	2.广播消费模式
 	多个数据面对多个消费者时,一条消息会重复被多个消费者消费,
+
+---
 ## 常见问题:
+
 如何保证消息0丢失?
 	同步发送就是0丢失,异步发送则可以设置失败多次重试,如果还是失败可以回调函数补偿或进入死信队列后查看问题
 消息队列(queue)中如何全局有序?
