@@ -167,7 +167,7 @@ Client和Server进入ESTABLISHED状态，完成三次握手，随后Client与Ser
 
 
 TCP报头信息
-	![[TCP协议三次握手四次挥手_image_14.png]]
+	![[每日八股文(2)_image_4.png]]
 
 UDP协议:
 	面向无连接，数据不安全，速度快。不区分客户端与服务端。
