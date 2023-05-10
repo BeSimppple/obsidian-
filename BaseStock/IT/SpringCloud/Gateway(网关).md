@@ -14,7 +14,7 @@ springcloud-gateway简介:
 	**Gateway作用:**
 		(路由,权限,限流,监控)
 		1.统一入口,需要交给前端地址去调用
-		2.权限统一控制(认证和授权)
+		2.@HasAnyAuthrith权限统一控制(认证和授权)
 		3.对外(前端)隐藏协议接口
 		gateway原理是路由解决统一入口做一个请求转发,过滤器做一个权限认证,路由还可以隐藏实际地址
 	![[Gateway(网关)_image_2.jpg|500]]
@@ -23,34 +23,35 @@ springcloud-gateway简介:
 
 
 **Gateway的功能作用实现(限流,权限,路由,过滤,监控)**
-![[Gateway(网关)_image_3.jpg|600]]
-网关的核心功能:路由routes(route,prediacte,filter)
-yaml写法
-	spring:
-	  cloud:
-	    gateway:
-	      routes:
-	      \- id: baidu
-	         uri: http://www.baidu.com
-	         predicates:
-	         - Path=/**
--   Route（做一个地址跳转功能）
-网关的基本模块，它由ID，目标URI，一系列的断言和过滤器组成，如果断言为true则匹配该路由
-Predicate（类似nginx的proxy_pass匹配地址）
-开发人员可以匹配HTTP请求中的所有内容（例如请求头或请求参数），如果请求与断言相匹配则进行路由
--   Filter（过滤）
-指的是Spring框架中GatewayFilter的实例，使用过滤器，可以在请求被路由前或者之后对请求进行修改
-注意:路由匹配是从上到下匹配,如果上面匹配了则不走下面
-路由最后跳转的地址底层如何拼接:
-![[Gateway(网关)_image_4.jpg]]
-**静态路由:** 固定地址
-**动态路由:** lb://项目名 (由nacos负责转发,lb意思loadblance)
-Gateway访问模块(集群)的负载均衡
-网关访问集群服务的负载均衡是内置的轮循负载均衡,而不同模块之间访问资源的负载均衡是由Ribbon完成的
-如果目标地址是个集群则uri: lb://(nacos中微服务名称)
+	![[Gateway(网关)_image_3.jpg|600]]
+	**yaml写法**
+		spring:
+		  cloud:
+		    gateway:
+		      routes:
+		      \- id: baidu
+		         uri: http://www.baidu.com
+		         predicates:
+		         - Path=/**
+	**Route关键字（路由,做一个地址跳转功能）**
+		网关的基本模块，它由ID，目标URI，一系列的断言和过滤器组成，如果断言为true则匹配该路由
+	**Predicate关键字（谓语,类似nginx的proxy_pass匹配地址）**
+		开发人员可以匹配HTTP请求中的所有内容（例如请求头或请求参数），如果请求与断言相匹配则进行路由
+	**Filter关键字（过滤）**
+		指的是Spring框架中GatewayFilter的实例，使用过滤器，可以在请求被路由前或者之后对请求进行修改
+		注意:路由匹配是从上到下匹配,如果上面匹配了则不走下面
+		路由最后跳转的地址底层如何拼接:
+		![[Gateway(网关)_image_4.jpg|400]]
+		**静态路由:** 固定地址
+		**动态路由:** lb://项目名 (由nacos负责转发,lb意思loadblance)
+		Gateway访问模块(集群)的负载均衡
+		网关访问集群服务的负载均衡是内置的轮循负载均衡,而不同模块之间访问资源的负载均衡是由Ribbon完成的
+		如果目标地址是个集群则uri: lb://(nacos中微服务名称)
+	限流通过整合Sentinel实现
+	权限通过@
 
 **Gateway谓词工厂**
-	![[Gateway(网关)_image_5.jpg]]
+	![[Gateway(网关)_image_4.jpg]]
 	- Cookie=name,jack
 	- Header=token
 	- Host=**.wfx.com,**.jd.com
