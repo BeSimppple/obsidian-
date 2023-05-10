@@ -12,7 +12,7 @@ SpringSecurity(安全框架)
 	绿色部分,过滤器都是可以高度定制修改的
 	UsernamePasswordAuthenticationFilter(重要)
 	作用:拦截匹配URL为/login且必须为POST请求,实现登录JWT令牌生成,校验功能
-**微服务整合springSecurity**
+微服务整合springSecurity
 	1.创建一个springSecurity项目,导入pom依赖
 	spring-boot-starter-web
 	spring-boot-starter-security
@@ -22,7 +22,7 @@ SpringSecurity(安全框架)
 	主体：principal( 使用系统的用户或设备或从其他系统远程登录的用户等等。简单说就是谁使用系统谁就是主体。)
 	认证：authentication( 主体是否完成登录)
 	授权：authorization(主体是否拥有访问目标资源的权利)
-**2.Springsecurity登录流程设计**
+**2.Springsecurity登录流程**
 	![[SpringSecurity(安全与权限)_image_2.jpg]]
 	其中AuthenticationProvider直接认证方式是基于内存存储主体信息进行认证,可以跳过UserDetailService的认证
 **自定义主体规则(认证规则)**
@@ -67,64 +67,63 @@ SpringSecurity(安全框架)
 		底层也是基于方法
 **密码的常见加密方式**
 	**MD5(不可逆)**
-	一种被广泛使用的[密码散列函数](https://baike.baidu.com/item/%E5%AF%86%E7%A0%81%E6%95%A3%E5%88%97%E5%87%BD%E6%95%B0/14937715)，可以产生出一个32字符的散列值（hash value）
-	可能会被暴力破解(所以需要加salt)
+		一种被广泛使用的[密码散列函数](https://baike.baidu.com/item/%E5%AF%86%E7%A0%81%E6%95%A3%E5%88%97%E5%87%BD%E6%95%B0/14937715)，可以产生出一个32字符的散列值（hash value）
+		可能会被暴力破解(所以需要加salt)
 	**Bcrypt(不可逆)->项目使用**
-	springSecurity提供
-	加slat且每次同样salt生成的密码不同
-	BCrypt有四个变量：
-		1.  saltRounds: 正数，代表hash杂凑次数，数值越高越安全，默认10次。
-		2.  myPassword: 明文密码字符串。
-		3.  salt: 盐，一个128bits随机字符串，22字符
-		4.  myHash: 经过明文密码password和盐salt进行hash，默认10次下 ，循环加盐hash10次，得到myHash
-	![[SpringSecurity(安全与权限)_image_3.jpg]]
+		springSecurity提供
+		加slat且每次同样salt生成的密码不同
+		BCrypt有四个变量：
+			1.  saltRounds: 正数，代表hash杂凑次数，数值越高越安全，默认10次。
+			2.  myPassword: 明文密码字符串。
+			3.  salt: 盐，一个128bits随机字符串，22字符
+			4.  myHash: 经过明文密码password和盐salt进行hash，默认10次下 ，循环加盐hash10次，得到myHash
+		![[SpringSecurity(安全与权限)_image_3.jpg]]
 
-
+---
 ## 单点登录SSO功能实现:
 **单点登录意义是什么?**
 	单点登录(Single Sign On)
 	**是一种身份认证方法，用户一次可通过一组登录凭证登入会话，在该次会话期间无需再次登录，即可安全访问多个相关的应用和服务**
-**单点登录需要实现三个功能(顺序):登录--认证--授权**
-主要目的:
-授权：用户主体是否有权限去访问某个资源(http接口)
+单点登录需要实现三个功能(顺序):登录--认证--授权
 
-首先springcloud多个服务之间登录校验存在一些问题:
-基于session的登录校验:
-1.session的占用服务器内存问题
-2.session的不同服务之间共享问题(可能需要多次登录)
-3.前后端分离跨域写jessionid的问题(前后端域不同)
-基于redis的登录校验(每次请求将验证信息token放到请求头):
-1.每次请求都需要经过redis验证效率低服务开销大
-## 基于JWT(本地存储->登录校验)令牌登录校验:
-JWT，全称JSON Web Token
-jwt实现登录校验流程
-![[SpringSecurity(安全与权限)_image_4.jpg]]
-单独的登录模块将校验成功的验证信息生成JWT放到客户端本地,后续每次请求携带JWT遇到需要校验的请求时拦截器会校验JWT的数据正确则执行业务逻辑
-为什么使用JWT令牌
+**基于JWT(JSON Web Token)(本地存储->登录校验)令牌登录校验:**
+**为什么使用JWT令牌**
 	1.JWT信息可以存在客户端减少内存压力(JWT可以设置过期时间,且如果有需要可以在每次访问后刷新过期时间)
 	2.JWT安全不容易被破解
 	3.JWT同时还可以存放用户其他信息减少再次调用获取信息的请求从而减少开销
 	4.成功让每个服务之间保持无状态的请求
+Session和Redis登录校验缺点
+	**基于session的登录校验:**
+		1.session的占用服务器内存问题
+		2.session的不同服务之间共享问题(可能需要多次登录)
+		3.前后端分离跨域写jessionid的问题(前后端域不同)
+	**基于redis的登录校验(每次请求将验证信息token放到请求头):**
+		1.每次请求都需要经过redis验证效率低服务开销大
+jwt实现登录校验流程
+	![[SpringSecurity(安全与权限)_image_4.jpg]]
+	单独的登录模块将校验成功的验证信息生成JWT放到客户端本地,后续每次请求携带JWT遇到需要校验的请求时拦截器会校验JWT的数据正确则执行业务逻辑
+
 **JWT令牌组成部分:**
 	1.**头部(head) (不常修改)**
-	默认如下由 令牌类型和 所使用的签名算法组成一般
-	{
-	'alg':'HS256'
-	'typ':'JWT'
-	}
-	进行base64编码（不是加密）==> 'xxxxxxx'
+		默认如下由 令牌类型和 所使用的签名算法组成一般
+		{
+		'alg':'HS256'
+		'typ':'JWT'
+		}
+		进行base64编码（不是加密）==> 'xxxxxxx'
 	2.**载荷(payload)**
-	token中存放有效信息的部分，比如用户名，用户角色，过期时间等，但是不要放密码，因为载荷可以被解析！
-	{
-	account:'admin',
-	auth:['admin','seller']
-	}
-	进行base64编码（不是加密）==> 'yyyyyy'
+		token中存放有效信息的部分，比如用户名，用户角色，过期时间等，但是不要放密码，因为载荷可以被解析！
+		{
+		account:'admin',
+		auth:['admin','seller']
+		}
+		进行base64编码（不是加密）==> 'yyyyyy'
 	3.**签名(signatrue)(主要修改部分**)
-	将头部与载荷分别采用 base64编码后，用“.”相连，再加入盐，最后使用头部声明的编码类型进行加密，就得到了签名。
-	签名=HS256(xxxxxx.yyyyyyy,salt) ==> 'ZZZZZZ'
-	盐是用于校验的,即使获取了JWT令牌不知道盐,也不能校验成功(但是salt是用于校验的意味着每个服务都需要拿到salt那就不安全可能会被泄露,所以采用RSA非对称加密)
-[[RSA非对称加密]] (salt可以使用RAS非对称加密 将盐分类为公钥和私钥 公钥用于不同资源之间的解析 私钥用于第一次的加密)
+		将头部与载荷分别采用 base64编码后，用“.”相连，再加入盐，最后使用头部声明的编码类型进行加密，就得到了签名。
+		签名=HS256(xxxxxx.yyyyyyy,salt) ==> 'ZZZZZZ'
+		盐是用于校验的,即使获取了JWT令牌不知道盐,也不能校验成功(但是salt是用于校验的意味着每个服务都需要拿到salt那就不安全可能会被泄露,所以采用RSA非对称加密)
+[[RSA非对称加密]]
+	(salt可以使用RAS非对称加密 将盐分类为公钥和私钥 公钥用于不同资源之间的解析 私钥用于第一次的加密)
 	私钥:唯一生成令牌钥匙,只放在单点登录模块
 	公钥:多用的校验钥匙,放在所有需要校验的模块各一个(无法生成令牌,只能做校验)
 **java项目整合JWT**
@@ -164,17 +163,18 @@ final AuthBean authBean = (AuthBean)authResult.getPrincipal();获取用户主体
 然后JwtUtils.getInfoFromToken(token, RsaUtils.getPublicKey(ResourceUtils.getFile("classpath:rsa.pub").getPath()),Map.class)根据JWT令牌和公钥获取到载荷信息(用户信息) 然后遍历用户的权限信息存到list(a,b.c)格式放到grantAuthority放到UsernamePasswordAuthenticationToken
 最后通过SecurityContextHolder.getContext().setAuthentication(UsernamePasswordAuthenticationToken);将用户权限信息放到Security上下文中,最后chain.doFilter(request, response);放行
 然后到SecurityConfig中的Configure()方法中使用http.addFilter(自定义BasicAuthenticationFilter)
+
 自定义JWT中的用户主体信息
-JWT主体信息默认使用的Security中的User只有账号密码和权限信息属性,
-自定义主要解决如果其他类需要使用用户id或商户id来操作会导致代码臃肿的问题,不如在一开始便提供好可能需要的属性
-首先创建一个自定义类extends User(Springframework.Security)
-创建你需要的属性例如:
-private Stiring userId;
-在UserDetailService返回AuthBean返回到SecurityContext上下文中
-在UsernamePasswordAuthenticationFilter中登录回调生成JWT令牌时放入的用户主体也改为AuthBean
-在BasicAuthenticationFilter的doFilterInternal()校验方法解析JWT令牌获取其中主体信息然后new一个AuthBean放入UsernamePasswordAuthenticationToken最后返回到SecurityContext上下文中
+	JWT主体信息默认使用的Security中的User只有账号密码和权限信息属性,
+	自定义主要解决如果其他类需要使用用户id或商户id来操作会导致代码臃肿的问题,不如在一开始便提供好可能需要的属性
+	首先创建一个自定义类extends User(Springframework.Security)
+	创建你需要的属性例如:
+	private Stiring userId;
+	在UserDetailService返回AuthBean返回到SecurityContext上下文中
+	在UsernamePasswordAuthenticationFilter中登录回调生成JWT令牌时放入的用户主体也改为AuthBean
+	在BasicAuthenticationFilter的doFilterInternal()校验方法解析JWT令牌获取其中主体信息然后new一个AuthBean放入UsernamePasswordAuthenticationToken最后返回到SecurityContext上下文中
 网关和所有项目整合SpringSecurity
-有2中方案实现单点登录第一种是全权由springGateway进行校验获取权限信息,并控制权限给下属项目
+	第一种是全权由springGateway进行校验获取权限信息,并控制权限给下属项目
 **第二种方式:**
 	是springGatewat只负责校验,然后每个项目都依赖SpringSecurity自行二次校验和获取主体中的权限信息
 	此处采用的是第二种模式:(因为第二种简单,且每个模块能拿到JWT令牌并分析载荷将权限放到SecurityContext方便权限控制)
