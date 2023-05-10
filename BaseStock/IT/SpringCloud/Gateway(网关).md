@@ -44,11 +44,11 @@ Predicate（类似nginx的proxy_pass匹配地址）
 路由最后跳转的地址底层如何拼接:
 ![[Gateway(网关)_image_4.jpg]]
 **静态路由:** 固定地址
-**动态路由:** lb://项目名 (由nacos负责转发)
+**动态路由:** lb://项目名 (由nacos负责转发,lb意思loadblance)
 Gateway访问模块(集群)的负载均衡
 网关访问集群服务的负载均衡是内置的轮循负载均衡,而不同模块之间访问资源的负载均衡是由Ribbon完成的
 如果目标地址是个集群则uri: lb://(nacos中微服务名称)
-lb意思(loadblance)
+
 **Gateway谓词工厂**
 	![[Gateway(网关)_image_5.jpg]]
 	- Cookie=name,jack
