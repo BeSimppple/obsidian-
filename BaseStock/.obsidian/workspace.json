@@ -145,7 +145,7 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
+                "sortOrder": "alphabetical",
                 "useHierarchy": true
               }
             }
@@ -193,12 +193,11 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,7 +213,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "3bef371fd680224e",
+  "active": "720bb44ba05aea3d",
   "lastOpenFiles": [
     "obsidian相关/Picture/Gateway(网关)_image_1.jpg",
     "obsidian相关/Picture/SpringSecurity(安全与权限)_image_2.jpg",
