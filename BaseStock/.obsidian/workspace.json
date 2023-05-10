@@ -197,7 +197,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,7 +214,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "720bb44ba05aea3d",
+  "active": "3bef371fd680224e",
   "lastOpenFiles": [
     "obsidian相关/Picture/Gateway(网关)_image_1.jpg",
     "obsidian相关/Picture/SpringSecurity(安全与权限)_image_2.jpg",
