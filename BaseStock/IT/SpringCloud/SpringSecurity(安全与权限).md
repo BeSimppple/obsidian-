@@ -1,14 +1,13 @@
 SpringSecurity(安全框架)
-springSecurity+jwt+Oauth2
-同类型安全框架有shiro
-
+	springSecurity+jwt+Oauth2
+	同类型安全框架有Apache的shiro(独立框架不基于spring)
 **为什么要用springSecurity?**
 	1.**认证**和**授权**功能并且**模块化(集成简单)**
 	2.@HasAnyAuthor(XXX)方法级别权限注解(**细粒度高**)
-	3.**攻击防护**web站点的XXS()和CRSF攻击
+	3.web站点的XXS(跨站点脚本)和CRSF(跨站点请求伪造)**攻击防护**以及头部管理和会话管理
 **SpringSecurity本质(过滤器链)**
+	[SpringSecurity-W3C讲解](https://www.w3cschool.cn/springsecurity/ted11ii1.html)
 	过滤器三个方法:init(),destory(),doFilter()
-	ps:详情见最下方过滤器链
 	![[SpringSecurity(安全与权限)_image_1.jpg]]
 	绿色部分,过滤器都是可以高度定制修改的
 	UsernamePasswordAuthenticationFilter(重要)
