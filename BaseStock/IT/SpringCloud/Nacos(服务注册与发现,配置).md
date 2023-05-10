@@ -1,17 +1,17 @@
 注册中心有:Nacos , Eureka , Consul , Zookeeper
-其中Nacos对中文匹配很友好并且支持功能更完善,版本更新快因此使用
 ![[Nacos(服务注册与发现,配置)_image_1.jpg]]
-actuator的作用是监视服务的状态
-actuator是springboot的一个机制能提供许多个端点的监控,提供了restful接口通过发送http请求方式监控状态
-只需要依赖actuator包配置properties中配置端点即可
+
 **nacos主要的作用,实现了什么功能?**
 	1.**解决了服务的注册与发现**
 	每个服务室独立的,他们并不知道其他服务的存在也无法调用,nacos的存在让服务注册到nacos上使其他服务能够了解这个服务的存在(通过name service),同时nacos也能通过发送的服务名请求去调用已注册的服务同时通过ribbon负载均衡更好的利用集群
 	2.**解决了多个服务之间调用**
 	如果一个集群增加新的实例或更改配置需要去改原始配置和多个项目代码的问题(通过config service),现在统一在nacos上进行配置 注册配置集群的端口号等配置信息
+
 安装nacos(linux和windows)
-	**windows**可以通过下载安装包下载(推荐),或者通过git获取源码编然后maven-install方式(不推荐)
-	**linux**安装环境配置需求:jdk与maven
+	**windows**
+	可以通过下载安装包下载(推荐),或者通过git获取源码编然后maven-install方式(不推荐)
+	**linux**
+	安装环境配置需求:jdk与maven
 	yum安装nacos或者下载gz包解压
 	修改配置文件application.properties->nacos产生的信息固定存储到mysql数据库
 	spring.datasource.platform=mysql
@@ -23,14 +23,14 @@ actuator是springboot的一个机制能提供许多个端点的监控,提供了r
 	db.url.0=jdbc:mysql://127.0.0.1:3306/nacos?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
 	db.user=root
 	db.password=123456
-	修改启动文件startup.sh(修改内存占用大小)
+	**修改启动文件startup.sh(修改内存占用大小)**
 	JAVA_OPT="${JAVA_OPT} -server -Xms300m -Xmx300m -Xmn100m -XX:MetaspaceSize=128m -XX:MaxMetaspaceSize=160m"
 	cluster.conf
-	修改集群conf(如果一台服务器有多个nacos则不改)
+	**修改集群conf(如果一台服务器有多个nacos则不改)**
 	使用nacos-mysql.sql文件生成对应数据库和表信息
 	编辑statup.sh文件,因为默认启动模式为集群模式,需要手动修改为单机模式MODE="standalone"集群模式是cluster
 	启动后输入地址加上8848/nacos则可访问
-	nacos在idea中常用配置
+**nacos在idea中常用配置**
 	spring.cloud.nacos.discovery.namespace=3cadb64d-6b4c-4f84-b25f-ceb34c948951(命名空间)
 	spring.cloud.nacos.discovery.group=my-group(组配置)
 	spring.cloud.nacos.discovery.server-addr:XXX(naocso,ip配置)
