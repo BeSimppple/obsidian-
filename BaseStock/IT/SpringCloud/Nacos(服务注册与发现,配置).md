@@ -1,16 +1,14 @@
 注册中心有:Nacos , Eureka , Consul , Zookeeper
 ![[Nacos(服务注册与发现,配置)_image_1.jpg]]
-
 **nacos主要的作用,实现了什么功能?**
 	1.**解决了服务的注册与发现**
 	每个服务室独立的,他们并不知道其他服务的存在也无法调用,nacos的存在让服务注册到nacos上使其他服务能够了解这个服务的存在(通过name service),同时nacos也能通过发送的服务名请求去调用已注册的服务同时通过ribbon负载均衡更好的利用集群
 	2.**解决了多个服务之间调用**
 	如果一个集群增加新的实例或更改配置需要去改原始配置和多个项目代码的问题(通过config service),现在统一在nacos上进行配置 注册配置集群的端口号等配置信息
-
 安装nacos(linux和windows)
-	**windows**
+	==**windows**==
 	可以通过下载安装包下载(推荐),或者通过git获取源码编然后maven-install方式(不推荐)
-	**linux**
+	==**linux**==
 	安装环境配置需求:jdk与maven
 	yum安装nacos或者下载gz包解压
 	修改配置文件application.properties->nacos产生的信息固定存储到mysql数据库
@@ -30,22 +28,28 @@
 	使用nacos-mysql.sql文件生成对应数据库和表信息
 	编辑statup.sh文件,因为默认启动模式为集群模式,需要手动修改为单机模式MODE="standalone"集群模式是cluster
 	启动后输入地址加上8848/nacos则可访问
-**nacos在idea中常用配置**
+nacos在idea中常用配置
 	spring.cloud.nacos.discovery.namespace=3cadb64d-6b4c-4f84-b25f-ceb34c948951(命名空间)
 	spring.cloud.nacos.discovery.group=my-group(组配置)
 	spring.cloud.nacos.discovery.server-addr:XXX(naocso,ip配置)
 	@EnableDiscoveryClient 注册该项目到nacos
+
+---
 ## nacos实现高可用(集群)
 ![[Nacos(服务注册与发现,配置)_image_2.jpg|400]]
-1.vip不是必须的,因为nacos主要也是运维在使用不会有太大访问量
-2.一主多从(类似redis哨兵模式)
+哨兵模式:一主多从
 伪集群:练习使用(搭建在linux一台虚拟机上多个不同端口区分)
 真集群:nacos搭建在不同服务器上(生产使用)
-1.linux上安装nacos 2.修改基本nacos.conf的ip和数据库等信息 3.修改startup.sh文件中JAVA_OPT=XXX内存占用大小
-4.修改conf文件夹下的cluster.conf配置ip地址和端口号
-5.启动nacos集群,然后到idea中配置集群所有addr
-6.(可选)配置nginx反向代理,同样监听指定端口,upstream指定代理server,proxy_pass指定地址然后修改host模拟www.nacos.com/nacos登录
-重点:记得startup.sh中的MODE="cluster"不要改了
+伪集群搭建:
+	1.linux上安装nacos 2.修改基本nacos.conf的ip和数据库等信息 3.修改startup.sh文件中JAVA_OPT=XXX内存占用大小
+	4.修改conf文件夹下的cluster.conf配置ip地址和端口号
+	5.启动nacos集群,然后到idea中配置集群所有addr
+	6.(可选)配置nginx反向代理,同样监听指定端口,upstream指定代理server,proxy_pass指定地址然后修改host模拟www.nacos.com/nacos登录
+	重点:记得startup.sh中的MODE="cluster"不要改了
+Nacos集群的一致性协议:
+	1. Nacos 启动时首先从其他远程节点同步全部数据。
+	2. Nacos 每个节点是平等的都可以处理写入请求，同时把新数据同步到其他节点。
+	3.每个节点只负责部分数据，定时发送自己负责数据的校验值到其他节点来保持数据一致性。
 ## nacos实现持久化
 只需将修改conf将数据源存到mysql
 nacos宕机后消费者客户端还能调用服务端么?
