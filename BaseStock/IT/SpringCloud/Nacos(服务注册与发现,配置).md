@@ -36,20 +36,27 @@ nacos在idea中常用配置
 
 ---
 ## nacos实现高可用(集群)
-![[Nacos(服务注册与发现,配置)_image_2.jpg|400]]
-哨兵模式:一主多从
-伪集群:练习使用(搭建在linux一台虚拟机上多个不同端口区分)
-真集群:nacos搭建在不同服务器上(生产使用)
+Nacos如何保证高可用
+	当其中一台机器宕机时，为了不影响整体运行，客户端会存在重试机制。
+Nacos集群的一致性协议:
+	1. Nacos 启动时首先从其他远程节点同步全部数据。
+	2. Nacos 每个节点是平等的都可以处理写入请求，同时把新数据同步到其他节点。
+	3.每个节点只负责部分数据，定时发送自己负责数据的校验值到其他节点来保持数据一致性。
+Nacos高可用模式
+	![[Nacos(服务注册与发现,配置)_image_2.jpg|500]]
+	哨兵模式:一主多从
+	伪集群:一台服务器搭建多个nacos实例,通过不同端口区分,nginx代理多个nacos实例
+	生产环境需使用MySQL作为后端存储，因此需要搭建MySQL(存储nacos中的config配置文件)
+	真集群:nacos搭建在不同服务器上(生产使用)
 伪集群搭建:
 	1.linux上安装nacos 2.修改基本nacos.conf的ip和数据库等信息 3.修改startup.sh文件中JAVA_OPT=XXX内存占用大小
 	4.修改conf文件夹下的cluster.conf配置ip地址和端口号
 	5.启动nacos集群,然后到idea中配置集群所有addr
 	6.(可选)配置nginx反向代理,同样监听指定端口,upstream指定代理server,proxy_pass指定地址然后修改host模拟www.nacos.com/nacos登录
 	重点:记得startup.sh中的MODE="cluster"不要改了
-Nacos集群的一致性协议:
-	1. Nacos 启动时首先从其他远程节点同步全部数据。
-	2. Nacos 每个节点是平等的都可以处理写入请求，同时把新数据同步到其他节点。
-	3.每个节点只负责部分数据，定时发送自己负责数据的校验值到其他节点来保持数据一致性。
+
+
+---
 ## nacos实现持久化
 只需将修改conf将数据源存到mysql
 nacos宕机后消费者客户端还能调用服务端么?
@@ -76,44 +83,43 @@ nacos常用功能：
 	命名服务是指通过指定的名字来获取资源或者服务的地址，提供者的信息
 	 配置服务 (Configuration Service)
 	动态配置服务让您能够以中心化、外部化和动态化的方式管理所有环境的配置。动态配置消除了配置变更时重新部署应用和服务的需要。配置中心化管理让实现无状态服务更简单，也让按需弹性扩展服务更容易。
-**Nacos集群架构**
-![[Nacos(服务注册与发现,配置)_image_5.jpg|500]]
-真集群搭建:nacos实例搭建在不同的服务器里面
-假集群搭建:一台服务器搭建多个nacos实例,通过不同端口区分,nginx代理多个nacos实例
-生产环境需使用MySQL作为后端存储，因此需要搭建MySQL(存储nacos中的config配置文件?)
-nacos领域模型
-在不同的nameSpcae的微服务相互隔离
-不同group的微服务相互隔离
-![[Nacos(服务注册与发现,配置)_image_6.jpg|500]]
-Nacos-config
-![[Nacos(服务注册与发现,配置)_image_7.jpg|600]]
+
+**nacos领域模型**
+	在不同的nameSpcae的微服务相互隔离
+	不同group的微服务相互隔离
+	![[Nacos(服务注册与发现,配置)_image_5.jpg|500]]
+
+
+---
+## Nacos-config
+![[Nacos(服务注册与发现,配置)_image_6.jpg|600]]
 nacos-config主要解决什么问题?
 	1.重复配置(配置共享common配置解决),配置分散
 	2.配置不能动态刷新(@RefreshScope)
 	同类型spring-cloud-config(读写太差),Apollo(不错)
-nacos-config如何使用
+nacos-config结合项目
 	1.依赖nacos-config的pom依赖
 	2.在nacos中自己创建对应命名空间和组
 	3.添加common通用配置和每个模块配置
-	4.idea的bootstrap.properties(bootstrap启动先于application config拉取配置必须在bootstrap
-	)中添加nacos-config配置拉取nacos中的配置
+	4.idea的bootstrap.properties(bootstrap启动先于application config拉取配置必须在bootstrap)中添加nacos-config配置拉取nacos中的配置
+	
 配置最佳实践总结
-1：尽量规避优先级，一个配置不要到处重复配
-2：所有配置加注释
-3：配置管理的人员尽量少
+	1：尽量规避优先级，一个配置不要到处重复配
+	2：所有配置加注释
+	3：配置管理的人员尽量少
 新建配置文件名命名规范(约定大于配置):
-项目名-命名空间.properties
-配置格式一般使用yaml或properties
+	项目名-命名空间.properties
+	配置格式一般使用yaml或properties
 动态刷新配置!(能在不停用服务器的情况下修改配置)
-@RefreshScope注解加在Controller类上
-如果调用了通用配置也想动态刷新,则要配置
-spring.cloud.nacos.config.refreshable-dataids=common.properties
+	@RefreshScope注解加在Controller类上
+	如果调用了通用配置也想动态刷新,则要配置
+	spring.cloud.nacos.config.refreshable-dataids=common.properties
 配置回滚!!
-nacos控制台操作->配置管理->历史版本输入想找到项目名和组名->点击回滚
+	nacos控制台操作->配置管理->历史版本输入想找到项目名和组名->点击回滚
 nacos通用配置
-使用: 控制台新建通用配置(随意命名)java项目properties中引入通用配置
+	使用: 控制台新建通用配置(随意命名)java项目properties中引入通用配置
 Nacos的Common.properties中常用配置:
-统一的nacos-discovery-add,namespace
-Sentinel的ip和端口
-DB数据库的配置
-映射别名配置
+	统一的nacos-discovery-add,namespace
+	Sentinel的ip和端口
+	DB数据库的配置
+	映射别名配置
