@@ -20,24 +20,12 @@
             }
           },
           {
-            "id": "9e5e2aa5a97d5b40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/SpringCloud/SpringSecurity(安全与权限).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3bef371fd680224e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用语法和算法/常用算法/RSA非对称加密.md",
+                "file": "IT/SpringCloud/Gateway(网关).md",
                 "mode": "source",
                 "source": false
               }
@@ -83,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "gateway",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -108,7 +96,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -128,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/SpringCloud/SpringSecurity(安全与权限).md",
+                "file": "IT/SpringCloud/Gateway(网关).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/SpringCloud/SpringSecurity(安全与权限).md",
+                "file": "IT/SpringCloud/Gateway(网关).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/SpringCloud/SpringSecurity(安全与权限).md"
+                "file": "IT/SpringCloud/Gateway(网关).md"
               }
             }
           },
@@ -226,13 +215,15 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "9e5e2aa5a97d5b40",
+  "active": "3bef371fd680224e",
   "lastOpenFiles": [
+    "每日八股文(2).md",
+    "IT/SpringCloud/SpringSecurity(安全与权限).md",
+    "IT/SpringCloud/Gateway(网关).md",
     "常用语法和算法/常用算法/RSA非对称加密.md",
     "obsidian相关/Picture/SpringSecurity(安全与权限)_image_2.jpg",
     "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
     "obsidian相关/Picture/SpringSecurity(安全与权限)_image_1.jpg",
-    "IT/SpringCloud/SpringSecurity(安全与权限).md",
     "obsidian相关/Picture/tmp1683523256117_每日八股文(2)_image_2.png",
     "obsidian相关/Picture/tmp1683530470900_常用算法_image_2.png",
     "obsidian相关/Picture/tmp1683530947739_常用算法_image_2.png",
@@ -240,7 +231,6 @@
     "obsidian相关/Obsidian快捷键.md",
     "软件(原理,部署,特点)/Mysql/Mysql快捷键.md",
     "常用语法和算法/Windows快捷键.md",
-    "每日八股文(2).md",
     "IT/SpringCloud/RocketMQ(异步同步).md",
     "常用语法和算法/常用算法/常用排序算法.md",
     "常用语法和算法/常用算法/五大常用算法思想.md",
