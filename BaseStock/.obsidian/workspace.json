@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/常用概念.md",
+                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/常用概念.md",
+                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/常用概念.md"
+                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md"
               }
             }
           },
@@ -217,12 +217,12 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "ecad571a8b94d534",
+  "active": "3bef371fd680224e",
   "lastOpenFiles": [
+    "IT/常用概念.md",
     "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
     "IT/SpringCloud/Gateway(网关).md",
     "IT/SpringCloud/Actuator(监视服务).md",
-    "IT/常用概念.md",
     "IT/SpringCloud/Sleuth+Zipkin(链路监控).md",
     "IT/SpringCloud/RocketMQ(异步同步).md",
     "IT/SpringCloud/SpringSecurity(安全与权限).md",
