@@ -69,7 +69,7 @@ springcloud-gateway简介:
 		可以实现网关时获取请求头(token等)与redis的token进行比对
 		(实现Springsecurity令牌的效验)
 		注入spring容器后,到properties的predicate中写XXX(XXX为XXXRoutePredicateFactory的前缀)=???
-**Gateway的过滤器(主要用自定义)**
+
 Gateway内置过滤器工厂:
 	| 过滤器工厂                  | 作用                                                                                          | 参数                                                               |
 	| --------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
@@ -99,7 +99,8 @@ Gateway内置过滤器工厂:
 	| ModifyRequestBody           | 在转发请求之前修改原始请求体内容                                                              | 修改后的请求体内容                                                 |
 	| ModifyResponseBody          | 修改原始响应体的内容                                                                          | 修改后的响应体内容                                                 |
 	| Default                     | 为所有路由添加过滤器                                                                          | 过滤器工厂名称及值                                                 |
-**自定义过滤器 GatewayFilterFactory(大致等同谓词自定义)**
+**自定义过滤器 GatewayFilterFactory(常用)**
+	大致等同谓词自定义
 	命名规范：过滤器工厂的类名必须以GatewayFilterFactory为后缀 同理谓词最后使用也是XXXGatewayFilterFactory
 	配置yaml XXX=???
 	实现方法public GatewayFilter apply(NameValueConfig config) return匿名内部类实现其中pre逻辑和post逻辑
