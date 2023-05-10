@@ -18,14 +18,14 @@ SpringSecurity(安全框架)
 	spring-boot-starter-security
 	(security包内自己设计了一套登录验证规则和页面)
 	但是满足不了生产功能,因此需要自己定制
-	**三个模块概念:**
-		主体：principal( 使用系统的用户或设备或从其他系统远程登录的用户等等。简单说就是谁使用系统谁就是主体。)
-		认证：authentication( 主体是否完成登录)
-		授权：authorization(主体是否拥有访问目标资源的权利)
-	**2.Springsecurity登录流程设计**
+**三个模块概念:**
+	主体：principal( 使用系统的用户或设备或从其他系统远程登录的用户等等。简单说就是谁使用系统谁就是主体。)
+	认证：authentication( 主体是否完成登录)
+	授权：authorization(主体是否拥有访问目标资源的权利)
+**2.Springsecurity登录流程设计**
 	![[SpringSecurity(安全与权限)_image_2.jpg]]
 	其中AuthenticationProvider直接认证方式是基于内存存储主体信息进行认证,可以跳过UserDetailService的认证
-	**自定义主体规则(认证规则)**
+**自定义主体规则(认证规则)**
 	1.**基于内存验证(不常用)**:
 		自定义一个配置类@EnableWebSecurity MyWebSecurityConfigurerAdapter
 		然后extends WebSecurityConfigurerAdapter
@@ -47,24 +47,24 @@ SpringSecurity(安全框架)
 **自定义http资源访问规则(访问规则)**
 	默认:所有请求都需要认证(表单格式认证json方式)
 	**1.基于方法自定义http访问规则与跳转页面:**
-	首先MyWebSecurityConfigurerAdapter中去重写configure(HttpSecurity http)方法
-	http.authorizeRequests()
-	.antMatchers("/order/\*\*").hasAnyAuthority("order","admin")
-	http.formLogin()
-	.loginPage("/login.html")
-	.loginProcessingUrl("/doLogin")
-	.defaultSuccessUrl("/index.html")(html页面放在resource下的static包下表示静态资源绝对路径第一层便可访问到)
-	.failureForwardUrl("/login.html");
-	http.csrf().disable();
-	http.addFilter()//加入指定过滤器,如果是继承某过滤器则覆盖原版过滤器
-	定义访问/order开头的页面资源需要order或admin权限
-	formLogin表示开启表单提交功能,同时可以使用不同方法指定登录页面,登录成功和失败的跳转页面
-	crsf().disable()表示关闭crsf防护(csrf详见笔记顶部)
+		首先MyWebSecurityConfigurerAdapter中去重写configure(HttpSecurity http)方法
+		http.authorizeRequests()
+		.antMatchers("/order/\*\*").hasAnyAuthority("order","admin")
+		http.formLogin()
+		.loginPage("/login.html")
+		.loginProcessingUrl("/doLogin")
+		.defaultSuccessUrl("/index.html")(html页面放在resource下的static包下表示静态资源绝对路径第一层便可访问到)
+		.failureForwardUrl("/login.html");
+		http.csrf().disable();
+		http.addFilter()//加入指定过滤器,如果是继承某过滤器则覆盖原版过滤器
+		定义访问/order开头的页面资源需要order或admin权限
+		formLogin表示开启表单提交功能,同时可以使用不同方法指定登录页面,登录成功和失败的跳转页面
+		crsf().disable()表示关闭crsf防护(csrf详见笔记顶部)
 	**2.基于注解自定义http资源访问规则**
-	放到启动类上代表开启方法级别权限控
-	@EnableGlobalMethodSecurity(prePostEnable = true)
-	@PreAuthorize("hasAnyAuthority('XXX','XX')")写在指定接口方法上代表需要指定XXX和XX权限
-	底层也是基于方法
+		放到启动类上代表开启方法级别权限控
+		@EnableGlobalMethodSecurity(prePostEnable = true)
+		@PreAuthorize("hasAnyAuthority('XXX','XX')")写在指定接口方法上代表需要指定XXX和XX权限
+		底层也是基于方法
 **密码的常见加密方式**
 	**MD5(不可逆)**
 	一种被广泛使用的[密码散列函数](https://baike.baidu.com/item/%E5%AF%86%E7%A0%81%E6%95%A3%E5%88%97%E5%87%BD%E6%95%B0/14937715)，可以产生出一个32字符的散列值（hash value）
@@ -79,12 +79,15 @@ SpringSecurity(安全框架)
 		4.  myHash: 经过明文密码password和盐salt进行hash，默认10次下 ，循环加盐hash10次，得到myHash
 	![[SpringSecurity(安全与权限)_image_3.jpg]]
 
+
+## 单点登录SSO功能实现:
+**单点登录意义是什么?**
+	单点登录(Single Sign On)
+	**是一种身份认证方法，用户一次可通过一组登录凭证登入会话，在该次会话期间无需再次登录，即可安全访问多个相关的应用和服务**
 **单点登录需要实现三个功能(顺序):登录--认证--授权**
 主要目的:
 授权：用户主体是否有权限去访问某个资源(http接口)
-单点登录SSO功能实现:
-什么叫单点登录SSO,单点登录意义是什么?
-单点登录(Single Sign On)
+
 首先springcloud多个服务之间登录校验存在一些问题:
 基于session的登录校验:
 1.session的占用服务器内存问题
