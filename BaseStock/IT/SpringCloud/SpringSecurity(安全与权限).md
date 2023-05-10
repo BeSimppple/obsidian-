@@ -18,35 +18,35 @@ SpringSecurity(安全框架)
 	spring-boot-starter-security
 	(security包内自己设计了一套登录验证规则和页面)
 	但是满足不了生产功能,因此需要自己定制
-
-**2.Springsecurity登录流程**
-![[SpringSecurity(安全与权限)_image_2.jpg]]
-其中AuthenticationProvider直接认证方式是基于内存存储主体信息进行认证,可以跳过UserDetailService的认证
-**三个概念模块:**
-主体：principal( 使用系统的用户或设备或从其他系统远程登录的用户等等。简单说就是谁使用系统谁就是主体。)
-认证：authentication( 主体是否完成登录)
-授权：authorization(主体是否拥有访问目标资源的权利)
-自定义主体规则(认证规则)
-1.基于内存验证(不常用):自定义一个配置类@EnableWebSecurity MyWebSecurityConfigurerAdapter
-然后extends WebSecurityConfigurerAdapter
-重写其中configure(AuthenticationManagerBuilder auth)方法
-auth.inMemoryAuthentication().passwordEncoder(NoOpPasswordEncoder.getInstance())
-.withUser("root").password("123").authorities("admin")
-定义密码加密方式为不加密,然后输入想要配置的用户名密码以及权限,全局使用链式代码方式书写
-2.基于数据库(常用):
-	在MyWebSecurityConfigurerAdapter重写configure()方法auth.userDetailsService(传入自定义MyUserserviceDetail)
-	表示使用我们自定义的处理方式去校验
-	自定义一个MyUserserviceDetail类,实现userserviceDetail接口(校验账号密码并返回权限主体到上下文),实现loadUserByUsername()方法,在这个方法中通过传入的用户名到数据库通过sql语句拿到用户的主体(账号秘密权限)
-	将获取到的权限内容遍历放到list集合然后通过StringUtils工具类将list集合内容通过指定格式分割传入grantedAuthorities
-	信息与用户输入的账号密码进行比对,如果正确则
-	return User(用户主体信息,grantedAuthorities类格式要求a,b,c形式)
-	将这些信息放到上下文(SecurityContext)之后访问其他权限内容则会去查询上下文
-	SecurityContext中存储了当前用户的认证以及权限信息。
-	所有过滤器共享这个上下文
-	如果不正确则写其他逻辑例如弹出提示不正确...
-	自定义http资源访问规则(访问规则)
+	**三个模块概念:**
+		主体：principal( 使用系统的用户或设备或从其他系统远程登录的用户等等。简单说就是谁使用系统谁就是主体。)
+		认证：authentication( 主体是否完成登录)
+		授权：authorization(主体是否拥有访问目标资源的权利)
+	**2.Springsecurity登录流程设计**
+	![[SpringSecurity(安全与权限)_image_2.jpg]]
+	其中AuthenticationProvider直接认证方式是基于内存存储主体信息进行认证,可以跳过UserDetailService的认证
+	**自定义主体规则(认证规则)**
+	1.**基于内存验证(不常用)**:
+		自定义一个配置类@EnableWebSecurity MyWebSecurityConfigurerAdapter
+		然后extends WebSecurityConfigurerAdapter
+		重写其中configure(AuthenticationManagerBuilder auth)方法
+		auth.inMemoryAuthentication().passwordEncoder(NoOpPasswordEncoder.getInstance())
+		.withUser("root").password("123").authorities("admin")
+		定义密码加密方式为不加密,然后输入想要配置的用户名密码以及权限,全局使用链式代码方式书写
+	2.**基于数据库(常用):**
+		在MyWebSecurityConfigurerAdapter重写configure()方法auth.userDetailsService(传入自定义MyUserserviceDetail)
+		表示使用我们自定义的处理方式去校验
+		自定义一个MyUserserviceDetail类,实现userserviceDetail接口(校验账号密码并返回权限主体到上下文),实现loadUserByUsername()方法,在这个方法中通过传入的用户名到数据库通过sql语句拿到用户的主体(账号秘密权限)
+		将获取到的权限内容遍历放到list集合然后通过StringUtils工具类将list集合内容通过指定格式分割传入grantedAuthorities
+		信息与用户输入的账号密码进行比对,如果正确则
+		return User(用户主体信息,grantedAuthorities类格式要求a,b,c形式)
+		将这些信息放到上下文(SecurityContext)之后访问其他权限内容则会去查询上下文
+		SecurityContext中存储了当前用户的认证以及权限信息。
+		所有过滤器共享这个上下文
+		如果不正确则写其他逻辑例如弹出提示不正确...
+**自定义http资源访问规则(访问规则)**
 	默认:所有请求都需要认证(表单格式认证json方式)
-1.基于方法自定义http访问规则与跳转页面:
+	**1.基于方法自定义http访问规则与跳转页面:**
 	首先MyWebSecurityConfigurerAdapter中去重写configure(HttpSecurity http)方法
 	http.authorizeRequests()
 	.antMatchers("/order/\*\*").hasAnyAuthority("order","admin")
@@ -60,7 +60,7 @@ auth.inMemoryAuthentication().passwordEncoder(NoOpPasswordEncoder.getInstance())
 	定义访问/order开头的页面资源需要order或admin权限
 	formLogin表示开启表单提交功能,同时可以使用不同方法指定登录页面,登录成功和失败的跳转页面
 	crsf().disable()表示关闭crsf防护(csrf详见笔记顶部)
-2.基于注解自定义http资源访问规则
+	**2.基于注解自定义http资源访问规则**
 	放到启动类上代表开启方法级别权限控
 	@EnableGlobalMethodSecurity(prePostEnable = true)
 	@PreAuthorize("hasAnyAuthority('XXX','XX')")写在指定接口方法上代表需要指定XXX和XX权限
