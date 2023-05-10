@@ -6,7 +6,7 @@ springSecurity+jwt+Oauth2
 
 crsf防护(使用账号登录后会有一个jessionid存在域中如果该id被其他机器盗用则会存在账号泄露,crsf的作用是根据本机信息组成加密成一串符号同时上传,如果没有crsf的加密符则无法登录从而保证安全性)
 
-为什么要用springSecurity?
+**为什么要用springSecurity?**
 
 1.springSecurity集成了强大的认证和授权功能并且使用简单(适合使用在登录模块)
 
@@ -14,13 +14,13 @@ crsf防护(使用账号登录后会有一个jessionid存在域中如果该id被�
 
   
 
-SpringSecurity本质(过滤器链)
+**SpringSecurity本质(过滤器链)**
 
 过滤器三个方法:nit(),destory(),doFilter()
 
 ps:详情见最下方过滤器链
 
-![[SpringSecurity_image_1.jpg]]
+![[SpringSecurity(安全与权限)_image_1.jpg]]
 
 绿色部分,过滤器都是可以高度定制修改的
 
@@ -51,7 +51,7 @@ spring-boot-starter-security
   
 
 Springsecurity登录流程
-![[SpringSecurity_image_2.jpg]]
+![[SpringSecurity(安全与权限)_image_2.jpg]]
 
 
 其中AuthenticationProvider直接认证方式是基于内存存储主体信息进行认证,可以跳过UserDetailService的认证
@@ -165,7 +165,7 @@ BCrypt有四个变量：
 3.  salt: 盐，一个128bits随机字符串，22字符
 4.  myHash: 经过明文密码password和盐salt进行hash，默认10次下 ，循环加盐hash10次，得到myHash
 
-![[SpringSecurity_image_3.jpg]]
+![[SpringSecurity(安全与权限)_image_3.jpg]]
 
   
 
@@ -201,7 +201,7 @@ JWT，全称JSON Web Token
 
 jwt实现登录校验流程
 
-![[SpringSecurity_image_4.jpg]]
+![[SpringSecurity(安全与权限)_image_4.jpg]]
 
 单独的登录模块将校验成功的验证信息生成JWT放到客户端本地,后续每次请求携带JWT遇到需要校验的请求时拦截器会校验JWT的数据正确则执行业务逻辑
 
@@ -285,7 +285,7 @@ JwtUtils.getInfoFromToken(JWT令牌,公钥,需要生成的格式例如map.class)
 
 难点:Secutiry整合JWT令牌(修改过滤器)
 
-![[SpringSecurity_image_5.jpg]]
+![[SpringSecurity(安全与权限)_image_5.jpg]]
 
 自定义类继承UsernamePasswordAuthenticationFilter过滤器,主要作用登录校验然后颁发JWT令牌
 
@@ -477,4 +477,4 @@ SecurityContextRepository限制同一用户开启多个会话的数量
 
 获取所配置资源访问的授权信息，根据SecurityContextHolder中存储的用户信息来决定其是否有权
 
-限。
+�
