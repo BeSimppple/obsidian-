@@ -3,23 +3,24 @@ springSecurity+jwt+Oauth2
 同类型安全框架有shiro
 
 **为什么要用springSecurity?**
-	1.springSecurity集成了强大的认证和授权功能并且使用简单(适合使用在登录模块)
-	@HasAnyAuthor(XXX)方法级别权限注解
+	1.**认证**和**授权**功能并且**模块化(集成简单)**
+	2.@HasAnyAuthor(XXX)方法级别权限注解(**细粒度高**)
+	3.**攻击防护**web站点的XXS()和CRSF攻击
 **SpringSecurity本质(过滤器链)**
-过滤器三个方法:nit(),destory(),doFilter()
-ps:详情见最下方过滤器链
-![[SpringSecurity(安全与权限)_image_1.jpg]]
-绿色部分,过滤器都是可以高度定制修改的
-UsernamePasswordAuthenticationFilter(重要)
-作用:拦截匹配URL为/login且必须为POST请求,实现登录JWT令牌生成,校验功能
+	过滤器三个方法:init(),destory(),doFilter()
+	ps:详情见最下方过滤器链
+	![[SpringSecurity(安全与权限)_image_1.jpg]]
+	绿色部分,过滤器都是可以高度定制修改的
+	UsernamePasswordAuthenticationFilter(重要)
+	作用:拦截匹配URL为/login且必须为POST请求,实现登录JWT令牌生成,校验功能
 **微服务整合springSecurity**
-1.创建一个springSecurity项目,导入pom依赖
-spring-boot-starter-web
-spring-boot-starter-security
-(security包内自己设计了一套登录验证规则和页面)
-但是满足不了生产功能,因此需要自己定制
-2.
-**Springsecurity登录流程**
+	1.创建一个springSecurity项目,导入pom依赖
+	spring-boot-starter-web
+	spring-boot-starter-security
+	(security包内自己设计了一套登录验证规则和页面)
+	但是满足不了生产功能,因此需要自己定制
+
+**2.Springsecurity登录流程**
 ![[SpringSecurity(安全与权限)_image_2.jpg]]
 其中AuthenticationProvider直接认证方式是基于内存存储主体信息进行认证,可以跳过UserDetailService的认证
 **三个概念模块:**
@@ -34,50 +35,51 @@ auth.inMemoryAuthentication().passwordEncoder(NoOpPasswordEncoder.getInstance())
 .withUser("root").password("123").authorities("admin")
 定义密码加密方式为不加密,然后输入想要配置的用户名密码以及权限,全局使用链式代码方式书写
 2.基于数据库(常用):
-在MyWebSecurityConfigurerAdapter重写configure()方法auth.userDetailsService(传入自定义MyUserserviceDetail)
-表示使用我们自定义的处理方式去校验
-自定义一个MyUserserviceDetail类,实现userserviceDetail接口(校验账号密码并返回权限主体到上下文),实现loadUserByUsername()方法,在这个方法中通过传入的用户名到数据库通过sql语句拿到用户的主体(账号秘密权限)
-将获取到的权限内容遍历放到list集合然后通过StringUtils工具类将list集合内容通过指定格式分割传入grantedAuthorities
-信息与用户输入的账号密码进行比对,如果正确则
-return User(用户主体信息,grantedAuthorities类格式要求a,b,c形式)
-将这些信息放到上下文(SecurityContext)之后访问其他权限内容则会去查询上下文
-SecurityContext中存储了当前用户的认证以及权限信息。
-所有过滤器共享这个上下文
-如果不正确则写其他逻辑例如弹出提示不正确...
-自定义http资源访问规则(访问规则)
-默认:所有请求都需要认证(表单格式认证json方式)
+	在MyWebSecurityConfigurerAdapter重写configure()方法auth.userDetailsService(传入自定义MyUserserviceDetail)
+	表示使用我们自定义的处理方式去校验
+	自定义一个MyUserserviceDetail类,实现userserviceDetail接口(校验账号密码并返回权限主体到上下文),实现loadUserByUsername()方法,在这个方法中通过传入的用户名到数据库通过sql语句拿到用户的主体(账号秘密权限)
+	将获取到的权限内容遍历放到list集合然后通过StringUtils工具类将list集合内容通过指定格式分割传入grantedAuthorities
+	信息与用户输入的账号密码进行比对,如果正确则
+	return User(用户主体信息,grantedAuthorities类格式要求a,b,c形式)
+	将这些信息放到上下文(SecurityContext)之后访问其他权限内容则会去查询上下文
+	SecurityContext中存储了当前用户的认证以及权限信息。
+	所有过滤器共享这个上下文
+	如果不正确则写其他逻辑例如弹出提示不正确...
+	自定义http资源访问规则(访问规则)
+	默认:所有请求都需要认证(表单格式认证json方式)
 1.基于方法自定义http访问规则与跳转页面:
-首先MyWebSecurityConfigurerAdapter中去重写configure(HttpSecurity http)方法
-http.authorizeRequests()
-.antMatchers("/order/**").hasAnyAuthority("order","admin")
-http.formLogin()
-.loginPage("/login.html")
-.loginProcessingUrl("/doLogin")
-.defaultSuccessUrl("/index.html")(html页面放在resource下的static包下表示静态资源绝对路径第一层便可访问到)
-.failureForwardUrl("/login.html");
-http.csrf().disable();
-http.addFilter()//加入指定过滤器,如果是继承某过滤器则覆盖原版过滤器
-定义访问/order开头的页面资源需要order或admin权限
-formLogin表示开启表单提交功能,同时可以使用不同方法指定登录页面,登录成功和失败的跳转页面
-crsf().disable()表示关闭crsf防护(csrf详见笔记顶部)
+	首先MyWebSecurityConfigurerAdapter中去重写configure(HttpSecurity http)方法
+	http.authorizeRequests()
+	.antMatchers("/order/\*\*").hasAnyAuthority("order","admin")
+	http.formLogin()
+	.loginPage("/login.html")
+	.loginProcessingUrl("/doLogin")
+	.defaultSuccessUrl("/index.html")(html页面放在resource下的static包下表示静态资源绝对路径第一层便可访问到)
+	.failureForwardUrl("/login.html");
+	http.csrf().disable();
+	http.addFilter()//加入指定过滤器,如果是继承某过滤器则覆盖原版过滤器
+	定义访问/order开头的页面资源需要order或admin权限
+	formLogin表示开启表单提交功能,同时可以使用不同方法指定登录页面,登录成功和失败的跳转页面
+	crsf().disable()表示关闭crsf防护(csrf详见笔记顶部)
 2.基于注解自定义http资源访问规则
-放到启动类上代表开启方法级别权限控
-@EnableGlobalMethodSecurity(prePostEnable = true)
-@PreAuthorize("hasAnyAuthority('XXX','XX')")写在指定接口方法上代表需要指定XXX和XX权限
-底层也是基于方法
+	放到启动类上代表开启方法级别权限控
+	@EnableGlobalMethodSecurity(prePostEnable = true)
+	@PreAuthorize("hasAnyAuthority('XXX','XX')")写在指定接口方法上代表需要指定XXX和XX权限
+	底层也是基于方法
 **密码的常见加密方式**
-MD5(不可逆)
-一种被广泛使用的[密码散列函数](https://baike.baidu.com/item/%E5%AF%86%E7%A0%81%E6%95%A3%E5%88%97%E5%87%BD%E6%95%B0/14937715)，可以产生出一个32字符的散列值（hash value）
-可能会被暴力破解(所以需要加salt)
-Bcrypt(不可逆)->项目使用
-springSecurity提供
-加slat且每次同样salt生成的密码不同
-BCrypt有四个变量：
-1.  saltRounds: 正数，代表hash杂凑次数，数值越高越安全，默认10次。
-2.  myPassword: 明文密码字符串。
-3.  salt: 盐，一个128bits随机字符串，22字符
-4.  myHash: 经过明文密码password和盐salt进行hash，默认10次下 ，循环加盐hash10次，得到myHash
-![[SpringSecurity(安全与权限)_image_3.jpg]]
+	**MD5(不可逆)**
+	一种被广泛使用的[密码散列函数](https://baike.baidu.com/item/%E5%AF%86%E7%A0%81%E6%95%A3%E5%88%97%E5%87%BD%E6%95%B0/14937715)，可以产生出一个32字符的散列值（hash value）
+	可能会被暴力破解(所以需要加salt)
+	**Bcrypt(不可逆)->项目使用**
+	springSecurity提供
+	加slat且每次同样salt生成的密码不同
+	BCrypt有四个变量：
+		1.  saltRounds: 正数，代表hash杂凑次数，数值越高越安全，默认10次。
+		2.  myPassword: 明文密码字符串。
+		3.  salt: 盐，一个128bits随机字符串，22字符
+		4.  myHash: 经过明文密码password和盐salt进行hash，默认10次下 ，循环加盐hash10次，得到myHash
+	![[SpringSecurity(安全与权限)_image_3.jpg]]
+
 **单点登录需要实现三个功能(顺序):登录--认证--授权**
 主要目的:
 授权：用户主体是否有权限去访问某个资源(http接口)
