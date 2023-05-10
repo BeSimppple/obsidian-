@@ -32,12 +32,14 @@
             }
           },
           {
-            "id": "ea8df841269bf85c",
+            "id": "23b5f83e776eddd6",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "obsidian相关/Picture/Gateway(网关)_image_1.jpg"
+                "file": "IT/SpringCloud/SpringSecurity(安全与权限).md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -71,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "senti",
+                "query": "hasany",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -117,6 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "IT/SpringCloud/Gateway(网关).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,6 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "IT/SpringCloud/Gateway(网关).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +158,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "IT/SpringCloud/Gateway(网关).md"
+              }
             }
           },
           {
@@ -211,13 +217,13 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "68447e7ec5dfad2f",
+  "active": "3bef371fd680224e",
   "lastOpenFiles": [
+    "IT/SpringCloud/SpringSecurity(安全与权限).md",
     "IT/SpringCloud/Gateway(网关).md",
     "obsidian相关/Picture/Gateway(网关)_image_1.jpg",
     "obsidian相关/Picture/SpringSecurity(安全与权限)_image_2.jpg",
     "每日八股文(2).md",
-    "IT/SpringCloud/SpringSecurity(安全与权限).md",
     "常用语法和算法/常用算法/RSA非对称加密.md",
     "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
     "obsidian相关/Picture/SpringSecurity(安全与权限)_image_1.jpg",

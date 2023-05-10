@@ -14,15 +14,12 @@ springcloud-gateway简介:
 	**Gateway作用:**
 		(路由,权限,限流,监控)
 		1.统一入口,需要交给前端地址去调用
-		2.@HasAnyAuthrith权限统一控制(认证和授权)
+		2.@hasAnyAuthority权限统一控制(认证和授权)
 		3.对外(前端)隐藏协议接口
 		gateway原理是路由解决统一入口做一个请求转发,过滤器做一个权限认证,路由还可以隐藏实际地址
 	![[Gateway(网关)_image_2.jpg|500]]
 
-
-
-
-**Gateway的功能作用实现(限流,权限,路由,过滤,监控)**
+**Gateway的功能作用实现
 	![[Gateway(网关)_image_3.jpg|600]]
 	**yaml写法**
 		spring:
@@ -48,7 +45,8 @@ springcloud-gateway简介:
 		网关访问集群服务的负载均衡是内置的轮循负载均衡,而不同模块之间访问资源的负载均衡是由Ribbon完成的
 		如果目标地址是个集群则uri: lb://(nacos中微服务名称)
 	限流通过整合Sentinel实现
-	权限通过@
+	权限通过SpringSecurity+Oauth2的@hasAnyAuthority实现
+	整合SpringBoot-actuator实现监控
 
 **Gateway谓词工厂**
 	![[Gateway(网关)_image_4.jpg]]
@@ -113,7 +111,6 @@ Gateway内置过滤器工厂:
 	过滤器执行的顺序，就是配置的顺序
 	局部处理器顺序比全局要高
 	全局通过@Order(数字)排序
-Gateway全局过滤器
 Spring Cloud Gateway内置的全局过滤器。
 	1 Combined Global Filter and GatewayFilter Ordering 
 	2 Forward Routing Filter 
