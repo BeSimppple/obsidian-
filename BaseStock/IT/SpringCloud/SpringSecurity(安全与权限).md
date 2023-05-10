@@ -85,7 +85,6 @@ SpringSecurity(安全框架)
 	单点登录(Single Sign On)
 	**是一种身份认证方法，用户一次可通过一组登录凭证登入会话，在该次会话期间无需再次登录，即可安全访问多个相关的应用和服务**
 单点登录需要实现三个功能(顺序):登录--认证--授权
-
 **基于JWT(JSON Web Token)(本地存储->登录校验)令牌登录校验:**
 **为什么使用JWT令牌**
 	1.JWT信息可以存在客户端减少内存压力(JWT可以设置过期时间,且如果有需要可以在每次访问后刷新过期时间)
@@ -102,7 +101,6 @@ Session和Redis登录校验缺点
 jwt实现登录校验流程
 	![[SpringSecurity(安全与权限)_image_4.jpg]]
 	单独的登录模块将校验成功的验证信息生成JWT放到客户端本地,后续每次请求携带JWT遇到需要校验的请求时拦截器会校验JWT的数据正确则执行业务逻辑
-
 **JWT令牌组成部分:**
 	1.**头部(head) (不常修改)**
 		默认如下由 令牌类型和 所使用的签名算法组成一般
@@ -127,43 +125,43 @@ jwt实现登录校验流程
 	私钥:唯一生成令牌钥匙,只放在单点登录模块
 	公钥:多用的校验钥匙,放在所有需要校验的模块各一个(无法生成令牌,只能做校验)
 **java项目整合JWT**
-1.导入pom依赖
-com.auth0.java-jwt
-使用JWT类中方法即可实现生成,校验等操作
-2.从网上复制RSA非对称加密工具类的代码放到工具类
-2.5从网上复制JJWT工具类的代码(JWT结合RSA生成公钥和私钥)
-3.使用rsa工具类将私钥和公钥生成到本地后复制到对应项目的Resource包中,实际使用要拿RSA私钥可以直接使用ResourceUtils.getFile("classpath:rsa").getPath()拿到私钥的地址然后使用RSA工具类的RsaUtils.generatePrivateKey(私钥地址)构建私钥对象PrivateKey
-然后使用JJWT工具类的JwtUtils.generateTokenExpireInMinutes(用户信息,PrivateKey,过期时间)生成JWT令牌
-4.使用公钥获取JWT令牌中用户信息,同理使用ResourceUtils.getFile("classpath:rsa.pub").getPath()获取到
-公钥地址,然后通过RsaUtils.generatePublicKey(公钥地址)获取到公钥对象,然后使用JJWT工具类的
-JwtUtils.getInfoFromToken(JWT令牌,公钥,需要生成的格式例如map.class);
-难点:Secutiry整合JWT令牌(修改过滤器)
-![[SpringSecurity(安全与权限)_image_5.jpg]]
-自定义类继承UsernamePasswordAuthenticationFilter过滤器,主要作用登录校验然后颁发JWT令牌
-写一个属性private AuthenticationManager authenticationManager(认证管理器,需要通过他讲认证信息传递到UserDetaiServicel中)后定义有参构造函数
-重写其中(登录处理逻辑)
-attemptAuthentication(HttpServletRequest request, HttpServletResponse response)方法
-因为账号密码可能是json提交格式而不是表单提交格式没法用getParameter()所以
-通过request.getInputstream()获取用户名和密码的字节流然后new ObjectMapper().readVlaue(字节流,map.class)获取登录的用户名和密码
-然后return this.getAuthenticationManager.authenticate(new UsernamePasswordAuthenticationToken(账号,密码)) 传递给UserDetailService
-全程使用try/catch包围,如果发生异常不抛出,使用printWriter返回ResultVo错误信息给页面然后return null
-然后到SecurityConfig中,configure方法中使用http.addfilter(MyUsernamePasswordAuthenticationFilter)
-加入自定义过滤器如果是继承某过滤器则覆盖完成
-和(认证成功回调方法)
-successfulAuthentication(HttpServletRequest request, HttpServletResponse response, FilterChain chain, Authentication authResult) 方法
-回调方法主要作用是生成JWT令牌
-final AuthBean authBean = (AuthBean)authResult.getPrincipal();获取用户主体信息
-通过ResourceUtils.getFile("classpath:rsa").getPath()拿到私钥的地址然后使用RSA工具类的RsaUtils.generatePrivateKey(私钥地址)构建私钥对象PrivateKey
-然后使用JJWT工具类的JwtUtils.generateTokenExpireInMinutes(用户主体信息,PrivateKey,过期时间)生成JWT令牌
-全程使用try/catch包围,如果发生异常不抛出,使用printWriter返回ResultVo错误信息给页面,没有异常则正常prinWiriter打印正确信息和JWT令牌到本地
-自定义类继承BasicAuthenticationFilter
-主要作用校验JWT令牌
-重写doFilterInternal(HttpServletRequest request, HttpServletResponse response,FilterChain chain)方法
-首先通过request.getHeader("token");获取到JWT令牌,
-然后JwtUtils.getInfoFromToken(token, RsaUtils.getPublicKey(ResourceUtils.getFile("classpath:rsa.pub").getPath()),Map.class)根据JWT令牌和公钥获取到载荷信息(用户信息) 然后遍历用户的权限信息存到list(a,b.c)格式放到grantAuthority放到UsernamePasswordAuthenticationToken
-最后通过SecurityContextHolder.getContext().setAuthentication(UsernamePasswordAuthenticationToken);将用户权限信息放到Security上下文中,最后chain.doFilter(request, response);放行
-然后到SecurityConfig中的Configure()方法中使用http.addFilter(自定义BasicAuthenticationFilter)
-
+	1.导入pom依赖
+	com.auth0.java-jwt
+	使用JWT类中方法即可实现生成,校验等操作
+	2.从网上复制RSA非对称加密工具类的代码放到工具类
+	2.5从网上复制JJWT工具类的代码(JWT结合RSA生成公钥和私钥)
+	3.使用rsa工具类将私钥和公钥生成到本地后复制到对应项目的Resource包中,实际使用要拿RSA私钥可以直接使用ResourceUtils.getFile("classpath:rsa").getPath()拿到私钥的地址然后使用RSA工具类的RsaUtils.generatePrivateKey(私钥地址)构建私钥对象PrivateKey
+	然后使用JJWT工具类的JwtUtils.generateTokenExpireInMinutes(用户信息,PrivateKey,过期时间)生成JWT令牌
+	4.使用公钥获取JWT令牌中用户信息,同理使用ResourceUtils.getFile("classpath:rsa.pub").getPath()获取到
+	公钥地址,然后通过RsaUtils.generatePublicKey(公钥地址)获取到公钥对象,然后使用JJWT工具类的
+	JwtUtils.getInfoFromToken(JWT令牌,公钥,需要生成的格式例如map.class);
+**Secutiry整合JWT令牌(修改过滤器)**
+	![[SpringSecurity(安全与权限)_image_5.jpg|300]]
+	自定义类继承UsernamePasswordAuthenticationFilter过滤器,
+		**主要作用登录校验然后颁发JWT令牌**
+		写一个属性private AuthenticationManager authenticationManager(认证管理器,需要通过他讲认证信息传递到UserDetaiServicel中)后定义有参构造函数
+		**重写其中(登录处理逻辑)**
+		attemptAuthentication(HttpServletRequest request, HttpServletResponse response)方法
+		因为账号密码可能是json提交格式而不是表单提交格式没法用getParameter()所以
+		通过request.getInputstream()获取用户名和密码的字节流然后new ObjectMapper().readVlaue(字节流,map.class)获取登录的用户名和密码
+		然后return this.getAuthenticationManager.authenticate(new UsernamePasswordAuthenticationToken(账号,密码)) 传递给UserDetailService
+		全程使用try/catch包围,如果发生异常不抛出,使用printWriter返回ResultVo错误信息给页面然后return null
+		然后到SecurityConfig中,configure方法中使用http.addfilter(MyUsernamePasswordAuthenticationFilter)
+		加入自定义过滤器如果是继承某过滤器则覆盖完成
+		和 **(认证成功回调方法)**
+		successfulAuthentication(HttpServletRequest request, HttpServletResponse response, FilterChain chain, Authentication authResult) 方法
+		回调方法主要作用是生成JWT令牌
+		final AuthBean authBean = (AuthBean)authResult.getPrincipal();获取用户主体信息
+		通过ResourceUtils.getFile("classpath:rsa").getPath()拿到私钥的地址然后使用RSA工具类的RsaUtils.generatePrivateKey(私钥地址)构建私钥对象PrivateKey
+		然后使用JJWT工具类的JwtUtils.generateTokenExpireInMinutes(用户主体信息,PrivateKey,过期时间)生成JWT令牌
+		全程使用try/catch包围,如果发生异常不抛出,使用printWriter返回ResultVo错误信息给页面,没有异常则正常prinWiriter打印正确信息和JWT令牌到本地
+	自定义类继承BasicAuthenticationFilter
+		**主要作用校验JWT令牌**
+		重写doFilterInternal(HttpServletRequest request, HttpServletResponse response,FilterChain chain)方法
+		首先通过request.getHeader("token");获取到JWT令牌,
+		然后JwtUtils.getInfoFromToken(token, RsaUtils.getPublicKey(ResourceUtils.getFile("classpath:rsa.pub").getPath()),Map.class)根据JWT令牌和公钥获取到载荷信息(用户信息) 然后遍历用户的权限信息存到list(a,b.c)格式放到grantAuthority放到UsernamePasswordAuthenticationToken
+		最后通过SecurityContextHolder.getContext().setAuthentication(UsernamePasswordAuthenticationToken);将用户权限信息放到Security上下文中,最后chain.doFilter(request, response);放行
+		然后到SecurityConfig中的Configure()方法中使用http.addFilter(自定义BasicAuthenticationFilter)
 自定义JWT中的用户主体信息
 	JWT主体信息默认使用的Security中的User只有账号密码和权限信息属性,
 	自定义主要解决如果其他类需要使用用户id或商户id来操作会导致代码臃肿的问题,不如在一开始便提供好可能需要的属性
@@ -175,7 +173,7 @@ final AuthBean authBean = (AuthBean)authResult.getPrincipal();获取用户主体
 	在BasicAuthenticationFilter的doFilterInternal()校验方法解析JWT令牌获取其中主体信息然后new一个AuthBean放入UsernamePasswordAuthenticationToken最后返回到SecurityContext上下文中
 网关和所有项目整合SpringSecurity
 	第一种是全权由springGateway进行校验获取权限信息,并控制权限给下属项目
-**第二种方式:**
+	**第二种方式:**
 	是springGatewat只负责校验,然后每个项目都依赖SpringSecurity自行二次校验和获取主体中的权限信息
 	此处采用的是第二种模式:(因为第二种简单,且每个模块能拿到JWT令牌并分析载荷将权限放到SecurityContext方便权限控制)
 	1:创建一个sso登录模块(将security中创建JWT令牌和回调函数的代码复制进去)只负责拿到账号密码去数据库校验的登录逻辑和颁发JWT令牌只使用私钥,无法验证并放行
@@ -193,8 +191,10 @@ final AuthBean authBean = (AuthBean)authResult.getPrincipal();获取用户主体
 	3.在gateway的yaml文件中写上sso项目监视/login地址
 	4.在其他项目中引入springSecurity和Utils包依赖和rsa.pub公钥,并将修改好的basic的filter过滤器复制过去做登录校验,然后将basic过滤器放到securityConfig的configure(HttpSecurity http)方法中http.addFilter()进行配置实现全项目整合springSecurity
 	自此实现每个项目自行验证并获取JWT令牌中的主体信息并放到SecurityContext中,从而实现基于注解的权限控制
-**vue某些问题**
-因为令牌具有时效性,所以需要去判断令牌是否有效,这时候在SpringSecurity模块控制器层写一个校验路径,在前端发起请求,被permission拦截判断是否有TOKEN的时候可以请求该方法进行校验TOKEN有效性
+
+---
+vue某些问题
+	因为令牌具有时效性,所以需要去判断令牌是否有效,这时候在SpringSecurity模块控制器层写一个校验路径,在前端发起请求,被permission拦截判断是否有TOKEN的时候可以请求该方法进行校验TOKEN有效性
 **springSecurity过滤器详解**
 	1 . org.springframework.security.web.context.SecurityContextPersistenceFilter
 	首当其冲的一个过滤器，作用之重要，自不必多言。
@@ -232,8 +232,5 @@ final AuthBean authBean = (AuthBean)authResult.getPrincipal();获取用户主体
 	异常转换过滤器位于整个springSecurityFilterChain的后方，用来转换整个链路中出现的异常
 	15.org.springframework.security.web.access.intercept.FilterSecurityInterceptor
 	获取所配置资源访问的授权信息，根据SecurityContextHolder中存储的用户信息来决定其是否有权限。
-
-
-
-什么是crsf防护:
+**什么是crsf防护:**
 	crsf防护(使用账号登录后会有一个jessionid存在域中如果该id被其他机器盗用则会存在账号泄露,crsf的作用是根据本机信息组成加密成一串符号同时上传,如果没有crsf的加密符则无法登录从而保证安全性)
