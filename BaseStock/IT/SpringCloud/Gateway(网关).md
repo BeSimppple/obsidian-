@@ -47,7 +47,6 @@ springcloud-gateway简介:
 	限流通过整合Sentinel实现
 	权限通过SpringSecurity+Oauth2的@hasAnyAuthority实现
 	整合SpringBoot-actuator实现监控
-
 **Gateway谓词工厂**
 	![[Gateway(网关)_image_4.jpg]]
 	- Cookie=name,jack
@@ -70,6 +69,12 @@ springcloud-gateway简介:
 		(实现Springsecurity令牌的效验)
 		注入spring容器后,到properties的predicate中写XXX(XXX为XXXRoutePredicateFactory的前缀)=???
 
+---
+## GateWay过滤器
+过滤器执行顺序
+	1.过滤器执行的顺序，就是配置的顺序
+	2.局部处理器顺序比全局要高
+	3.全局通过@Order(数字越小越先执行)排序
 Gateway内置过滤器工厂:
 	| 过滤器工厂                  | 作用                                                                                          | 参数                                                               |
 	| --------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
@@ -100,7 +105,7 @@ Gateway内置过滤器工厂:
 	| ModifyResponseBody          | 修改原始响应体的内容                                                                          | 修改后的响应体内容                                                 |
 	| Default                     | 为所有路由添加过滤器                                                                          | 过滤器工厂名称及值                                                 |
 **自定义过滤器 GatewayFilterFactory(常用)**
-	大致等同谓词自定义
+	过滤器通过@Bean注入Spring容器,其他大致等同谓词自定义
 	命名规范：过滤器工厂的类名必须以GatewayFilterFactory为后缀 同理谓词最后使用也是XXXGatewayFilterFactory
 	配置yaml XXX=???
 	实现方法public GatewayFilter apply(NameValueConfig config) return匿名内部类实现其中pre逻辑和post逻辑
@@ -108,10 +113,6 @@ Gateway内置过滤器工厂:
 	return ShortcutType.XXX(内置枚举类)
 	同理谓词切割逻辑方法
 	过滤器主要功能可以实现在pre请求逻辑时候操作,也可以在post返回逻辑时候操作
-过滤器执行顺序
-	过滤器执行的顺序，就是配置的顺序
-	局部处理器顺序比全局要高
-	全局通过@Order(数字)排序
 Spring Cloud Gateway内置的全局过滤器。
 	1 Combined Global Filter and GatewayFilter Ordering 
 	2 Forward Routing Filter 
@@ -122,7 +123,9 @@ Spring Cloud Gateway内置的全局过滤器。
 	7 Websocket Routing Filter 
 	8 Gateway Metrics Filter 
 	9 Marking An Exchange As Routed
-注意:过滤器练使用@bean注入到spring容器,使用@Order(数字)决定执行顺序,数字越小越先执行
+
+---
+
 Gateway整合sentinel
 	Gateway完成Sentinel整合后就可以让其他项目不需要整合Sentinel,全局通过gateway访问跳转来实现全局sentinel限流
 	Sentinel从1.6.0版本能适配 Spring Cloud Gateway adapter
