@@ -36,9 +36,10 @@ nacos在idea中常用配置
 
 ---
 ## nacos实现高可用(集群)
+[详解nacos高可用](https://developer.aliyun.com/article/780618)
 Nacos如何保证高可用
 	1.当其中一台机器宕机时，为了不影响整体运行，客户端会存在重试机制。
-	2.Nacos 存在本地文件缓存机制，nacos-client 在接收到 nacos-server 的服务推送之后，会在内存中保存一份，随后会落盘存储一份快照snapshot 。有了这份快照，本地的RPC调用，还是能正常的进行。
+	2.Nacos 存在本地文件缓存机制，nacos-client 在接收到 nacos-server 的服务推送之后，会在内存中保存一份，随后会落盘存储一份快照snapshot 。有了这份快照即使宕机，本地的RPC调用，还是能正常的进行。
 Nacos集群的一致性协议:
 	-   临时服务（Ephemeral）：临时服务健康检查失败后会从列表中删除，常用于服务注册发现场景。模型是AP
 	-   持久化服务（Persistent）：持久化服务健康检查失败后会被标记成不健康，常用于 DNS 场景。模型是CP
@@ -59,22 +60,24 @@ Nacos高可用模式
 	6.(可选)配置nginx反向代理,同样监听指定端口,upstream指定代理server,proxy_pass指定地址然后修改host模拟www.nacos.com/nacos登录
 	重点:记得startup.sh中的MODE="cluster"不要改了
 
-
 ---
 ## nacos实现持久化
-只需将修改conf将数据源存到mysql
-nacos宕机后消费者客户端还能调用服务端么?
-可以,只要服务提供者不宕机不改变端口号或ip,不增加实例.便能通过本地缓存登录服务.
+将nacos-config数据存到mysql
+	1.安装数据库，版本要求：5.6.5+  
+	2.初始化mysql数据库，数据库初始化文件：nacos-mysql.sql  (nacos官网下载)
+	3.修改Nacos的配置文件,  conf/application.properties文件，增加支持mysql数据源配置，添加mysql数据源的url、用户名和密码。
+	ps:注册中心不会放入到数据库中，配置中心是有必要放入到数据库中的
+
 nacos源码核心代码
 //定时30秒更新client缓存
 DynamicServerListLoadBalancer.updateListOfServers
 //从nacos server获取最新的实例列表
 NacosServerList.getServers
 **nacos工作原理**
-![[Nacos(服务注册与发现,配置)_image_3.jpg]]
-服务心跳5s一次由服务客户端发送给nacos
-服务发现每30一次刷新由消费者客户端发送给nacos
-服务健康检查由nacos服务器发送请求(通过actuator的http接口)给服务客户端
+	![[Nacos(服务注册与发现,配置)_image_3.jpg]]
+	服务心跳5s一次由服务客户端发送给nacos
+	服务发现每30一次刷新由消费者客户端发送给nacos
+	服务健康检查由nacos服务器发送请求(通过actuator的http接口)给服务客户端
 什么是服务注册于发现?
 	首先一个分布式服务(一个完整的功能拆分给不同的服务去实现)其中一个服务可以搭建多个服务集群(一个服务可以部署多个服务实例[进程]，形成一个服务集群)
 	其中一个小的服务的调用和负载均衡(在集群的环境下，采用相应的负载均衡策略，平均化服务的负载问题),主要依赖于nacos server(服务发现和调用)和ribbon(负载均衡)
