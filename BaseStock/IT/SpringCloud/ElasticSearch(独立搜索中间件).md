@@ -28,10 +28,9 @@ ES安装与配置
 		且es的端口号修改了则kibana的指向es的配置也需要修改
 		当elasticsearch和kibana不在一台服务器上，那么需要修改kibana的配置，正确指定elasticsearch的url
 
-
-
+---
 **Kibana(可视化页面辅助操作ES)**
-	作用:可视化控制台辅助写es语句和es数据库控制
+	**作用:** 可视化控制台辅助写es语句和es数据库控制
 	安装(windows):下载kibana的zip包解压即可
 	linux安装:下载tar.gz包解压即可
 	**注意事项:**
@@ -41,39 +40,42 @@ ES安装与配置
 	![[ElasticSearch(独立搜索中间件)_image_2.jpg|175]]
 	主要使用其中dev tool进行操作书写es格式数据测试(此处每一次使用都是一次请求调用的es的接口)
 kibana创建索引库(ES库)和切换索引库
-stack Management->index Patterns->create index patterns
-例如:XXX*则创建出一个XXX的索引库
-然后到discovery->切换到XXX*
-IK分词器(中文分词辅助)
-为什么使用IK分词器?
-使用默认分词器对中文分词并不友好,IK分词器能真正把中文
-分词
-安装:下载后将文件夹放到elasticsearch的plguin包下即可,es会自动搜索包下的plugin-security.policy文件
-然后到kibana控制台的dev tool中使用put /emp设定指定索引 例如: "ik_max_word"
-注意事项:
-IK分词器必须与ES版本强一致
+	stack Management->index Patterns->create index patterns
+	例如:XXX*则创建出一个XXX的索引库
+	然后到discovery->切换到XXX*
+**IK分词器(中文分词辅助)**
+	**作用:** 使用默认分词器对中文分词并不友好,IK分词器能真正把中文分词
+安装:
+	下载后将文件夹放到elasticsearch的plguin包下即可,es会自动搜索包下的plugin-security.policy文件
+	然后到kibana控制台的dev tool中使用put /emp设定指定索引 例如: "ik_max_word"
+	**注意事项:**
+	IK分词器必须与ES版本强一致
 分词方式使用:
-ik_smart:最少切分
-ik_max_word:最细粒度切分
-扩展词典和停用词典(config包中IKAnalyzer.cfg.xml配置,然后修改指定文件内容后重启es即可)
-![[ElasticSearch(独立搜索中间件)_image_3.jpg]]
-ES实现持久化:
-ES中数据存储的走向
-![[ElasticSearch(独立搜索中间件)_image_4.jpg]]
-1.提交到内存缓冲区(此时客户端还读不到)
-每隔1s会进行一次refresh操作刷新到内存中形成一个新的segement file文件(仅存在系统内存os cache)
-2.内存缓冲区生成新的segment,刷到文件缓存(cache)
-如果小的segment文件过多可以手动merge(会自动merge)
-3.文件系统缓存fync到磁盘,commit更新文件
-内存中的segement文件通过flush操作写入磁盘形成commit point文件(会先清空buffer到内存再将内存数据持久化)持久化完成后会将Translog文件(备份)清除
-默认每30s进行一次flush,translog备份过大也会进行flush
+	ik_smart:最少切分
+	ik_max_word:最细粒度切分
+	扩展词典和停用词典(config包中IKAnalyzer.cfg.xml配置,然后修改指定文件内容后重启es即可)
+	![[ElasticSearch(独立搜索中间件)_image_3.jpg]]
+
+---
+## ElasticSearch持久化:
+**ES中数据存储的走向**
+	![[ElasticSearch(独立搜索中间件)_image_4.jpg]]
+	整体流程:
+	![[ElasticSearch(独立搜索中间件)_image_5.jpg]]
+	1.提交到内存缓冲区(此时客户端还读不到)
+	每隔1s会进行一次refresh操作刷新到内存中形成一个新的segement file文件(仅存在系统内存os cache)
+	2.内存缓冲区生成新的segment,刷到文件缓存(cache)
+	如果小的segment文件过多可以手动merge(会自动merge)
+	3.文件系统缓存f-sync到磁盘,commit更新文件
+	内存中的segement文件通过flush操作写入磁盘形成commit point文件(会先清空buffer到内存再将内存数据持久化)持久化完成后会将Translog文件(备份)清除
+	默认每30s进行一次flush,translog备份过大也会进行flush
 Translog作用:
-![[ElasticSearch(独立搜索中间件)_image_5.jpg]]
-如果在内存期间宕机则会丢失数据,所以要实现持久化
-es自己提供了Translog文件(数据写入到buffer内存的同时也会追加备份一份到Translog默认每5s将translog刷新到磁盘)我们可以通过对Translog进行flush操作来持久化到磁盘(流程还是先刷到缓存区再到磁盘)
-整体流程:
-![[ElasticSearch(独立搜索中间件)_image_6.jpg]]
-ES实现高可用:
+	![[ElasticSearch(独立搜索中间件)_image_6.jpg]]
+	如果在内存期间宕机则会丢失数据,所以要实现持久化
+	es自己提供了Translog文件(数据写入到buffer内存的同时也会追加备份一份到Translog默认每5s将translog刷新到磁盘)我们可以通过对Translog进行flush操作来持久化到磁盘(流程还是先刷到缓存区再到磁盘)
+
+---
+## ElasticSearch高可用:
 搭建分布式存储(分块处理,同时还解决存储空间问题)
 建立多个node,将数据进行分块处理[1,2,3,4]分为[1,3]和[2,4]
 2个大块同时需要对2个大块进行备份处理(可以创建多个备份)
