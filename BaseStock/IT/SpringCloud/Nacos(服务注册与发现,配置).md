@@ -89,11 +89,11 @@ Nacos高可用模式
 
 ---
 ## Nacos-config(服务配置)
-![[Nacos(服务注册与发现,配置)_image_6.jpg|400]]
-Nacos-config主要解决什么问题?
+**Nacos-config主要解决什么问题?**
 	1.**重复配置**(配置共享common配置解决),**配置分散**
 	2.**配置不能动态刷新(@RefreshScope)**
 	3.**无状态服务和弹性扩展**
+	![[Nacos(服务注册与发现,配置)_image_6.jpg|400]]
 	同类型spring-cloud-config(读写太差),Apollo(不错)
 Nacos-config结合项目
 	1.依赖nacos-config的pom依赖
