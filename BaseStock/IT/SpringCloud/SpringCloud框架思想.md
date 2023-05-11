@@ -1,11 +1,12 @@
-SpringCloud(是一种思想一种模板化规范架构)
-springboot一个版本对应一个springcloud版本(必须对应)
-例如:springboot2.3.4版本必须对应Hoxton版本(可上springcloud官网查询)因为cloud-alibaba依赖cloud而cloud依赖boot
-每个组件例如sentinel等都做了规范,可以查询
-配置文件后缀yaml和properties差异
-加载顺序yml>properties,优先级properties>yml，properties会覆盖yml
-加载顺序和优先级是相反的，正常的加载顺序是yml>properties，但是由于后加载的会覆盖先加载的
-bootstrap配置文件和application配置文件差异
+SpringCloud作用
+	SpringCloud是一种思想一种模板化规范架构
+	springboot一个版本对应一个springcloud版本(必须对应)
+	例如:springboot2.3.4版本必须对应Hoxton版本(可上springcloud官网查询)因为cloud-alibaba依赖cloud而cloud依赖boot
+	每个组件例如sentinel等都做了规范,可以查询
+**配置文件后缀yaml和properties的差异**
+	加载顺序yml>properties,优先级properties>yml，properties会覆盖yml
+	加载顺序和优先级是相反的，正常的加载顺序是yml>properties，但是由于后加载的会覆盖先加载的
+**bootstrap配置文件和application配置文件差异**
 bootstrap优先于application加载,用来在程序引导时执行，应用于更加早期配置信息读取，如可以使用来配置application.yml中使用到参数等
 application 应用程序特有配置信息，可以用来配置后续各个模块中需使用的公共参数等。
 springcloud小结
