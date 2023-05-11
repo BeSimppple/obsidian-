@@ -78,64 +78,67 @@ Docker的常用命令
 ---
 ## Docker的容器中的数据持久化(数据卷)
 
-\#数据卷本质就是宿主机的一个目录 默认存放路径为
-var/lib/docker/volumes/
-![[Docker和Jekins(去冲突和快速打包)_image_4.jpg]]
-1.数据卷就是宿主机(linux主机)的一个文件夹或文件,
-2.容器中的数据或配置与数据卷绑定后可以双向传输
-3.一个数据卷可以被多个容器绑定
-4.一个容器可以绑定多个数据卷
-5.容器删除时数据卷不会删除
+数据卷
+	\#数据卷本质就是宿主机的一个目录 默认存放路径为
+	var/lib/docker/volumes/
+	![[Docker和Jekins(去冲突和快速打包)_image_4.jpg]]
+	1.数据卷就是宿主机(linux主机)的一个文件夹或文件,
+	2.容器中的数据或配置与数据卷绑定后可以双向传输
+	3.一个数据卷可以被多个容器绑定
+	4.一个容器可以绑定多个数据卷
+	5.容器删除时数据卷不会删除
 数据卷相关命令:
-docker volume create 数据卷名称(#创建数据卷的命令,tomcat为数据卷的名称)
-docker volume inspect 数据卷名(查看数据卷详细信息)
-容器绑定数据卷: -v 命令
-第一种方式:-v(数据卷名:容器文件夹地址)会复制容器中文件
-例:docker run -d -p 宿主机端口号:容器软件端口号 --name 容器名 -v 数据卷名:/usr/local/tomcat(容器中的文件夹映射到宿主机上数据卷) 软件名:版本号
-第二种方式:-v(自定义地址(必须绝对路径):容器文件夹地址)映射到自定义地址作为数据卷,且容器文件夹下内容在初始化时不会被映射,但是后续更新内容还是会映射上
+	docker volume create 数据卷名称(#创建数据卷的命令,tomcat为数据卷的名称)
+	docker volume inspect 数据卷名(查看数据卷详细信息)
+	容器绑定数据卷: -v 命令
+	第一种方式:-v(数据卷名:容器文件夹地址)会复制容器中文件
+	例:docker run -d -p 宿主机端口号:容器软件端口号 --name 容器名 -v 数据卷名:/usr/local/tomcat(容器中的文件夹映射到宿主机上数据卷) 软件名:版本号
+	第二种方式:-v(自定义地址(必须绝对路径):容器文件夹地址)映射到自定义地址作为数据卷,且容器文件夹下内容在初始化时不会被映射,但是后续更新内容还是会映射上
+
+---
 docker安装具体软件:
-mysql:(具体文档可以查看dockerHub)
-docker pull mysql:5.7 ->安装
-docker run -d --name mysql01 -p3307:3306 -e MYSQL_ROOT_PASSWORD=123456 mysql:5.7
-->创建mysql01的容器设置密码为123456端口号在宿主机上对应3307
-docker exec -it mysql01 /bin/bash->#进入容器内部
-grant all privileges on *.* to root@'%' identified by "123456"; ->设置所有ip使用root用户登录给与所有权限
-flush privileges; ->刷新配置
-nginx安装同理:
-![[Docker和Jekins(去冲突和快速打包)_image_5.jpg]]
-以第一种映射方式映射到宿主机
-#创建数据卷
-docker volume create nginx-static
-docker volume create nginx-conf
-#绑定【映射】
-docker run -d -p 8888:80 --name nginx04 \
--v nginx-static:/usr/share/nginx \
--v nginx-conf:/etc/nginx \
-nginx:1.8
-以第二种映射方式将conf配置和html文件夹映射到宿主机对应文件或文件夹
-docker run -d --name nginx03 -v export/server/mynginx/conf/nginx.conf:/etc/nginx/nginx.conf -v /export/server/mynginx/html:/usr/share/nginx/html \
--p 8081:80 nginx:1.8
-注意:
-1.以第二种映射方式映射宿主机上如果映射开始时没有创建文件夹和文件则映射的时候一律当文件夹识别,所以conf文件如果要映射到文件上则要自行先创建文件和文件夹
-2.conf文件映射完成后并不能正确显示nginx页码,因为conf中的配置的静态资源是宿主机上的资源容器无法访问,应该改成容器中自己的静态资源
-reids同理:
-启动redis容器
-docker run -d --name redis01 -p6379:6379 redis:6.0.9 redis-server --appendonly yes
+	**mysql:(具体文档可以查看dockerHub)**
+	docker pull mysql:5.7 ->安装
+	docker run -d --name mysql01 -p3307:3306 -e MYSQL_ROOT_PASSWORD=123456 mysql:5.7
+	->创建mysql01的容器设置密码为123456端口号在宿主机上对应3307
+	docker exec -it mysql01 /bin/bash->#进入容器内部
+	grant all privileges on *.* to root@'%' identified by "123456"; ->设置所有ip使用root用户登录给与所有权限
+	flush privileges; ->刷新配置
+	**nginx安装同理:**
+	![[Docker和Jekins(去冲突和快速打包)_image_5.jpg|500]]
+	以第一种映射方式映射到宿主机
+	\#创建数据卷
+	docker volume create nginx-static
+	docker volume create nginx-conf
+	\#绑定【映射】
+	docker run -d -p 8888:80 --name nginx04 \
+	-v nginx-static:/usr/share/nginx \
+	-v nginx-conf:/etc/nginx \
+	nginx:1.8
+	以第二种映射方式将conf配置和html文件夹映射到宿主机对应文件或文件夹
+	docker run -d --name nginx03 -v export/server/mynginx/conf/nginx.conf:/etc/nginx/nginx.conf -v /export/server/mynginx/html:/usr/share/nginx/html \
+	-p 8081:80 nginx:1.8
+	注意:
+	1.以第二种映射方式映射宿主机上如果映射开始时没有创建文件夹和文件则映射的时候一律当文件夹识别,所以conf文件如果要映射到文件上则要自行先创建文件和文件夹
+	2.conf文件映射完成后并不能正确显示nginx页码,因为conf中的配置的静态资源是宿主机上的资源容器无法访问,应该改成容器中自己的静态资源
+	**reids同理:**
+	启动redis容器
+	docker run -d --name redis01 -p6379:6379 redis:6.0.9 redis-server --appendonly yes
 DockerUI(Portainer可视化管理docker)
-Portainer是Docker的图形化管理工具，提供状态显示面板、应用模板快速部署、容器镜像网络数据卷的基本操作（包括上传下载镜像，创建容器等操作）、事件日志显示、容器控制台操作、Swarm集群和服务等集中管理和操作、登录用户管理和控制等功能。功能十分全面，基本能满足中小型单位对容器管理的全部需求。
-# 查询当前有哪些Portainer镜像
-docker search portainer
-# 下载镜像
-docker pull portainer/portainer
-#启动
-docker run -d -p 9000:9000 \
---restart=always \
--v /var/run/docker.sock:/var/run/docker.sock \
---name myprtainer \
---privileged \
-portainer/portainer
-然后打开 ip地址:9000/查看页面即可
-注册账号密码账号:admin密码:123456123456
+	Portainer是Docker的图形化管理工具，提供状态显示面板、应用模板快速部署、容器镜像网络数据卷的基本操作（包括上传下载镜像，创建容器等操作）、事件日志显示、容器控制台操作、Swarm集群和服务等集中管理和操作、登录用户管理和控制等功能。功能十分全面，基本能满足中小型单位对容器管理的全部需求。
+	\# 查询当前有哪些Portainer镜像
+	docker search portainer
+	\# 下载镜像
+	docker pull portainer/portainer
+	\#启动
+	docker run -d -p 9000:9000 \
+	--restart=always \
+	-v /var/run/docker.sock:/var/run/docker.sock \
+	--name myprtainer \
+	--privileged \
+	portainer/portainer
+	然后打开 ip地址:9000/查看页面即可
+	注册账号密码账号:admin密码:123456123456
 DockerFile(核心)
 ![[Docker和Jekins(去冲突和快速打包)_image_6.jpg]]
 1.DockerFile是一个泛称->将项目push到镜像仓库的脚本文件,文件中包含了一条条的指令
@@ -163,6 +166,9 @@ CI/CD(持续集成和持续部署)
 持续集成(Continuous Integration):指在和向远程仓库 push 代码后，在这次提交合并入主分支前进行一系列测试，构建等流程。假设现在有个应用的代码存储在 git 上，每天开发者都 push 很多次提交，针对每次 push，你可以创建一系列脚本进行自动测试，降低往应用里引入错误的概率。这就是持续集成。
 持续部署(Continuous Deployment):在持续集成的基础上更进一步，指将推送指仓库默认分支的部署至产品环境。如果这部分需要手动触发，这就是一个持续交付（Continuous Delivery）环节
 ![[Docker和Jekins(去冲突和快速打包)_image_10.jpg]]
+
+
+---
 Jekins(docker版)
 主要目的:实现CICD流程简化测试部署环境
 jekins安装:
