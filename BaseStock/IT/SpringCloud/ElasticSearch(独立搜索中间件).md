@@ -1,41 +1,45 @@
-Elasticsearch(搜索数据库中间件)
-(是全文检索工具,索引库独立于数据库es查询只查索引库
-是一个中间件)
-为什么使用ElasticSearch查询而不使用数据库的模糊查询?
-1.检索效率高(数据库效率低容易阻塞)
-2.模糊查询无法满足高匹配度的搜索,不能满足全文检索的需求
-3.ES能根据一句话来分词找出关键词然后定位分类,实现倒排索引
-ElasticSearch是基于lucene实现，隐藏了Lucene的复杂性，对外提供Restful 接口来操作索引、搜索(solr同样,两种都行)
-倒排索引(ES核心)
-倒排索引就是根据每个事物建立对应的词条,然后搜索是通过查询词条来匹配对应的事物,
-正向索引是根据每个事物建立对应词条,然后搜索查询所有事物来寻找该事物是否包含指定词条
-因为我们日常baidu搜索的方式也是倒排索引通过词条属性去查找内容
-ES中的各个名词对应数据库(DB)中各个名词:(如下图)
-![[ElasticSearch(独立搜索中间件)_image_1.jpg]]
-ES中的数据都是Json格式,并且不同于表中的字段,域可以随时添加 , index(数据库)下直接放文档 ,并且文档中(document)除了ID域必须有,其他的可以选择没有
+ElasticSearch作用:
+	1.检索效率高(数据库效率低容易阻塞)
+	2.模糊查询无法满足高匹配度的搜索,不能满足全文检索的需求
+	3.ES能根据一句话来分词找出关键词然后定位分类,实现**倒排索引**
+简介:
+	Elasticsearch是全文检索工具,索引库独立于数据库es查询只查索引库是一个中间件
+	ElasticSearch是基于lucene实现，隐藏了Lucene的复杂性，对外提供Restful 接口来操作索引、搜索(solr同样,两种都行)
+**倒排索引(ES核心)**
+	倒排索引就是根据每个事物建立对应的词条,然后搜索是通过查询词条来匹配对应的事物,
+	正向索引是根据每个事物建立对应词条,然后搜索查询所有事物来寻找该事物是否包含指定词条
+	因为我们日常baidu搜索的方式也是倒排索引通过词条属性去查找内容
+ES中的各个关键字(对应数据库中各个关键字)
+	![[ElasticSearch(独立搜索中间件)_image_1.jpg]]
+	**ES中的数据都是Json格式**,并且不同于表中的字段,域可以随时添加 , index(数据库)下直接放文档 ,并且文档中(document)除了ID域必须有,其他的可以选择没有
 ES安装与配置
-windows:
-下载zip压缩包解压(到bin目录ES.bat启动即可默认端口9200)
-默认无需修改配置,端口号9200,如果需要搭建ES集群则到config包下修改elasticsearch.yaml修改对应配置(没学)
-jvm.options修改给es的内存空间
-使用localhost:9200/打开es页面,后续会使用kibana的5601端口打开页面辅助操作
-linux(注:root用户无法启动es需要创建新用户):
-下载tar.gz包解压到指定文件夹,
-到bin包下sh ./elastaicsearch.sh启动即可
-安装注意：kibanna版本必须和elasticsearch的版本强一致
-ik分词器的版本必须和elasticsearch的版本强一致
-且es的端口号修改了则kibana的指向es的配置也需要修改
-当elasticsearch和kibana不在一台服务器上，那么需要修改kibana的配置，正确指定elasticsearch的url
-Kibana(可视化页面辅助操作ES)
-作用:可视化控制台辅助写es语句和es数据库控制
-安装(windows):下载kibana的zip包解压即可
-linux安装:下载tar.gz包解压即可
-注意事项:
-1.与ES的版本必须强一致
-2.当elasticsearch和kibana不在一台服务器上，那么需要修改kibana的配置，正确指定elasticsearch的url
-使用(默认端口号5601):localhost:5601
-![[ElasticSearch(独立搜索中间件)_image_2.jpg]]
-主要使用其中dev tool进行操作书写es格式数据测试(此处每一次使用都是一次请求调用的es的接口)
+	**windows:**
+	下载zip压缩包解压(到bin目录ES.bat启动即可默认端口9200)
+	默认无需修改配置,端口号9200,如果需要搭建ES集群则到config包下修改elasticsearch.yaml修改对应配置(没学)
+	jvm.options修改给es的内存空间
+	使用localhost:9200/打开es页面,后续会使用kibana的5601端口打开页面辅助操作
+	**linux**:
+	(注:root用户无法启动es需要创建新用户):
+	下载tar.gz包解压到指定文件夹,
+	到bin包下sh ./elastaicsearch.sh启动即可
+	安装注意：
+		kibanna版本必须和elasticsearch的版本强一致
+		ik分词器的版本必须和elasticsearch的版本强一致
+		且es的端口号修改了则kibana的指向es的配置也需要修改
+		当elasticsearch和kibana不在一台服务器上，那么需要修改kibana的配置，正确指定elasticsearch的url
+
+
+
+**Kibana(可视化页面辅助操作ES)**
+	作用:可视化控制台辅助写es语句和es数据库控制
+	安装(windows):下载kibana的zip包解压即可
+	linux安装:下载tar.gz包解压即可
+	**注意事项:**
+		1.与ES的版本必须强一致
+		2.当elasticsearch和kibana不在一台服务器上，那么需要修改kibana的配置，正确指定elasticsearch的url
+	使用(默认端口号5601):localhost:5601
+	![[ElasticSearch(独立搜索中间件)_image_2.jpg|175]]
+	主要使用其中dev tool进行操作书写es格式数据测试(此处每一次使用都是一次请求调用的es的接口)
 kibana创建索引库(ES库)和切换索引库
 stack Management->index Patterns->create index patterns
 例如:XXX*则创建出一个XXX的索引库

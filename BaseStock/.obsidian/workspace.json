@@ -35,12 +35,16 @@
             "id": "86bfce3625a460dd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "obsidian相关/Obsidian快捷键.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "快捷",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -115,6 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,6 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +158,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "IT/SpringCloud/ElasticSearch(独立搜索中间件).md"
+              }
             }
           },
           {
@@ -209,13 +217,13 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "68447e7ec5dfad2f",
+  "active": "4955cb942e9fd523",
   "lastOpenFiles": [
+    "obsidian相关/Obsidian快捷键.md",
     "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
     "每日八股文(2).md",
     "IT/SpringCloud/Docker和Jekins(去冲突和快速打包).md",
     "obsidian相关/Picture/Docker和Jekins(去冲突和快速打包)_image_4.jpg",
-    "obsidian相关/Obsidian快捷键.md",
     "obsidian相关/Picture/tmp1683772267476_Docker和Jekins(去冲突和快速打包)_image_1.jpg",
     "obsidian相关/Picture/tmp1683530947739_常用算法_image_2.png",
     "IT/SpringCloud/Sentinel(降级熔断).md",
