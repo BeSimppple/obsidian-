@@ -77,21 +77,21 @@ Redisson结合IDEA实现:
 	3.秒杀表设计(秒杀商品表,秒杀订单状态表)
 	4.设计秒杀方案(从db到redis)此处采用准点将商品db放到redis
 	5.设计秒杀显示状态(根据审核状态,秒杀数,活动结束时间)
-使用spring task完成定时任务作用(准点将数据从db储存到redis) @EnableScheduling写在启动项上
-写定时任务@Scheduled并ioc到spring容器
-流程:
-![[Redisson分布式锁和SpringTask_image_1.jpg]]
+	使用spring task完成定时任务作用(准点将数据从db储存到redis) 
+	写定时任务@Scheduled并ioc到spring容器
+		流程:
+		![[Redisson分布式锁和SpringTask_image_1.jpg]]
 redis存储格式:
-大key:seckill_goods_2020080808
-小key:goods_id
-小value:商品信息的json
+	大key:seckill_goods_2020080808
+	小key:goods_id
+	小value:商品信息的json
 秒杀商品显示条件
-1.审核状态必须是seckill_status=1
-2.商品秒杀数必须seckill_count>0
-3.活动没有结束 seckill_endtime> =now()
-满足以上条件的数据（db）从db获取存储到Redis
+	1.审核状态必须是seckill_status=1
+	2.商品秒杀数必须seckill_count>0
+	3.活动没有结束 seckill_endtime> =now()
+	满足以上条件的数据（db）从db获取存储到Redis
 秒杀业务结合IDEA
-流程:
+	流程:
 	1.获取正在开始以及即将开始一共五个时间区间
 	通过写的DateUtil工具类
 	List<Date> dateMenus =DateUtil.getDateMenus()
