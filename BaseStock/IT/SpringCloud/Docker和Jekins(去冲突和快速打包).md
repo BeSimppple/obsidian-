@@ -10,11 +10,11 @@
 	**4.使不同服务之间相互隔离(单程序运行出错不会发生雪崩)**
 	集装箱概念让运行不会收到牵连
 架构图
-![[Docker和Jekins(去冲突和快速打包)_image_1.jpg]]
-docker就是docker软件客户端
-hosts就是我们主机 其中的deamon(虚拟光驱)就是集成在主机中的的docker
-Registries就是docker的集装箱仓库,仓库内包含Image(镜像文件)
-container(容器):镜像和容器的关系，就像是面向对象程序设计中的类和实例一样，镜像是静态的定义(类)，容器是镜像运行时的实体(实例)。容器可以被创建、启动、停止、删除、暂停等。
+	![[Docker和Jekins(去冲突和快速打包)_image_1.jpg]]
+	docker就是docker软件客户端
+	hosts就是我们主机 其中的deamon(虚拟光驱)就是集成在主机中的的docker
+	Registries就是docker的集装箱仓库,仓库内包含Image(镜像文件)
+	container(容器):镜像和容器的关系，就像是面向对象程序设计中的类和实例一样，镜像是静态的定义(类)，容器是镜像运行时的实体(实例)。容器可以被创建、启动、停止、删除、暂停等。
 Docker运行一个项目的流程:
 	Docker 使用客户端-服务器 (C/S) 架构模式，使用远程API来管理和创建Docker容器。
 	1.安装docker
@@ -49,8 +49,9 @@ Docker的常用命令
 	docker rmi 镜像id(#根据镜像id删除，注意如果两个镜像的镜像id（id前缀）一样，是无法被删除的
 	docker rmi 镜像:版本号(#根据镜像名:版本删除)
 	**容器相关:(docker run --help查看文档)**
-	容器实例命令格式： docker run [OPTIONS] IMAGE COMMAND
-	OPTIONS说明(常用)： –-name=‘容器新名字’：为容器自定义一个名称
+	容器实例命令格式： ==docker run \[OPTIONS] IMAGE COMMAND==
+	**OPTIONS说明(常用)：** 
+	–-name=‘容器新名字’：为容器自定义一个名称
 	--rm 运行完容器退出后删除
 	-d：(detach)后台运行容器，并返回容器ID，也叫守护式容器 -i：(interactive)以交互模式运行容器(一般配合-t使用可以进去输入linux命令,exit退出后后台也随之退出) -t：(terminal)为容器重新分配一个伪终端
 	-P：指定容器端口映射到宿主机端口
@@ -66,17 +67,18 @@ Docker的常用命令
 	docker start 容器名 (开始指定容器)
 	命令： docker ps [OPTIONS]
 	**OPTIONS说明：** 
-	\-a :列出当前所有正在运行的容器+历史上运行过的 
-	\-l :显示最近创建的容器。
-	\-n：显示最近n个创建的容器。 
-	 \-q :静默模式，只显示容器编号。
-	  –no-trunc :不截断输出。
+	1. \-a :列出当前所有正在运行的容器+历史上运行过的 
+	2. \-l :显示最近创建的容器。
+	3. \-n：显示最近n个创建的容器。 
+	4. \-q :静默模式，只显示容器编号。
+	5. \–no-trunc :不截断输出。
 	docker ps(查看正在运行的容器)
 	docker pa -a(查看正在运行的容器和已经退出的)
 
+---
+## Docker的容器中的数据持久化(数据卷)
 
-Docker的容器中的数据持久化(数据卷)
-#数据卷本质就是宿主机的一个目录 默认存放路径为
+\#数据卷本质就是宿主机的一个目录 默认存放路径为
 var/lib/docker/volumes/
 ![[Docker和Jekins(去冲突和快速打包)_image_4.jpg]]
 1.数据卷就是宿主机(linux主机)的一个文件夹或文件,
