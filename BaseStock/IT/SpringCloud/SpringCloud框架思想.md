@@ -4,31 +4,33 @@ SpringCloud作用
 	例如:springboot2.3.4版本必须对应Hoxton版本(可上springcloud官网查询)因为cloud-alibaba依赖cloud而cloud依赖boot
 	每个组件例如sentinel等都做了规范,可以查询
 **配置文件后缀yaml和properties的差异**
-	加载顺序yml>properties,优先级properties>yml，properties会覆盖yml
-	加载顺序和优先级是相反的，正常的加载顺序是yml>properties，但是由于后加载的会覆盖先加载的
+	**加载顺序yaml>properties**
+	**优先级properties>yaml**
+	加载顺序和优先级是相反的，后加载的会覆盖先加载的 ,properties会覆盖yaml
 **bootstrap配置文件和application配置文件差异**
-bootstrap优先于application加载,用来在程序引导时执行，应用于更加早期配置信息读取，如可以使用来配置application.yml中使用到参数等
-application 应用程序特有配置信息，可以用来配置后续各个模块中需使用的公共参数等。
-springcloud小结
-1：nacos注册中心，解决了服务的注册与发现（微服务之间的调用）
-1.5:nacos-config配置中心,解决了多个服务的配置文件分散,但是重复配置冗余的问题且配置不能动态刷新.(统一配置到nacos)
-2：Ribbon客戶端负载均衡器，解决了多个微服务实例（或集群）的负载均衡
-3：Openfeign 声明式HTTPclient，辅助服务之间远程调用
-4：Sentinel 分布式系统的流量防卫兵，通过服务限流、熔断降级，保护服务的稳定，防止出现服务雪崩(一个环节系统崩溃导致其他系统牵连)
-5：SpringCould-Gateway（api网关），微服务统一入口，网关可以统一处理（路由转发、过滤、限流、认证）
-6：链路监控Sleuth和zipkin:追踪定位链路,结合zipkin更好的去追踪是哪个环节导致速度变慢(类似还有mysql开启慢sql查询,然后通过druid监控台监控)
-7.Elasticsearch:作为一个中立的搜索数据库解决复杂查询问题
-8.RocketMQ:异步处理请求的中间件(底层是生产者消费者设计模式)
-9.redis 多功能kv格式高效内存中间件
-10.linux 安全性和高度模块化系统
-11.nginx 反向代理和负载均衡
-12.freemarker 动态生成静态页面(减少数据库访问次数,占磁盘但速度快)
-13.springSecurity 服务之间通过JWT令牌(存放在客户端RSA公私钥加密不易被破解)获取信息和权限
-14.docker作为大容器将一个个软件环境和jar包封装成"集装箱"格式解决了版本差异冲突和快速安装软件和搭建集群
-15.jekins 帮助我们脚本化的完成从gitee拉项目打成jar包进行基础运行测试上传到gitee的工具(CICD持续集成和持续部署)
-14.Util项目作为自建工具类项目供其他包调用
-util包作为工具包经常作为<dependency^>依赖被导入其他项目中,然后主项目不写任何工程主项目的pom包作为一个主依赖将通用依赖包一般放到主项目作为父类继承给子项目
-然后依赖包的版本控制也是放在主项目的pom依赖中
+	**bootstrap优先于application加载,用来在程序引导时执行，应用于更加早期配置信息读取**，如可以使用来配置application.yml中使用到参数等
+	application 应用程序特有配置信息，可以用来配置后续各个模块中需使用的公共参数等。
+**SpringCloud组件**
+	1. **nacos注册中心**，解决了服务的注册与发现（微服务之间的调用）
+	2. **:nacos-config配置中心**,解决了多个服务的配置文件分散,但是重复配置冗余的问题且配置不能动态刷新.(统一配置到nacos)
+	3. **Ribbon客戶端负载均衡器**，解决了多个微服务实例（或集群）的负载均衡
+	4. **Openfeign 声明式HTTPclient**，辅助服务之间远程调用
+	5. **Sentinel 分布式系统的流量控制**，通过服务限流、熔断降级，保护服务的稳定，防止出现服务雪崩(一个环节系统崩溃导致其他系统牵连)
+	6. **SpringCould-Gateway（api网关）**，微服务统一入口，网关可以统一处理（路由转发、过滤、限流、认证）
+	7. **链路监控Sleuth和zipkin:追踪定位链路,** 结合zipkin更好的去追踪是哪个环节导致速度变慢(类似还有mysql开启慢sql查询,然后通过druid监控台监控)
+	8. **Elasticsearch(独立倒排索引搜索库)** :作为一个中立的搜索数据库解决复杂查询问题
+	9. **RocketMQ:异步处理请求的中间件**(底层是生产者消费者设计模式)
+	10. **SpringSecurity 权限细分以及单点登录**(服务之间通过JWT令牌(存放在客户端RSA公私钥加密不易被破解)获取信息和权限)
+	11. **freemarker 模版生成静态页面**(减少数据库访问次数,占磁盘但速度快)
+	 ----==辅助工具==
+	11. **Redis 多数据机构kv格式高效内存中间件**
+	12. **Linux 安全性和高度模块化系统(多用户多任务系统)**
+	13. **Nginx 服务端反向代理和负载均衡**
+	16. Docker作为大容器将一个个软件环境和jar包封装成"集装箱"格式解决了版本差异冲突和快速安装软件和搭建集群
+	17. 15.jekins 帮助我们脚本化的完成从gitee拉项目打成jar包进行基础运行测试上传到gitee的工具(CICD持续集成和持续部署)
+	18. 14.Util项目作为自建工具类项目供其他包调用
+	util包作为工具包经常作为<dependency^>依赖被导入其他项目中,然后主项目不写任何工程主项目的pom包作为一个主依赖将通用依赖包一般放到主项目作为父类继承给子项目
+	然后依赖包的版本控制也是放在主项目的pom依赖中
 8.spring-cloud-test引入后在test包下创建test类,然后类上加注释@springbootTest 之后使用@Test注解写方法即可
 SpringCloud的概念?
 全名:springcloud-netfilx
