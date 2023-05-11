@@ -74,28 +74,6 @@ Docker的常用命令
 	5. \–no-trunc :不截断输出。
 	docker ps(查看正在运行的容器)
 	docker pa -a(查看正在运行的容器和已经退出的)
-
----
-## Docker的容器中的数据持久化(数据卷)
-
-数据卷
-	\#数据卷本质就是宿主机的一个目录 默认存放路径为
-	var/lib/docker/volumes/
-	![[Docker和Jekins(去冲突和快速打包)_image_4.jpg]]
-	1.数据卷就是宿主机(linux主机)的一个文件夹或文件,
-	2.容器中的数据或配置与数据卷绑定后可以双向传输
-	3.一个数据卷可以被多个容器绑定
-	4.一个容器可以绑定多个数据卷
-	5.容器删除时数据卷不会删除
-数据卷相关命令:
-	docker volume create 数据卷名称(#创建数据卷的命令,tomcat为数据卷的名称)
-	docker volume inspect 数据卷名(查看数据卷详细信息)
-	容器绑定数据卷: -v 命令
-	第一种方式:-v(数据卷名:容器文件夹地址)会复制容器中文件
-	例:docker run -d -p 宿主机端口号:容器软件端口号 --name 容器名 -v 数据卷名:/usr/local/tomcat(容器中的文件夹映射到宿主机上数据卷) 软件名:版本号
-	第二种方式:-v(自定义地址(必须绝对路径):容器文件夹地址)映射到自定义地址作为数据卷,且容器文件夹下内容在初始化时不会被映射,但是后续更新内容还是会映射上
-
----
 docker安装具体软件:
 	**mysql:(具体文档可以查看dockerHub)**
 	docker pull mysql:5.7 ->安装
@@ -105,7 +83,7 @@ docker安装具体软件:
 	grant all privileges on *.* to root@'%' identified by "123456"; ->设置所有ip使用root用户登录给与所有权限
 	flush privileges; ->刷新配置
 	**nginx安装同理:**
-	![[Docker和Jekins(去冲突和快速打包)_image_5.jpg|500]]
+	![[Docker和Jekins(去冲突和快速打包)_image_4.jpg|500]]
 	以第一种映射方式映射到宿主机
 	\#创建数据卷
 	docker volume create nginx-static
@@ -139,10 +117,33 @@ DockerUI(Portainer可视化管理docker)
 	portainer/portainer
 	然后打开 ip地址:9000/查看页面即可
 	注册账号密码账号:admin密码:123456123456
-DockerFile(核心)
-![[Docker和Jekins(去冲突和快速打包)_image_6.jpg]]
-1.DockerFile是一个泛称->将项目push到镜像仓库的脚本文件,文件中包含了一条条的指令
-2.使用DockerFile构建一个自己的全新镜像
+
+---
+## Docker的容器中的数据持久化(数据卷)
+
+数据卷
+	\#数据卷本质就是宿主机的一个目录 默认存放路径为
+	var/lib/docker/volumes/
+	![[Docker和Jekins(去冲突和快速打包)_image_5.jpg]]
+	1.数据卷就是宿主机(linux主机)的一个文件夹或文件,
+	2.容器中的数据或配置与数据卷绑定后可以双向传输
+	3.一个数据卷可以被多个容器绑定
+	4.一个容器可以绑定多个数据卷
+	5.容器删除时数据卷不会删除
+数据卷相关命令:
+	docker volume create 数据卷名称(#创建数据卷的命令,tomcat为数据卷的名称)
+	docker volume inspect 数据卷名(查看数据卷详细信息)
+	容器绑定数据卷: -v 命令
+	第一种方式:-v(数据卷名:容器文件夹地址)会复制容器中文件
+	例:docker run -d -p 宿主机端口号:容器软件端口号 --name 容器名 -v 数据卷名:/usr/local/tomcat(容器中的文件夹映射到宿主机上数据卷) 软件名:版本号
+	第二种方式:-v(自定义地址(必须绝对路径):容器文件夹地址)映射到自定义地址作为数据卷,且容器文件夹下内容在初始化时不会被映射,但是后续更新内容还是会映射上
+
+---
+## Dockerfile(脚本文档)
+DockerFile作用
+	是一个文本文档，DockerFile是一个泛称->将项目push到镜像仓库的脚本文件,文件中包含了一条条的指令
+![[Docker和Jekins(去冲突和快速打包)_image_6.jpg|400]]
+使用DockerFile构建一个自己的全新镜像
 镜像生成流程:
 1.编写dockerFile
 ![[Docker和Jekins(去冲突和快速打包)_image_7.jpg]]
