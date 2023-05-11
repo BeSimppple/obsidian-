@@ -33,209 +33,6 @@ ES常用注解:
 	@Id 类似主键id 同时es的id是表示一行数据的标识id
 	@Filed 类似于表中的一个普通字段可以修改很多属性,例如index默认为true加入倒排索引
 	@Repository 用来作为Dao层注入 自定义类继承extends ElasticsearchRepository<映射表类,Long>
-
----
-**Kibana(可视化页面辅助操作ES)**
-	**作用:** 可视化控制台辅助写es语句和es数据库控制
-	安装(windows):下载kibana的zip包解压即可
-	linux安装:下载tar.gz包解压即可
-	**注意事项:**
-		1.与ES的版本必须强一致
-		2.当elasticsearch和kibana不在一台服务器上，那么需要修改kibana的配置，正确指定elasticsearch的url
-	使用(默认端口号5601):localhost:5601
-	![[ElasticSearch(独立搜索中间件)_image_2.jpg|175]]
-	主要使用其中dev tool进行操作书写es格式数据测试(此处每一次使用都是一次请求调用的es的接口)
-kibana创建索引库(ES库)和切换索引库
-	stack Management->index Patterns->create index patterns
-	例如:XXX*则创建出一个XXX的索引库
-	然后到discovery->切换到XXX*
-**IK分词器(中文分词辅助)**
-	**作用:** 使用默认分词器对中文分词并不友好,IK分词器能真正把中文分词
-安装:
-	下载后将文件夹放到elasticsearch的plguin包下即可,es会自动搜索包下的plugin-security.policy文件
-	然后到kibana控制台的dev tool中使用put /emp设定指定索引 例如: "ik_max_word"
-	**注意事项:**
-	IK分词器必须与ES版本强一致
-分词方式使用:
-	ik_smart:最少切分
-	ik_max_word:最细粒度切分
-	扩展词典和停用词典(config包中IKAnalyzer.cfg.xml配置,然后修改指定文件内容后重启es即可)
-	![[ElasticSearch(独立搜索中间件)_image_3.jpg]]
-
----
-## ElasticSearch持久化:
-**ES中数据存储的走向**
-	![[ElasticSearch(独立搜索中间件)_image_4.jpg]]
-	整体流程:
-	![[ElasticSearch(独立搜索中间件)_image_5.jpg]]
-	1.提交到内存缓冲区(此时客户端还读不到)
-	每隔1s会进行一次refresh操作刷新到内存中形成一个新的segement file文件(仅存在系统内存os cache)
-	2.内存缓冲区生成新的segment,刷到文件缓存(cache)
-	如果小的segment文件过多可以手动merge(会自动merge)
-	3.文件系统缓存f-sync到磁盘,commit更新文件
-	内存中的segement文件通过flush操作写入磁盘形成commit point文件(会先清空buffer到内存再将内存数据持久化)持久化完成后会将Translog文件(备份)清除
-	默认每30s进行一次flush,translog备份过大也会进行flush
-Translog作用:
-	![[ElasticSearch(独立搜索中间件)_image_6.jpg]]
-	如果在内存期间宕机则会丢失数据,所以要实现持久化
-	es自己提供了Translog文件(数据写入到buffer内存的同时也会追加备份一份到Translog默认每5s将translog刷新到磁盘)我们可以通过对Translog进行flush操作来持久化到磁盘(流程还是先刷到缓存区再到磁盘)
-
----
-## ElasticSearch高可用:
-搭建分布式存储(分块处理,同时还解决存储空间问题)
-	建立多个node,将数据进行分块处理\[1,2,3,4]分为\[1,3]和\[2,4]
-	2个大块同时需要对2个大块进行备份处理(可以创建多个备份)
-	创建2n个node分别存放\[1rep,3rep]和\[2rep,4rep]
-如何保证高可用(恢复数据)
-	metadata(元数据)会标注{block1(包含数据\[1.3]的数据块) 在`192.168174.129 192.168174.130 ...等服务器}
-	假如第一个服务器没找到从第二个找,通过元数据恢复
-	同理{block2(包含\[2.4]的数据块) 分布在XXX服务器.......}
-客户端请求和服务端集群如何响应
-	客户端使用RestHighlevelClient发送写请求es集群,集群首先master节点接收消息
-	然后通过解析你请求的数据的hash地址(类似redis集群请求)来判断在那个服务器响应你的写请求,
-	该服务器写完成后会将数据发送给相同的节点编号\[例如1,3]在其他服务器上的rep副本块x,y,
-	只要x或者y等其中一个rep副本块完成读操作后就会发送消息给master节点让master节点返回消息给客户端
-	如果其中一个节点读取失败或者超时则会放弃该会通过设置的参数timeout放弃考虑该分片
-
-
-
-
-**ES整合Idea和数据库(生成es独立数据库供服务器搜索)**
-	**0.首先导入pom依赖(spring-boot-starter-data-elasticsearch)**
-	配置properties信息
-	spring.elasticsearch.rest.uris=\http://XXX:9200
-	**1.设计index和对应Vo(必须使用设置了ik分词器的index数据库才能更好分词中文和英文)**
-	设置一个Bean文件夹装 '表' 一个表中有多个域可以设置
-	@Document定义一个index数据库 设置indexName
-	@Id 设置主键,默认为id且最好设置为String
-	@Field 中设置index=true(默认为true)会根据这个域分词建立索引 , store=flase面对一些大内容简介想要建立索引却不想存储内容数据使用 FiledType.Keyword表示密码格式不分词
-	keyword类型不能设置anlyzer会报错
-	最后根据该index数据库写一个对应Vo类
-	**2.设计DAO层**
-	@Repository标记为DAO层
-	然后自定义类继承ES提供的操作类ElasticsearchRepository<@Document自定义的映射类,Long>
-	类似mybatisPlus里面实现了基础的crud直接使用接口即可,但是名字不能乱改
-	**3.设计Controller层**
-	@Autowired注入elasticsearchRestTemplate(负责文档查询+索引库操作(索引库添加,删除,修改))
-	@Autowired注入esUserRepository(负责文档的增删改操作)
-	常用接口:
-	通过注入的ElasticsearchRestTemplate提供的方法来创建,删除,判断索引库
-	**3.1创建索引库(通过反射获取BEAN中index)
-	3.2删除索引库
-	3.3判断索引库是否存在
-	3.4自行编写需要的索引库的操作**
-	通过注入的EsUserRepository提供的方法来保存,查询文档
-	**3.5自行编写需要的文档操作
-	3.6.书写复合查询代码**
-	**具体流程:**
-		1.解析传入的json对象@RequestBody XXX获取域值(等同于表的字段值),
-		2.构建查询条件类(根据json传入的域值构建查询类)
-		BoolQueryBuilder defaultQueryBuilder = QueryBuilders.boolQuery();
-		XXX.getxxx()获取value值然后stirngUtils.isEmpty()判断是否为空,不为空则放入defaultQueryBuilder 对象的查询条件中defaultQueryBuilder.should(QueryBuilders.termQuery("变量名", 获取到的value));->此处should表示应该,替换成must表示必须,termquery查询表示不分词matchquery表示分词
-		(判断查询内容的域值是否为空,,然后将对应域值(如果是集合则遍历)加入查询条件中进行判断
-		3.设置分页条件
-		PageRequest pageRequest = PageRequest.of(page,limit);
-		4.设置高亮条件 对应域名字段高亮
-		HighlightBuilder highlightBuilder = getHighlightBuilder("域名1", "域名2");
-		5.设置排序条件 根据域名排序
-		FieldSortBuilder sortBuilder = SortBuilders.fieldSort("域名").order(SortOrder.DESC);
-		6组装所有条件 (NativeSearchQuery类)
-			NativeSearchQuery searchQuery = new NativeSearchQueryBuilder()
-			.withQuery(defaultQueryBuilder)
-			.withHighlightBuilder(highlightBuilder)
-			.withPageable(pageRequest)
-			.withSort(sortBuilder).build();
-		7.根据设置的条件,传入对象内容,进行搜索 (SearchHits类)
-			SearchHits<对象> searchHits = elasticsearchRestTemplate.search(searchQuery, 对象.class);
-		8.(将查询到的值映射到对象(VO类)中) 同时高亮字段设置高亮
-		List\<ESuserVo> userVoList = new ArrayList\<ESuserVo>();
-		//遍历查询回来的每个域中内容
-		for (SearchHit\<ESuser> searchHit : searchHits) {
-		ESUser content = searchHit.getContent();
-		System.out.println(content);
-		ESUserVO esUserVo = new ESUserVO();
-		BeanUtils.copyProperties(content,esUserVo);
-		Map<String, List\<String>> highlightFields = searchHit.getHighlightFields(); //获取需要高亮的值
-		//遍历需要高亮的值,去各个域中匹配然后替换
-		for (String highlightField : highlightFields.keySet()) {
-		if (域名1.equals(highlightField,get(0))){
-		//替换原来没有高亮的值 esUserVo.setTags(highlightFields.get(highlightField));
-		}else if(域名2.equals(highlightField,get(0))){
-		//替换原来没有高亮的值 esUserVo.setDesc(highlightFields.get(highlightField).get(0))
-		}
-		}
-		userVoList.add(esUserVo);
-		}
-		最后 return 映射类VoList;
-		}
-	//设置高亮字段的私有方法
-		private HighlightBuilder getHighlightBuilder(String... fields) {
-		// 高亮条件
-		HighlightBuilder highlightBuilder = new HighlightBuilder(); //生成高亮查询器
-		for (String field : fields) {
-		highlightBuilder.field(field);//高亮查询字段
-		}
-		highlightBuilder.requireFieldMatch(false); //如果要多个字段高亮,这项要为false
-		highlightBuilder.preTags("\<span style=\"color:red\">"); //高亮设置
-		highlightBuilder.postTags("\</span>");
-		//下面这两项,如果你要高亮如文字内容等有很多字的字段,必须配置,不然会导致高亮不全,文章内容缺失等
-		highlightBuilder.fragmentSize(800000); //最大高亮分片数
-		highlightBuilder.numOfFragments(0); //从第一个分片获取高亮片段
-		return highlightBuilder;
-		}
-	4.ES库表设计
-	因为ElasticSearch是非关系型数据库,不能进行联表查询,因此建立域的时候需要把所有域(字段)写进一张index
-	为此我们要先提前整理好所有可能相关用到的字段name,price等设计一张index表,然后数据库通过sql语句创建一个对应index表的联表查询的视图(方便以后使用视图查询内容同步到es库
-	create VIEW XXX as select 需要的参数 from XXX left joinXXX onXXX= XXX...
-	)
-	判断一个域的几种属性(field,type,analyzer,store)
-	@field:表示为一个域(字段)
-	type:建立的域的类型
-	有text(分词)keyword(不分词)Integer(不分词)
-	analyzer分词器:不指定或指定(Ik_max_word)
-	store:store= true(存储) 或 false(不存储)
-	5.同步索引库(将数据库中视图内容同步到es数据库 )
-	流程思路:
-	1.在数据库视图对应模块(例如查询商品的就在goods模块)创建接口(使用generate code生成对应mapper和service等)
-	Controller层注入视图对应impl实现类写一个接口findAll()
-	实现类,list()方法返回全部数据
-	2.在elasticSearch模块写一个新的Dao层接口EsGoodsRepository继承ElasticsearchRepository<ESGoods,long>
-	然后pom导入openfeign依赖写一个远程调用接口调用goods模块的findAll()拿到数据库数据,然后new一个ES库映射类EsGoods的List集合然后for循环数据库的视图List集合
-	使用BeanUtils.copyProperties(视图数据,new esGoods());将数据复制到es的映射类中,然后使用List,add(esGoods);将复制完成的加入list集合,然后for循环遍历使用EsGoodsRepository.save(esgood);将数据一个个存入ES数据库(创建随机唯一ID)
-	最后可以通过kibana堆栈管理(stack Manage)里索引模式
-	index Management中查看是否有自己命名的index库存入然后到(index pattern)创建索引(ES_goods)后发现(discovery)中查看
-	6.索引查询接口开发
-	在kibana中切入到我们创建的指定库(ES_goods)然后使用指令预先模拟前端页面需求的功能(该分词的字段用match不该分的用term)必要的用must 可有可无的用should多个域(字段)同时查询的使用mutli_match
-	然后到idea中将复杂查询模板代码复制过来根据需求修改
-	7.前端联调
-	8.添加商品等操作--同步索引库(MQ或者OpenFeign)
-	openfeign(不推荐容易阻塞)
-	1.创建videoToES(List<数据库类型类>){
-	遍历数据库类型类集合,将其中元素转换成ES索引库类型类,通过EsVideoRepository(自带接口)的save方法加入索引库
-	}
-	2.商品模块依赖openfeign,并写一个@feignclient接口远程调用search中的同步索引库接口
-	2.改造商品模块的添加商品等接口,调用search中的接口
-	MQ(队列异步不阻塞,推荐)
-	ES长时间未响应断开连接(临时解决办法)
-	加入配置,(每5分钟发送数据保持http存活)
-	httpClientBuilder.setKeepAliveStrategy((response, context) -> Duration.ofMinutes(5).toMillis());
-
-
-
-课外思路:建立综合查询(例如B站搜索关键词出现视屏和文章或up主等多种类型)的表设计
-默认搜索视频+文章(懒加载--只有在没有视频或者手动点文章的时候去搜索)
-综合查询的数据库视图两种建立方式:
-第一种:
-1.几种查询几个视图(因为每个视频和文章对应的作者不一定相同)
-2.后台设置默认搜索视频,懒加载搜索文章等
-3.后期结合两种查询的结果
-第二种:
-1.创建单个视图,因为ES可是json格式可以插入多个的域
-单格视图省略了后期整合的麻烦,但是需要增加判断类型的域
-2.后台设置默认搜索视频,懒加载搜索文章等
-
-
-
 **ES-RestfulAPI**
 	分词查询:match
 	不分词查询:trem
@@ -485,3 +282,202 @@ Translog作用:
 	}
 	}
 	}
+**ES整合Idea和数据库(生成es独立数据库供服务器搜索)**
+	**0.首先导入pom依赖(spring-boot-starter-data-elasticsearch)**
+		配置properties信息
+		spring.elasticsearch.rest.uris=\http://XXX:9200
+	**1.设计index和对应Vo(必须使用设置了ik分词器的index数据库才能更好分词中文和英文)**
+		设置一个Bean文件夹装 '表' 一个表中有多个域可以设置
+		@Document定义一个index数据库 设置indexName
+		@Id 设置主键,默认为id且最好设置为String
+		@Field 中设置index=true(默认为true)会根据这个域分词建立索引 , store=flase面对一些大内容简介想要建立索引却不想存储内容数据使用 FiledType.Keyword表示密码格式不分词
+		keyword类型不能设置anlyzer会报错
+		最后根据该index数据库写一个对应Vo类
+	**2.设计DAO层**
+		@Repository标记为DAO层
+		然后自定义类继承ES提供的操作类ElasticsearchRepository<@Document自定义的映射类,Long>
+		类似mybatisPlus里面实现了基础的crud直接使用接口即可,但是名字不能乱改
+	**3.设计Controller层**
+		@Autowired注入elasticsearchRestTemplate(负责文档查询+索引库操作(索引库添加,删除,修改))
+		@Autowired注入esUserRepository(负责文档的增删改操作)
+		常用接口:
+		通过注入的ElasticsearchRestTemplate提供的方法来创建,删除,判断索引库
+	**3.1创建索引库(通过反射获取BEAN中index)
+	3.2删除索引库
+	3.3判断索引库是否存在
+	3.4自行编写需要的索引库的操作**
+	通过注入的EsUserRepository提供的方法来保存,查询文档
+	**3.5自行编写需要的文档操作
+	3.6.书写复合查询代码**
+	**具体流程:**
+		1.解析传入的json对象@RequestBody XXX获取域值(等同于表的字段值),
+		2.构建查询条件类(根据json传入的域值构建查询类)
+		BoolQueryBuilder defaultQueryBuilder = QueryBuilders.boolQuery();
+		XXX.getxxx()获取value值然后stirngUtils.isEmpty()判断是否为空,不为空则放入defaultQueryBuilder 对象的查询条件中defaultQueryBuilder.should(QueryBuilders.termQuery("变量名", 获取到的value));->此处should表示应该,替换成must表示必须,termquery查询表示不分词matchquery表示分词
+		(判断查询内容的域值是否为空,,然后将对应域值(如果是集合则遍历)加入查询条件中进行判断
+		3.设置分页条件
+		PageRequest pageRequest = PageRequest.of(page,limit);
+		4.设置高亮条件 对应域名字段高亮
+		HighlightBuilder highlightBuilder = getHighlightBuilder("域名1", "域名2");
+		5.设置排序条件 根据域名排序
+		FieldSortBuilder sortBuilder = SortBuilders.fieldSort("域名").order(SortOrder.DESC);
+		6组装所有条件 (NativeSearchQuery类)
+		NativeSearchQuery searchQuery = new NativeSearchQueryBuilder()
+		.withQuery(defaultQueryBuilder)
+		.withHighlightBuilder(highlightBuilder)
+		.withPageable(pageRequest)
+		.withSort(sortBuilder).build();
+		7.根据设置的条件,传入对象内容,进行搜索 (SearchHits类)
+		SearchHits<对象> searchHits = elasticsearchRestTemplate.search(searchQuery, 对象.class);
+		8.(将查询到的值映射到对象(VO类)中) 同时高亮字段设置高亮
+		List\<ESuserVo> userVoList = new ArrayList\<ESuserVo>();
+		//遍历查询回来的每个域中内容
+		for (SearchHit\<ESuser> searchHit : searchHits) {
+		ESUser content = searchHit.getContent();
+		System.out.println(content);
+		ESUserVO esUserVo = new ESUserVO();
+		BeanUtils.copyProperties(content,esUserVo);
+		Map<String, List\<String>> highlightFields = searchHit.getHighlightFields(); //获取需要高亮的值
+		//遍历需要高亮的值,去各个域中匹配然后替换
+		for (String highlightField : highlightFields.keySet()) {
+		if (域名1.equals(highlightField,get(0))){
+		//替换原来没有高亮的值 esUserVo.setTags(highlightFields.get(highlightField));
+		}else if(域名2.equals(highlightField,get(0))){
+		//替换原来没有高亮的值 esUserVo.setDesc(highlightFields.get(highlightField).get(0))
+		}
+		}
+		userVoList.add(esUserVo);
+		}
+		最后 return 映射类VoList;
+		}
+	//设置高亮字段的私有方法
+		private HighlightBuilder getHighlightBuilder(String... fields) {
+		// 高亮条件
+		HighlightBuilder highlightBuilder = new HighlightBuilder(); //生成高亮查询器
+		for (String field : fields) {
+		highlightBuilder.field(field);//高亮查询字段
+		}
+		highlightBuilder.requireFieldMatch(false); //如果要多个字段高亮,这项要为false
+		highlightBuilder.preTags("\<span style=\"color:red\">"); //高亮设置
+		highlightBuilder.postTags("\</span>");
+		//下面这两项,如果你要高亮如文字内容等有很多字的字段,必须配置,不然会导致高亮不全,文章内容缺失等
+		highlightBuilder.fragmentSize(800000); //最大高亮分片数
+		highlightBuilder.numOfFragments(0); //从第一个分片获取高亮片段
+		return highlightBuilder;
+		}
+	**4.ES库表设计**
+		因为ElasticSearch是非关系型数据库,不能进行联表查询,因此建立域的时候需要把所有域(字段)写进一张index
+		为此我们要先提前整理好所有可能相关用到的字段name,price等设计一张index表,然后数据库通过sql语句创建一个对应index表的联表查询的视图(方便以后使用视图查询内容同步到es库
+		create VIEW XXX as select 需要的参数 from XXX left joinXXX onXXX= XXX...
+		)
+		判断一个域的几种属性(field,type,analyzer,store)
+		@field:表示为一个域(字段)
+		type:建立的域的类型
+		有text(分词)keyword(不分词)Integer(不分词)
+		analyzer分词器:不指定或指定(Ik_max_word)
+		store:store= true(存储) 或 false(不存储)
+	**5.同步索引库(将数据库中视图内容同步到es数据库 )**
+		流程思路:
+		1.在数据库视图对应模块(例如查询商品的就在goods模块)创建接口(使用generate code生成对应mapper和service等)
+		Controller层注入视图对应impl实现类写一个接口findAll()
+		实现类,list()方法返回全部数据
+		2.在elasticSearch模块写一个新的Dao层接口EsGoodsRepository继承ElasticsearchRepository<ESGoods,long>
+		然后pom导入openfeign依赖写一个远程调用接口调用goods模块的findAll()拿到数据库数据,然后new一个ES库映射类EsGoods的List集合然后for循环数据库的视图List集合
+		使用BeanUtils.copyProperties(视图数据,new esGoods());将数据复制到es的映射类中,然后使用List,add(esGoods);将复制完成的加入list集合,然后for循环遍历使用EsGoodsRepository.save(esgood);将数据一个个存入ES数据库(创建随机唯一ID)
+		最后可以通过kibana堆栈管理(stack Manage)里索引模式
+		index Management中查看是否有自己命名的index库存入然后到(index pattern)创建索引(ES_goods)后发现(discovery)中查看
+	**6.索引查询接口开发**
+		在kibana中切入到我们创建的指定库(ES_goods)然后使用指令预先模拟前端页面需求的功能(该分词的字段用match不该分的用term)必要的用must 可有可无的用should多个域(字段)同时查询的使用mutli_match
+		然后到idea中将复杂查询模板代码复制过来根据需求修改
+	**7.前端联调**
+	**8.添加商品等操作--同步索引库(MQ或者OpenFeign)**
+		openfeign(不推荐容易阻塞)
+		1.创建videoToES(List<数据库类型类>){
+		遍历数据库类型类集合,将其中元素转换成ES索引库类型类,通过EsVideoRepository(自带接口)的save方法加入索引库
+		}
+		2.商品模块依赖openfeign,并写一个@feignclient接口远程调用search中的同步索引库接口
+		2.改造商品模块的添加商品等接口,调用search中的接口
+		MQ(队列异步不阻塞,推荐)
+
+---
+**Kibana(可视化页面辅助操作ES)**
+	**作用:** 可视化控制台辅助写es语句和es数据库控制
+	安装(windows):下载kibana的zip包解压即可
+	linux安装:下载tar.gz包解压即可
+	**注意事项:**
+		1.与ES的版本必须强一致
+		2.当elasticsearch和kibana不在一台服务器上，那么需要修改kibana的配置，正确指定elasticsearch的url
+	使用(默认端口号5601):localhost:5601
+	![[ElasticSearch(独立搜索中间件)_image_2.jpg|175]]
+	主要使用其中dev tool进行操作书写es格式数据测试(此处每一次使用都是一次请求调用的es的接口)
+kibana创建索引库(ES库)和切换索引库
+	stack Management->index Patterns->create index patterns
+	例如:XXX*则创建出一个XXX的索引库
+	然后到discovery->切换到XXX*
+**IK分词器(中文分词辅助)**
+	**作用:** 使用默认分词器对中文分词并不友好,IK分词器能真正把中文分词
+安装:
+	下载后将文件夹放到elasticsearch的plguin包下即可,es会自动搜索包下的plugin-security.policy文件
+	然后到kibana控制台的dev tool中使用put /emp设定指定索引 例如: "ik_max_word"
+	**注意事项:**
+	IK分词器必须与ES版本强一致
+分词方式使用:
+	ik_smart:最少切分
+	ik_max_word:最细粒度切分
+	扩展词典和停用词典(config包中IKAnalyzer.cfg.xml配置,然后修改指定文件内容后重启es即可)
+	![[ElasticSearch(独立搜索中间件)_image_3.jpg]]
+
+---
+## ElasticSearch持久化:
+**ES中数据存储的走向**
+	![[ElasticSearch(独立搜索中间件)_image_4.jpg]]
+	整体流程:
+	![[ElasticSearch(独立搜索中间件)_image_5.jpg]]
+	1.提交到内存缓冲区(此时客户端还读不到)
+	每隔1s会进行一次refresh操作刷新到内存中形成一个新的segement file文件(仅存在系统内存os cache)
+	2.内存缓冲区生成新的segment,刷到文件缓存(cache)
+	如果小的segment文件过多可以手动merge(会自动merge)
+	3.文件系统缓存f-sync到磁盘,commit更新文件
+	内存中的segement文件通过flush操作写入磁盘形成commit point文件(会先清空buffer到内存再将内存数据持久化)持久化完成后会将Translog文件(备份)清除
+	默认每30s进行一次flush,translog备份过大也会进行flush
+Translog作用:
+	![[ElasticSearch(独立搜索中间件)_image_6.jpg]]
+	如果在内存期间宕机则会丢失数据,所以要实现持久化
+	es自己提供了Translog文件(数据写入到buffer内存的同时也会追加备份一份到Translog默认每5s将translog刷新到磁盘)我们可以通过对Translog进行flush操作来持久化到磁盘(流程还是先刷到缓存区再到磁盘)
+
+---
+## ElasticSearch高可用:
+搭建分布式存储(分块处理,同时还解决存储空间问题)
+	建立多个node,将数据进行分块处理\[1,2,3,4]分为\[1,3]和\[2,4]
+	2个大块同时需要对2个大块进行备份处理(可以创建多个备份)
+	创建2n个node分别存放\[1rep,3rep]和\[2rep,4rep]
+如何保证高可用(恢复数据)
+	metadata(元数据)会标注{block1(包含数据\[1.3]的数据块) 在`192.168174.129 192.168174.130 ...等服务器}
+	假如第一个服务器没找到从第二个找,通过元数据恢复
+	同理{block2(包含\[2.4]的数据块) 分布在XXX服务器.......}
+客户端请求和服务端集群如何响应
+	客户端使用RestHighlevelClient发送写请求es集群,集群首先master节点接收消息
+	然后通过解析你请求的数据的hash地址(类似redis集群请求)来判断在那个服务器响应你的写请求,
+	该服务器写完成后会将数据发送给相同的节点编号\[例如1,3]在其他服务器上的rep副本块x,y,
+	只要x或者y等其中一个rep副本块完成读操作后就会发送消息给master节点让master节点返回消息给客户端
+	如果其中一个节点读取失败或者超时则会放弃该会通过设置的参数timeout放弃考虑该分片
+
+---
+
+ES长时间未响应断开连接(临时解决办法)
+	加入配置,(每5分钟发送数据保持http存活)
+	httpClientBuilder.setKeepAliveStrategy((response, context) -> Duration.ofMinutes(5).toMillis());
+
+课外思路:建立综合查询(例如B站搜索关键词出现视屏和文章或up主等多种类型)的表设计
+	默认搜索视频+文章(懒加载--只有在没有视频或者手动点文章的时候去搜索)
+	综合查询的数据库视图两种建立方式:
+	第一种:
+	1.几种查询几个视图(因为每个视频和文章对应的作者不一定相同)
+	2.后台设置默认搜索视频,懒加载搜索文章等
+	3.后期结合两种查询的结果
+	第二种:
+	1.创建单个视图,因为ES可是json格式可以插入多个的域
+	单格视图省略了后期整合的麻烦,但是需要增加判断类型的域
+	2.后台设置默认搜索视频,懒加载搜索文章等
+
+

@@ -1,18 +1,14 @@
-logstash就是一根具备实时数据传输能力的管道，负责将数据信息从管道的输入端传输到管道的输出端；与此同时这根管道还可以让你根据自己的需求在中间加上滤网
+logstash作用:
+	一根信息传输管道,可以根据需求加上**滤网**
+	![[Logstash(实时传输管道)_image_1.jpg]]
 
-  
-
+logstash将数据流中等每一条数据称之为一个事件(event)
+**Logstash的事件处理三个主要角色：inputs –> filters –> outputs：**
+	-   inpust：必须，负责产生事件（Inputs generate events），常用：File、syslog、redis、beats（如：Filebeats）
+	-   filters：可选，负责数据处理与转换（filters modify them），常用：grok、mutate、drop、clone、geoip
+	-   outpus：必须，负责数据输出（outputs ship them elsewhere），常用：elasticsearch、file、graphite、statsd
+	其中inputs和outputs支持codecs（coder&decoder）在1.3.0 版之前，logstash 只支持纯文本形式输入，然后以过滤器处理它。但现在，我们可以在输入 期处理不同类型的数据，所以完整的数据流程应该是：input | decode | filter | encode | output；codec 的引入，使得 logstash 可以更好更方便的与其他有自定义数据格式的运维产品共存，比如：graphite、fluent、netflow、collectd，以及使用 msgpack、json、edn 等通用数据格式的其他产品等  
 logstash（收集）、elasticsearch（存储+搜索）、kibana（展示），我们将这三个组合起来的技术称之为ELKStack，所以说ELKStack指的是Elasticsearch、Logstash、Kibana技术栈的结合。
-![[Logstash(实时传输管道)_image_1.jpg]]
-
-Logstash的事件（logstash将数据流中等每一条数据称之为一个event）处理流水线有三个主要角色完成：inputs –> filters –> outputs：
-
--   inpust：必须，负责产生事件（Inputs generate events），常用：File、syslog、redis、beats（如：Filebeats）
--   filters：可选，负责数据处理与转换（filters modify them），常用：grok、mutate、drop、clone、geoip
--   outpus：必须，负责数据输出（outputs ship them elsewhere），常用：elasticsearch、file、graphite、statsd
-
-  其中inputs和outputs支持codecs（coder&decoder）在1.3.0 版之前，logstash 只支持纯文本形式输入，然后以过滤器处理它。但现在，我们可以在输入 期处理不同类型的数据，所以完整的数据流程应该是：input | decode | filter | encode | output；codec 的引入，使得 logstash 可以更好更方便的与其他有自定义数据格式的运维产品共存，比如：graphite、fluent、netflow、collectd，以及使用 msgpack、json、edn 等通用数据格式的其他产品等  
-
   
 
 1.  输入，以下是常见得输入内容

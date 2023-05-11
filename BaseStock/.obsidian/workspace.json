@@ -35,14 +35,16 @@
             "id": "86bfce3625a460dd",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "obsidian相关/Picture/ElasticSearch(独立搜索中间件)_image_6.jpg"
+                "file": "IT/SpringCloud/Logstash(实时传输管道).md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -116,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
+                "file": "IT/SpringCloud/Logstash(实时传输管道).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
+                "file": "IT/SpringCloud/Logstash(实时传输管道).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/SpringCloud/ElasticSearch(独立搜索中间件).md"
+                "file": "IT/SpringCloud/Logstash(实时传输管道).md"
               }
             }
           },
@@ -214,12 +216,13 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "4955cb942e9fd523",
+  "active": "86bfce3625a460dd",
   "lastOpenFiles": [
+    "IT/SpringCloud/Gateway(网关).md",
     "obsidian相关/Picture/ElasticSearch(独立搜索中间件)_image_6.jpg",
+    "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
     "obsidian相关/Picture/ElasticSearch(独立搜索中间件)_image_5.jpg",
     "obsidian相关/Picture/ElasticSearch(独立搜索中间件)_image_4.jpg",
-    "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
     "obsidian相关/Picture/ElasticSearch(独立搜索中间件)_image_3.jpg",
     "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
     "obsidian相关/Picture/VPN(virtual private network)_image_1.png",
@@ -230,12 +233,10 @@
     "每日八股文(2).md",
     "IT/SpringCloud/Docker和Jekins(去冲突和快速打包).md",
     "obsidian相关/Picture/Docker和Jekins(去冲突和快速打包)_image_4.jpg",
-    "obsidian相关/Picture/tmp1683772267476_Docker和Jekins(去冲突和快速打包)_image_1.jpg",
     "IT/SpringCloud/Sentinel(降级熔断).md",
     "IT/SpringCloud/Actuator(监视服务).md",
     "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
     "IT/SpringCloud/SpringCloud框架思想.md",
-    "IT/SpringCloud/Gateway(网关).md",
     "软件(原理,部署,特点)/Linux/Linux.md",
     "常用语法和算法/常用算法/五大常用算法思想.md",
     "软件(原理,部署,特点)/Redis/Redis原理.md",
