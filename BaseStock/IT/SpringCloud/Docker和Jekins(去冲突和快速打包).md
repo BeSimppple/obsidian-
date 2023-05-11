@@ -142,121 +142,127 @@ DockerUI(Portainer可视化管理docker)
 ## Dockerfile(脚本文档)
 DockerFile作用
 	是一个文本文档，DockerFile是一个泛称->将项目push到镜像仓库的脚本文件,文件中包含了一条条的指令
-![[Docker和Jekins(去冲突和快速打包)_image_6.jpg|400]]
-使用DockerFile构建一个自己的全新镜像
-镜像生成流程:
-1.编写dockerFile
-![[Docker和Jekins(去冲突和快速打包)_image_7.jpg]]
-2.构建镜像
-docker build -f dockerfile.txt -t app:1.0 . (别漏了最后的 . )
-3.启动容器
-docker run -it -p 8881:8888 app:1.0 (不要带/bin/bash会覆盖dockerFile中的CMD的初始化启动命令)
-4.将本地的镜像放到镜像仓库(阿里云镜像仓库或dockerhub)
-例:阿里云镜像仓库->实例列表->默认实例个人版->创建命名空间->创建镜像(名字叫创建镜像仓库)->按照阿里云页面的提示流程到linux中登录(密码到访问凭证中拿)
-![[Docker和Jekins(去冲突和快速打包)_image_8.jpg]]
-->tag重命名镜像(规范名称)然后命名版本号->push命令将本地推到镜像仓库
-常用指令(关键词):
-FROM 指定当前自定义镜像需要依赖的镜像
-RUN 执行linux命令，比如cd mkdir等
-WORKDIR：声明镜像的默认工作目录，当容器启动后自动跳到该目录
-ADD 将宿主机的jar包加入到自定义的镜像的目录中
-CMD：需要执行的命令，在workdir目录下执行这条命令,容器启动（在workdis目录）执行该命令
-CI/CD(持续集成和持续部署)
-![[Docker和Jekins(去冲突和快速打包)_image_9.jpg]]
-主要目的:在新代码从开发到部署的过程中(打jar包并测试的重复劳动脚本化)，尽量减少人工的介入。
-持续集成(Continuous Integration):指在和向远程仓库 push 代码后，在这次提交合并入主分支前进行一系列测试，构建等流程。假设现在有个应用的代码存储在 git 上，每天开发者都 push 很多次提交，针对每次 push，你可以创建一系列脚本进行自动测试，降低往应用里引入错误的概率。这就是持续集成。
-持续部署(Continuous Deployment):在持续集成的基础上更进一步，指将推送指仓库默认分支的部署至产品环境。如果这部分需要手动触发，这就是一个持续交付（Continuous Delivery）环节
-![[Docker和Jekins(去冲突和快速打包)_image_10.jpg]]
+	使用DockerFile构建一个自己的全新镜像
+	![[Docker和Jekins(去冲突和快速打包)_image_6.jpg|400]]
 
+镜像生成流程:
+	1.编写dockerFile
+	![[Docker和Jekins(去冲突和快速打包)_image_7.jpg|360]]
+	2.构建镜像
+	docker build -f dockerfile.txt -t app:1.0 . (别漏了最后的 . )
+	3.启动容器
+	docker run -it -p 8881:8888 app:1.0 (不要带/bin/bash会覆盖dockerFile中的CMD的初始化启动命令)
+	4.将本地的镜像放到镜像仓库(阿里云镜像仓库或dockerhub)
+	例:阿里云镜像仓库->实例列表->默认实例个人版->创建命名空间->创建镜像(名字叫创建镜像仓库)->按照阿里云页面的提示流程到linux中登录(密码到访问凭证中拿)
+	![[Docker和Jekins(去冲突和快速打包)_image_8.jpg]]
+	->tag重命名镜像(规范名称)然后命名版本号->push命令将本地推到镜像仓库
+常用指令(关键词):
+	FROM 指定当前自定义镜像需要依赖的镜像
+	RUN 执行linux命令，比如cd mkdir等
+	WORKDIR：声明镜像的默认工作目录，当容器启动后自动跳到该目录
+	ADD 将宿主机的jar包加入到自定义的镜像的目录中
+	CMD：需要执行的命令，在workdir目录下执行这条命令,容器启动（在workdis目录）执行该命令
 
 ---
-Jekins(docker版)
-主要目的:实现CICD流程简化测试部署环境
+**CI/CD(持续集成和持续部署)**
+主要目的:
+	![[Docker和Jekins(去冲突和快速打包)_image_9.jpg]]
+	在新代码从开发到部署的过程中(打jar包并测试的重复劳动脚本化)，尽量减少人工的介入。
+持续集成(Continuous Integration):
+	在和向远程仓库 push 代码后，在这次提交合并入主分支前进行一系列测试，构建等流程。假设现在有个应用的代码存储在 git 上，每天开发者都 push 很多次提交，针对每次 push，你可以创建一系列脚本进行自动测试，降低往应用里引入错误的概率。这就是持续集成。
+持续部署(Continuous Deployment):
+	在持续集成的基础上更进一步，指将推送指仓库默认分支的部署至产品环境。如果这部分需要手动触发，这就是一个持续交付（Continuous Delivery）环节
+	![[Docker和Jekins(去冲突和快速打包)_image_10.jpg]]
+
+
+## Jekins(docker版)
+**主要目的:实现CICD流程简化测试部署环境**
 jekins安装:
-1.下载
-docker pull jekins/jekins:lts (下载latest最新版本)
-2.启动jekins容器并绑定数据卷
-启动jekins容器
-docker run -d -p 9988:8080 -p 50000:50000 \
--v /root/export/server/jdk1.8.0_261/bin/java:/root/export/server/jdk1.8.0_261/bin/java \
--v /root/export/server/maven:/root/export/server/maven
--v /root/export/server/jdk1.8.0_261:/root/export/server/jdk1.8.0_261 \
--v jenkins-data1:/var/jenkins_home \
--v /etc/localtime:/etc/localtime \
---name jenkins01 jenkins/jenkins:lts
-3.登录首页进入可视化配置
-输入ip地址:9988/到jekins首页
-docker exec 容器名 tail /var/jenkins_home/secrets/initialAdminPassword
-找到初始密码
-进入新手入门页面->安装推荐的插件来保证我们功能!
-安装完后进入Manage jekins->golbal tool Configuration配置jdk和maven
-注意:jdk和maven的HOME一定是jekins容器中的地址,maven还需要配置setting.conf中maven仓库地址
-4.集成Gitee并将项目发送到gitee
-tool Manage->搜索gitee安装gitee插件后重启
-到gitee中登录账号到设置中选择权限生成私人令牌,复制私人令牌唯一码->到Configure System中配置gitee地址->保存
-在gitee上新建仓库(名字与项目名一致)->复制ssh链接或http链接地址->到idea中准备上传项目到新仓库(注意.idea文件和.iml和target包等不要上传会造成冲突,所以配置忽略脚本上传时默认取出.idea等冲突包不上传)->下载.ignore文件生成模板然后手动写脚本(网上复制)->使用gitcommit后push到远程仓库
-至此第一步完成
-5.在jekins构建项目包(maven)并将gitee上的项目地址填入
-首先到plugins Manager下载最新版的 Maven Instergration项目构建插件(保证jekins创建maven项目)
-然后首页新疆项目选择maven进入后到配置源码管理(source Manage)
-选择git然后填入gitee上的远程仓库地址,然后Credentials把gitee账号密码生成凭证给与jekins
-6.构建触发器Build Triggers(什么时候触发打jar包)
-使用默认的build whenever a snapshot dependenct is bulit
-按钮触发
-7.设置build操作
-Root POM(填入pom.xml表示依赖pom进行build)
-Goals and options填入
-clean install -Dmaven.test.skip=true(clean后忽略测试打成jar包)
-(pre steps(构建前操作)post steps(构建后操作))
-至此第二部完成
-6.配置完成后到plugins Manage下载SSH Publishers(Publish Over SSH)实现第三步将jar包运到指定服务器->然后到configuration中配置SSH(passphrase虚拟机密码(linux登录密码),SSH servers虚拟机ip地址和username(linunx的ip地址和登录username))->保存
-然后到项目包source Manage中设置post steps(Run Regardless of build result项目构建完无视失败成功后运出)
-->Send files or execute commands over SSH(使用SSH运出去) **/target/指定jar包名称 表示要运送的jar包
-指定jar包去除XXX/target前缀
-选择运送到指定目录(linux指定目录)
-然后输入命令(笔记最后,自定义修改)
-保存->应用
-至此第三步完成(jekins帮我们实现了脚本化构建)
-然后到首页点按钮构建即可,出问题看控制台输出debug
+	1.下载
+	docker pull jekins/jekins:lts (下载latest最新版本)
+	2.启动jekins容器并绑定数据卷
+	启动jekins容器
+	docker run -d -p 9988:8080 -p 50000:50000 \
+	-v /root/export/server/jdk1.8.0_261/bin/java:/root/export/server/jdk1.8.0_261/bin/java \
+	-v /root/export/server/maven:/root/export/server/maven
+	-v /root/export/server/jdk1.8.0_261:/root/export/server/jdk1.8.0_261 \
+	-v jenkins-data1:/var/jenkins_home \
+	-v /etc/localtime:/etc/localtime \
+	--name jenkins01 jenkins/jenkins:lts
+	3.登录首页进入可视化配置
+	输入ip地址:9988/到jekins首页
+	docker exec 容器名 tail /var/jenkins_home/secrets/initialAdminPassword
+	找到初始密码
+	进入新手入门页面->安装推荐的插件来保证我们功能!
+	安装完后进入Manage jekins->golbal tool Configuration配置jdk和maven
+	注意:jdk和maven的HOME一定是jekins容器中的地址,maven还需要配置setting.conf中maven仓库地址
+	4.集成Gitee并将项目发送到gitee
+	tool Manage->搜索gitee安装gitee插件后重启
+	到gitee中登录账号到设置中选择权限生成私人令牌,复制私人令牌唯一码->到Configure System中配置gitee地址->保存
+	在gitee上新建仓库(名字与项目名一致)->复制ssh链接或http链接地址->到idea中准备上传项目到新仓库(注意.idea文件和.iml和target包等不要上传会造成冲突,所以配置忽略脚本上传时默认取出.idea等冲突包不上传)->下载.ignore文件生成模板然后手动写脚本(网上复制)->使用gitcommit后push到远程仓库
+	至此第一步完成 -------------------------------------------------------------------------------
+	5.在jekins构建项目包(maven)并将gitee上的项目地址填入
+	首先到plugins Manager下载最新版的 Maven Instergration项目构建插件(保证jekins创建maven项目)
+	然后首页新疆项目选择maven进入后到配置源码管理(source Manage)
+	选择git然后填入gitee上的远程仓库地址,然后Credentials把gitee账号密码生成凭证给与jekins
+	6.构建触发器Build Triggers(什么时候触发打jar包)
+	使用默认的build whenever a snapshot dependenct is bulit
+	按钮触发
+	7.设置build操作
+	Root POM(填入pom.xml表示依赖pom进行build)
+	Goals and options填入
+	clean install -Dmaven.test.skip=true(clean后忽略测试打成jar包)
+	(pre steps(构建前操作)post steps(构建后操作))
+	至此第二部完成---------------------------------------------------------------------------------
+	8.配置完成后到plugins Manage下载SSH Publishers(Publish Over SSH)实现第三步将jar包运到指定服务器->然后到configuration中配置SSH(passphrase虚拟机密码(linux登录密码),SSH servers虚拟机ip地址和username(linunx的ip地址和登录username))->保存
+	然后到项目包source Manage中设置post steps(Run Regardless of build result项目构建完无视失败成功后运出)
+	->Send files or execute commands over SSH(使用SSH运出去) \**/target/指定jar包名称 表示要运送的jar包
+	指定jar包去除XXX/target前缀
+	选择运送到指定目录(linux指定目录)
+	然后输入命令(笔记最后,自定义修改)
+	保存->应用
+	至此第三步完成(jekins帮我们实现了脚本化构建)-----------------------------------------------
+	然后到首页点按钮构建即可,出问题看控制台输出debug
 Docker私有仓库搭建:
-![[Docker和Jekins(去冲突和快速打包)_image_11.jpg]]
-![[Docker和Jekins(去冲突和快速打包)_image_12.jpg]]
+	![[Docker和Jekins(去冲突和快速打包)_image_11.jpg]]
+	![[Docker和Jekins(去冲突和快速打包)_image_12.jpg]]
+
 jekins使用SSH运输jar包需要的命令
-# 必须加，不然jekins会kill 应用程序
-export BUILD_ID=dontKillMe
-# 应用存放地址（根据实际存储的位置修改路径）
-APP_HOME=/root/export/server/
-# 应用名称（部署的项目的应用名称）
-APP_NAME=gateway-1.0-SNAPSHOT.jar
-# 获取PID
-PID=$(ps -ef |grep ${APP_NAME} |grep -v grep |awk '{print $2}')
-if [ -z "${PID}" ]; then
-echo "进程不存在启动进程"
-cd ${APP_HOME}
-chmod 777 ${APP_NAME}
-source /etc/profile
-#防止nohup.out文件过大
-cat /dev/null > nohup.out
-#这个命令就是启动jar工程的命令，同时指定加载的配置文件的类型是 dev
-nohup java -jar ${APP_NAME} --spring.profiles.active=dev &
-if [ $? = 0 ];then
-sleep 1
-tail -n 50 nohup.out
-fi
-echo "finished!!!"
-else
-echo "进程已经存在杀死进程"
-kill -9 ${PID}
-echo "${APP_NAME} process stop, PID=${PID}"
-cd ${APP_HOME}
-chmod 777 ${APP_NAME}
-source /etc/profile
-#防止nohup.out文件过大
-cat /dev/null > nohup.out
-nohup java -jar ${APP_NAME} --spring.profiles.active=dev &
-if [ $? = 0 ];then
-sleep 1
-tail -n 50 nohup.out
-fi
-echo "finished!!!"
-fi
+	\# 必须加，不然jekins会kill 应用程序
+	export BUILD_ID=dontKillMe
+	\# 应用存放地址（根据实际存储的位置修改路径）
+	APP_HOME=/root/export/server/
+	\# 应用名称（部署的项目的应用名称）
+	APP_NAME=gateway-1.0-SNAPSHOT.jar
+	\# 获取PID
+	PID=$(ps -ef |grep ${APP_NAME} |grep -v grep |awk '{print $2}')
+	if \[ -z "${PID}" ]; then
+	echo "进程不存在启动进程"
+	cd ${APP_HOME}
+	chmod 777 ${APP_NAME}
+	source /etc/profile
+	\#防止nohup.out文件过大
+	cat /dev/null > nohup.out
+	\#这个命令就是启动jar工程的命令，同时指定加载的配置文件的类型是 dev
+	nohup java -jar ${APP_NAME} --spring.profiles.active=dev &
+	if \[ $? = 0 ];then
+	sleep 1
+	tail -n 50 nohup.out
+	fi
+	echo "finished!!!"
+	else
+	echo "进程已经存在杀死进程"
+	kill -9 ${PID}
+	echo "${APP_NAME} process stop, PID=${PID}"
+	cd ${APP_HOME}
+	chmod 777 ${APP_NAME}
+	source /etc/profile
+	\#防止nohup.out文件过大
+	cat /dev/null > nohup.out
+	nohup java -jar ${APP_NAME} --spring.profiles.active=dev &
+	if \[ $? = 0 ];then
+	sleep 1
+	tail -n 50 nohup.out
+	fi
+	echo "finished!!!"
+	fi

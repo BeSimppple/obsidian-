@@ -25,24 +25,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/SpringCloud/Docker和Jekins(去冲突和快速打包).md",
+                "file": "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "aa45b12b3ff3c719",
+            "id": "86bfce3625a460dd",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "obsidian相关/Picture/Docker和Jekins(去冲突和快速打包)_image_4.jpg"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -71,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "![[Gateway(网关)_image_4.jpg|400]]",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -96,7 +94,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -116,7 +115,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/SpringCloud/Docker和Jekins(去冲突和快速打包).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +131,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/SpringCloud/Docker和Jekins(去冲突和快速打包).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,9 +152,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "IT/SpringCloud/Docker和Jekins(去冲突和快速打包).md"
-              }
+              "state": {}
             }
           },
           {
@@ -214,10 +209,13 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "4955cb942e9fd523",
+  "active": "68447e7ec5dfad2f",
   "lastOpenFiles": [
-    "obsidian相关/Picture/Docker和Jekins(去冲突和快速打包)_image_4.jpg",
+    "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
+    "每日八股文(2).md",
     "IT/SpringCloud/Docker和Jekins(去冲突和快速打包).md",
+    "obsidian相关/Picture/Docker和Jekins(去冲突和快速打包)_image_4.jpg",
+    "obsidian相关/Obsidian快捷键.md",
     "obsidian相关/Picture/tmp1683772267476_Docker和Jekins(去冲突和快速打包)_image_1.jpg",
     "obsidian相关/Picture/tmp1683530947739_常用算法_image_2.png",
     "IT/SpringCloud/Sentinel(降级熔断).md",
@@ -243,11 +241,8 @@
     "IT/SpringCloud/Logstash(实时传输管道).md",
     "IT/SpringCloud/Redisson分布式锁和SpringTask.md",
     "IT/SpringCloud/Seata(分布式事务).md",
-    "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
-    "每日八股文(2).md",
     "常用语法和算法/常用算法/RSA非对称加密.md",
     "软件(原理,部署,特点)/Idea/IDEA快捷键.md",
-    "obsidian相关/Obsidian快捷键.md",
     "软件(原理,部署,特点)/Mysql/Mysql快捷键.md",
     "常用语法和算法/Windows快捷键.md",
     "常用语法和算法/常用算法/常用排序算法.md",

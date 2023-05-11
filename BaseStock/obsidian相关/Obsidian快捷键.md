@@ -13,8 +13,8 @@ Ctrl + B 加粗
 Ctrl + - 启动正则表达式
 
 tab  缩进4个单元格归类为子类
-
-
+插件功能:
+Alt+鼠标滚轮控制图片大小
 
 F1 git commit
 F2 git push
