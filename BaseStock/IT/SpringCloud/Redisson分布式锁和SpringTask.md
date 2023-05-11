@@ -2,8 +2,8 @@
 SpringTask简介
 	轻量级的Quartz(定时任务工具)
 	只需要spring-web的jar包不需要额外依赖
-	启动器上@EnableScheduling开启
-	使用方式(定时调用方法):
+使用方式(定时调用方法):
+	springboot启动器上@EnableScheduling开启
 	@Component
 	public class TaskTest {
 	@Scheduled(cron = "* * * * * ?")
@@ -11,8 +11,11 @@ SpringTask简介
 	System.out.println(System.currentTimeMillis());
 	}
 	}
-cron表达式可自行网上查阅(或使用网上的在线cron表达式生成器)\
-死锁的4个必要条件(取消一个便可避免死锁)
+cron表达式可自行网上查阅(或使用网上的在线cron表达式生成器)
+
+---
+Redission分布式锁
+**死锁的4个必要条件**(取消一个便可避免死锁)
 	1、互斥条件：一个资源每次只能被一个进程使用；
 	2、请求与保持条件：一个进程因请求资源而阻塞时，对已获得的资源保持不放；
 	3、不剥夺条件:进程已获得的资源，在末使用完之前，不能强行剥夺；
