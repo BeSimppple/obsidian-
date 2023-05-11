@@ -216,8 +216,9 @@
   },
   "active": "4955cb942e9fd523",
   "lastOpenFiles": [
-    "IT/SpringCloud/Actuator(监视服务).md",
     "IT/SpringCloud/Sentinel(降级熔断).md",
+    "IT/SpringCloud/Docker和Jekins(去冲突和快速打包).md",
+    "IT/SpringCloud/Actuator(监视服务).md",
     "obsidian相关/Picture/tmp1683530947739_常用算法_image_2.png",
     "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
     "obsidian相关/Picture/Sentinel(降级熔断)_image_6.jpg",
