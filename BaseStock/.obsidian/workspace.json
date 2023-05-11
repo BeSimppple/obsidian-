@@ -25,9 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/SpringCloud/Sentinel(降级熔断).md",
+                "file": "IT/SpringCloud/Docker和Jekins(去冲突和快速打包).md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "f75ff6031fe3835d",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "obsidian相关/Picture/tmp1683530947739_常用算法_image_2.png"
               }
             }
           }
@@ -106,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/SpringCloud/Sentinel(降级熔断).md",
+                "file": "IT/SpringCloud/Docker和Jekins(去冲突和快速打包).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/SpringCloud/Sentinel(降级熔断).md",
+                "file": "IT/SpringCloud/Docker和Jekins(去冲突和快速打包).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/SpringCloud/Sentinel(降级熔断).md"
+                "file": "IT/SpringCloud/Docker和Jekins(去冲突和快速打包).md"
               }
             }
           },
@@ -206,14 +216,16 @@
   },
   "active": "4955cb942e9fd523",
   "lastOpenFiles": [
-    "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
+    "IT/SpringCloud/Actuator(监视服务).md",
     "IT/SpringCloud/Sentinel(降级熔断).md",
+    "obsidian相关/Picture/tmp1683530947739_常用算法_image_2.png",
+    "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
+    "obsidian相关/Picture/Sentinel(降级熔断)_image_6.jpg",
+    "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
     "IT/SpringCloud/SpringCloud框架思想.md",
     "obsidian相关/Picture/tmp1683530470900_常用算法_image_2.png",
     "IT/SpringCloud/Gateway(网关).md",
-    "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
     "obsidian相关/Picture/tmp1683523256117_每日八股文(2)_image_2.png",
-    "obsidian相关/Picture/tmp1683530947739_常用算法_image_2.png",
     "obsidian相关/Picture/Gateway(网关)_image_4.jpg",
     "软件(原理,部署,特点)/Linux/Linux.md",
     "常用语法和算法/常用算法/五大常用算法思想.md",
@@ -224,8 +236,6 @@
     "obsidian相关/Picture/Nacos(服务注册与发现,配置)_image_3.jpg",
     "obsidian相关/Picture/Nacos(服务注册与发现,配置)_image_4.jpg",
     "obsidian相关/Picture/tmp1683698831356_Nacos(服务注册与发现,配置)_image_2.jpg",
-    "obsidian相关/Picture/Nacos(服务注册与发现,配置)_image_2.jpg",
-    "IT/SpringCloud/Actuator(监视服务).md",
     "IT/SpringCloud/Sleuth+Zipkin(链路监控).md",
     "IT/SpringCloud/RocketMQ(异步同步).md",
     "IT/SpringCloud/SpringSecurity(安全与权限).md",
