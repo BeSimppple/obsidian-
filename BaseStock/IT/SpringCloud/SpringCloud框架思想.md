@@ -1,5 +1,8 @@
 SpringCloud作用
-	SpringCloud是一种思想一种模板化规范架构
+	SpringCloud是一种思想一种模板化规范架构(由于springcloud-netfilx已经停更我们主要是用springcloud-alibaba)
+	springcloud是一种思想:**将大的springboot项目拆解从而达到解耦合加速启动速度减少因为某个环节问题导致的全体宕机**,同时因为项目的分离可以采取更方便的语言去编写也更方便扩展后期需求最后**每个服务之间调用只需通过统一的http协议通信即可** 是分布式服务的思想.
+	springcloud是许多分布式框架与工具的集合体（微服务全家桶、服务的注册与发现、分布式事务、服务降级、服务熔断、服务限流。。。。）
+注意:
 	springboot一个版本对应一个springcloud版本(必须对应)
 	例如:springboot2.3.4版本必须对应Hoxton版本(可上springcloud官网查询)因为cloud-alibaba依赖cloud而cloud依赖boot
 	每个组件例如sentinel等都做了规范,可以查询
@@ -26,19 +29,13 @@ SpringCloud作用
 	11. **Redis 多数据机构kv格式高效内存中间件**
 	12. **Linux 安全性和高度模块化系统(多用户多任务系统)**
 	13. **Nginx 服务端反向代理和负载均衡**
-	16. Docker作为大容器将一个个软件环境和jar包封装成"集装箱"格式解决了版本差异冲突和快速安装软件和搭建集群
-	17. 15.jekins 帮助我们脚本化的完成从gitee拉项目打成jar包进行基础运行测试上传到gitee的工具(CICD持续集成和持续部署)
-	18. 14.Util项目作为自建工具类项目供其他包调用
+	14. **Docker**作为大容器将一个个软件环境和jar包封装成"集装箱"格式解决了版本差异冲突和快速安装软件和搭建集群
+	15. **jekins 脚本化的完成从gitee拉项目打成jar包进行基础运行测试上传到gitee的工具**(CICD持续集成和持续部署)
+	16. **Util包作为自建工具类项目供其他包调用**
 	util包作为工具包经常作为<dependency^>依赖被导入其他项目中,然后主项目不写任何工程主项目的pom包作为一个主依赖将通用依赖包一般放到主项目作为父类继承给子项目
 	然后依赖包的版本控制也是放在主项目的pom依赖中
-8.spring-cloud-test引入后在test包下创建test类,然后类上加注释@springbootTest 之后使用@Test注解写方法即可
-SpringCloud的概念?
-全名:springcloud-netfilx
-由于springcloud-nrtfilx已经停更我们主要是用springcloud-alibaba
-springcloud是一种思想:将大的springboot项目拆解从而达到解耦合加速启动速度减少因为某个环节问题导致的全体宕机
-,同时因为项目的分离可以采取更方便的语言去编写也更方便扩展后期需求最后每个服务之间调用只需通过统一的http协议通信即可 是分布式服务的思想.
-springcloud是许多分布式框架与工具的集合体
-（微服务全家桶、服务的注册与发现、分布式事务、服务降级、服务熔断、服务限流。。。。）
+	17. **Spring-cloud-test**引入后在test包下创建test类,然后类上加注释@springbootTest 之后使用@Test注解写方法即可
+
 建立一个springcloud工程
 	1.创建一个maven项目(不添加任何)作为父工程,不写任何代码,作用是锁定版本和通用依赖(锁定springboot和springcloud和springcloud-alibaba的版本)或加入通用依赖
 	<dependencyManagement^>标签

@@ -48,7 +48,7 @@ springcloud-gateway简介:
 	权限通过SpringSecurity+Oauth2的@hasAnyAuthority实现
 	整合SpringBoot-actuator实现监控
 **Gateway谓词工厂**
-	![[Gateway(网关)_image_4.jpg]]
+	![[Gateway(网关)_image_5.jpg]]
 	- Cookie=name,jack
 	- Header=token
 	- Host=**.wfx.com,**.jd.com

@@ -32,22 +32,12 @@
             }
           },
           {
-            "id": "1eeaa95b9f7e06f1",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "obsidian相关/Picture/tmp1683695370635_Gateway(网关)_image_4.jpg"
-              }
-            }
-          },
-          {
-            "id": "71a954ba2bf9d886",
+            "id": "4955cb942e9fd523",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件(原理,部署,特点)/Linux/Linux.md",
+                "file": "IT/SpringCloud/Sentinel(降级熔断).md",
                 "mode": "source",
                 "source": false
               }
@@ -83,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Linux",
+                "query": "![[Gateway(网关)_image_4.jpg|400]]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -108,8 +98,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -229,24 +218,25 @@
   },
   "active": "3bef371fd680224e",
   "lastOpenFiles": [
-    "软件(原理,部署,特点)/Linux/Linux.md",
+    "IT/SpringCloud/Sentinel(降级熔断).md",
     "IT/SpringCloud/SpringCloud框架思想.md",
-    "obsidian相关/Picture/tmp1683695370635_Gateway(网关)_image_4.jpg",
+    "obsidian相关/Picture/tmp1683530470900_常用算法_image_2.png",
+    "IT/SpringCloud/Gateway(网关).md",
+    "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
+    "obsidian相关/Picture/tmp1683523256117_每日八股文(2)_image_2.png",
+    "obsidian相关/Picture/tmp1683530947739_常用算法_image_2.png",
+    "obsidian相关/Picture/Gateway(网关)_image_4.jpg",
+    "软件(原理,部署,特点)/Linux/Linux.md",
     "常用语法和算法/常用算法/五大常用算法思想.md",
     "软件(原理,部署,特点)/Redis/Redis原理.md",
     "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
     "常用语法和算法/常用算法/常用查找算法.md",
     "IT/常用概念.md",
-    "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
     "obsidian相关/Picture/Nacos(服务注册与发现,配置)_image_6.jpg",
     "obsidian相关/Picture/Nacos(服务注册与发现,配置)_image_3.jpg",
     "obsidian相关/Picture/Nacos(服务注册与发现,配置)_image_4.jpg",
     "obsidian相关/Picture/tmp1683698831356_Nacos(服务注册与发现,配置)_image_2.jpg",
-    "obsidian相关/Picture/tmp1683523256117_每日八股文(2)_image_2.png",
-    "obsidian相关/Picture/tmp1683530470900_常用算法_image_2.png",
-    "obsidian相关/Picture/tmp1683530947739_常用算法_image_2.png",
     "obsidian相关/Picture/Nacos(服务注册与发现,配置)_image_2.jpg",
-    "IT/SpringCloud/Gateway(网关).md",
     "IT/SpringCloud/Actuator(监视服务).md",
     "IT/SpringCloud/Sleuth+Zipkin(链路监控).md",
     "IT/SpringCloud/RocketMQ(异步同步).md",
@@ -254,7 +244,6 @@
     "IT/SpringCloud/Logstash(实时传输管道).md",
     "IT/SpringCloud/Redisson分布式锁和SpringTask.md",
     "IT/SpringCloud/Seata(分布式事务).md",
-    "IT/SpringCloud/Sentinel(降级熔断).md",
     "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
     "每日八股文(2).md",
     "常用语法和算法/常用算法/RSA非对称加密.md",
