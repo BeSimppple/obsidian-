@@ -22,14 +22,18 @@ Zipkin的架构
 		默认会将这些信息存储在**内存中**。我们也可以修改此存储策略,通过使用其他存储组件将跟踪信息存储到数据库中。
 	**Zipkin Query Service**
 		Zipkin 查询服务组件，
-		负责查询Storage中存储的数据，提供简单的JSON API获取数据，主要提供给web UI使用它主要用来提供外部访问接口。比如给客户端展示跟踪信息,或是外接系统访问以实现监控等。它的主要使用者是Web UI组件。
+		负责查询Storage中存储的数据，提供简单的JSON API获取数据，主要提供给web UI使用它主要用来提供外部访问接口。比如给客户端展示跟踪信息,或是外接系统访问以实现监控等。
 	**Web UI**
-		UI 组件,基于 API 组件实现的上层应用。通过 UI 组件,用户可以方便而又直观地查询和分析跟踪信息。注意：UI 中没有内置身份验证！
+		提供简单的WEB 界面
+		基于 API 组件实现的上层应用。
+		注意：UI 中没有内置身份验证！
+zipkin调用uml图
+	![[Sleuth+Zipkin(链路监控)_image_3.jpg]]
 
 Sleuth结合Zipkin(下图)
-	![[Sleuth+Zipkin(链路监控)_image_3.jpg|375]]
+	![[Sleuth+Zipkin(链路监控)_image_4.jpg|375]]
 	seluth示例数据(下图):
-	![[Sleuth+Zipkin(链路监控)_image_4.jpg]]
+	![[Sleuth+Zipkin(链路监控)_image_5.jpg]]
 
 IDEA整合sleuth和zipkin
 	1.导入pom依赖(可以直接在父工程导入,因为大多数都需要集成该系统)
@@ -40,7 +44,7 @@ IDEA整合sleuth和zipkin
 	java -jar zipkin-server-2.12.9-exec.jar --server.port=9999
 	pause
 	4.项目properties配置
-	spring.zipkin.base-url=http://localhost:9999(#zipkin服务端地址是个大坑,前缀http://一定要加)
+	spring.zipkin.base-url=\http://localhost:9999(#zipkin服务端地址是个大坑,前缀http://一定要加)
 	spring.zipkin.discoveryClientEnabled=false(#禁止zipkin把自己当做nacos-client向nacos-server注册)
 	spring.sleuth.sampler.rate=100(#sleuth抽样率默认是10%，设置为100表示100%请求上报zipkin)
 	5.打开localhost:9999/zipkin 发送请求加载到zipkin页面
@@ -62,13 +66,4 @@ IDEA整合sleuth和zipkin
 持久化实现:
 	数据异步同步放到ES搜索数据库中!
 	或者放到mysql数据库
-zipkin(实时数据追踪系统)
-ZipKin[架构](https://so.csdn.net/so/search?q=%E6%9E%B6%E6%9E%84&spm=1001.2101.3001.7020)
-    ZipKin可以分为两部分，一部分是zipkin server，用来作为数据的采集存储、数据分析与展示；zipkin client是zipkin基于不同的语言及框架封装的一些列客户端工具，这些工具完成了追踪数据的生成与上报功能，架构如下：
-![[Sleuth+Zipkin(链路监控)_image_5.jpg]]
-（1）Collector 接收或收集各应用传输的数据
-（2）Storage 存储接受或收集过来的数据，当前支持Memory，MySQL，Cassandra，ElasticSearch等，默认存储在内存中。
-（3）API（Query） 负责查询Storage中存储的数据，提供简单的JSON API获取数据，主要提供给web UI使用
-（4）Web 提供简单的web界面
-zipkin调用uml图
-![[Sleuth+Zipkin(链路监控)_image_6.jpg]]
+
