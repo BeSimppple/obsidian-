@@ -20,24 +20,12 @@
             }
           },
           {
-            "id": "4955cb942e9fd523",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "86bfce3625a460dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/SpringBoot/SpringBoot.md",
+                "file": "IT/Spring/JDBC(数据库连接).md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,8 +98,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -131,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/SpringBoot/SpringBoot.md",
+                "file": "IT/Spring/JDBC(数据库连接).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/SpringBoot/SpringBoot.md",
+                "file": "IT/Spring/JDBC(数据库连接).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/SpringBoot/SpringBoot.md"
+                "file": "IT/Spring/JDBC(数据库连接).md"
               }
             }
           },
@@ -231,10 +218,18 @@
   },
   "active": "86bfce3625a460dd",
   "lastOpenFiles": [
+    "每日八股文(2).md",
+    "IT/Spring/JDBC(数据库连接).md",
     "软件(原理,部署,特点)/Redis/Redis原理.md",
+    "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
+    "IT/Spring/IOC(控制反转给容器).md",
+    "IT/Spring/AOP(基于面动态代理).md",
+    "IT/Spring/Spring原理.md",
+    "IT/SpringBoot/Ribbon和Openfeign.md",
+    "IT/多线程/多线程.md",
+    "IT/多线程/多线程-线程安全.md",
     "IT/SpringBoot/SpringBoot.md",
     "IT/SpringCloud/SpringCloud框架思想.md",
-    "每日八股文(2).md",
     "IT/机器学习/AI/梯度下降算法.md",
     "IT/机器学习/AI/卷积和池化.md",
     "IT/机器学习/机器学习算法.md",
@@ -247,17 +242,11 @@
     "常用语法和算法/常用算法/数学/排列组合A和C的算法.md",
     "常用语法和算法/常用算法/数学/群论(阶).md",
     "文档编写和分类标准.md",
-    "IT/SpringBoot/Ribbon和Openfeign.md",
     "IT/SpringCloud/SpringSecurity(安全与权限).md",
     "IT/SpringCloud/Sleuth+Zipkin(链路监控).md",
-    "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
     "obsidian相关/Picture/Sleuth+Zipkin(链路监控)_image_2.png",
     "obsidian相关/Picture/Sleuth+Zipkin(链路监控)_image_1.png",
     "IT/SpringCloud/Seata(分布式事务).md",
-    "IT/SpringCloud/RocketMQ(异步同步).md",
-    "IT/SpringCloud/Redisson分布式锁和SpringTask.md",
-    "IT/SpringCloud/Logstash(实时传输管道).md",
-    "IT/SpringCloud/Gateway(网关).md",
     "obsidian相关/Picture/ElasticSearch(独立搜索中间件)_image_6.jpg",
     "obsidian相关/Picture/ElasticSearch(独立搜索中间件)_image_5.jpg",
     "obsidian相关/Picture/ElasticSearch(独立搜索中间件)_image_4.jpg",
@@ -266,8 +255,6 @@
     "obsidian相关/Picture/VPN(virtual private network)_image_1.png",
     "obsidian相关/Picture/tmp1683523256117_每日八股文(2)_image_2.png",
     "obsidian相关/Picture/tmp1683530470900_常用算法_image_2.png",
-    "obsidian相关/Obsidian快捷键.md",
-    "IT/SpringCloud/Docker和Jekins(去冲突和快速打包).md",
     "常用语法和算法/常用算法/概念",
     "IT/多线程",
     "学习/科学",
