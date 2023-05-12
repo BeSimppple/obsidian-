@@ -51,6 +51,8 @@ Servlet的XML配置
 	而如果是上一级则需要../来返回上一级
 	如果是上一级下面的另一个包中,则需要先../返回在输入相应的路径
 
+---
+## Request和Response
 **request和response对象**
 	**概念:**
 	Web服务器接收到客户端的请求，会针对于每一次请求创建
@@ -98,49 +100,58 @@ Request对象操作请求头
 Request对象操作请求正文
 	//获取指定参数的参数值
 	public String getParameter(String name)
-	//获取到所有[name]元素的一组值(一个元素可以定义多个值)
+	//获取到所有\[name]元素的一组值(一个元素可以定义多个值)
 	public String[] getParameterValues(String name)
 	//使用hashMap的方法来编写元素,对应元素名:键 值对应值
 	//返回此请求的参数的
 	public java.util.Map<K, V>getParameterMap()
 	//使用枚举的方法来获取所有参数名称
-	public java.util.Enumeration<E>getParameterNames()
+	public java.util.Enumeration\<E>getParameterNames()
 	* HttpServletRequest和HttpServletResponse针对http协议
 	* ServletRequest和ServletResponse不针对http协议
+Request请求转发
+	**概念:**
+	请求转发,就会形成一个请求链,他们共享一个request和response对象
+	request域对象只能在同一个request中传递数据,因此重定向的时候request对象会变化,而请求转发传递的是同一个request
+	在同一服务器上不同的request请求是会得到唯一的session
+	**操作:**
+	request.getRequestDispathcher("路径").forword(req.resp)
+	//从项目开始定位,所以绝对路径从资源名开始
+
+Request域的生命周期
+	request对象是在浏览器向服务器发送请求时创建
+	request对象是在服务器响应时候销毁的
 
 编码,解码乱码的问题
+	**原理:** 编码方式和解码方式不一致
 	浏览器将请求正文编码UTF-8成字节数组,然后服务器以iso8859-1进行解码,之后再以iso8859-1进行编码然后再发送给浏览器,浏览器以UTF-8进行解码就乱码了!!!!!
 
-Request请求转发与重定向的区别?
-request对象是在浏览器向服务器发送请求时创建
-request对象是在服务器响应时候销毁的
-请求转发,就会形成一个请求链,他们共享一个request和response对象
-request域对象只能在同一个request中传递数据,因此重定向的时候request对象会变化,而请求转发传递的是同一个request
-在同一服务器上不同的request请求是会得到唯一的session
-实现方法:
-request.getRequestDispathcher("路径").forword(req.resp)
-//从项目开始定位,所以绝对路径从资源名开始
-Ajax
-AJAX即“Asynchronous Javascript And XML”
-（异步JavaScript和XML）
-作用:
-可以局部刷新页面(当有很多请求需要一起刷新时局部刷新要更改的页面信息)
-可以发送异步请求
-异步请求:可以局部的改变网页上的内容,当正在发生改变时,其他的模块的内容也可以发出请求
-.XMLHttpRequest对象详细介绍
-Ajax异步请求对象
-属性:
-1.onreadystatechange
-用于指定XMLHttpRequest对象状态改变时的事件处理函数
-2.readystate
-0 :XMLHttpRequest对象还没有完成初始化
-1 :XMLHttpRequest对象开始发送请求
-2 :XMLHttpRequest对象的请求发送完成
-3 :XMLHttpRequest对象开始读取服务器的响应
-4 :XMLHttpRequest对象读取服务器响应完成
-**10. forward(请求转发)和redirect(重定向)的区别?**
-forward是服务端发送的额外请求且只能跳转本站资源点,所有请求一次完成可以携带request资源,客户端并不知道请求的地址
-redirect是客户端行为,可以请求到非本站资源.请求分二次完成第一次返回200状态码后请求第二个资源,无法携带request对象,会显示第二次请求的地址
+**请求转发(Request)与重定向(Redirect)的区别?**
+	**请求转发(forward)**
+	是服务端发送的额外请求且只能跳转本站资源点,所有请求一次完成可以携带request资源,客户端并不知道请求的地址
+	**重定向(redirect)**
+	是客户端行为,可以请求到非本站资源.请求分二次完成第一次返回200状态码后请求第二个资源,无法携带request对象,会显示第二次请求的地址
+
+---
+## Ajax(Asynchronous Javascript And XML)
+AJAX作用和原理
+	**作用:**
+	1. 可以局部刷新页面(当有很多请求需要一起刷新时局部刷新要更改的页面信息)
+	2. 可以发送异步请求
+	**原理:**
+	通过`XmlHttpRequest`对象来向服务器发异步请求，从服务器获得数据，然后用`JavaScript`来操作`DOM`而更新页面
+
+.XMLHttpRequest对象
+	**概念:** Ajax异步请求对象
+	**属性:**
+	1.onreadystatechange
+	用于指定XMLHttpRequest对象状态改变时的事件处理函数
+	2.readystate
+		0 :XMLHttpRequest对象还没有完成初始化
+		1 :XMLHttpRequest对象开始发送请求
+		2 :XMLHttpRequest对象的请求发送完成
+		3 :XMLHttpRequest对象开始读取服务器的响应
+		4 :XMLHttpRequest对象读取服务器响应完成
 
 
 ---
