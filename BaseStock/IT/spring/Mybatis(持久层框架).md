@@ -104,81 +104,86 @@ Mybatis的代理开发模式
 	直接利用mapper获取全限定类名反射,获取UserDao接口对象
 	去实现UserDao接口方法
 MyBatis的核心配置文件设置
-configuration(配置)
-1.[properties（属性）](https://mybatis.org/mybatis-3/zh/configuration.html#properties)
-//可以选择resource引入外部标签,也可以自己定义变量再使用
--   [settings（设置）](https://mybatis.org/mybatis-3/zh/configuration.html#settings)
-[typeAliases（类型别名）](https://mybatis.org/mybatis-3/zh/configuration.html#typeAliases)
-//给一个对象起别名,方便查看和书写
--   [typeHandlers（类型处理器）](https://mybatis.org/mybatis-3/zh/configuration.html#typeHandlers)
--   [objectFactory（对象工厂）](https://mybatis.org/mybatis-3/zh/configuration.html#objectFactory)
-[plugins（插件）](https://mybatis.org/mybatis-3/zh/configuration.html#plugins)
-MyBatis可以使用第三方的插件对功能进行扩展，分页助手PageHelper是将分页的复杂操作进行封装，使用简单的方式即可获得分页的相关数据
-[environments（环境配置）](https://mybatis.org/mybatis-3/zh/configuration.html#environments)
-environment（环境变量）
-transactionManager（事务管理器）
-dataSource（数据源）
--   [databaseIdProvider（数据库厂商标识）](https://mybatis.org/mybatis-3/zh/configuration.html#databaseIdProvider)
-[mappers（映射器）](https://mybatis.org/mybatis-3/zh/configuration.html#mappers)
-//resource="mapper01.xml"在classpath下加载mapper01.xml映射文件
-//class 是扫描UserDao2接口对应的映射文件,映射文件必须和接口名一直,而且必须存放在和接口同一目录下
-//name 扫描指定包下所有接口对应的映射文件,映射文件必须和接口名一直,且必须存放在和接口同目录下
-MyBatis的映射配置文件设置
-parameterType属性 设置传入的参数类型
-包括简单数据类型(int,String等) 这类只能传入一个参数
-也包括复杂数据类型 (javaBean实体类,Map等)这类可以传入多个参数
-resultType属性设置返回值的参数类型 同上
-resultMap属性
-resultType可以将查询结果映射为pojo,但需要pojo类的属性名和sql查询的字段名称一致方可映射成功。
-如果sql查询字段名和pojo类的属性名不一致，可以通过resultMap将字段名和属性名作一个对应关系.
-resultMap可以实现将查询结果映射为复杂类型的pojo，比如实现一对一查询和一对多查询。 例如:
-<id property="eid" javaType="int" column="eid"></id>
-<result column="ename" property="ename" javaType="String"></result>
-<!-- 映射Dept属性 property叫做dept 他的属性类型为简写的全类名dept-->
-<association property="dept" javaType="dept">
-<id property="did" javaType="int" column="did"></id>
-<result property="dname" column="dname" javaType="String"></result>
-</association>
-</resultMap>
-MyBatis的多表查询
-其中association 代表着可以将对象中的对象进行分析成我们需要的简单数据类型 用于多表查询
-sql属性 可以简化sql语句书写
-<sql id="queryByParam">
-id,username,password
-</sql>
-引入方式: <include refid="片段名"></include>
-动态sql之 if标签 和where标签 通过if标签完成sql的动态语句
-使用where可以省略where1=1 和第一个and
-select <include refid="queryByParam"></include> from tb_user
-<where>
-<if test="null != username and '' != username">
-username = #{username}
-</if>
-<if test="null != password and '' != password">
-and password = #{password}
-</if>
-</where>
-动态sql之 foreach标签 通过foreach标签完成sql的动态语句
-select <include refid="queryByParam"></include> from tb_user
-<where>
-<foreach collection="list" separator="," open="id in (" close=")" item="id">
-#{id}
-</foreach>
-</where>
-select * from tb_user where id in (1,2,3,4,5,6) 通过id 查询id为这些里面相同的
-select * from tb_user where id = 1 or id = 2 or id =3 or id =4 or id =5 or id = 6
-collection代表类型:list是集合 array是数组
-open开始 close结束
-separator是间隔
-item是中间内容 foreach也是为了输入中间内容
-通过拼接的方式来变化语句\
-wherer的作用就是保证后面能接语句
-一对多查询
-<resultMap>
-其中List对象
-//这里使用ofType代表这是一个List集合包括其中泛型对象
-<collectioin property="employeeList" ofType="employee"></collection>
-</resultMap>
+	configuration(配置)
+	1. [properties（属性）](https://mybatis.org/mybatis-3/zh/configuration.html#properties)//可以选择resource引入外部标签,也可以自己定义变量再使用
+	2. [settings（设置）](https://mybatis.org/mybatis-3/zh/configuration.html#settings)
+	3. [typeAliases（类型别名）](https://mybatis.org/mybatis-3/zh/configuration.html#typeAliases)//给一个对象起别名,方便查看和书写
+	4. [typeHandlers（类型处理器）](https://mybatis.org/mybatis-3/zh/configuration.html#typeHandlers)
+	5. [objectFactory（对象工厂）](https://mybatis.org/mybatis-3/zh/configuration.html#objectFactory)
+	6. [plugins（插件）](https://mybatis.org/mybatis-3/zh/configuration.html#plugins)
+	MyBatis可以使用第三方的插件对功能进行扩展，分页助手PageHelper是将分页的复杂操作进行封装，使用简单的方式即可获得分页的相关数据
+	[environments（环境配置）](https://mybatis.org/mybatis-3/zh/configuration.html#environments)
+	environment（环境变量）
+	transactionManager（事务管理器）
+	dataSource（数据源）
+	-   [databaseIdProvider（数据库厂商标识）](https://mybatis.org/mybatis-3/zh/configuration.html#databaseIdProvider)
+	[mappers（映射器）](https://mybatis.org/mybatis-3/zh/configuration.html#mappers)
+	//resource="mapper01.xml"在classpath下加载mapper01.xml映射文件
+	//class 是扫描UserDao2接口对应的映射文件,映射文件必须和接口名一直,而且必须存放在和接口同一目录下
+	//name 扫描指定包下所有接口对应的映射文件,映射文件必须和接口名一直,且必须存放在和接口同目录下
+
+MyBatis的映射关键字
+	**parameterType属性** 
+		设置传入的参数类型
+		包括简单数据类型(int,String等) 这类只能传入一个参数
+		也包括复杂数据类型 (javaBean实体类,Map等)这类可以传入多个参数
+	**resultType属性**
+		设置返回值的参数类型 同parameterType属性
+	**resultMap属性**
+		resultType可以将查询结果映射为pojo,但需要pojo类的属性名和sql查询的字段名称一致方可映射成功。
+		如果sql查询字段名和pojo类的属性名不一致，可以通过resultMap将字段名和属性名作一个对应关系.
+		resultMap可以实现将查询结果映射为复杂类型的pojo，比如实现一对一查询和一对多查询。 例如:
+		\<id property="eid" javaType="int" column="eid">\</id>
+		\<result column="ename" property="ename" javaType="String">\</result>
+		<!-- 映射Dept属性 property叫做dept 他的属性类型为简写的全类名dept-->
+		\<association property="dept" javaType="dept">
+		\<id property="did" javaType="int" column="did">\</id>
+		\<result property="dname" column="dname" javaType="String">\</result>
+		\</association>
+		\</resultMap>
+		**MyBatis的多表查询**
+		其中association 代表着可以将对象中的对象进行分析成我们需要的简单数据类型 用于多表查询
+	**sql属性** 
+		可以简化sql语句书写
+		\<sql id="queryByParam">
+		id,username,password
+		\</sql>
+		引入方式: \<include refid="片段名">\</include>
+	**动态sql之 if标签 和where,set标签** 
+		使用where可以省略where1=1 和第一个and
+		select <include refid="queryByParam"></include> from tb_user
+		\<where>
+		\<if test="null != username and '' != username">
+		username = #{username}
+		\</if>
+		\<if test="null != password and '' != password">
+		and password = #{password}
+		\</if>
+		\</where>
+	**动态sql之when, otherwise标签**
+		-
+	**动态sql之 foreach标签** 
+		select <include refid="queryByParam"></include> from tb_user
+		\<where>
+		\<foreach collection="list" separator="," open="id in (" close=")" item="id">
+		#{id}
+		\</foreach>
+		\</where>
+		-------------------
+		select * from tb_user where id in (1,2,3,4,5,6) 通过id 查询id为这些里面相同的
+		select * from tb_user where id = 1 or id = 2 or id =3 or id =4 or id =5 or id = 6
+		collection代表类型:list是集合 array是数组
+		open开始 close结束
+		separator是间隔
+		item是中间内容 foreach也是为了输入中间内容
+		通过拼接的方式来变化语句\
+		wherer的作用就是保证后面能接语句
+		**一对多查询**
+		\<resultMap>
+		其中List对象
+		//这里使用ofType代表这是一个List集合包括其中泛型对象
+		\<collectioin property="employeeList" ofType="employee">\</collection>
+		\</resultMap>
 
 
 
