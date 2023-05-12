@@ -122,37 +122,29 @@ SpringBoot整合mybatis注意事项(启动项配置未实例化问题)
 	@Mapper Mybatis 的注解，和 Spring 没有关系，@Repository 和@component 是 Spring 的注解，用于声明一个 Bean。
 	在 Spring 程序中，Mybatis 需要找到对应的 mapper接口，在编译的时候动态生成代理类，实现数据库查询功能，所以我们需要在接口上添加 @Mapper 注解。
 
-
 通过命令行配置属性（直接通过cmd启动项目）
 	命令：
 	java -jar xxx.jar --server.port=8888
 	通过使用–-server.port属性来设置xxx.jar应用的监听端口为8888
 Spring的基础配置等
 	springboot2.0以后使用的默认的数据库连接池为HiKariCP
-**# redis集群版**
-spring.redis.cluster.nodes=192.168.234.131:7001,192.168.234.131:7002,192.168.234.131:7003
-spring.redis.password=
-​#切换环境(Springboot多环境配置)
-spring.profiles.active=pro
-\#指定数据库类型:
-spring.datasource.type=com.alibaba.druid.pool.DruidDataSource
-\#配置别名
-mybatis.type-aliases-package=com.qf.entity
-\#加载Mybatis映射文件
-mybatis.mapper-locations=classpath:com.qf.mapper/*Mapper.xml
-thymeleaf入门使用
-起步依赖->配置thymeleaf
-常用方法th:each th:if 等
+	**# redis集群版**
+	spring.redis.cluster.nodes=192.168.234.131:7001,192.168.234.131:7002,192.168.234.131:7003
+	spring.redis.password=
+	​**#切换环境(Springboot多环境配置)**
+	spring.profiles.active=pro
+	**\#指定数据库类型:**
+	spring.datasource.type=com.alibaba.druid.pool.DruidDataSource
+	**\#配置别名**
+	mybatis.type-aliases-package=com.qf.entity
+	**\#加载Mybatis映射文件**
+	mybatis.mapper-locations=classpath:com.qf.mapper/*Mapper.xml
+	**thymeleaf入门使用**
+	起步依赖->配置thymeleaf
+	常用方法th:each th:if 等
 
+  
 
-一些概念：
-
-Redisson：实现了分布式和可扩展的Java数据结构。
-Lettuce：高级Redis客户端，用于线程安全同步，异步和响应使用，支持集群，Sentinel，管道和编码器。
-优点：
-　　Jedis：比较全面的提供了Redis的操作特性
-　　Redisson：促使使用者对Redis的关注分离，提供很多分布式相关操作服务，例如，分布式锁，分布式集合，可通过Redis支持延迟队列
-后续解决多项目的分布式锁会使用redisson
-　　Lettuce：主要在一些分布式缓存框架上使用比较多
-springboot是一个项目建立完成后,放到tomcat服务器.
-一般是打包成war包或jar包放到webapps文件夹然后启动tomcat,和nginx(负载均衡多个tomcat同事做代理和ip地址管理),数据链接mysql数据库.一些功能可以通过完全独立的redis中间件实现
+springboot项目运行
+	项目完成后,放到tomcat服务器.
+	一般是打包成war包或jar包放到webapps文件夹然后启动tomcat,和nginx(负载均衡多个tomcat同事做代理和ip地址管理),数据链接mysql数据库.一些功能可以通过完全独立的redis中间件实现

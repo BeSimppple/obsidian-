@@ -201,8 +201,9 @@ linux中如何实现Redis集群
 	192.168.234.131:7006 \
 	--cluster-replicas 1
 	然后就会提示创建集群3个主节点对应3个从节点-yes
-redis集群连接java项目
-	springboot 同理在xml文件设置
+Idea整合redis集群
+	SSM项目在xml文件设置
+	springboot使用redis起步依赖(内置Lettuce：是Redis的Java实现客户端，提供了比较全面的Redis命令的支持，)
 	使用springcloud的yaml会比较方便
 	Jedis实现java项目链接redis （以后会用spring整合的spring-data-redis但也需要jedis依赖）
 	pom依赖后使用jedis类操作
@@ -249,3 +250,8 @@ Redis内存淘汰策略:
 Redis+Lua脚本
 	lua是轻量化C语言脚本
 	辅助Redis脚本化命令(核心作用将多个命令写成lua脚本从而原子化)
+
+Redsi客户端(Lettuce和Jedis)：
+	Springboot启动依赖中配置的就是Lettuce替代了Jedis作redis客户端
+	高级Redis客户端，用于线程安全同步，异步和响应使用，支持集群，Sentinel，管道和编码器。**`Lettuce`是一个高性能基于`Java`编写的`Redis`驱动框架**
+	[Lettuce详解](https://juejin.cn/post/6844903954778701832)
