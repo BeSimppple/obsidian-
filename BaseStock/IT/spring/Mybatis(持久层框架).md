@@ -11,20 +11,34 @@
 	3.使用反射、内省等底层技术，自动将实体与表进行属性与字段的自动映射(减少重复编码)
 Mybatis-Plus常用API及注解
 	Mybatis-plus常用api和注解在springboot笔记中记载,也可上官网查 @tableId() 和QueryWrapper<>条件构造器和IPage<>分页构造器等常用类和注解
-Mybatis底层架构
-	mapper主要配置的 就是statement执行对象 MapperStatement
-	通过SqlSessionFactory的SqlSession的Executor来使用执行对象
-	而SqlSessionFactory是通过SqlMapConfig.xml配置文件得来的
+**Mybatis底层架构**
 	![[Mybatis(持久层框架)_image_1.jpg|575]]
+	**SqlMapConfig.xml**
+		该文件作为MyBatis的核心配置文件,配置了MyBatis的运行环境等信息.
+	**Mapper.xml**
+		sql映射文件，文件中配置了操作数据库的sql语句。此文件需要在SqlMapConfig.xml中加载。
+		Mapper.xml中的各项配置的作用
+		![[Mybatis(持久层框架)_image_2.jpg]]
 	**MyBatis的核心API:**
 		**SqlSessionFactoryBuilder**
 		获取SqlSessionFactory对象,只需要用一次,所以使用匿名对象
 		**SqlSessionFactory**
-		获取SqlSession的工厂对象,可以进行复用
+		通过mybatis配置信息创建,即会话工厂对象,可以进行复用
 		**SqlSession**
 		是一个执行statement的会话对象,一次数据操作就是一次会话对应一个SqlSession对象
 		传统Dao因为 实现子类太多 在映射文件 Dao接口 Dao实现类之间存在耦合
 		映射文件的id改变必须要改变实现子类的方法名
+		**Executor**,
+		mybatis底层自定的接口,用来操作数据库。
+		**MappedStatement**
+		mybatis的底层封装对象，它包装了mybatis配置信息及sql映射信息等。mapper.xml文件中一个sql对应一个MappedStatement对象。
+	**输入映射**
+		包括HashMap、基本类型、pojo，Executor通过MappedStatement在执行sql前将输入的java对象映射至sql中，输入映射相当于JDBC编程中对preparedStatement设置参数。
+	**输出映射**
+		包括HashMap、基本类型、pojo，Executor通过MappedStatement在执行sql后将输出结果映射至java对象中，输出映射相当于JDBC编程中对结果的解析处理过程。
+	mapper主要配置的 就是statement执行对象 MapperStatement
+	通过SqlSessionFactory的SqlSession的Executor来使用执行对象
+	而SqlSessionFactory是通过SqlMapConfig.xml配置文件得来的
 
 Mybatis拦截器
 	**作用:** 常用于分页,sql结果集处理执行额外逻辑和过滤敏感信息
@@ -36,20 +50,8 @@ Mybatis拦截器
 		3.ParameterHandler 作为处理sql参数设置的对象，主要实现读取参数和对PreparedStatement的参数进行赋值
 		4.ResultSetHandler 处理Statement执行完成后返回结果集的接口对象，mybatis通过它把ResultSet集合映射成实体对象
 
-MyBatis中增删改默认事务管理是手动提交
+**MyBatis中增删改默认事务管理是手动提交**
 
-
-SqlMapConfig.xml.:该文件作为MyBatis的核心配置文件,配置了MyBatis的运行环境等信息.
-Mapper.xml, 即sql映射文件，文件中配置了操作数据库的sql语句。此文件需要在SqlMapConfig.xml中加载。
-SqlSessionFactory, 通过mybatis配置信息创建,即会话工厂对象
-SqlSession, 由SqlSessionFactory获取，用来操作数据库。
-Executor, mybatis底层自定的接口,用来操作数据库。
-MappedStatement, mybatis的底层封装对象，它包装了mybatis配置信息及sql映射信息等。mapper.xml文件中一个sql对应一个MappedStatement对象。
-输入映射，包括HashMap、基本类型、pojo，Executor通过MappedStatement在执行sql前将输入的java对象映射至sql中，输入映射相当于JDBC编程中对preparedStatement设置参数。
-输出映射，包括HashMap、基本类型、pojo，Executor通过MappedStatement在执行sql后将输出结果映射至java对象中，输出映射相当于JDBC编程中对结果的解析处理过程。
-
-Mapper.xml中的各项配置的作用
-![[Mybatis(持久层框架)_image_2.jpg]]
 
 Mybatis的代理开发模式
 需求条件:
@@ -145,24 +147,26 @@ MyBatis的延迟加载
 好处:提交了数据库的操作效率
 一对一查询一般不需要做延迟加载
 ,一对多可以做延迟加载
-MyBatis缓存
-概念:mysql数据库是一个文件存储系统,放在磁盘上,而磁盘的读写性是有限制的,缓存就是为了减少和数据库的交互次数,提高执行效率
-主要适用于
-1.经常查询并且不经常改变的
-2.数据的正确与否对最终结果影响不大
-一级缓存
-在一次会话中的缓存,默认设置
-仅在一次会话中存在
-可以使用sqlSession的方法clearCache()清除缓存
-也可以因为第二次查询前内容发生更改,mybatis会自动帮你修改缓存
-就像是session
-二级缓存
-1.开启缓存setting
-2.在影射文件中开启二级缓存 <cache></cache>
-3.在具体的statemetn中使用userCash = true(可能需要在返回类中实现序列化serialize)
-4.代码测试
-第一次查询出来的对象,将其中的值存放到二级缓存中,在下一次创建的时候赋值使用
-就像是Cookie
+
+
+**MyBatis缓存**
+	**作用:** Mysql数据库是一个文件存储系统,放在磁盘上,而磁盘的读写性是有限制的,缓存就是为了减少和数据库的交互次数,提高执行效率
+	主要适用于
+	1.经常查询并且不经常改变的
+	2.数据的正确与否对最终结果影响不大
+	**一级缓存**
+	在一次会话中的缓存,默认设置
+	仅在一次会话中存在
+	可以使用sqlSession的方法clearCache()清除缓存
+	也可以因为第二次查询前内容发生更改,mybatis会自动帮你修改缓存
+	就像是session
+	二级缓存
+	1.开启缓存setting
+	2.在影射文件中开启二级缓存 <cache></cache>
+	3.在具体的statemetn中使用userCash = true(可能需要在返回类中实现序列化serialize)
+	4.代码测试
+	第一次查询出来的对象,将其中的值存放到二级缓存中,在下一次创建的时候赋值使用
+	就像是Cookie
 
 
 
