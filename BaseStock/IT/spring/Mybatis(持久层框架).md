@@ -1,41 +1,32 @@
 Mybatis-plus常用api和注解在springboot笔记中记载,也可上官网查 @tableId() 和QueryWrapper<>条件构造器和IPage<>分页构造器等常用类和注解
 **Mybatis的作用和原理:**
 	**作用:**
-	解决原始jdbc开发的问题:
+	1.解决原始jdbc开发的问题:
 		1.数据库连接创建、释放频繁造成系统资源浪费从而影响系统性能
 		2.sql 语句在代码中硬编码，造成代码不易维护，实际应用 sql 变化的可能较大，sql 变动需要改变java代码。
 		3.查询操作时，需要手动将结果集中的数据手动封装到实体中。插入操作时，需要手动将实体的数据设置到sql语句的占位符位置
+	2.对JDBC进行封装,然后使用ORM方式映射,让开发人员更加关注sql语句,而非其他操作,减少耦合
 	**原理:**
-	1.使用数据库连接池初始化连接资源(解决资源浪费)
-	2.将sql语句抽取到xml配置文件中
-	3.使用反射、内省等底层技术，自动将实体与表进行属性与字段的自动映射
-
-原始jdbc开发存在的问题如下：
-
-
-
-
-
+	1.使用数据库连接池初始化连接资源(优化资源使用)
+	2.将sql语句抽取到xml配置文件中(减少硬编码)
+	3.使用反射、内省等底层技术，自动将实体与表进行属性与字段的自动映射(减少重复编码)
 
 作用方法:采用ORM(object relation mapping)方法解决了实体和数据库映射的问题,对JDBC进行封装,不用于JDBC API打交道就可以完成对数据库的持久化操作
-主要作用:让开发人员更加关注sql语句,而非其他操作,减少耦合
-![[Mybatis(持久层框架)_image_1.jpg]]
+![[Mybatis(持久层框架)_image_1.jpg|725]]
 mapper主要配置的 就是statement执行对象 MapperStatement
 通过SqlSessionFactory的SqlSession的Executor来使用执行对象
 而SqlSessionFactory是通过SqlMapConfig.xml配置文件得来的
+
 mybatis拦截器:(常用于分页,sql结果集处理执行额外逻辑和过滤敏感信息)
 mybatis拦截器本质上使用了jdk动态代理
 用户自定义拦截器类只需实现Interceptor接口，以及实现intercept方法，plugin和setProperties方法可重写，plugin方法一般不会改动，该方法调用了Plugin的静态方法wrap实现了对目标对象的代理
 拦截器4个对象:
-1.Executor mybatis的内部执行器，作为调度核心负责调用StatementHandler操作数据库，并把结果集通过ResultSetHandler进行自动映射
-2.StatementHandler mybatis的内部执行器，作为调度核心负责调用StatementHandler操作数据库，并把结果集通过ResultSetHandler进行自动映射
-3.ParameterHandler 作为处理sql参数设置的对象，主要实现读取参数和对PreparedStatement的参数进行赋值
-4.ResultSetHandler 处理Statement执行完成后返回结果集的接口对象，mybatis通过它把ResultSet集合映射成实体对象
-mybatis-plus代码逆向生成表和接口和xml文件等
-导入需要的几个pom包(官网找引导有详细教程)
-codeGender类(mybatis-plus提供)
-修改必要的参数(数据库地址等信息)
-网上也有很多同类型的类方法(了解原理直接复制就行)
+	1.Executor mybatis的内部执行器，作为调度核心负责调用StatementHandler操作数据库，并把结果集通过ResultSetHandler进行自动映射
+	2.StatementHandler mybatis的内部执行器，作为调度核心负责调用StatementHandler操作数据库，并把结果集通过ResultSetHandler进行自动映射
+	3.ParameterHandler 作为处理sql参数设置的对象，主要实现读取参数和对PreparedStatement的参数进行赋值
+	4.ResultSetHandler 处理Statement执行完成后返回结果集的接口对象，mybatis通过它把ResultSet集合映射成实体对象
+
+
 MyBatis中增删改默认事务管理是手动提交
 SqlMapConfig.xml.:该文件作为MyBatis的核心配置文件,配置了MyBatis的运行环境等信息.
 Mapper.xml, 即sql映射文件，文件中配置了操作数据库的sql语句。此文件需要在SqlMapConfig.xml中加载。
@@ -168,3 +159,19 @@ MyBatis缓存
 4.代码测试
 第一次查询出来的对象,将其中的值存放到二级缓存中,在下一次创建的时候赋值使用
 就像是Cookie
+
+
+
+
+
+
+
+数据库代码生成(数据库表生成java中对应类)
+	可以生成对应类,xml配置,接口等
+	导入需要的几个pom包(官网找引导有详细教程)
+	codeGender类(mybatis-plus提供)
+	修改必要的参数(数据库地址等信息)
+	网上也有很多同类型的类方法(了解原理直接复制就行)
+
+
+
