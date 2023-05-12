@@ -46,67 +46,71 @@ Servlet的XML配置
 		当访问tomcat服务器中的静态资源时,实际上是在访问这个缺省servlet
 
 访问的服务器路径的书写
-最上面一层就是工程的名字
-然后下面分文件夹或者内容,一级的可以直接相对路径打名字
-而如果是上一级则需要../来返回上一级
-如果是上一级下面的另一个包中,则需要先../返回在输入相应的路径
+	1.最上面一层就是工程的名字
+	2.然后下面分文件夹或者内容,一级的可以直接相对路径打名字
+	而如果是上一级则需要../来返回上一级
+	如果是上一级下面的另一个包中,则需要先../返回在输入相应的路径
 
+**request和response对象**
+	**概念:**
+	Web服务器接收到客户端的请求，会针对于每一次请求创建
+	一个用于封装我们http请求信息的对象request,也会创建一个response对象，它对应着http响应。
+	**作用:**
+	request对象就可以操作http请求信息
+	response对象就可以操作http响应信息
 
-request和response对象
-request与response是什么?
-Web服务器接收到客户端的请求，会针对于每一次请求创建
-一个用于封装我们http请求信息的对象request,也会创建一个response对象，它对应着http响应。
-request对象就可以操作http请求信息
-response对象就可以操作http响应信息
 response操作响应行和响应头
-响应行
-setStatus(int status)//操作正常响应码.对应的反馈
-sendError(int status)//操作异常响应码,
-响应头
-//操作响应头，在原有基础上添加新值
-public void addHeader(String name, String value):
-/操作响应头，直接赋值
-public void setHeader(String name, String value):
+	**响应行**
+	setStatus(int status)//操作正常响应码.对应的反馈
+	sendError(int status)//操作异常响应码,
+	**响应头**
+	//操作响应头，在原有基础上添加新值
+	public void addHeader(String name, String value):
+	/操作响应头，直接赋值
+	public void setHeader(String name, String value):
 response的重定向的使用
-//首先要操作响应行让系统去跳转
-response.setStatus(302);
-//定位响应头去定位跳转位置
-response.setHeader("location","/fuck/demo01");
-第二种:定时重定向跳转
-response.setHeader("refresh"."5;url=http://localhost:8080/demo111.html")
-//其中refersh相当与302 5代表5秒 ;隔开 url绝对地址
+	//首先要操作响应行让系统去跳转
+	response.setStatus(302);
+	//定位响应头去定位跳转位置
+	response.setHeader("location","/fuck/demo01");
+	第二种:定时重定向跳转
+	response.setHeader("refresh"."5;url=http://localhost:8080/demo111.html")
+	//其中refersh相当与302 5代表5秒 ;隔开 url绝对地址
 response操作响应正文
-//返回一个可将字符文本发送到客户端的的对象writer
-public java.io.PrintWriter getWriter()
-//设定浏览器编解码的格式
-public void setCharacterEncoding(String charset)
-//设定浏览器字符编码,同时设置浏览器解析字符串的编码格式
-public void setContentType(String type)
-Request对象
-1.操作请求行
-//获取请求方式
-public String getMethod()
-//获取请求路径
-public String getRequestURI()
-//获取请求路径上的参数,仅限于get请求方式
-public String getQueryString()
-2.操作请求头
-//根据请求头名获取请求头值
-public String getHeader(String name)
-3.操作请求正文
-//获取指定参数的参数值
-public String getParameter(String name)
-//获取到所有[name]元素的一组值(一个元素可以定义多个值)
-public String[] getParameterValues(String name)
-//使用hashMap的方法来编写元素,对应元素名:键 值对应值
-//返回此请求的参数的
-public java.util.Map<K, V>getParameterMap()
-//使用枚举的方法来获取所有参数名称
-public java.util.Enumeration<E>getParameterNames()
-* HttpServletRequest和HttpServletResponse针对http协议
-* ServletRequest和ServletResponse不针对http协议
+	//返回一个可将字符文本发送到客户端的的对象writer
+	public java.io.PrintWriter getWriter()
+	//设定浏览器编解码的格式
+	public void setCharacterEncoding(String charset)
+	//设定浏览器字符编码,同时设置浏览器解析字符串的编码格式
+	public void setContentType(String type)
+
+
+Request对象操作请求行
+	//获取请求方式
+	public String getMethod()
+	//获取请求路径
+	public String getRequestURI()
+	//获取请求路径上的参数,仅限于get请求方式
+	public String getQueryString()
+Request对象操作请求头
+	//根据请求头名获取请求头值
+	public String getHeader(String name)
+Request对象操作请求正文
+	//获取指定参数的参数值
+	public String getParameter(String name)
+	//获取到所有[name]元素的一组值(一个元素可以定义多个值)
+	public String[] getParameterValues(String name)
+	//使用hashMap的方法来编写元素,对应元素名:键 值对应值
+	//返回此请求的参数的
+	public java.util.Map<K, V>getParameterMap()
+	//使用枚举的方法来获取所有参数名称
+	public java.util.Enumeration<E>getParameterNames()
+	* HttpServletRequest和HttpServletResponse针对http协议
+	* ServletRequest和ServletResponse不针对http协议
+
 编码,解码乱码的问题
-浏览器将请求正文编码UTF-8成字节数组,然后服务器以iso8859-1进行解码,之后再以iso8859-1进行编码然后再发送给浏览器,浏览器以UTF-8进行解码就乱码了!!!!!
+	浏览器将请求正文编码UTF-8成字节数组,然后服务器以iso8859-1进行解码,之后再以iso8859-1进行编码然后再发送给浏览器,浏览器以UTF-8进行解码就乱码了!!!!!
+
 Request请求转发
 request对象是在浏览器向服务器发送请求时创建
 request对象是在服务器响应时候销毁的
