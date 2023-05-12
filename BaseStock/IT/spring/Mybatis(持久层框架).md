@@ -64,21 +64,41 @@ Mybatis拦截器
 	4.代码测试
 	第一次查询出来的对象,将其中的值存放到二级缓存中,在下一次创建的时候赋值使用
 	就像是Cookie
+MyBatis的懒加载
+	**使用场景:** 例如多表查询根据部门查员工,但是默认不需要员工信息时候不加载,只有需要的时候才加载显示(一对一查询一般不需要做延迟加载 , 一对多可以做延迟加载)
+	**原理:** 将一次多表查询拆分成两次单表查询
+	**作用:** 
+	提交了数据库的操作效率
+	**实际操作**
+	基于代理的懒加载开启:   
+		**原理:** 调用对象的方法时，如果该对象未被初始化，则 MyBatis 会创建一个代理对象，当真正使用对象时，再通过代理对象去加载数据
+		**操作:**
+		SqlMapConfig.xml 中配置 setting 属性
+		1.aggressiveLazyLoading = false   
+		2.lazyLoadingEnable = true
+		3. fetchType = FetchType.LAZY
+	基于结果集的懒加载开启:
+		**原理:** 在查询结果时，只查询出主表的数据，当需要查询关联表的数据时，再去查询关联表。这种方式可以减少查询的数据量，但是会增加查询次数。
+		**操作:** 
+		SqlMapConfig.xml 中配置 setting 属性
+		1.lazyLoadTriggerMethods = true
 
-**MyBatis中增删改默认事务管理是手动提交**
+Mybatis事务
+	MyBatis的事务管理主要依赖于底层的JDBC事务管理机制,分为编程式事务和声明式事务。
+	
 
 
 Mybatis的代理开发模式
-需求条件:
-1.mapper映射文件的nameSpace必须要和dao接口的全限定类名一致
-2.statement的id值必须和dao接口的方法名一致
-3.statemtn的输入映射类型和dao接口方法的形参类型一致
-4.statement的输出映射类型和dao接口的方法的返回值类型一致
-在SqlMapConfig中加载maper映射文件,然后mapper会通过nameSpace中的全限定类名找到接口
-代理模式使用原理:
-省略了UserDaoImpl这个层面的处理
-直接利用mapper获取全限定类名反射,获取UserDao接口对象
-去实现UserDao接口方法
+	需求条件:
+	1.mapper映射文件的nameSpace必须要和dao接口的全限定类名一致
+	2.statement的id值必须和dao接口的方法名一致
+	3.statemtn的输入映射类型和dao接口方法的形参类型一致
+	4.statement的输出映射类型和dao接口的方法的返回值类型一致
+	在SqlMapConfig中加载maper映射文件,然后mapper会通过nameSpace中的全限定类名找到接口
+	代理模式使用原理:
+	省略了UserDaoImpl这个层面的处理
+	直接利用mapper获取全限定类名反射,获取UserDao接口对象
+	去实现UserDao接口方法
 MyBatis的核心配置文件设置
 configuration(配置)
 1.[properties（属性）](https://mybatis.org/mybatis-3/zh/configuration.html#properties)
@@ -155,20 +175,6 @@ wherer的作用就是保证后面能接语句
 //这里使用ofType代表这是一个List集合包括其中泛型对象
 <collectioin property="employeeList" ofType="employee"></collection>
 </resultMap>
-MyBatis的懒加载
-	**使用场景:** 例如多表查询根据部门查员工,但是默认不需要员工信息时候不加载,只有需要的时候才加载显示(一对一查询一般不需要做延迟加载 , 一对多可以做延迟加载)
-	**原理:** 将一次多表查询拆分成两次单表查询
-	**作用:** 
-	提交了数据库的操作效率
-	**实际操作**
-	基于代理的懒加载开启:   
-	SqlMapConfig.xml 中配置 setting 属性
-		1.aggressiveLazyLoading = false   
-		2.lazyLoadingEnable = true
-		3. fetchType = FetchType.LAZY
-	
-
-
 
 
 
