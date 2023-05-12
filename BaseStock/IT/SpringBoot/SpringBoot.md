@@ -49,29 +49,6 @@ springboot常用properties配置：
 	spring.redis.cluster.nodes=XXX(redis集群ip端口配置)
 	mybatis-plus.configuration.log-impl=org.apache.ibatis.logging.stdout.StdOutImpl(mybatis-plus提供的打印sql日志功能)
 	spring.profiles.active=pro(切换环境)
-
-springboot整合SSM框架
-	springboot已经有springMVC和spring了实际上就是加入mybatis
-	首先pom加入mybatis-start起步依赖和mysql驱动
-	起步依赖中有配置类MybatisAutoConfiguration。class其中包含几个类（DataSourceProperties类等），最后得出的需求是我们需要配置数据库的基础参数（url，driverclass，username，password）到properties中供这DataSourceProperties个类映射使用 数据库类型type默认hirki
-	1.在启动类上加@MapperScan()扫描指定的mapper接口包
-	2.在配置类上设置别名 mybatis.type-aliases-package=XXX(这样才能映射到正确实体类)
-	3.mybatis.mapper-locations=classpath:com.qf.mapper/*Mapper.xml(springboot可以省略mapper映射路径会自动配置因为约定>配置)
-	mybatis主要使用映射进行sql的操作建立对应mapper的xml文件(负责编写复杂sql语句或者返回复杂类型如resultMap)在resources包下(必须保证名字相同才能映射,注意包必须一个一个建立)
-springboot整合redis
-	加入redis pom起步依赖,包含了redis和lettuce(不同于jedis是异步和线程安全)与mybatis起步依赖包相同同时创建了RedsiAutoConfiguration
-	加入commons-pool12的jar包因为redis集群需要其中依赖
-	spring.redis.cluster.nodes=XXX配置节点
-	spring.redis.lettcue.pool.XXX=XXX配置连接池参数
-	spring.redis.password=XXX密码
-	配置完成后可以使用@Autowired取出StringRedisTemplate(String方式字符串序列化明文显示)或RedisTemplate(obj类的序列化方式不明文显示)
-	一般使用string的
-	**Springboot整合其他工具软件都是最好能有springboot支持的启动类jar包省去其他配置依赖**
-SpringBoot整合mybatis注意事项(启动项配置未实例化问题)
-	注意：当你做了pom依赖就立马启动工程，那么启动会报错，为什么呢？因为Mybatis-springboot-starter在自动化配置的时候，需要使用到datasource，但是容器中还没有datasource（因为你都没告诉springboot你的数据库信息）所以第二步就是配置数据库信息
-	mybatis-plus代码生成器：
-	表-驱动生成--》entity,Mapper接口,Mapper xml文件，Service接口，Service实现类，Controller
-
 **SpringBoot中常用注解（可能包括spring和springMVC和springcloud）**
 	@SpringBootApplication 等同于同时使用@Configuration(声明当前类是一个配置类)，@EnableAutoConfiguration(开启自动配置)和
 	@ConditionalOnbean 是springboot提供的条件注解，意思是进行mybatis自动配置前，必须要有datasource对象
@@ -121,11 +98,6 @@ SpringBoot整合mybatis注意事项(启动项配置未实例化问题)
 	@MapperScan与
 	@Mapper Mybatis 的注解，和 Spring 没有关系，@Repository 和@component 是 Spring 的注解，用于声明一个 Bean。
 	在 Spring 程序中，Mybatis 需要找到对应的 mapper接口，在编译的时候动态生成代理类，实现数据库查询功能，所以我们需要在接口上添加 @Mapper 注解。
-
-通过命令行配置属性（直接通过cmd启动项目）
-	命令：
-	java -jar xxx.jar --server.port=8888
-	通过使用–-server.port属性来设置xxx.jar应用的监听端口为8888
 Spring的基础配置等
 	springboot2.0以后使用的默认的数据库连接池为HiKariCP
 	**# redis集群版**
@@ -143,8 +115,32 @@ Spring的基础配置等
 	起步依赖->配置thymeleaf
 	常用方法th:each th:if 等
 
-  
+springboot整合SSM框架
+	springboot已经有springMVC和spring了实际上就是加入mybatis
+	首先pom加入mybatis-start起步依赖和mysql驱动
+	起步依赖中有配置类MybatisAutoConfiguration。class其中包含几个类（DataSourceProperties类等），最后得出的需求是我们需要配置数据库的基础参数（url，driverclass，username，password）到properties中供这DataSourceProperties个类映射使用 数据库类型type默认hirki
+	1.在启动类上加@MapperScan()扫描指定的mapper接口包
+	2.在配置类上设置别名 mybatis.type-aliases-package=XXX(这样才能映射到正确实体类)
+	3.mybatis.mapper-locations=classpath:com.qf.mapper/*Mapper.xml(springboot可以省略mapper映射路径会自动配置因为约定>配置)
+	mybatis主要使用映射进行sql的操作建立对应mapper的xml文件(负责编写复杂sql语句或者返回复杂类型如resultMap)在resources包下(必须保证名字相同才能映射,注意包必须一个一个建立)
+springboot整合redis
+	加入redis pom起步依赖,包含了redis和lettuce(不同于jedis是异步和线程安全)与mybatis起步依赖包相同同时创建了RedsiAutoConfiguration
+	加入commons-pool12的jar包因为redis集群需要其中依赖
+	spring.redis.cluster.nodes=XXX配置节点
+	spring.redis.lettcue.pool.XXX=XXX配置连接池参数
+	spring.redis.password=XXX密码
+	配置完成后可以使用@Autowired取出StringRedisTemplate(String方式字符串序列化明文显示)或RedisTemplate(obj类的序列化方式不明文显示)
+	一般使用string的
+	**Springboot整合其他工具软件都是最好能有springboot支持的启动类jar包省去其他配置依赖**
+SpringBoot整合mybatis注意事项(启动项配置未实例化问题)
+	注意：当你做了pom依赖就立马启动工程，那么启动会报错，为什么呢？因为Mybatis-springboot-starter在自动化配置的时候，需要使用到datasource，但是容器中还没有datasource（因为你都没告诉springboot你的数据库信息）所以第二步就是配置数据库信息
+	**mybatis-plus代码生成器：**
+	表-驱动生成--》entity,Mapper接口,Mapper xml文件，Service接口，Service实现类，Controller
 
-springboot项目运行
+通过命令行配置属性和启动项目
+	命令：
+	java -jar xxx.jar --server.port=8888
+	通过使用–-server.port属性来设置xxx.jar应用的监听端口为8888
+Springboot完成后项目运行
 	项目完成后,放到tomcat服务器.
-	一般是打包成war包或jar包放到webapps文件夹然后启动tomcat,和nginx(负载均衡多个tomcat同事做代理和ip地址管理),数据链接mysql数据库.一些功能可以通过完全独立的redis中间件实现
+	打包成war包或jar包放到webapps文件夹然后启动tomcat,和nginx(负载均衡多个tomcat同时做代理和ip地址管理),数据链接mysql数据库.一些功能可以通过完全独立的redis中间件实现
