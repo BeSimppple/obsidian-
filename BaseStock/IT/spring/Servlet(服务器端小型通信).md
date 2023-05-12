@@ -1,30 +1,33 @@
 **Servlet的作用和原理**
 	**作用:**
 	使java程序能通过Servlet和和浏览器进行交互
-	**原理:**
+	**概念:**
 	Servlet是Java Servlet应用程序的javax.servlet.Servlet接口及相关类和方法的Java 程序,是一个动态资源
+	**原理:**
+	
 
-定义:就是一个
 处理请求的原理:
 Servlet接口下有一个实现类叫做GenericServlet.其有一个子类HttpServlet..
 在Servlet接口中定义了一个方法service,它的主要作用是处理来自浏览器的请求操作。在service方法的重载的方法中，对请求方式进行判断，
 处理请求流程
 * 浏览器发起请求，先交给Servlet的service方法将普通的请求和响应对象强转成针对http协议的请求和响应对象，获取请求方式，根据不同的请求方式调用不同的方法来处理请求：get请求就调用doGet方法、post请求就调用doPost方法、put请求就调用doPut方法、delete请求就调用doDelete方法
+* 
 创建Servlet的三种方式
-implements Servlet接口
-的实现抽象类
-extends GenericServlet类--将Servlet接口方法做了空实现,只将Service()t方法进行抽象
-的子类
-extends HttpServlet类-针对HTTP协议优化
-一般为extends HttpServlet'
-在javax.servlet.Servlet接口中定义了三个方法init service destroy它们就是servlet的生命周期方法
-总结:.servlet正常情况下不会随着服务器创建而初始化 第一次访问servlet,servlet会被创建，并将servlet对象常驻内存，调用init方法进行初始化操作，init方法中执行一次。
-调用service方法，用于处理来自浏览器端的请求，以后都是开启一个线程来处理浏览器端请求。
-随着服务器关闭Servlet销毁
-当tomcat服务器正常关闭时，会调用destroy方法将servlet销毁。
+	1. implements Servlet接口的实现抽象类
+	2. extends GenericServlet类--将Servlet接口方法做了空实现,只将Service()t方法进行抽象的子类
+	3. (常用)extends HttpServlet类-针对HTTP协议优化
+
+**Servlet的生命周期:**
+	在javax.servlet.Servlet接口中三个方法**init service destroy**就是servlet的生命周期作用方法
+	servlet正常情况下不会随着服务器创建而初始化 
+	1.第一次访问servlet,servlet会被创建，并将servlet对象常驻内存，调用init方法进行初始化操作，init方法中执行一次。
+	2.调用service方法，用于处理来自浏览器端的请求，以后都是开启一个线程来处理浏览器端请求。
+	3.随着服务器关闭Servlet销毁  ,  当tomcat服务器正常关闭时，会调用destroy方法将servlet销毁。
+
 load-on-startup
 可以让servlet跟随服务器的启动而启动
 对于load-on-startup它的可以配置的值有10个，1代表优先级最高，数值越大，优先级越低。
+
 对于servlet,我们需要在web.xml文件中对其进行配置
 在web.xml中声明Servlet
 在web.xml中给Servlet映射访问路径
