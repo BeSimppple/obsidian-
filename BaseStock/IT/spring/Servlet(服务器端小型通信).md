@@ -152,20 +152,37 @@ AJAX作用和原理
 		2 :XMLHttpRequest对象的请求发送完成
 		3 :XMLHttpRequest对象开始读取服务器的响应
 		4 :XMLHttpRequest对象读取服务器响应完成
-
+AJAX实现:
+	  1. 创建 `Ajax`的核心对象 `XMLHttpRequest`对象
+	  2. 通过 `XMLHttpRequest` 对象的 `open()` 方法与服务端建立连接
+	  3. 构建请求所需的数据内容，并通过`XMLHttpRequest` 对象的 `send()` 方法发送给服务器端
+	  4. 通过 `XMLHttpRequest` 对象提供的 `onreadystatechange` 事件监听服务器端你的通信状态
+	  5. 接受并处理服务端向客户端响应的数据结果
+	  6. 将处理结果更新到 `HTML`页面中
 
 ---
-过滤器Filter
-概述:用以在请求之前处理资源的组件
-生命周期
-1.随着服务器的启动而初始化
-2.随着请求的发生而过滤
-3.随着服务器的关闭而销毁
+## 过滤器Filter
+**概述:** 用以在请求之前处理资源的组件
+作用和原理:
+	
+Filter生命周期
+	1.随着服务器的启动而初始化
+	2.随着请求的发生而过滤
+	3.随着服务器的关闭而销毁
 执行流程:
-1.浏览器发起请求
-2.服务器会根据这个请求，创建request对象及response对象
-3.过滤器会持有request对象及response对象
-4.只有当过滤器放行之后，request对象及response对象才会传给Serlve
+	1.浏览器发起请求
+	2.服务器会根据这个请求，创建request对象及response对象
+	3.过滤器会持有request对象及response对象
+	4.只有当过滤器放行之后，request对象及response对象才会传给Serlve
+**过滤器链和拦截器的区别**
+	![[Servlet(服务器端小型通信)_image_1.jpg|350]]
+	1、实现原理不同 过滤器和拦截器底层实现方式大不相同，过滤器 是基于函数回调的，拦截器 则是基于Java的反射机制（动态代理）实现的。
+	2、使用范围不同 我们看到过滤器 实现的是 javax.servlet.Filter 接口，而这个接口是在Servlet规范中定义的，也就是说过滤器Filter 的使用要依赖于Tomcat等容器，导致它只能在web程序中使用。 而拦截器(Interceptor) 它是一个Spring组件，并由Spring容器管理，并不依赖Tomcat等容器，是可以单独使用的。不仅能应用在web程序中，也可以用于Application、Swing等程序中。
+	3、触发时机不同 过滤器Filter是在请求进入容器后，但在进入servlet之前进行预处理，请求结束是在servlet处理完以后。拦截器 Interceptor 是在请求进入servlet后，在进入Controller之前进行预处理的，Controller 中渲染了对应的视图之后请求结束。
+	4、拦截的请求范围不同 过滤器Filter执行了两次，拦截器Interceptor只执行了一次。这是因为过滤器几乎可以对所有进入容器的请求起作用，而拦截器只会对Controller中请求或访问static目录下的资源请求起作用。
+	5、注入Bean情况不同 这是因为加载顺序导致的问题，拦截器加载的时间点在springcontext之前，而Bean又是由spring进行管理。
+	6、控制执行顺序不同 过滤器用@Order注解控制执行顺序，通过@Order控制过滤器的级别，值越小级别越高越先执行。 拦截器默认的执行顺序，就是它的注册顺序，也可以通过Order手动设置控制，值越小越先执行
+
 执行顺序:
 先过滤,后放行
 过滤器相关配置
@@ -198,11 +215,3 @@ servlet监听器(具体)
 三类监听器
 -   监听域对象中的对象状态改变（对象绑定、对象解绑）
 三类监听器很特殊,可以直接在对象中实现三类监听器(然后重写方法完善解绑和绑定状态时的方法)
-过滤器链和拦截器的区别
-![[Servlet(服务器端小型通信)_image_1.jpg]]
-1、实现原理不同 过滤器和拦截器底层实现方式大不相同，过滤器 是基于函数回调的，拦截器 则是基于Java的反射机制（动态代理）实现的。
-2、使用范围不同 我们看到过滤器 实现的是 javax.servlet.Filter 接口，而这个接口是在Servlet规范中定义的，也就是说过滤器Filter 的使用要依赖于Tomcat等容器，导致它只能在web程序中使用。 而拦截器(Interceptor) 它是一个Spring组件，并由Spring容器管理，并不依赖Tomcat等容器，是可以单独使用的。不仅能应用在web程序中，也可以用于Application、Swing等程序中。
-3、触发时机不同 过滤器Filter是在请求进入容器后，但在进入servlet之前进行预处理，请求结束是在servlet处理完以后。拦截器 Interceptor 是在请求进入servlet后，在进入Controller之前进行预处理的，Controller 中渲染了对应的视图之后请求结束。
-4、拦截的请求范围不同 过滤器Filter执行了两次，拦截器Interceptor只执行了一次。这是因为过滤器几乎可以对所有进入容器的请求起作用，而拦截器只会对Controller中请求或访问static目录下的资源请求起作用。
-5、注入Bean情况不同 这是因为加载顺序导致的问题，拦截器加载的时间点在springcontext之前，而Bean又是由spring进行管理。
-6、控制执行顺序不同 过滤器用@Order注解控制执行顺序，通过@Order控制过滤器的级别，值越小级别越高越先执行。 拦截器默认的执行顺序，就是它的注册顺序，也可以通过Order手动设置控制，值越小越先执行
