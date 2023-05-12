@@ -49,6 +49,21 @@ Mybatis拦截器
 		2.StatementHandler mybatis的内部执行器，作为调度核心负责调用StatementHandler操作数据库，并把结果集通过ResultSetHandler进行自动映射
 		3.ParameterHandler 作为处理sql参数设置的对象，主要实现读取参数和对PreparedStatement的参数进行赋值
 		4.ResultSetHandler 处理Statement执行完成后返回结果集的接口对象，mybatis通过它把ResultSet集合映射成实体对象
+**MyBatis缓存**
+	**作用:** Mysql数据库是一个文件存储系统,放在磁盘上,而磁盘的读写性是有限制的,缓存就是为了减少和数据库的交互次数,提高执行效率
+	**一级缓存**
+	在一次会话中的缓存,默认设置
+	仅在一次会话中存在
+	可以使用sqlSession的方法clearCache()清除缓存
+	也可以因为第二次查询前内容发生更改,mybatis会自动帮你修改缓存
+	就像是session
+	**二级缓存**
+	1.开启缓存setting
+	2.在影射文件中开启二级缓存 <cache></cache>
+	3.在具体的statemetn中使用userCash = true(可能需要在返回类中实现序列化serialize)
+	4.代码测试
+	第一次查询出来的对象,将其中的值存放到二级缓存中,在下一次创建的时候赋值使用
+	就像是Cookie
 
 **MyBatis中增删改默认事务管理是手动提交**
 
@@ -140,35 +155,18 @@ wherer的作用就是保证后面能接语句
 //这里使用ofType代表这是一个List集合包括其中泛型对象
 <collectioin property="employeeList" ofType="employee"></collection>
 </resultMap>
-MyBatis的延迟加载
-概念:
-例如多表查询根据部门查员工,但是默认不需要员工信息时候不加载,只有需要的时候才加载显示
-本质:将一次多表查询拆分成两次单表查询
-好处:提交了数据库的操作效率
-一对一查询一般不需要做延迟加载
-,一对多可以做延迟加载
-
-
-**MyBatis缓存**
-	**作用:** Mysql数据库是一个文件存储系统,放在磁盘上,而磁盘的读写性是有限制的,缓存就是为了减少和数据库的交互次数,提高执行效率
-	主要适用于
-	1.经常查询并且不经常改变的
-	2.数据的正确与否对最终结果影响不大
-	**一级缓存**
-	在一次会话中的缓存,默认设置
-	仅在一次会话中存在
-	可以使用sqlSession的方法clearCache()清除缓存
-	也可以因为第二次查询前内容发生更改,mybatis会自动帮你修改缓存
-	就像是session
-	二级缓存
-	1.开启缓存setting
-	2.在影射文件中开启二级缓存 <cache></cache>
-	3.在具体的statemetn中使用userCash = true(可能需要在返回类中实现序列化serialize)
-	4.代码测试
-	第一次查询出来的对象,将其中的值存放到二级缓存中,在下一次创建的时候赋值使用
-	就像是Cookie
-
-
+MyBatis的懒加载
+	**使用场景:** 例如多表查询根据部门查员工,但是默认不需要员工信息时候不加载,只有需要的时候才加载显示(一对一查询一般不需要做延迟加载 , 一对多可以做延迟加载)
+	**原理:** 将一次多表查询拆分成两次单表查询
+	**作用:** 
+	提交了数据库的操作效率
+	**实际操作**
+	基于代理的懒加载开启:   
+	SqlMapConfig.xml 中配置 setting 属性
+		1.aggressiveLazyLoading = false   
+		2.lazyLoadingEnable = true
+		3. fetchType = FetchType.LAZY
+	
 
 
 
