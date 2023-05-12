@@ -83,9 +83,13 @@ MyBatis的懒加载
 		SqlMapConfig.xml 中配置 setting 属性
 		1.lazyLoadTriggerMethods = true
 
-Mybatis事务
+**Mybatis事务**
 	MyBatis的事务管理主要依赖于底层的JDBC事务管理机制,分为编程式事务和声明式事务。
-	
+	**声明式事务**
+		使用了Spring框架提供的DataSourceTransactionManager来管理事务，在XML中并使用了tx:advice和aop:config来配置事务通知和AOP切面。通过这种方式，我们可以添加@Transactional注解来启用事务管理
+	**编程式事务**
+		MyBatis中增删改默认事务管理是手动提交
+		Mybatis提供了commit()rollback()等方法来支持手动提交,在遇到错误时自行try/catch并回滚等操作
 
 
 Mybatis的代理开发模式

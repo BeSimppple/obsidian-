@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件(原理,部署,特点)/Redis/Redis原理.md",
+                "file": "IT/Spring/Spring事务.md",
                 "mode": "source",
                 "source": false
               }
@@ -218,13 +218,15 @@
   },
   "active": "86bfce3625a460dd",
   "lastOpenFiles": [
+    "IT/Spring/Spring事务.md",
+    "IT/Spring/Mybatis(持久层框架).md",
+    "IT/Spring/Spring原理.md",
+    "软件(原理,部署,特点)/Redis/Redis原理.md",
     "IT/Spring/JDBC(数据库连接).md",
     "每日八股文(2).md",
-    "软件(原理,部署,特点)/Redis/Redis原理.md",
     "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
     "IT/Spring/IOC(控制反转给容器).md",
     "IT/Spring/AOP(基于面动态代理).md",
-    "IT/Spring/Spring原理.md",
     "IT/SpringBoot/Ribbon和Openfeign.md",
     "IT/多线程/多线程.md",
     "IT/多线程/多线程-线程安全.md",
@@ -243,10 +245,8 @@
     "常用语法和算法/常用算法/数学/群论(阶).md",
     "文档编写和分类标准.md",
     "IT/SpringCloud/SpringSecurity(安全与权限).md",
-    "IT/SpringCloud/Sleuth+Zipkin(链路监控).md",
     "obsidian相关/Picture/Sleuth+Zipkin(链路监控)_image_2.png",
     "obsidian相关/Picture/Sleuth+Zipkin(链路监控)_image_1.png",
-    "IT/SpringCloud/Seata(分布式事务).md",
     "obsidian相关/Picture/ElasticSearch(独立搜索中间件)_image_6.jpg",
     "obsidian相关/Picture/ElasticSearch(独立搜索中间件)_image_5.jpg",
     "obsidian相关/Picture/ElasticSearch(独立搜索中间件)_image_4.jpg",
