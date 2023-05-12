@@ -1,7 +1,8 @@
-SpringBoot的主旨是:约定大于配置
-为什么使用springboot？
-	因为ssm框架xml配置文件太多，无法快速创建应用且整合一个框架需要导入的jar包太多,而且需要考虑jar包版本冲突的问题，下面spring的核心功能就能解决这些问题
-**核心功能（优点）**
+**SpringBoot的主旨是:约定大于配置**
+**Springboot作用:**
+	1.解决SSM框架的XML配置和jar包过多不易于修改和查看
+	2.jar包版本不匹配版本管理困难问题
+	**核心功能（优点）**
 	 1.**==起步依赖==**（spring起步依赖包配置了对应功能需要的整合包例如nosql相关的需要的redis和jedis等减少了插件之间的冲突，减少过多的jar包依赖）,
 	 2.**==自动配置==**(@AutoConfigrationPakage)
 		自动配置原理:
@@ -17,36 +18,44 @@ SpringBoot的主旨是:约定大于配置
 	 3.**内嵌式web服务器**（Tomcat\jetty）等（使web服务无需打包成war包可直接打成jar包）
 	 4.**提供POM**，简化maven配置
 	 5.**版本锁定**，springboot根据使用的版本提供插件版本，如需改变可以version覆盖或parent引用修改
-springboot2.3.4release需要的环境mavean3.3+和jdk1.8+
-目前2022/10/24最新的正式版是2.7.5于2022年5月发布
-springboot项目的创建
-1.spring官网在线生成（如果未被识别为maven项目则手动help-》find action-》add maven project）
-2.idea向导在线生成（新建项目-》选中spring initializr（默认使用外网进行创建可以输入http://start.aliyun.com使用阿里云进行创建））
-3.新建maven项目自己创建脚手架的方式离线生成
-springboot项目结构：
-结构规范:service,mapper,web,entity必须创建在根包（引导类所在的包）下面才能被scan（扫描）到
-![[SpringBoot_image_1.jpg]]
-springboot中约定大于配置，约定就是（默认扫描根包）（配置类就用application开头。yaml或。properties结尾）（test包是一一对应java包所以外面两层文件夹不能省略）
-yaml加载顺序先于properties
-properties中包含许多springboot默认配置但是不显示可以查看springboot文档，
+		springboot2.3.4release需要的环境mavean3.3+和jdk1.8+
+		目前2022/10/24最新的正式版是2.7.5于2022年5月发布
+springboot项目的创建三种方式
+	1.spring官网在线生成（如果未被识别为maven项目则手动help-》find action-》add maven project）
+	2.idea向导在线生成（新建项目-》选中spring initializr（默认使用外网进行创建可以输入http://start.aliyun.com使用阿里云进行创建））
+	3.新建maven项目自己创建脚手架的方式离线生成
+**springboot项目结构：**
+	**springboot中约定大于配置，约定就是（默认扫描根包）（配置类就用application开头。yaml或。properties结尾）（test包是一一对应java包所以外面两层文件夹不能省略）**
+	结构规范:**service**,**mapper**,**web**,**entity**必须创建在根包（引导类所在的包）下面才能被scan（扫描）到
+	![[SpringBoot_image_1.jpg|550]]
+	配置文件后缀yaml和properties的差异
+		**加载顺序yaml>properties**
+		**优先级properties>yaml**
+		加载顺序和优先级是相反的，后加载的会覆盖先加载的 ,properties会覆盖yaml
+	bootstrap配置文件和application配置文件差异
+		**bootstrap优先于application加载,用来在程序引导时执行，应用于更加早期配置信息读取**，如可以使用来配置application.yml中使用到参数等
+		application 应用程序特有配置信息，可以用来配置后续各个模块中需使用的公共参数等。
+	properties中包含许多springboot默认配置但是不显示(可以查看springboot文档)
 springboot常用properties配置：
-spring.profiles.active: dev(多环境切换环境配置,通用配置放原版,差异配置放对应环境properties)
-server。port=8081（修改端口号）
-server.servlet.context-path=/wfx（修改根路径）
-spring.jackson.date-format=yyyy-MM-dd HH:mm:ss（时间规范写法）
-spring.jackson.time-zone=Asia/Chongqing（修改时区）
-spring.datasource.XXX =XXX(数据库连接池信息配置)
-spring.redis.cluster.nodes=XXX(redis集群ip端口配置)
-mybatis-plus.configuration.log-impl=org.apache.ibatis.logging.stdout.StdOutImpl(mybatis-plus提供的打印sql日志功能)
-spring.profiles.active=pro(切换环境)
+	spring.profiles.active: dev(多环境切换环境配置,通用配置放原版,差异配置放对应环境properties)
+	server.port=8081（修改端口号）
+	server.servlet.context-path=/wfx（修改根路径）
+	spring.jackson.date-format=yyyy-MM-dd HH:mm:ss（时间规范写法）
+	spring.jackson.time-zone=Asia/Chongqing（修改时区）
+	spring.datasource.XXX =XXX(数据库连接池信息配置)
+	spring.redis.cluster.nodes=XXX(redis集群ip端口配置)
+	mybatis-plus.configuration.log-impl=org.apache.ibatis.logging.stdout.StdOutImpl(mybatis-plus提供的打印sql日志功能)
+	spring.profiles.active=pro(切换环境)
+
 springboot整合SSM框架
-springboot已经有springMVC和spring了实际上就是加入mybatis
-首先pom加入mybatis-start起步依赖和mysql驱动
-起步依赖中有配置类MybatisAutoConfiguration。class其中包含几个类（DataSourceProperties类等），最后得出的需求是我们需要配置数据库的基础参数（url，driverclass，username，password）到properties中供这DataSourceProperties个类映射使用 数据库类型type默认hirki
-1.在启动类上加@MapperScan()扫描指定的mapper接口包
-2.在配置类上设置别名 mybatis.type-aliases-package=XXX(这样才能映射到正确实体类)
-3.mybatis.mapper-locations=classpath:com.qf.mapper/*Mapper.xml(springboot可以省略mapper映射路径会自动配置因为约定>配置)
-mybatis主要使用映射进行sql的操作建立对应mapper的xml文件(负责编写复杂sql语句或者返回复杂类型如resultMap)在resources包下(必须保证名字相同才能映射,注意包必须一个一个建立)
+	springboot已经有springMVC和spring了实际上就是加入mybatis
+	首先pom加入mybatis-start起步依赖和mysql驱动
+	起步依赖中有配置类MybatisAutoConfiguration。class其中包含几个类（DataSourceProperties类等），最后得出的需求是我们需要配置数据库的基础参数（url，driverclass，username，password）到properties中供这DataSourceProperties个类映射使用 数据库类型type默认hirki
+	1.在启动类上加@MapperScan()扫描指定的mapper接口包
+	2.在配置类上设置别名 mybatis.type-aliases-package=XXX(这样才能映射到正确实体类)
+	3.mybatis.mapper-locations=classpath:com.qf.mapper/*Mapper.xml(springboot可以省略mapper映射路径会自动配置因为约定>配置)
+	mybatis主要使用映射进行sql的操作建立对应mapper的xml文件(负责编写复杂sql语句或者返回复杂类型如resultMap)在resources包下(必须保证名字相同才能映射,注意包必须一个一个建立)
+
 springboot整合redis
 加入redis pom起步依赖,包含了redis和lettuce(不同于jedis是异步和线程安全)与mybatis起步依赖包相同同时创建了RedsiAutoConfiguration
 加入commons-pool12的jar包因为redis集群需要其中依赖
