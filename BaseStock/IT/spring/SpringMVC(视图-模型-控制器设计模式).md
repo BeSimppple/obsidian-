@@ -26,59 +26,52 @@
 	**ViewResolver**：视图解析器View Resolver负责将处理结果生成View视图，View Resolver首先根据逻辑视图名解析成物理视图名即具体的页面地址，再生成View视图对象，最后对View进行渲染将处理结果通过页面展示给用户。
 	-
 	**Handler**：处理器是继DispatcherServlet前端控制器的后端控制器，在DispatcherServlet的控制下Handler对具体的用户请求进行处理。
-SpringMvc默认加载的组件在org.springframework.web.servlet目录下DispatcherServlet.properties文件中有设置SpringMVC的默认组件.设置的常用组件有:HandlerMapping(处理器映射器),HandlerAdapter(处理器适配器),ViewResolver(视图解析器).
-什么是Applet?
+
+什么是Applet(小程序)?
 	java applet是能够被包含在HTML页面中并且能被启用了java的客户端浏览器执行的程序(默认创建时都是不受信任的)。Applet主要用来创建动态交互的web应用程序。
 SpringMVC常用注解(不包含spring)：
-@Transactional 开启事务，注解放在类级别时，表示所有该类的公共方法都配置相同的事务属性信息。
-@EnableWebMvc 在配置类中开启Web MVC的配置支持。
-@Controller Controller层
-@RestController该注解为一个组合注解，相当于@Controller和
-@ResponseBody的组合，注解在类上，意味着，该Controller的所有方法都默认加上了@ResponseBody。
-接口相关：
-@RequestMapping 用于映射web请求，包括访问路径和参数。
--   @GetMapping：处理get方式请求的映射
--   @PostMapping：处理post方式请求的映射
--   @PutMapping：处理put方式请求的映射
-@ResponseBody 支持将返回值放到response内，而不是一个页面，通常用户返回json数据。
-@RequestBody 允许request的参数在request体中，而不是在直接连接的地址后面。（放在参数前）
-@PathVariable
-用于接收路径参数，比如@RequestMapping(“/hello/{name}”)声明的路径，将注解放在参数前，即可获取该值，通常作为Restful的接口实现方法。
-@ControllerAdvice 常用于全局异常处理，全局数据绑定，全局数据预处理
-@ExceptionHandler 用于全局处理控制器里的异常。
-@InitBinder 用来设置WebDataBinder，WebDataBinder用来自动绑定前台请求参数到Model中。
-@ModelAttribute 放在方法上代表的是：该Controller的所有方法在调用前，先执行此@ModelAttribute方法。常用于权限模块
-Spring 框架中都用到了哪些设计模式？ 
-代理模式，在 AOP 中被使用最多。
-单例模式，在 Spring 配置文件中
-定义 bean 的时候默认的是单例模式。
-工厂模式, BeanFactory 用来创建对象的实例。
-模板方法， 用来解决重复性代码。
-前端控制器，Spring 提供了 DispatcherSerclet 来对请求进行分发。视图帮助，Spring 提供了一系列的 JSP 标签。
-依赖注入，它是惯穿于 BeanFactory/ApplicationContext 接口的核心理念。
-开发步骤
--   1.引入依赖
--   在spring、mybatis基础上添加依赖
--   2.在web.xml中配置DispatcherServlet，并加载spring-mvc.xml配置文件
--   3.编写spring-mvc.xml
--   扫描注解<context:compenent-scan
--   >
--   4.编写UserController类
--   编写处理器方法：
--   存储数据、跳转页面
--   5.编写userList.jsp页面
--   注意事项
-依赖注解驱动支持<mvc:annotation-driven />
-@RequestMapping
-作用:
-1.确定请求URL和处理方法之间的对应关系
-2.窄化请求
-3.请求方法限定
-常用属性
-path : 指定请求路径的url
-value : value属性和path属性是一样的
-method : 指定该方法的请求方式
-params : 指定必须要传递的请求参数
+	@Transactional 开启事务，注解放在类级别时，表示所有该类的公共方法都配置相同的事务属性信息。
+	@EnableWebMvc 在配置类中开启Web MVC的配置支持。
+	@Controller Controller层
+	@RestController该注解为一个组合注解，相当于@Controller和
+	@ResponseBody的组合，注解在类上，意味着，该Controller的所有方法都默认加上了@ResponseBody。
+	接口相关：
+	@RequestMapping 用于映射web请求，包括访问路径和参数。
+	-   @GetMapping：处理get方式请求的映射
+	-   @PostMapping：处理post方式请求的映射
+	-   @PutMapping：处理put方式请求的映射
+	@ResponseBody 支持将返回值放到response内，而不是一个页面，通常用户返回json数据。
+	@RequestBody 允许request的参数在request体中，而不是在直接连接的地址后面。（放在参数前）
+	@PathVariable
+	用于接收路径参数，比如@RequestMapping(“/hello/{name}”)声明的路径，将注解放在参数前，即可获取该值，通常作为Restful的接口实现方法。
+	@ControllerAdvice 常用于全局异常处理，全局数据绑定，全局数据预处理
+	@ExceptionHandler 用于全局处理控制器里的异常。
+	@InitBinder 用来设置WebDataBinder，WebDataBinder用来自动绑定前台请求参数到Model中。
+	@ModelAttribute 放在方法上代表的是：该Controller的所有方法在调用前，先执行此@ModelAttribute方法。常用于权限模块
+
+SpringMVC开发步骤
+	1.引入依赖
+	在spring、mybatis基础上添加依赖
+	2.在web.xml中配置DispatcherServlet，并加载spring-mvc.xml配置文件
+	3.编写spring-mvc.xml
+	扫描注解<context:compenent-scan>
+	4.编写UserController类
+	编写处理器方法：
+	存储数据、跳转页面
+	5.编写userList.jsp页面
+	注意事项:
+		依赖注解驱动支持<mvc:annotation-driven />
+		@RequestMapping
+		作用:
+		1.确定请求URL和处理方法之间的对应关系
+		2.窄化请求
+		3.请求方法限定
+	常用属性
+		path : 指定请求路径的url
+		value : value属性和path属性是一样的
+		method : 指定该方法的请求方式
+		params : 指定必须要传递的请求参数
+
 请求参数绑定
 绑定机制
 表单提交的数据都是k=v格式的 username=haha&password=123
@@ -89,6 +82,7 @@ SpringMVC的参数绑定过程是把表单提交的请求参数，作为控制�
 基本数据类型和字符串类型
 实体类型（JavaBean）
 数组类型
+
 注解说明
 @RequestMapping 通用注解，窄化请求
 @PutMapping 针对put方式，修改操作
@@ -102,7 +96,7 @@ SpringMVC的参数绑定过程是把表单提交的请求参数，作为控制�
 请求参数绑定之数组,集合
 数组可以直接提取,并且遍历
 集合需要添加@RequestParam("集合名") 注解
-(@RequestParam("ids") List<Integer> ids)
+(@RequestParam("ids") List\<Integer> ids)
 请求参数绑定之日期类型格式转换
 参数需要添加注解 书写格式:
 (@DateTimeFormat(pattern = "yyyy‐MM‐dd") Date date)
@@ -126,18 +120,19 @@ HttpServletRequest
 HttpServletResponse
 HttpSession
 PrintWriter
+
 @RequestParam注解
-作用
-把请求中的指定名称的参数值传递给控制器中的形参赋值
-属性
-value：请求参数中的名称
-required：请求参数中是否必须提供此参数，默认值是true，必须提供
+	作用
+	把请求中的指定名称的参数值传递给控制器中的形参赋值
+	属性
+	value：请求参数中的名称
+	required：请求参数中是否必须提供此参数，默认值是true，必须提供
 @RequestBody注解
-作用
-用于获取请求正文的内容（注意：get方法不可以）
-属性
-required：是否必须有请求体，默认值是true
-default: 请求参数默认值
+	作用
+	用于获取请求正文的内容（注意：get方法不可以）
+	属性
+	required：是否必须有请求体，默认值是true
+	default: 请求参数默认值
 Controller方法返回值
 Controller处理器常用返回值:
 String:书写地址
@@ -180,10 +175,10 @@ commons-io-2.6.jar包
 ioc解析器org.springframework.web.multipart.commons.CommonsMultipartResolver
 id必须为multipartResolver
 jsp页面
-<form method="post" enctype="multipart/form‐data"action="${pageContext.request.contextPath}/upload.do">
-文件:<input type="file" name="uploadFile"/><br>
+\<form method="post" enctype="multipart/form‐data"action="${pageContext.request.contextPath}/upload.do">
+文件:\<input type="file" name="uploadFile"/><br>
 <button type="submit">上传</button>
-</form>
+\</form>
 Controller层
 注意:这里的pic必须要和页面上的文件项的name属性一致
 @RequestMapping("/upload.do")
@@ -213,7 +208,7 @@ SpringMVC异常处理
 public class BusinessException extends RuntimeException {
 public class SystemException extends RuntimeException {
 自己写的异常处理器处理三种情况
-![[SpringMVC_image_2.jpg]]
+![[SpringMVC(视图-模型-控制器设计模式)_image_2.jpg]]
 自定义异常处理器--
 0.SpringMVC中ioc全局异常处理器,在web.xml中配置并屏蔽自动注册异常处理器
 1.implements HandlerExceptionResolver
@@ -248,32 +243,33 @@ throw new RuntimeException();
 }
 }
 SpringMVC拦截器
--   概念
--   和web中的Filter类似
--   Filter过滤的是所有的web资源，Interceptor只拦截由Spring管理的资源
--   开发步骤
--   1.自定义类实现HandlerInterceptor接口
--   2.在spring-mvc.xml中配置拦截器
-1.自定义类实现HandlerInterceptor接口
-实现3个方法preHandle postHandle afterCompletion
-2.在spring-mvc.xml中配置拦截器
-<mvc:interceptors>
-<mvc:interceptor>
-<mvc:mapping path="/**"/>
-<mvc:exclude-mapping path="/testException"/>
-<bean class="com.qfedu.interceptor.MyInterceptor02"></bean>
-</mvc:interceptor>
-<mvc:interceptor>
-<!--拦截路径-->
-<mvc:mapping path="/**"/>
-<mvc:exclude-mapping path="/testException"/>
-<bean class="com.qfedu.interceptor.MyInterceptor01"></bean>
-</mvc:interceptor>
-</mvc:interceptors>
-ssm整合之非聚合项目
--   开发流程
--   1.整合spring、mybatis
--   mapper代理方式
--   2.配置springmvc框架
--   3.整合ssm
--   在web.xml中配置ContextLoaderListener监听器加载spring-core.xml
+	-   **概念:** [[过滤器,拦截器,监听器]]
+	-   开发步骤
+	-   1.自定义类实现HandlerInterceptor接口
+	-   2.在spring-mvc.xml中配置拦截器
+	1.自定义类实现HandlerInterceptor接口
+	实现3个方法preHandle postHandle afterCompletion
+	2.在spring-mvc.xml中配置拦截器
+	<mvc:interceptors>
+	<mvc:interceptor>
+	<mvc:mapping path="/**"/>
+	<mvc:exclude-mapping path="/testException"/>
+	<bean class="com.qfedu.interceptor.MyInterceptor02"></bean>
+	</mvc:interceptor>
+	<mvc:interceptor>
+	<!--拦截路径-->
+	<mvc:mapping path="/**"/>
+	<mvc:exclude-mapping path="/testException"/>
+	<bean class="com.qfedu.interceptor.MyInterceptor01"></bean>
+	</mvc:interceptor>
+	</mvc:interceptors>
+
+SSM整合之非聚合项目
+	-   开发流程
+	-   1.整合spring、mybatis
+	-   mapper代理方式
+	-   2.配置springmvc框架
+	-   3.整合ssm
+	-   在web.xml中配置ContextLoaderListener监听器加载spring-core.xml
+SpringMVC组件目录
+	默认加载的组件在org.springframework.web.servlet目录下DispatcherServlet.properties文件中有设置SpringMVC的默认组件.设置的常用组件有:HandlerMapping(处理器映射器),HandlerAdapter(处理器适配器),ViewResolver(视图解析器).

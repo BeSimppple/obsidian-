@@ -198,6 +198,8 @@ Spring创建对象的三种方式
 	想要定义一个全局异常处理类的话，我们需要在这个类上添加@ContaollerAdvice注解，然后定义一些用于捕捉不同异常类型的方法，在这些方法上添加@ExceptionHandler(value = 异常类型.class)和@ResponseBody注解，方法参数是HttpServletRequest和异常类型，然后将异常消息进行处理。
 	-
 	如果我们需要自定义异常的话，就写一个自定义异常类，该类需要继承一个异常接口，类属性包括final类型的连续id、错误码、错误信息，再根据需求写构造方法； 
+spring用了哪些设计模式
+	BeanFactory用了工厂模式，AOP用了动态代理模式，RestTemplate用来模板方法模式，SpringMVC中handlerAdaper用来适配器模式，Spring里的监听器用了观察者模式,IOC使用了单例模式
 
 ---
 **Spring事务**
