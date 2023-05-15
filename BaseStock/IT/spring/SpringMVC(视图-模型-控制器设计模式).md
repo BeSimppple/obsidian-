@@ -140,11 +140,11 @@ SpringMVC开发步骤
 
 
 请求参数绑定
-	绑定机制
+	**绑定机制**
 	表单提交的数据都是k=v格式的 username=haha&password=123
 	SpringMVC的参数绑定过程是把表单提交的请求参数，作为控制器中方法的参数进行绑定的
 	将传入的参数以键值对的方式输入,键为变量名,传到MVC中也为形参名
-	支持的数据类型
+	**支持的数据类型**
 	简单类型(提交表单的变量名和参数的名称是相同的)
 	基本数据类型和字符串类型
 	实体类型（JavaBean）
@@ -159,14 +159,14 @@ SpringMVC开发步骤
 	**请求参数绑定之javaBean包装类**
 	如果一个JavaBean类(对象A)中包含另外一个JavaBean类(对象B)，
 	表单的name属性需要编写成：对象B.属性来对应参数的名称
-	请求参数绑定之数组,集合
+	**请求参数绑定之数组,集合**
 	数组可以直接提取,并且遍历
 	集合需要添加@RequestParam("集合名") 注解
 	(@RequestParam("ids") List\<Integer> ids)
-	请求参数绑定之日期类型格式转换
+	**请求参数绑定之日期类型格式转换**
 	参数需要添加注解 书写格式:
 	(@DateTimeFormat(pattern = "yyyy‐MM‐dd") Date date)
-	请求参数中文乱码
+	**请求参数中文乱码**
 	在web.xml中配置CharacterEncodingFilter过滤器
 	<filter>
 	<filter‐name>EncodingFilter</filter‐name>
