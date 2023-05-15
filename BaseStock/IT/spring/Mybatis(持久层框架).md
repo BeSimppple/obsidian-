@@ -153,7 +153,33 @@ Mybatis拦截器
 		MyBatis中增删改默认事务管理是手动提交
 		Mybatis提供了commit()rollback()等方法来支持手动提交,在遇到错误时自行try/catch并回滚等操作
 
-Mybatis的实际使用
+Idea整合Mybatis
+	1.导入Mybatis的jar包
+	**开发步骤**
+	UserDaoImpl操作
+	-   将UserService对象IoC到Spring容器中
+	-   对userDao进行DI
+	-   将UserDao接口的实现子类对象IoC到Spring容器中
+	-   对sqlSessionFactory进行DI
+	-   将SqlSessionFactoryBean对象IoC到Spring容器中
+	-   对dataSource进行DI
+	-   对configLocation进行DI
+	-   将DataSource对象IoC到Spring容器中
+	-   对driverClass、jdbcUrl、user、password进行DI
+	**开发步骤**
+	mapper映射式操作
+	-   1.将UserService对象IoC到Spring容器中
+	-   对userDao进行DI
+	-   2.将UserDao的代理对象IoC到Spring容器中
+	-   使用MapperScannerConfigurer
+	-   3.将MapperScannerConfigurer对象IoC到Spring容器
+	-   对basePackage进行DI
+	-   4.将SqlSessionFactoryBean对象IoC到Spring容器中
+	-   对dataSource进行DI
+	-   对configLocation进行DI
+	-   5.将DataSource对象IoC到Spring容器中
+	-   对driverClass、jdbcUrl、user、password进行DI
+Mybatis的实际使用条件
 	**条件:**
 	1.mapper映射文件的nameSpace必须要和dao接口的全限定类名一致
 	2.statement的id值必须和dao接口的方法名一致
