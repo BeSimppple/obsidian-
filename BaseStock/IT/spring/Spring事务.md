@@ -1,30 +1,3 @@
-## 编程式事务
-JdbcTemplate
-	Spring JDBC 核心包（core）中的核心类，它可以通过配置文件、注解、Java 配置类等形式获取数据库的相关信息，实现了对JDBC 开发过程中的驱动加载、连接的开启和关闭、SQL 语句的创建与执行、异常处理、事务处理、数据类型转换等操作的封装
-编程式事务控制三大对象
-	PlatformTransactionManager 事务管理器
-	TransactionDefinition 事务定义
-	TransactionStatus 事务状态
-平台事务管理器(PlatformTransactionManager接口)
-	PlatformTransactionManager接口 spring的事务管理器
-	方法:
-	TransactionStatus --返回值为状态码
-	1.getTransaction(TransactionDefination defination)
-	获取事务的状态信息,同时开启事务管理
-	2.void commit(TransactionStatus status) 提交事务
-	3.void rollback((TransactionStatus status)回滚事务
-	-
-	平台事务管理器,是因为平台不一样事务管理器就不一样
-	例如:Dao层技术是jdbc或者Mybatis时 使用DataSourceTransactionManager
-	是hibernate时使用HibernateTransactionManger
-	这两个都是实现了**PlatformTransactionManager**
-	需要**通过配置**的方法告诉spring框架使用的哪个平台使用那个事务管理器
-事务定义对象(TransactionDefinition)
-	方法:
-	int gfetIsolationLevel() 获取事务的隔离级别
-	int getPropogationBehavior() 获取事务的传播行为
-	int getTimeout() 获得超时时间
-	boolean isReadOnly() 是否只读
 **事务的2种实现形式:**
 |          |                                编程式事务                                | 声明式事务                                                                 |
 | -------- |:------------------------------------------------------------------------:| -------------------------------------------------------------------------- |
@@ -49,30 +22,24 @@ JdbcTemplate
 	4. 同一类中，一个没有添加事务的方法调用另外以一个添加事务的方法，事务不生效
 	5. 业务自己捕获了异常，事务会认为程序正常秩序
 	6. spring事务默认只回滚运行时异常，可以用rollbackfor属性设置
-事务状态对象
-TransactionStatus 接口 题库功德是事务具体的运行状态
-检测,是否存储回复你点
-事务是否完成
-是否是新事物
-事务是否回滚
-状态对象不需要我们主动设置,因为他是被动从产生的
 
-基于XML的声明式事务控制
-tx方法
-Spring声明式事务控制 采用声明的方式来处理事务
-控制底层就是AOP
-谁是切点:需要被增强的转账方法
-谁是通知:事务管理方法就是通知
-配置切面:
-tx-advice是配置通知的 id名 事务管理器 然后在其中引入对应平台事务管理器
-然后再<aop-config>中<aop-advisor ref-....id名
-基于注解的事务控制方法
-<!--开启事务注解-->
-<tx:annotation-driven transaction-manager="transactionManager"></tx:annotation-driven>
-注解书写方法 可以在方法或者类上书写
-@Transactional(propagation = Propagation.REQUIRED,
-isolation = Isolation.REPEATABLE_READ ,readOnly = false)
-编程式事务管理基本步骤:
+---
+**基于XML的声明式事务控制**
+	tx方法
+	Spring声明式事务控制 采用声明的方式来处理事务
+	控制底层就是AOP
+	谁是切点:需要被增强的转账方法
+	谁是通知:事务管理方法就是通知
+	配置切面:
+	tx-advice是配置通知的 id名 事务管理器 然后在其中引入对应平台事务管理器
+	然后再\<aop-config>中<aop-advisor ref-....id名
+**基于注解的事务控制方法**
+	<!--开启事务注解-->
+	<tx:annotation-driven transaction-manager="transactionManager"></tx:annotation-driven>
+	注解书写方法 可以在方法或者类上书写
+	@Transactional(propagation = Propagation.REQUIRED,
+	isolation = Isolation.REPEATABLE_READ ,readOnly = false)
+**编程式事务管理开发基本步骤:**
 	1.在Spring.xml文件中配置好context和aop
 	2.<context:component-scan base-package="com.YL">
 	</context:component-scan> 配置注解编译扫描路劲
@@ -104,9 +71,41 @@ isolation = Isolation.REPEATABLE_READ ,readOnly = false)
 	当类和方法上都有时候,方法的将会覆盖类的
 
 
-
-
-
+---
+## 编程式事务
+**JdbcTemplate**
+	Spring JDBC 核心包（core）中的核心类，它可以通过配置文件、注解、Java 配置类等形式获取数据库的相关信息，实现了对JDBC 开发过程中的驱动加载、连接的开启和关闭、SQL 语句的创建与执行、异常处理、事务处理、数据类型转换等操作的封装
+**编程式事务控制三大对象**
+	PlatformTransactionManager 事务管理器
+	TransactionDefinition 事务定义
+	TransactionStatus 事务状态
+平台事务管理器(PlatformTransactionManager接口)
+	PlatformTransactionManager接口 spring的事务管理器
+	方法:
+	TransactionStatus --返回值为状态码
+	1.getTransaction(TransactionDefination defination)
+	获取事务的状态信息,同时开启事务管理
+	2.void commit(TransactionStatus status) 提交事务
+	3.void rollback((TransactionStatus status)回滚事务
+	-
+	平台事务管理器,是因为平台不一样事务管理器就不一样
+	例如:Dao层技术是jdbc或者Mybatis时 使用DataSourceTransactionManager
+	是hibernate时使用HibernateTransactionManger
+	这两个都是实现了**PlatformTransactionManager**
+	需要**通过配置**的方法告诉spring框架使用的哪个平台使用那个事务管理器
+事务定义对象(TransactionDefinition 接口)
+	方法:
+	int gfetIsolationLevel() 获取事务的隔离级别
+	int getPropogationBehavior() 获取事务的传播行为
+	int getTimeout() 获得超时时间
+	boolean isReadOnly() 是否只读
+事务状态对象(TransactionStatus 接口)
+	TransactionStatus 接口 题库功德是事务具体的运行状态
+	检测,是否存储回复你点
+	事务是否完成
+	是否是新事物
+	事务是否回滚
+	状态对象不需要我们主动设置,因为他是被动从产生的
 
 
 
