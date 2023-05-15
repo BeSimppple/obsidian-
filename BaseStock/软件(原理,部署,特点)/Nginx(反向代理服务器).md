@@ -6,10 +6,49 @@
 	1. 异步非阻塞的方式处理请求
 	2. epoll模型事件处理机制(只有在Linux上才能使用epoll)
 	3. 内存池技术，减少内存分配和释放的次数，降低内存碎片
-	4. 
+	4. 多进程和多线程模式(Master 进程 和 Worker 进程)
 	它的核心模块是**事件模块**和**HTTP模块**。
 	事件模块负责处理网络事件，包括接收客户端请求、连接后端服务器、读写数据等。
 	HTTP模块负责解析HTTP请求和响应，包括处理HTTP头部、请求方法、URI等信息
+
+Nginx进程模型:
+	Linux 系统中，Nginx默认以守护进程daemon方式启动，默认采用多进程方式。Nginx包括两种类型的进程：  
+	**Master 进程**，数量只有一个，管理Nginx本身和Worker进程  负责初始化Nginx和相关模块、fork Worker进程、接收处理外界信号等工作
+	**Worker 进程**，数量一般和CPU核数相等，Nginx的所有请求处理，均是在Worker进程中完成
+Nginx的初始化过程：
+	1. 解析配置文件，这是Nginx初始化最重要的一个环节
+	2. 调用各个配置指令回调函数，完成各个模块的配置、相互关联等
+	3. 建立listen 的 socket(listenfd)
+	4. 准备工作都完成后，fork worker子进程和cache子进程
+Master 进程信号处理机制
+	Nginx 0.8 版本以后，提供了 -s参数，用于管理Nginx服务的停止和重启
+	我们通过kill命令发送信号给Nignx Master 进程，看看Master进程如何处理：
+	```
+	root@eg001:~# ps -ef | grep nginx | grep -v grep 
+	root 16533 1 0 Aug28 ? 00:00:00 nginx: master process nginx 
+	www-data 16534 16533 0 Aug28 ? 00:00:47 nginx: worker process 
+	www-data 16535 16533 0 Aug28 ? 00:00:51 nginx: worker process 
+	www-data 16536 16533 0 Aug28 ? 00:00:53 nginx: worker process 
+	www-data 16537 16533 0 Aug28 ? 00:00:51 nginx: worker process 
+	root@eg001:~# kill -HUP 16533 
+	root@eg001:~# ps -ef | grep nginx | grep -v grep 
+	root 16533 1 0 Aug28 ? 00:00:00 nginx: master process nginx 
+	www-data 28194 16533 0 09:40 ? 00:00:00 nginx: worker process 
+	www-data 28195 16533 0 09:40 ? 00:00:00 nginx: worker process 
+	www-data 28196 16533 0 09:40 ? 00:00:00 nginx: worker process 
+	www-data 28197 16533 0 09:40 ? 00:00:00 nginx: worker process 
+	root@eg001:~#
+	```
+	分析流程：  
+	- Master 进程接收到 HUP 信号  
+	- Master 进程重新加载配置文件  
+	- Master 进程启动新的Worker进程  
+	- Master 进程发送信号给Worker 进程  
+	- 老的Worker进程不再接收新的请求  
+	- 老的Worker进程处理完当前请求，退出  
+	- 至此，Nginx完成平滑重启
+
+  
 
 
 正向代理和反向代理:
