@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
+                "file": "网络工程/计算机硬件系统/机器语言(1代到5代).md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
+                "file": "网络工程/计算机硬件系统/机器语言(1代到5代).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
+                "file": "网络工程/计算机硬件系统/机器语言(1代到5代).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网络工程/计算机硬件系统/编码与解码,字符与字节.md"
+                "file": "网络工程/计算机硬件系统/机器语言(1代到5代).md"
               }
             }
           },
@@ -230,6 +230,9 @@
   },
   "active": "c2657ff280e36d55",
   "lastOpenFiles": [
+    "网络工程/计算机硬件系统/常用文件后缀解释.md",
+    "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
+    "网络工程/计算机硬件系统/计算机.md",
     "软件(原理,部署,特点)/Nginx(反向代理服务器).md",
     "obsidian相关/Picture/Nginx(反向代理服务器)_image_2.png",
     "IT/常用概念.md",
@@ -255,8 +258,6 @@
     "软件(原理,部署,特点)/Idea/详解.idea文件夹作用.md",
     "软件(原理,部署,特点)/Idea/常用配置.md",
     "软件(原理,部署,特点)/Idea/常用插件.md",
-    "软件(原理,部署,特点)/Idea/常见问题.md",
-    "软件(原理,部署,特点)/项目部署/环境部署.md",
     "obsidian相关/Picture/过滤器,拦截器,监听器_image_2.png",
     "IT/机器学习",
     "obsidian相关/Picture/Sleuth+Zipkin(链路监控)_image_2.png",
