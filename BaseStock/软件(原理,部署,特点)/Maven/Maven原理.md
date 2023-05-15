@@ -38,18 +38,18 @@ Maven的conf文件夹中的setting.xml配置文件
 		\<name>Nexus aliyun\</name>
 		\<url>[http://maven.aliyun.com/nexus/content/groups/public](http://maven.aliyun.com/nexus/content/groups/public)\</url>
 		\</mirror>
-**全局配置jdk版本号**
-	\<profile>
-	\<id>jdk18\</id>
-	\<activation>
-	\<activeByDefault>true\</activeByDefault>
-	\<jdk>1.8\</jdk>
-	\</activation>
-	\<properties>
-	<maven.compiler.source>1.8</maven.compiler.source> <maven.compiler.target>1.8</maven.compiler.target> <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
-	\</properties>
-	\</profile>
-**Maven项目中的pom.xml配置文件**
+	**全局配置jdk版本号**
+		\<profile>
+		\<id>jdk18\</id>
+		\<activation>
+		\<activeByDefault>true\</activeByDefault>
+		\<jdk>1.8\</jdk>
+		\</activation>
+		\<properties>
+		<maven.compiler.source>1.8</maven.compiler.source> <maven.compiler.target>1.8</maven.compiler.target> <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
+		\</properties>
+			\</profile>
+**Maven项目中的pom.xml配置写法**
 	\<project ...>
 	<!--公司名称-->
 	\<groupId>com.qfedu\</groupId>
@@ -78,28 +78,36 @@ Maven的conf文件夹中的setting.xml配置文件
 	通过cmd窗口执行来安装一些maven仓库没有映射的jar包
 	mvn install:install-file -Dfile=XXX.jar -DgroupId=com.alimama -DartifactId=sms -Dversion=1.0 -Dpackaging=jar
 
-依赖范围scope
-概念:程序依赖于构件,程序运行时,构件的范围
-![[Maven原理_image_3.jpg]]
-常用的前四种
-compile
-构件在编译,测试,运行时都存在,会跟随到打包中 默认
-test
-构件仅在测试时存在,不会跟随到打包中 .比如:junit
-provided
-构件在编译,测试时存在,不会跟随到打包中
-.比如:servlet-api、jsp-api
-runtime
-构件在测试,运行时存在,会跟随到打包中.
-比如:c3p0连接池,一般都是在spring配置文件中进行配置，配置文件不会参与java类的编译过程，但是会参与到测试以及运行。
-依赖传递
-构建A依赖构建B,构建B依赖构建C,那么就构成了构建A传递依赖构建C
-传递依赖并不一定完全成立
+**依赖范围scope**
+	**概念:** jar包的使用范围
+	![[Maven原理_image_3.jpg]]
+	**compile**
+	构件在编译,测试,运行时都存在,会跟随到打包中 默认
+	**test**
+	构件仅在测试时存在,不会跟随到打包中 .比如:junit
+	**provided**
+	构件在编译,测试时存在,不会跟随到打包中
+	.比如:servlet-api、jsp-api
+	**runtime**
+	构件在测试,运行时存在,会跟随到打包中.
+	比如:c3p0连接池,一般都是在spring配置文件中进行配置，配置文件不会参与java类的编译过程，但是会参与到测试以及运行。
+	**import**
+	该依赖范围仅在 Maven 2.0.9 及以上版本中支持，用于将一个 POM 文件中的依赖导入到另一个 POM 文件中
+	**概念:** 构建A依赖构建B,构建B依赖构建C,那么就构成了构建A传递依赖构建C
+	**解决方案:**
+	Maven默认启动依赖传递处理
+	如果项目 A 依赖于项目 B，而项目 B 又依赖于项目 C，那么项目 A 会自动依赖于项目 C。这种依赖传递的机制可以帮助我们更好地管理项目的依赖关系，避免不必要的依赖冲突和版本问题
+
 ![[Maven原理_image_4.jpg]]
+传递依赖并不一定完全成立
 依赖版本冲突
-概念:同一个项目中,如果同时依赖了不同版本的构建,那么就会造成版本冲突
-版本锁定中只进行版本管理,并没有依赖产生
-解决方案:使用dependencyManagement进行版本锁定管理
+	**概念:** 
+	当一个项目依赖于多个库，而这些库又依赖于同一个库的不同版本时，就会出现依赖版本冲突的问题。这种情况下，Maven 会选择一个库的版本作为最终的依赖版本，而其他版本则会被忽略掉。这个选择过程可能会导致项目编译错误、运行时异常等问题
+	**解决方案:**
+	1. 引入冲突库的统一版本：可以通过在 POM 文件中使用 \<dependencyManagement>
+	2. 升级或降级依赖库的版本：如果出现依赖版本冲突，可以尝试升级或降级某个依赖库的版本，以解决冲突问题。
+	3.  排除冲突库的传递：可以通过在 POM 文件中使用 \<exclusions> 元素来排除某个依赖库的传递，以避免冲突问题
+
 Maven分模块构建工程
 概述:
 解决软件的复杂性问题,降低软件的复杂性,随着文件整体的变大,而不可控,为了使其可控可维护可扩展,
