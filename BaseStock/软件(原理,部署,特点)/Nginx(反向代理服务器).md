@@ -114,8 +114,12 @@ Nginx做静态页面服务器(动静分离)
 	location ^~ /static/ {^~表以什么开头
 	location ~*.(gif|jpg|jpeg|png)$ {匹配任何以 gif、jpg 或 jpeg 结尾的请求。
 
-**高可用实现**
-	通过配合Keepalived实现,Keepalived是一个开源的高可用性解决方案，可以实现对nginx服务器的故障检测和切换
+**Nginx高可用实现**
+	**1.通过配合Keepalived实现,Keepalived是一个开源的高可用性解决方案，可以实现对nginx服务器的故障检测和切换**
+	![[Nginx(反向代理服务器)_image_3.jpg]]
+	用户访问虚拟ip192.168.110
+	但是内部是始终访问主nginx的131ip并持有锁如果主nginx死亡keepalive也会死亡释放锁，因为主nginx死亡备份nginx132ip获得锁并绑定vip（virtual ip）。这样保持高可用用户体验无察觉
+	**实现流程:**
 	1：准备两台服务器（克隆）
 	2：每台服务器上安装nginx，nginx的代理配置要一样
 	3.安装keepalive
@@ -128,31 +132,27 @@ Nginx做静态页面服务器(动静分离)
 	配置完成后启动keepalive然后就可以使用代理ip访问了
 	systemctl start keepalived启动keepalive
 	自此成功完成nginx代理配置和负载均衡和保证nginx高可用
-
-
+	**2. Nginx + upstream模块**
+	upstream模块是nginx的一个核心模块，可以实现对多台后端服务器的负载均衡和故障检测。在这种方式下，多台nginx服务器通过upstream模块进行状态同步
 
 
 nginx配置虚拟主机
-如果端口相同，那么server_name必须不同
-server_name相同，端口不同
-客户端通过域名访问服务器时会将域名与被解析的ip一同放在请求中。当请求到了nginx中时。nginx会先去匹配ip，如果listen中没有找到对应的ip，就会通过域名进行匹配，匹配成功以后，再匹配端口。当这三步完成，就会找到对应的server的location对应的资源。
-如何实现反向代理功能
-location / {
-#可以实现对外隐藏端口和域名细节，下面的ip地址也可以在/etc/hosts中修改域名映射方便书写 本质是主机通过nginx重定向到tomcat
-proxy_pass http://192.168.174.129:8080/;
-}
-如何实现负载均衡
-upstream wfx { #upstream模块实现负载均衡策略·并定义多台服务器
-server localhost:8080;
-server localhost:8081;
-}
-权重方式是后方跟 weight= ？；
-iphash方式是在最上方加 ip_hash；（根据每个ip的hash结果分配且固定后不改变）
-least_conn 最上方加least_conn（将请求分配到链接最少的服务上）
-fair同iphash 在最上方加fair；（根据响应时间最短的来返回）
-nginx高可用
-安装keepalived
-准备一台备用nginx防止nginx宕机
-![[Nginx(反向代理服务器)_image_3.jpg]]
-用户访问虚拟ip192.168.110
-但是内部是始终访问主nginx的131ip并持有锁如果主nginx死亡keepalive也会死亡释放锁，因为主nginx死亡备份nginx132ip获得锁并绑定vip（virtual ip）。这样保持高可用用户体验无察觉
+	如果端口相同，那么server_name必须不同
+	server_name相同，端口不同
+	客户端通过域名访问服务器时会将域名与被解析的ip一同放在请求中。当请求到了nginx中时。nginx会先去匹配ip，如果listen中没有找到对应的ip，就会通过域名进行匹配，匹配成功以后，再匹配端口。当这三步完成，就会找到对应的server的location对应的资源。
+**如何实现反向代理功能**
+	location / {
+	\#可以实现对外隐藏端口和域名细节，下面的ip地址也可以在/etc/hosts中修改域名映射方便书写 本质是主机通过nginx重定向到tomcat
+	proxy_pass \http://192.168.174.129:8080/;
+	}
+**如何实现负载均衡**
+	upstream wfx { \#upstream模块实现负载均衡策略·并定义多台服务器
+	server localhost:8080;
+	server localhost:8081;
+	}
+	权重方式是后方跟 weight= ？；
+	iphash方式是在最上方加 ip_hash；（根据每个ip的hash结果分配且固定后不改变）
+	least_conn 最上方加least_conn（将请求分配到链接最少的服务上）
+	fair同iphash 在最上方加fair；（根据响应时间最短的来返回）
+
+
