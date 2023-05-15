@@ -11,17 +11,27 @@
 	事件模块负责处理网络事件，包括接收客户端请求、连接后端服务器、读写数据等。
 	HTTP模块负责解析HTTP请求和响应，包括处理HTTP头部、请求方法、URI等信息
 
-Nginx进程模型:
+**Nginx进程模型:**
 	Linux 系统中，Nginx默认以守护进程daemon方式启动，默认采用多进程方式。Nginx包括两种类型的进程：  
 	**Master 进程**，数量只有一个，管理Nginx本身和Worker进程  负责初始化Nginx和相关模块、fork Worker进程、接收处理外界信号等工作
 	**Worker 进程**，数量一般和CPU核数相等，Nginx的所有请求处理，均是在Worker进程中完成
+	**优点:**
+	对于每个Worker 进程来说，独立的进程，不需要加锁，节约锁导致的资源开销；worker进程之间，互不干扰，平滑重启就是很好的例子，服务不中断。
+**Worker进程处理流程**
+	1. 新的请求到来：所有的Work进程的listenfd都会变得可读  
+	2. 竟抢互斥锁：所有 Worker 进程在注册listenfd读事件前，要先抢accept_mutex  
+	3. 抢到互斥锁的Worker，注册listenfd读事件，在事件中调用accept接受该连接  
+	4. 拿到请求后，Worker进程开始读取请求，解析请求，处理请求，产生数据，再返回给客户端  
+	5. Worker进程断开连接
+	注意:**一个HTTP请求，完全由Worker进程处理，而且只在一个Worker中处理**
+
 Nginx的初始化过程：
 	1. 解析配置文件，这是Nginx初始化最重要的一个环节
 	2. 调用各个配置指令回调函数，完成各个模块的配置、相互关联等
 	3. 建立listen 的 socket(listenfd)
 	4. 准备工作都完成后，fork worker子进程和cache子进程
 Master 进程信号处理机制
-	Nginx 0.8 版本以后，提供了 -s参数，用于管理Nginx服务的停止和重启
+	**Nginx 0.8 版本以后，提供了 -s参数，用于管理Nginx服务的停止和重启**
 	我们通过kill命令发送信号给Nignx Master 进程，看看Master进程如何处理：
 	```
 	root@eg001:~# ps -ef | grep nginx | grep -v grep 
@@ -48,6 +58,13 @@ Master 进程信号处理机制
 	- 老的Worker进程处理完当前请求，退出  
 	- 至此，Nginx完成平滑重启
 
+
+  
+
+作者：编程学习网  
+链接：https://juejin.cn/post/6844904102074417159  
+来源：稀土掘金  
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
   
 
 
