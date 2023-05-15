@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络工程/网络通信/基础知识/常见架构.md",
+                "file": "网络工程/网络通信/cookie与session(会话数据保存).md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "browser",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -98,8 +98,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -219,6 +218,7 @@
   },
   "active": "c2657ff280e36d55",
   "lastOpenFiles": [
+    "网络工程/网络通信/cookie与session(会话数据保存).md",
     "网络工程/网络通信/基础知识/常见架构.md",
     "网络工程/网络通信/WEB及HTTP.md",
     "IT/SpringCloud/Docker和Jekins(去冲突和快速打包).md",
@@ -227,7 +227,6 @@
     "每日八股文(2).md",
     "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
     "网络工程/网络通信/TCP协议.md",
-    "网络工程/网络通信/cookie与session(会话数据保存).md",
     "IT/常用概念.md",
     "网络工程/网络通信/软路由.md",
     "网络工程/网络通信/基础知识/常见硬件.md",
