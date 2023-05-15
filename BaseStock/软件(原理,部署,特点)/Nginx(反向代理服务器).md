@@ -1,28 +1,34 @@
 **Nginx的作用和原理:**
 	**作用:**
 	1.做**反向代理**服务器对多台服务器进行代理
-	2.超强的并发处理能力,便捷的配置
+	2.高性能web服务器超强的并发处理能力(50000并发连接数),低内存消耗和高可靠
 	**原理:**
-	
-1.能支持50000个并发连接数
-2.能支持高性能的Web和反向代理服务器
-为什么使用nginx:
-主要使用场景:当单个服务器tomcat并不能满足程序的访问量的时候,可以使用nginx代理多台tomcat实现集群模式
-nginx可以直接当做静态资源的服务器,当加载nginx时候可以直接加载静态资源
-负载均衡:平衡代理的多台服务器之间的执行
-正向代理的特点:隐藏了客户端（服务器不知道是哪个客户端发送的请求）
-反向代理的特点:隐藏了服务端（客户端不知道是哪个服务端返回的消息）
+	1. 异步非阻塞的方式处理请求
+	2. epoll模型事件处理机制(只有在Linux上才能使用epoll)
+	3. 内存池技术，减少内存分配和释放的次数，降低内存碎片
+	4. 
+	它的核心模块是**事件模块**和**HTTP模块**。
+	事件模块负责处理网络事件，包括接收客户端请求、连接后端服务器、读写数据等。
+	HTTP模块负责解析HTTP请求和响应，包括处理HTTP头部、请求方法、URI等信息
+
+
+正向代理和反向代理:
+	正向代理的特点:隐藏了客户端（服务器不知道是哪个客户端发送的请求）
+	反向代理的特点:隐藏了服务端（客户端不知道是哪个服务端返回的消息）
 nginx在linux上的搭建
-配置环境，make gcc c++等
-yum -y install make gcc-c++ zlib zlib-devel libtool openssl openssl-devel libpcre3 libpcre3-dev
-同mysql等，可用rpm包或者tar.gz包解压进行下载
-解压后进入nginx文件，发现没有bin文件说明是源码（需要编码安装）此时需要makefile文件但是也没有所以需要输入指令生成
-./configure --prefix=安装目标地址 --with-http_stub_status_module --with-http_ssl_module --with-pcre
-配置完成后使用make命令编译，编译完成后使用make install安装
-安装后到指定目录的nginx 的conf里nginx.conf修改配置文件
-到sbin文件夹中启动nginx
-systemctl start keepalived启动keepalive
-nginx高可用实现配置
+	配置环境，make gcc c++等
+	yum -y install make gcc-c++ zlib zlib-devel libtool openssl openssl-devel libpcre3 libpcre3-dev
+	同mysql等，可用rpm包或者tar.gz包解压进行下载
+	解压后进入nginx文件，发现没有bin文件说明是源码（需要编码安装）此时需要makefile文件但是也没有所以需要输入指令生成
+	./configure --prefix=安装目标地址 --with-http_stub_status_module --with-http_ssl_module --with-pcre
+	配置完成后使用make命令编译，编译完成后使用make install安装
+	安装后到指定目录的nginx 的conf里nginx.conf修改配置文件
+	到sbin文件夹中启动nginx
+	systemctl start keepalived启动keepalive
+
+---
+## nginx高可用
+实现配置
 1：准备两台服务器（克隆）
 2：每台服务器上安装nginx，nginx的代理配置要一样
 3.安装keepalive
