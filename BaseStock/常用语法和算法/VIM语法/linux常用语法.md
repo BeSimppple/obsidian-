@@ -1,13 +1,10 @@
-最重要,不知道命令就使用 xxx命令 -h查看帮助  或者xxx命令 来查看有哪些命令
-man命令也是linux最常用的帮助命令
-全意是format and display the on-line manual pages
-
-control + L 快速清屏
-control + C 终止当前程序
-control + ZX 强制终止所有程序
-linux命令
-systemctl restart network #重新配置network
-top #查看内存占用情况
+**- h辅助命令**
+	不知道命令就使用 xxx命令 -h查看帮助  或者xxx命令 来查看有哪些命令
+	man命令也是linux最常用的帮助命令
+	全意是format and display the on-line manual pages
+**linux命令**
+systemctl restart network \#重新配置network
+top \#查看内存占用情况
  systemctl命令兼容了service
 即systemctl也会去/etc/init.d目录下，查看，执行相关程序
 netstat -? #netstat命令用来打印Linux中网络系统的状态信息，可让你得知整个Linux系统的网络情况
