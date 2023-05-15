@@ -1,26 +1,31 @@
+## 编程式事务
 JdbcTemplate
-平台事务管理器
-PlatformTransactionManager接口 spring的事务管理器
-方法:
-TransactionStatus --返回值为状态码
-1.getTransaction(TransactionDefination defination)
-获取事务的状态信息,同时开启事务管理
-2.void commit(TransactionStatus status) 提交事务
-3.void rollback((TransactionStatus status)回滚事务
-平台事务管理器,是因为平台不一样事务管理器就不一样
-例如:Dao层技术是jdbc或者Mybatis时 使用
-DataSourceTransactionManager
-是hibernate时使用HibernateTransactionManger
-这两个都是实现了PlatformTransactionManager
-需要告诉spring框架使用的哪个平台使用那个事务管理器
-通过配置的方法
-事务定义对象
-TransactionDefinition
-方法:
-int gfetIsolationLevel() 获取事务的隔离级别
-int getPropogationBehavior() 获取事务的传播行为
-int getTimeout() 获得超时时间
-boolean isReadOnly() 是否只读
+	Spring JDBC 核心包（core）中的核心类，它可以通过配置文件、注解、Java 配置类等形式获取数据库的相关信息，实现了对JDBC 开发过程中的驱动加载、连接的开启和关闭、SQL 语句的创建与执行、异常处理、事务处理、数据类型转换等操作的封装
+编程式事务控制三大对象
+	PlatformTransactionManager 事务管理器
+	TransactionDefinition 事务定义
+	TransactionStatus 事务状态
+平台事务管理器(PlatformTransactionManager接口)
+	PlatformTransactionManager接口 spring的事务管理器
+	方法:
+	TransactionStatus --返回值为状态码
+	1.getTransaction(TransactionDefination defination)
+	获取事务的状态信息,同时开启事务管理
+	2.void commit(TransactionStatus status) 提交事务
+	3.void rollback((TransactionStatus status)回滚事务
+	-
+	平台事务管理器,是因为平台不一样事务管理器就不一样
+	例如:Dao层技术是jdbc或者Mybatis时 使用DataSourceTransactionManager
+	是hibernate时使用HibernateTransactionManger
+	这两个都是实现了**PlatformTransactionManager**
+	需要**通过配置**的方法告诉spring框架使用的哪个平台使用那个事务管理器
+事务定义对象(TransactionDefinition)
+	方法:
+	int gfetIsolationLevel() 获取事务的隔离级别
+	int getPropogationBehavior() 获取事务的传播行为
+	int getTimeout() 获得超时时间
+	boolean isReadOnly() 是否只读
+**事务的2种实现形式:**
 |          |                                编程式事务                                | 声明式事务                                                                 |
 | -------- |:------------------------------------------------------------------------:| -------------------------------------------------------------------------- |
 | 使用方法 |                              @Transactional                              | TransactionTemplate                                                        |
@@ -29,13 +34,15 @@ boolean isReadOnly() 是否只读
 | 适用场景 |                       同一个方法中，事务操作比较多                       | 当事务操作的数量很少                                                       |
 **Spring事务传播行为**
 	**定义:** 当A事务在处理的时候调用了B事务,那么到底以哪个为标准,这就是事务的传播行为
-REQUIRED 如果当前没有事务就创建一个事务 如果已经存在一个事务中,一般的选择(默认值)
-SUPPORTS:支持当前事务,如果当前没有事务,就以非事务方式执行(没有事务)
-![[Spring事务_image_1.jpg]]
+	**常用属性:**
+	REQUIRED 如果当前没有事务就创建一个事务 如果已经存在一个事务中,一般的选择(默认值)
+	SUPPORTS:支持当前事务,如果当前没有事务,就以非事务方式执行(没有事务)
+	![[Spring事务_image_1.jpg]]
+
 **Spring事务隔离级别:**
 	default:默认级别，使用数据库自定义的隔离级别
 	其它四种隔离级别与mysql一样
-Spring事务失效情况:
+**Spring事务失效情况:**
 	1. 不是一个容器
 	2. 事务方法不是public
 	3. 方法使用 final 或 static关键字
@@ -49,10 +56,7 @@ TransactionStatus 接口 题库功德是事务具体的运行状态
 是否是新事物
 事务是否回滚
 状态对象不需要我们主动设置,因为他是被动从产生的
-编程式事务控制三大对象
-	PlatformTransactionManager 事务管理器
-	TransactionDefinition 事务定义
-	TransactionStatus 事务状态
+
 基于XML的声明式事务控制
 tx方法
 Spring声明式事务控制 采用声明的方式来处理事务
