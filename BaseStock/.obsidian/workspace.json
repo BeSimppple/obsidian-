@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/多线程/多线程.md",
+                "file": "软件(原理,部署,特点)/Idea/常用插件.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/多线程/多线程.md",
+                "file": "软件(原理,部署,特点)/Idea/常用插件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/多线程/多线程.md",
+                "file": "软件(原理,部署,特点)/Idea/常用插件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/多线程/多线程.md"
+                "file": "软件(原理,部署,特点)/Idea/常用插件.md"
               }
             }
           },
@@ -218,8 +218,11 @@
   },
   "active": "b2a7e3645621fbb1",
   "lastOpenFiles": [
-    "IT/多线程/多线程-线程安全.md",
+    "软件(原理,部署,特点)/Idea/常见问题.md",
+    "软件(原理,部署,特点)/项目部署/环境部署.md",
+    "软件(原理,部署,特点)/项目部署/所需软件.md",
     "IT/多线程/多线程.md",
+    "IT/多线程/多线程-线程安全.md",
     "IT/机器学习/机器学习算法.md",
     "IT/机器学习/AI/OpenAI.md",
     "IT/机器学习/AI/梯度下降算法.md",
@@ -241,9 +244,6 @@
     "IT/未归类知识点/Freemarker模板技术.md",
     "IT/未归类知识点/Spring AOT(应用预编译).md",
     "IT/未归类知识点/GraaIVM(虚拟机).md",
-    "IT/JAVA底层知识/数据结构.md",
-    "IT/JAVA底层知识/异常.md",
-    "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md",
     "obsidian相关/Picture/过滤器,拦截器,监听器_image_2.png",
     "IT/机器学习",
     "obsidian相关/Picture/Sleuth+Zipkin(链路监控)_image_2.png",
