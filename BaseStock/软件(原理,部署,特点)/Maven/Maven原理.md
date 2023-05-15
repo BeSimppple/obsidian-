@@ -2,85 +2,82 @@
 	**概念:** Maven 是一个项目管理工具，它包含了一个项目对象模型 (POM：Project Object Model)是apache组织 开源的 项目构建工具
 	**作用:**
 	1. **依赖管理** :统一的jar包管理(省去下复制jar包到不同项目的工作,同时自动构建jar包依赖减少jar包冲突)
-	2. 便捷项目部署和测试(一键部署),支持CICD(持续集成)和远程热部署
-	3. 快捷文档和报告生成
+	2. **便捷项目部署和测试**(项目从编译、测试、运行、打包、安装，部署整个过程都交给maven进行管理,一键部署),  支持CICD(持续集成)   和  远程热部署
+	3. **快捷文档和报告生成**
 		1. Maven 可以根据项目中的注释和配置信息，自动生成项目的文档，包括 API 文档、用户手册等
 		2. Maven 可以生成各种报告，如测试报告、代码覆盖率报告等
 	**原理:**
-	采用远程仓库和本地仓库以及一个类似build.xml的pom.xml，将pom.xml中定义的jar文件从远程仓库下载到本地仓库(检索会先检索本地再去远程下载)，各个应用使用同一个本地仓库的jar，同一个版本的jar只需下载一次，而且避免每个应用都去拷贝jar
+	采用远程仓库和本地仓库以及一个类似build.xml的pom.xml，将pom.xml中定义的jar文件从远程仓库下载到本地仓库，各个应用使用同一个本地仓库的jar，同一个版本的jar只需下载一次，而且避免每个应用都去拷贝jar
 		**本地仓库原理:** 通过在 pom.xml 文件中添加所需 jar包的坐标，在需要用到 jar包的时候，只要查找pom.xml文件，再通过pom.xml文件中的坐标，到一个专门用于”存放jar包的仓库”(maven仓库)中根据坐标从而找到这些jar包，再把这些 jar 包拿去运行
 	同时依赖管理会自动构建所需其他依赖减少冲突,原理是**仅采纳jar包的核心**而其他相关依赖通过maven根据需求以插件形式自动配置
 	![[Maven原理_image_1.png|450]]
-作用以及优势:
-项目的生命周期进行管理(编译,测试,运行,部署)
-1.Maven依赖管理(Maven仓库)
-将原有的项目的jar包统一放在了Maven仓库中,其他项目的调用只需要引用Maven仓库就行
-原理:
-而是通过在 pom.xml 文件中添加所需 jar包的坐标，在需要用到 jar包的时候，只要查找pom.xml文件，再通过pom.xml文件中的坐标，到一个专门用于”存放jar包的仓库”(maven仓库)中根据坐标从而找到这些jar包，再把这些 jar 包拿去运行。
-1.2.Maven仓库
-Maven仓库分为1.本地仓库2.远程仓库3.中央仓库
-会依次从本地仓库中搜寻是否有需要的jar包,如果没有再去远程仓库 再去中央仓库
-远程仓库可以是局域网寻找,也可以是互联网
-中央仓库就是Maven软件中内置的一个远程仓库地址,由Maven团队自己维护的仓库
-可以将本地仓库理解为缓存,如果有了本地仓库就不用每次从远程仓库下载 ,从而统一管理jar包
-2.项目的一键构建
-指的是项目从编译、测试、运行、打包、安装，部署整个过程都交给maven进行管理，这个过程称为构建。 一键构建指的是整个构建过程，使用maven一个命令可以轻松完成整个工作
-  ![[Maven原理_image_2.jpg]]
-maven的conf文件夹中的setting.xml配置文件
-配置本地maven仓库路径
-<localRepository>F:\MavenRepository</localRepository>
-配置远程仓库镜像--使用阿里云镜像仓库
-<mirror>
-<id>alimaven</id>
-<mirrorOf>central</mirrorOf>
-<name>aliyun maven</name>
-<url>https://maven.aliyun.com/repository/central</url>
-</mirror>
-<mirror>
-<id>nexus-aliyun</id>
-<mirrorOf>central</mirrorOf>
-<name>Nexus aliyun</name>
-<url>[http://maven.aliyun.com/nexus/content/groups/public](http://maven.aliyun.com/nexus/content/groups/public)</url>
-</mirror>
-全局配置jdk版本号
-<profile>
-<id>jdk18</id>
-<activation>
-<activeByDefault>true</activeByDefault>
-<jdk>1.8</jdk>
-</activation>
-<properties>
-<maven.compiler.source>1.8</maven.compiler.source> <maven.compiler.target>1.8</maven.compiler.target> <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
-</properties>
-</profile>
-maven项目中的pom.xml配置文件
-<project ...>
-<!--公司名称-->
-<groupId>com.qfedu</groupId>
-<!--项目名称-->
-<artifactId>day50</artifactId>
-<!--版本号-->
-<version>1.0.0-SNAPSHOT</version>
-<!--声明变量-->
-<properties> </properties>
-<!--依赖管理-->
-<dependencies> </dependencies>
-<!--插件管理-->
-<build> </build>
-</project>
+
+Maven仓库
+	**1.本地仓库2.远程仓库3.中央仓库**
+	**检索顺序:** 本地-远程-中央
+	会依次从本地仓库中搜寻是否有需要的jar包,如果没有再去远程仓库 再去中央仓库
+	远程仓库可以是局域网寻找,也可以是互联网
+	中央仓库就是Maven软件中内置的一个远程仓库地址,由Maven团队自己维护的仓库
+	可以将本地仓库理解为缓存,如果有了本地仓库就不用每次从远程仓库下载 ,从而统一管理jar包
+Maven项目构建过程:
+	  ![[Maven原理_image_2.jpg]]
+
+Maven的conf文件夹中的setting.xml配置文件
+	**配置本地maven仓库路径**
+		\<localRepository>F:\MavenRepository\</localRepository>
+	**配置远程仓库镜像--使用阿里云镜像仓库**
+		\<mirror>
+		\<id>alimaven\</id>
+		\<mirrorOf>central\</mirrorOf>
+		\<name>aliyun maven\</name>
+		\<url>\https://maven.aliyun.com/repository/central \</url>
+		\</mirror>
+		\<mirror>
+		\<id>nexus-aliyun\</id>
+		\<mirrorOf>central\</mirrorOf>
+		\<name>Nexus aliyun\</name>
+		\<url>[http://maven.aliyun.com/nexus/content/groups/public](http://maven.aliyun.com/nexus/content/groups/public)\</url>
+		\</mirror>
+**全局配置jdk版本号**
+	\<profile>
+	\<id>jdk18\</id>
+	\<activation>
+	\<activeByDefault>true\</activeByDefault>
+	\<jdk>1.8\</jdk>
+	\</activation>
+	\<properties>
+	<maven.compiler.source>1.8</maven.compiler.source> <maven.compiler.target>1.8</maven.compiler.target> <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
+	\</properties>
+	\</profile>
+**Maven项目中的pom.xml配置文件**
+	\<project ...>
+	<!--公司名称-->
+	\<groupId>com.qfedu\</groupId>
+	<!--项目名称-->
+	\<artifactId>day50\</artifactId>
+	<!--版本号-->
+	\<version>1.0.0-SNAPSHOT\</version>
+	<!--声明变量-->
+	\<properties> \</properties>
+	<!--依赖管理-->
+	\<dependencies> \</dependencies>
+	<!--插件管理-->
+	\<build> \</build>
+	\</project>
 常用maven命令
-compile
-compile是maven工程的编译命令，作用是将src/main/java下的文件编译为class文件输出到 target目录.
-clean
-clean是 maven工程的清理命令，执行clean会清空target目录.
-test
-test是maven工程的测试命,会执行src/test/java下的单元测试类
-package
-package是maven工程的打包命令，对于java工程执行 package 打成 jar 包，对于 web 工程打成 war包。
-install
-install是maven 工程的安装命令，执行 install 将 maven 打成 jar 包或 war 包发布到本地仓库。在idea中执行maven命令
-通过cmd窗口执行来安装一些maven仓库没有映射的jar包
-mvn install:install-file -Dfile=XXX.jar -DgroupId=com.alimama -DartifactId=sms -Dversion=1.0 -Dpackaging=jar
+	**compile**
+	compile是maven工程的编译命令，作用是将src/main/java下的文件编译为class文件输出到 target目录.
+	**clean**
+	clean是 maven工程的清理命令，执行clean会清空target目录.
+	**test**
+	test是maven工程的测试命,会执行src/test/java下的单元测试类
+	**package**
+	package是maven工程的打包命令，对于java工程执行 package 打成 jar 包，对于 web 工程打成 war包。
+	**install**
+	install是maven 工程的安装命令，执行 install 将 maven 打成 jar 包或 war 包发布到本地仓库。在idea中执行maven命令
+	通过cmd窗口执行来安装一些maven仓库没有映射的jar包
+	mvn install:install-file -Dfile=XXX.jar -DgroupId=com.alimama -DartifactId=sms -Dversion=1.0 -Dpackaging=jar
+
 依赖范围scope
 概念:程序依赖于构件,程序运行时,构件的范围
 ![[Maven原理_image_3.jpg]]
