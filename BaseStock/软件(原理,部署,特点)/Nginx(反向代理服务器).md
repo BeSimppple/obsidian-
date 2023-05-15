@@ -113,6 +113,24 @@ Nginx做静态页面服务器(动静分离)
 	location = /login {=是严格匹配
 	location ^~ /static/ {^~表以什么开头
 	location ~*.(gif|jpg|jpeg|png)$ {匹配任何以 gif、jpg 或 jpeg 结尾的请求。
+nginx配置虚拟主机
+	如果端口相同，那么server_name必须不同
+	server_name相同，端口不同
+	客户端通过域名访问服务器时会将域名与被解析的ip一同放在请求中。当请求到了nginx中时。nginx会先去匹配ip，如果listen中没有找到对应的ip，就会通过域名进行匹配，匹配成功以后，再匹配端口。当这三步完成，就会找到对应的server的location对应的资源。
+**如何实现反向代理功能**
+	location / {
+	\#可以实现对外隐藏端口和域名细节，下面的ip地址也可以在/etc/hosts中修改域名映射方便书写 本质是主机通过nginx重定向到tomcat
+	proxy_pass \http://192.168.174.129:8080/;
+	}
+**如何实现负载均衡**
+	upstream wfx { \#upstream模块实现负载均衡策略·并定义多台服务器
+	server localhost:8080;
+	server localhost:8081;
+	}
+	权重方式是后方跟 weight= ？；
+	iphash方式是在最上方加 ip_hash；（根据每个ip的hash结果分配且固定后不改变）
+	least_conn 最上方加least_conn（将请求分配到链接最少的服务上）
+	fair同iphash 在最上方加fair；（根据响应时间最短的来返回）
 
 **Nginx高可用实现**
 	**1.通过配合Keepalived实现,Keepalived是一个开源的高可用性解决方案，可以实现对nginx服务器的故障检测和切换**
@@ -136,23 +154,5 @@ Nginx做静态页面服务器(动静分离)
 	upstream模块是nginx的一个核心模块，可以实现对多台后端服务器的负载均衡和故障检测。在这种方式下，多台nginx服务器通过upstream模块进行状态同步
 
 
-nginx配置虚拟主机
-	如果端口相同，那么server_name必须不同
-	server_name相同，端口不同
-	客户端通过域名访问服务器时会将域名与被解析的ip一同放在请求中。当请求到了nginx中时。nginx会先去匹配ip，如果listen中没有找到对应的ip，就会通过域名进行匹配，匹配成功以后，再匹配端口。当这三步完成，就会找到对应的server的location对应的资源。
-**如何实现反向代理功能**
-	location / {
-	\#可以实现对外隐藏端口和域名细节，下面的ip地址也可以在/etc/hosts中修改域名映射方便书写 本质是主机通过nginx重定向到tomcat
-	proxy_pass \http://192.168.174.129:8080/;
-	}
-**如何实现负载均衡**
-	upstream wfx { \#upstream模块实现负载均衡策略·并定义多台服务器
-	server localhost:8080;
-	server localhost:8081;
-	}
-	权重方式是后方跟 weight= ？；
-	iphash方式是在最上方加 ip_hash；（根据每个ip的hash结果分配且固定后不改变）
-	least_conn 最上方加least_conn（将请求分配到链接最少的服务上）
-	fair同iphash 在最上方加fair；（根据响应时间最短的来返回）
 
 

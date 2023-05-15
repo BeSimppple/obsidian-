@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件(原理,部署,特点)/Nginx(反向代理服务器).md",
+                "file": "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,8 +110,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -131,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/Nginx(反向代理服务器).md",
+                "file": "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/Nginx(反向代理服务器).md",
+                "file": "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/Nginx(反向代理服务器).md"
+                "file": "网络工程/计算机硬件系统/编码与解码,字符与字节.md"
               }
             }
           },
@@ -231,10 +230,10 @@
   },
   "active": "c2657ff280e36d55",
   "lastOpenFiles": [
+    "软件(原理,部署,特点)/Nginx(反向代理服务器).md",
     "obsidian相关/Picture/Nginx(反向代理服务器)_image_2.png",
     "IT/常用概念.md",
     "obsidian相关/代码块.md",
-    "软件(原理,部署,特点)/Nginx(反向代理服务器).md",
     "IT/Spring/Mybatis(持久层框架).md",
     "软件(原理,部署,特点)/Editplus.md",
     "软件(原理,部署,特点)/Redis/Redis原理.md",
@@ -267,7 +266,6 @@
     "obsidian相关/Picture/ElasticSearch(独立搜索中间件)_image_4.jpg",
     "obsidian相关/Picture/ElasticSearch(独立搜索中间件)_image_3.jpg",
     "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
-    "obsidian相关/Picture/VPN(virtual private network)_image_1.png",
     "常用语法和算法/常用算法/概念",
     "IT/多线程",
     "学习/科学",
