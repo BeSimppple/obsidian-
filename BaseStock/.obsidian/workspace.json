@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件(原理,部署,特点)/Maven/Maven原理.md",
+                "file": "软件(原理,部署,特点)/Nginx(反向代理服务器).md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/Maven/Maven原理.md",
+                "file": "软件(原理,部署,特点)/Nginx(反向代理服务器).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/Maven/Maven原理.md",
+                "file": "软件(原理,部署,特点)/Nginx(反向代理服务器).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/Maven/Maven原理.md"
+                "file": "软件(原理,部署,特点)/Nginx(反向代理服务器).md"
               }
             }
           },
@@ -218,9 +218,15 @@
   },
   "active": "c2657ff280e36d55",
   "lastOpenFiles": [
+    "软件(原理,部署,特点)/Editplus.md",
+    "软件(原理,部署,特点)/Redis/Redis原理.md",
+    "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
+    "软件(原理,部署,特点)/Python/Python.md",
+    "软件(原理,部署,特点)/Mysql/SQL语法.md",
+    "软件(原理,部署,特点)/Mysql/Mysql快捷键.md",
+    "软件(原理,部署,特点)/Maven/Maven原理.md",
     "obsidian相关/Picture/Maven原理_image_1.png",
     "软件(原理,部署,特点)/Maven/Maven和Gradle的区别.md",
-    "软件(原理,部署,特点)/Maven/Maven原理.md",
     "软件(原理,部署,特点)/Maven/Maven命令行命令.md",
     "软件(原理,部署,特点)/Linux/vmware.md",
     "软件(原理,部署,特点)/Linux/SecureCRT.md",
@@ -239,11 +245,6 @@
     "IT/多线程/多线程.md",
     "IT/多线程/多线程-线程安全.md",
     "IT/机器学习/机器学习算法.md",
-    "IT/机器学习/AI/OpenAI.md",
-    "IT/机器学习/AI/梯度下降算法.md",
-    "IT/机器学习/AI/卷积和池化.md",
-    "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",
-    "IT/前端(VScode,VUE,nodejs)/JSP(java server page).md",
     "obsidian相关/Picture/过滤器,拦截器,监听器_image_2.png",
     "IT/机器学习",
     "obsidian相关/Picture/Sleuth+Zipkin(链路监控)_image_2.png",
@@ -254,7 +255,6 @@
     "obsidian相关/Picture/ElasticSearch(独立搜索中间件)_image_3.jpg",
     "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
     "obsidian相关/Picture/VPN(virtual private network)_image_1.png",
-    "obsidian相关/Picture/tmp1683523256117_每日八股文(2)_image_2.png",
     "常用语法和算法/常用算法/概念",
     "IT/多线程",
     "学习/科学",
