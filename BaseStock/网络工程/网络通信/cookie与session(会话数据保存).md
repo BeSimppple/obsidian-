@@ -1,10 +1,9 @@
 会话概念
 	**概念:** 打开浏览器,访问一些服务器的资源,直到关闭浏览器,整个过程称之为会话
-
 ## Cookie(浏览器端会话技术)
 **Cokie作用和原理**
 	**作用:**
-	解决session会话中断后丢失的用户信息,导致每次请求访问都需要重新登录
+	解决session会话结束后丢失的用户信息,导致每次请求访问都需要重新登录
 	**原理:**
 	1.  当用户首次访问Web应用程序时，服务器会在HTTP响应头中设置一个Set-Cookie头，其中包含一个唯一的标识符和一些数据。
 	2.  浏览器接收到响应后，将Cookie保存在本地文件系统中。以后每次访问该Web应用程序时，浏览器都会将Cookie发送回服务器。
@@ -21,24 +20,34 @@ Cookie的执行流程:
 	Cookie[] cookies = request.getCookies();
 	cookie.setMaxAge(7 * 24 * 60 * 60);//设置cookie的生命周期
 	cookie.setPath("/day36/demo06");//设置cookie的访问路径
-
   
-
-  
-
+---
 ## Session(服务端会话技术)
-Session是一个服务器端的会话技术
-创建session对象
-request.getSession()
+**Session的作用和原理**
+	**作用:**
+	解决session会话中浏览同页面刷新后重复信息丢失导致登录问题
+	**原理:**
+	
 
-  
 
-执行流程
-1. 第一次发起请求时，请求头Cookie中如果没有jsessionid，那么服务器创建session对象
-2.当响应产生时，会将session对象的id作为响应头Set-Cookie携带到浏览器保存
-3.第二次发起请求时，请求头Cookie中会协议jsessionid
-4. 服务器根据该jsessionid在内存中查找是否有对应的session对象，如果有直接使用，否则新建
+Session执行流程
+	1. 第一次发起请求时，请求头Cookie中如果没有jsessionid，那么服务器创建session对象
+	2.当响应产生时，会将session对象的id作为响应头Set-Cookie携带到浏览器保存
+	3.第二次发起请求时，请求头Cookie中会协议jsessionid
+	4. 服务器根据该jsessionid在内存中查找是否有对应的session对象，如果有直接使用，否则新建
+Session生命周期
+	是一个域对象,他的存在在浏览器初始化的时候初始化,一般在浏览器销毁的时候销毁,所以在同一次使用浏览器的时候可以使用session域对象传输数据,但是 可以使用invalidate方法销毁session对象
+	如果浏览器关闭了，Cookie会销毁，Cookie中的jsessionid也会销毁，但是不意味着服务器中session对象销毁。
 
-  
-session是一个域对象,他的存在在浏览器初始化的时候初始化,一般在浏览器销毁的时候销毁,所以在同一次使用浏览器的时候可以使用session域对象传输数据,但是 可以使用invalidate方法销毁session对象
-如果浏览器关闭了，Cookie会销毁，Cookie中的jsessionid也会销毁，但是不意味着服务器中session对象销毁。
+* ServletContext存在数据交叉的问题解决(他人也可以轻松看到你的数据)
+	**原因:** 当多个线程同时访问ServletContext中的数据时，可能会出现数据交叉的问题
+	**解决方案:**
+	1. 使用同步机制
+	2. 使用线程安全的数据结构
+	3. 仅一条线路可写,其他均为可读
+* request存在丢数据的问题(不同地址请求不同数据无法传递)
+	**原因:** 请求处理过程中发生了异常或者错误导致的或者重定向无法传递request,以及请求方式(get,post)不同导致的
+	**解决方案:**
+	1. 使用Session
+	2. 使用隐藏表单域
+	3. 使用URL传递参数
