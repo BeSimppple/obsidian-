@@ -1,4 +1,13 @@
-maven
+**Maven的作用和原理**:
+	**概念:** Maven 是一个项目管理工具，它包含了一个项目对象模型 (POM：Project Object Model)是apache组织 开源的 项目构建工具
+	**作用:**
+	1. **依赖管理** :统一的jar包管理(省去下复制jar包到不同项目的工作,同时自动构建jar包依赖减少jar包冲突)
+	2. 便捷项目部署
+	**原理:**
+	采用远程仓库和本地仓库以及一个类似build.xml的pom.xml，将pom.xml中定义的jar文件从远程仓库下载到本地仓库，各个应用使用同一个本地仓库的jar，同一个版本的jar只需下载一次，而且避免每个应用都去拷贝jar,同时依赖管理会自动构建所需其他依赖
+	![[Maven原理_image_1.png|450]]
+
+
 概念:项目管理工具
 作用以及优势:
 项目的生命周期进行管理(编译,测试,运行,部署)
@@ -33,7 +42,7 @@ Maven仓库分为1.本地仓库2.远程仓库3.中央仓库
 
 指的是项目从编译、测试、运行、打包、安装，部署整个过程都交给maven进行管理，这个过程称为构建。 一键构建指的是整个构建过程，使用maven一个命令可以轻松完成整个工作
 
-  ![[Maven原理_image_1.jpg]]
+  ![[Maven原理_image_2.jpg]]
 
   
 
@@ -162,7 +171,7 @@ mvn install:install-file -Dfile=XXX.jar -DgroupId=com.alimama -DartifactId=sms -
 依赖范围scope
 
 概念:程序依赖于构件,程序运行时,构件的范围
-![[Maven原理_image_2.jpg]]
+![[Maven原理_image_3.jpg]]
 常用的前四种
 
 compile
@@ -194,7 +203,7 @@ runtime
 构建A依赖构建B,构建B依赖构建C,那么就构成了构建A传递依赖构建C
 
 传递依赖并不一定完全成立
-![[E08DA31E152D400DBB09AA58AE5D7187.jpg]]
+![[Maven原理_image_4.jpg]]
   
 
 依赖版本冲突
