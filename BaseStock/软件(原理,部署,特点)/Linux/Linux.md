@@ -161,6 +161,15 @@ linux安装软件方法
 	nohup java -jar zipkin-server-2.12.9-exec.jar --server.port=9999>zipkin.log 2>&1 &
 	linux安装elasitcsearch和kibana(同windows java-jar运行即可)
 	linux安装redis(详情见redis记录)
+		 登录redis   redis-cli -h 192.168.220.128 -p 7001 -c --raw
+		启动redis集群
+		redis-cli --cluster create 192.168.220.128:7001 \
+		192.168.220.128:7002 \
+		192.168.220.128:7003 \
+		192.168.220.128:7004 \
+		192.168.220.128:7005 \
+		192.168.220.128:7006 \
+		--cluster-replicas 1 
 	linux安装nginx(详情见nginx记录)
 	linux安装nacos(详情见nacos记录)
 使用shell终端SecureCRTPortable（或者Xshell）去更快捷的敲命令

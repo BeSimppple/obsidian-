@@ -37,7 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用语法和算法/VIM语法/Linux常用语法.md",
+                "file": "常用语法和算法/语言(仅需了解).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a2d7fc3ef6615f5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "软件(原理,部署,特点)/Linux/Linux.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "linux",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -118,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法和算法/VIM语法/Linux常用语法.md",
+                "file": "常用语法和算法/语言(仅需了解).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法和算法/VIM语法/Linux常用语法.md",
+                "file": "常用语法和算法/语言(仅需了解).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法和算法/VIM语法/Linux常用语法.md"
+                "file": "常用语法和算法/语言(仅需了解).md"
               }
             }
           },
@@ -218,9 +230,10 @@
   },
   "active": "b6c8998cbbfcdc4e",
   "lastOpenFiles": [
+    "常用语法和算法/VIM语法/Linux常用语法.md",
+    "软件(原理,部署,特点)/Linux/Linux.md",
     "网络工程/网络通信/cookie与session(会话数据保存).md",
     "软件(原理,部署,特点)/Linux/Linux快捷键.md",
-    "常用语法和算法/VIM语法/Linux常用语法.md",
     "常用语法和算法/Markdown语法及快捷键/基础语法.md",
     "常用语法和算法/常用算法/常用查找算法.md",
     "常用语法和算法/常用算法/RSA非对称加密.md",
@@ -243,7 +256,6 @@
     "网络工程/网络通信/TCP协议.md",
     "IT/常用概念.md",
     "网络工程/网络通信/软路由.md",
-    "网络工程/网络通信/基础知识/常见硬件.md",
     "obsidian相关/Picture/Nginx(反向代理服务器)_image_2.png",
     "obsidian相关/Picture/Maven原理_image_1.png",
     "obsidian相关/Picture/过滤器,拦截器,监听器_image_2.png",
