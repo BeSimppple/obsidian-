@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用语法和算法/语言(仅需了解).md",
+                "file": "常用语法和算法/常用格式(ymal,xml,property)/XML(Extensible Markup Language).md",
                 "mode": "source",
                 "source": false
               }
@@ -49,14 +49,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件(原理,部署,特点)/Linux/Linux.md",
+                "file": "每日八股文.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法和算法/语言(仅需了解).md",
+                "file": "每日八股文(2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法和算法/语言(仅需了解).md",
+                "file": "每日八股文(2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法和算法/语言(仅需了解).md"
+                "file": "每日八股文(2).md"
               }
             }
           },
@@ -228,12 +227,20 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "b6c8998cbbfcdc4e",
+  "active": "2b4939f82da518d8",
   "lastOpenFiles": [
-    "常用语法和算法/VIM语法/Linux常用语法.md",
-    "软件(原理,部署,特点)/Linux/Linux.md",
-    "网络工程/网络通信/cookie与session(会话数据保存).md",
     "软件(原理,部署,特点)/Linux/Linux快捷键.md",
+    "常用语法和算法/常用格式(ymal,xml,property)/XML(Extensible Markup Language).md",
+    "每日八股文.md",
+    "每日八股文(2).md",
+    "文档编写和分类标准.md",
+    "常用语法和算法/Windows快捷键.md",
+    "常用语法和算法/Github找项目语法.md",
+    "常用语法和算法/正则表达式.md",
+    "常用语法和算法/语言(仅需了解).md",
+    "软件(原理,部署,特点)/Linux/Linux.md",
+    "常用语法和算法/VIM语法/Linux常用语法.md",
+    "网络工程/网络通信/cookie与session(会话数据保存).md",
     "常用语法和算法/Markdown语法及快捷键/基础语法.md",
     "常用语法和算法/常用算法/常用查找算法.md",
     "常用语法和算法/常用算法/RSA非对称加密.md",
@@ -243,19 +250,11 @@
     "常用语法和算法/常用算法/数学/排列组合A和C的算法.md",
     "常用语法和算法/常用算法/数学/简单概念.md",
     "常用语法和算法/常用算法/概念/时间复杂度和空间复杂度.md",
-    "常用语法和算法/常用格式(ymal,xml,property)/XML(Extensible Markup Language).md",
     "常用语法和算法/常用格式(ymal,xml,property)/常用格式.md",
     "网络工程/常见问题解决.md",
     "网络工程/网络通信/WEB及HTTP.md",
     "网络工程/网络通信/基础知识/常见架构.md",
     "IT/SpringCloud/Docker和Jekins(去冲突和快速打包).md",
-    "网络工程/网络通信/OSI七层网络模型.md",
-    "网络工程/网络通信/VPN(virtual private network).md",
-    "每日八股文(2).md",
-    "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
-    "网络工程/网络通信/TCP协议.md",
-    "IT/常用概念.md",
-    "网络工程/网络通信/软路由.md",
     "obsidian相关/Picture/Nginx(反向代理服务器)_image_2.png",
     "obsidian相关/Picture/Maven原理_image_1.png",
     "obsidian相关/Picture/过滤器,拦截器,监听器_image_2.png",
