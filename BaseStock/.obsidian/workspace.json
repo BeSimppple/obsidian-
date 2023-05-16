@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "linux",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -85,8 +85,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -204,14 +203,14 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "2b4939f82da518d8",
+  "active": "7278d5866d783733",
   "lastOpenFiles": [
-    "IT/机器学习/AI/ChatGPT提示语.md",
-    "IT/机器学习/AI/OpenAI.md",
-    "网络工程/计算机硬件系统/Windows系统底层函数.md",
     "软件(原理,部署,特点)/Redis/Redis原理.md",
     "每日八股文(2).md",
     "软件(原理,部署,特点)/Linux/Linux.md",
+    "IT/机器学习/AI/ChatGPT提示语.md",
+    "IT/机器学习/AI/OpenAI.md",
+    "网络工程/计算机硬件系统/Windows系统底层函数.md",
     "网络工程/网络通信/TCP协议.md",
     "网络工程/网络通信/WEB及HTTP.md",
     "常用语法和算法/Windows快捷键.md",

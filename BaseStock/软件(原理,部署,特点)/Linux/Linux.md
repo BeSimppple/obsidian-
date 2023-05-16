@@ -103,6 +103,7 @@ epoll的LT和ET模式
 	ET：边缘触发，当FD有数据可读的时候，它只会通知用户一次，直到下次再有数据流入才会再通知，所以在ET模式下一定要把缓冲区的数据一次读完
 Linux为什么不采用windows上更高效的iocp(异步模型)
 	1. IOCP并不是一个跨平台的解决方案,linux的方向是兼容作为服务器存在
+	ps:可以通过libevent(第三方库)实现iocp
 linux安装软件方法
 	1.源码包（包内有src这种）-》编译（make执行makefile）-》安装（make install）（不常用效率低容易出问题）
 	2.二进制包（rpm）-》通过（rpm or yum）安装（常用）
