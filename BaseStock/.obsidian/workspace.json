@@ -162,7 +162,7 @@
             }
           },
           {
-            "id": "b9d68d66e3a0d1e1",
+            "id": "b59b6bb0b5f07726",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -191,7 +191,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "a2d7fc3ef6615f5c",
+  "active": "b59b6bb0b5f07726",
   "lastOpenFiles": [
     "IT/Python/基础命令.md",
     "IT/Python/Python安装.md",
