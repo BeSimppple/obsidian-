@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件(原理,部署,特点)/Linux/Linux.md",
+                "file": "IT/Python/Python安装.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/Linux/Linux.md",
+                "file": "IT/Python/Python安装.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/Linux/Linux.md",
+                "file": "IT/Python/Python安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/Linux/Linux.md"
+                "file": "IT/Python/Python安装.md"
               }
             }
           },
@@ -203,11 +203,13 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "7278d5866d783733",
+  "active": "2b4939f82da518d8",
   "lastOpenFiles": [
+    "软件(原理,部署,特点)/Linux/Linux.md",
+    "IT/Python/Python安装.md",
+    "IT/Python",
     "软件(原理,部署,特点)/Redis/Redis原理.md",
     "每日八股文(2).md",
-    "软件(原理,部署,特点)/Linux/Linux.md",
     "IT/机器学习/AI/ChatGPT提示语.md",
     "IT/机器学习/AI/OpenAI.md",
     "网络工程/计算机硬件系统/Windows系统底层函数.md",
@@ -230,7 +232,6 @@
     "常用语法和算法/常用算法/常用排序算法.md",
     "常用语法和算法/常用算法/数学/群论(阶).md",
     "常用语法和算法/常用算法/数学/排列组合A和C的算法.md",
-    "常用语法和算法/常用算法/数学/简单概念.md",
     "obsidian相关/Picture/Nginx(反向代理服务器)_image_2.png",
     "obsidian相关/Picture/Maven原理_image_1.png",
     "obsidian相关/Picture/过滤器,拦截器,监听器_image_2.png",
@@ -249,7 +250,6 @@
     "IT/JAVA底层知识/JDK(JAVA底层原理)",
     "学习",
     "模板样式仓库",
-    "模具实际加工工艺",
-    "模具UG设计/模具知识管理类"
+    "模具实际加工工艺"
   ]
 }
