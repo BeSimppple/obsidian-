@@ -1,6 +1,6 @@
 Windows
 	1. 官网下载3.10版Python
-	2. 自定义安装路径并勾选自动加入环境变量(如果没有加入则手动到用户变量path中加入python文件夹地址以及python/script文件夹地址)
+	2. 自定义安装路径并勾选自动加入环境变量(如果没有加入则手动到环境变量path中加入python文件夹地址以及python/script文件夹地址)
 	3. 勾选pip指令包安装(默认勾选)
 
 Python本地文件夹作用
@@ -21,8 +21,11 @@ PIP指令包
 	中国科学技术大学 http://pypi.mirrors.ustc.edu.cn/simple/
 	**命令方式**:pip install -i https://pypi.tuna.tsinghua.edu.cn/simple gevent
 	**配置文件修改:**
-	linux下，修改 ~/.pip/pip.conf (没有就创建一个)， 修改 index-url至tuna
-	windows下，直接在user目录中创建一个pip目录，如：C:\Users\admin\pip，新建文件pip.ini
+	linux
+		修改 ~/.pip/pip.conf (没有就创建一个)
+	windows
+		使用命令pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+		1.python会自动创建一个pip.ini文件并返回地址给你例如:C:\\Users\\用户名\\AppData\\Roaming\\pip.ini
 	**例子:**
 	[global]
 	timeout = 6000
