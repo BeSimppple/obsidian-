@@ -32,7 +32,10 @@ PIP指令包
 	index-url = https://mirrors.aliyun.com/pypi/simple/
 	trusted-host = mirrors.aliyun.com
 安装集成开发环境pycharm(或直接使用idea加python插件)
-	
+	Idea和PyCharm的区别就是Idea需要安装Python的插件，而PyCharm是专门用来开发Python的工具，Idea在安装插件后基本没啥区别，唯一点就是可能官方的插件没有PyCharm更新得快
+	**操作**:
+	1. Idea中安装python插件并重启
+	2. 新建项目->如果有python在左侧栏则选择,如果没有则新建项目中找到python语言并选择即可
 
 
 
