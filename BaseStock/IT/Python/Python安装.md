@@ -31,7 +31,8 @@ PIP指令包
 	timeout = 6000
 	index-url = https://mirrors.aliyun.com/pypi/simple/
 	trusted-host = mirrors.aliyun.com
-
+安装集成开发环境pycharm(或直接使用idea加python插件)
+	
 
 
 
