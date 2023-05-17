@@ -175,7 +175,7 @@
             }
           },
           {
-            "id": "b59b6bb0b5f07726",
+            "id": "e7908eb5f187aeb6",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -204,7 +204,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "0e6808ec8edfb285",
+  "active": "e7908eb5f187aeb6",
   "lastOpenFiles": [
     "obsidian相关/代码块.md",
     "常用语法和算法/Markdown语法及快捷键/基础语法.md",
