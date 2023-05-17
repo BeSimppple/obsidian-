@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/Python/基础.md",
+                "file": "IT/Python/常见问题.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,8 +85,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/Python/基础.md",
+                "file": "IT/Python/常见问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/Python/基础.md",
+                "file": "IT/Python/常见问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/Python/基础.md"
+                "file": "IT/Python/常见问题.md"
               }
             }
           },
@@ -206,10 +205,11 @@
   },
   "active": "0e6808ec8edfb285",
   "lastOpenFiles": [
+    "IT/Python/基础.md",
+    "IT/Python/常见问题.md",
     "IT/常用概念.md",
     "IT/JAVA底层知识/泛型和IO流.md",
     "obsidian相关/代码块.md",
-    "IT/Python/基础.md",
     "常用语法和算法/Markdown语法及快捷键/基础语法.md",
     "IT/Python/Python安装.md",
     "软件(原理,部署,特点)/Python/Python.md",
@@ -232,7 +232,6 @@
     "文档编写和分类标准.md",
     "常用语法和算法/Github找项目语法.md",
     "常用语法和算法/正则表达式.md",
-    "常用语法和算法/语言(仅需了解).md",
     "obsidian相关/Picture/Nginx(反向代理服务器)_image_2.png",
     "obsidian相关/Picture/Maven原理_image_1.png",
     "obsidian相关/Picture/过滤器,拦截器,监听器_image_2.png",
