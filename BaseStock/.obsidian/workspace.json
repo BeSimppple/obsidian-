@@ -85,8 +85,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -204,7 +203,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "e7908eb5f187aeb6",
+  "active": "7278d5866d783733",
   "lastOpenFiles": [
     "obsidian相关/代码块.md",
     "常用语法和算法/Markdown语法及快捷键/基础语法.md",
