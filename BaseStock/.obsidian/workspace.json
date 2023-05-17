@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/Python/基础.md",
+                "file": "IT/Python/常见问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/Python/基础.md",
+                "file": "IT/Python/常见问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/Python/基础.md"
+                "file": "IT/Python/常见问题.md"
               }
             }
           },
@@ -216,10 +215,10 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "2c86711ab57014d6",
+  "active": "0e6808ec8edfb285",
   "lastOpenFiles": [
-    "IT/Python/常见问题.md",
     "IT/Python/基础.md",
+    "IT/Python/常见问题.md",
     "IT/Python/Python安装.md",
     "IT/常用概念.md",
     "IT/JAVA底层知识/泛型和IO流.md",
