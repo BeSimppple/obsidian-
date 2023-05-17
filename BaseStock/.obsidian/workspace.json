@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "69ae026029de89db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/Python/基础.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "114cff2bd29a3822",
             "type": "leaf",
             "state": {
@@ -219,9 +231,9 @@
   "active": "2c86711ab57014d6",
   "lastOpenFiles": [
     "IT/Python/基础.md",
+    "IT/Python/基础函数等.md",
     "IT/常用概念.md",
     "IT/Python/常见问题.md",
-    "IT/Python/基础函数等.md",
     "IT/Python/Python安装.md",
     "IT/JAVA底层知识/泛型和IO流.md",
     "obsidian相关/代码块.md",
