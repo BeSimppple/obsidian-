@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/未归类知识点/Freemarker模板技术.md",
+                "file": "IT/Python/爬虫.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/未归类知识点/Freemarker模板技术.md",
+                "file": "IT/Python/爬虫.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/未归类知识点/Freemarker模板技术.md"
+                "file": "IT/Python/爬虫.md"
               }
             }
           },
@@ -229,14 +229,15 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "076e7c6cf14c358d",
+  "active": "69ae026029de89db",
   "lastOpenFiles": [
-    "IT/Python/爬虫.md",
-    "IT/Python/基础.md",
     "IT/Python/基础函数等.md",
+    "IT/Python/爬虫.md",
+    "IT/常用概念.md",
+    "IT/未归类知识点/Freemarker模板技术.md",
+    "IT/Python/基础.md",
     "网络工程/网络通信/VPN(virtual private network).md",
     "IT/Python/常见问题.md",
-    "IT/常用概念.md",
     "IT/Python/Python安装.md",
     "IT/JAVA底层知识/泛型和IO流.md",
     "obsidian相关/代码块.md",
@@ -257,7 +258,6 @@
     "常用语法和算法/Windows快捷键.md",
     "每日八股文.md",
     "常用语法和算法/常用格式(ymal,xml,property)/XML(Extensible Markup Language).md",
-    "软件(原理,部署,特点)/Linux/Linux快捷键.md",
     "obsidian相关/Picture/Nginx(反向代理服务器)_image_2.png",
     "obsidian相关/Picture/Maven原理_image_1.png",
     "obsidian相关/Picture/过滤器,拦截器,监听器_image_2.png",
