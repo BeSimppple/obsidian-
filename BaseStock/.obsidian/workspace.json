@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/Python/基础.md",
+                "file": "IT/Python/常见问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/Python/基础.md",
+                "file": "IT/Python/常见问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/Python/基础.md"
+                "file": "IT/Python/常见问题.md"
               }
             }
           },
@@ -228,7 +227,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "69ae026029de89db",
+  "active": "0e6808ec8edfb285",
   "lastOpenFiles": [
     "IT/Python/基础函数等.md",
     "IT/Python/基础.md",
