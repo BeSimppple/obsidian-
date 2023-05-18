@@ -39,7 +39,9 @@ PIP指令包
 IDEA中代码提示/改错
 	安装Flake8第三方软件
 
-
+pip安装文件本地地址:
+	1.C:\PythonXX\Lib\site-packages
+	2.C:\Users{用户名}\AppData\Local\Programs\Python\PythonXX\Lib\site-packages
 
 
 
