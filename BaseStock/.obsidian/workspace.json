@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/Python/Python安装.md",
+                "file": "IT/Python/爬虫.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/Python/Python安装.md",
+                "file": "IT/Python/爬虫.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/Python/Python安装.md"
+                "file": "IT/Python/爬虫.md"
               }
             }
           },
@@ -199,7 +199,7 @@
             }
           },
           {
-            "id": "7dfac4e5f9932921",
+            "id": "89892f0213da6ae4",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -228,16 +228,16 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "076e7c6cf14c358d",
+  "active": "69ae026029de89db",
   "lastOpenFiles": [
+    "IT/常用概念.md",
+    "IT/Python/Python安装.md",
     "IT/Python/基础.md",
     "IT/Python/常见问题.md",
     "IT/未归类知识点/Freemarker模板技术.md",
-    "IT/常用概念.md",
     "IT/Python/基础函数等.md",
     "IT/Python/爬虫.md",
     "网络工程/网络通信/VPN(virtual private network).md",
-    "IT/Python/Python安装.md",
     "IT/JAVA底层知识/泛型和IO流.md",
     "obsidian相关/代码块.md",
     "常用语法和算法/Markdown语法及快捷键/基础语法.md",
