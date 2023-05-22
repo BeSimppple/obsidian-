@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3a7607d7d1b5e7d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "每日八股文.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -85,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "idea快捷",
+                "query": "&和",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -131,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/Idea/IDEA快捷键.md",
+                "file": "每日八股文.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/Idea/IDEA快捷键.md",
+                "file": "每日八股文.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/Idea/IDEA快捷键.md"
+                "file": "每日八股文.md"
               }
             }
           },
@@ -229,10 +241,10 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "5e0be5bd56dd8c5a",
+  "active": "3a7607d7d1b5e7d9",
   "lastOpenFiles": [
-    "常用语法和算法/常用算法/常用排序算法.md",
     "软件(原理,部署,特点)/Idea/IDEA快捷键.md",
+    "常用语法和算法/常用算法/常用排序算法.md",
     "常用语法和算法/常用算法/常用查找算法.md",
     "obsidian相关/代码块.md",
     "IT/常用概念.md",
