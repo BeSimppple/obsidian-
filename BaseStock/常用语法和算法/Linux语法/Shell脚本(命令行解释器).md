@@ -71,4 +71,8 @@ shell语法
 	for循环
 		for开始，do执行，done结束
 		![[Shell脚本_image_5.png]]
-
+	while循环
+		while开始，do执行，done结束
+		![[Shell脚本_image_6.png]]
+	自定义函数
+		![[Shell脚本_image_7.png]]
