@@ -9,7 +9,7 @@
 	**缺点:**
 		1. 每接入一个异构微服务实例，都需要额外部署一个Alibaba Sidecar实例，增加了部署成本（虽然这个成本在Kubernetes环境中几乎可以忽略不计（只需将Alibaba Sidecar实例和异构微服务作为一个Pod部署即可））；
 		2. 异构微服务调用Spring Cloud微服务时，本质是把Alibaba Sidecar当网关在使用，经过了一层转发，性能有一定下降。
-Service Mesh介绍
+**Service Mesh介绍**
 	新一代微服务概念:
 	ServiceMesh理论完美,但是实际处理并不完善,是一个非入侵式的黑盒系统(屏蔽分布式系统通信的复杂性(负载均衡、服务发现、认证授权、监控追踪、流量控制等等)，服务只用关注业务逻辑)
 	**优点**:
@@ -18,12 +18,20 @@ Service Mesh介绍
 	**缺点**:
 		1.   ice Mesh组件以代理模式计算并转发请求，一定程度上会降低通信系统性能，并增加系统资源开销；
 		2.   Service Mesh组件接管了网络流量，因此服务的整体稳定性依赖于Service Mesh，同时额外引入的大量Servi
-		3. 黑盒系统导致的错误排查问题
-
-和Service Mesh的区别
+		3. 引入一个新的黑盒系统导致的错误排查问题并不完善
+**SpringCloud和Service Mesh的区别?**
+	**第二代微服务(代表:SpringCloud)**
+	![[Sidecar(异构微服务搭建)_image_1.png]]
+	**Service Mesh架构(代表:istio)**
+	**核心:** 一个非入侵式的黑盒系统(屏蔽分布式系统通信的复杂性(负载均衡、服务发现、认证授权、监控追踪、流量控制等等)，服务只用关注业务逻辑)
+	![[Sidecar(异构微服务搭建)_image_2.png]]
+	**主要区别:**
+		  1. 其一，开发框架通常只支持一种或几种特定的语言，回过头来看文章最开始对微服务的定义，一个重要的特性就是语言无关，但那些没有框架支持的语言编写的服务，很难融入面向微服务的架构体系，想因地制宜的用多种语言实现架构体系中的不同模块也很难做到；
+		  2. 其二，框架以lib库的形式和服务联编，复杂项目依赖时的库版本兼容问题非常棘手，同时，框架库的升级也无法对服务透明，服务会因为和业务无关的lib库升级而被迫升级；
+Sidecar和Service Mesh的区别
 	  1. 目前Mesh主要使用场景在Kubernetes领域（Istio、Linkerd 2等，大多将Kubernetes作为First Class支持，虽然Istio也可部署在非Kubernetes环境），
 	  2. 使用Alibaba Sidecar一个小组件就能解决问题了（核心代码不超过200行），引入整套Mesh方案，颇有点屠龙刀杀黄鳝的意思。
-	  3. 
+
 
 Idea整合Sidecar
 	使用alibaba-sideacar   因为netfilex的只支持zuul
