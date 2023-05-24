@@ -15,12 +15,36 @@ shell脚本的执行
 	6.   fork a.sh (子命令并不影响父级的命令，在子命令执行完后再执行父级命令。子级的环境变量不会影响到父级) 
 
 shell语法
-	shell变量:
+	shell打印:
 		1. echo $a  ： 打印变量a（&：引用/调用符号）
-		2.   unset a   ：  删除变量a（a变为空变量）
+		2. unset a   ：  删除变量a（a变为空变量）
 		  单引号：只打印文本【a=xxx,b='zzz,a',echo b，结果：zzz,a】
 		  双引号：可解析变量【a=xxx,b="zzz,a",echo b，结果：zzz,xxx 】
 		  echo ${#b}：打印变量b的长度，结果：6
+	数组:
+		例子:a=("zz" "xx" "cc")
+		 1. echo ${a[1]}，结果：xx（下标从0开始）
+		 2. echo ${a[@]}：结果：zz xx cc
+		 3. echo ${#a[@]}：结果：3
+	字符串:
+		例子:string="runoob is a great site"
+		1. echo ${string:1:4} # 输出 unoo    截取1到4的字符
+		2. echo \`expr index "$string" io\`  # 输出 4   i和o在字符串中出现位置(计算最先出现)
+	运算符:
+		1.  eq：等于
+		2.  ne：不等于
+		3.  gt：大于
+		4.  lt：小于
+		5.  ge：大于等于
+		6.  le：小于等于
+	注释:
+		单行注释:   # 
+		多行注释:
+		:<\<EOF  
+		注释内容...  
+		注释内容...  
+		注释内容...  
+		EOF
 	-
 	-
 	-
