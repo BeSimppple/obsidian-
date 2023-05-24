@@ -5,9 +5,24 @@
 		 2. 在Spring Cloud体系中配置Sidecar代理 。在Spring Cloud Config Server中，需要添加非JVM应用程序的配置信息，并在Eureka Server中注册非JVM应用程序的实例并在Config中配置信息。在Spring Cloud Gateway或Zuul中，需要配置路由规则，将请求转发给非JVM应用程序的实例。
 
 Idea整合Sidecar
+	使用alibaba-sideacar   因为netfilex的只支持zuul
 	1. 导入依赖
 		1. \<dependency> 
-		2. \<groupId>com.alibaba.cloud\</groupId> <artifactId>spring-cloud-starter-alibaba-sidecar</artifactId> \</dependency>
+		2. \<groupId>com.alibaba.cloud\</groupId>
+		3. \<artifactId>spring-cloud-starter-alibaba-sidecar\</artifactId> 
+		4. \</dependency>
+	2.在config中写yaml配置
+		sidecar:
+		  # 异构微服务的IP
+		  ip: 127.0.0.1
+		  # 异构微服务的端口
+		  port: 8060
+		  # 异构微服务的健康检查URL
+		  health-check-url: http://localhost:8060/health.json
+		management:
+		endpoint:
+		    health:
+		      show-details: always
 
 
 
