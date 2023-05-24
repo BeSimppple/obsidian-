@@ -117,6 +117,8 @@ DockerUI(Portainer可视化管理docker)
 	portainer/portainer
 	然后打开 ip地址:9000/查看页面即可
 	注册账号密码账号:admin密码:123456123456
+Kubernetes(k8s)和Docker
+	Docker 可以将运行应用所需的一切资源放入一个箱子中，这个箱子可以存储起来并在需要的时间和位置打开。将应用装箱后，就需要一种方法来管理它们，这就是 Kubernetes 的作用。
 
 ---
 ## Docker的容器中的数据持久化(数据卷)

@@ -9,28 +9,31 @@
 	**缺点:**
 		1. 每接入一个异构微服务实例，都需要额外部署一个Alibaba Sidecar实例，增加了部署成本（虽然这个成本在Kubernetes环境中几乎可以忽略不计（只需将Alibaba Sidecar实例和异构微服务作为一个Pod部署即可））；
 		2. 异构微服务调用Spring Cloud微服务时，本质是把Alibaba Sidecar当网关在使用，经过了一层转发，性能有一定下降。
-
+和Service Mesh的区别
+	  1. 目前Mesh主要使用场景在Kubernetes领域（Istio、Linkerd 2等，大多将Kubernetes作为First Class支持，虽然Istio也可部署在非Kubernetes环境），而目前业界，Spring Cloud应用未必有试试Mesh的环境；
+	  2. 使用Alibaba Sidecar一个小组件就能解决问题了（核心代码不超过200行），引入整套Mesh方案，颇有点屠龙刀杀黄鳝的意思。
 
 Idea整合Sidecar
 	使用alibaba-sideacar   因为netfilex的只支持zuul
-	1. 导入依赖
+	1. **导入依赖**
 		1. \<dependency> 
 		2. \<groupId>com.alibaba.cloud\</groupId>
 		3. \<artifactId>spring-cloud-starter-alibaba-sidecar\</artifactId> 
 		4. \</dependency>
-	2. 在config中写yaml配置
+	2. **在config中写yaml配置**
 		sidecar:
 		  # 异构微服务的IP
 		  ip: 127.0.0.1
 		  # 异构微服务的端口
 		  port: 8060
 		  # 异构微服务的健康检查URL
-		  health-check-url: http://localhost:8060/health.json
+		  health-check-url: \http://localhost:8060/health.json
 		management:
 		endpoint:
 		    health:
 		      show-details: always
-	3. 启动类上添加@EnableSidecar注解
+	3. **启动类上添加@EnableSidecar注解**
+	**检验:**/http://localhost:8060/health   查看返回是否为UP
 
 
 
