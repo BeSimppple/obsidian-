@@ -65,5 +65,10 @@ shell语法
 	if语句
 		if开始，then执行，fi结束。[]作判断，可用text
 		![[Shell脚本_image_3.png]]
-	-
+	case语句:
+		case开始，esac结尾。;;：执行结束符，\*：其余的
+		![[Shell脚本_image_4.png]]
+	for循环
+		for开始，do执行，done结束
+		![[Shell脚本_image_5.png]]
 
