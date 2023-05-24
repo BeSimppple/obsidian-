@@ -1,4 +1,4 @@
-默认指base shell
+默认指base shell  [菜鸟教程](https://www.runoob.com/linux/linux-shell-variable.html)
 shell脚本和lua脚本的区别
 	Shell脚本通常使用Bash、Zsh、Ksh等Shell语言编写，用于执行系统命令、配置环境变量等任务。Shell脚本是一种解释型语言，它**可以直接运行在命令行解释器中，无需编译。它主要用于自动化任务、批处理、脚本编程**等。
 	-
@@ -6,8 +6,22 @@ shell脚本和lua脚本的区别
 	-
 	因此，总结来说，Shell脚本主要用于系统管理和任务自动化，而Lua脚本更适合用于应用程序的扩展和嵌入式脚本编程。选择使用哪种脚本语言取决于具体的需求和场景。
 ![[Shell脚本_image_1.png]]
+shell脚本的执行
+	1.  在写shell脚本之前需要写“#! /bin/bash”来调用bash库(默认自动启动)
+	2.   ./a.sh：执行a.sh脚本（次次选择）
+	3.   sh a.sh：执行a.sh脚本（次选择）
+	4.   source a.sh：执行a.sh脚本（**推荐优先选择用该命令**,执行子级命令后继续执行父级命令，同时子级设置的环境变量会影响到父级的环境变量。）
+	5.   exec a.sh (执行子级的命令后，不再执行父级命令)
+	6.   fork a.sh (子命令并不影响父级的命令，在子命令执行完后再执行父级命令。子级的环境变量不会影响到父级) 
 
 shell语法
-	1.   echo $a  ： 打印变量a（&：引用/调用符号）
-	2.   unset a   ：  删除变量a（a变为空变量）
+	shell变量:
+		1. echo $a  ： 打印变量a（&：引用/调用符号）
+		2.   unset a   ：  删除变量a（a变为空变量）
+		  单引号：只打印文本【a=xxx,b='zzz,a',echo b，结果：zzz,a】
+		  双引号：可解析变量【a=xxx,b="zzz,a",echo b，结果：zzz,xxx 】
+		  echo ${#b}：打印变量b的长度，结果：6
+	-
+	-
+	-
 
