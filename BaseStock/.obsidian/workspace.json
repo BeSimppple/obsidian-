@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "eada204d9a17e9b7",
+        "id": "f4d025ae0fbcdc6b",
         "type": "tabs",
         "children": [
           {
-            "id": "5fa37fd33559c934",
+            "id": "ee8a8bc5dbf748ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用语法和算法/Linux语法/VIM命令.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2380fd53c247b307",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "软件(原理,部署,特点)/Linux/Linux.md",
+                "file": "常用语法和算法/Linux语法/Shell脚本.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vim",
+                "query": "chod",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法和算法/Linux语法/VIM命令.md",
+                "file": "常用语法和算法/Linux语法/Shell脚本.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法和算法/Linux语法/VIM命令.md",
+                "file": "常用语法和算法/Linux语法/Shell脚本.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法和算法/Linux语法/VIM命令.md"
+                "file": "常用语法和算法/Linux语法/Shell脚本.md"
               }
             }
           },
@@ -204,15 +192,16 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "5fa37fd33559c934",
+  "active": "ee8a8bc5dbf748ea",
   "lastOpenFiles": [
-    "软件(原理,部署,特点)/Linux/Linux.md",
-    "常用语法和算法/Linux语法/VIM命令.md",
-    "常用语法和算法/Windows快捷键.md",
     "常用语法和算法/Linux语法/Linux常用语法.md",
+    "常用语法和算法/Linux语法/Shell脚本.md",
+    "obsidian相关/Picture/Shell脚本_image_1.png",
+    "常用语法和算法/Linux语法/VIM命令.md",
+    "软件(原理,部署,特点)/Linux/Linux.md",
+    "常用语法和算法/Windows快捷键.md",
     "软件(原理,部署,特点)/Nginx(反向代理服务器).md",
     "obsidian相关/Picture/VIM命令_image_1.png",
-    "常用语法和算法/Linux语法/Shell脚本.md",
     "obsidian相关/Obsidian快捷键.md",
     "常用语法和算法/Markdown语法/基础语法.md",
     "常用语法和算法/Markdown语法及快捷键/markdown笔记操作方式.md",
@@ -236,7 +225,6 @@
     "IT/Python/基础.md",
     "IT/Python/常见问题.md",
     "IT/未归类知识点/Freemarker模板技术.md",
-    "网络工程/网络通信/VPN(virtual private network).md",
     "IT/Python",
     "obsidian相关/Picture/Nginx(反向代理服务器)_image_2.png",
     "obsidian相关/Picture/Maven原理_image_1.png",
@@ -244,7 +232,6 @@
     "IT/机器学习",
     "obsidian相关/Picture/Sleuth+Zipkin(链路监控)_image_2.png",
     "obsidian相关/Picture/Sleuth+Zipkin(链路监控)_image_1.png",
-    "obsidian相关/Picture/ElasticSearch(独立搜索中间件)_image_6.jpg",
     "常用语法和算法/常用算法/概念",
     "IT/多线程",
     "学习/科学",

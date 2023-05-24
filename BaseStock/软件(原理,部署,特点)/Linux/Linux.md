@@ -63,7 +63,7 @@ wget与yum的区别
 	yum安装vim
 	yum -y install vim*
 	vim的工作模式（命令模式和底线命令模式）
-	![[Linux_image_2.jpg|400]]
+	![[VIM命令_image_2.jpg|400]]
 	![[Linux_image_3.jpg]]
 	命令模式：
 	gg 光标到第一行
