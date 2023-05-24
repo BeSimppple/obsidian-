@@ -1,4 +1,4 @@
-默认指base shell  [菜鸟教程](https://www.runoob.com/linux/linux-shell-variable.html)
+默认指base shell  [菜鸟教程](https://www.cnblogs.com/jingmoxukong/p/7867397.html)
 shell脚本和lua脚本的区别
 	Shell脚本通常使用Bash、Zsh、Ksh等Shell语言编写，用于执行系统命令、配置环境变量等任务。Shell脚本是一种解释型语言，它**可以直接运行在命令行解释器中，无需编译。它主要用于自动化任务、批处理、脚本编程**等。
 	-
@@ -46,10 +46,12 @@ shell语法
 		 ------------------字符串运算
 		1. = 相等
 		2. != 不等
-		3. -z 为空
-		4. -n 不为空
-		5. -o 或运算
-		6. -a 与运算
+		3. -z 长度为0
+		4. -n 长度不为0
+		5. str 字符串为空
+		-----------------布尔运算
+		1. -o 或运算
+		2. -a 与运算
 	注释:
 		单行注释:   # 
 		多行注释:
@@ -89,3 +91,7 @@ shell语法
 		![[Shell脚本(命令行解释器)_image_6.png]]
 	自定义函数
 		![[Shell脚本(命令行解释器)_image_7.png]]
+	until循环
+		和while相反
+	select循环
+		和for类似
