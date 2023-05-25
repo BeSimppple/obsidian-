@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "f4d025ae0fbcdc6b",
+        "id": "27214200f015a97c",
         "type": "tabs",
         "children": [
           {
-            "id": "ee8a8bc5dbf748ea",
+            "id": "7a0d7a0ed2688f83",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/机器学习/机器学习算法.md",
+                "file": "2023-05-25.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d06a6e55d51723f7",
+            "id": "3ae7a0d82a661196",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/SpringCloud/Docker和Jekins(去冲突和快速打包).md",
+                "file": "常用语法和算法/Markdown语法/基础语法.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "机器",
+                "query": "markdown",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/机器学习/机器学习算法.md",
+                "file": "2023-05-25.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/机器学习/机器学习算法.md",
+                "file": "2023-05-25.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/机器学习/机器学习算法.md"
+                "file": "2023-05-25.md"
               }
             }
           },
@@ -167,28 +167,27 @@
             }
           },
           {
-            "id": "4129c514125d1f03",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {}
-            }
-          },
-          {
             "id": "08150398695e07de",
             "type": "leaf",
             "state": {
               "type": "smart-connections-chat-view",
               "state": {}
             }
+          },
+          {
+            "id": "800766cb9f5df488",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,14 +203,17 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "ee8a8bc5dbf748ea",
+  "active": "7a0d7a0ed2688f83",
   "lastOpenFiles": [
-    "学习/学习方法.md",
+    "常用语法和算法/Markdown语法/基础语法.md",
+    "2023-05-25.md",
+    "未命名.canvas",
     "IT/机器学习/机器学习算法.md",
+    "IT/SpringCloud/Docker和Jekins(去冲突和快速打包).md",
+    "学习/学习方法.md",
     "IT/SpringCloud/Sidecar(异构微服务搭建).md",
     "obsidian相关/Picture/Sidecar(异构微服务搭建)_image_2.png",
     "obsidian相关/Picture/Sidecar(异构微服务搭建)_image_1.png",
-    "IT/SpringCloud/Docker和Jekins(去冲突和快速打包).md",
     "常用语法和算法/Linux语法/VIM命令(文本编辑器).md",
     "IT/SpringCloud/SpringCloud框架思想.md",
     "常用语法和算法/Linux语法/Shell脚本(命令行解释器).md",
@@ -228,7 +230,6 @@
     "软件(原理,部署,特点)/Nginx(反向代理服务器).md",
     "obsidian相关/Picture/VIM命令_image_1.png",
     "obsidian相关/Obsidian快捷键.md",
-    "常用语法和算法/Markdown语法/基础语法.md",
     "常用语法和算法/Markdown语法及快捷键/markdown笔记操作方式.md",
     "学习/如果吃透一个JAVA项目.md",
     "常用语法和算法/常用算法/常用查找算法.md",
@@ -241,8 +242,6 @@
     "学习/金融",
     "obsidian相关/代码块.md",
     "IT/Python/爬虫.md",
-    "IT/Python/基础函数等.md",
-    "IT/Python/Python安装.md",
     "IT/Python",
     "IT/机器学习",
     "常用语法和算法/常用算法/概念",
