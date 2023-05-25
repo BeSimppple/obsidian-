@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-05-25.md",
+                "file": "学习/日记/2023-05-25.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,8 +23,12 @@
             "id": "2fc55fe601ad10d3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "学习/日记/2023-05-25.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -102,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "学习/日记/2023-05-25.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,6 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "学习/日记/2023-05-25.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +145,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "学习/日记/2023-05-25.md"
+              }
             }
           },
           {
@@ -196,9 +204,10 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "2fc55fe601ad10d3",
+  "active": "7278d5866d783733",
   "lastOpenFiles": [
-    "2023-05-25.md",
+    "学习/日记",
+    "学习/日记/2023-05-25.md",
     "常用语法和算法/语言(仅需了解).md",
     "常用语法和算法/正则表达式.md",
     "软件(原理,部署,特点)/Linux/Linux.md",
@@ -234,7 +243,6 @@
     "常用语法和算法/Markdown语法及快捷键/markdown笔记操作方式.md",
     "学习/如果吃透一个JAVA项目.md",
     "常用语法和算法/常用算法/常用查找算法.md",
-    "每日八股文.md",
     "学习/金融",
     "IT/Python",
     "IT/机器学习",
