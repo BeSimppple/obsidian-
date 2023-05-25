@@ -1,6 +1,7 @@
-### SpringTask
+## SpringTask
+
 SpringTask简介
-	轻量级的Quartz(定时任务工具)
+	轻量级的Quartz(定时任务工具)   **上位Spring cloud SchedulerX**
 	只需要spring-web的jar包不需要额外依赖
 使用方式(定时调用方法):
 	springboot启动器上@EnableScheduling开启
@@ -70,6 +71,8 @@ Redisson结合IDEA实现:
 	**问题:** 分布式锁，当我们请求一个分布式锁的时候，成功了，但是这时候slave还没有复制我们的锁，masterDown了，我们的应用继续请求锁的时候，会从继任了master的原slave上申请，也会成功。
 	这就会导致，同一个锁被获取了不止一次。
 	**解决:** redis集群下主节点宕机导致锁丢失。使用红锁解决
+
+---
 ## 秒杀业务(场景介绍)
 设计流程:
 	1.秒杀的特点明确(指定时间限制,确认库存限制,不走购物车直接支付)
