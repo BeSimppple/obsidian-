@@ -52,6 +52,9 @@ Nacos在idea中常用配置
 	![[Nacos(服务注册与发现,配置)_image_3.jpg|500]]
 **Nacos底层架构**
 	![[Nacos(服务注册与发现,配置)_image_4.jpg]]
+SpringCloud Alicloud ANS(Application NameService)和Nacos的区别
+	ANS 使用的注册中心有两种，一种是完全免费的轻量版配置中心，主要用于开发和本地调试，一种是**云上注册中心**，ANS 依托于阿里云 EDAS 产品提供服务注册的功能。通常情况下，可以使用轻量版配置中心作为开发和测试环境，使用云上的 EDAS 作为灰度和生产环境。
+	与nacos一样导入springboot启动依赖,配置yaml即可在本地使用,作为云注册中心则需要添加额外yaml配置指向EDAS
 
 ---
 ## Nacos实现高可用(集群)

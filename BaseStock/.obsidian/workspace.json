@@ -20,18 +20,19 @@
             }
           },
           {
-            "id": "3ae7a0d82a661196",
+            "id": "b2e64adf82c10fc1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用语法和算法/Markdown语法/基础语法.md",
+                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -60,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "markdown",
+                "query": "nacos",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-05-25.md",
+                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-05-25.md",
+                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-05-25.md"
+                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md"
               }
             }
           },
@@ -187,7 +188,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,10 +205,10 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "7a0d7a0ed2688f83",
+  "active": "b2e64adf82c10fc1",
   "lastOpenFiles": [
-    "常用语法和算法/Markdown语法/基础语法.md",
     "2023-05-25.md",
+    "常用语法和算法/Markdown语法/基础语法.md",
     "未命名.canvas",
     "IT/机器学习/机器学习算法.md",
     "IT/SpringCloud/Docker和Jekins(去冲突和快速打包).md",
