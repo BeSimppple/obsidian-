@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用语法和算法/UML图.md",
+                "file": "IT/机器学习/AI/OpenAI.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vim",
+                "query": "openai",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -86,7 +86,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -106,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法和算法/UML图.md",
+                "file": "IT/机器学习/AI/OpenAI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法和算法/UML图.md",
+                "file": "IT/机器学习/AI/OpenAI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法和算法/UML图.md"
+                "file": "IT/机器学习/AI/OpenAI.md"
               }
             }
           },
@@ -206,8 +207,8 @@
   },
   "active": "db99cf86d9b22b75",
   "lastOpenFiles": [
-    "学习/日记/2023-05-25.md",
     "常用语法和算法/UML图.md",
+    "学习/日记/2023-05-25.md",
     "obsidian相关/Picture/UML图画法_image_3.png",
     "obsidian相关/Picture/UML图画法_image_1.png",
     "obsidian相关/Picture/tmp1684984203791_UML图画法_image_3.png",

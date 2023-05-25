@@ -11,8 +11,9 @@ Transformer也是将词分成5个词或多个词,然后分出5个同步的模块
 
 
 #### api ky:
-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
 ==用于obsidian==
-
+	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
 ==用于google插件==
-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
+	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
+==用于AutoGPT==
+	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
