@@ -20,15 +20,11 @@
             }
           },
           {
-            "id": "3aa1041ca1a0df50",
+            "id": "2fc55fe601ad10d3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/未归类知识点/SpringCloud Alibaba AppActive.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -61,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "vim",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,7 +102,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/未归类知识点/SpringCloud Alibaba AppActive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +118,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/未归类知识点/SpringCloud Alibaba AppActive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,9 +139,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "IT/未归类知识点/SpringCloud Alibaba AppActive.md"
-              }
+              "state": {}
             }
           },
           {
@@ -204,11 +196,18 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "3aa1041ca1a0df50",
+  "active": "2fc55fe601ad10d3",
   "lastOpenFiles": [
-    "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
-    "IT/未归类知识点/SpringCloud Alibaba AppActive.md",
     "2023-05-25.md",
+    "常用语法和算法/语言(仅需了解).md",
+    "常用语法和算法/正则表达式.md",
+    "软件(原理,部署,特点)/Linux/Linux.md",
+    "常用语法和算法/Linux语法/Linux常用语法.md",
+    "软件(原理,部署,特点)/Nginx(反向代理服务器).md",
+    "常用语法和算法/Windows快捷键.md",
+    "常用语法和算法/Linux语法/VIM命令(文本编辑器).md",
+    "IT/未归类知识点/SpringCloud Alibaba AppActive(异地容灾).md",
+    "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
     "IT/未归类知识点/短信发送SDK.md",
     "IT/未归类知识点/支付sdk(software development kit).md",
     "IT/SpringCloud/Redisson分布式锁和SpringTask.md",
@@ -221,7 +220,6 @@
     "IT/SpringCloud/Sidecar(异构微服务搭建).md",
     "obsidian相关/Picture/Sidecar(异构微服务搭建)_image_2.png",
     "obsidian相关/Picture/Sidecar(异构微服务搭建)_image_1.png",
-    "常用语法和算法/Linux语法/VIM命令(文本编辑器).md",
     "IT/SpringCloud/SpringCloud框架思想.md",
     "常用语法和算法/Linux语法/Shell脚本(命令行解释器).md",
     "obsidian相关/Picture/Shell脚本(命令行解释器)_image_7.png",
@@ -230,19 +228,13 @@
     "obsidian相关/Picture/Shell脚本(命令行解释器)_image_4.png",
     "obsidian相关/Picture/Shell脚本(命令行解释器)_image_3.png",
     "obsidian相关/Picture/Shell脚本(命令行解释器)_image_2.png",
-    "常用语法和算法/Linux语法/Linux常用语法.md",
     "obsidian相关/Picture/Shell脚本(命令行解释器)_image_1.png",
-    "软件(原理,部署,特点)/Linux/Linux.md",
-    "常用语法和算法/Windows快捷键.md",
-    "软件(原理,部署,特点)/Nginx(反向代理服务器).md",
     "obsidian相关/Picture/VIM命令_image_1.png",
     "obsidian相关/Obsidian快捷键.md",
     "常用语法和算法/Markdown语法及快捷键/markdown笔记操作方式.md",
     "学习/如果吃透一个JAVA项目.md",
     "常用语法和算法/常用算法/常用查找算法.md",
     "每日八股文.md",
-    "每日八股文(2).md",
-    "IT/常用概念.md",
     "学习/金融",
     "IT/Python",
     "IT/机器学习",
