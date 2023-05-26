@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/JAVA底层知识/内部类.md",
+                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "对象",
+                "query": "垃圾",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -97,7 +97,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -217,9 +218,10 @@
   },
   "active": "db99cf86d9b22b75",
   "lastOpenFiles": [
+    "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
     "IT/JAVA底层知识/关键字(常用).md",
-    "IT/JAVA底层知识/内部类.md",
     "每日八股文.md",
+    "IT/JAVA底层知识/内部类.md",
     "IT/反编译.md",
     "常用语法和算法/Linux语法/Shell脚本(命令行解释器).md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
@@ -248,7 +250,6 @@
     "常用语法和算法/Linux语法/VIM命令(文本编辑器).md",
     "IT/未归类知识点/SpringCloud Alibaba AppActive(异地容灾).md",
     "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
-    "IT/未归类知识点/短信发送SDK.md",
     "未命名.canvas",
     "obsidian相关/Picture/Sidecar(异构微服务搭建)_image_2.png",
     "obsidian相关/Picture/Sidecar(异构微服务搭建)_image_1.png",
