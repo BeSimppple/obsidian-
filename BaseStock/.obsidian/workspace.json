@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/MySQL/数据库优化(实际操作).md",
+                "file": "IT/MySQL/数据库概念.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "内连接",
+                "query": "数据库",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -219,8 +219,9 @@
   },
   "active": "29a2ac8e65b9ad11",
   "lastOpenFiles": [
-    "IT/MySQL/数据库优化(实际操作).md",
+    "IT/MySQL/数据库概念.md",
     "IT/MySQL/数据库优化(相关概念).md",
+    "IT/MySQL/数据库优化(实际操作).md",
     "每日八股文(2).md",
     "每日八股文.md",
     "IT/Spring/Spring事务.md",
@@ -250,7 +251,6 @@
     "常用语法和算法/正则表达式.md",
     "软件(原理,部署,特点)/Linux/Linux.md",
     "常用语法和算法/Linux语法/Linux常用语法.md",
-    "软件(原理,部署,特点)/Nginx(反向代理服务器).md",
     "未命名.canvas",
     "obsidian相关/Picture/Sidecar(异构微服务搭建)_image_2.png",
     "obsidian相关/Picture/Sidecar(异构微服务搭建)_image_1.png",
