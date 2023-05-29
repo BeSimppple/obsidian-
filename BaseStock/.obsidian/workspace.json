@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "数据库",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -98,8 +98,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -217,7 +216,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "72e97b297092ba1c",
+  "active": "7278d5866d783733",
   "lastOpenFiles": [
     "IT/MySQL/数据库概念.md",
     "IT/MySQL/数据库优化(相关概念).md",
