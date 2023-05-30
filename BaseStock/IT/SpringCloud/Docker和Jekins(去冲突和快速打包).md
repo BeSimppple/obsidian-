@@ -121,6 +121,7 @@ Kubernetes(k8s)和Docker
 	Docker 可以将运行应用所需的一切资源放入一个箱子中，这个箱子可以存储起来并在需要的时间和位置打开。
 	**K8s作用:**
 	将应用装箱后，就需要一种方法来管理它们，这就是 Kubernetes 的作用。
+	类似的还有Docker Swarm(是Docker的官方管理软件)
 
 ---
 ## Docker的容器中的数据持久化(数据卷)

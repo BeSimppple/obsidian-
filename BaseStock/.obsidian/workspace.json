@@ -188,7 +188,7 @@
             }
           },
           {
-            "id": "72e97b297092ba1c",
+            "id": "82bc7e46593f2b27",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -200,8 +200,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,7 +216,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "29a2ac8e65b9ad11",
+  "active": "82bc7e46593f2b27",
   "lastOpenFiles": [
     "每日八股文(2).md",
     "常用语法和算法/常用算法/常用排序算法.md",
