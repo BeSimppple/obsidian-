@@ -25,79 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "282c3fbd3317a35c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/Spring/Mybatis(持久层框架).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "85f489d56d1a1361",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "218f0a8d59381a9a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/SpringCloud/Sentinel(降级熔断).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fcfd23285598b609",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/SpringCloud/Gateway(网关).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "83e42040747aa432",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "df37f753fca0a45e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/SpringCloud/SpringSecurity(安全与权限).md",
+                "file": "IT/常用概念.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "MYSQL",
+                "query": "常用概念",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -179,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",
+                "file": "IT/常用概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",
+                "file": "IT/常用概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md"
+                "file": "IT/常用概念.md"
               }
             }
           },
@@ -277,11 +205,13 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "68447e7ec5dfad2f",
+  "active": "bf7e05aab86ba83a",
   "lastOpenFiles": [
+    "IT/Spring/Mybatis(持久层框架).md",
+    "IT/常用概念.md",
+    "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",
     "IT/Spring/Spring事务.md",
     "IT/Spring/Spring原理.md",
-    "IT/Spring/Mybatis(持久层框架).md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
     "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
     "IT/SpringCloud/SpringSecurity(安全与权限).md",
@@ -297,14 +227,12 @@
     "软件(原理,部署,特点)/Idea/常用配置.md",
     "软件(原理,部署,特点)/Idea/IDEA插件.md",
     "IT/多线程/多线程.md",
-    "IT/常用概念.md",
     "学习/JAVA学习.md",
     "IT/SpringCloud/Docker和Jekins(去冲突和快速打包).md",
     "每日八股文(2).md",
     "常用语法和算法/常用算法/五大常用算法思想.md",
     "常用语法和算法/常用算法/常用查找算法.md",
     "IT/MySQL/数据库概念.md",
-    "IT/MySQL/数据库优化(相关概念).md",
     "obsidian相关/Picture/UML图画法_image_3.png",
     "obsidian相关/Picture/UML图画法_image_1.png",
     "obsidian相关/Picture/tmp1684984203791_UML图画法_image_3.png",
