@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/Spring/Spring原理.md",
+                "file": "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "openai",
+                "query": "MYSQL",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -158,12 +158,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 272.50152587890625
   },
   "right": {
     "id": "19525c4e90ab0b91",
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/Spring/Spring原理.md",
+                "file": "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/Spring/Spring原理.md",
+                "file": "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/Spring/Spring原理.md"
+                "file": "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md"
               }
             }
           },
@@ -277,12 +277,13 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "bf7e05aab86ba83a",
+  "active": "68447e7ec5dfad2f",
   "lastOpenFiles": [
-    "IT/Spring/Mybatis(持久层框架).md",
-    "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
+    "IT/Spring/Spring事务.md",
     "IT/Spring/Spring原理.md",
+    "IT/Spring/Mybatis(持久层框架).md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
+    "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
     "IT/SpringCloud/SpringSecurity(安全与权限).md",
     "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
     "IT/SpringCloud/Gateway(网关).md",
@@ -304,7 +305,6 @@
     "常用语法和算法/常用算法/常用查找算法.md",
     "IT/MySQL/数据库概念.md",
     "IT/MySQL/数据库优化(相关概念).md",
-    "IT/MySQL/数据库优化(实际操作).md",
     "obsidian相关/Picture/UML图画法_image_3.png",
     "obsidian相关/Picture/UML图画法_image_1.png",
     "obsidian相关/Picture/tmp1684984203791_UML图画法_image_3.png",
