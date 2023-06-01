@@ -17,3 +17,5 @@ Transformer也是将词分成5个词或多个词,然后分出5个同步的模块
 	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
 ==用于AutoGPT==
 	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
+==用于视频总结==
+	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
