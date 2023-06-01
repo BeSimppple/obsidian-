@@ -98,7 +98,7 @@ GC优化的目：
 
 ---
 JVM插件
-	VisualVM 
+	VisualVM (可以查看当前线程运行状态)
 		作为Java VisualVM 在 Oracle JDK 6~8 中发布。它已在 Oracle JDK 9 中停用
 		在jdk的bin包下jvisualvm.exe使用可以查看当前jvm环境下线程运行数量和状态
 		[使用指南](https://www.cnblogs.com/baby123/p/11551626.html)

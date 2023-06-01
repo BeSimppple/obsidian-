@@ -8,6 +8,8 @@ IT/Spring/过滤器,拦截器,监听器.md#拦截器interceptor
 IT/Spring/过滤器,拦截器,监听器.md#监听器(Listener)
 IT/Spring/过滤器,拦截器,监听器.md#过滤器Filter
 IT/常用概念.md
+IT/机器学习/AI/OpenAI.md
+IT/机器学习/AI/OpenAI.md#api ky:
 学习/JAVA学习XIMD图.md
 常用语法和算法/常用格式(ymal,xml,property)/XML(Extensible Markup Language).md#XML和DSL的区别
 常用语法和算法/常用格式(ymal,xml,property)/XML(Extensible Markup Language).md#xml与Html的区别

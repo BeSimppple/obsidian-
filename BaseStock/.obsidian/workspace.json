@@ -20,31 +20,91 @@
             }
           },
           {
-            "id": "29a2ac8e65b9ad11",
+            "id": "bf7e05aab86ba83a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习/语言学习/英语/雅思和BEC.md",
+                "file": "IT/Spring/Spring原理.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "096f167e4c37a1a4",
+            "id": "282c3fbd3317a35c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "每日八股文.md",
+                "file": "IT/Spring/Mybatis(持久层框架).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "85f489d56d1a1361",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "218f0a8d59381a9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/SpringCloud/Sentinel(降级熔断).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fcfd23285598b609",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/SpringCloud/Gateway(网关).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "83e42040747aa432",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "df37f753fca0a45e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/SpringCloud/SpringSecurity(安全与权限).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -102,7 +162,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "19525c4e90ab0b91",
@@ -118,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "每日八股文.md",
+                "file": "IT/SpringCloud/SpringSecurity(安全与权限).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "每日八股文.md",
+                "file": "IT/SpringCloud/SpringSecurity(安全与权限).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "每日八股文.md"
+                "file": "IT/SpringCloud/SpringSecurity(安全与权限).md"
               }
             }
           },
@@ -187,7 +248,7 @@
             }
           },
           {
-            "id": "d046066108469e57",
+            "id": "884df6682fc6b9e8",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -216,12 +277,19 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "096f167e4c37a1a4",
+  "active": "df37f753fca0a45e",
   "lastOpenFiles": [
-    "IT/机器学习/AI/OpenAI.md",
+    "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
+    "IT/SpringCloud/Gateway(网关).md",
+    "IT/SpringCloud/Sentinel(降级熔断).md",
+    "IT/Spring/Mybatis(持久层框架).md",
+    "IT/Spring/Spring原理.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
-    "学习/语言学习/英语/雅思和BEC.md",
+    "IT/SpringCloud/SpringSecurity(安全与权限).md",
+    "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
     "每日八股文.md",
+    "IT/机器学习/AI/OpenAI.md",
+    "学习/语言学习/英语/雅思和BEC.md",
     "常用语法和算法/常用算法/常用排序算法.md",
     "软件(原理,部署,特点)/Idea/详解.idea文件夹作用.md",
     "IT/反编译.md",
@@ -237,13 +305,6 @@
     "IT/MySQL/数据库概念.md",
     "IT/MySQL/数据库优化(相关概念).md",
     "IT/MySQL/数据库优化(实际操作).md",
-    "IT/Spring/Spring事务.md",
-    "IT/JAVA底层知识/关键字(常用).md",
-    "IT/JAVA底层知识/内部类.md",
-    "常用语法和算法/Linux语法/Shell脚本(命令行解释器).md",
-    "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
-    "IT/Spring/JDBC(数据库连接).md",
-    "IT/JAVA底层知识/泛型和IO流.md",
     "obsidian相关/Picture/UML图画法_image_3.png",
     "obsidian相关/Picture/UML图画法_image_1.png",
     "obsidian相关/Picture/tmp1684984203791_UML图画法_image_3.png",
