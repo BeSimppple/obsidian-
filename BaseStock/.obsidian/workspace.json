@@ -187,7 +187,7 @@
             }
           },
           {
-            "id": "d961fcd357c17113",
+            "id": "d046066108469e57",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -216,7 +216,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "096f167e4c37a1a4",
+  "active": "d046066108469e57",
   "lastOpenFiles": [
     "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
     "每日八股文.md",
