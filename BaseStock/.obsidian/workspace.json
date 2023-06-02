@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/金融/1.md",
+                "file": "每日八股文.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/金融/1.md",
+                "file": "每日八股文.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/金融/1.md"
+                "file": "每日八股文.md"
               }
             }
           },
@@ -228,10 +228,10 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "1f2d00df90baa144",
+  "active": "392ce97bfb716ce7",
   "lastOpenFiles": [
-    "每日八股文.md",
     "学习/金融/1.md",
+    "每日八股文.md",
     "每日八股文(2).md",
     "未命名.md",
     "学习/金融/金融常用名词概念.md",
