@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件(原理,部署,特点)/Maven/Maven原理.md",
+                "file": "IT/未归类知识点/JIT(just-in-time compliation动态编译).md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "maven",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -98,8 +98,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -119,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/Maven/Maven原理.md",
+                "file": "IT/未归类知识点/JIT(just-in-time compliation动态编译).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/Maven/Maven原理.md",
+                "file": "IT/未归类知识点/JIT(just-in-time compliation动态编译).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/Maven/Maven原理.md"
+                "file": "IT/未归类知识点/JIT(just-in-time compliation动态编译).md"
               }
             }
           },
@@ -219,6 +218,9 @@
   },
   "active": "03b620662c9e3f54",
   "lastOpenFiles": [
+    "IT/未归类知识点/Spring AOT(应用预编译).md",
+    "IT/未归类知识点/JIT(just-in-time compliation动态编译).md",
+    "软件(原理,部署,特点)/Maven/Maven原理.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
     "学习/金融/金融常用名词概念.md",
     "学习/语言学习/英语/学习软件.md",
@@ -242,9 +244,6 @@
     "学习/语言学习/英语/雅思和BEC.md",
     "常用语法和算法/常用算法/常用排序算法.md",
     "软件(原理,部署,特点)/Idea/详解.idea文件夹作用.md",
-    "IT/反编译.md",
-    "软件(原理,部署,特点)/Idea/常用配置.md",
-    "软件(原理,部署,特点)/Idea/IDEA插件.md",
     "obsidian相关/Picture/UML图画法_image_3.png",
     "obsidian相关/Picture/UML图画法_image_1.png",
     "obsidian相关/Picture/tmp1684984203791_UML图画法_image_3.png",
