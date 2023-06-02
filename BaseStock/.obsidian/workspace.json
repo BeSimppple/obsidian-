@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "392ce97bfb716ce7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "每日八股文.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/金融/金融常用名词概念.md",
+                "file": "每日八股文.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/金融/金融常用名词概念.md",
+                "file": "每日八股文.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/金融/金融常用名词概念.md"
+                "file": "每日八股文.md"
               }
             }
           },
@@ -175,7 +187,7 @@
             }
           },
           {
-            "id": "884df6682fc6b9e8",
+            "id": "dcb1faa306b5e904",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -204,10 +216,10 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "bf7e05aab86ba83a",
+  "active": "392ce97bfb716ce7",
   "lastOpenFiles": [
-    "学习/金融/标普500指数基金.md",
     "学习/金融/金融常用名词概念.md",
+    "学习/金融/标普500指数基金.md",
     "IT/常用概念.md",
     "IT/Spring/Mybatis(持久层框架).md",
     "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",
