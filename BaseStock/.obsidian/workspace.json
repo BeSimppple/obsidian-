@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "03b620662c9e3f54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "软件(原理,部署,特点)/Maven/Maven原理.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "bf7e05aab86ba83a",
             "type": "leaf",
             "state": {
@@ -61,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "maven",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -86,7 +98,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -106,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/金融/金融常用名词概念.md",
+                "file": "软件(原理,部署,特点)/Maven/Maven原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/金融/金融常用名词概念.md",
+                "file": "软件(原理,部署,特点)/Maven/Maven原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/金融/金融常用名词概念.md"
+                "file": "软件(原理,部署,特点)/Maven/Maven原理.md"
               }
             }
           },
@@ -204,14 +217,14 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "bf7e05aab86ba83a",
+  "active": "03b620662c9e3f54",
   "lastOpenFiles": [
+    "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
+    "学习/金融/金融常用名词概念.md",
     "学习/语言学习/英语/学习软件.md",
     "学习/语言学习/英语/英语技巧.md",
-    "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
     "每日八股文(2).md",
     "每日八股文.md",
-    "学习/金融/金融常用名词概念.md",
     "学习/金融/1.md",
     "未命名.md",
     "学习/金融/标普500指数基金.md",
