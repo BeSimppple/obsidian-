@@ -90,6 +90,13 @@ MQ常用注解
 	consumeMode = ConsumeMode.CONCURRENTLY,
 	messageModel = MessageModel.CLUSTERING)
 
+| 特性       | ActiveMQ | RabbitMQ | RocketMQ(阿里) | kafka(大数据) |
+| ---------- | -------- | -------- | -------------- | ------------- |
+| 开发语言   | java     | erlang   | java           | scala         |
+| 单机吞吐量 | 万级     | 万级     | 10万级         | 10万级        |
+| 时效性     | ms级     | us级     | ms级           | ms级          |
+| 可用性     | 主从架构 | 主从架构 | 分布式架构     | 分布式架构    |
+
 ---
 ## MQ的事务消息
 ![[RocketMQ(异步同步)_image_5.jpg]]
