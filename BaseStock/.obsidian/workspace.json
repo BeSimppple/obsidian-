@@ -4,61 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "0ca49ce7c871bf5d",
-        "type": "split",
+        "id": "27214200f015a97c",
+        "type": "tabs",
         "children": [
           {
-            "id": "27214200f015a97c",
-            "type": "tabs",
-            "dimension": 43.56540084388186,
-            "children": [
-              {
-                "id": "db99cf86d9b22b75",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "IT/未归类知识点/Freemarker模板技术.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "bf7e05aab86ba83a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "学习/金融/金融常用名词概念.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+            "id": "db99cf86d9b22b75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/未归类知识点/Freemarker模板技术.md",
+                "mode": "source",
+                "source": false
               }
-            ]
+            }
           },
           {
-            "id": "dbee35ecfc82fb47",
-            "type": "tabs",
-            "dimension": 56.434599156118146,
-            "children": [
-              {
-                "id": "03b620662c9e3f54",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "每日八股文.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+            "id": "bf7e05aab86ba83a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习/金融/金融常用名词概念.md",
+                "mode": "source",
+                "source": false
               }
-            ]
+            }
+          },
+          {
+            "id": "03b620662c9e3f54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "每日八股文.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -87,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "redis",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -112,8 +98,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -233,12 +218,12 @@
   },
   "active": "03b620662c9e3f54",
   "lastOpenFiles": [
+    "每日八股文(2).md",
+    "每日八股文.md",
     "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
     "软件(原理,部署,特点)/Redis/Redis原理.md",
     "IT/SpringCloud/Redisson分布式锁和SpringTask.md",
-    "每日八股文.md",
     "IT/机器学习/AI/OpenAI.md",
-    "每日八股文(2).md",
     "IT/JAVA小知识点.md",
     "IT/未归类知识点/Freemarker模板技术.md",
     "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
