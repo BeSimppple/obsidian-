@@ -49,7 +49,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "每日八股文.md",
+                    "file": "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
                     "mode": "source",
                     "source": false
                   }
@@ -87,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "布隆",
+                "query": "redis",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "每日八股文.md",
+                "file": "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "每日八股文.md",
+                "file": "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "每日八股文.md"
+                "file": "软件(原理,部署,特点)/Redis/Redis实现各种效果.md"
               }
             }
           },
@@ -233,8 +233,11 @@
   },
   "active": "03b620662c9e3f54",
   "lastOpenFiles": [
-    "IT/机器学习/AI/OpenAI.md",
+    "软件(原理,部署,特点)/Redis/Redis原理.md",
+    "IT/SpringCloud/Redisson分布式锁和SpringTask.md",
+    "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
     "每日八股文.md",
+    "IT/机器学习/AI/OpenAI.md",
     "每日八股文(2).md",
     "IT/JAVA小知识点.md",
     "IT/未归类知识点/Freemarker模板技术.md",
@@ -257,9 +260,6 @@
     "IT/未归类知识点/JIT(just-in-time compliation动态编译).md",
     "IT/未归类知识点/Spring AOT(应用预编译).md",
     "软件(原理,部署,特点)/Maven/Maven原理.md",
-    "学习/语言学习/英语/学习软件.md",
-    "学习/语言学习/英语/英语技巧.md",
-    "学习/金融/1.md",
     "obsidian相关/Picture/UML图画法_image_3.png",
     "obsidian相关/Picture/UML图画法_image_1.png",
     "obsidian相关/Picture/tmp1684984203791_UML图画法_image_3.png",
