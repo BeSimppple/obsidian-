@@ -4,47 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "27214200f015a97c",
-        "type": "tabs",
+        "id": "0ca49ce7c871bf5d",
+        "type": "split",
         "children": [
           {
-            "id": "db99cf86d9b22b75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
-                "mode": "source",
-                "source": false
+            "id": "27214200f015a97c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "db99cf86d9b22b75",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "bf7e05aab86ba83a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "学习/金融/金融常用名词概念.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            }
+            ]
           },
           {
-            "id": "03b620662c9e3f54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/机器学习/AI/OpenAI.md",
-                "mode": "source",
-                "source": false
+            "id": "dbee35ecfc82fb47",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "03b620662c9e3f54",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "每日八股文.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            }
-          },
-          {
-            "id": "bf7e05aab86ba83a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习/金融/金融常用名词概念.md",
-                "mode": "source",
-                "source": false
-              }
-            }
+            ]
           }
         ],
-        "currentTab": 1
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -118,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/机器学习/AI/OpenAI.md",
+                "file": "每日八股文.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/机器学习/AI/OpenAI.md",
+                "file": "每日八股文.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/机器学习/AI/OpenAI.md"
+                "file": "每日八股文.md"
               }
             }
           },
@@ -218,6 +231,7 @@
   },
   "active": "03b620662c9e3f54",
   "lastOpenFiles": [
+    "IT/机器学习/AI/OpenAI.md",
     "IT/机器学习/AI/卷积和池化.md",
     "IT/机器学习/AI/ChatGPT提示语.md",
     "IT/机器学习/AI/梯度下降算法.md",
@@ -243,7 +257,6 @@
     "IT/SpringCloud/SpringSecurity(安全与权限).md",
     "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
     "IT/SpringCloud/Gateway(网关).md",
-    "IT/SpringCloud/Sentinel(降级熔断).md",
     "obsidian相关/Picture/UML图画法_image_3.png",
     "obsidian相关/Picture/UML图画法_image_1.png",
     "obsidian相关/Picture/tmp1684984203791_UML图画法_image_3.png",
