@@ -10,6 +10,7 @@
           {
             "id": "27214200f015a97c",
             "type": "tabs",
+            "dimension": 75.52742616033755,
             "children": [
               {
                 "id": "db99cf86d9b22b75",
@@ -17,7 +18,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
+                    "file": "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
                     "mode": "source",
                     "source": false
                   }
@@ -40,6 +41,7 @@
           {
             "id": "dbee35ecfc82fb47",
             "type": "tabs",
+            "dimension": 24.47257383966245,
             "children": [
               {
                 "id": "03b620662c9e3f54",
@@ -85,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "elasticsearch",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -131,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "每日八股文.md",
+                "file": "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "每日八股文.md",
+                "file": "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "每日八股文.md"
+                "file": "IT/SpringCloud/ElasticSearch(独立搜索中间件).md"
               }
             }
           },
@@ -229,8 +231,12 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "03b620662c9e3f54",
+  "active": "db99cf86d9b22b75",
   "lastOpenFiles": [
+    "IT/SpringCloud/SpringSecurity(安全与权限).md",
+    "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
+    "每日八股文.md",
+    "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
     "IT/机器学习/AI/OpenAI.md",
     "IT/机器学习/AI/卷积和池化.md",
     "IT/机器学习/AI/ChatGPT提示语.md",
@@ -239,12 +245,10 @@
     "IT/未归类知识点/JIT(just-in-time compliation动态编译).md",
     "IT/未归类知识点/Spring AOT(应用预编译).md",
     "软件(原理,部署,特点)/Maven/Maven原理.md",
-    "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
     "学习/金融/金融常用名词概念.md",
     "学习/语言学习/英语/学习软件.md",
     "学习/语言学习/英语/英语技巧.md",
     "每日八股文(2).md",
-    "每日八股文.md",
     "学习/金融/1.md",
     "未命名.md",
     "学习/金融/标普500指数基金.md",
@@ -254,8 +258,6 @@
     "IT/Spring/Spring事务.md",
     "IT/Spring/Spring原理.md",
     "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
-    "IT/SpringCloud/SpringSecurity(安全与权限).md",
-    "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
     "IT/SpringCloud/Gateway(网关).md",
     "obsidian相关/Picture/UML图画法_image_3.png",
     "obsidian相关/Picture/UML图画法_image_1.png",
