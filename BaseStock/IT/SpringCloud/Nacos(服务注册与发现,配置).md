@@ -1,4 +1,3 @@
-注册中心有:Nacos , Eureka , Consul , Zookeeper
 ![[Nacos(服务注册与发现,配置)_image_1.jpg]]
 **Nacos主要的作用,实现了什么功能?**
 	1.**解决了服务的注册与发现**
@@ -56,6 +55,10 @@ SpringCloud Alicloud ANS(Application NameService)+ACM(Application Configration M
 	ANS 使用的注册中心有两种，一种是完全免费的轻量版配置中心，主要用于开发和本地调试，一种是**云上注册中心**，ANS 依托于阿里云 EDAS(Enterprise Distributed Application Service）产品提供服务注册的功能。通常情况下，可以使用轻量版配置中心作为开发和测试环境，使用云上的 EDAS 作为灰度和生产环境。
 	与nacos一样导入springboot启动依赖,配置yaml即可在本地使用,作为云注册中心则需要添加额外yaml配置server-mode=EDAS指向EDAS并配置账号密码和地址
 	**ACM同理对比nacos-config**
+Nacos对比其他注册中心
+	![[每日八股文_image_2.png]]
+	Nacos ,Eureka , Consul , Zookeeper
+
 
 ---
 ## Nacos实现高可用(集群)
@@ -71,7 +74,7 @@ Nacos集群的一致性协议:
 	2. Nacos 每个节点是平等的都可以处理写入请求，同时把新数据同步到其他节点。
 	3.每个节点只负责部分数据，定时发送自己负责数据的校验值到其他节点来保持数据一致性。
 Nacos高可用模式
-	![[Nacos(服务注册与发现,配置)_image_5.jpg|500]]
+	![[Nacos(服务注册与发现,配置)_image_6.jpg|500]]
 	哨兵模式:一主多从
 	伪集群:一台服务器搭建多个nacos实例,通过不同端口区分,nginx代理多个nacos实例
 	生产环境需使用MySQL作为后端存储，因此需要搭建MySQL(存储nacos中的config配置文件)
@@ -97,7 +100,7 @@ Nacos高可用模式
 	1.**重复配置**(配置共享common配置解决),**配置分散**
 	2.**配置不能动态刷新(@RefreshScope)**
 	3.**无状态服务和弹性扩展**
-	![[Nacos(服务注册与发现,配置)_image_6.jpg|400]]
+	![[Nacos(服务注册与发现,配置)_image_7.jpg|400]]
 	同类型spring-cloud-config(读写太差),Apollo(不错)
 Nacos-config结合项目
 	1.依赖nacos-config的pom依赖

@@ -10,6 +10,7 @@ sentinel分两个部分:
 
 Sentiel和Hystrix对比
 	![[每日八股文_image_1.jpg]]
+	hystrix已经停止更新
 
 Sentinel整合项目:
 	1.下载sentinel控制台的jar包
