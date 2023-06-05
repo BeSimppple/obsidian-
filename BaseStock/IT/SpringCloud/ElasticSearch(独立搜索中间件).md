@@ -4,8 +4,8 @@ ElasticSearch作用:
 	3.ES能根据一句话来分词找出关键词然后定位分类,实现**倒排索引**
 简介:
 	Elasticsearch是全文检索工具,索引库独立于数据库es查询只查索引库是一个中间件
-	ElasticSearch是基于lucene实现，隐藏了Lucene的复杂性，对外提供Restful 接口来操作索引、搜索(solr同样,两种都行)
-	同类型的有Apache solr(底层也是lucene)
+	ElasticSearch是基于lucene实现，隐藏了Lucene的复杂性，对外提供Restful 接口来操作索引、搜索
+	同类型的有Apache solr(同样底层也是lucene,两种都行)
 **倒排索引(ES核心)**
 	倒排索引就是根据每个事物建立对应的词条,然后搜索是通过查询词条来匹配对应的事物,
 	正向索引是根据每个事物建立对应词条,然后搜索查询所有事物来寻找该事物是否包含指定词条
