@@ -1,5 +1,5 @@
 springcloud-gateway简介:
-	1：springcloud-gateway是第二代网关，取代zuul(对比下性能更强,且能完成转发,监控和限流)
+	1：**springcloud-gateway是第二代网关，取代zuul(对比下性能更强,且能完成转发,监控和限流,且是原生框架支持,Zuul2019 年 11 月已经停止更新)**
 	2：基於Netty、Reactor、及webflux构建(因为网关是唯一入口访问量巨大,必须用高级服务器搭建)
 	3：是微服务的统一入口
 **SpringCloud-Gateway的原理和作用**

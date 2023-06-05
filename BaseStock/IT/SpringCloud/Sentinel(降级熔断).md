@@ -9,7 +9,7 @@ sentinel分两个部分:
 	![[Sentinel(降级熔断)_image_1.jpg|600]]
 
 Sentiel和Hystrix对比
-	![[Sentinel(降级熔断)_image_2.jpg]]
+	![[每日八股文_image_1.jpg]]
 
 Sentinel整合项目:
 	1.下载sentinel控制台的jar包
