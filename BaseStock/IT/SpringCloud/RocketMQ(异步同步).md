@@ -89,6 +89,9 @@ MQ常用注解
 	topic = "test-topic4",selectorExpression = "test-tag4",
 	consumeMode = ConsumeMode.CONCURRENTLY,
 	messageModel = MessageModel.CLUSTERING)
+MQ底层协议(AMQP)
+	RabbitMQ底层实现是基于 AMQP（Advanced Message Queuing Protocol，高级消息队列协议）标准，它定义了一种通用的消息传递协议，可以用于构建异步、可靠、可扩展的分布式应用
+	RocketMQ使用的是自定义协议专门为JAVA平台进行优化
 
 | 特性       | ActiveMQ | RabbitMQ | RocketMQ(阿里) | kafka(大数据) |
 | ---------- | -------- | -------- | -------------- | ------------- |
@@ -96,6 +99,7 @@ MQ常用注解
 | 单机吞吐量 | 万级     | 万级     | 10万级         | 10万级        |
 | 时效性     | ms级     | us级     | ms级           | ms级          |
 | 可用性     | 主从架构 | 主从架构 | 分布式架构     | 分布式架构    |
+RocketMQ和RabbitMQ的主要区别是底层RocketMQ是用JAVA写的而RabbitMQ使用erlang
 
 ---
 ## MQ的事务消息
