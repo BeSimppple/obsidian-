@@ -49,7 +49,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
+                    "file": "软件(原理,部署,特点)/Redis/Redis原理.md",
                     "mode": "source",
                     "source": false
                   }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
+                "file": "软件(原理,部署,特点)/Redis/Redis原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
+                "file": "软件(原理,部署,特点)/Redis/Redis原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/Redis/Redis实现各种效果.md"
+                "file": "软件(原理,部署,特点)/Redis/Redis原理.md"
               }
             }
           },
@@ -233,9 +233,9 @@
   },
   "active": "03b620662c9e3f54",
   "lastOpenFiles": [
+    "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
     "软件(原理,部署,特点)/Redis/Redis原理.md",
     "IT/SpringCloud/Redisson分布式锁和SpringTask.md",
-    "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
     "每日八股文.md",
     "IT/机器学习/AI/OpenAI.md",
     "每日八股文(2).md",
