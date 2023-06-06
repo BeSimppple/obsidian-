@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "内连接",
+                "query": "group",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -231,6 +231,8 @@
   },
   "active": "7f62c9a21ecafcb0",
   "lastOpenFiles": [
+    "IT/MySQL/数据库优化(实际操作).md",
+    "IT/MySQL/数据库概念.md",
     "每日八股文(2).md",
     "网络工程/网络通信/OSI七层网络模型.md",
     "常用语法和算法/常用算法/常用排序算法.md",
@@ -249,7 +251,6 @@
     "IT/SpringCloud/RocketMQ(异步同步).md",
     "学习/金融/金融常用名词概念.md",
     "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
-    "IT/MySQL/数据库概念.md",
     "IT/MySQL/数据库优化(相关概念).md",
     "IT/SpringCloud/SpringSecurity(安全与权限).md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
@@ -257,7 +258,6 @@
     "IT/机器学习/AI/ChatGPT提示语.md",
     "IT/机器学习/AI/梯度下降算法.md",
     "IT/机器学习/机器学习算法.md",
-    "IT/未归类知识点/JIT(just-in-time compliation动态编译).md",
     "obsidian相关/Picture/UML图画法_image_3.png",
     "obsidian相关/Picture/UML图画法_image_1.png",
     "obsidian相关/Picture/tmp1684984203791_UML图画法_image_3.png",
