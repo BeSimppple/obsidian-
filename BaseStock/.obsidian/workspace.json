@@ -49,7 +49,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/MySQL/数据库概念.md",
+                "file": "IT/MySQL/常用关键字.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4f38339283d00402",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/MySQL/数据库优化(相关概念).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "group",
+                "query": "执行顺序",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -131,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/MySQL/数据库概念.md",
+                "file": "IT/MySQL/常用关键字.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/MySQL/数据库概念.md",
+                "file": "IT/MySQL/常用关键字.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/MySQL/数据库概念.md"
+                "file": "IT/MySQL/常用关键字.md"
               }
             }
           },
@@ -231,9 +243,20 @@
   },
   "active": "7f62c9a21ecafcb0",
   "lastOpenFiles": [
+    "IT/MySQL/数据库优化(相关概念).md",
+    "IT/MySQL/常用关键字.md",
+    "每日八股文(2).md",
+    "IT/SpringCloud/Seata(分布式事务).md",
+    "IT/SpringCloud/RocketMQ(异步同步).md",
+    "软件(原理,部署,特点)/Maven/Maven原理.md",
+    "软件(原理,部署,特点)/Linux/Linux.md",
+    "软件(原理,部署,特点)/Idea/Idea相关配置.md",
+    "常用语法和算法/正则表达式.md",
     "IT/MySQL/数据库优化(实际操作).md",
     "IT/MySQL/数据库概念.md",
-    "每日八股文(2).md",
+    "学习/金融/标普500指数基金.md",
+    "软件(原理,部署,特点)/Mysql/Mysql快捷键.md",
+    "软件(原理,部署,特点)/Mysql/SQL语法.md",
     "网络工程/网络通信/OSI七层网络模型.md",
     "常用语法和算法/常用算法/常用排序算法.md",
     "IT/JAVA底层知识/数据结构.md",
@@ -247,17 +270,6 @@
     "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
     "obsidian相关/Picture/每日八股文_image_2.png",
     "IT/SpringCloud/Sentinel(降级熔断).md",
-    "IT/SpringCloud/Gateway(网关).md",
-    "IT/SpringCloud/RocketMQ(异步同步).md",
-    "学习/金融/金融常用名词概念.md",
-    "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
-    "IT/MySQL/数据库优化(相关概念).md",
-    "IT/SpringCloud/SpringSecurity(安全与权限).md",
-    "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
-    "IT/机器学习/AI/卷积和池化.md",
-    "IT/机器学习/AI/ChatGPT提示语.md",
-    "IT/机器学习/AI/梯度下降算法.md",
-    "IT/机器学习/机器学习算法.md",
     "obsidian相关/Picture/UML图画法_image_3.png",
     "obsidian相关/Picture/UML图画法_image_1.png",
     "obsidian相关/Picture/tmp1684984203791_UML图画法_image_3.png",
