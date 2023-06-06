@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/MySQL/常用关键字.md",
+                "file": "IT/MySQL/数据库概念.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "内连接",
+                "query": "删除表",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -143,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/MySQL/常用关键字.md",
+                "file": "IT/MySQL/数据库概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/MySQL/常用关键字.md",
+                "file": "IT/MySQL/数据库概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/MySQL/常用关键字.md"
+                "file": "IT/MySQL/数据库概念.md"
               }
             }
           },
@@ -243,11 +243,11 @@
   },
   "active": "7f62c9a21ecafcb0",
   "lastOpenFiles": [
+    "IT/MySQL/常用关键字.md",
     "IT/MySQL/数据库优化(实际操作).md",
     "IT/MySQL/数据库概念.md",
     "每日八股文(2).md",
     "IT/MySQL/数据库优化(相关概念).md",
-    "IT/MySQL/常用关键字.md",
     "IT/SpringCloud/Seata(分布式事务).md",
     "IT/SpringCloud/RocketMQ(异步同步).md",
     "软件(原理,部署,特点)/Maven/Maven原理.md",
