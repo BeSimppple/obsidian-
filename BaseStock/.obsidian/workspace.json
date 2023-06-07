@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件(原理,部署,特点)/Redis/Redis原理.md",
+                "file": "IT/MySQL/Mysql关键字.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "aof",
+                "query": "关键字",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/Redis/Redis原理.md",
+                "file": "IT/MySQL/Mysql关键字.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/Redis/Redis原理.md",
+                "file": "IT/MySQL/Mysql关键字.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/Redis/Redis原理.md"
+                "file": "IT/MySQL/Mysql关键字.md"
               }
             }
           },
@@ -231,6 +231,14 @@
   },
   "active": "9907caccb5df4536",
   "lastOpenFiles": [
+    "IT/JAVA底层知识/JAVA关键字(常用).md",
+    "IT/JAVA底层知识/常用注解.md",
+    "常用语法和算法/常用算法/常用排序算法.md",
+    "常用语法和算法/常用算法/常用查找算法.md",
+    "IT/常用概念.md",
+    "IT/MySQL/Mysql关键字.md",
+    "软件(原理,部署,特点)/Mysql/Mysql快捷键.md",
+    "软件(原理,部署,特点)/Redis/Redis原理.md",
     "obsidian相关/Picture/Redis原理_image_2.png",
     "obsidian相关/Picture/Redis原理_image_3.png",
     "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
@@ -242,9 +250,7 @@
     "IT/多线程/多线程-线程安全.md",
     "IT/JAVA底层知识/泛型和IO流.md",
     "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md",
-    "IT/JAVA底层知识/关键字(常用).md",
     "IT/JAVA底层知识/反射.md",
-    "IT/JAVA底层知识/常用注解.md",
     "IT/JAVA小知识点.md",
     "IT/Spring/Servlet(服务器端小型通信).md",
     "IT/Spring/Mybatis(持久层框架).md",
@@ -253,11 +259,6 @@
     "学习/金融/金融常用名词概念.md",
     "IT/Spring/AOP(基于面动态代理).md",
     "IT/Spring/Spring原理.md",
-    "IT/Spring/Spring事务.md",
-    "软件(原理,部署,特点)/Redis/Redis原理.md",
-    "IT/MySQL/常用关键字.md",
-    "IT/MySQL/数据库优化(实际操作).md",
-    "IT/MySQL/Mysql小知识点.md",
     "obsidian相关/Picture/每日八股文_image_2.png",
     "obsidian相关/Picture/UML图画法_image_3.png",
     "obsidian相关/Picture/UML图画法_image_1.png",
@@ -268,7 +269,6 @@
     "未命名.canvas",
     "obsidian相关/Picture/Sidecar(异构微服务搭建)_image_2.png",
     "obsidian相关/Picture/Sidecar(异构微服务搭建)_image_1.png",
-    "obsidian相关/Picture/Shell脚本(命令行解释器)_image_7.png",
     "学习/金融",
     "IT/Python",
     "IT/机器学习",
