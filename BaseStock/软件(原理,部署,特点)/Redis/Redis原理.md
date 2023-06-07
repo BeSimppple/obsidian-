@@ -182,10 +182,10 @@ Redis常用命令：
 	修改applicationContext。xml的配置将sentinel哨兵信息告知主从信息告知
 **redis集群版**
 ![[Redis原理_image_3.jpg|400]]
-集群模式特点:
+**集群模式特点**:
 	1.去中心化
 	2.master之间可以通过ping-pong相互通讯
-	3.每个master都被映射到0-16384个插槽上，集群的key是根据key的hash值与插槽绑定
+	3.**每个master都被映射到0-16384个插槽上，集群的key是根据key的hash值与插槽绑定**
 	hash slot只分配给master不会给slave
 	三台服务器搭建集群:master和slave必须错开
 	保证一台服务器宕机的时候其slave的备份文件并不会一起消失(6台则无该烦恼)
