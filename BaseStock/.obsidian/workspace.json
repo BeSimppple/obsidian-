@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "每日八股文.md",
+                "file": "IT/JAVA底层知识/数据结构.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,6 +38,18 @@
               "type": "markdown",
               "state": {
                 "file": "IT/Spring/AOP(基于面动态代理).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9907caccb5df4536",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/JAVA底层知识/集合.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "aop",
+                "query": "集合",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -118,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "每日八股文.md",
+                "file": "IT/JAVA底层知识/数据结构.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "每日八股文.md",
+                "file": "IT/JAVA底层知识/数据结构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "每日八股文.md"
+                "file": "IT/JAVA底层知识/数据结构.md"
               }
             }
           },
@@ -218,9 +230,23 @@
   },
   "active": "03b620662c9e3f54",
   "lastOpenFiles": [
+    "每日八股文(2).md",
+    "每日八股文.md",
+    "IT/JAVA底层知识/集合.md",
+    "IT/多线程/多线程.md",
+    "IT/多线程/多线程-线程安全.md",
+    "IT/JAVA底层知识/泛型和IO流.md",
+    "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md",
+    "IT/JAVA底层知识/关键字(常用).md",
+    "IT/JAVA底层知识/反射.md",
+    "IT/JAVA底层知识/常用注解.md",
+    "IT/JAVA底层知识/数据结构.md",
+    "IT/JAVA小知识点.md",
+    "IT/Spring/Servlet(服务器端小型通信).md",
+    "IT/Spring/Mybatis(持久层框架).md",
+    "IT/Python/Python基础.md",
     "IT/未归类知识点/Freemarker模板技术.md",
     "学习/金融/金融常用名词概念.md",
-    "每日八股文.md",
     "IT/Spring/AOP(基于面动态代理).md",
     "IT/Spring/Spring原理.md",
     "IT/Spring/Spring事务.md",
@@ -230,20 +256,6 @@
     "IT/MySQL/Mysql小知识点.md",
     "IT/MySQL/数据库优化(相关概念).md",
     "软件(原理,部署,特点)/Mysql/Mysql快捷键.md",
-    "IT/常用概念.md",
-    "IT/MySQL/数据库概念.md",
-    "每日八股文(2).md",
-    "IT/SpringCloud/Seata(分布式事务).md",
-    "IT/SpringCloud/RocketMQ(异步同步).md",
-    "软件(原理,部署,特点)/Maven/Maven原理.md",
-    "软件(原理,部署,特点)/Linux/Linux.md",
-    "软件(原理,部署,特点)/Idea/Idea相关配置.md",
-    "常用语法和算法/正则表达式.md",
-    "学习/金融/标普500指数基金.md",
-    "软件(原理,部署,特点)/Mysql/SQL语法.md",
-    "网络工程/网络通信/OSI七层网络模型.md",
-    "常用语法和算法/常用算法/常用排序算法.md",
-    "IT/JAVA底层知识/数据结构.md",
     "obsidian相关/Picture/每日八股文_image_2.png",
     "obsidian相关/Picture/UML图画法_image_3.png",
     "obsidian相关/Picture/UML图画法_image_1.png",
