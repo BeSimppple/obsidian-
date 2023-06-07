@@ -20,7 +20,13 @@
 	2.redis还可以充当消息队列（生产者消费者队列）
 	本质是将存到数据库的内容,放到本地内存中,以此来加快加载速度减少数据库压力，面对高并发压力缓解压力
 **Redis常用的基础数据结构:**
-	1.字符串String (因为底层是C语言所以redis重新写了个SDS(simple dynamic String)来实现String的功能)
+	1.字符串String 
+		(因为底层是C语言所以redis重新写了个SDS(simple dynamic String)来实现String的功能,内部结构类似java中的arraylist)
+		Redis string 将字符串存储到字符类型的`buf[]`中，并使用 `len`、`free`对`buf[]`数组的长度和未使用的字符数进行描述
+		![[Redis原理_image_2.png|290]]
+		String 采用了预先分配冗余空间的方式来减少内存的频繁分配
+		![[Redis原理_image_3.png|350]]
+		当字符串所占空间小于 1MB 时，Redis 对字符串存储空间的扩容是以成倍的方式增加的；而当所占空间超过 1MB 时，每次扩容只增加 1MB最大512mb
 	2.字典Hash（kv键值对结构 hash可以帮助减少redis中key的数量，hash结构同时很适合存放对象）
 	3.列表List
 	4.集合Set（有set srand命令可加入数据然后实现随机取出）
@@ -77,7 +83,7 @@ Memcached和Redis比较
 	1.线程上memcached是多线程
 	2.memcached支持图文
 	3.redis支持持久化和多种数据类型
-	![[Redis原理_image_2.jpg]]
+	![[Redis原理_image_4.jpg]]
 Redis常用命令：
 	list的：lpush，lpop，lrange，llen
 	set的：sadd，spop，smembers，scard，srandmember
@@ -185,7 +191,7 @@ Redis常用命令：
 	redis哨兵模式如何集成springboot
 	修改applicationContext。xml的配置将sentinel哨兵信息告知主从信息告知
 **redis集群版**
-![[Redis原理_image_3.jpg|400]]
+![[Redis原理_image_5.jpg|400]]
 **集群模式特点**:
 	1.去中心化
 	2.master之间可以通过ping-pong相互通讯
