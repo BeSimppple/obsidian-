@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/JAVA底层知识/数据结构.md",
+                "file": "IT/MySQL/数据库概念.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "关键字",
+                "query": "数据库",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -131,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/MySQL/Mysql关键字.md",
+                "file": "IT/MySQL/数据库概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/MySQL/Mysql关键字.md",
+                "file": "IT/MySQL/数据库概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/MySQL/Mysql关键字.md"
+                "file": "IT/MySQL/数据库概念.md"
               }
             }
           },
@@ -229,21 +228,23 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "9907caccb5df4536",
+  "active": "03b620662c9e3f54",
   "lastOpenFiles": [
+    "obsidian相关/Picture/数据库概念_image_1.png",
+    "IT/JAVA底层知识/数据结构.md",
+    "IT/MySQL/Mysql小知识点.md",
+    "IT/MySQL/Mysql关键字.md",
     "IT/JAVA底层知识/JAVA关键字(常用).md",
     "IT/JAVA底层知识/常用注解.md",
     "常用语法和算法/常用算法/常用排序算法.md",
     "常用语法和算法/常用算法/常用查找算法.md",
     "IT/常用概念.md",
-    "IT/MySQL/Mysql关键字.md",
     "软件(原理,部署,特点)/Mysql/Mysql快捷键.md",
     "软件(原理,部署,特点)/Redis/Redis原理.md",
     "obsidian相关/Picture/Redis原理_image_2.png",
     "obsidian相关/Picture/Redis原理_image_3.png",
     "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
     "IT/JAVA底层知识/集合.md",
-    "IT/JAVA底层知识/数据结构.md",
     "每日八股文(2).md",
     "每日八股文.md",
     "IT/多线程/多线程.md",
@@ -257,8 +258,6 @@
     "IT/Python/Python基础.md",
     "IT/未归类知识点/Freemarker模板技术.md",
     "学习/金融/金融常用名词概念.md",
-    "IT/Spring/AOP(基于面动态代理).md",
-    "IT/Spring/Spring原理.md",
     "obsidian相关/Picture/每日八股文_image_2.png",
     "obsidian相关/Picture/UML图画法_image_3.png",
     "obsidian相关/Picture/UML图画法_image_1.png",
