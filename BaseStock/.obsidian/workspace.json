@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -130,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/MySQL/数据库概念.md",
+                "file": "IT/MySQL/Mysql关键字.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/MySQL/数据库概念.md",
+                "file": "IT/MySQL/Mysql关键字.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/MySQL/数据库概念.md"
+                "file": "IT/MySQL/Mysql关键字.md"
               }
             }
           },
@@ -228,8 +229,9 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "03b620662c9e3f54",
+  "active": "9907caccb5df4536",
   "lastOpenFiles": [
+    "IT/MySQL/数据库概念.md",
     "obsidian相关/Picture/数据库概念_image_1.png",
     "obsidian相关/Picture/数据库概念_image_2.png",
     "IT/JAVA底层知识/数据结构.md",
@@ -267,7 +269,6 @@
     "obsidian相关/Picture/UML图画法_image_2.png",
     "学习/日记",
     "未命名.canvas",
-    "obsidian相关/Picture/Sidecar(异构微服务搭建)_image_2.png",
     "学习/金融",
     "IT/Python",
     "IT/机器学习",

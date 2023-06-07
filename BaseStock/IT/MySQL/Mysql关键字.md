@@ -23,7 +23,9 @@
 	几个选择关键条件(表大小,索引,链接条件)
 distinct
 	去重
-
+UCASE/LCASE
+	大写/小写  字段中的值
+	例子:SELECT LCASE(name) AS names FROM user;
 ## 函数:
 **sleep和benchmark**
 	用来延时执行语句
