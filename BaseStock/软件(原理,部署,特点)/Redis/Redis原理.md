@@ -26,9 +26,11 @@
 	4.集合Set（有set srand命令可加入数据然后实现随机取出）
 	5.有序集合SortedSet(Zset)（通过score进行排序每个key都会设置一个sroce分数该结构适合分页过滤排序）
 	6.HyperLogLog
-	7.Geo
+	7.Geo(地理位置)
 	8.Pub / Sub
 	9.Redis Module(自定义数据类型)
+	10.stream(流)
+	11.bitmap(位图)
 **redis底层结构**
 	底层就是Hash表的格式,将数据一个个存入hash表中
 	当一个hash值的数据成链表过多的时候
