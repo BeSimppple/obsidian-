@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/JAVA底层知识/集合.md",
+                "file": "软件(原理,部署,特点)/Redis/Redis原理.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "集合",
+                "query": "aof",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/JAVA底层知识/集合.md",
+                "file": "软件(原理,部署,特点)/Redis/Redis原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/JAVA底层知识/集合.md",
+                "file": "软件(原理,部署,特点)/Redis/Redis原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/JAVA底层知识/集合.md"
+                "file": "软件(原理,部署,特点)/Redis/Redis原理.md"
               }
             }
           },
@@ -231,10 +231,11 @@
   },
   "active": "9907caccb5df4536",
   "lastOpenFiles": [
+    "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
+    "IT/JAVA底层知识/集合.md",
     "IT/JAVA底层知识/数据结构.md",
     "每日八股文(2).md",
     "每日八股文.md",
-    "IT/JAVA底层知识/集合.md",
     "IT/多线程/多线程.md",
     "IT/多线程/多线程-线程安全.md",
     "IT/JAVA底层知识/泛型和IO流.md",
@@ -256,7 +257,6 @@
     "IT/MySQL/数据库优化(实际操作).md",
     "IT/MySQL/Mysql小知识点.md",
     "IT/MySQL/数据库优化(相关概念).md",
-    "软件(原理,部署,特点)/Mysql/Mysql快捷键.md",
     "obsidian相关/Picture/每日八股文_image_2.png",
     "obsidian相关/Picture/UML图画法_image_3.png",
     "obsidian相关/Picture/UML图画法_image_1.png",
