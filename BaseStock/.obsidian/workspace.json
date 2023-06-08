@@ -42,8 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ef76a2acb1d9a886",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "常用语法和算法/常用算法/常用排序算法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -72,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "堆",
+                "query": "直接选择",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -97,7 +110,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -117,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法和算法/常用算法/概念/广度优先和深度优先.md",
+                "file": "常用语法和算法/常用算法/常用排序算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法和算法/常用算法/概念/广度优先和深度优先.md",
+                "file": "常用语法和算法/常用算法/常用排序算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法和算法/常用算法/概念/广度优先和深度优先.md"
+                "file": "常用语法和算法/常用算法/常用排序算法.md"
               }
             }
           },
@@ -215,10 +229,10 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "7f62c9a21ecafcb0",
+  "active": "ef76a2acb1d9a886",
   "lastOpenFiles": [
-    "常用语法和算法/常用算法/常用排序算法.md",
     "常用语法和算法/常用算法/概念/广度优先和深度优先.md",
+    "常用语法和算法/常用算法/常用排序算法.md",
     "IT/常用概念.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
     "IT/MySQL/数据库优化(相关概念).md",
