@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/MySQL/Mysql小知识点.md",
+                "file": "IT/MySQL/数据库优化(相关概念).md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "金融",
+                "query": "索引失效",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/MySQL/Mysql小知识点.md",
+                "file": "IT/MySQL/数据库优化(相关概念).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/MySQL/Mysql小知识点.md",
+                "file": "IT/MySQL/数据库优化(相关概念).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/MySQL/Mysql小知识点.md"
+                "file": "IT/MySQL/数据库优化(相关概念).md"
               }
             }
           },
@@ -218,8 +218,8 @@
   },
   "active": "7f62c9a21ecafcb0",
   "lastOpenFiles": [
-    "学习/金融/金融常用名词概念.md",
     "IT/MySQL/Mysql小知识点.md",
+    "学习/金融/金融常用名词概念.md",
     "IT/Spring/AOP(基于面动态代理).md",
     "IT/MySQL/Mysql关键字.md",
     "IT/MySQL/数据库优化(相关概念).md",
