@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/金融/标普500指数基金.md",
+                "file": "IT/MySQL/数据库优化(相关概念).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/金融/标普500指数基金.md",
+                "file": "IT/MySQL/数据库优化(相关概念).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/金融/标普500指数基金.md"
+                "file": "IT/MySQL/数据库优化(相关概念).md"
               }
             }
           },
@@ -217,13 +216,14 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "b2a30f5e1f5af8de",
+  "active": "7f62c9a21ecafcb0",
   "lastOpenFiles": [
+    "IT/MySQL/Mysql关键字.md",
+    "学习/金融/标普500指数基金.md",
     "学习/金融/金融常用名词概念.md",
     "IT/MySQL/数据库优化(相关概念).md",
     "IT/MySQL/Mysql小知识点.md",
     "IT/Spring/AOP(基于面动态代理).md",
-    "IT/MySQL/Mysql关键字.md",
     "IT/JAVA底层知识/数据结构.md",
     "obsidian相关/Picture/tmp1683523256117_每日八股文(2)_image_2.png",
     "obsidian相关/Picture/tmp1683530470900_常用算法_image_2.png",
@@ -254,7 +254,6 @@
     "IT/JAVA底层知识/反射.md",
     "IT/JAVA小知识点.md",
     "IT/Spring/Servlet(服务器端小型通信).md",
-    "IT/Spring/Mybatis(持久层框架).md",
     "学习/日记",
     "未命名.canvas",
     "学习/金融",
