@@ -200,7 +200,7 @@
             }
           },
           {
-            "id": "73c280f9e2c63d5a",
+            "id": "26b7373ff4f1ce86",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -229,7 +229,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "ef76a2acb1d9a886",
+  "active": "26b7373ff4f1ce86",
   "lastOpenFiles": [
     "常用语法和算法/常用算法/概念/广度优先和深度优先.md",
     "常用语法和算法/常用算法/常用排序算法.md",
