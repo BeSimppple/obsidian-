@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -129,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法和算法/常用算法/概念/广度优先和深度优先.md",
+                "file": "常用语法和算法/常用算法/常用排序算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法和算法/常用算法/概念/广度优先和深度优先.md",
+                "file": "常用语法和算法/常用算法/常用排序算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法和算法/常用算法/概念/广度优先和深度优先.md"
+                "file": "常用语法和算法/常用算法/常用排序算法.md"
               }
             }
           },
@@ -227,8 +228,9 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "7f62c9a21ecafcb0",
+  "active": "d68ea64b2dda0de6",
   "lastOpenFiles": [
+    "常用语法和算法/常用算法/概念/广度优先和深度优先.md",
     "obsidian相关/Picture/广度优先和深度优先_image_2.png",
     "obsidian相关/Picture/广度优先和深度优先_image_1.gif",
     "IT/JAVA底层知识/数据结构.md",
@@ -240,8 +242,6 @@
     "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
     "obsidian相关/Picture/tmp1683789969481_Sleuth+Zipkin(链路监控)_image_5.jpg",
     "obsidian相关/Picture/tmp1684983748281_UML图画法_image_2.png",
-    "obsidian相关/Picture/tmp1684984203791_UML图画法_image_3.png",
-    "常用语法和算法/常用算法/概念/广度优先和深度优先.md",
     "常用语法和算法/常用算法/常用排序算法.md",
     "IT/MySQL/Mysql关键字.md",
     "学习/金融/标普500指数基金.md",
