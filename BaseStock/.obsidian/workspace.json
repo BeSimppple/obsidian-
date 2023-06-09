@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,8 +109,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -131,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法和算法/常用算法/常用排序算法.md",
+                "file": "常用语法和算法/常用算法/概念/广度优先和深度优先.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法和算法/常用算法/常用排序算法.md",
+                "file": "常用语法和算法/常用算法/概念/广度优先和深度优先.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法和算法/常用算法/常用排序算法.md"
+                "file": "常用语法和算法/常用算法/概念/广度优先和深度优先.md"
               }
             }
           },
@@ -229,12 +227,22 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "d68ea64b2dda0de6",
+  "active": "7f62c9a21ecafcb0",
   "lastOpenFiles": [
-    "obsidian相关/Picture/常用排序算法_image_2.png",
+    "obsidian相关/Picture/广度优先和深度优先_image_2.png",
+    "obsidian相关/Picture/广度优先和深度优先_image_1.gif",
     "IT/JAVA底层知识/数据结构.md",
-    "常用语法和算法/常用算法/常用排序算法.md",
+    "obsidian相关/Picture/tmp1683530470900_常用算法_image_2.png",
+    "obsidian相关/Picture/广度优先和深度优先_image_1.gif",
+    "obsidian相关/Picture/广度优先和深度优先_image_1.png",
+    "obsidian相关/Picture/tmp1683523256117_每日八股文(2)_image_2.png",
+    "obsidian相关/Picture/tmp1683530947739_常用算法_image_2.png",
+    "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
+    "obsidian相关/Picture/tmp1683789969481_Sleuth+Zipkin(链路监控)_image_5.jpg",
+    "obsidian相关/Picture/tmp1684983748281_UML图画法_image_2.png",
+    "obsidian相关/Picture/tmp1684984203791_UML图画法_image_3.png",
     "常用语法和算法/常用算法/概念/广度优先和深度优先.md",
+    "常用语法和算法/常用算法/常用排序算法.md",
     "IT/MySQL/Mysql关键字.md",
     "学习/金融/标普500指数基金.md",
     "常用语法和算法/常用算法/常用查找算法.md",
@@ -244,17 +252,7 @@
     "学习/金融/金融常用名词概念.md",
     "IT/MySQL/Mysql小知识点.md",
     "IT/Spring/AOP(基于面动态代理).md",
-    "obsidian相关/Picture/tmp1683523256117_每日八股文(2)_image_2.png",
-    "obsidian相关/Picture/tmp1683530470900_常用算法_image_2.png",
-    "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
-    "obsidian相关/Picture/tmp1683789969481_Sleuth+Zipkin(链路监控)_image_5.jpg",
-    "obsidian相关/Picture/tmp1684983748281_UML图画法_image_2.png",
-    "obsidian相关/Picture/tmp1684984203791_UML图画法_image_3.png",
-    "obsidian相关/Picture/数据结构_image_2.jpg",
-    "obsidian相关/Picture/数据结构_image_1.png",
     "IT/MySQL/数据库概念.md",
-    "obsidian相关/Picture/数据库概念_image_3.png",
-    "obsidian相关/Picture/数据库概念_image_1.png",
     "IT/JAVA底层知识/JAVA关键字(常用).md",
     "IT/JAVA底层知识/常用注解.md",
     "软件(原理,部署,特点)/Mysql/Mysql快捷键.md",
