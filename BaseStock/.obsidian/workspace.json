@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/JAVA底层知识/数据类型.md",
+                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "补码",
+                "query": "eden",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/JAVA底层知识/数据类型.md",
+                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/JAVA底层知识/数据类型.md",
+                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/JAVA底层知识/数据类型.md"
+                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md"
               }
             }
           },
@@ -231,8 +231,8 @@
   },
   "active": "6e0a7a190e7bed98",
   "lastOpenFiles": [
-    "IT/常用概念.md",
     "IT/JAVA底层知识/数据类型.md",
+    "IT/常用概念.md",
     "IT/JAVA底层知识/常用注解.md",
     "IT/JAVA底层知识/反射.md",
     "IT/JAVA底层知识/泛型和IO流.md",
