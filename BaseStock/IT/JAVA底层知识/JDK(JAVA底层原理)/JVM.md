@@ -52,6 +52,7 @@ JVM区域划分参数设置
 	-XX:MaxPermSize：64M ， 就是说设置持久代最大值为64M   
 	-XX:+UseConcMarkSweepGC ， 就是说使用使用CMS内存收集算法   
 	-XX:SurvivorRatio=3 ， 就是说Eden区与Survivor区的大小比值为3：1：1
+	eden区=可以根据比例 500M*(3/(3+1+1))为300M
 OOM(out of memory内存溢出)
 	栈溢出:递归不结算
 	堆溢出: 强引用不释放  或  生成对象过多
