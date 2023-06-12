@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
+                "file": "IT/JAVA底层知识/数据类型.md",
                 "mode": "source",
                 "source": false
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
+                "file": "IT/JAVA底层知识/数据类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
+                "file": "IT/JAVA底层知识/数据类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md"
+                "file": "IT/JAVA底层知识/数据类型.md"
               }
             }
           },
@@ -231,8 +231,9 @@
   },
   "active": "6e0a7a190e7bed98",
   "lastOpenFiles": [
-    "IT/JAVA底层知识/数据类型.md",
+    "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
     "IT/常用概念.md",
+    "IT/JAVA底层知识/数据类型.md",
     "IT/JAVA底层知识/常用注解.md",
     "IT/JAVA底层知识/反射.md",
     "IT/JAVA底层知识/泛型和IO流.md",
@@ -262,7 +263,6 @@
     "obsidian相关/Picture/tmp1683789969481_Sleuth+Zipkin(链路监控)_image_5.jpg",
     "IT/MySQL/Mysql关键字.md",
     "常用语法和算法/常用算法/常用查找算法.md",
-    "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
     "IT/MySQL/数据库优化(相关概念).md",
     "学习/金融/金融常用名词概念.md",
     "IT/MySQL/Mysql小知识点.md",
