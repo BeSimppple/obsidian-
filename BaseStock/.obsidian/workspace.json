@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/学习方法.md",
+                "file": "学习/金融/标普500指数基金.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/学习方法.md",
+                "file": "学习/金融/标普500指数基金.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/学习方法.md"
+                "file": "学习/金融/标普500指数基金.md"
               }
             }
           },
@@ -228,8 +228,9 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "6e0a7a190e7bed98",
+  "active": "b2a30f5e1f5af8de",
   "lastOpenFiles": [
+    "学习/学习方法.md",
     "IT/JAVA底层知识/数据类型.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
     "IT/常用概念.md",
@@ -265,7 +266,6 @@
     "IT/MySQL/数据库优化(相关概念).md",
     "学习/金融/金融常用名词概念.md",
     "IT/MySQL/Mysql小知识点.md",
-    "IT/Spring/AOP(基于面动态代理).md",
     "学习/日记",
     "未命名.canvas",
     "学习/金融",
