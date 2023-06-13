@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md",
+                "file": "IT/设计模式/单例设计模式.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "++",
+                "query": "枚举",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -110,7 +110,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -130,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md",
+                "file": "IT/设计模式/单例设计模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md",
+                "file": "IT/设计模式/单例设计模式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md"
+                "file": "IT/设计模式/单例设计模式.md"
               }
             }
           },
@@ -230,6 +231,8 @@
   },
   "active": "7f2ef81e2332cbe3",
   "lastOpenFiles": [
+    "IT/JAVA底层知识/常用注解.md",
+    "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md",
     "IT/Python/Python基础.md",
     "软件(原理,部署,特点)/Redis/Redis原理.md",
     "软件(原理,部署,特点)/Nginx(反向代理服务器).md",
@@ -247,9 +250,7 @@
     "学习/学习方法.md",
     "IT/JAVA底层知识/数据类型.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
-    "IT/JAVA底层知识/常用注解.md",
     "IT/JAVA底层知识/泛型和IO流.md",
-    "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md",
     "IT/JAVA底层知识/集合.md",
     "IT/JAVA底层知识/数据结构.md",
     "IT/JAVA底层知识/内部类.md",
