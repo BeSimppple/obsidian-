@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/JAVA底层知识/集合.md",
+                "file": "每日八股文.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "集合",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -110,8 +110,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -131,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/JAVA底层知识/集合.md",
+                "file": "每日八股文.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/JAVA底层知识/集合.md",
+                "file": "每日八股文.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/JAVA底层知识/集合.md"
+                "file": "每日八股文.md"
               }
             }
           },
@@ -229,8 +228,9 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "7f2ef81e2332cbe3",
+  "active": "7278d5866d783733",
   "lastOpenFiles": [
+    "IT/JAVA底层知识/集合.md",
     "IT/多线程/多线程.md",
     "IT/JAVA底层知识/序列化.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
@@ -241,7 +241,6 @@
     "IT/JAVA底层知识/数据类型.md",
     "IT/JAVA底层知识/数据结构.md",
     "IT/JAVA底层知识/内部类.md",
-    "IT/JAVA底层知识/集合.md",
     "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md",
     "IT/JAVA底层知识/泛型和IO流.md",
     "IT/JAVA底层知识/常用注解.md",
