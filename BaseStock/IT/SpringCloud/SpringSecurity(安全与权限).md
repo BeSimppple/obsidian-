@@ -5,6 +5,7 @@ SpringSecurity(安全框架)
 	1.**认证**和**授权**功能并且**模块化(集成简单)**
 	2.@hasAnyAuthority(XXX)方法级别权限注解(**细粒度高**)
 	3.web站点的XXS(跨站点脚本)和CRSF(跨站点请求伪造)**攻击防护**以及头部管理和会话管理
+		后端向前端发送
 **SpringSecurity本质(过滤器链)**
 	[SpringSecurity-W3C讲解](https://www.w3cschool.cn/springsecurity/ted11ii1.html)
 	过滤器三个方法:init(),destory(),doFilter()
