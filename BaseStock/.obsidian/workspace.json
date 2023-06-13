@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/多线程/多线程.md",
+                "file": "IT/JAVA底层知识/集合.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "创建线程",
+                "query": "集合",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/多线程/多线程.md",
+                "file": "IT/JAVA底层知识/集合.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/多线程/多线程.md",
+                "file": "IT/JAVA底层知识/集合.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/多线程/多线程.md"
+                "file": "IT/JAVA底层知识/集合.md"
               }
             }
           },
@@ -231,6 +231,7 @@
   },
   "active": "7f2ef81e2332cbe3",
   "lastOpenFiles": [
+    "IT/多线程/多线程.md",
     "IT/JAVA底层知识/序列化.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/类加载器和双亲委派.md",
@@ -252,7 +253,6 @@
     "IT/Spring/Spring原理.md",
     "IT/Spring/Mybatis(持久层框架).md",
     "IT/SpringCloud/Logstash(实时传输管道).md",
-    "IT/多线程/多线程.md",
     "IT/SpringCloud/SpringSecurity(安全与权限).md",
     "IT/设计模式/单例设计模式.md",
     "IT/Python/Python基础.md",
