@@ -26,7 +26,13 @@ distinct
 UCASE/LCASE
 	大写/小写  字段中的值
 	例子:SELECT LCASE(name) AS names FROM user;
+
 ## 函数:
 **sleep和benchmark**
 	用来延时执行语句
 	例如:sleep(5)   benchmark(100000000,md5(1))
+len(字段)
+	**作用**:字符长度
+	不存在  显示0
+	存在则  显示长度   范围从(1-len)
+	
