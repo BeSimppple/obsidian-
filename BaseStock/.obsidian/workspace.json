@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/MySQL/Mysql关键字.md",
+                "file": "软件(原理,部署,特点)/Mysql/SQL语法.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sql关键字",
+                "query": "sql",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/MySQL/Mysql关键字.md",
+                "file": "软件(原理,部署,特点)/Mysql/SQL语法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/MySQL/Mysql关键字.md",
+                "file": "软件(原理,部署,特点)/Mysql/SQL语法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/MySQL/Mysql关键字.md"
+                "file": "软件(原理,部署,特点)/Mysql/SQL语法.md"
               }
             }
           },
@@ -231,6 +231,7 @@
   },
   "active": "7f2ef81e2332cbe3",
   "lastOpenFiles": [
+    "IT/MySQL/Mysql关键字.md",
     "每日八股文(2).md",
     "IT/JAVA底层知识/数据结构.md",
     "学习/金融/金融常用名词概念.md",
@@ -256,7 +257,6 @@
     "软件(原理,部署,特点)/Idea/常用配置.md",
     "IT/SpringBoot/SpringBoot.md",
     "IT/Spring/Spring原理.md",
-    "IT/Spring/Mybatis(持久层框架).md",
     "obsidian相关/Picture/数据结构_image_4.png",
     "obsidian相关/Picture/广度优先和深度优先_image_2.png",
     "obsidian相关/Picture/广度优先和深度优先_image_1.gif",
