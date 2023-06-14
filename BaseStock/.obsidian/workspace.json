@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9819fc14c64b6d9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "常用语法和算法/Markdown语法/基础语法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -85,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "金融",
+                "query": "语法",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -110,7 +122,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -130,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/金融/金融常用名词概念.md",
+                "file": "学习/金融/金融基本概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/金融/金融常用名词概念.md",
+                "file": "学习/金融/金融基本概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/金融/金融常用名词概念.md"
+                "file": "学习/金融/金融基本概念.md"
               }
             }
           },
@@ -228,13 +241,14 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "6e0a7a190e7bed98",
+  "active": "7f2ef81e2332cbe3",
   "lastOpenFiles": [
+    "常用语法和算法/Markdown语法/基础语法.md",
+    "学习/金融/金融基本概念.md",
+    "学习/金融/金融常用名词概念.md",
     "学习/金融/标普500指数基金.md",
     "学习/学习方法.md",
     "学习/金融/金融相关法律.md",
-    "学习/金融/金融常用名词概念.md",
-    "学习/金融/金融基本概念.md",
     "学习/金融/1.md",
     "软件(原理,部署,特点)/Mysql/SQL语法.md",
     "IT/MySQL/Mysql关键字.md",
@@ -255,7 +269,6 @@
     "IT/JAVA底层知识/数据类型.md",
     "IT/JAVA底层知识/内部类.md",
     "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md",
-    "IT/JAVA底层知识/泛型和IO流.md",
     "obsidian相关/Picture/数据结构_image_4.png",
     "obsidian相关/Picture/广度优先和深度优先_image_2.png",
     "obsidian相关/Picture/广度优先和深度优先_image_1.gif",
