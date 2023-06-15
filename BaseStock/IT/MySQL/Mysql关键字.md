@@ -28,11 +28,12 @@ UCASE/LCASE
 	例子:SELECT LCASE(name) AS names FROM user;
 grand
 	授权语句
+	grant 权利1,权利2...  on 数据库.* to '用户名'@'%'
+	-
 	GRANT privilege [, ...] ON object [, ...]  
 	TO { PUBLIC | GROUP group | username }
-	赋值对象:table  
-view  
-sequence
+	**赋值对象**:table  view  sequence
+	**返回值**:change代表成功error代表失败
 	**所有权限**：  
 		SELECT  
 		访问声明的表/视图的所有列/字段．  
