@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/Python/基础函数等.md",
+                "file": "IT/MySQL/Mysql关键字.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习/金融/金融基本概念.md",
+                "file": "IT/MySQL/数据库概念.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sql",
+                "query": "sql触发",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/Python/基础函数等.md",
+                "file": "IT/MySQL/Mysql关键字.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/Python/基础函数等.md",
+                "file": "IT/MySQL/Mysql关键字.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/Python/基础函数等.md"
+                "file": "IT/MySQL/Mysql关键字.md"
               }
             }
           },
@@ -231,32 +231,32 @@
   },
   "active": "b2a30f5e1f5af8de",
   "lastOpenFiles": [
+    "IT/MySQL/数据库概念.md",
+    "学习/金融/金融基本概念.md",
+    "IT/MySQL/Mysql关键字.md",
+    "软件(原理,部署,特点)/Mysql/SQL语法.md",
+    "IT/SpringCloud/SpringSecurity(安全与权限).md",
+    "软件(原理,部署,特点)/Nginx(反向代理服务器).md",
+    "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
+    "软件(原理,部署,特点)/Mysql/Mysql快捷键.md",
+    "IT/Spring/Mybatis(持久层框架).md",
+    "IT/Spring/JDBC(数据库连接).md",
+    "软件(原理,部署,特点)/Linux/Linux.md",
+    "软件(原理,部署,特点)/Idea/IDEA插件.md",
+    "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
+    "IT/SpringCloud/Docker和Jekins(去冲突和快速打包).md",
+    "软件(原理,部署,特点)/项目部署/所需软件.md",
+    "IT/MySQL/数据库优化(相关概念).md",
+    "IT/MySQL/数据库优化(实际操作).md",
+    "IT/Python/Python基础函数等.md",
     "网络工程/计算机硬件系统/机器语言(1代到5代).md",
     "IT/JAVA底层知识/反射.md",
     "网络工程/网络通信/基础知识/常见网络参数解释.md",
     "IT/常用概念.md",
     "软件(原理,部署,特点)/Idea/常用配置.md",
-    "软件(原理,部署,特点)/Mysql/Mysql快捷键.md",
     "IT/MySQL/Mysql小知识点.md",
-    "IT/MySQL/Mysql关键字.md",
-    "软件(原理,部署,特点)/Mysql/SQL语法.md",
     "学习/金融/金融相关法律.md",
-    "学习/金融/金融基本概念.md",
     "常用语法和算法/Markdown语法/基础语法.md",
-    "学习/金融/金融常用名词概念.md",
-    "学习/金融/标普500指数基金.md",
-    "学习/学习方法.md",
-    "学习/金融/1.md",
-    "每日八股文(2).md",
-    "IT/JAVA底层知识/数据结构.md",
-    "常用语法和算法/常用算法/常用查找算法.md",
-    "常用语法和算法/常用算法/常用排序算法.md",
-    "常用语法和算法/常用算法/概念/广度优先和深度优先.md",
-    "每日八股文.md",
-    "IT/JAVA底层知识/集合.md",
-    "IT/多线程/多线程.md",
-    "IT/JAVA底层知识/序列化.md",
-    "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
     "obsidian相关/Picture/数据结构_image_4.png",
     "obsidian相关/Picture/广度优先和深度优先_image_2.png",
     "obsidian相关/Picture/广度优先和深度优先_image_1.gif",

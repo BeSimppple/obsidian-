@@ -26,13 +26,36 @@ distinct
 UCASE/LCASE
 	大写/小写  字段中的值
 	例子:SELECT LCASE(name) AS names FROM user;
-
-## 函数:
-**sleep和benchmark**
+grand
+	授权语句
+	GRANT privilege [, ...] ON object [, ...]  
+	TO { PUBLIC | GROUP group | username }
+	赋值对象:table  
+view  
+sequence
+	**所有权限**：  
+		SELECT  
+		访问声明的表/视图的所有列/字段．  
+		INSERT  
+		向声明的表中插入所有列字段．  
+		UPDATE  
+		更新声明的表所有列/字段．  
+		DELETE  
+		从声明的表中删除所有行．  
+		RULE  
+		在表/视图上定义规则 （参见 CREATE RULE 语句）．  
+		ALL  
+		赋予所有权限．  
+		object
+## sql函数:
+**sleep()和benchmark()**
 	用来延时执行语句
 	例如:sleep(5)   benchmark(100000000,md5(1))
 len(字段)
 	**作用**:字符长度
 	不存在  显示0
 	存在则  显示长度   范围从(1-len)
-	
+stuff()
+	**作用**: 删除指定位置字符并在指定位置加入字符
+	STUFF ( 原字符 , 开始下标 , 删除字符数 , 新增字符 )
+	例子: select stuff('lo ina',3, 1, 've ch')  返回love china
