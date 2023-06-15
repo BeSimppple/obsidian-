@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "归并排序",
+                "query": "插入排序",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
