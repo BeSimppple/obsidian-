@@ -68,6 +68,15 @@ stuff()
 	例子: select stuff('lo ina',3, 1, 've ch')  返回love china
 窗函数
 	在SQL中，窗函数(window function)或分析函数(analytic function)**是一个函数，它使用来自一行或多行的值来为每一行返回一个值**。 与之形成对比，聚合函数为多行返回单个值。 窗口函数有一个 OVER 子句；任何没有 OVER 子句的函数都不是窗口函数，而是聚合函数或单行（标量）函数。
+	**over函数**
+		over()函数中包括三个函数：分区partition by 列名、排序order by 列名、指定窗口范围rows between 开始位置 and 结束位置
+			partition by可理解为group by 分组
+			rows between 是指定窗口范围，比如第一行到当前行。而这个范围是随着数据变化的
+		例子:
+			SELECT shirt_name, shirt_type, shirt_price，
+			RANK() OVER (PARTITION BY shirt _type ORDER BY shirt_price) AS ranking
+			FROM SHIRTABLE
+			效果:  衬衫表SHIRTABLE，根据不同的衬衫种类shirt_type，按照销售单价shirt_price从低到高的顺序创建排序表
 
 
 
