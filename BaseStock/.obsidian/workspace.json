@@ -8,55 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7f62c9a21ecafcb0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "常用语法和算法/常用算法/概念/广度优先和深度优先.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6e0a7a190e7bed98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习/金融/金融常用名词概念.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b2a30f5e1f5af8de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用语法和算法/常用算法/概念/时间复杂度和空间复杂度.md",
+                "file": "常用语法和算法/常用算法/常用排序算法.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7f2ef81e2332cbe3",
+            "id": "203bca121752b890",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/MySQL/数据库概念.md",
+                "file": "常用语法和算法/常用算法/常用排序算法.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "时间复杂",
+                "query": "归并排序",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -131,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法和算法/常用算法/概念/时间复杂度和空间复杂度.md",
+                "file": "常用语法和算法/常用算法/常用排序算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法和算法/常用算法/概念/时间复杂度和空间复杂度.md",
+                "file": "常用语法和算法/常用算法/常用排序算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法和算法/常用算法/概念/时间复杂度和空间复杂度.md"
+                "file": "常用语法和算法/常用算法/常用排序算法.md"
               }
             }
           },
@@ -231,10 +206,14 @@
   },
   "active": "b2a30f5e1f5af8de",
   "lastOpenFiles": [
+    "常用语法和算法/常用算法/概念/时间复杂度和空间复杂度.md",
     "常用语法和算法/常用算法/常用排序算法.md",
+    "常用语法和算法/常用算法/常用查找算法.md",
+    "常用语法和算法/常用算法/概念/广度优先和深度优先.md",
+    "学习/金融/金融常用名词概念.md",
+    "IT/MySQL/数据库概念.md",
     "IT/MySQL/Mysql关键字.md",
     "obsidian相关/Picture/Mysql关键字_image_1.png",
-    "IT/MySQL/数据库概念.md",
     "学习/金融/金融基本概念.md",
     "软件(原理,部署,特点)/Mysql/SQL语法.md",
     "IT/SpringCloud/SpringSecurity(安全与权限).md",
@@ -254,10 +233,6 @@
     "网络工程/计算机硬件系统/机器语言(1代到5代).md",
     "IT/JAVA底层知识/反射.md",
     "网络工程/网络通信/基础知识/常见网络参数解释.md",
-    "IT/常用概念.md",
-    "软件(原理,部署,特点)/Idea/常用配置.md",
-    "IT/MySQL/Mysql小知识点.md",
-    "学习/金融/金融相关法律.md",
     "obsidian相关/Picture/数据结构_image_4.png",
     "obsidian相关/Picture/广度优先和深度优先_image_2.png",
     "obsidian相关/Picture/广度优先和深度优先_image_1.gif",
