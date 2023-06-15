@@ -13,8 +13,3 @@ SHIFT+END选中直到行尾
 
 
 
-
-
-
-
-#mysql

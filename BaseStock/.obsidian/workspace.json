@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习/金融/金融相关法律.md",
+                "file": "IT/Python/基础函数等.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "语法",
+                "query": "sql",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/金融/金融相关法律.md",
+                "file": "IT/Python/基础函数等.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/金融/金融相关法律.md",
+                "file": "IT/Python/基础函数等.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/金融/金融相关法律.md"
+                "file": "IT/Python/基础函数等.md"
               }
             }
           },
@@ -200,7 +200,7 @@
             }
           },
           {
-            "id": "186dc5b31c2055f9",
+            "id": "02ffa189610fa20d",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -231,15 +231,22 @@
   },
   "active": "b2a30f5e1f5af8de",
   "lastOpenFiles": [
+    "网络工程/计算机硬件系统/机器语言(1代到5代).md",
+    "IT/JAVA底层知识/反射.md",
+    "网络工程/网络通信/基础知识/常见网络参数解释.md",
+    "IT/常用概念.md",
+    "软件(原理,部署,特点)/Idea/常用配置.md",
+    "软件(原理,部署,特点)/Mysql/Mysql快捷键.md",
+    "IT/MySQL/Mysql小知识点.md",
+    "IT/MySQL/Mysql关键字.md",
+    "软件(原理,部署,特点)/Mysql/SQL语法.md",
+    "学习/金融/金融相关法律.md",
     "学习/金融/金融基本概念.md",
     "常用语法和算法/Markdown语法/基础语法.md",
     "学习/金融/金融常用名词概念.md",
     "学习/金融/标普500指数基金.md",
     "学习/学习方法.md",
-    "学习/金融/金融相关法律.md",
     "学习/金融/1.md",
-    "软件(原理,部署,特点)/Mysql/SQL语法.md",
-    "IT/MySQL/Mysql关键字.md",
     "每日八股文(2).md",
     "IT/JAVA底层知识/数据结构.md",
     "常用语法和算法/常用算法/常用查找算法.md",
@@ -250,13 +257,6 @@
     "IT/多线程/多线程.md",
     "IT/JAVA底层知识/序列化.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
-    "IT/JAVA底层知识/JDK(JAVA底层原理)/类加载器和双亲委派.md",
-    "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
-    "IT/JAVA底层知识/JAVA关键字(常用).md",
-    "IT/JAVA底层知识/异常.md",
-    "IT/JAVA底层知识/数据类型.md",
-    "IT/JAVA底层知识/内部类.md",
-    "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md",
     "obsidian相关/Picture/数据结构_image_4.png",
     "obsidian相关/Picture/广度优先和深度优先_image_2.png",
     "obsidian相关/Picture/广度优先和深度优先_image_1.gif",
