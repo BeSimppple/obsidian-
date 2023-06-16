@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用语法和算法/常用算法/常用排序算法.md",
+                "file": "IT/MySQL/Mysql关键字.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "插入排序",
+                "query": "having",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法和算法/常用算法/常用排序算法.md",
+                "file": "IT/MySQL/Mysql关键字.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法和算法/常用算法/常用排序算法.md",
+                "file": "IT/MySQL/Mysql关键字.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法和算法/常用算法/常用排序算法.md"
+                "file": "IT/MySQL/Mysql关键字.md"
               }
             }
           },
@@ -175,7 +175,7 @@
             }
           },
           {
-            "id": "02ffa189610fa20d",
+            "id": "6fe6c339df76436e",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -206,13 +206,14 @@
   },
   "active": "b2a30f5e1f5af8de",
   "lastOpenFiles": [
-    "常用语法和算法/常用算法/概念/时间复杂度和空间复杂度.md",
+    "IT/MySQL/数据库优化(相关概念).md",
+    "IT/MySQL/数据库概念.md",
+    "IT/MySQL/Mysql关键字.md",
     "常用语法和算法/常用算法/常用排序算法.md",
+    "常用语法和算法/常用算法/概念/时间复杂度和空间复杂度.md",
     "常用语法和算法/常用算法/常用查找算法.md",
     "常用语法和算法/常用算法/概念/广度优先和深度优先.md",
     "学习/金融/金融常用名词概念.md",
-    "IT/MySQL/数据库概念.md",
-    "IT/MySQL/Mysql关键字.md",
     "obsidian相关/Picture/Mysql关键字_image_1.png",
     "学习/金融/金融基本概念.md",
     "软件(原理,部署,特点)/Mysql/SQL语法.md",
@@ -227,7 +228,6 @@
     "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
     "IT/SpringCloud/Docker和Jekins(去冲突和快速打包).md",
     "软件(原理,部署,特点)/项目部署/所需软件.md",
-    "IT/MySQL/数据库优化(相关概念).md",
     "IT/MySQL/数据库优化(实际操作).md",
     "IT/Python/Python基础函数等.md",
     "网络工程/计算机硬件系统/机器语言(1代到5代).md",

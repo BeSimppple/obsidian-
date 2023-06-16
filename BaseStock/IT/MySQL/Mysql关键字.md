@@ -27,6 +27,10 @@ union和union all
 	UNION 内部的 SELECT 语句必须拥有相同数量的列。列也必须拥有相似的数据类型
 	**union和union all区别**
 		union会自动压缩多个结果集合中的重复结果，而union all则将所有的结果全部显示出来，不管是不是重复
+having和where
+	1. having用于过滤目的,where用于约束
+	2. having中可以使用聚合函数
+	3. where比having先于group by执行
 distinct
 	去重
 UCASE/LCASE
