@@ -85,8 +85,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -206,9 +205,14 @@
   },
   "active": "b2a30f5e1f5af8de",
   "lastOpenFiles": [
+    "学习/金融/1.md",
+    "学习/金融/金融相关法律.md",
+    "学习/金融/金融基本概念.md",
+    "学习/金融/金融常用名词概念.md",
+    "学习/金融/标普500指数基金.md",
+    "IT/常用概念.md",
     "每日八股文(2).md",
     "每日八股文.md",
-    "IT/常用概念.md",
     "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md",
     "IT/Spring/Servlet(服务器端小型通信).md",
     "IT/前端(VScode,VUE,nodejs)/域对象和ServletConfig.md",
@@ -227,11 +231,6 @@
     "IT/MySQL/数据库概念.md",
     "IT/JAVA底层知识/泛型和IO流.md",
     "IT/Python/常见问题.md",
-    "IT/JAVA底层知识/反射.md",
-    "IT/反编译.md",
-    "IT/Spring/Spring原理.md",
-    "IT/多线程/多线程.md",
-    "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
     "obsidian相关/Picture/其他排序算法_image_1.png",
     "obsidian相关/Picture/Mysql关键字_image_1.png",
     "obsidian相关/Picture/数据结构_image_4.png",
