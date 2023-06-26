@@ -1,53 +1,7 @@
-lamba表达式的 :: 类似.方法调用
-@ApiOperation
-@ApiOperation不是spring自带的注解是swagger里的
-com.wordnik.swagger.annotations.ApiOperation;
-@ApiOperation和@ApiParam为添加的API相关注解，个参数说明如下：
-@ApiOperation(value = “接口说明”, httpMethod = “接口请求方式”, response = “接口返回参数类型”, notes = “接口发布说明”；其他参数可参考源码；
-@ApiParam(required = “是否必须参数”, name = “参数名称”, value = “参数具体描述”
-@ApiResponse
-code - 响应的HTTP状态码
-message - 响应的信息内容
-@Api
-value - 字段说明
-description - 注释说明这个类
-@ApiModelProperty的用法   
-value–字段说明 
-name–重写属性名字 
-dataType–重写属性类型 
-required–是否必填 
-example–举例说明 
-hidden–隐藏
----
-@Aspect
-@Aspect:作用是把当前类标识为一个切面供容器读取
-1.  @Pointcut：Pointcut是植入Advice的触发条件。每个Pointcut的定义包括2部分，一是表达式，二是方法签名。方法签名必须是 public及void型。可以将Pointcut中的方法看作是一个被Advice引用的助记符，因为表达式不直观，因此我们可以通过方法签名的方式为 此表达式命名。因此Pointcut中的方法只需要方法签名，而不需要在方法体内编写实际代码。
-2.  @Around：环绕增强，相当于MethodInterceptor
-3.  @AfterReturning：后置增强，相当于AfterReturningAdvice，方法正常退出时执行
-4.  @Before：标识一个前置增强方法，相当于BeforeAdvice的功能，相似功能的还有
-5.  @AfterThrowing：异常抛出增强，相当于ThrowsAdvice
-6.  @After: final增强，不管是抛出异常或者正常退出都会执行
-1.  @Retention(RetentionPolicy.RUNTIME)
-(系统自带的注解,可以设置注解的生命周期
-2.  @Target({ ElementType.METHOD })
-(系统自带的注解,可以标注修饰对象范围)
----
-@Slf4j
-如果不想每次都写private  final Logger logger = LoggerFactory.getLogger(当前类名.class); 可以用注解@Slf4j;
-可以使用Slf4j中的 log.info等
----
-@Scheduled定时任务
-例如:@Scheduled(cron = "0 0 */2 * * ?")
-为每2小时执行1次
-配合cron表达式
-
----
 **注解定义与使用原理**
-	定义,注解,也叫员数据,一种代码级别的说明
-	与类,接口,枚举在同一层次
-	它可以声明在包,类,字段,方法,局部变量,方法参数等的前面,用来对这些元素进行说明,注释.
-	jdk1.5以后引入
-	说明程序的
+	**定义**:注解就是一个接口,默认继承Annotation接口
+	注解也叫员数据,一种代码级别的说明与类,接口,枚举在同一层次
+	它可以声明在包,类,字段,方法,局部变量,方法参数等的前面,用来对这些元素进行说明,注释.在jdk1.5以后引入说明程序的
 	使用方法:@注解名称
 	注解单独使用是毫无用处的,如果想要注解有作用必须结合反射使用,反射是在运行时
 	注解的默认生命周期在编译期.到不了运行时
@@ -64,9 +18,14 @@ hidden–隐藏
 	一个注解里面只有一个属性 那么就是单值注解
 	没有参数的注解,就是标记注解
 	多个属性的,就是完整注解
+**注解的属性**
+	**生命周期**:
+		有三种生命周期默认注解生命周期在编译器到不了运行时
+		RetentionPolicy(枚举类)来设定生命周期
+		1.注解驻留在源文件阶段 2.字节码文件阶段 3.内存字节码阶段
 
 **自定义注解**
-	本质:就是一个接口,默认继承Annotation接口
+	注解就是一个接口,默认继承Annotation接口
 	格式:
 	元注解
 	public @interface 注释名称{}
@@ -89,6 +48,55 @@ hidden–隐藏
 		@Documented:描述注解是否被抽到api文档中
 		@Inherited:描述注解是否类继承
 		在程序使用(解析)注解
+lamba表达式的 :: 类似.方法调用
+@ApiOperation
+@ApiOperation不是spring自带的注解是swagger里的
+com.wordnik.swagger.annotations.ApiOperation;
+@ApiOperation和@ApiParam为添加的API相关注解，个参数说明如下：
+@ApiOperation(value = “接口说明”, httpMethod = “接口请求方式”, response = “接口返回参数类型”, notes = “接口发布说明”；其他参数可参考源码；
+@ApiParam(required = “是否必须参数”, name = “参数名称”, value = “参数具体描述”
+@ApiResponse
+code - 响应的HTTP状态码
+message - 响应的信息内容
+@Api
+value - 字段说明
+description - 注释说明这个类
+@ApiModelProperty的用法   
+value–字段说明 
+name–重写属性名字 
+dataType–重写属性类型 
+required–是否必填 
+example–举例说明 
+hidden–隐藏
+
+---
+@Aspect
+@Aspect:作用是把当前类标识为一个切面供容器读取
+1.  @Pointcut：Pointcut是植入Advice的触发条件。每个Pointcut的定义包括2部分，一是表达式，二是方法签名。方法签名必须是 public及void型。可以将Pointcut中的方法看作是一个被Advice引用的助记符，因为表达式不直观，因此我们可以通过方法签名的方式为 此表达式命名。因此Pointcut中的方法只需要方法签名，而不需要在方法体内编写实际代码。
+2.  @Around：环绕增强，相当于MethodInterceptor
+3.  @AfterReturning：后置增强，相当于AfterReturningAdvice，方法正常退出时执行
+4.  @Before：标识一个前置增强方法，相当于BeforeAdvice的功能，相似功能的还有
+5.  @AfterThrowing：异常抛出增强，相当于ThrowsAdvice
+6.  @After: final增强，不管是抛出异常或者正常退出都会执行
+1.  @Retention(RetentionPolicy.RUNTIME)
+(系统自带的注解,可以设置注解的生命周期
+2.  @Target({ ElementType.METHOD })
+(系统自带的注解,可以标注修饰对象范围)
+---
+@Slf4j
+如果不想每次都写private  final Logger logger = LoggerFactory.getLogger(当前类名.class); 可以用注解@Slf4j;
+可以使用Slf4j中的 log.info等
+
+---
+@Scheduled定时任务
+例如:@Scheduled(cron = "0 0 */2 * * ?")
+为每2小时执行1次
+配合cron表达式
+
+---
+
+
+
 自定义Test测试注解
 1.创建一个注解,设定元注解Retention到运行时
 设置元注解Target指定注解位置
