@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "每日八股文(2).md",
+                "file": "IT/JAVA底层知识/Java数据类型.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "接口",
+                "query": "基础数据",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "每日八股文(2).md",
+                "file": "IT/JAVA底层知识/Java数据类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "每日八股文(2).md",
+                "file": "IT/JAVA底层知识/Java数据类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "每日八股文(2).md"
+                "file": "IT/JAVA底层知识/Java数据类型.md"
               }
             }
           },
@@ -204,36 +204,36 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "68447e7ec5dfad2f",
+  "active": "b2a30f5e1f5af8de",
   "lastOpenFiles": [
+    "网络工程/网络通信/OSI七层网络模型.md",
+    "软件(原理,部署,特点)/Nginx(反向代理服务器).md",
+    "IT/SpringCloud/Logstash(实时传输管道).md",
+    "IT/未归类知识点/GraaIVM(虚拟机).md",
+    "IT/SpringCloud/Gateway(网关).md",
+    "IT/MySQL/数据库概念.md",
+    "IT/JAVA底层知识/泛型和IO流.md",
+    "常用语法和算法/常用算法/常用排序算法.md",
+    "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
+    "IT/Python/常见问题.md",
+    "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md",
+    "IT/JAVA底层知识/反射.md",
+    "IT/反编译.md",
+    "IT/常用概念.md",
+    "每日八股文(2).md",
     "每日八股文.md",
     "IT/Spring/Spring原理.md",
     "IT/JAVA底层知识/Java数据类型.md",
-    "IT/MySQL/数据库概念.md",
     "IT/多线程/多线程.md",
     "IT/多线程/多线程-线程安全.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
-    "常用语法和算法/常用算法/常用排序算法.md",
     "常用语法和算法/常用算法/其他排序算法.md",
-    "网络工程/网络通信/OSI七层网络模型.md",
     "obsidian相关/Picture/其他排序算法_image_1.png",
     "IT/MySQL/Mysql关键字.md",
     "IT/MySQL/数据库优化(相关概念).md",
     "常用语法和算法/常用算法/概念/时间复杂度和空间复杂度.md",
     "常用语法和算法/常用算法/常用查找算法.md",
-    "常用语法和算法/常用算法/概念/广度优先和深度优先.md",
-    "学习/金融/金融常用名词概念.md",
     "obsidian相关/Picture/Mysql关键字_image_1.png",
-    "学习/金融/金融基本概念.md",
-    "软件(原理,部署,特点)/Mysql/SQL语法.md",
-    "IT/SpringCloud/SpringSecurity(安全与权限).md",
-    "软件(原理,部署,特点)/Nginx(反向代理服务器).md",
-    "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
-    "软件(原理,部署,特点)/Mysql/Mysql快捷键.md",
-    "IT/Spring/Mybatis(持久层框架).md",
-    "IT/Spring/JDBC(数据库连接).md",
-    "软件(原理,部署,特点)/Linux/Linux.md",
-    "软件(原理,部署,特点)/Idea/IDEA插件.md",
     "obsidian相关/Picture/数据结构_image_4.png",
     "obsidian相关/Picture/广度优先和深度优先_image_2.png",
     "obsidian相关/Picture/广度优先和深度优先_image_1.gif",
