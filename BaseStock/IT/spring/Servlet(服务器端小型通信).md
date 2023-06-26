@@ -50,6 +50,9 @@ Servlet的XML配置
 	2.然后下面分文件夹或者内容,一级的可以直接相对路径打名字
 	而如果是上一级则需要../来返回上一级
 	如果是上一级下面的另一个包中,则需要先../返回在输入相应的路径
+servletContext和servletConfig
+	servletContext是web唯一对象保存多个servlet的共享信息(web全局参数)
+	servletConfig是一个servlet的配置信息可以有多个(不能被其他servlet访问)
 
 ---
 ## Request和Response
