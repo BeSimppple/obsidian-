@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/JAVA底层知识/集合.md",
+                "file": "IT/JAVA底层知识/泛型和IO流.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "集合",
+                "query": "io",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/JAVA底层知识/集合.md",
+                "file": "IT/JAVA底层知识/泛型和IO流.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/JAVA底层知识/集合.md",
+                "file": "IT/JAVA底层知识/泛型和IO流.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/JAVA底层知识/集合.md"
+                "file": "IT/JAVA底层知识/泛型和IO流.md"
               }
             }
           },
@@ -206,6 +206,8 @@
   },
   "active": "b2a30f5e1f5af8de",
   "lastOpenFiles": [
+    "软件(原理,部署,特点)/Nginx(反向代理服务器).md",
+    "IT/JAVA底层知识/集合.md",
     "IT/JAVA底层知识/Java数据类型.md",
     "IT/JAVA底层知识/泛型和IO流.md",
     "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md",
@@ -230,8 +232,6 @@
     "IT/Spring/Servlet(服务器端小型通信).md",
     "IT/前端(VScode,VUE,nodejs)/域对象和ServletConfig.md",
     "软件(原理,部署,特点)/Idea/常用配置.md",
-    "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
-    "IT/未归类知识点/Freemarker模板技术.md",
     "obsidian相关/Picture/其他排序算法_image_1.png",
     "obsidian相关/Picture/Mysql关键字_image_1.png",
     "obsidian相关/Picture/数据结构_image_4.png",
