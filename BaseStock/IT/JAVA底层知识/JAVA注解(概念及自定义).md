@@ -1,29 +1,33 @@
 **注解定义与使用原理**
-	**定义**:注解就是一个接口,默认继承Annotation接口
-	注解也叫员数据,一种代码级别的说明与类,接口,枚举在同一层次
-	它可以声明在包,类,字段,方法,局部变量,方法参数等的前面,用来对这些元素进行说明,注释.在jdk1.5以后引入说明程序的
-	使用方法:@注解名称
-	注解单独使用是毫无用处的,如果想要注解有作用必须结合反射使用,反射是在运行时
-	注解的默认生命周期在编译期.到不了运行时
-	所以需要Retention来设置生命周期
-	作用分类:
-	1.编写文档:通过代码里的标识的注解生成文档[生成文档doc文档]
-	2.代码分析:通过代码里标识的注解对代码进行分析[使用反射]
-	3.编译检查:通过代码里标识的注解让编译期能够实现基本的编译检查[OVerride]
-	jdk中一些常用注解
+	**定义**:
+	1. **注解就是一个接口,默认继承Annotation接口**
+	2. 注解也叫元数据,一种代码级别的说明与类,接口,枚举在同一层次
+	3. 它可以声明在包,类,字段,方法,局部变量,方法参数等的前面,用来对这些元素进行说明,注释.在jdk1.5以后引入说明程序的
+	**原理**:
+	注解的实现原理是通过Java反射机制来实现的。在Java中，可以使用反射机制来获取类、方法、字段等的信息，并对它们进行操作。
+	**注意**:
+	注解单独使用是毫无用处的,如果想要注解有作用必须结合反射使用,反射是在运行时注解的默认生命周期在编译期.到不了运行时所以需要Retention来设置生命周期
 	
+
+
 **注解的属性**
 	**生命周期**:
 		有三种生命周期默认注解生命周期在编译器到不了运行时
 		@Retention(RetentionPolicy.枚举类)来设定生命周期(Retention属于系统自带的注解)    
 		生命周期长度: SOURCE < CLASS < RUNTIME
-		1.注解驻留在源文件阶段 2.字节码文件阶段 3.内存字节码阶段
+		1.SOURCE注解驻留在源文件阶段 2.CLASS字节码文件阶段 3.RUNTIME内存字节码阶段(运行时可见)
 	**对象范围**:
 		 @Target({ ElementType.枚举类 })   例如:ElementType.METHOD 表示该注释仅在方法上运行
 		(系统自带的注解,可以标注修饰对象范围)
 	其他属性
 		如果注解中有String[] value[] 则表示可以直接输入参数会被识别成value
 		如果没有则必须对应属性输入对应参数例如Type = "all"
+
+元注解(系统自带注解)
+	1. @Target：注解的作用目标
+	2. @Retention：注解的生命周期
+	3. @Documented：注解是否应当被包含在 JavaDoc 文档中
+	4. @Inherited：是否允许子类继承该注解
 
 **自定义注解**
 	注解就是一个接口,默认继承Annotation接口
@@ -52,25 +56,7 @@
 
 
 
-@ApiOperation
-	@ApiOperation不是spring自带的注解是swagger里的
-	com.wordnik.swagger.annotations.ApiOperation;
-	@ApiOperation和@ApiParam为添加的API相关注解，个参数说明如下：
-	@ApiOperation(value = “接口说明”, httpMethod = “接口请求方式”, response = “接口返回参数类型”, notes = “接口发布说明”；其他参数可参考源码；
-	@ApiParam(required = “是否必须参数”, name = “参数名称”, value = “参数具体描述”
-	@ApiResponse
-		code - 响应的HTTP状态码
-		message - 响应的信息内容
-	@Api
-		value - 字段说明
-		description - 注释说明这个类
-	@ApiModelProperty的用法   
-		value–字段说明 
-		name–重写属性名字 
-		dataType–重写属性类型 
-		required–是否必填 
-		example–举例说明 
-		hidden–隐藏
+
 
 **常用注解**:
 	@Aspect
@@ -95,36 +81,50 @@
 		例如:@Scheduled(cron = "0 0 */2 * * ?")
 		为每2小时执行1次
 		配合cron表达式
-
-
-
-
+	@ApiOperation
+		@ApiOperation不是spring自带的注解是swagger里的
+		com.wordnik.swagger.annotations.ApiOperation;
+		@ApiOperation和@ApiParam为添加的API相关注解，个参数说明如下：
+		@ApiOperation(value = “接口说明”, httpMethod = “接口请求方式”, response = “接口返回参数类型”, notes = “接口发布说明”；其他参数可参考源码；
+		@ApiParam(required = “是否必须参数”, name = “参数名称”, value = “参数具体描述”
+		@ApiResponse
+			code - 响应的HTTP状态码
+			message - 响应的信息内容
+		@Api
+			value - 字段说明
+			description - 注释说明这个类
+		@ApiModelProperty的用法   
+			value–字段说明 
+			name–重写属性名字 
+			dataType–重写属性类型 
+			required–是否必填 
+			example–举例说明 
+			hidden–隐藏
 
 
 自定义Test测试注解
-1.创建一个注解,设定元注解Retention到运行时
-设置元注解Target指定注解位置
-2.创建Demo写入方法
-方法要求 没有返回值 public 且没有参数
-3.创建Demo
-Demo?.Class获取到指定Demo类
-clazz.getMthods();//获取到Demo中的所有方法
-for循环遍历
-使用method.isAnnotationPresent(注解类.class)判断
-如果有这个注解则返回true
-mthod.invoke(指定Demo类);
-如果有这个注解则运行它
-使用注解获取配置文件
-步骤:
-1.创建注解文件JDBCinfo
-并且使用元注解Retention设定到运行时
-写入4个String参数默认给值
-2.创建Demo类
-Demo.class获取当前类对象
-clazz,isAnnotationPresent(JDBCinfo.class)//判断是否注释当前类
-clazz.getAnnotation(JDBCinfo.class);//获取这些注释内容
-例如:String d = annotation.DriverClass();//获取到配置文件了
-
+	1.创建一个注解,设定元注解Retention到运行时
+	设置元注解Target指定注解位置
+	2.创建Demo写入方法
+	方法要求 没有返回值 public 且没有参数
+	3.创建Demo
+	Demo?.Class获取到指定Demo类
+	clazz.getMthods();//获取到Demo中的所有方法
+	for循环遍历
+	使用method.isAnnotationPresent(注解类.class)判断
+	如果有这个注解则返回true
+	mthod.invoke(指定Demo类);
+	如果有这个注解则运行它
+	使用注解获取配置文件
+	步骤:
+	1.创建注解文件JDBCinfo
+	并且使用元注解Retention设定到运行时
+	写入4个String参数默认给值
+	2.创建Demo类
+	Demo.class获取当前类对象
+	clazz,isAnnotationPresent(JDBCinfo.class)//判断是否注释当前类
+	clazz.getAnnotation(JDBCinfo.class);//获取这些注释内容
+	例如:String d = annotation.DriverClass();//获取到配置文件了
 
 
 lamba表达式的 :: 类似.方法调用
