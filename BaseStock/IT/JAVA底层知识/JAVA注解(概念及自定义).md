@@ -11,13 +11,7 @@
 	2.代码分析:通过代码里标识的注解对代码进行分析[使用反射]
 	3.编译检查:通过代码里标识的注解让编译期能够实现基本的编译检查[OVerride]
 	jdk中一些常用注解
-	@Override:检测被该注解标注的方法是否是继承自父类(接口)的
-	@Deprecated:该注解标注的内容,标识已过世
-	@SuppressWarnings(传入警告类型):压制警告
-	一般警告类型中直接填"all";
-	一个注解里面只有一个属性 那么就是单值注解
-	没有参数的注解,就是标记注解
-	多个属性的,就是完整注解
+	
 **注解的属性**
 	**生命周期**:
 		有三种生命周期默认注解生命周期在编译器到不了运行时
@@ -25,8 +19,11 @@
 		生命周期长度: SOURCE < CLASS < RUNTIME
 		1.注解驻留在源文件阶段 2.字节码文件阶段 3.内存字节码阶段
 	**对象范围**:
-		 @Target({ ElementType.METHOD })
+		 @Target({ ElementType.枚举类 })   例如:ElementType.METHOD 表示该注释仅在方法上运行
 		(系统自带的注解,可以标注修饰对象范围)
+	其他属性
+		如果注解中有String[] value[] 则表示可以直接输入参数会被识别成value
+		如果没有则必须对应属性输入对应参数例如Type = "all"
 
 **自定义注解**
 	注解就是一个接口,默认继承Annotation接口
@@ -54,49 +51,53 @@
 		在程序使用(解析)注解
 
 
-lamba表达式的 :: 类似.方法调用
+
 @ApiOperation
-@ApiOperation不是spring自带的注解是swagger里的
-com.wordnik.swagger.annotations.ApiOperation;
-@ApiOperation和@ApiParam为添加的API相关注解，个参数说明如下：
-@ApiOperation(value = “接口说明”, httpMethod = “接口请求方式”, response = “接口返回参数类型”, notes = “接口发布说明”；其他参数可参考源码；
-@ApiParam(required = “是否必须参数”, name = “参数名称”, value = “参数具体描述”
-@ApiResponse
-code - 响应的HTTP状态码
-message - 响应的信息内容
-@Api
-value - 字段说明
-description - 注释说明这个类
-@ApiModelProperty的用法   
-value–字段说明 
-name–重写属性名字 
-dataType–重写属性类型 
-required–是否必填 
-example–举例说明 
-hidden–隐藏
+	@ApiOperation不是spring自带的注解是swagger里的
+	com.wordnik.swagger.annotations.ApiOperation;
+	@ApiOperation和@ApiParam为添加的API相关注解，个参数说明如下：
+	@ApiOperation(value = “接口说明”, httpMethod = “接口请求方式”, response = “接口返回参数类型”, notes = “接口发布说明”；其他参数可参考源码；
+	@ApiParam(required = “是否必须参数”, name = “参数名称”, value = “参数具体描述”
+	@ApiResponse
+		code - 响应的HTTP状态码
+		message - 响应的信息内容
+	@Api
+		value - 字段说明
+		description - 注释说明这个类
+	@ApiModelProperty的用法   
+		value–字段说明 
+		name–重写属性名字 
+		dataType–重写属性类型 
+		required–是否必填 
+		example–举例说明 
+		hidden–隐藏
 
 **常用注解**:
-@Aspect
-	@Aspect:作用是把当前类标识为一个切面供容器读取
-	1.  @Pointcut：Pointcut是植入Advice的触发条件。每个Pointcut的定义包括2部分，一是表达式，二是方法签名。方法签名必须是 public及void型。可以将Pointcut中的方法看作是一个被Advice引用的助记符，因为表达式不直观，因此我们可以通过方法签名的方式为 此表达式命名。因此Pointcut中的方法只需要方法签名，而不需要在方法体内编写实际代码。
-	2.  @Around：环绕增强，相当于MethodInterceptor
-	3.  @AfterReturning：后置增强，相当于AfterReturningAdvice，方法正常退出时执行
-	4.  @Before：标识一个前置增强方法，相当于BeforeAdvice的功能，相似功能的还有
-	5.  @AfterThrowing：异常抛出增强，相当于ThrowsAdvice
-	6.  @After: final增强，不管是抛出异常或者正常退出都会执行
+	@Aspect
+		@Aspect:作用是把当前类标识为一个切面供容器读取
+		1.  @Pointcut：Pointcut是植入Advice的触发条件。每个Pointcut的定义包括2部分，一是表达式，二是方法签名。方法签名必须是 public及void型。可以将Pointcut中的方法看作是一个被Advice引用的助记符，因为表达式不直观，因此我们可以通过方法签名的方式为 此表达式命名。因此Pointcut中的方法只需要方法签名，而不需要在方法体内编写实际代码。
+		2.  @Around：环绕增强，相当于MethodInterceptor
+		3.  @AfterReturning：后置增强，相当于AfterReturningAdvice，方法正常退出时执行
+		4.  @Before：标识一个前置增强方法，相当于BeforeAdvice的功能，相似功能的还有
+		5.  @AfterThrowing：异常抛出增强，相当于ThrowsAdvice
+		6.  @After: final增强，不管是抛出异常或者正常退出都会执行
+	@Override:检测被该注解标注的方法是否是继承自父类(接口)的
+	@Deprecated:该注解标注的内容,标识已过世
+	@SuppressWarnings(传入警告类型):压制警告
+		一般警告类型中直接填"all";
+		一个注解里面只有一个属性 那么就是单值注解
+		没有参数的注解,就是标记注解
+		多个属性的,就是完整注解
+	@Slf4j
+		如果不想每次都写private  final Logger logger = LoggerFactory.getLogger(当前类名.class); 可以用注解@Slf4j;
+		可以使用Slf4j中的 log.info等
+	@Scheduled定时任务
+		例如:@Scheduled(cron = "0 0 */2 * * ?")
+		为每2小时执行1次
+		配合cron表达式
 
----
-@Slf4j
-如果不想每次都写private  final Logger logger = LoggerFactory.getLogger(当前类名.class); 可以用注解@Slf4j;
-可以使用Slf4j中的 log.info等
 
----
-@Scheduled定时任务
-例如:@Scheduled(cron = "0 0 */2 * * ?")
-为每2小时执行1次
-配合cron表达式
 
----
 
 
 
@@ -123,3 +124,7 @@ Demo.class获取当前类对象
 clazz,isAnnotationPresent(JDBCinfo.class)//判断是否注释当前类
 clazz.getAnnotation(JDBCinfo.class);//获取这些注释内容
 例如:String d = annotation.DriverClass();//获取到配置文件了
+
+
+
+lamba表达式的 :: 类似.方法调用
