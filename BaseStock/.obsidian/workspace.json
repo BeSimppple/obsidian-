@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/JAVA底层知识/泛型和IO流.md",
+                "file": "IT/JAVA底层知识/集合.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "集合",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -85,7 +85,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -105,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/JAVA底层知识/泛型和IO流.md",
+                "file": "IT/JAVA底层知识/集合.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/JAVA底层知识/泛型和IO流.md",
+                "file": "IT/JAVA底层知识/集合.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/JAVA底层知识/泛型和IO流.md"
+                "file": "IT/JAVA底层知识/集合.md"
               }
             }
           },
@@ -205,9 +206,9 @@
   },
   "active": "b2a30f5e1f5af8de",
   "lastOpenFiles": [
-    "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md",
-    "IT/JAVA底层知识/泛型和IO流.md",
     "IT/JAVA底层知识/Java数据类型.md",
+    "IT/JAVA底层知识/泛型和IO流.md",
+    "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md",
     "IT/JAVA底层知识/JAVA关键字(常用).md",
     "每日八股文(2).md",
     "每日八股文.md",
