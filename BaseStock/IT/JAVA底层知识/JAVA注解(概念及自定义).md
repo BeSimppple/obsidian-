@@ -21,8 +21,12 @@
 **注解的属性**
 	**生命周期**:
 		有三种生命周期默认注解生命周期在编译器到不了运行时
-		RetentionPolicy(枚举类)来设定生命周期
+		@Retention(RetentionPolicy.枚举类)来设定生命周期(Retention属于系统自带的注解)    
+		生命周期长度: SOURCE < CLASS < RUNTIME
 		1.注解驻留在源文件阶段 2.字节码文件阶段 3.内存字节码阶段
+	**对象范围**:
+		 @Target({ ElementType.METHOD })
+		(系统自带的注解,可以标注修饰对象范围)
 
 **自定义注解**
 	注解就是一个接口,默认继承Annotation接口
@@ -48,6 +52,8 @@
 		@Documented:描述注解是否被抽到api文档中
 		@Inherited:描述注解是否类继承
 		在程序使用(解析)注解
+
+
 lamba表达式的 :: 类似.方法调用
 @ApiOperation
 @ApiOperation不是spring自带的注解是swagger里的
@@ -69,19 +75,16 @@ required–是否必填 
 example–举例说明 
 hidden–隐藏
 
----
+**常用注解**:
 @Aspect
-@Aspect:作用是把当前类标识为一个切面供容器读取
-1.  @Pointcut：Pointcut是植入Advice的触发条件。每个Pointcut的定义包括2部分，一是表达式，二是方法签名。方法签名必须是 public及void型。可以将Pointcut中的方法看作是一个被Advice引用的助记符，因为表达式不直观，因此我们可以通过方法签名的方式为 此表达式命名。因此Pointcut中的方法只需要方法签名，而不需要在方法体内编写实际代码。
-2.  @Around：环绕增强，相当于MethodInterceptor
-3.  @AfterReturning：后置增强，相当于AfterReturningAdvice，方法正常退出时执行
-4.  @Before：标识一个前置增强方法，相当于BeforeAdvice的功能，相似功能的还有
-5.  @AfterThrowing：异常抛出增强，相当于ThrowsAdvice
-6.  @After: final增强，不管是抛出异常或者正常退出都会执行
-1.  @Retention(RetentionPolicy.RUNTIME)
-(系统自带的注解,可以设置注解的生命周期
-2.  @Target({ ElementType.METHOD })
-(系统自带的注解,可以标注修饰对象范围)
+	@Aspect:作用是把当前类标识为一个切面供容器读取
+	1.  @Pointcut：Pointcut是植入Advice的触发条件。每个Pointcut的定义包括2部分，一是表达式，二是方法签名。方法签名必须是 public及void型。可以将Pointcut中的方法看作是一个被Advice引用的助记符，因为表达式不直观，因此我们可以通过方法签名的方式为 此表达式命名。因此Pointcut中的方法只需要方法签名，而不需要在方法体内编写实际代码。
+	2.  @Around：环绕增强，相当于MethodInterceptor
+	3.  @AfterReturning：后置增强，相当于AfterReturningAdvice，方法正常退出时执行
+	4.  @Before：标识一个前置增强方法，相当于BeforeAdvice的功能，相似功能的还有
+	5.  @AfterThrowing：异常抛出增强，相当于ThrowsAdvice
+	6.  @After: final增强，不管是抛出异常或者正常退出都会执行
+
 ---
 @Slf4j
 如果不想每次都写private  final Logger logger = LoggerFactory.getLogger(当前类名.class); 可以用注解@Slf4j;

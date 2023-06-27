@@ -85,8 +85,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -175,7 +174,7 @@
             }
           },
           {
-            "id": "5b74ba04736be98e",
+            "id": "25e455915f7f38c3",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -204,7 +203,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "b2a30f5e1f5af8de",
+  "active": "7278d5866d783733",
   "lastOpenFiles": [
     "软件(原理,部署,特点)/Idea/Idea相关配置.md",
     "IT/JAVA底层知识/JAVA注解(概念及自定义).md",
