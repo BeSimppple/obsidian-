@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/JAVA底层知识/JAVA关键字(常用).md",
+                "file": "IT/常用概念.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "final",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -85,8 +85,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/JAVA底层知识/JAVA关键字(常用).md",
+                "file": "IT/常用概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/JAVA底层知识/JAVA关键字(常用).md",
+                "file": "IT/常用概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/JAVA底层知识/JAVA关键字(常用).md"
+                "file": "IT/常用概念.md"
               }
             }
           },
@@ -206,6 +205,7 @@
   },
   "active": "b2a30f5e1f5af8de",
   "lastOpenFiles": [
+    "IT/JAVA底层知识/JAVA关键字(常用).md",
     "学习/语言学习/英语/常用转接词.md",
     "每日八股文(2).md",
     "每日八股文.md",
@@ -229,7 +229,6 @@
     "软件(原理,部署,特点)/Idea/常用配置.md",
     "网络工程/计算机硬件系统/编码与解码,字符与字节.md",
     "IT/未归类知识点/Freemarker模板技术.md",
-    "IT/JAVA底层知识/JAVA关键字(常用).md",
     "IT/JAVA底层知识/Java数据类型.md",
     "网络工程/网络通信/OSI七层网络模型.md",
     "obsidian相关/Picture/其他排序算法_image_1.png",
