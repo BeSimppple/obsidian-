@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
+                "file": "软件(原理,部署,特点)/Idea/IDEA快捷键.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "finalize",
+                "query": "idea快捷键",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
+                "file": "软件(原理,部署,特点)/Idea/IDEA快捷键.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
+                "file": "软件(原理,部署,特点)/Idea/IDEA快捷键.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md"
+                "file": "软件(原理,部署,特点)/Idea/IDEA快捷键.md"
               }
             }
           },
@@ -218,8 +218,8 @@
   },
   "active": "b2a30f5e1f5af8de",
   "lastOpenFiles": [
-    "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
+    "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
     "每日八股文.md",
     "IT/JAVA底层知识/Java数据类型.md",
     "IT/JAVA底层知识/泛型和IO流.md",
