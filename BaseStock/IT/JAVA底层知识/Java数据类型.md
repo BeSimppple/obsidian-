@@ -29,7 +29,8 @@
 
 
 String
-	String底层使用的是char[]数组,char[]使用的是unicode能一个格子存放一个中文字符,所以长度就是字符串长度
+	1. String是immutable(不可变的)
+	2. String底层使用的是char[]数组,char[]使用的是unicode能一个格子存放一个中文字符,所以长度就是字符串长度
 
 
 
