@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "GC",
+                "query": "finalize",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -218,6 +218,8 @@
   },
   "active": "b2a30f5e1f5af8de",
   "lastOpenFiles": [
+    "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
+    "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
     "每日八股文.md",
     "IT/JAVA底层知识/Java数据类型.md",
     "IT/JAVA底层知识/泛型和IO流.md",
@@ -236,7 +238,6 @@
     "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md",
     "IT/JAVA底层知识/JAVA关键字(常用).md",
     "学习/语言学习/英语/常用转接词.md",
-    "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
     "IT/Spring/Servlet(服务器端小型通信).md",
     "IT/未归类知识点/支付sdk(software development kit).md",
     "IT/设计模式/设计模式6原则.md",
@@ -244,7 +245,6 @@
     "IT/Spring/过滤器,拦截器,监听器.md",
     "IT/JAVA底层知识/反射.md",
     "软件(原理,部署,特点)/Nginx(反向代理服务器).md",
-    "IT/JAVA底层知识/集合.md",
     "obsidian相关/Picture/其他排序算法_image_1.png",
     "obsidian相关/Picture/Mysql关键字_image_1.png",
     "obsidian相关/Picture/数据结构_image_4.png",
