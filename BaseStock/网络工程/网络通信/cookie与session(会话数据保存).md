@@ -37,7 +37,8 @@ Session生命周期
 	1. 使用Session
 	2. 使用隐藏表单域
 	3. 使用URL传递参数
-
+Servlet之间的关系图
+![[cookie与session(会话数据保存)_image_1.png]]
 
 ---
 ## Cookie(浏览器端会话技术)
