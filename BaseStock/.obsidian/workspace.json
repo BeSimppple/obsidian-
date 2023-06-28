@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络工程/网络通信/cookie与session(会话数据保存).md",
+                "file": "IT/前端(VScode,VUE,nodejs)/域对象和ServletConfig.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网络工程/网络通信/cookie与session(会话数据保存).md",
+                "file": "IT/前端(VScode,VUE,nodejs)/域对象和ServletConfig.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网络工程/网络通信/cookie与session(会话数据保存).md",
+                "file": "IT/前端(VScode,VUE,nodejs)/域对象和ServletConfig.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网络工程/网络通信/cookie与session(会话数据保存).md"
+                "file": "IT/前端(VScode,VUE,nodejs)/域对象和ServletConfig.md"
               }
             }
           },
@@ -218,6 +218,7 @@
   },
   "active": "b2a30f5e1f5af8de",
   "lastOpenFiles": [
+    "网络工程/网络通信/cookie与session(会话数据保存).md",
     "obsidian相关/Picture/cookie与session(会话数据保存)_image_1.png",
     "IT/前端(VScode,VUE,nodejs)/域对象和ServletConfig.md",
     "IT/多线程/多线程.md",
@@ -253,7 +254,6 @@
     "obsidian相关/Picture/广度优先和深度优先_image_1.gif",
     "obsidian相关/Picture/广度优先和深度优先_image_1.png",
     "obsidian相关/Picture/tmp1683523256117_每日八股文(2)_image_2.png",
-    "obsidian相关/Picture/tmp1683530947739_常用算法_image_2.png",
     "学习/日记",
     "未命名.canvas",
     "学习/金融",
