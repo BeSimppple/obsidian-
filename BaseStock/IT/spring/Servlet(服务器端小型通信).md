@@ -20,6 +20,7 @@
 **Servlet的生命周期:**
 	在javax.servlet.Servlet接口中三个方法**init service destroy**就是servlet的生命周期作用方法
 	servlet正常情况下不会随着服务器创建而初始化 
+	![[Servlet(服务器端小型通信)_image_1.png|650]]
 	1.第一次访问servlet,servlet会被创建，并将servlet对象常驻内存，调用init方法进行初始化操作，init方法中执行一次。
 	2.调用service方法，用于处理来自浏览器端的请求，以后都是开启一个线程来处理浏览器端请求。
 	3.随着服务器关闭Servlet销毁  ,  当tomcat服务器正常关闭时，会调用destroy方法将servlet销毁。
