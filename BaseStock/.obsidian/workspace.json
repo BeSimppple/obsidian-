@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/常用概念.md",
+                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "静态代码块",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -97,7 +97,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -117,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/常用概念.md",
+                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/常用概念.md",
+                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/常用概念.md"
+                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md"
               }
             }
           },
@@ -217,10 +218,10 @@
   },
   "active": "b2a30f5e1f5af8de",
   "lastOpenFiles": [
+    "IT/常用概念.md",
     "IT/反编译.md",
     "学习/金融/金融基本概念.md",
     "IT/JAVA底层知识/Java数据类型.md",
-    "IT/常用概念.md",
     "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
     "IT/Spring/Spring原理.md",
