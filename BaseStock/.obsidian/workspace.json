@@ -187,7 +187,7 @@
             }
           },
           {
-            "id": "97049943a05d7189",
+            "id": "c8631c8dac9e77ff",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -199,8 +199,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,7 +215,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "b2a30f5e1f5af8de",
+  "active": "c8631c8dac9e77ff",
   "lastOpenFiles": [
     "IT/常用概念.md",
     "IT/反编译.md",
