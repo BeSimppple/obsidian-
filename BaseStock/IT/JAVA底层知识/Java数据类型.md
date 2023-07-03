@@ -19,7 +19,8 @@
 		byte 是存储整数的最小类型，只占 1 个字节，因为还需要表示负数，因此只能保存 -128 ~ 127 范围内的数据
 		byte和byte进行运算不论大小都会先自动转换成int进行计算
 	**char**
-		java使用的是Unicode,java8之前String使用的char类型,java9之后使用的byte
+		1. java使用的是Unicode,java8之前String使用的char类型,java9之后使用的byte
+		2. char a ='6';  打印(a-'1'); 结果为5   底层会自动转换成int计算后返回char
 	**boolean**
 		只有ture和false,0是false,1是true
 	-----
