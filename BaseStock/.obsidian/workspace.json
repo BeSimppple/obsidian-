@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用语法和算法/常用算法/其他算法.md",
+                "file": "常用语法和算法/算法常用概念.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "算法",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法和算法/常用算法/其他算法.md",
+                "file": "常用语法和算法/算法常用概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法和算法/常用算法/其他算法.md",
+                "file": "常用语法和算法/算法常用概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法和算法/常用算法/其他算法.md"
+                "file": "常用语法和算法/算法常用概念.md"
               }
             }
           },
@@ -218,6 +218,10 @@
   },
   "active": "194fe0772e9371ad",
   "lastOpenFiles": [
+    "常用语法和算法/常用算法/其他算法.md",
+    "常用语法和算法/算法常用概念.md",
+    "常用语法和算法/常用算法/RSA非对称加密.md",
+    "常用语法和算法/常用算法/五大常用算法思想.md",
     "常用语法和算法/常用算法/常用查找算法.md",
     "常用语法和算法/常用算法/常用排序算法.md",
     "每日八股文.md",
@@ -234,7 +238,6 @@
     "学习/金融/金融基本概念.md",
     "IT/JAVA底层知识/Java数据类型.md",
     "IT/Spring/Spring原理.md",
-    "常用语法和算法/常用算法/五大常用算法思想.md",
     "IT/编程理念.md",
     "IT/JAVA小知识点.md",
     "网络工程/网络通信/基础知识/常见网络参数解释.md",
@@ -243,9 +246,6 @@
     "IT/设计模式/单例设计模式.md",
     "IT/Spring/Servlet(服务器端小型通信).md",
     "obsidian相关/Picture/Servlet(服务器端小型通信)_image_1.png",
-    "IT/前端(VScode,VUE,nodejs)/域对象和ServletConfig.md",
-    "IT/Spring/SpringMVC(视图-模型-控制器设计模式).md",
-    "IT/JAVA底层知识/反射.md",
     "obsidian相关/Picture/cookie与session(会话数据保存)_image_1.png",
     "obsidian相关/Picture/其他算法_image_1.png",
     "obsidian相关/Picture/Mysql关键字_image_1.png",
