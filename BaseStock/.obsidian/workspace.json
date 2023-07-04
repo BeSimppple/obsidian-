@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "异常",
+                "query": "关键字",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -218,6 +218,8 @@
   },
   "active": "b2a30f5e1f5af8de",
   "lastOpenFiles": [
+    "IT/JAVA底层知识/JAVA关键字(常用).md",
+    "IT/JAVA底层知识/异常.md",
     "IT/多线程/多线程-线程安全.md",
     "每日八股文.md",
     "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md",
@@ -244,8 +246,6 @@
     "IT/Spring/SpringMVC(视图-模型-控制器设计模式).md",
     "IT/JAVA底层知识/反射.md",
     "IT/Python/常见问题.md",
-    "IT/设计模式/代理模式.md",
-    "IT/JAVA底层知识/JDK(JAVA底层原理)/类加载器和双亲委派.md",
     "obsidian相关/Picture/cookie与session(会话数据保存)_image_1.png",
     "obsidian相关/Picture/其他排序算法_image_1.png",
     "obsidian相关/Picture/Mysql关键字_image_1.png",

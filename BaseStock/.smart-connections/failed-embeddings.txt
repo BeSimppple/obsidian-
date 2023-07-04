@@ -1,5 +1,6 @@
 
 IT/JAVA小知识点.md
+IT/JAVA底层知识/异常.md
 IT/MySQL/Mysql关键字.md
 IT/MySQL/数据库概念.md
 IT/Python/Python基础函数等.md
