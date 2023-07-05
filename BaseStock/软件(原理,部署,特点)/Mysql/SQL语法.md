@@ -28,6 +28,7 @@
 	//查看账号信息不过密码是md5加密的
 	select * from mysql.user;
 
+
 **基础语法**
 	1. 数据定义语句DDL:  
     create、alter、drop、truncate（表结构）
@@ -57,11 +58,40 @@
 	show create table 表名
 	**删除表**
 	drop table 表名;
+	**删除字段**
+	alter table 表名 drop 字段名;
+	**添加新字段**
+	alter table 表名 add 新字段名 新数据类型\[新约束条件];
+	**修改字段名**
+	alter table 表名 change 旧字段名 新字段名 新数据类型
+	**修改数据类型**
+	alter table 表名 modify 字段名 新数据类型
+	**修改表明**
+	renanme table 旧表名 to 新表名
+**数据增删改查**
+	**插入**
+	insert into 表名(字段列表) values(值列表);
+	insert 表名 values(值列表) --该方式仅当值个数和字段个数相同时使用
+	insert into 表名(字段列表) values(值列表1)(值列表2)..(值列表n); ---插入多条
+	insert into  表名(字段列表1) select(字段列表2) form 表名2 where 条件表达式 --将select的结果插入
+	create table 新表 select * from 旧表 --赋值表结构及数据到新表
+	**修改**
+	update 表名 set 字段名1 = 值1 , 字段名2 = 值2...where\[条件表达式]
+	**删除**
+	delete from 表名 where \[条件表达式];
+	truncate table 表名 ---该方式直接清空表记录
+	**查询**
+	select 字段列表 from 表名 where \[条件表达式]
 	
 
 
 
-
+delete和truncate的区别
+	Delete不加WHERE条件是删除所有数据
+	Truncate不能够加WHERE条件
+	Delete可以加WHERE条件
+	Truncate会重置AUTO_INCREMENT
+	Delete可以进⾏回滚操作
 
 
 
