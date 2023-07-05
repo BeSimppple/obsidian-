@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md",
+                "file": "常用语法和算法/常用算法/五大常用算法思想.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "运算符",
+                "query": "斐波",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md",
+                "file": "常用语法和算法/常用算法/五大常用算法思想.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md",
+                "file": "常用语法和算法/常用算法/五大常用算法思想.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md"
+                "file": "常用语法和算法/常用算法/五大常用算法思想.md"
               }
             }
           },
@@ -219,11 +219,11 @@
   },
   "active": "194fe0772e9371ad",
   "lastOpenFiles": [
+    "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md",
     "IT/多线程/多线程.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
     "IT/JAVA底层知识/集合.md",
     "IT/JAVA底层知识/JAVA关键字(常用).md",
-    "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md",
     "IT/JAVA底层知识/异常.md",
     "IT/多线程/多线程-线程安全.md",
     "IT/机器学习/AI/OpenAI.md",
