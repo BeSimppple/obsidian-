@@ -28,14 +28,43 @@
 	//查看账号信息不过密码是md5加密的
 	select * from mysql.user;
 
-
-
-
-
-
-
 **基础语法**
+	1. 数据定义语句DDL:  
+    create、alter、drop、truncate（表结构）
+	2. 数据操作语句DML:  
+    insert、delete、update、select（数据）
+	3. 数据控制语句DCL:  
+    授权grant  
+    收回权限：revoke
+	4. 事务控制语句TCL:  
+    开启事务：begin  
+    提交：commit  
+    回滚：rollback
+**数据库操作**
+	**创建数据库**
+	create database stu_b default charset='utf8';
+	**显示数据库结构**
+	show create database 数据库名;
+	**删除数据库**
+	drop database 数据库名;
+**表操作**
+	**选择数据库**
+	Use 数据库名;
+	**创建表**
+	create table 表名(id int,name varchar(20)...表属性)
+	**显示表结构**
+	desc 表名
+	show create table 表名
+	**删除表**
+	drop table 表名;
 	
+
+
+
+
+
+
+
 
 
 
