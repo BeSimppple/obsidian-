@@ -102,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 272.50152587890625,
-    "collapsed": true
+    "width": 272.50152587890625
   },
   "right": {
     "id": "19525c4e90ab0b91",
@@ -217,7 +216,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "7278d5866d783733",
+  "active": "194fe0772e9371ad",
   "lastOpenFiles": [
     "IT/MySQL/Mysql数据类型.md",
     "obsidian相关/Picture/Mysql数据类型_image_3.png",
