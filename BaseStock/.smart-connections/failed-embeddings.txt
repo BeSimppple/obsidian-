@@ -22,6 +22,7 @@ IT/机器学习/AI/OpenAI.md#api ky:
 学习/金融/个人金融总结.md
 学习/金融/公司的盈利点和未来方向.md
 学习/金融/未命名.md
+学习/金融/股票/股票中的名词.md
 学习/金融/金融基本概念.md
 学习/金融/金融常用名词概念.md
 常用语法和算法/常用格式(ymal,xml,property)/XML(Extensible Markup Language).md#XML和DSL的区别
