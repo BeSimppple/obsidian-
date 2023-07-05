@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "斐波",
+                "query": "mysql",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -98,7 +98,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -216,7 +217,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "194fe0772e9371ad",
+  "active": "68447e7ec5dfad2f",
   "lastOpenFiles": [
     "常用语法和算法/常用算法/五大常用算法思想.md",
     "常用语法和算法/常用算法/数学/等差数列,等比数列.md",
