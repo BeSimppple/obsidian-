@@ -8,7 +8,7 @@ Transformer也是将词分成5个词或多个词,然后分出5个同步的模块
 
 
 
-
+API使用权限7月1日到期了
 
 #### api ky:
 ==用于obsidian==
