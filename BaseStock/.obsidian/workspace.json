@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/JAVA底层知识/反射.md",
+                "file": "IT/常用概念.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "反射",
+                "query": "弱引用",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/JAVA底层知识/反射.md",
+                "file": "IT/常用概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/JAVA底层知识/反射.md",
+                "file": "IT/常用概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/JAVA底层知识/反射.md"
+                "file": "IT/常用概念.md"
               }
             }
           },
@@ -219,6 +219,7 @@
   },
   "active": "194fe0772e9371ad",
   "lastOpenFiles": [
+    "IT/JAVA底层知识/反射.md",
     "学习/金融/金融常用名词概念.md",
     "学习/金融/金融相关法律.md",
     "学习/金融/金融基本概念.md",
