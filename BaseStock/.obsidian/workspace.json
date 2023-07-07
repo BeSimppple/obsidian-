@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/JAVA底层知识/集合.md",
+                "file": "常用语法和算法/算法/排序算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/JAVA底层知识/集合.md",
+                "file": "常用语法和算法/算法/排序算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/JAVA底层知识/集合.md"
+                "file": "常用语法和算法/算法/排序算法.md"
               }
             }
           },
@@ -188,7 +188,7 @@
             }
           },
           {
-            "id": "31ee1ae391d9bdc4",
+            "id": "2e58303d4baf377c",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -217,7 +217,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "31ee1ae391d9bdc4",
+  "active": "2e58303d4baf377c",
   "lastOpenFiles": [
     "常用语法和算法/算法/图/无向图.md",
     "obsidian相关/Picture/无向图_image_1.png",
