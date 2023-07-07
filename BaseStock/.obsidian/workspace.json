@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "集合",
+                "query": "真数组",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -219,6 +219,9 @@
   },
   "active": "194fe0772e9371ad",
   "lastOpenFiles": [
+    "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
+    "每日八股文(2).md",
+    "IT/JAVA底层知识/集合.md",
     "常用语法和算法/算法/排序算法.md",
     "常用语法和算法/算法/图/无向图.md",
     "obsidian相关/Picture/无向图_image_1.png",
@@ -233,8 +236,6 @@
     "常用语法和算法/Github找项目语法.md",
     "常用语法和算法/UML图.md",
     "软件(原理,部署,特点)/Idea/IDEA快捷键.md",
-    "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
-    "每日八股文(2).md",
     "IT/常用概念.md",
     "IT/JAVA底层知识/JAVA关键字(常用).md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
