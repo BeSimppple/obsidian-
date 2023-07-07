@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "LinkedList",
+                "query": "集合",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -217,7 +217,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "194fe0772e9371ad",
+  "active": "68447e7ec5dfad2f",
   "lastOpenFiles": [
     "软件(原理,部署,特点)/Redis/Redis原理.md",
     "每日八股文.md",
