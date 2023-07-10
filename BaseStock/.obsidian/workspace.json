@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用语法和算法/算法/排序算法.md",
+                "file": "IT/JAVA底层知识/Java数据类型.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "集合",
+                "query": "数据类型",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -119,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/JAVA底层知识/集合.md",
+                "file": "IT/JAVA底层知识/Java数据类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/JAVA底层知识/集合.md",
+                "file": "IT/JAVA底层知识/Java数据类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/JAVA底层知识/集合.md"
+                "file": "IT/JAVA底层知识/Java数据类型.md"
               }
             }
           },
@@ -217,8 +216,10 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "194fe0772e9371ad",
+  "active": "b2a30f5e1f5af8de",
   "lastOpenFiles": [
+    "常用语法和算法/算法/排序算法.md",
+    "IT/JAVA底层知识/集合.md",
     "IT/JAVA底层知识/泛型和IO流.md",
     "IT/JAVA底层知识/Java数据类型.md",
     "IT/JAVA底层知识/JAVA关键字(常用).md",
@@ -233,7 +234,6 @@
     "学习/语言学习/英语/常用转接词.md",
     "网络工程/计算机硬件系统/计算机.md",
     "网络工程/网络通信/OSI七层网络模型.md",
-    "IT/JAVA底层知识/集合.md",
     "软件(原理,部署,特点)/Redis/Redis原理.md",
     "IT/JAVA底层知识/数据结构.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
@@ -241,7 +241,6 @@
     "obsidian相关/Picture/tmp1688694585813_JVM_image_2.png",
     "IT/前端(VScode,VUE,nodejs)/HTML概念.md",
     "每日八股文(2).md",
-    "常用语法和算法/算法/排序算法.md",
     "常用语法和算法/算法/图/无向图.md",
     "obsidian相关/Picture/无向图_image_1.png",
     "常用语法和算法/算法/图/AOV网图.md",

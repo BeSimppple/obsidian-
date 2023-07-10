@@ -42,8 +42,11 @@ String
 	\== 在比较基础数据类型的时候比较的是值,引用数据类型比较的是地址值
 	equal比较的是值
 
-
-
+---
+## 常用方法
+**常用类**
+	Character类
+		toString()方法 将char转换成String
 
 
 
