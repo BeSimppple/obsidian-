@@ -48,6 +48,9 @@ String
 	Character类
 		toString()方法 将char转换成String
 
+String转换成String[]和char[]  (  split()和toCharArray()  )
+	1. split是根据正则表达式分割成Sring[]
+	2.toCharArray是转换成char[]数组
 
 
 
