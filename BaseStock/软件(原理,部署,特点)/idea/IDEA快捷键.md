@@ -18,11 +18,12 @@
 13. **Ctrl + Shift +** 回车键 语句补全
 14. **Ctrl + Shift + 数字** 自定义标签行   使用**Ctrl + 数字**进行跳转指定标签行
 15. **Ctrl + Alt + T** 使用模版环绕所选代码(例如try/catch)  **Ctrl + Shift + Delete** 解除环绕
-16. **Ctrl + Alt + Shift + j** 选中光标处所有相同文本(同时修改用)   **Alt + j** 选中光标处文本  **Alt + Shift + j** 取消上一个
-17. **Ctrl + Alt + M** 将所选代码块提取为方法
-18. **Ctrl + Alt + T** 重构菜单(多选菜单提供多种服务) 
-19. **Ctrl + Alt + F/R** 在文件中查找/替换  (提供是否区分大小与是否全匹配)
-20. **Ctrl +** 
+16. **Ctrl + Alt + U** 查看该类关系图
+17. **Ctrl + Alt + Shift + j** 选中光标处所有相同文本(同时修改用)   **Alt + j** 选中光标处文本  **Alt + Shift + j** 取消上一个
+18. **Ctrl + Alt + M** 将所选代码块提取为方法
+19. **Ctrl + Alt + T** 重构菜单(多选菜单提供多种服务) 
+20. **Ctrl + Alt + F/R** 在文件中查找/替换  (提供是否区分大小与是否全匹配)
+21. **Ctrl +** 
 
 其他快捷键
 	list.for 会自动转换成list的增强for循环
