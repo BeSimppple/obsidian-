@@ -198,7 +198,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,8 +217,15 @@
   },
   "active": "b2a30f5e1f5af8de",
   "lastOpenFiles": [
-    "IT/多线程/多线程.md",
+    "学习/金融/投资.md",
     "学习/金融/美股注意事项.md",
+    "学习/金融/金融相关法律.md",
+    "学习/金融/金融基本概念.md",
+    "学习/金融/金融常用名词概念.md",
+    "学习/金融/公司的盈利点和未来方向.md",
+    "学习/金融/个人金融总结.md",
+    "学习/金融/标普500指数基金.md",
+    "IT/多线程/多线程.md",
     "IT/JAVA底层知识/反射.md",
     "IT/常用概念.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
@@ -235,13 +243,6 @@
     "常用语法和算法/算法/排序算法.md",
     "IT/JAVA底层知识/集合.md",
     "IT/JAVA底层知识/泛型和IO流.md",
-    "IT/Spring/IOC(控制反转给容器).md",
-    "每日八股文.md",
-    "IT/SpringBoot/SpringBoot.md",
-    "IT/SpringCloud/Gateway(网关).md",
-    "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
-    "学习/语言学习/英语/常用转接词.md",
-    "网络工程/计算机硬件系统/计算机.md",
     "obsidian相关/Picture/JVM_image_2.png",
     "obsidian相关/Picture/tmp1688694585813_JVM_image_2.png",
     "obsidian相关/Picture/无向图_image_1.png",
