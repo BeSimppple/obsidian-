@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/多线程/多线程.md",
+                "file": "学习/金融/美股注意事项.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "多线程",
+                "query": "金融",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -97,8 +97,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -118,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/多线程/多线程.md",
+                "file": "学习/金融/美股注意事项.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/多线程/多线程.md",
+                "file": "学习/金融/美股注意事项.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/多线程/多线程.md"
+                "file": "学习/金融/美股注意事项.md"
               }
             }
           },
@@ -215,8 +214,10 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "e9c3ef6c47652340",
+  "active": "b2a30f5e1f5af8de",
   "lastOpenFiles": [
+    "IT/多线程/多线程.md",
+    "学习/金融/美股注意事项.md",
     "IT/JAVA底层知识/反射.md",
     "IT/常用概念.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
@@ -241,8 +242,6 @@
     "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
     "学习/语言学习/英语/常用转接词.md",
     "网络工程/计算机硬件系统/计算机.md",
-    "网络工程/网络通信/OSI七层网络模型.md",
-    "软件(原理,部署,特点)/Redis/Redis原理.md",
     "obsidian相关/Picture/JVM_image_2.png",
     "obsidian相关/Picture/tmp1688694585813_JVM_image_2.png",
     "obsidian相关/Picture/无向图_image_1.png",
