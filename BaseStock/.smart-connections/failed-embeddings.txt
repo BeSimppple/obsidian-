@@ -21,6 +21,7 @@ IT/多线程/多线程-线程安全.md
 IT/常用概念.md
 IT/机器学习/AI/OpenAI.md
 IT/机器学习/AI/OpenAI.md#api ky:
+IT/设计模式/桥接模式.md
 学习/JAVA学习XIMD图.md
 学习/金融/个人金融总结.md
 学习/金融/公司的盈利点和未来方向.md
