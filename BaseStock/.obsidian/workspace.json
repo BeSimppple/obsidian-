@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "线性",
+                "query": "队列",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -216,7 +216,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "b2a30f5e1f5af8de",
+  "active": "68447e7ec5dfad2f",
   "lastOpenFiles": [
     "IT/JAVA底层知识/集合.md",
     "常用语法和算法/算法/五大常用算法思想.md",
