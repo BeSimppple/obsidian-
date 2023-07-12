@@ -186,7 +186,7 @@
             }
           },
           {
-            "id": "87c0f30be9dbcb36",
+            "id": "939a9886f5489de8",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -198,8 +198,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -215,7 +214,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "b2a30f5e1f5af8de",
+  "active": "939a9886f5489de8",
   "lastOpenFiles": [
     "常用语法和算法/算法/查找算法.md",
     "常用语法和算法/算法/加密算法/常用加密算法.md",
