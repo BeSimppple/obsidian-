@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用语法和算法/算法/加密算法/常用加密算法.md",
+                "file": "学习/金融/股票/股票中的名词.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法和算法/算法/加密算法/常用加密算法.md",
+                "file": "学习/金融/股票/股票中的名词.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法和算法/算法/加密算法/常用加密算法.md",
+                "file": "学习/金融/股票/股票中的名词.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法和算法/算法/加密算法/常用加密算法.md"
+                "file": "学习/金融/股票/股票中的名词.md"
               }
             }
           },
@@ -214,10 +214,12 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "939a9886f5489de8",
+  "active": "b2a30f5e1f5af8de",
   "lastOpenFiles": [
-    "常用语法和算法/算法/查找算法.md",
+    "学习/K语言.md",
+    "obsidian相关/Picture/K语言_image_1.png",
     "常用语法和算法/算法/加密算法/常用加密算法.md",
+    "常用语法和算法/算法/查找算法.md",
     "常用语法和算法/算法/加密算法",
     "常用语法和算法/算法/IDEA中算法解题思路.md",
     "常用语法和算法/算法/五大常用算法思想.md",
@@ -242,8 +244,6 @@
     "IT/常用概念.md",
     "网络工程/网络通信/基础知识/常见网络参数解释.md",
     "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md",
-    "学习/语言学习/英语/常用转接词.md",
-    "IT/SpringCloud/Gateway(网关).md",
     "obsidian相关/Picture/JVM_image_2.png",
     "obsidian相关/Picture/tmp1688694585813_JVM_image_2.png",
     "obsidian相关/Picture/无向图_image_1.png",
@@ -254,7 +254,6 @@
     "obsidian相关/Picture/Mysql数据类型_image_1.png",
     "obsidian相关/Picture/数学简单公式_image_1.png",
     "obsidian相关/Picture/Servlet(服务器端小型通信)_image_1.png",
-    "obsidian相关/Picture/cookie与session(会话数据保存)_image_1.png",
     "学习/日记",
     "未命名.canvas",
     "学习/金融",
