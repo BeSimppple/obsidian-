@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习/金融/股票/股票中的名词.md",
+                "file": "常用语法和算法/算法/IDEA中算法解题思路.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/金融/股票/股票中的名词.md",
+                "file": "常用语法和算法/算法/IDEA中算法解题思路.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/金融/股票/股票中的名词.md",
+                "file": "常用语法和算法/算法/IDEA中算法解题思路.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/金融/股票/股票中的名词.md"
+                "file": "常用语法和算法/算法/IDEA中算法解题思路.md"
               }
             }
           },
@@ -186,7 +186,7 @@
             }
           },
           {
-            "id": "939a9886f5489de8",
+            "id": "7fc3062c7fe2006c",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -216,6 +216,7 @@
   },
   "active": "b2a30f5e1f5af8de",
   "lastOpenFiles": [
+    "学习/金融/股票/股票中的名词.md",
     "学习/K语言.md",
     "obsidian相关/Picture/K语言_image_1.png",
     "常用语法和算法/算法/加密算法/常用加密算法.md",
@@ -235,7 +236,6 @@
     "学习/金融/公司的盈利点和未来方向.md",
     "学习/金融/个人金融总结.md",
     "学习/金融/标普500指数基金.md",
-    "学习/金融/股票/股票中的名词.md",
     "IT/JAVA底层知识/Java数据类型.md",
     "学习/金融/投资.md",
     "obsidian相关/Picture/数据结构_image_2.png",
