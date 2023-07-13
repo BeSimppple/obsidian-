@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件(原理,部署,特点)/Idea/IDEA插件.md",
+                "file": "学习/语言学习/英语/学习软件.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Idea插件",
+                "query": "英语",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -97,8 +97,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -118,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/Idea/IDEA插件.md",
+                "file": "学习/语言学习/英语/学习软件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/Idea/IDEA插件.md",
+                "file": "学习/语言学习/英语/学习软件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/Idea/IDEA插件.md"
+                "file": "学习/语言学习/英语/学习软件.md"
               }
             }
           },
@@ -216,8 +215,13 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "b2a30f5e1f5af8de",
+  "active": "7278d5866d783733",
   "lastOpenFiles": [
+    "学习/语言学习/英语/未命名.md",
+    "学习/语言学习/英语/学习软件.md",
+    "学习/语言学习/英语/英语短语.md",
+    "学习/语言学习/英语/英语技巧.md",
+    "软件(原理,部署,特点)/Idea/IDEA插件.md",
     "IT/MySQL/Mysql关键字.md",
     "IT/未归类知识点/支付sdk(software development kit).md",
     "IT/MySQL/数据库概念.md",
@@ -242,11 +246,6 @@
     "IT/JAVA底层知识/集合.md",
     "学习/金融/美股注意事项.md",
     "学习/金融/金融相关法律.md",
-    "学习/金融/金融常用名词概念.md",
-    "学习/金融/金融基本概念.md",
-    "学习/金融/公司的盈利点和未来方向.md",
-    "学习/金融/个人金融总结.md",
-    "IT/JAVA底层知识/Java数据类型.md",
     "obsidian相关/Picture/数据结构_image_2.png",
     "obsidian相关/Picture/JVM_image_2.png",
     "obsidian相关/Picture/tmp1688694585813_JVM_image_2.png",

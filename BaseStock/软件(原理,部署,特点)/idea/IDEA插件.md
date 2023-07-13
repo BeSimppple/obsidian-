@@ -9,5 +9,7 @@
 8. shellcheck 脚本语法检查
 
 
+[其他未尝试的他人推荐10款插件](https://juejin.cn/post/7225989135999434789)
+
 maven项目需要打开user plugin registry才能正确定使用plugins插件
 勾选enable annotation processing使注解生效
