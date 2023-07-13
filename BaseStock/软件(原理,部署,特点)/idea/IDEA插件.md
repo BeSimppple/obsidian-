@@ -4,8 +4,9 @@
 4. translation 翻译插件 支持有道等..
 5. free for mybatis  sql编写语法提示
 6. JD-IntelliJ  代码反编译插件
+7. TabNine  AI辅助代码
 
-7. shellcheck 脚本语法检查
+8. shellcheck 脚本语法检查
 
 
 maven项目需要打开user plugin registry才能正确定使用plugins插件

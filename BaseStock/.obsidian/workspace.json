@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用语法和算法/正则表达式.md",
+                "file": "软件(原理,部署,特点)/Idea/IDEA插件.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "算法",
+                "query": "Idea插件",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -97,7 +97,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -117,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法和算法/正则表达式.md",
+                "file": "软件(原理,部署,特点)/Idea/IDEA插件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法和算法/正则表达式.md",
+                "file": "软件(原理,部署,特点)/Idea/IDEA插件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法和算法/正则表达式.md"
+                "file": "软件(原理,部署,特点)/Idea/IDEA插件.md"
               }
             }
           },
@@ -217,6 +218,11 @@
   },
   "active": "b2a30f5e1f5af8de",
   "lastOpenFiles": [
+    "IT/MySQL/Mysql关键字.md",
+    "IT/未归类知识点/支付sdk(software development kit).md",
+    "IT/MySQL/数据库概念.md",
+    "每日八股文.md",
+    "常用语法和算法/正则表达式.md",
     "学习/金融/标普500指数基金.md",
     "学习/金融/个人/软件开发.md",
     "常用语法和算法/算法/IDEA中算法解题思路.md",
@@ -241,12 +247,7 @@
     "学习/金融/公司的盈利点和未来方向.md",
     "学习/金融/个人金融总结.md",
     "IT/JAVA底层知识/Java数据类型.md",
-    "学习/金融/投资.md",
     "obsidian相关/Picture/数据结构_image_2.png",
-    "IT/多线程/多线程-线程安全.md",
-    "常用语法和算法/算法/算法基础概念/广度优先和深度优先.md",
-    "IT/常用概念.md",
-    "网络工程/网络通信/基础知识/常见网络参数解释.md",
     "obsidian相关/Picture/JVM_image_2.png",
     "obsidian相关/Picture/tmp1688694585813_JVM_image_2.png",
     "obsidian相关/Picture/无向图_image_1.png",
