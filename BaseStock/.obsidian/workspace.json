@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用语法和算法/算法/查找算法.md",
+                "file": "常用语法和算法/算法/排序算法.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法和算法/算法/查找算法.md",
+                "file": "常用语法和算法/算法/排序算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法和算法/算法/查找算法.md",
+                "file": "常用语法和算法/算法/排序算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法和算法/算法/查找算法.md"
+                "file": "常用语法和算法/算法/排序算法.md"
               }
             }
           },
@@ -217,12 +217,12 @@
   },
   "active": "b2a30f5e1f5af8de",
   "lastOpenFiles": [
+    "常用语法和算法/算法/查找算法.md",
+    "常用语法和算法/算法/排序算法.md",
     "常用语法和算法/算法/其他算法.md",
     "常用语法和算法/算法/RSA非对称加密.md",
     "常用语法和算法/算法/IDEA中算法解题思路.md",
     "常用语法和算法/算法/五大常用算法思想.md",
-    "常用语法和算法/算法/排序算法.md",
-    "常用语法和算法/算法/查找算法.md",
     "常用语法和算法/算法/加密算法/常用加密算法.md",
     "常用语法和算法/算法/数学/等差数列,等比数列.md",
     "IT/MySQL/数据库概念.md",
