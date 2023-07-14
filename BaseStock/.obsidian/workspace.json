@@ -187,7 +187,7 @@
             }
           },
           {
-            "id": "7fc3062c7fe2006c",
+            "id": "cc8d8caf01d0164e",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -216,7 +216,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "b2a30f5e1f5af8de",
+  "active": "cc8d8caf01d0164e",
   "lastOpenFiles": [
     "常用语法和算法/算法/其他算法.md",
     "常用语法和算法/正则表达式.md",
