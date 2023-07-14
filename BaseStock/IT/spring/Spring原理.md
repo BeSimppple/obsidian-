@@ -20,9 +20,17 @@ Spring概述:
 	2、 属性设置(populate)
 	调用set方法设置属性值
 	3、 初始化(Initialization)
-	init初始化
+		1. 能调用init()方法初始化
+		2.可执行各种初始化逻辑,例如实现 `InitializingBean`接口的`afterPropertiesSet()`方法，或者使用注解的`@PostConstruct`方法等。
 	4、 销毁(Destruction)
-	destroy销毁
+		1. 可以通过配置文件或注解方式指定destory方法然后调用destroy()销毁
+		2. 可以执行一些清理操作，如释放资源、关闭连接等
+Bean的几种初始化方式
+	1. **使用构造函数**：通过在Bean的类中定义一个构造函数，Spring会在实例化Bean时调用该构造函数进行初始化。可以通过配置文件或使用注解来指定构造函数的参数和值。
+	2. **使用工厂方法**：可以在Bean的类中定义一个工厂方法，通过该方法创建Bean的实例。在配置文件或使用注解时，可以使用`factory-method`属性或`@Bean`注解来指定工厂方法的名称和参数。
+	3. **使用初始化方法**：可以在Bean的类中定义一个初始化方法，在Bean实例化后调用该方法进行初始化操作。可以使用`init-method`属性或`@PostConstruct`注解来指定初始化方法的名称。
+	4. **实现`InitializingBean`接口**：Bean的类可以实现`InitializingBean`接口，并实现其中的`afterPropertiesSet()`方法。在Bean实例化后，Spring会调用该方法进行初始化。
+	5. **自定义初始化方法**：除了使用`init-method`属性或`@PostConstruct`注解指定初始化方法外，还可以通过自定义的方式在Bean的类中定义一个初始化方法，并在配置文件或其他适当位置指定该方法。
 bean的几种模式（方法上，得有@Bean）
 	① Singleton（单例,一个Spring容器中只有一个bean实例，默认模式）,
 	② Protetype（多例,每次调用新建一个bean）,
