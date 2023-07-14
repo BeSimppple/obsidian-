@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用语法和算法/算法/数学/等差数列,等比数列.md",
+                "file": "常用语法和算法/算法/查找算法.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,8 +97,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -118,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法和算法/算法/数学/等差数列,等比数列.md",
+                "file": "常用语法和算法/算法/查找算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法和算法/算法/数学/等差数列,等比数列.md",
+                "file": "常用语法和算法/算法/查找算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法和算法/算法/数学/等差数列,等比数列.md"
+                "file": "常用语法和算法/算法/查找算法.md"
               }
             }
           },
@@ -218,6 +217,14 @@
   },
   "active": "b2a30f5e1f5af8de",
   "lastOpenFiles": [
+    "常用语法和算法/算法/其他算法.md",
+    "常用语法和算法/算法/RSA非对称加密.md",
+    "常用语法和算法/算法/IDEA中算法解题思路.md",
+    "常用语法和算法/算法/五大常用算法思想.md",
+    "常用语法和算法/算法/排序算法.md",
+    "常用语法和算法/算法/查找算法.md",
+    "常用语法和算法/算法/加密算法/常用加密算法.md",
+    "常用语法和算法/算法/数学/等差数列,等比数列.md",
     "IT/MySQL/数据库概念.md",
     "软件(原理,部署,特点)/Mysql/Mysql快捷键.md",
     "IT/常用概念.md",
@@ -231,19 +238,11 @@
     "IT/设计模式/代理模式.md",
     "学习/金融/美股注意事项.md",
     "IT/机器学习/AI/卷积和池化.md",
-    "常用语法和算法/算法/其他算法.md",
     "常用语法和算法/正则表达式.md",
     "学习/语言学习/英语/学习软件.md",
     "学习/金融/股票/股票中的名词.md",
     "学习/语言学习/英语/未命名.md",
     "学习/语言学习/英语/英语短语.md",
-    "学习/语言学习/英语/英语技巧.md",
-    "软件(原理,部署,特点)/Idea/IDEA插件.md",
-    "IT/MySQL/Mysql关键字.md",
-    "IT/未归类知识点/支付sdk(software development kit).md",
-    "每日八股文.md",
-    "学习/金融/标普500指数基金.md",
-    "学习/金融/个人/软件开发.md",
     "学习/金融/个人",
     "obsidian相关/Picture/K语言_image_1.png",
     "常用语法和算法/算法/加密算法",
