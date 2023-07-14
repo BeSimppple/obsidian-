@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "等差数列",
+                "query": "满二叉树",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -97,7 +97,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
