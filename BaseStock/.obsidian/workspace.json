@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/MySQL/数据库概念.md",
+                "file": "常用语法和算法/算法/数学/等差数列,等比数列.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "数据库",
+                "query": "等差数列",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/MySQL/数据库概念.md",
+                "file": "常用语法和算法/算法/数学/等差数列,等比数列.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/MySQL/数据库概念.md",
+                "file": "常用语法和算法/算法/数学/等差数列,等比数列.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/MySQL/数据库概念.md"
+                "file": "常用语法和算法/算法/数学/等差数列,等比数列.md"
               }
             }
           },
@@ -218,6 +218,7 @@
   },
   "active": "b2a30f5e1f5af8de",
   "lastOpenFiles": [
+    "IT/MySQL/数据库概念.md",
     "软件(原理,部署,特点)/Mysql/Mysql快捷键.md",
     "IT/常用概念.md",
     "网络工程/网络通信/基础知识/常见http响应码.md",
@@ -240,7 +241,6 @@
     "软件(原理,部署,特点)/Idea/IDEA插件.md",
     "IT/MySQL/Mysql关键字.md",
     "IT/未归类知识点/支付sdk(software development kit).md",
-    "IT/MySQL/数据库概念.md",
     "每日八股文.md",
     "学习/金融/标普500指数基金.md",
     "学习/金融/个人/软件开发.md",
