@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "满二叉树",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -97,8 +97,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -216,7 +215,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "b55225a52f2a842d",
+  "active": "7278d5866d783733",
   "lastOpenFiles": [
     "常用语法和算法/算法常用概念.md",
     "IT/常用概念.md",
