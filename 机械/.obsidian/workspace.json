@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "模具UG设计/常用命令(曲线,曲面,实体).md",
+                "file": "模具UG设计/模具知识管理类/常用名词.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,6 +77,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "e49e16f6462f1646",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -98,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "模具UG设计/常用命令(曲线,曲面,实体).md",
+                "file": "模具UG设计/模具知识管理类/常用名词.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "模具UG设计/常用命令(曲线,曲面,实体).md",
+                "file": "模具UG设计/模具知识管理类/常用名词.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "模具UG设计/常用命令(曲线,曲面,实体).md"
+                "file": "模具UG设计/模具知识管理类/常用名词.md"
               }
             }
           },
@@ -182,6 +190,8 @@
   },
   "active": "d799e2b4dceb9a11",
   "lastOpenFiles": [
+    "模具实际加工工艺/模具实际加工流程.md",
+    "模具UG设计/常用命令(曲线,曲面,实体).md",
     "模具UG设计/备料流程.md",
     "模具UG设计/模具知识管理类/细节.md",
     "模具UG设计/模具知识管理类/模具设计.md",
@@ -192,8 +202,6 @@
     "模具UG设计/问题集.md",
     "模具UG设计/UG快捷键.md",
     "模具UG设计/UG逆向工程.md",
-    "模具UG设计/常用命令(曲线,曲面,实体).md",
-    "模具实际加工工艺/模具实际加工流程.md",
     "模具实际加工工艺/未命名.canvas",
     "Day Planners/Day Planner-20230314.md",
     "机械",
