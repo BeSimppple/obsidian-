@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用语法和算法/算法/排序算法.md",
+                "file": "开店/成本估算.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,6 +38,18 @@
               "type": "markdown",
               "state": {
                 "file": "IT/JAVA底层知识/数据结构.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6a04bb2dc73d0c15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian相关/Obsidian快捷键.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "快捷键",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -97,7 +109,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -117,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法和算法/算法/排序算法.md",
+                "file": "开店/成本估算.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法和算法/算法/排序算法.md",
+                "file": "开店/成本估算.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法和算法/算法/排序算法.md"
+                "file": "开店/成本估算.md"
               }
             }
           },
@@ -186,7 +199,7 @@
             }
           },
           {
-            "id": "b55225a52f2a842d",
+            "id": "309312d860d2036b",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -194,7 +207,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -215,11 +228,15 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "7278d5866d783733",
+  "active": "b2a30f5e1f5af8de",
   "lastOpenFiles": [
+    "obsidian相关/Obsidian快捷键.md",
+    "开店/成本估算.md",
+    "IT/Spring/AOP(基于面动态代理).md",
+    "常用语法和算法/算法/排序算法.md",
+    "开店",
     "常用语法和算法/算法常用概念.md",
     "IT/常用概念.md",
-    "常用语法和算法/算法/排序算法.md",
     "常用语法和算法/算法/查找算法.md",
     "常用语法和算法/算法/其他算法.md",
     "常用语法和算法/算法/RSA非对称加密.md",
@@ -235,14 +252,11 @@
     "每日八股文(2).md",
     "IT/Spring/过滤器,拦截器,监听器.md",
     "IT/JAVA底层知识/反射.md",
-    "IT/Spring/AOP(基于面动态代理).md",
     "IT/设计模式/代理模式.md",
     "学习/金融/美股注意事项.md",
     "IT/机器学习/AI/卷积和池化.md",
     "常用语法和算法/正则表达式.md",
     "学习/语言学习/英语/学习软件.md",
-    "学习/金融/股票/股票中的名词.md",
-    "学习/语言学习/英语/未命名.md",
     "学习/金融/个人",
     "obsidian相关/Picture/K语言_image_1.png",
     "常用语法和算法/算法/加密算法",
@@ -262,7 +276,6 @@
     "学习/金融",
     "IT/Python",
     "IT/机器学习",
-    "常用语法和算法/算法/算法基础概念",
-    "IT/多线程"
+    "常用语法和算法/算法/算法基础概念"
   ]
 }
