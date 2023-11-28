@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "f92771df2509d502",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
+          },
+          {
             "id": "194fe0772e9371ad",
             "type": "leaf",
             "state": {
@@ -55,7 +65,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,7 +210,7 @@
             }
           },
           {
-            "id": "309312d860d2036b",
+            "id": "cfb3ceedbcda8345",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -207,12 +218,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,7 +238,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "b2a30f5e1f5af8de",
+  "active": "f92771df2509d502",
   "lastOpenFiles": [
     "obsidian相关/Obsidian快捷键.md",
     "开店/成本估算.md",
