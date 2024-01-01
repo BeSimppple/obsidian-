@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开店/成本估算.md",
+                "file": "学习/金融/经商定位/定位.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "开店/成本估算.md",
+                "file": "学习/金融/经商定位/定位.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "开店/成本估算.md",
+                "file": "学习/金融/经商定位/定位.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "开店/成本估算.md"
+                "file": "学习/金融/经商定位/定位.md"
               }
             }
           },
@@ -211,7 +211,7 @@
             }
           },
           {
-            "id": "07d0807d308b6dc2",
+            "id": "607e448485a588f8",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -239,10 +239,12 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "07d0807d308b6dc2",
+  "active": "f92771df2509d502",
   "lastOpenFiles": [
-    "obsidian相关/Obsidian快捷键.md",
     "开店/成本估算.md",
+    "学习/金融/经商定位/定位.md",
+    "学习/金融/经商定位",
+    "obsidian相关/Obsidian快捷键.md",
     "IT/Spring/AOP(基于面动态代理).md",
     "常用语法和算法/算法/排序算法.md",
     "开店",
@@ -267,7 +269,6 @@
     "学习/金融/美股注意事项.md",
     "IT/机器学习/AI/卷积和池化.md",
     "常用语法和算法/正则表达式.md",
-    "学习/语言学习/英语/学习软件.md",
     "学习/金融/个人",
     "obsidian相关/Picture/K语言_image_1.png",
     "常用语法和算法/算法/加密算法",
@@ -286,7 +287,6 @@
     "未命名.canvas",
     "学习/金融",
     "IT/Python",
-    "IT/机器学习",
-    "常用语法和算法/算法/算法基础概念"
+    "IT/机器学习"
   ]
 }
