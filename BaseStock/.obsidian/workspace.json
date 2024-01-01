@@ -219,11 +219,12 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,7 +240,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "f92771df2509d502",
+  "active": "d67992ba8d983750",
   "lastOpenFiles": [
     "开店/成本估算.md",
     "学习/金融/经商定位/定位.md",
