@@ -66,9 +66,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0c0cb3fed3b5ebce",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -211,7 +221,7 @@
             }
           },
           {
-            "id": "607e448485a588f8",
+            "id": "04298979a0755035",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -219,12 +229,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,7 +249,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "d67992ba8d983750",
+  "active": "0c0cb3fed3b5ebce",
   "lastOpenFiles": [
     "开店/成本估算.md",
     "学习/金融/经商定位/定位.md",
