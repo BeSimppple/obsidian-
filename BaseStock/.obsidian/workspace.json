@@ -66,19 +66,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "0c0cb3fed3b5ebce",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.3"
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -152,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/金融/经商定位/定位.md",
+                "file": "obsidian相关/Obsidian快捷键.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/金融/经商定位/定位.md",
+                "file": "obsidian相关/Obsidian快捷键.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/金融/经商定位/定位.md"
+                "file": "obsidian相关/Obsidian快捷键.md"
               }
             }
           },
@@ -233,7 +223,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -249,7 +240,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "0c0cb3fed3b5ebce",
+  "active": "6a04bb2dc73d0c15",
   "lastOpenFiles": [
     "开店/成本估算.md",
     "学习/金融/经商定位/定位.md",
