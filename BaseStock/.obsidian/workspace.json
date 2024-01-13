@@ -8,48 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b2a30f5e1f5af8de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "开店/成本估算.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f92771df2509d502",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习/金融/经商定位/定位.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "194fe0772e9371ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/Spring/AOP(基于面动态代理).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "203bca121752b890",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/JAVA底层知识/数据结构.md",
+                "file": "每日八股文(2).md",
                 "mode": "source",
                 "source": false
               }
@@ -66,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ba2b520b97aab8d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "面试",
+                "query": "常用",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -143,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "每日八股文.md",
+                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "每日八股文.md",
+                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "每日八股文.md"
+                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md"
               }
             }
           },
@@ -241,36 +217,36 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "6a04bb2dc73d0c15",
+  "active": "ba2b520b97aab8d7",
   "lastOpenFiles": [
-    "开店/成本估算.md",
-    "obsidian相关/Obsidian快捷键.md",
-    "学习/金融/经商定位/定位.md",
-    "学习/金融/经商定位",
+    "网络工程/网络通信/基础知识/常见网络参数解释.md",
+    "学习/语言学习/英语/常用短句.md",
+    "IT/常用概念.md",
+    "常用语法和算法/常用格式(ymal,xml,property)/常用格式.md",
+    "软件(原理,部署,特点)/Idea/常用配置.md",
+    "网络工程/计算机硬件系统/常用文件后缀解释.md",
+    "常用语法和算法/算法常用概念.md",
+    "每日八股文(2).md",
+    "sortspec.md",
+    "每日八股文.md",
+    "学习/JAVA学习.md",
+    "学习/K语言.md",
+    "学习/学习方法.md",
+    "IT/JAVA底层知识/数据结构.md",
+    "学习/日记/2023-05-25.md",
+    "学习/日记/2023-05-26.md",
     "IT/Spring/AOP(基于面动态代理).md",
+    "开店/成本估算.md",
+    "学习/金融/经商定位/定位.md",
+    "obsidian相关/Obsidian快捷键.md",
+    "学习/金融/经商定位",
     "常用语法和算法/算法/排序算法.md",
     "开店",
-    "常用语法和算法/算法常用概念.md",
-    "IT/常用概念.md",
     "常用语法和算法/算法/查找算法.md",
     "常用语法和算法/算法/其他算法.md",
     "常用语法和算法/算法/RSA非对称加密.md",
     "常用语法和算法/算法/IDEA中算法解题思路.md",
     "常用语法和算法/算法/五大常用算法思想.md",
-    "常用语法和算法/算法/加密算法/常用加密算法.md",
-    "常用语法和算法/算法/数学/等差数列,等比数列.md",
-    "IT/MySQL/数据库概念.md",
-    "软件(原理,部署,特点)/Mysql/Mysql快捷键.md",
-    "网络工程/网络通信/基础知识/常见http响应码.md",
-    "IT/Spring/Servlet(服务器端小型通信).md",
-    "IT/Spring/Spring原理.md",
-    "每日八股文(2).md",
-    "IT/Spring/过滤器,拦截器,监听器.md",
-    "IT/JAVA底层知识/反射.md",
-    "IT/设计模式/代理模式.md",
-    "学习/金融/美股注意事项.md",
-    "IT/机器学习/AI/卷积和池化.md",
-    "常用语法和算法/正则表达式.md",
     "学习/金融/个人",
     "obsidian相关/Picture/K语言_image_1.png",
     "常用语法和算法/算法/加密算法",
