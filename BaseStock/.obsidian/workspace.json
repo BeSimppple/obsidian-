@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -155,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "采购/采购流程.md",
+                "file": "每日八股文.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "采购/采购流程.md",
+                "file": "每日八股文.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "采购/采购流程.md"
+                "file": "每日八股文.md"
               }
             }
           },
@@ -253,14 +253,14 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "88c72061875d283f",
+  "active": "6a04bb2dc73d0c15",
   "lastOpenFiles": [
+    "采购/采购流程.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
     "每日八股文(2).md",
     "IT/常用概念.md",
     "每日八股文.md",
     "IT/多线程/多线程.md",
-    "采购/采购流程.md",
     "obsidian相关/Obsidian快捷键.md",
     "IT/多线程/多线程-线程安全.md",
     "IT/未归类知识点/支付sdk(software development kit).md",
