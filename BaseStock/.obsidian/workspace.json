@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "每日八股文(2).md",
+                "file": "每日八股文.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "每日八股文.md",
+                "file": "IT/SpringBoot/SpringBoot.md",
                 "mode": "source",
                 "source": false
               }
@@ -79,8 +79,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +108,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "轻量锁",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -134,8 +133,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -253,13 +251,16 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "6a04bb2dc73d0c15",
+  "active": "203bca121752b890",
   "lastOpenFiles": [
+    "每日八股文(2).md",
+    "IT/SpringBoot/SpringBoot.md",
+    "每日八股文.md",
+    "软件(原理,部署,特点)/Mysql/SQL语法.md",
+    "IT/MySQL/Mysql关键字.md",
     "采购/采购流程.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
-    "每日八股文(2).md",
     "IT/常用概念.md",
-    "每日八股文.md",
     "IT/多线程/多线程.md",
     "obsidian相关/Obsidian快捷键.md",
     "IT/多线程/多线程-线程安全.md",
@@ -279,9 +280,6 @@
     "IT/JAVA底层知识/数据结构.md",
     "学习/日记/2023-05-25.md",
     "学习/日记/2023-05-26.md",
-    "IT/Spring/AOP(基于面动态代理).md",
-    "开店/成本估算.md",
-    "学习/金融/经商定位/定位.md",
     "学习/金融/经商定位",
     "开店",
     "学习/金融/个人",
