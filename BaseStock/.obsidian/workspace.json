@@ -44,19 +44,19 @@
             }
           },
           {
-            "id": "551d71c0d02a1623",
+            "id": "a2cb967424d91760",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/JAVA底层知识/集合.md",
+                "file": "obsidian相关/Obsidian快捷键.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "集合",
+                "query": "快捷键",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/JAVA底层知识/集合.md",
+                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/JAVA底层知识/集合.md",
+                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/JAVA底层知识/集合.md"
+                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md"
               }
             }
           },
@@ -200,7 +200,7 @@
             }
           },
           {
-            "id": "d72f6ffcb0d22ec6",
+            "id": "4adb494135f5077c",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -229,11 +229,13 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "551d71c0d02a1623",
+  "active": "ba2b520b97aab8d7",
   "lastOpenFiles": [
-    "每日八股文(2).md",
+    "obsidian相关/Obsidian快捷键.md",
     "每日八股文.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
+    "IT/JAVA底层知识/集合.md",
+    "每日八股文(2).md",
     "网络工程/网络通信/基础知识/常见网络参数解释.md",
     "学习/语言学习/英语/常用短句.md",
     "IT/常用概念.md",
@@ -251,14 +253,12 @@
     "IT/Spring/AOP(基于面动态代理).md",
     "开店/成本估算.md",
     "学习/金融/经商定位/定位.md",
-    "obsidian相关/Obsidian快捷键.md",
     "学习/金融/经商定位",
     "常用语法和算法/算法/排序算法.md",
     "开店",
     "常用语法和算法/算法/查找算法.md",
     "常用语法和算法/算法/其他算法.md",
     "常用语法和算法/算法/RSA非对称加密.md",
-    "常用语法和算法/算法/IDEA中算法解题思路.md",
     "学习/金融/个人",
     "obsidian相关/Picture/K语言_image_1.png",
     "常用语法和算法/算法/加密算法",
