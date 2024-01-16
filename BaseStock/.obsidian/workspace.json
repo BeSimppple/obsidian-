@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
+                "file": "每日八股文.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
+                "file": "每日八股文.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md"
+                "file": "每日八股文.md"
               }
             }
           },
@@ -229,11 +229,11 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "ba2b520b97aab8d7",
+  "active": "6a04bb2dc73d0c15",
   "lastOpenFiles": [
+    "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
     "obsidian相关/Obsidian快捷键.md",
     "每日八股文.md",
-    "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
     "IT/JAVA底层知识/集合.md",
     "每日八股文(2).md",
     "网络工程/网络通信/基础知识/常见网络参数解释.md",
