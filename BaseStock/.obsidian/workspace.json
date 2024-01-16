@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "600db4047ee88571",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/常用概念.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -97,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "可重入性",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -122,7 +134,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -142,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian相关/Obsidian快捷键.md",
+                "file": "IT/常用概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian相关/Obsidian快捷键.md",
+                "file": "IT/常用概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian相关/Obsidian快捷键.md"
+                "file": "IT/常用概念.md"
               }
             }
           },
@@ -240,15 +253,15 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "a2cb967424d91760",
+  "active": "600db4047ee88571",
   "lastOpenFiles": [
+    "每日八股文(2).md",
+    "每日八股文.md",
+    "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
     "采购/采购流程.md",
     "obsidian相关/Obsidian快捷键.md",
-    "每日八股文.md",
     "采购",
-    "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
     "IT/JAVA底层知识/集合.md",
-    "每日八股文(2).md",
     "网络工程/网络通信/基础知识/常见网络参数解释.md",
     "学习/语言学习/英语/常用短句.md",
     "IT/常用概念.md",
