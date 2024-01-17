@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -143,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/MySQL/数据库概念.md",
+                "file": "采购/采购流程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/MySQL/数据库概念.md",
+                "file": "采购/采购流程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/MySQL/数据库概念.md"
+                "file": "采购/采购流程.md"
               }
             }
           },
@@ -241,7 +241,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "5f21bf2886bebd08",
+  "active": "6140af5e750043d3",
   "lastOpenFiles": [
     "IT/常用概念.md",
     "IT/MySQL/数据库概念.md",
