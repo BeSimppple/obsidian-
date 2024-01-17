@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/类加载器和双亲委派.md",
+                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/类加载器和双亲委派.md",
+                "file": "采购/采购流程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/类加载器和双亲委派.md",
+                "file": "采购/采购流程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/类加载器和双亲委派.md"
+                "file": "采购/采购流程.md"
               }
             }
           },
@@ -240,11 +240,12 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "6a04bb2dc73d0c15",
+  "active": "6140af5e750043d3",
   "lastOpenFiles": [
-    "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
-    "IT/SpringBoot/SpringBoot.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
+    "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
+    "IT/JAVA底层知识/JDK(JAVA底层原理)/类加载器和双亲委派.md",
+    "IT/SpringBoot/SpringBoot.md",
     "采购/采购流程.md",
     "obsidian相关/Obsidian快捷键.md",
     "每日八股文.md",
@@ -268,7 +269,6 @@
     "学习/K语言.md",
     "学习/学习方法.md",
     "IT/JAVA底层知识/数据结构.md",
-    "学习/日记/2023-05-25.md",
     "学习/金融/经商定位",
     "开店",
     "学习/金融/个人",
