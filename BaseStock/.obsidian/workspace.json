@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "6140af5e750043d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "采购/采购流程.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "5f21bf2886bebd08",
             "type": "leaf",
             "state": {
@@ -68,19 +56,31 @@
             }
           },
           {
+            "id": "6140af5e750043d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "采购/采购流程.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "52f505c6e4bf5c8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/github-Token.md",
+                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/git云仓库.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "token",
+                "query": "git",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -134,8 +134,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -155,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/github-Token.md",
+                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/git云仓库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/github-Token.md",
+                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/git云仓库.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/github-Token.md"
+                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/git云仓库.md"
               }
             }
           },
@@ -255,6 +254,8 @@
   },
   "active": "52f505c6e4bf5c8b",
   "lastOpenFiles": [
+    "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(分支)实现合并,回退.md",
+    "软件(原理,部署,特点)/项目部署/GIT实现云同步/github-Token.md",
     "采购/采购流程.md",
     "IT/常用概念.md",
     "IT/MySQL/数据库概念.md",
@@ -280,8 +281,6 @@
     "常用语法和算法/算法常用概念.md",
     "sortspec.md",
     "学习/JAVA学习.md",
-    "学习/K语言.md",
-    "学习/学习方法.md",
     "学习/金融/经商定位",
     "开店",
     "学习/金融/个人",
