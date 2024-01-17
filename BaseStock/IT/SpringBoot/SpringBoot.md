@@ -16,7 +16,7 @@
 		 @Configuration注解告知这是一个配置类
 		 @PropertySource指定配置文件路径
 		 @ConfigurationProperties指定配置的前缀提取@bean注解等同于spring的xml文件中的bean作为加入spring容器的书面申请<small>(@bean一般放在方法上告诉spring容器可以从下面方法返回一个bean）</small>
-	 3.**内嵌式web服务器**（Tomcat\jetty）等（使web服务无需打包成war包可直接打成jar包）
+	 3.**内嵌式web服务器**（Tomcat,\jetty）等（使web服务无需打包成war包可直接打成jar包）
 	 4.**提供POM**，简化maven配置
 	 5.**版本锁定**，springboot根据使用的版本提供插件版本，如需改变可以version覆盖或parent引用修改
 		springboot2.3.4release需要的环境mavean3.3+和jdk1.8+

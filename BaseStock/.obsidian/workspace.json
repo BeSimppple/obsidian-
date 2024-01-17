@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6140af5e750043d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "采购/采购流程.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,8 +122,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -131,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
+                "file": "IT/SpringBoot/SpringBoot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
+                "file": "IT/SpringBoot/SpringBoot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md"
+                "file": "IT/SpringBoot/SpringBoot.md"
               }
             }
           },
@@ -229,13 +240,13 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "ba2b520b97aab8d7",
+  "active": "6a04bb2dc73d0c15",
   "lastOpenFiles": [
+    "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
+    "采购/采购流程.md",
     "obsidian相关/Obsidian快捷键.md",
     "IT/SpringBoot/SpringBoot.md",
     "每日八股文.md",
-    "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
-    "采购/采购流程.md",
     "每日八股文(2).md",
     "软件(原理,部署,特点)/Mysql/SQL语法.md",
     "IT/MySQL/Mysql关键字.md",
