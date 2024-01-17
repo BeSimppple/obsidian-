@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -143,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/常用概念.md",
+                "file": "IT/MySQL/数据库概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/常用概念.md",
+                "file": "IT/MySQL/数据库概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/常用概念.md"
+                "file": "IT/MySQL/数据库概念.md"
               }
             }
           },
@@ -241,14 +241,14 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "c19791724688ecb3",
+  "active": "5f21bf2886bebd08",
   "lastOpenFiles": [
+    "IT/常用概念.md",
     "IT/MySQL/数据库概念.md",
     "每日八股文(2).md",
     "采购/采购流程.md",
     "每日八股文.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
-    "IT/常用概念.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/类加载器和双亲委派.md",
     "IT/SpringBoot/SpringBoot.md",
