@@ -16,7 +16,7 @@ git remote -v查看是否配置成功
 3.部署密钥
 4.GitHub App 安装访问令牌
 5.机器用户
-详情见[https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/managing-deploy-keys](https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/managing-deploy-keys)
+详情见[管理秘钥部署](https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/managing-deploy-keys)
 
 ###### 代理方式
 1. 检查是否有公钥  ls -al ~/.ssh(检查全盘电脑是否有SHH秘钥) 
