@@ -80,15 +80,11 @@
             }
           },
           {
-            "id": "ad85a85aed1fc8de",
+            "id": "808f15c807877f82",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -167,7 +163,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +179,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,9 +200,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md"
-              }
+              "state": {}
             }
           },
           {
@@ -265,10 +257,13 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "ad85a85aed1fc8de",
+  "active": "808f15c807877f82",
   "lastOpenFiles": [
-    "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(分支)实现合并,回退.md",
     "软件(原理,部署,特点)/项目部署/GIT实现云同步/github-Token.md",
+    "学习/日记/2023-05-26.md",
+    "学习/日记/2023-05-25.md",
+    "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
+    "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(分支)实现合并,回退.md",
     "采购/采购流程.md",
     "软件(原理,部署,特点)/项目部署/GIT实现云同步/git云仓库.md",
     "IT/常用概念.md",
@@ -291,9 +286,6 @@
     "学习/语言学习/英语/常用短句.md",
     "常用语法和算法/常用格式(ymal,xml,property)/常用格式.md",
     "软件(原理,部署,特点)/Idea/常用配置.md",
-    "网络工程/计算机硬件系统/常用文件后缀解释.md",
-    "常用语法和算法/算法常用概念.md",
-    "sortspec.md",
     "学习/金融/经商定位",
     "开店",
     "学习/金融/个人",
