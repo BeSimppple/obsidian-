@@ -20,30 +20,6 @@
             }
           },
           {
-            "id": "6a04bb2dc73d0c15",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ba2b520b97aab8d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "600db4047ee88571",
             "type": "leaf",
             "state": {
@@ -62,6 +38,30 @@
               "type": "markdown",
               "state": {
                 "file": "采购/采购流程.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5f21bf2886bebd08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/MySQL/数据库概念.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c19791724688ecb3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/常用概念.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "mvcc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -122,7 +122,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -142,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "采购/采购流程.md",
+                "file": "IT/常用概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "采购/采购流程.md",
+                "file": "IT/常用概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "采购/采购流程.md"
+                "file": "IT/常用概念.md"
               }
             }
           },
@@ -240,17 +241,18 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "6140af5e750043d3",
+  "active": "c19791724688ecb3",
   "lastOpenFiles": [
+    "IT/MySQL/数据库概念.md",
+    "每日八股文(2).md",
+    "采购/采购流程.md",
     "每日八股文.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
-    "采购/采购流程.md",
     "IT/常用概念.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/类加载器和双亲委派.md",
     "IT/SpringBoot/SpringBoot.md",
     "obsidian相关/Obsidian快捷键.md",
-    "每日八股文(2).md",
     "软件(原理,部署,特点)/Mysql/SQL语法.md",
     "IT/MySQL/Mysql关键字.md",
     "IT/多线程/多线程.md",
@@ -268,7 +270,6 @@
     "学习/JAVA学习.md",
     "学习/K语言.md",
     "学习/学习方法.md",
-    "IT/JAVA底层知识/数据结构.md",
     "学习/金融/经商定位",
     "开店",
     "学习/金融/个人",
