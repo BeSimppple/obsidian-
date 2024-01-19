@@ -8,43 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "203bca121752b890",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "每日八股文.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "600db4047ee88571",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/常用概念.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5f21bf2886bebd08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/MySQL/数据库概念.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c19791724688ecb3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -66,9 +30,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7f6eeebd05cbfcbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0fe6eaa3e39586e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/SpringBoot/SpringBoot.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -97,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "springcloud",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -122,7 +110,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -142,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "每日八股文.md",
+                "file": "IT/SpringBoot/SpringBoot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "每日八股文.md",
+                "file": "IT/SpringBoot/SpringBoot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "每日八股文.md"
+                "file": "IT/SpringBoot/SpringBoot.md"
               }
             }
           },
@@ -240,8 +229,16 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "6140af5e750043d3",
+  "active": "0fe6eaa3e39586e6",
   "lastOpenFiles": [
+    "IT/SpringCloud/Gateway(网关).md",
+    "学习/日记/2023-05-25.md",
+    "学习/日记/2023-05-26.md",
+    "IT/SpringCloud/SpringCloud框架思想.md",
+    "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
+    "IT/常用概念.md",
+    "每日八股文.md",
+    "IT/MySQL/数据库概念.md",
     "IT/多线程/多线程-线程安全.md",
     "软件(原理,部署,特点)/Idea/Idea相关配置.md",
     "软件(原理,部署,特点)/Idea/IDEA快捷键.md",
@@ -260,8 +257,6 @@
     "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT的.gitignore文件写法.md",
     "软件(原理,部署,特点)/项目部署/GIT实现云同步/Git与SVN的区别.md",
     "常用语法和算法/Github找项目语法.md",
-    "软件(原理,部署,特点)/Linux/SecureCRT.md",
-    "软件(原理,部署,特点)/Linux/Linux快捷键.md",
     "obsidian相关/Picture/tmp1686294154425_常用排序算法_image_1.png",
     "obsidian相关/Picture/tmp1684983748281_UML图画法_image_2.png",
     "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
@@ -272,12 +267,6 @@
     "obsidian相关/Picture/tmp1705561650076_采购流程_image_9.png",
     "obsidian相关/Picture/tmp1705562578641_采购流程_image_12.png",
     "obsidian相关/Picture/tmp1705564456225_采购流程_image_13.png",
-    "采购/采购流程.md",
-    "每日八股文.md",
-    "测试github.md",
-    "学习/日记/2023-05-26.md",
-    "学习/日记/2023-05-25.md",
-    "IT/常用概念.md",
     "采购",
     "学习/金融/经商定位",
     "开店",
