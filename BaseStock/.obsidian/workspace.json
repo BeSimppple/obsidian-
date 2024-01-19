@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/git云仓库.md",
+                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/git云仓库.md",
+                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/git云仓库.md",
+                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/git云仓库.md"
+                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md"
               }
             }
           },
@@ -242,6 +242,19 @@
   },
   "active": "6140af5e750043d3",
   "lastOpenFiles": [
+    "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(分支)实现合并,回退.md",
+    "软件(原理,部署,特点)/项目部署/GIT实现云同步/git云仓库.md",
+    "软件(原理,部署,特点)/项目部署/GIT实现云同步/github-Token.md",
+    "软件(原理,部署,特点)/项目部署/GIT实现云同步/Idea中GIT使用.md",
+    "软件(原理,部署,特点)/项目部署/所需软件.md",
+    "软件(原理,部署,特点)/项目部署/环境部署.md",
+    "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
+    "IT/GIT实现云同步/GIT(设置流程).md",
+    "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT的.gitignore文件写法.md",
+    "软件(原理,部署,特点)/项目部署/GIT实现云同步/Git与SVN的区别.md",
+    "常用语法和算法/Github找项目语法.md",
+    "软件(原理,部署,特点)/Linux/SecureCRT.md",
+    "软件(原理,部署,特点)/Linux/Linux快捷键.md",
     "obsidian相关/Picture/tmp1686294154425_常用排序算法_image_1.png",
     "obsidian相关/Picture/tmp1684983748281_UML图画法_image_2.png",
     "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
@@ -252,16 +265,11 @@
     "obsidian相关/Picture/tmp1705561650076_采购流程_image_9.png",
     "obsidian相关/Picture/tmp1705562578641_采购流程_image_12.png",
     "obsidian相关/Picture/tmp1705564456225_采购流程_image_13.png",
-    "obsidian相关/Picture/tmp1705564445636_采购流程_image_10.png",
     "采购/采购流程.md",
-    "软件(原理,部署,特点)/项目部署/GIT实现云同步/github-Token.md",
     "每日八股文.md",
     "测试github.md",
     "学习/日记/2023-05-26.md",
     "学习/日记/2023-05-25.md",
-    "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
-    "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(分支)实现合并,回退.md",
-    "软件(原理,部署,特点)/项目部署/GIT实现云同步/git云仓库.md",
     "IT/常用概念.md",
     "IT/MySQL/数据库概念.md",
     "每日八股文(2).md",
@@ -270,15 +278,7 @@
     "IT/JAVA底层知识/JDK(JAVA底层原理)/类加载器和双亲委派.md",
     "IT/SpringBoot/SpringBoot.md",
     "obsidian相关/Obsidian快捷键.md",
-    "软件(原理,部署,特点)/Mysql/SQL语法.md",
-    "IT/MySQL/Mysql关键字.md",
-    "IT/多线程/多线程.md",
-    "IT/多线程/多线程-线程安全.md",
-    "IT/未归类知识点/支付sdk(software development kit).md",
     "采购",
-    "IT/JAVA底层知识/集合.md",
-    "网络工程/网络通信/基础知识/常见网络参数解释.md",
-    "学习/语言学习/英语/常用短句.md",
     "学习/金融/经商定位",
     "开店",
     "学习/金融/个人",
