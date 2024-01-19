@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nginx",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -134,8 +134,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -155,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/SpringCloud/SpringCloud框架思想.md",
+                "file": "IT/SpringBoot/SpringBoot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/SpringCloud/SpringCloud框架思想.md",
+                "file": "IT/SpringBoot/SpringBoot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/SpringCloud/SpringCloud框架思想.md"
+                "file": "IT/SpringBoot/SpringBoot.md"
               }
             }
           },
@@ -253,10 +252,10 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "efbf7a397fc68bd4",
+  "active": "0fe6eaa3e39586e6",
   "lastOpenFiles": [
-    "软件(原理,部署,特点)/Nginx(反向代理服务器).md",
     "IT/SpringCloud/SpringCloud框架思想.md",
+    "软件(原理,部署,特点)/Nginx(反向代理服务器).md",
     "IT/SpringBoot/SpringBoot.md",
     "IT/SpringCloud/Gateway(网关).md",
     "学习/日记/2023-05-25.md",
