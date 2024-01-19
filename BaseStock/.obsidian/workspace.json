@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "7f6eeebd05cbfcbf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0fe6eaa3e39586e6",
             "type": "leaf",
             "state": {
@@ -68,6 +56,18 @@
             }
           },
           {
+            "id": "7f6eeebd05cbfcbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/SpringCloud/Sentinel(降级熔断).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4c9debf1f8a5ac0e",
             "type": "leaf",
             "state": {
@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/SpringBoot/SpringBoot.md",
+                "file": "IT/SpringCloud/Sentinel(降级熔断).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/SpringBoot/SpringBoot.md",
+                "file": "IT/SpringCloud/Sentinel(降级熔断).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/SpringBoot/SpringBoot.md"
+                "file": "IT/SpringCloud/Sentinel(降级熔断).md"
               }
             }
           },
@@ -252,15 +252,15 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "0fe6eaa3e39586e6",
+  "active": "7f6eeebd05cbfcbf",
   "lastOpenFiles": [
+    "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
     "IT/SpringCloud/SpringCloud框架思想.md",
-    "软件(原理,部署,特点)/Nginx(反向代理服务器).md",
     "IT/SpringBoot/SpringBoot.md",
+    "软件(原理,部署,特点)/Nginx(反向代理服务器).md",
     "IT/SpringCloud/Gateway(网关).md",
     "学习/日记/2023-05-25.md",
     "学习/日记/2023-05-26.md",
-    "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
     "IT/常用概念.md",
     "每日八股文.md",
     "IT/MySQL/数据库概念.md",
