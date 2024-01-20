@@ -218,6 +218,8 @@
   },
   "active": "fec79df19b5f3c48",
   "lastOpenFiles": [
+    "IT/SpringBoot/SpringBoot.md",
+    "IT/SpringBoot/Ribbon和Openfeign.md",
     "IT/Spring/SpringMVC(视图-模型-控制器设计模式).md",
     "IT/Spring/Spring事务.md",
     "IT/Spring/Servlet(服务器端小型通信).md",
@@ -242,8 +244,6 @@
     "网络工程/网络通信/TCP协议.md",
     "IT/SpringCloud/SpringCloud框架思想.md",
     "IT/SpringCloud/RocketMQ(异步同步).md",
-    "IT/SpringCloud/Redisson分布式锁和SpringTask.md",
-    "IT/JAVA底层知识/异常.md",
     "obsidian相关/Picture/tmp1686294154425_常用排序算法_image_1.png",
     "obsidian相关/Picture/tmp1684983748281_UML图画法_image_2.png",
     "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
