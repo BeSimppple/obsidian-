@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2cf2466f8d49e6ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT/常用概念.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -73,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "集合",
+                "query": "AP",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -98,7 +110,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -118,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
+                "file": "IT/常用概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
+                "file": "IT/常用概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md"
+                "file": "IT/常用概念.md"
               }
             }
           },
@@ -216,8 +229,11 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "fec79df19b5f3c48",
+  "active": "2cf2466f8d49e6ec",
   "lastOpenFiles": [
+    "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
+    "每日八股文(2).md",
+    "IT/常用概念.md",
     "IT/SpringCloud/SpringCloud框架思想.md",
     "IT/SpringBoot/Ribbon和Openfeign.md",
     "IT/SpringBoot/SpringBoot.md",
@@ -232,7 +248,6 @@
     "IT/Spring/Spring原理.md",
     "常用语法和算法/算法常用概念.md",
     "IT/JAVA底层知识/数据结构.md",
-    "每日八股文(2).md",
     "每日八股文.md",
     "IT/JAVA底层知识/集合.md",
     "IT/MySQL/数据库优化(相关概念).md",
@@ -242,8 +257,6 @@
     "IT/MySQL/Mysql小知识点.md",
     "IT/MySQL/Mysql数据类型.md",
     "IT/MySQL/Mysql关键字.md",
-    "网络工程/网络通信/TCP协议.md",
-    "IT/SpringCloud/RocketMQ(异步同步).md",
     "obsidian相关/Picture/tmp1686294154425_常用排序算法_image_1.png",
     "obsidian相关/Picture/tmp1684983748281_UML图画法_image_2.png",
     "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
