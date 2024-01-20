@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
+                "file": "IT/SpringCloud/Sentinel(降级熔断).md",
                 "mode": "source",
                 "source": false
               }
@@ -110,8 +110,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -131,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
+                "file": "IT/SpringCloud/Sentinel(降级熔断).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
+                "file": "IT/SpringCloud/Sentinel(降级熔断).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md"
+                "file": "IT/SpringCloud/Sentinel(降级熔断).md"
               }
             }
           },
@@ -231,9 +230,9 @@
   },
   "active": "fec79df19b5f3c48",
   "lastOpenFiles": [
+    "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
     "每日八股文(2).md",
     "IT/常用概念.md",
-    "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
     "IT/SpringCloud/SpringCloud框架思想.md",
     "IT/SpringBoot/Ribbon和Openfeign.md",
     "IT/SpringBoot/SpringBoot.md",
