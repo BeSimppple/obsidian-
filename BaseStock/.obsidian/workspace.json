@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "mysql",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -86,7 +86,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -208,6 +209,11 @@
   "lastOpenFiles": [
     "IT/MySQL/数据库优化(实际操作).md",
     "IT/MySQL/数据库概念.md",
+    "软件(原理,部署,特点)/Mysql/SQL语法.md",
+    "IT/MySQL/Mysql小知识点.md",
+    "IT/MySQL/Mysql数据类型.md",
+    "IT/MySQL/Mysql关键字.md",
+    "IT/MySQL/数据库优化(相关概念).md",
     "网络工程/网络通信/TCP协议.md",
     "IT/SpringCloud/SpringCloud框架思想.md",
     "IT/SpringCloud/RocketMQ(异步同步).md",
@@ -217,7 +223,6 @@
     "IT/JAVA底层知识/关系运算符及循环跳转语句及递归.md",
     "网络工程/常见问题解决.md",
     "IT/常用概念.md",
-    "软件(原理,部署,特点)/Mysql/SQL语法.md",
     "软件(原理,部署,特点)/Mysql/Mysql快捷键.md",
     "IT/SpringBoot/SpringBoot.md",
     "IT/SpringCloud/Sentinel(降级熔断).md",
@@ -228,10 +233,6 @@
     "学习/日记/2023-05-25.md",
     "学习/日记/2023-05-26.md",
     "IT/多线程/多线程-线程安全.md",
-    "软件(原理,部署,特点)/Idea/Idea相关配置.md",
-    "软件(原理,部署,特点)/Idea/IDEA快捷键.md",
-    "软件(原理,部署,特点)/Idea/IDEA插件.md",
-    "软件(原理,部署,特点)/Idea/详解.idea文件夹作用.md",
     "obsidian相关/Picture/tmp1686294154425_常用排序算法_image_1.png",
     "obsidian相关/Picture/tmp1684983748281_UML图画法_image_2.png",
     "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",

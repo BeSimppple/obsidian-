@@ -10,6 +10,7 @@ IT/JAVA底层知识/异常.md
 IT/JAVA底层知识/集合.md
 IT/MySQL/Mysql关键字.md
 IT/MySQL/Mysql数据类型.md
+IT/MySQL/数据库优化(相关概念).md#慢SQL优化:
 IT/MySQL/数据库概念.md
 IT/MySQL/数据库概念.md#Mysql事务
 IT/Python/Python基础函数等.md
