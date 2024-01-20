@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/MySQL/数据库优化(实际操作).md",
+                "file": "IT/MySQL/数据库优化(相关概念).md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/MySQL/数据库优化(实际操作).md",
+                "file": "IT/MySQL/数据库优化(相关概念).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/MySQL/数据库优化(实际操作).md",
+                "file": "IT/MySQL/数据库优化(相关概念).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/MySQL/数据库优化(实际操作).md"
+                "file": "IT/MySQL/数据库优化(相关概念).md"
               }
             }
           },
@@ -206,6 +206,7 @@
   },
   "active": "fec79df19b5f3c48",
   "lastOpenFiles": [
+    "IT/MySQL/数据库优化(实际操作).md",
     "IT/MySQL/数据库概念.md",
     "网络工程/网络通信/TCP协议.md",
     "IT/SpringCloud/SpringCloud框架思想.md",
@@ -231,7 +232,6 @@
     "软件(原理,部署,特点)/Idea/IDEA快捷键.md",
     "软件(原理,部署,特点)/Idea/IDEA插件.md",
     "软件(原理,部署,特点)/Idea/详解.idea文件夹作用.md",
-    "软件(原理,部署,特点)/Idea/常用配置.md",
     "obsidian相关/Picture/tmp1686294154425_常用排序算法_image_1.png",
     "obsidian相关/Picture/tmp1684983748281_UML图画法_image_2.png",
     "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
