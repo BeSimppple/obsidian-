@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/SpringCloud/SpringCloud框架思想.md",
+                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/SpringCloud/SpringCloud框架思想.md",
+                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/SpringCloud/SpringCloud框架思想.md",
+                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/SpringCloud/SpringCloud框架思想.md"
+                "file": "IT/SpringCloud/Nacos(服务注册与发现,配置).md"
               }
             }
           },
@@ -218,6 +218,7 @@
   },
   "active": "fec79df19b5f3c48",
   "lastOpenFiles": [
+    "IT/SpringCloud/SpringCloud框架思想.md",
     "IT/SpringBoot/Ribbon和Openfeign.md",
     "IT/SpringBoot/SpringBoot.md",
     "IT/Spring/SpringMVC(视图-模型-控制器设计模式).md",
@@ -242,7 +243,6 @@
     "IT/MySQL/Mysql数据类型.md",
     "IT/MySQL/Mysql关键字.md",
     "网络工程/网络通信/TCP协议.md",
-    "IT/SpringCloud/SpringCloud框架思想.md",
     "IT/SpringCloud/RocketMQ(异步同步).md",
     "obsidian相关/Picture/tmp1686294154425_常用排序算法_image_1.png",
     "obsidian相关/Picture/tmp1684983748281_UML图画法_image_2.png",
