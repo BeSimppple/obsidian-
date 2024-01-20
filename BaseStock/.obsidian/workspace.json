@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/MySQL/数据库概念.md",
+                "file": "IT/MySQL/数据库优化(实际操作).md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "崩溃",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -86,8 +86,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/MySQL/数据库概念.md",
+                "file": "IT/MySQL/数据库优化(实际操作).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/MySQL/数据库概念.md",
+                "file": "IT/MySQL/数据库优化(实际操作).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/MySQL/数据库概念.md"
+                "file": "IT/MySQL/数据库优化(实际操作).md"
               }
             }
           },
@@ -205,10 +204,10 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "68447e7ec5dfad2f",
+  "active": "fec79df19b5f3c48",
   "lastOpenFiles": [
-    "网络工程/网络通信/TCP协议.md",
     "IT/MySQL/数据库概念.md",
+    "网络工程/网络通信/TCP协议.md",
     "IT/SpringCloud/SpringCloud框架思想.md",
     "IT/SpringCloud/RocketMQ(异步同步).md",
     "IT/SpringCloud/Redisson分布式锁和SpringTask.md",
