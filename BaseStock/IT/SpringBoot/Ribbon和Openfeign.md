@@ -1,19 +1,5 @@
 Ribbon是Netflix公司开源的一个负载均衡的项目，**是一个"客户端"负载均衡器**，运行在客户端上 Ribbon是一个客户端层的负载均衡(客户端和服务端是一个发出和接受的关系,谁是发出方就是客户端)
 例如:nginx就是'服务端'的负载均衡
-什么是RestTemplate?(发送请求的工具类)
-	1:RestTemplate是java模拟浏览器发送http请求的工具类
-	2:RestTemplate基于`Apache`的`HttpClient`实现。HttpClient使用起来太过繁琐。spring提供了一种简单便捷的模板类来进行操作，这就是RestTemplate。
-开发环境一般使用OpenFeign
-![[Ribbon和Openfeign_image_1.jpg]]
-RestTemplate的使用:
-	1.导入起步依赖(nacos-discovery包下就兼容了ribbon)
-	2.@LoadBalanced注解
-	在启动类中ioc RestTemplate @LoadTemplate注解配置负载均衡
-	@Bean
-	@LoadBalanced
-	public RestTemplate restTemplate(){
-	return new RestTemplate();
-	}
 Ribbon工作原理:
 	第一步:Ribbon拦截服务器消费者 发送的所有请求
 	第二步:拦截到请求后,从URI中获取 server name
@@ -31,6 +17,21 @@ Ribbon工作原理:
 	}
 	}
 	然后再启动类上加@RibbonClient(name="当前调用应用名",configruation="自定义均衡类")注解
+什么是RestTemplate?(发送请求的工具类)
+	1:RestTemplate是java模拟浏览器发送http请求的工具类
+	2:RestTemplate基于`Apache`的`HttpClient`实现。HttpClient使用起来太过繁琐。spring提供了一种简单便捷的模板类来进行操作，这就是RestTemplate。
+开发环境一般使用OpenFeign
+![[Ribbon和Openfeign_image_1.jpg]]
+RestTemplate的使用:
+	1.导入起步依赖(nacos-discovery包下就兼容了ribbon)
+	2.@LoadBalanced注解
+	在启动类中ioc RestTemplate @LoadTemplate注解配置负载均衡
+	@Bean
+	@LoadBalanced
+	public RestTemplate restTemplate(){
+	return new RestTemplate();
+	}
+
 OpenFeign(作用就是发送http请求)
 	Spring Cloud OpenFeign 是一种声明式、模板化的 HTTP 客户端 和 RestTemplate一样是远程调用,但是书写模式像是调用Service层
 	比起restTemplate隐藏了书写http形式更好看
