@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vue",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -155,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",
+                "file": "软件(原理,部署,特点)/Redis/Redis原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",
+                "file": "软件(原理,部署,特点)/Redis/Redis原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md"
+                "file": "软件(原理,部署,特点)/Redis/Redis原理.md"
               }
             }
           },
@@ -253,8 +253,9 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "9e532a88877708e4",
+  "active": "fec79df19b5f3c48",
   "lastOpenFiles": [
+    "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",
     "软件(原理,部署,特点)/Linux/Linux.md",
     "软件(原理,部署,特点)/Redis/Redis原理.md",
     "IT/SpringCloud/SpringCloud框架思想.md",
@@ -280,7 +281,6 @@
     "IT/Spring/Spring事务.md",
     "IT/Spring/Servlet(服务器端小型通信).md",
     "IT/Spring/Mybatis(持久层框架).md",
-    "IT/Spring/JDBC(数据库连接).md",
     "obsidian相关/Picture/tmp1686294154425_常用排序算法_image_1.png",
     "obsidian相关/Picture/tmp1684983748281_UML图画法_image_2.png",
     "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
