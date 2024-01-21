@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "1c93d05f5a56e976",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "软件(原理,部署,特点)/Linux/Linux.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "17aeefe775bad134",
             "type": "leaf",
             "state": {
@@ -68,18 +56,6 @@
             }
           },
           {
-            "id": "34aa219bd15cf835",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d009a3f290a9fdde",
             "type": "leaf",
             "state": {
@@ -92,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -146,8 +122,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -167,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
+                "file": "IT/多线程/多线程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
+                "file": "IT/多线程/多线程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/Redis/Redis实现各种效果.md"
+                "file": "IT/多线程/多线程.md"
               }
             }
           },
@@ -265,14 +240,16 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "34aa219bd15cf835",
+  "active": "d009a3f290a9fdde",
   "lastOpenFiles": [
     "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",
-    "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
-    "IT/多线程/多线程.md",
-    "软件(原理,部署,特点)/Redis/Redis原理.md",
-    "软件(原理,部署,特点)/Linux/Linux.md",
+    "IT/常用概念.md",
     "每日八股文.md",
+    "软件(原理,部署,特点)/Linux/Linux.md",
+    "软件(原理,部署,特点)/Linux/Linux快捷键.md",
+    "IT/多线程/多线程.md",
+    "软件(原理,部署,特点)/Redis/Redis实现各种效果.md",
+    "软件(原理,部署,特点)/Redis/Redis原理.md",
     "IT/SpringCloud/SpringCloud框架思想.md",
     "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
     "IT/SpringCloud/Sentinel(降级熔断).md",
@@ -288,11 +265,9 @@
     "IT/SpringCloud/Sidecar(异构微服务搭建).md",
     "IT/SpringCloud/Seata(分布式事务).md",
     "每日八股文(2).md",
-    "IT/常用概念.md",
     "IT/SpringBoot/Ribbon和Openfeign.md",
     "IT/SpringBoot/SpringBoot.md",
     "IT/Spring/SpringMVC(视图-模型-控制器设计模式).md",
-    "IT/Spring/Spring事务.md",
     "obsidian相关/Picture/tmp1686294154425_常用排序算法_image_1.png",
     "obsidian相关/Picture/tmp1684983748281_UML图画法_image_2.png",
     "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",

@@ -1,20 +1,11 @@
-Vue
-
-为什么使用Vue?
-
-1.操作简单,渲染方便,简化DOM操作
-
-2.类似MVC的mvvm框架,把Model负责数据，View负责显示
-
+**为什么使用Vue?**
+	1.操作简单,渲染方便,简化DOM操作
+	2.类似MVC的mvvm框架,把Model负责数据，View负责显示
 ViewModel中转
-
 搭配 elementUI更加强
-
 Vue的常用指令:
-
-1.v-text 2.v-html 3.v-if 4.v-for 5.v-show 6.v-model
-
-7.v-on 8.v-bind 9
+	1.v-text 2.v-html 3.v-if 4.v-for 5.v-show 6.v-model
+	7.v-on 8.v-bind 9
 
 Vue的生命周期
 ![[VUE(脚手架)_image_1.png]]
@@ -66,11 +57,9 @@ webpack
 
 NodeJS(webpack的运行环境)
 
-为什么使用webpack?
-
-1.解决传统前端 代码乱 , js之间依赖关系强
-
-2.大量的二次请求
+**为什么使用webpack?**
+	1.解决传统前端 代码乱 , js之间依赖关系强
+	2.大量的二次请求
 
 webpack是前端的一个项目构建工具,是基于Node.js开发的前段共聚
 
