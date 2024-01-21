@@ -230,8 +230,9 @@
   },
   "active": "fec79df19b5f3c48",
   "lastOpenFiles": [
-    "IT/SpringCloud/Redisson分布式锁和SpringTask.md",
     "每日八股文.md",
+    "IT/SpringCloud/RocketMQ(异步同步).md",
+    "IT/SpringCloud/Redisson分布式锁和SpringTask.md",
     "IT/SpringCloud/Gateway(网关).md",
     "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
     "IT/SpringCloud/Docker和Jekins(去冲突和快速打包).md",
@@ -255,7 +256,6 @@
     "常用语法和算法/算法常用概念.md",
     "IT/JAVA底层知识/数据结构.md",
     "IT/JAVA底层知识/集合.md",
-    "IT/MySQL/数据库优化(相关概念).md",
     "obsidian相关/Picture/tmp1686294154425_常用排序算法_image_1.png",
     "obsidian相关/Picture/tmp1684983748281_UML图画法_image_2.png",
     "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
