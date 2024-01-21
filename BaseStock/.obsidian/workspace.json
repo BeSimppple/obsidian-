@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/SpringCloud/Sentinel(降级熔断).md",
+                "file": "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/SpringCloud/Sentinel(降级熔断).md",
+                "file": "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/SpringCloud/Sentinel(降级熔断).md",
+                "file": "IT/SpringCloud/ElasticSearch(独立搜索中间件).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/SpringCloud/Sentinel(降级熔断).md"
+                "file": "IT/SpringCloud/ElasticSearch(独立搜索中间件).md"
               }
             }
           },
@@ -199,7 +199,7 @@
             }
           },
           {
-            "id": "8d2ce54936f4ddb3",
+            "id": "7d3d206824a545cb",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -230,6 +230,9 @@
   },
   "active": "fec79df19b5f3c48",
   "lastOpenFiles": [
+    "IT/SpringCloud/Docker和Jekins(去冲突和快速打包).md",
+    "IT/SpringCloud/Actuator(监视服务).md",
+    "IT/SpringCloud/Sentinel(降级熔断).md",
     "IT/SpringCloud/Nacos(服务注册与发现,配置).md",
     "每日八股文(2).md",
     "IT/常用概念.md",
@@ -253,9 +256,6 @@
     "IT/MySQL/数据库优化(实际操作).md",
     "IT/MySQL/数据库概念.md",
     "软件(原理,部署,特点)/Mysql/SQL语法.md",
-    "IT/MySQL/Mysql小知识点.md",
-    "IT/MySQL/Mysql数据类型.md",
-    "IT/MySQL/Mysql关键字.md",
     "obsidian相关/Picture/tmp1686294154425_常用排序算法_image_1.png",
     "obsidian相关/Picture/tmp1684983748281_UML图画法_image_2.png",
     "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
