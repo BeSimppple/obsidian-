@@ -237,4 +237,4 @@ vue某些问题
 	15.org.springframework.security.web.access.intercept.FilterSecurityInterceptor
 	获取所配置资源访问的授权信息，根据SecurityContextHolder中存储的用户信息来决定其是否有权限。
 **什么是crsf防护:**
-	crsf防护(使用账号登录后会有一个jessionid存在域中如果该id被其他机器盗用则会存在账号泄露,crsf的作用是根据本机信息组成加密成一串符号同时上传,如果没有crsf的加密符则无法登录从而保证安全性)
+	crsf防护(使用账号登录后会有一个jessionid存在域中如果该id被其他机器盗用cookie则会存在账号泄露,crsf的作用是**根据本机信息组成加密成一串符号同时上传**,如果没有crsf的加密符则无法登录从而保证安全性)
