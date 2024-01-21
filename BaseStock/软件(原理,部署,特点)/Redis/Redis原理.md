@@ -49,7 +49,7 @@
 	不是变成红黑树或者二叉树
 	而是再reHash一个2倍大的Hash表,一个个重新存入新的大的hash表
 	**Redis是由C语言编写的**
-**Redsi事务：**
+**Redis事务：**
 	mutli # 开启事务
 	exec # 提交事务
 	discard # 回滚事务
