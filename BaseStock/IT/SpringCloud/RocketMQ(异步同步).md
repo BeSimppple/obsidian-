@@ -216,7 +216,7 @@ MQ结合IDEA:
 消息分区队列(queue)有序?
 	(例如:湖北放一个queue,湖南放一个queue)
 	解决办法:
-	product可以根据消息的属性判断将湖北省放到脚标0的quee,然后湖南省放到脚标1的queue中
+	product可以根据消息的属性判断将湖北省放到脚标0的queue,然后湖南省放到脚标1的queue中
 	consumer使用orderly模式进行有序消费
 	同理可以设置一个内置循环数对queue进行负载均衡
 MQ的重试机制可能会引发重复消费怎么解决?

@@ -22,6 +22,7 @@ IT/Spring/过滤器,拦截器,监听器.md
 IT/Spring/过滤器,拦截器,监听器.md#拦截器interceptor
 IT/Spring/过滤器,拦截器,监听器.md#监听器(Listener)
 IT/Spring/过滤器,拦截器,监听器.md#过滤器Filter
+IT/SpringCloud/RocketMQ(异步同步).md#常见问题:
 IT/多线程/多线程-线程安全.md
 IT/常用概念.md
 IT/机器学习/AI/OpenAI.md
