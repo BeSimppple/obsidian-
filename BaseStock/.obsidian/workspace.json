@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "每日八股文.md",
+                "file": "IT/MySQL/数据库优化(相关概念).md",
                 "mode": "source",
                 "source": false
               }
@@ -44,31 +44,19 @@
             }
           },
           {
-            "id": "9e532a88877708e4",
+            "id": "fdf96a82dd06afda",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d009a3f290a9fdde",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/设计模式/单例设计模式.md",
+                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -142,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "每日八股文.md",
+                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "每日八股文.md",
+                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "每日八股文.md"
+                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md"
               }
             }
           },
@@ -240,8 +228,12 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "2cf2466f8d49e6ec",
+  "active": "fdf96a82dd06afda",
   "lastOpenFiles": [
+    "IT/MySQL/数据库优化(相关概念).md",
+    "IT/MySQL/数据库优化(实际操作).md",
+    "每日八股文.md",
+    "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",
     "常用语法和算法/Windows快捷键.md",
     "常用语法和算法/正则表达式.md",
     "常用语法和算法/UML图.md",
@@ -261,13 +253,9 @@
     "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/类加载器和双亲委派.md",
     "IT/GIT实现云同步/GIT(设置流程).md",
-    "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",
     "IT/设计模式/单例设计模式.md",
     "IT/未归类知识点/Freemarker模板技术.md",
     "IT/未归类知识点/支付sdk(software development kit).md",
-    "IT/未归类知识点/短信发送SDK.md",
-    "IT/设计模式/设计模式6原则.md",
-    "IT/设计模式/桥接模式.md",
     "obsidian相关/Picture/tmp1686294154425_常用排序算法_image_1.png",
     "obsidian相关/Picture/tmp1684983748281_UML图画法_image_2.png",
     "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
