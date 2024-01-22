@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用语法和算法/算法/五大常用算法思想.md",
+                "file": "每日八股文.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法和算法/算法/五大常用算法思想.md",
+                "file": "每日八股文.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法和算法/算法/五大常用算法思想.md",
+                "file": "每日八股文.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法和算法/算法/五大常用算法思想.md"
+                "file": "每日八股文.md"
               }
             }
           },
@@ -242,8 +242,13 @@
   },
   "active": "2cf2466f8d49e6ec",
   "lastOpenFiles": [
-    "常用语法和算法/算法/其他算法.md",
+    "常用语法和算法/Windows快捷键.md",
+    "常用语法和算法/正则表达式.md",
+    "常用语法和算法/UML图.md",
+    "常用语法和算法/Github找项目语法.md",
+    "常用语法和算法/Markdown语法/基础语法.md",
     "常用语法和算法/算法/五大常用算法思想.md",
+    "常用语法和算法/算法/其他算法.md",
     "常用语法和算法/算法/查找算法.md",
     "常用语法和算法/算法/排序算法.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
@@ -263,11 +268,6 @@
     "IT/未归类知识点/短信发送SDK.md",
     "IT/设计模式/设计模式6原则.md",
     "IT/设计模式/桥接模式.md",
-    "IT/设计模式/代理模式.md",
-    "IT/前端(VScode,VUE,nodejs)/JSP(java server page).md",
-    "IT/前端(VScode,VUE,nodejs)/Json.md",
-    "IT/前端(VScode,VUE,nodejs)/JS(JavaScript).md",
-    "IT/前端(VScode,VUE,nodejs)/Jquery和Ajax.md",
     "obsidian相关/Picture/tmp1686294154425_常用排序算法_image_1.png",
     "obsidian相关/Picture/tmp1684983748281_UML图画法_image_2.png",
     "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
