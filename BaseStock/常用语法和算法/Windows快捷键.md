@@ -1,5 +1,5 @@
 win+tab 跳转到切换桌面
-win+ctrl+方向键  切换桌面
+win+ctrl+方向键 (手势盘4指横向滑动) 切换桌面
 win+r 运行
 
 

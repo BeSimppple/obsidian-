@@ -32,36 +32,12 @@
             }
           },
           {
-            "id": "2cf2466f8d49e6ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "采购/采购流程.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "fdf96a82dd06afda",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4e04df268603eb8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "采购/Excel常用快捷键.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,9 +54,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2cf2466f8d49e6ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "采购/采购流程.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e256c5347d010890",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "采购/Excel常用符号及算法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "采购/Excel常用快捷键.md",
+                "file": "采购/Excel常用符号及算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "采购/Excel常用快捷键.md",
+                "file": "采购/Excel常用符号及算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "采购/Excel常用快捷键.md"
+                "file": "采购/Excel常用符号及算法.md"
               }
             }
           },
@@ -252,18 +252,19 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "4e04df268603eb8f",
+  "active": "e256c5347d010890",
   "lastOpenFiles": [
-    "采购/Excel常用符号及算法.md",
-    "采购/Excel常用快捷键.md",
-    "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
     "采购/采购流程.md",
+    "采购/Excel常用符号及算法.md",
+    "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
+    "常用语法和算法/Windows快捷键.md",
+    "网络工程/计算机硬件系统/Windows系统底层函数.md",
+    "采购/Excel常用快捷键.md",
     "每日八股文.md",
     "开店/成本估算.md",
     "IT/MySQL/数据库优化(相关概念).md",
     "IT/MySQL/数据库优化(实际操作).md",
     "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",
-    "常用语法和算法/Windows快捷键.md",
     "常用语法和算法/正则表达式.md",
     "常用语法和算法/UML图.md",
     "常用语法和算法/Github找项目语法.md",
@@ -279,7 +280,6 @@
     "IT/MySQL/Mysql关键字.md",
     "IT/MySQL/Mysql数据类型.md",
     "IT/MySQL/Mysql小知识点.md",
-    "IT/JAVA底层知识/JDK(JAVA底层原理)/类加载器和双亲委派.md",
     "obsidian相关/Picture/tmp1686294154425_常用排序算法_image_1.png",
     "obsidian相关/Picture/tmp1684983748281_UML图画法_image_2.png",
     "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
