@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4e04df268603eb8f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "采购/Excel常用快捷键.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
+                "file": "采购/Excel常用快捷键.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
+                "file": "采购/Excel常用快捷键.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md"
+                "file": "采购/Excel常用快捷键.md"
               }
             }
           },
@@ -228,8 +240,10 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "16ec457503011162",
+  "active": "4e04df268603eb8f",
   "lastOpenFiles": [
+    "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
+    "采购/Excel常用快捷键.md",
     "IT/MySQL/数据库优化(相关概念).md",
     "IT/MySQL/数据库优化(实际操作).md",
     "每日八股文.md",
@@ -250,12 +264,10 @@
     "IT/MySQL/Mysql关键字.md",
     "IT/MySQL/Mysql数据类型.md",
     "IT/MySQL/Mysql小知识点.md",
-    "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/类加载器和双亲委派.md",
     "IT/GIT实现云同步/GIT(设置流程).md",
     "IT/设计模式/单例设计模式.md",
     "IT/未归类知识点/Freemarker模板技术.md",
-    "IT/未归类知识点/支付sdk(software development kit).md",
     "obsidian相关/Picture/tmp1686294154425_常用排序算法_image_1.png",
     "obsidian相关/Picture/tmp1684983748281_UML图画法_image_2.png",
     "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
