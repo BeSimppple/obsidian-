@@ -1,19 +1,27 @@
+#### **常用**
+1. 排序：Alt + D, S
+2. 过滤：Ctrl + Shift + L
+3. 超链接：Ctrl + K
+4. 插入行(列)：Ctrl + Shift + =
+5. 删除行(列)：Ctrl + -
+6. 自动适应行高：Alt + H, O, A
+7. 自动适应列宽：Alt + H, O, I
+8. 隱藏選取的列：Ctrl+9
+9. 单元格格式：Ctrl + 1
+10. 預覽列印：Ctrl + P
+11. 選擇整行：Shift + 空白鍵
 
-17. 排序：Alt + D, S
-18. 过滤：Ctrl + Shift + L
-19. 插入行(列)：Ctrl + Shift + =
-20. 删除行(列)：Ctrl + -
-21. 自动适应行高：Alt + H, O, A
-22. 自动适应列宽：Alt + H, O, I
 
-**简单常用**
+#### **简单常用**
 1. 新建工作簿：Ctrl + N
 2. 打开工作簿：Ctrl + O
 3. 关闭工作簿：Ctrl + W
 4. 粗體：Ctrl+B
 5. 斜體：Ctrl+I
-6. 另存为：F12
-7. 撤销：Ctrl + Z
-8. 重做：Ctrl + Y
-9. 查找：Ctrl + F
-10. 替换：Ctrl + H
+6. 下划线：Ctrl+U
+7. 删除线：Ctrl+5
+8. 另存为：F12
+9. 撤销：Ctrl + Z
+10. 重做：Ctrl + Y
+11. 查找：Ctrl + F
+12. 替换：Ctrl + H
