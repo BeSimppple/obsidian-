@@ -3,7 +3,8 @@
 1. sum  求和
 2. avg   求平均
 3. count 计数
-4. if(a > b ,"yes",)
+4. if(a > b ,"yes","no")    三元运算符
+5. max min  求最大最小值
 
 
 #### **符号**

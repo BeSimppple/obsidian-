@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "采购/Excel常用符号及算法.md",
+                "file": "采购/Excel常用快捷键.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "采购/Excel常用符号及算法.md",
+                "file": "采购/Excel常用快捷键.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "采购/Excel常用符号及算法.md"
+                "file": "采购/Excel常用快捷键.md"
               }
             }
           },
@@ -252,12 +252,12 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "82e4a9ba16982db9",
+  "active": "4e04df268603eb8f",
   "lastOpenFiles": [
+    "采购/Excel常用符号及算法.md",
     "采购/Excel常用快捷键.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
     "采购/采购流程.md",
-    "采购/Excel常用符号及算法.md",
     "每日八股文.md",
     "开店/成本估算.md",
     "IT/MySQL/数据库优化(相关概念).md",
