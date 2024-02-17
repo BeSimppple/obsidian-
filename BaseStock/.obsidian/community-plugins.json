@@ -7,11 +7,11 @@
   "obsidian-checklist-plugin",
   "media-extended",
   "obsidian-annotator",
-  "obsidian-git",
   "obsidian-attachment-name-formatting",
   "custom-sort",
   "smart-connections",
   "better-fn",
   "obsidian-regex-replace",
-  "mousewheel-image-zoom"
+  "mousewheel-image-zoom",
+  "obsidian-git"
 ]

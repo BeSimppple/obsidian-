@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git",
+                "query": "git环境",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -164,14 +164,6 @@
             }
           },
           {
-            "id": "55183fd5bae60fa2",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {}
-            }
-          },
-          {
             "id": "720bb44ba05aea3d",
             "type": "leaf",
             "state": {
@@ -188,7 +180,15 @@
             }
           },
           {
-            "id": "16b74282a3686ce9",
+            "id": "77689de4cbb0d3d4",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "514b1f0aba356fa5",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -205,7 +205,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -214,11 +213,13 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "custom-sort:Toggle custom sorting": false
     }
   },
   "active": "2cf2466f8d49e6ec",
   "lastOpenFiles": [
+    "IT/MySQL/数据库优化(相关概念).md",
     "学习/JAVA学习.md",
     "学习/K语言.md",
     "学习/学习方法.md",
@@ -229,7 +230,6 @@
     "学习/金融/标普500指数基金.md",
     "采购/Excel常用快捷键.md",
     "采购/Excel常用符号及算法.md",
-    "IT/MySQL/数据库优化(相关概念).md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
     "常用语法和算法/Windows快捷键.md",
     "网络工程/计算机硬件系统/Windows系统底层函数.md",
