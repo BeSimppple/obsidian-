@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习/JAVA学习.md",
+                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "git",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -98,7 +98,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -118,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/JAVA学习.md",
+                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/JAVA学习.md",
+                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/JAVA学习.md"
+                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md"
               }
             }
           },
@@ -218,8 +219,8 @@
   },
   "active": "2cf2466f8d49e6ec",
   "lastOpenFiles": [
-    "学习/K语言.md",
     "学习/JAVA学习.md",
+    "学习/K语言.md",
     "学习/学习方法.md",
     "学习/如果吃透一个JAVA项目.md",
     "采购/采购流程.md",
