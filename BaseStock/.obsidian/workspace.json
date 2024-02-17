@@ -25,19 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "采购/采购流程.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e256c5347d010890",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "采购/采购流程.md",
+                "file": "学习/学习方法.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "采购/采购流程.md",
+                "file": "学习/学习方法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "采购/采购流程.md",
+                "file": "学习/学习方法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "采购/采购流程.md"
+                "file": "学习/学习方法.md"
               }
             }
           },
@@ -228,11 +216,17 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "e256c5347d010890",
+  "active": "2cf2466f8d49e6ec",
   "lastOpenFiles": [
+    "学习/JAVA学习.md",
+    "学习/学习方法.md",
+    "学习/如果吃透一个JAVA项目.md",
+    "采购/采购流程.md",
+    "学习/日记/2023-05-25.md",
+    "学习/日记/2023-05-26.md",
+    "学习/金融/标普500指数基金.md",
     "采购/Excel常用快捷键.md",
     "采购/Excel常用符号及算法.md",
-    "采购/采购流程.md",
     "IT/MySQL/数据库优化(相关概念).md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
     "常用语法和算法/Windows快捷键.md",
@@ -250,12 +244,6 @@
     "常用语法和算法/算法/查找算法.md",
     "常用语法和算法/算法/排序算法.md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/对象.md",
-    "IT/JAVA小知识点.md",
-    "IT/反编译.md",
-    "IT/常用概念.md",
-    "IT/MySQL/Mysql关键字.md",
-    "IT/MySQL/Mysql数据类型.md",
-    "IT/MySQL/Mysql小知识点.md",
     "obsidian相关/Picture/tmp1686294154425_常用排序算法_image_1.png",
     "obsidian相关/Picture/tmp1684983748281_UML图画法_image_2.png",
     "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
