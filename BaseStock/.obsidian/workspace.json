@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "采购/Excel常用符号及算法.md",
+                "file": "采购/采购流程.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "采购/Excel常用符号及算法.md",
+                "file": "采购/采购流程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "采购/Excel常用符号及算法.md",
+                "file": "采购/采购流程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "采购/Excel常用符号及算法.md"
+                "file": "采购/采购流程.md"
               }
             }
           },
@@ -230,9 +230,9 @@
   },
   "active": "e256c5347d010890",
   "lastOpenFiles": [
-    "采购/采购流程.md",
-    "采购/Excel常用符号及算法.md",
     "采购/Excel常用快捷键.md",
+    "采购/Excel常用符号及算法.md",
+    "采购/采购流程.md",
     "IT/MySQL/数据库优化(相关概念).md",
     "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
     "常用语法和算法/Windows快捷键.md",
