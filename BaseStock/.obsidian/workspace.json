@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
+                "file": "网络工程/计算机硬件系统/机器语言(1代到5代).md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git环境",
+                "query": "gpt",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
+                "file": "网络工程/计算机硬件系统/机器语言(1代到5代).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
+                "file": "网络工程/计算机硬件系统/机器语言(1代到5代).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md"
+                "file": "网络工程/计算机硬件系统/机器语言(1代到5代).md"
               }
             }
           },
@@ -200,7 +200,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,8 +217,16 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "a19028372d3b9741",
+  "active": "2cf2466f8d49e6ec",
   "lastOpenFiles": [
+    "软件(原理,部署,特点)/项目部署/环境部署.md",
+    "软件(原理,部署,特点)/项目部署/所需软件.md",
+    "学习/语言学习/英语/暂存(自考作文模版).md",
+    "IT/未归类知识点/支付sdk(software development kit).md",
+    "网络工程/计算机硬件系统/机器语言(1代到5代).md",
+    "每日八股文.md",
+    "IT/机器学习/AI/ChatGPT提示语.md",
+    "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
     "IT/MySQL/数据库优化(相关概念).md",
     "学习/JAVA学习.md",
     "学习/K语言.md",
@@ -232,18 +241,10 @@
     "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
     "常用语法和算法/Windows快捷键.md",
     "网络工程/计算机硬件系统/Windows系统底层函数.md",
-    "每日八股文.md",
     "开店/成本估算.md",
     "IT/MySQL/数据库优化(实际操作).md",
     "IT/前端(VScode,VUE,nodejs)/VUE(脚手架).md",
     "常用语法和算法/正则表达式.md",
-    "常用语法和算法/UML图.md",
-    "常用语法和算法/Github找项目语法.md",
-    "常用语法和算法/Markdown语法/基础语法.md",
-    "常用语法和算法/算法/五大常用算法思想.md",
-    "常用语法和算法/算法/其他算法.md",
-    "常用语法和算法/算法/查找算法.md",
-    "常用语法和算法/算法/排序算法.md",
     "obsidian相关/Picture/tmp1686294154425_常用排序算法_image_1.png",
     "obsidian相关/Picture/tmp1684983748281_UML图画法_image_2.png",
     "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
