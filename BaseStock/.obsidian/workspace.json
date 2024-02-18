@@ -188,7 +188,7 @@
             }
           },
           {
-            "id": "514b1f0aba356fa5",
+            "id": "a19028372d3b9741",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -200,8 +200,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,7 +216,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "2cf2466f8d49e6ec",
+  "active": "a19028372d3b9741",
   "lastOpenFiles": [
     "IT/MySQL/数据库优化(相关概念).md",
     "学习/JAVA学习.md",

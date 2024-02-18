@@ -9,7 +9,7 @@ git remote add/rm 远程仓库名称 地址 (添加/删除仓库)  这里地址�
 git remote -v查看是否配置成功
 4. 下载github for windows 便捷完成add commit 和push操作,另外根据需求配置.ignore文件
 5. 将需要上传的文件放到指定文件夹内完成add-commit-push操作
-121
+
 ### 关于SSH秘钥
 1.SSH代理转发(最常用) SSH部署到SSH-agent
 2.使用 OAuth 令牌进行 HTTPS 克隆
