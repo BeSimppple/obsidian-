@@ -49,14 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian相关/Obsidian快捷键.md",
+                "file": "常用语法和算法/Markdown语法/基础语法.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,8 +110,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -131,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian相关/Obsidian快捷键.md",
+                "file": "采购/采购流程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian相关/Obsidian快捷键.md",
+                "file": "采购/采购流程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian相关/Obsidian快捷键.md"
+                "file": "采购/采购流程.md"
               }
             }
           },
@@ -229,8 +228,10 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "68447e7ec5dfad2f",
+  "active": "8639f4d5cc997b35",
   "lastOpenFiles": [
+    "常用语法和算法/Markdown语法/基础语法.md",
+    "obsidian相关/Obsidian快捷键.md",
     "采购/采购流程.md",
     "obsidian相关/代码块.md",
     "obsidian相关/命名规范和设置.md",
@@ -255,8 +256,6 @@
     "IT/JAVA底层知识/JDK(JAVA底层原理)/JVM.md",
     "常用语法和算法/Windows快捷键.md",
     "网络工程/计算机硬件系统/Windows系统底层函数.md",
-    "开店/成本估算.md",
-    "IT/MySQL/数据库优化(实际操作).md",
     "obsidian相关/Picture/tmp1686294154425_常用排序算法_image_1.png",
     "obsidian相关/Picture/tmp1684983748281_UML图画法_image_2.png",
     "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
