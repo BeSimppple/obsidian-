@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "8639f4d5cc997b35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "采购/采购流程.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "27b8dbe137ea61e8",
             "type": "leaf",
             "state": {
@@ -54,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8639f4d5cc997b35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "采购/采购流程.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
