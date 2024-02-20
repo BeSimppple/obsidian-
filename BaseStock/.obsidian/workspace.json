@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "采购/wps操作/常用函数.md",
+                "file": "采购/在造中车型.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,8 +110,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -131,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "采购/wps操作/常用函数.md",
+                "file": "采购/在造中车型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "采购/wps操作/常用函数.md",
+                "file": "采购/在造中车型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "采购/wps操作/常用函数.md"
+                "file": "采购/在造中车型.md"
               }
             }
           },
@@ -231,9 +230,10 @@
   },
   "active": "8639f4d5cc997b35",
   "lastOpenFiles": [
-    "采购/Excel常用符号及算法.md",
-    "采购/WPS常用快捷键.md",
     "采购/wps操作/常用函数.md",
+    "采购/在造中车型.md",
+    "采购/WPS常用快捷键.md",
+    "采购/Excel常用符号及算法.md",
     "采购/采购流程.md",
     "采购/wps操作/两表数据做关联.md",
     "采购/wps操作/跨表计算.md",
@@ -257,7 +257,6 @@
     "学习/K语言.md",
     "学习/学习方法.md",
     "学习/如果吃透一个JAVA项目.md",
-    "学习/日记/2023-05-25.md",
     "obsidian相关/Picture/tmp1686294154425_常用排序算法_image_1.png",
     "obsidian相关/Picture/tmp1684983748281_UML图画法_image_2.png",
     "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
