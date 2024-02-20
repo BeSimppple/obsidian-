@@ -1,72 +1,63 @@
 **系统：**
 
-|   |   |
-|---|---|
-|WPS文字帮助|F1|
-|任务窗格|Ctrl+F1|
-|新建空白文档|Ctrl+N|
-|打开文件|Ctrl+O|
-|下一个页面切换|Ctrl+Tab|
-|上一个页面切换|Ctrl+Shift+Tab|
-|关闭文档窗口|Ctrl+W|
+| WPS文字帮助 | F1 |
+| ---- | ---- |
+| 任务窗格 | Ctrl+F1 |
+| 新建空白文档 | Ctrl+N |
+| 打开文件 | Ctrl+O |
+| 下一个页面切换 | Ctrl+Tab |
+| 上一个页面切换 | Ctrl+Shift+Tab |
+| 关闭文档窗口 | Ctrl+W |
 **编辑：**
 
-|   |   |
-|---|---|
-|复制|Ctrl+C|
-|剪切|Ctrl+X|
-|保存|Ctrl+S|
-|另存为|F12|
-|粘贴|Ctrl+V|
-|复制格式|Ctrl+Shift+C|
-|粘贴格式|Ctrl+Shift+V|
-|全选|Ctrl+A|
-|查找|Ctrl+F|
-|向后增加块选区域|Shift+→|
-|向左增加块选区域|Shift+←|
-|文档首|Ctrl+Home|
-|文档尾|Ctrl+End|
-|向左智能删词|Ctrl+Backspace|
-|智能词选，无词组时选中单个字|段落内双击鼠标左键|
-|块选段落|段落左侧双击鼠标左键|
-|全选文档|文档左侧三击鼠标左键|
-|插入改写|点击键盘Insert键|
-|行首|一行内按home键|
-|行末|一行内按end键|
-|替换|Ctrl+H|
-|定位|Ctrl+G|
-|撤销|Ctrl+Z|
-|恢复|Ctrl+Y|
-|插入书签|Ctrl+Shift+F5|
-|插入分页符|Ctrl+Enter|
-|插入换行符|Shift+Enter|
-|插入空域|Ctrl+F9|
-|插入超链接|Ctrl+K|
-|打印|Ctrl+P|
+| 另存为 | F12 |
+| ---- | ---- |
+| 复制格式 | Ctrl+Shift+C |
+| 粘贴格式 | Ctrl+Shift+V |
+| 向后增加块选区域 | Shift+→ |
+| 向左增加块选区域 | Shift+← |
+| 文档首 | Ctrl+Home |
+| 文档尾 | Ctrl+End |
+| 向左智能删词 | Ctrl+Backspace |
+| 智能词选，无词组时选中单个字 | 段落内双击鼠标左键 |
+| 块选段落 | 段落左侧双击鼠标左键 |
+| 全选文档 | 文档左侧三击鼠标左键 |
+| 插入改写 | 点击键盘Insert键 |
+| 行首 | 一行内按home键 |
+| 行末 | 一行内按end键 |
+| 替换 | Ctrl+H |
+| 定位 | Ctrl+G |
+| 撤销 | Ctrl+Z |
+| 恢复 | Ctrl+Y |
+| 插入书签 | Ctrl+Shift+F5 |
+| 插入分页符 | Ctrl+Enter |
+| 插入换行符 | Shift+Enter |
+| 插入空域 | Ctrl+F9 |
+| 插入超链接 | Ctrl+K |
+| 打印 | Ctrl+P |
 
 **格式：**
 
-|   |   |
-|---|---|
-|字体|Ctrl+D|
-|加粗|Ctrl+B|
-|倾斜|Ctrl+I|
-|增大字号|Ctrl+Shift+. 或者  <br>Ctrl+]|
-|减小字号|Ctrl+Shift+, 或者  <br>Ctrl+[|
-|上标|Ctrl+Shift+=|
-|下标|Ctrl++|
-|两端对齐|Ctrl+J|
-|居中对齐|Ctrl+E|
-|左对齐|Ctrl+L|
-|右对齐|Ctrl+R|
-|分散对齐|Ctrl+Shift+J|
-|增加缩进量|Alt+Shift+Right|
-|减少缩进量|Alt+Shift+Left|
-|Web版式|Ctrl+Alt+W|
-|以行分开表格|Shift+Ctrl+Return（数字键的enter）|
-|以列分开表格|Shift+Alt+Return（数字键的enter）|
-|以行分开表格|Shift+Ctrl+Enter|
-|以列分开表格|Shift+Alt+Enter|
+| 字体 | Ctrl+D |
+| ---- | ---- |
+| 加粗 | Ctrl+B |
+| 倾斜 | Ctrl+I |
+| 增大字号 | Ctrl+Shift+. 或者  <br>Ctrl+] |
+| 减小字号 | Ctrl+Shift+, 或者  <br>Ctrl+[ |
+| 上标 | Ctrl+Shift+= |
+| 下标 | Ctrl++ |
+| 两端对齐 | Ctrl+J |
+| 居中对齐 | Ctrl+E |
+| 左对齐 | Ctrl+L |
+| 右对齐 | Ctrl+R |
+| 分散对齐 | Ctrl+Shift+J |
+| 增加缩进量 | Alt+Shift+Right |
+| 减少缩进量 | Alt+Shift+Left |
+| Web版式 | Ctrl+Alt+W |
+| 以行分开表格 | Shift+Ctrl+Return（数字键的enter） |
+| 以列分开表格 | Shift+Alt+Return（数字键的enter） |
+| 以行分开表格 | Shift+Ctrl+Enter |
+| 以列分开表格 | Shift+Alt+Enter |
 
 **大纲：**
 
