@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "语法",
+                "query": "三元",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -110,7 +110,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -230,6 +231,7 @@
   },
   "active": "8639f4d5cc997b35",
   "lastOpenFiles": [
+    "采购/Excel常用符号及算法.md",
     "采购/WPS常用快捷键.md",
     "采购/wps操作/常用函数.md",
     "采购/采购流程.md",
@@ -256,7 +258,6 @@
     "学习/学习方法.md",
     "学习/如果吃透一个JAVA项目.md",
     "学习/日记/2023-05-25.md",
-    "学习/日记/2023-05-26.md",
     "obsidian相关/Picture/tmp1686294154425_常用排序算法_image_1.png",
     "obsidian相关/Picture/tmp1684983748281_UML图画法_image_2.png",
     "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
