@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "采购/wps操作/跨表计算.md",
+                "file": "采购/采购流程.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "采购/wps操作/跨表计算.md",
+                "file": "采购/采购流程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "采购/wps操作/跨表计算.md",
+                "file": "采购/采购流程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "采购/wps操作/跨表计算.md"
+                "file": "采购/采购流程.md"
               }
             }
           },
@@ -230,9 +230,9 @@
   },
   "active": "8639f4d5cc997b35",
   "lastOpenFiles": [
-    "采购/采购流程.md",
-    "采购/wps操作/跨表计算.md",
     "采购/wps操作/两表数据做关联.md",
+    "采购/wps操作/跨表计算.md",
+    "采购/采购流程.md",
     "obsidian相关/Obsidian快捷键.md",
     "采购/wps操作",
     "IT/MySQL/数据库优化(相关概念).md",
