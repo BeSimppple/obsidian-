@@ -199,7 +199,7 @@
             }
           },
           {
-            "id": "482ce0d7b069e659",
+            "id": "ddcf3b797e267b00",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -211,8 +211,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,7 +227,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "8639f4d5cc997b35",
+  "active": "ddcf3b797e267b00",
   "lastOpenFiles": [
     "采购/WPS常用快捷键.md",
     "采购/在造中车型.md",
