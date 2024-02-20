@@ -199,7 +199,7 @@
             }
           },
           {
-            "id": "12b956f300806979",
+            "id": "482ce0d7b069e659",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -207,12 +207,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,7 +227,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "27b8dbe137ea61e8",
+  "active": "482ce0d7b069e659",
   "lastOpenFiles": [
     "IT/MySQL/数据库优化(相关概念).md",
     "网络工程/计算机硬件系统/机器语言(1代到5代).md",
