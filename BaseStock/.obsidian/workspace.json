@@ -78,9 +78,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "623bb70bfb5f7f3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "软件(原理,部署,特点)/Idea/IDEA快捷键.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -109,7 +121,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "idea快捷",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -134,7 +146,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -154,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "采购/在造中车型.md",
+                "file": "软件(原理,部署,特点)/Idea/IDEA快捷键.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "采购/在造中车型.md",
+                "file": "软件(原理,部署,特点)/Idea/IDEA快捷键.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "采购/在造中车型.md"
+                "file": "软件(原理,部署,特点)/Idea/IDEA快捷键.md"
               }
             }
           },
@@ -252,11 +265,11 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "a519d400d95892f1",
+  "active": "623bb70bfb5f7f3e",
   "lastOpenFiles": [
+    "采购/在造中车型.md",
     "采购/常用仓库编号.md",
     "IT/常用概念.md",
-    "采购/在造中车型.md",
     "采购/wps操作/常用函数.md",
     "软件(原理,部署,特点)/Mysql/SQL语法.md",
     "采购/wps操作/常用快捷键.md",
