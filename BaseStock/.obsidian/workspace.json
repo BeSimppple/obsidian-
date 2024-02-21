@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "eff1c8f04472e191",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "采购/常用仓库编号.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -85,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cap理论",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -110,8 +122,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -131,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/常用概念.md",
+                "file": "采购/常用仓库编号.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/常用概念.md",
+                "file": "采购/常用仓库编号.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/常用概念.md"
+                "file": "采购/常用仓库编号.md"
               }
             }
           },
@@ -229,8 +240,9 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "52450694e399d651",
+  "active": "eff1c8f04472e191",
   "lastOpenFiles": [
+    "IT/常用概念.md",
     "采购/在造中车型.md",
     "采购/wps操作/常用函数.md",
     "软件(原理,部署,特点)/Mysql/SQL语法.md",
@@ -249,7 +261,6 @@
     "采购/Office操作",
     "采购/wps操作",
     "网络工程/计算机硬件系统/机器语言(1代到5代).md",
-    "IT/常用概念.md",
     "obsidian相关/代码块.md",
     "obsidian相关/命名规范和设置.md",
     "软件(原理,部署,特点)/项目部署/环境部署.md",
