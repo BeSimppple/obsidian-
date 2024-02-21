@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "采购/在造中车型.md",
+                "file": "采购/wps操作/跨表计算.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "采购/在造中车型.md",
+                "file": "采购/wps操作/跨表计算.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "采购/在造中车型.md",
+                "file": "采购/wps操作/跨表计算.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "采购/在造中车型.md"
+                "file": "采购/wps操作/跨表计算.md"
               }
             }
           },
@@ -254,8 +254,9 @@
   },
   "active": "0569b11255ea23dd",
   "lastOpenFiles": [
-    "采购/常用仓库编号.md",
+    "采购/wps操作/冻结窗格.md",
     "采购/在造中车型.md",
+    "采购/常用仓库编号.md",
     "采购/wps操作/常用函数.md",
     "采购/WPS常用快捷键.md",
     "软件(原理,部署,特点)/Mysql/SQL语法.md",
@@ -281,7 +282,6 @@
     "每日八股文.md",
     "IT/机器学习/AI/ChatGPT提示语.md",
     "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
-    "学习/JAVA学习.md",
     "obsidian相关/Picture/tmp1686294154425_常用排序算法_image_1.png",
     "obsidian相关/Picture/tmp1684983748281_UML图画法_image_2.png",
     "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
