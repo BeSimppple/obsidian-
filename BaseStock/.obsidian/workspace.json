@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "541c868ca3b33b0b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "采购/WPS常用快捷键.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "8639f4d5cc997b35",
             "type": "leaf",
             "state": {
@@ -44,18 +56,19 @@
             }
           },
           {
-            "id": "541c868ca3b33b0b",
+            "id": "0569b11255ea23dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "采购/WPS常用快捷键.md",
+                "file": "采购/在造中车型.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -129,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/MySQL/数据库优化(相关概念).md",
+                "file": "采购/在造中车型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/MySQL/数据库优化(相关概念).md",
+                "file": "采购/在造中车型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/MySQL/数据库优化(相关概念).md"
+                "file": "采购/在造中车型.md"
               }
             }
           },
@@ -227,11 +240,12 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "6140af5e750043d3",
+  "active": "0569b11255ea23dd",
   "lastOpenFiles": [
-    "软件(原理,部署,特点)/Mysql/SQL语法.md",
     "采购/WPS常用快捷键.md",
     "采购/常用仓库编号.md",
+    "软件(原理,部署,特点)/Mysql/SQL语法.md",
+    "IT/MySQL/数据库优化(相关概念).md",
     "采购/采购流程.md",
     "采购/在造中车型.md",
     "采购/Office操作/Excel常用快捷键.md",
@@ -239,7 +253,6 @@
     "采购/Office操作",
     "采购/wps操作/条件格式.md",
     "采购/wps操作/两表数据做关联.md",
-    "IT/MySQL/数据库优化(相关概念).md",
     "采购/wps操作/常用函数.md",
     "采购/wps操作/跨表计算.md",
     "obsidian相关/Obsidian快捷键.md",
