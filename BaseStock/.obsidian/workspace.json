@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件(原理,部署,特点)/Idea/IDEA快捷键.md",
+                "file": "IT/SpringBoot/SpringBoot.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "idea快捷",
+                "query": "版本管理",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -167,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/Idea/IDEA快捷键.md",
+                "file": "IT/SpringBoot/SpringBoot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/Idea/IDEA快捷键.md",
+                "file": "IT/SpringBoot/SpringBoot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/Idea/IDEA快捷键.md"
+                "file": "IT/SpringBoot/SpringBoot.md"
               }
             }
           },
@@ -265,8 +265,12 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "623bb70bfb5f7f3e",
+  "active": "68447e7ec5dfad2f",
   "lastOpenFiles": [
+    "IT/SpringCloud/SpringCloud框架思想.md",
+    "IT/未归类知识点/SpringCloud Alibaba AppActive(异地容灾).md",
+    "IT/SpringBoot/SpringBoot.md",
+    "软件(原理,部署,特点)/Idea/IDEA快捷键.md",
     "采购/在造中车型.md",
     "采购/常用仓库编号.md",
     "IT/常用概念.md",
@@ -291,10 +295,6 @@
     "软件(原理,部署,特点)/项目部署/环境部署.md",
     "软件(原理,部署,特点)/项目部署/所需软件.md",
     "学习/语言学习/英语/暂存(自考作文模版).md",
-    "IT/未归类知识点/支付sdk(software development kit).md",
-    "每日八股文.md",
-    "IT/机器学习/AI/ChatGPT提示语.md",
-    "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
     "obsidian相关/Picture/tmp1686294154425_常用排序算法_image_1.png",
     "obsidian相关/Picture/tmp1684983748281_UML图画法_image_2.png",
     "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
