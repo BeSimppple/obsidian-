@@ -223,7 +223,7 @@
             }
           },
           {
-            "id": "43191cf38aa8145f",
+            "id": "a519d400d95892f1",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -231,7 +231,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -252,7 +252,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "6782b56797116ca5",
+  "active": "a519d400d95892f1",
   "lastOpenFiles": [
     "采购/常用仓库编号.md",
     "IT/常用概念.md",
