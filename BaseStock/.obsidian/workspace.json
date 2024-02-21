@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "采购/Excel常用符号及算法.md",
+                "file": "采购/常用仓库编号.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "采购/Excel常用符号及算法.md",
+                "file": "IT/MySQL/数据库优化(相关概念).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "采购/Excel常用符号及算法.md",
+                "file": "IT/MySQL/数据库优化(相关概念).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "采购/Excel常用符号及算法.md"
+                "file": "IT/MySQL/数据库优化(相关概念).md"
               }
             }
           },
@@ -228,25 +227,26 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "7278d5866d783733",
+  "active": "6140af5e750043d3",
   "lastOpenFiles": [
-    "采购/未命名",
+    "软件(原理,部署,特点)/Mysql/SQL语法.md",
+    "采购/WPS常用快捷键.md",
+    "采购/常用仓库编号.md",
     "采购/采购流程.md",
     "采购/在造中车型.md",
-    "采购/WPS常用快捷键.md",
-    "软件(原理,部署,特点)/Mysql/SQL语法.md",
+    "采购/Office操作/Excel常用快捷键.md",
+    "采购/Office操作/Excel常用符号及算法.md",
+    "采购/Office操作",
     "采购/wps操作/条件格式.md",
     "采购/wps操作/两表数据做关联.md",
     "IT/MySQL/数据库优化(相关概念).md",
     "采购/wps操作/常用函数.md",
-    "采购/Excel常用符号及算法.md",
     "采购/wps操作/跨表计算.md",
     "obsidian相关/Obsidian快捷键.md",
     "采购/wps操作",
     "网络工程/计算机硬件系统/机器语言(1代到5代).md",
     "常用语法和算法/Markdown语法/基础语法.md",
     "IT/常用概念.md",
-    "采购/Excel常用快捷键.md",
     "obsidian相关/代码块.md",
     "obsidian相关/命名规范和设置.md",
     "软件(原理,部署,特点)/项目部署/环境部署.md",
@@ -275,7 +275,6 @@
     "常用语法和算法/算法/图",
     "学习/金融/股票",
     "学习/日记",
-    "未命名.canvas",
-    "学习/金融"
+    "未命名.canvas"
   ]
 }
