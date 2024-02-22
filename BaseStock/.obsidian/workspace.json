@@ -78,21 +78,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "623bb70bfb5f7f3e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/SpringBoot/SpringBoot.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -121,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "版本管理",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -146,8 +134,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -167,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/MySQL/数据库优化(相关概念).md",
+                "file": "采购/常用仓库编号.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/MySQL/数据库优化(相关概念).md",
+                "file": "采购/常用仓库编号.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/MySQL/数据库优化(相关概念).md"
+                "file": "采购/常用仓库编号.md"
               }
             }
           },
@@ -265,8 +252,9 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "2b26f0061c073088",
+  "active": "eff1c8f04472e191",
   "lastOpenFiles": [
+    "IT/MySQL/数据库优化(相关概念).md",
     "IT/SpringCloud/SpringCloud框架思想.md",
     "IT/未归类知识点/SpringCloud Alibaba AppActive(异地容灾).md",
     "IT/SpringBoot/SpringBoot.md",
@@ -284,7 +272,6 @@
     "采购/wps操作/两表数据做关联.md",
     "采购/wps操作/跨表计算.md",
     "采购/wps操作/冻结窗格.md",
-    "IT/MySQL/数据库优化(相关概念).md",
     "采购/Office操作/Excel常用快捷键.md",
     "采购/Office操作/Excel常用符号及算法.md",
     "采购/Office操作",
