@@ -167,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/SpringBoot/SpringBoot.md",
+                "file": "IT/MySQL/数据库优化(相关概念).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/SpringBoot/SpringBoot.md",
+                "file": "IT/MySQL/数据库优化(相关概念).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/SpringBoot/SpringBoot.md"
+                "file": "IT/MySQL/数据库优化(相关概念).md"
               }
             }
           },
@@ -236,7 +236,7 @@
             }
           },
           {
-            "id": "a519d400d95892f1",
+            "id": "2b26f0061c073088",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -265,7 +265,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "68447e7ec5dfad2f",
+  "active": "2b26f0061c073088",
   "lastOpenFiles": [
     "IT/SpringCloud/SpringCloud框架思想.md",
     "IT/未归类知识点/SpringCloud Alibaba AppActive(异地容灾).md",
