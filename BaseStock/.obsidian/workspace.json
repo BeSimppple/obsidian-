@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "采购/wps操作/常用操作.md",
+                "file": "采购/wps操作/常用函数.md",
                 "mode": "source",
                 "source": false
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "采购/wps操作/常用操作.md",
+                "file": "采购/wps操作/常用函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "采购/wps操作/常用操作.md",
+                "file": "采购/wps操作/常用函数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "采购/wps操作/常用操作.md"
+                "file": "采购/wps操作/常用函数.md"
               }
             }
           },
@@ -253,10 +253,11 @@
   },
   "active": "6140af5e750043d3",
   "lastOpenFiles": [
+    "采购/wps操作/常用快捷键.md",
+    "采购/wps操作/常用操作.md",
     "采购/wps操作/条件格式.md",
     "采购/wps操作/两表数据做关联.md",
     "采购/wps操作/跨表计算.md",
-    "采购/wps操作/常用操作.md",
     "采购/wps操作/冻结窗格.md",
     "网络工程/网络通信/软路由.md",
     "网络工程/网络通信/OSI七层网络模型.md",
@@ -270,7 +271,6 @@
     "IT/未归类知识点/SpringCloud Alibaba AppActive(异地容灾).md",
     "IT/SpringBoot/SpringBoot.md",
     "软件(原理,部署,特点)/Idea/IDEA快捷键.md",
-    "采购/wps操作/常用快捷键.md",
     "采购/采购流程.md",
     "常用语法和算法/Markdown语法/基础语法.md",
     "obsidian相关/Obsidian快捷键.md",
