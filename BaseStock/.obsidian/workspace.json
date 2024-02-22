@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "采购/wps操作/常用函数.md",
+                "file": "采购/wps操作/未处理问题.md",
                 "mode": "source",
                 "source": false
               }
@@ -79,7 +79,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -251,13 +252,13 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "6140af5e750043d3",
+  "active": "0569b11255ea23dd",
   "lastOpenFiles": [
     "采购/wps操作/未处理问题.md",
+    "采购/wps操作/常用函数.md",
     "采购/wps操作/条件格式(重要,创建规则).md",
     "采购/wps操作/常用操作.md",
     "采购/wps操作/常见问题.md",
-    "采购/wps操作/常用函数.md",
     "采购/wps操作/常用快捷键.md",
     "采购/wps操作/两表数据做关联.md",
     "采购/wps操作/跨表计算.md",
