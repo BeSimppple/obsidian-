@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "采购/wps操作/常用操作.md",
+                "file": "采购/常用仓库编号.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "采购/wps操作/常用操作.md",
+                "file": "采购/常用仓库编号.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "采购/wps操作/常用操作.md",
+                "file": "采购/常用仓库编号.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "采购/wps操作/常用操作.md"
+                "file": "采购/常用仓库编号.md"
               }
             }
           },
@@ -211,7 +211,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -227,8 +228,9 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "96b6936e5bebf7f6",
+  "active": "6782b56797116ca5",
   "lastOpenFiles": [
+    "采购/wps操作/常用操作.md",
     "采购/在造中车型.md",
     "软件(原理,部署,特点)/Mysql/SQL语法.md",
     "采购/wps操作/未处理问题.md",
@@ -237,7 +239,6 @@
     "IT/常用概念.md",
     "网络工程/网络通信/软路由.md",
     "采购/wps操作/条件格式(重要,创建规则).md",
-    "采购/wps操作/常用操作.md",
     "采购/wps操作/常见问题.md",
     "采购/wps操作/常用快捷键.md",
     "采购/wps操作/两表数据做关联.md",
