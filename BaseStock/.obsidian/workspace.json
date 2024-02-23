@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "采购/wps操作/常用快捷键.md",
+                "file": "采购/wps操作/常用函数.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "采购/wps操作/常用快捷键.md",
+                "file": "采购/wps操作/常用函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "采购/wps操作/常用快捷键.md",
+                "file": "采购/wps操作/常用函数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "采购/wps操作/常用快捷键.md"
+                "file": "采购/wps操作/常用函数.md"
               }
             }
           },
@@ -230,6 +230,7 @@
   },
   "active": "0569b11255ea23dd",
   "lastOpenFiles": [
+    "采购/wps操作/常用快捷键.md",
     "采购/Office操作/Excel常用符号及算法.md",
     "采购/wps操作/常用函数.md",
     "采购/常用仓库编号.md",
@@ -241,7 +242,6 @@
     "网络工程/网络通信/软路由.md",
     "采购/wps操作/条件格式(重要,创建规则).md",
     "采购/wps操作/常见问题.md",
-    "采购/wps操作/常用快捷键.md",
     "采购/wps操作/两表数据做关联.md",
     "采购/wps操作/跨表计算.md",
     "采购/wps操作/冻结窗格.md",
