@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "采购/wps操作/常见问题.md",
+                "file": "采购/wps操作/常用函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "采购/wps操作/常见问题.md",
+                "file": "采购/wps操作/常用函数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "采购/wps操作/常见问题.md"
+                "file": "采购/wps操作/常用函数.md"
               }
             }
           },
@@ -228,10 +228,12 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "0569b11255ea23dd",
+  "active": "6782b56797116ca5",
   "lastOpenFiles": [
-    "采购/wps操作/未命名.md",
+    "采购/wps操作/常见问题.md",
+    "IT/常用概念.md",
     "采购/wps操作/常用函数.md",
+    "采购/wps操作/未命名.md",
     "常用语法和算法/Markdown语法/基础语法.md",
     "采购/wps操作/常用快捷键.md",
     "采购/Office操作/Excel常用符号及算法.md",
@@ -240,10 +242,8 @@
     "采购/在造中车型.md",
     "软件(原理,部署,特点)/Mysql/SQL语法.md",
     "采购/wps操作/未处理问题.md",
-    "IT/常用概念.md",
     "网络工程/网络通信/软路由.md",
     "采购/wps操作/条件格式(重要,创建规则).md",
-    "采购/wps操作/常见问题.md",
     "采购/wps操作/两表数据做关联.md",
     "采购/wps操作/跨表计算.md",
     "采购/wps操作/冻结窗格.md",
