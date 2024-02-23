@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "采购/wps操作/常用函数.md",
+                "file": "采购/wps操作/常见问题.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "markdown",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -110,8 +110,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -131,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "采购/wps操作/常用函数.md",
+                "file": "采购/wps操作/常见问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "采购/wps操作/常用函数.md",
+                "file": "采购/wps操作/常见问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "采购/wps操作/常用函数.md"
+                "file": "采购/wps操作/常见问题.md"
               }
             }
           },
@@ -229,10 +228,11 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "6782b56797116ca5",
+  "active": "0569b11255ea23dd",
   "lastOpenFiles": [
-    "常用语法和算法/Markdown语法/基础语法.md",
+    "采购/wps操作/未命名.md",
     "采购/wps操作/常用函数.md",
+    "常用语法和算法/Markdown语法/基础语法.md",
     "采购/wps操作/常用快捷键.md",
     "采购/Office操作/Excel常用符号及算法.md",
     "采购/常用仓库编号.md",
@@ -258,7 +258,6 @@
     "采购/Office操作/Excel常用快捷键.md",
     "采购/Office操作",
     "采购/wps操作",
-    "网络工程/计算机硬件系统/机器语言(1代到5代).md",
     "obsidian相关/Picture/tmp1686294154425_常用排序算法_image_1.png",
     "obsidian相关/Picture/tmp1684983748281_UML图画法_image_2.png",
     "obsidian相关/Picture/tmp1683602274901_TCP协议三次握手四次挥手_image_4.jpeg",
