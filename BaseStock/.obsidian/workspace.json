@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.md",
+                "file": "采购/常用仓库编号.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1.md",
+                "file": "采购/常用仓库编号.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.md"
+                "file": "采购/常用仓库编号.md"
               }
             }
           },
@@ -240,7 +240,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "1d178d89df319bbe",
+  "active": "154d448781a61901",
   "lastOpenFiles": [
     "1.md",
     "采购/常用仓库编号.md",
