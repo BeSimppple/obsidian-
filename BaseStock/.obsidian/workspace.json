@@ -56,19 +56,19 @@
             }
           },
           {
-            "id": "1d178d89df319bbe",
+            "id": "8809db4a6e8c10a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.md",
+                "file": "采购/采购.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "采购/常用仓库编号.md",
+                "file": "采购/采购.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "采购/常用仓库编号.md",
+                "file": "采购/采购.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "采购/常用仓库编号.md"
+                "file": "采购/采购.md"
               }
             }
           },
@@ -223,7 +223,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,12 +240,12 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "c18553e07bc9796c",
+  "active": "8809db4a6e8c10a9",
   "lastOpenFiles": [
-    "1.md",
-    "采购/常用仓库编号.md",
-    "采购/采购.md",
     "采购/在造中车型.md",
+    "采购/常用仓库编号.md",
+    "1.md",
+    "采购/采购.md",
     "每日八股文.md",
     "采购/Office操作/Excel常用符号及算法.md",
     "网络工程/网络通信/VPN(virtual private network).md",
