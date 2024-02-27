@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/常用概念.md",
+                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "git",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -146,7 +146,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -166,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/常用概念.md",
+                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT/常用概念.md",
+                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/常用概念.md"
+                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md"
               }
             }
           },
@@ -266,6 +267,9 @@
   },
   "active": "52450694e399d651",
   "lastOpenFiles": [
+    "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(分支)实现合并,回退.md",
+    "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
+    "IT/常用概念.md",
     "每日八股文.md",
     "采购/常用仓库编号.md",
     "采购/采购.md",
@@ -289,9 +293,6 @@
     "常用语法和算法/UML图.md",
     "采购/Office操作/Excel常用快捷键.md",
     "采购/wps操作/未处理问题.md",
-    "采购/wps操作/条件格式(重要,创建规则).md",
-    "采购/wps操作/两表数据做关联.md",
-    "采购/wps操作/跨表计算.md",
     "开店/赚钱",
     "采购/Office操作",
     "采购/wps操作",
