@@ -211,7 +211,7 @@
             }
           },
           {
-            "id": "5c47752fc6ebd15b",
+            "id": "c18553e07bc9796c",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -223,8 +223,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,7 +239,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "154d448781a61901",
+  "active": "c18553e07bc9796c",
   "lastOpenFiles": [
     "1.md",
     "采购/常用仓库编号.md",
