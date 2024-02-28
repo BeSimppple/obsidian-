@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "采购/在造中车型.md",
+                "file": "obsidian相关/Obsidian快捷键.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "采购/在造中车型.md",
+                "file": "obsidian相关/Obsidian快捷键.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "采购/在造中车型.md"
+                "file": "obsidian相关/Obsidian快捷键.md"
               }
             }
           },
@@ -240,9 +240,10 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "154d448781a61901",
+  "active": "d79c3bc53d6cbf07",
   "lastOpenFiles": [
     "1.md",
+    "采购/在造中车型.md",
     "采购/采购.md",
     "obsidian相关/Obsidian快捷键.md",
     "采购/Office操作/Excel常用符号及算法.md",
@@ -256,7 +257,6 @@
     "采购/wps操作/常用函数.md",
     "采购/wps操作/常用操作.md",
     "采购/wps操作/常见问题.md",
-    "采购/在造中车型.md",
     "每日八股文.md",
     "采购/常用仓库编号.md",
     "sortspec.md",
