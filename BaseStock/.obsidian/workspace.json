@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "85f61a715177d658",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "采购/常用仓库编号.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "采购/wps操作/常见问题.md",
+                "file": "采购/常用仓库编号.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "采购/wps操作/常见问题.md",
+                "file": "采购/常用仓库编号.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "采购/wps操作/常见问题.md"
+                "file": "采购/常用仓库编号.md"
               }
             }
           },
@@ -227,12 +239,12 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "801c4a5148d3fb5c",
+  "active": "85f61a715177d658",
   "lastOpenFiles": [
+    "采购/在造中车型.md",
     "1.md",
     "采购/wps操作/常见问题.md",
     "采购/常用仓库编号.md",
-    "采购/在造中车型.md",
     "obsidian相关/Obsidian快捷键.md",
     "采购/采购.md",
     "学习/金融/标普500指数基金.md",
