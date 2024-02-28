@@ -4,7 +4,6 @@
   "obsidian-kanban",
   "obsidian-highlightpublicnotes-plugin",
   "templater-obsidian",
-  "obsidian-checklist-plugin",
   "media-extended",
   "obsidian-annotator",
   "obsidian-attachment-name-formatting",
@@ -13,5 +12,6 @@
   "better-fn",
   "obsidian-regex-replace",
   "mousewheel-image-zoom",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-reminder-plugin"
 ]

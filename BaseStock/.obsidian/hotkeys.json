@@ -79,5 +79,13 @@
     }
   ],
   "canvas:export-as-image": [],
-  "obsidian-attachment-name-formatting:attachments-rescan-command": []
+  "obsidian-attachment-name-formatting:attachments-rescan-command": [],
+  "obsidian-checklist-plugin:show-checklist-view": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "."
+    }
+  ]
 }
