@@ -3,19 +3,14 @@
   "reminders": {
     "obsidian相关/Obsidian快捷键.md": [
       {
-        "title": "ceshi",
-        "time": "2024-02-28 10:00",
-        "rowNumber": 27
-      },
-      {
         "title": "21321312",
         "time": "2024-02-28 10:15",
         "rowNumber": 26
       },
       {
-        "title": "测试",
-        "time": "2024-02-28 11:22",
-        "rowNumber": 30
+        "title": "ceshi",
+        "time": "2024-02-28 10:32",
+        "rowNumber": 27
       },
       {
         "title": "查询ai作图自动化盈利",
@@ -26,6 +21,11 @@
         "title": "脚本薅羊毛盈利",
         "time": "2024-02-28 13:11",
         "rowNumber": 29
+      },
+      {
+        "title": "测试",
+        "time": "2024-02-28 11:22",
+        "rowNumber": 30
       }
     ]
   },
@@ -40,7 +40,7 @@
     "dateFormat": "YYYY-MM-DD",
     "dateTimeFormat": "YYYY-MM-DD HH:mm",
     "strictDateFormat": true,
-    "linkDatesToDailyNotes": false,
+    "linkDatesToDailyNotes": true,
     "enableTasksPluginReminderFormat": false,
     "useCustomEmojiForTasksPlugin": false,
     "removeTagsForTasksPlugin": false,
