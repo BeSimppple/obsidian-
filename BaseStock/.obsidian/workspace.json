@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "27b8dbe137ea61e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "采购/Office操作/Excel常用符号及算法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "52450694e399d651",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0569b11255ea23dd",
             "type": "leaf",
             "state": {
@@ -80,19 +56,19 @@
             }
           },
           {
-            "id": "4f686312eaa910ac",
+            "id": "4e211a3d7dfa0017",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习/摸鱼网站.md",
+                "file": "obsidian相关/Obsidian快捷键.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -121,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git",
+                "query": "快捷键",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -167,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
+                "file": "obsidian相关/Obsidian快捷键.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
+                "file": "obsidian相关/Obsidian快捷键.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md"
+                "file": "obsidian相关/Obsidian快捷键.md"
               }
             }
           },
@@ -265,18 +241,20 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "52450694e399d651",
+  "active": "4e211a3d7dfa0017",
   "lastOpenFiles": [
-    "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(分支)实现合并,回退.md",
-    "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
-    "IT/常用概念.md",
+    "采购/wps操作/常用快捷键.md",
+    "采购/Office操作/Excel常用快捷键.md",
     "每日八股文.md",
-    "采购/常用仓库编号.md",
-    "采购/采购.md",
+    "采购/Office操作/Excel常用符号及算法.md",
+    "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(设置流程).md",
     "1.md",
     "学习/摸鱼网站.md",
+    "软件(原理,部署,特点)/项目部署/GIT实现云同步/GIT(分支)实现合并,回退.md",
+    "IT/常用概念.md",
+    "采购/常用仓库编号.md",
+    "采购/采购.md",
     "采购/在造中车型.md",
-    "采购/Office操作/Excel常用符号及算法.md",
     "网络工程/网络通信/VPN(virtual private network).md",
     "网络工程/网络通信/WEB及HTTP.md",
     "网络工程/网络通信/TCP协议.md",
@@ -291,8 +269,6 @@
     "网络工程/网络通信/基础知识/常见架构.md",
     "软件(原理,部署,特点)/Mysql/SQL语法.md",
     "常用语法和算法/UML图.md",
-    "采购/Office操作/Excel常用快捷键.md",
-    "采购/wps操作/未处理问题.md",
     "开店/赚钱",
     "采购/Office操作",
     "采购/wps操作",
