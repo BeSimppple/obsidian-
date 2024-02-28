@@ -56,7 +56,7 @@
             }
           },
           {
-            "id": "4e211a3d7dfa0017",
+            "id": "0ad18c6b9acf9825",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -97,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "快捷键",
+                "query": "售后",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -204,23 +204,23 @@
             }
           },
           {
-            "id": "c18553e07bc9796c",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {}
-            }
-          },
-          {
             "id": "71db54b1cc07816d",
             "type": "leaf",
             "state": {
               "type": "reminder-list",
               "state": {}
             }
+          },
+          {
+            "id": "744c5d80b34b58bd",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -240,12 +240,13 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "4e211a3d7dfa0017",
+  "active": "744c5d80b34b58bd",
   "lastOpenFiles": [
+    "1.md",
+    "采购/采购.md",
     "采购/常用仓库编号.md",
     "obsidian相关/Obsidian快捷键.md",
-    "采购/采购.md",
-    "1.md",
+    "obsidian相关/2024-02-28.md",
     "采购/wps操作/常用快捷键.md",
     "采购/Office操作/Excel常用快捷键.md",
     "每日八股文.md",
@@ -267,7 +268,6 @@
     "网络工程/网络通信/基础知识/常见网络参数解释.md",
     "网络工程/网络通信/基础知识/常见术语.md",
     "网络工程/网络通信/基础知识/常见架构.md",
-    "软件(原理,部署,特点)/Mysql/SQL语法.md",
     "开店/赚钱",
     "采购/Office操作",
     "采购/wps操作",

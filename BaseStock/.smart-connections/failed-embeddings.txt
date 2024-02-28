@@ -31,6 +31,7 @@ IT/常用概念.md
 IT/机器学习/AI/OpenAI.md
 IT/机器学习/AI/OpenAI.md#api ky:
 IT/设计模式/桥接模式.md
+obsidian相关/Obsidian快捷键.md
 学习/JAVA学习XIMD图.md
 学习/K语言.md
 学习/摸鱼网站.md
