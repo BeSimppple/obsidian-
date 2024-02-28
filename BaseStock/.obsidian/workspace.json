@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "8809db4a6e8c10a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "采购/采购.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6204e3356810d79c",
             "type": "leaf",
             "state": {
@@ -56,12 +44,12 @@
             }
           },
           {
-            "id": "0ad18c6b9acf9825",
+            "id": "d79c3bc53d6cbf07",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "采购/Office操作/Excel常用快捷键.md",
+                "file": "obsidian相关/Obsidian快捷键.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "obsidian",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -122,7 +110,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -142,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.md",
+                "file": "obsidian相关/Obsidian快捷键.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1.md",
+                "file": "obsidian相关/Obsidian快捷键.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.md"
+                "file": "obsidian相关/Obsidian快捷键.md"
               }
             }
           },
@@ -223,8 +212,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,16 +228,16 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "6204e3356810d79c",
+  "active": "d79c3bc53d6cbf07",
   "lastOpenFiles": [
+    "采购/常用仓库编号.md",
+    "采购/采购.md",
+    "1.md",
     "采购/Office操作/Excel常用快捷键.md",
     "采购/Office操作/Excel常用符号及算法.md",
     "sortspec.md",
     "文档编写和分类标准.md",
     "obsidian相关/Obsidian快捷键.md",
-    "1.md",
-    "采购/采购.md",
-    "采购/常用仓库编号.md",
     "obsidian相关/2024-02-28.md",
     "采购/wps操作/常用快捷键.md",
     "每日八股文.md",
