@@ -3,19 +3,14 @@
   "reminders": {
     "1.md": [
       {
-        "title": "leecode每日一题",
-        "time": "2024-02-29",
-        "rowNumber": 65
-      },
-      {
         "title": "了解AI辅助作画贩卖",
         "time": "2024-02-29",
-        "rowNumber": 66
+        "rowNumber": 83
       },
       {
         "title": "了解脚本薅羊毛",
         "time": "2024-02-29",
-        "rowNumber": 67
+        "rowNumber": 84
       }
     ]
   },
