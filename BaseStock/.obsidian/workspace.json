@@ -49,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "采购/采购.md",
+                "file": "1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8e03c5a20afacc3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian相关/Obsidian快捷键.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "采购/在造中车型.md",
+                "file": "1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "采购/在造中车型.md",
+                "file": "1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "采购/在造中车型.md"
+                "file": "1.md"
               }
             }
           },
@@ -228,17 +240,17 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "154d448781a61901",
+  "active": "6fe96c3b62bc5aa8",
   "lastOpenFiles": [
     "采购/采购.md",
+    "obsidian相关/Obsidian快捷键.md",
+    "采购/在造中车型.md",
     "1.md",
     "学习/金融/标普500指数基金.md",
     "学习/金融/金融基本概念.md",
     "学习/金融/金融相关法律.md",
     "学习/金融/美股注意事项.md",
     "学习/金融/转账入金和出金.md",
-    "采购/在造中车型.md",
-    "obsidian相关/Obsidian快捷键.md",
     "采购/Office操作/Excel常用符号及算法.md",
     "采购/Office操作/Excel常用快捷键.md",
     "采购/wps操作/未处理问题.md",

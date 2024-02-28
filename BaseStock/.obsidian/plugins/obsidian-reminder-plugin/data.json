@@ -1,19 +1,6 @@
 {
   "scanned": true,
-  "reminders": {
-    "obsidian相关/Obsidian快捷键.md": [
-      {
-        "title": "查询ai作图自动化盈利",
-        "time": "2024-02-28 12:11",
-        "rowNumber": 28
-      },
-      {
-        "title": "脚本薅羊毛盈利",
-        "time": "2024-02-28 13:11",
-        "rowNumber": 29
-      }
-    ]
-  },
+  "reminders": {},
   "debug": false,
   "settings": {
     "reminderTime": "09:00",
