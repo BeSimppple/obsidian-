@@ -1,6 +1,14 @@
 {
   "scanned": true,
-  "reminders": {},
+  "reminders": {
+    "obsidian相关/Obsidian快捷键.md": [
+      {
+        "title": "21321312",
+        "time": "2024-02-28 10:01",
+        "rowNumber": 26
+      }
+    ]
+  },
   "debug": false,
   "settings": {
     "reminderTime": "09:00",
@@ -11,12 +19,12 @@
     "enableReminderPluginReminderFormat": true,
     "dateFormat": "YYYY-MM-DD",
     "dateTimeFormat": "YYYY-MM-DD HH:mm",
-    "strictDateFormat": false,
-    "linkDatesToDailyNotes": false,
+    "strictDateFormat": true,
+    "linkDatesToDailyNotes": true,
     "enableTasksPluginReminderFormat": false,
     "useCustomEmojiForTasksPlugin": false,
     "removeTagsForTasksPlugin": false,
-    "enableKanbanPluginReminderFormat": false,
+    "enableKanbanPluginReminderFormat": true,
     "editDetectionSec": 10,
     "reminderCheckIntervalSec": 5
   }

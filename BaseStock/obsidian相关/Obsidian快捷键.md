@@ -11,13 +11,20 @@ Ctrl + k 使用模板生成一篇新的笔记
 Ctrl + B 加粗
 
 tab  缩进4个单元格归类为子类
-==插件功能:==
-Alt+鼠标滚轮控制图片大小
 
-Ctrl + - 启动正则表达式
+## ==插件功能:==
+Mouse imgine zoom
+	Alt+鼠标滚轮控制图片大小
+regex find
+	Ctrl + - 启动正则表达式
+GIT
+	F1 git commit
+	F2 git push
+Reminder
+	\(\@  
 
-F1 git commit
-F2 git push
 
-
-- [ ] 21321312
+- [ ] 21321312(@2024-02-28 10:01)
+- [ ] 查询ai作图自动化盈利(@[[2024-02-28]] 9:45)
+- [ ] 脚本薅羊毛盈利
+- [ ] 
