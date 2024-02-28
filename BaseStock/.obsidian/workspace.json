@@ -204,7 +204,7 @@
             }
           },
           {
-            "id": "71db54b1cc07816d",
+            "id": "65f0d200c69c133f",
             "type": "leaf",
             "state": {
               "type": "reminder-list",
@@ -212,7 +212,7 @@
             }
           },
           {
-            "id": "744c5d80b34b58bd",
+            "id": "57c620e624e20341",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -220,7 +220,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -240,12 +240,12 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "744c5d80b34b58bd",
+  "active": "0ad18c6b9acf9825",
   "lastOpenFiles": [
     "1.md",
+    "obsidian相关/Obsidian快捷键.md",
     "采购/采购.md",
     "采购/常用仓库编号.md",
-    "obsidian相关/Obsidian快捷键.md",
     "obsidian相关/2024-02-28.md",
     "采购/wps操作/常用快捷键.md",
     "采购/Office操作/Excel常用快捷键.md",

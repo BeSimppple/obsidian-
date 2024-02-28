@@ -1,6 +1,34 @@
 {
   "scanned": true,
-  "reminders": {},
+  "reminders": {
+    "obsidian相关/Obsidian快捷键.md": [
+      {
+        "title": "ceshi",
+        "time": "2024-02-28 10:00",
+        "rowNumber": 27
+      },
+      {
+        "title": "21321312",
+        "time": "2024-02-28 10:15",
+        "rowNumber": 26
+      },
+      {
+        "title": "测试",
+        "time": "2024-02-28 11:22",
+        "rowNumber": 30
+      },
+      {
+        "title": "查询ai作图自动化盈利",
+        "time": "2024-02-28 12:11",
+        "rowNumber": 28
+      },
+      {
+        "title": "脚本薅羊毛盈利",
+        "time": "2024-02-28 13:11",
+        "rowNumber": 29
+      }
+    ]
+  },
   "debug": false,
   "settings": {
     "reminderTime": "09:00",
@@ -8,11 +36,11 @@
     "useSystemNotification": false,
     "autoCompleteTrigger": "(@",
     "primaryReminderFormat": "ReminderPluginReminderFormat",
-    "enableReminderPluginReminderFormat": false,
+    "enableReminderPluginReminderFormat": true,
     "dateFormat": "YYYY-MM-DD",
     "dateTimeFormat": "YYYY-MM-DD HH:mm",
     "strictDateFormat": true,
-    "linkDatesToDailyNotes": true,
+    "linkDatesToDailyNotes": false,
     "enableTasksPluginReminderFormat": false,
     "useCustomEmojiForTasksPlugin": false,
     "removeTagsForTasksPlugin": false,
