@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.md",
+                "file": "采购/wps操作/常见问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1.md",
+                "file": "采购/wps操作/常见问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.md"
+                "file": "采购/wps操作/常见问题.md"
               }
             }
           },
@@ -227,10 +227,10 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "6fe96c3b62bc5aa8",
+  "active": "801c4a5148d3fb5c",
   "lastOpenFiles": [
-    "采购/wps操作/常见问题.md",
     "1.md",
+    "采购/wps操作/常见问题.md",
     "采购/常用仓库编号.md",
     "采购/在造中车型.md",
     "obsidian相关/Obsidian快捷键.md",
