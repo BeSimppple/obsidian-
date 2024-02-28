@@ -1,6 +1,24 @@
 {
   "scanned": true,
-  "reminders": {},
+  "reminders": {
+    "1.md": [
+      {
+        "title": "leecode每日一题",
+        "time": "2024-02-29",
+        "rowNumber": 62
+      },
+      {
+        "title": "了解AI辅助作画贩卖",
+        "time": "2024-02-29",
+        "rowNumber": 63
+      },
+      {
+        "title": "了解脚本薅羊毛",
+        "time": "2024-02-29",
+        "rowNumber": 64
+      }
+    ]
+  },
   "debug": false,
   "settings": {
     "reminderTime": "09:00",
