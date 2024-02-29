@@ -1,19 +1,6 @@
 {
   "scanned": true,
-  "reminders": {
-    "常用语法和算法/算法/每日一练/2-28.md": [
-      {
-        "title": "了解AI辅助作画贩卖",
-        "time": "2024-02-29",
-        "rowNumber": 87
-      },
-      {
-        "title": "了解脚本薅羊毛",
-        "time": "2024-02-29",
-        "rowNumber": 88
-      }
-    ]
-  },
+  "reminders": {},
   "debug": false,
   "settings": {
     "reminderTime": "09:00",
