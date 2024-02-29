@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "采购/采购.md",
+                "file": "常用语法和算法/算法/每日一练/2-30.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "采购/采购.md",
+                "file": "常用语法和算法/算法/每日一练/2-30.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "采购/采购.md",
+                "file": "常用语法和算法/算法/每日一练/2-30.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "采购/采购.md"
+                "file": "常用语法和算法/算法/每日一练/2-30.md"
               }
             }
           },
@@ -242,10 +242,11 @@
   },
   "active": "801c4a5148d3fb5c",
   "lastOpenFiles": [
+    "采购/采购.md",
+    "常用语法和算法/算法/每日一练/2-30.md",
     "常用语法和算法/算法/固定技巧算法/floyd判圈算法(龟兔算法).md",
     "常用语法和算法/算法/每日一练/2-29.md",
     "常用语法和算法/算法/固定技巧算法",
-    "采购/采购.md",
     "常用语法和算法/算法/算法基础概念/时间复杂度和空间复杂度.md",
     "常用语法和算法/算法/排序算法.md",
     "采购/wps操作/常用函数.md",
@@ -269,7 +270,6 @@
     "采购/wps操作/条件格式(重要,创建规则).md",
     "采购/wps操作/两表数据做关联.md",
     "采购/wps操作/跨表计算.md",
-    "采购/wps操作/常用理论.md",
     "开店/赚钱",
     "采购/Office操作",
     "采购/wps操作",
