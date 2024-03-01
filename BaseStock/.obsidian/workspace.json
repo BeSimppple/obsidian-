@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "采购/常用仓库编号.md",
+                "file": "每日八股文.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "采购/常用仓库编号.md",
+                "file": "每日八股文.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "采购/常用仓库编号.md"
+                "file": "每日八股文.md"
               }
             }
           },
@@ -211,7 +210,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,8 +228,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "8a91850ecb3ddf07",
+  "active": "0569b11255ea23dd",
   "lastOpenFiles": [
+    "采购/常用仓库编号.md",
     "采购/采购.md",
     "每日八股文.md",
     "学习/金融/常见理论/生产要素（Factors of Production）.md",
@@ -250,7 +251,6 @@
     "学习/金融/常见理论",
     "Excalidraw/画图测试.md",
     "Excalidraw",
-    "采购/常用仓库编号.md",
     "常用语法和算法/算法/排序算法.md",
     "常用语法和算法/算法/固定技巧算法/floyd判圈算法(龟兔算法).md",
     "常用语法和算法/算法/固定技巧算法",
