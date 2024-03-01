@@ -42,6 +42,8 @@ obsidian相关/Obsidian快捷键.md
 学习/金融/个人/软件开发.md
 学习/金融/个人金融总结.md
 学习/金融/公司的盈利点和未来方向.md
+学习/金融/常见理论/帕累托最优(Pareto Efficiency).md
+学习/金融/常见理论/科斯定理（Coase Theorem）.md
 学习/金融/投资.md
 学习/金融/未命名.md
 学习/金融/经商定位/定位.md
