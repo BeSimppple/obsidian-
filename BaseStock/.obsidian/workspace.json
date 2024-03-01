@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/金融/常见理论/生产要素（Factors of Production）.md",
+                "file": "采购/采购.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/金融/常见理论/生产要素（Factors of Production）.md",
+                "file": "采购/采购.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/金融/常见理论/生产要素（Factors of Production）.md"
+                "file": "采购/采购.md"
               }
             }
           },
@@ -241,10 +241,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "04c19c313fc4d022",
+  "active": "450d284921c152d8",
   "lastOpenFiles": [
-    "学习/金融/常见理论/边际成本（Marginal Cost）.md",
     "学习/金融/常见理论/生产要素（Factors of Production）.md",
+    "学习/金融/常见理论/边际成本（Marginal Cost）.md",
     "学习/金融/常见理论/机会成本（Opportunity Cost）.md",
     "学习/金融/常见理论/未命名",
     "学习/金融/常见理论/边际效益（Marginal Utility）.md",
