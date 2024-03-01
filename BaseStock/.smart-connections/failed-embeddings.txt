@@ -45,6 +45,7 @@ obsidian相关/Obsidian快捷键.md
 学习/金融/常见理论/外部性.md
 学习/金融/常见理论/帕累托最优(Pareto Efficiency).md
 学习/金融/常见理论/机会成本（Opportunity Cost）.md
+学习/金融/常见理论/生产要素（Factors of Production）.md
 学习/金融/常见理论/科斯定理（Coase Theorem）.md
 学习/金融/常见理论/边际成本（Marginal Cost）.md
 学习/金融/常见理论/边际效益（Marginal Utility）.md
