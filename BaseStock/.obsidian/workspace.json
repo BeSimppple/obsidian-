@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习/金融/常见理论/外部性.md",
+                "file": "学习/金融/常见理论/生产要素（Factors of Production）.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/金融/常见理论/外部性.md",
+                "file": "学习/金融/常见理论/生产要素（Factors of Production）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/金融/常见理论/外部性.md",
+                "file": "学习/金融/常见理论/生产要素（Factors of Production）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/金融/常见理论/外部性.md"
+                "file": "学习/金融/常见理论/生产要素（Factors of Production）.md"
               }
             }
           },
@@ -243,9 +243,14 @@
   },
   "active": "04c19c313fc4d022",
   "lastOpenFiles": [
-    "学习/金融/常见理论/科斯定理（Coase Theorem）.md",
-    "学习/金融/常见理论/外部性.md",
+    "学习/金融/常见理论/边际成本（Marginal Cost）.md",
+    "学习/金融/常见理论/生产要素（Factors of Production）.md",
+    "学习/金融/常见理论/机会成本（Opportunity Cost）.md",
+    "学习/金融/常见理论/未命名",
+    "学习/金融/常见理论/边际效益（Marginal Utility）.md",
     "学习/金融/常见理论/帕累托最优(Pareto Efficiency).md",
+    "学习/金融/常见理论/外部性.md",
+    "学习/金融/常见理论/科斯定理（Coase Theorem）.md",
     "常用语法和算法/算法/每日一练/2-30.md",
     "常用语法和算法/算法/每日一练/2-29.md",
     "学习/金融/金融常用名词概念.md",
@@ -268,11 +273,7 @@
     "采购/wps操作/常见问题.md",
     "IT/常用概念.md",
     "采购/在造中车型.md",
-    "常用语法和算法/算法/查找算法.md",
-    "常用语法和算法/算法/每日一练/2-28.md",
     "常用语法和算法/算法/每日一练",
-    "obsidian相关/Obsidian快捷键.md",
-    "学习/金融/标普500指数基金.md",
     "开店/赚钱",
     "采购/Office操作",
     "采购/wps操作",
@@ -288,7 +289,6 @@
     "obsidian相关/Picture/tmp1705564456225_采购流程_image_13.png",
     "采购",
     "学习/金融/经商定位",
-    "开店",
     "未命名.canvas"
   ]
 }
