@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "采购/常用仓库编号.md",
+                "file": "采购/采购.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "采购/常用仓库编号.md",
+                "file": "采购/采购.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "采购/常用仓库编号.md"
+                "file": "采购/采购.md"
               }
             }
           },
@@ -229,11 +229,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "75c5c2f7e36e46fd",
+  "active": "450d284921c152d8",
   "lastOpenFiles": [
+    "采购/常用仓库编号.md",
     "采购/采购.md",
     "每日八股文.md",
-    "采购/常用仓库编号.md",
     "学习/金融/常见理论/生产要素（Factors of Production）.md",
     "学习/金融/常见理论/边际成本（Marginal Cost）.md",
     "学习/金融/常见理论/机会成本（Opportunity Cost）.md",
