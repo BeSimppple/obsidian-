@@ -199,7 +199,7 @@
             }
           },
           {
-            "id": "75c5c2f7e36e46fd",
+            "id": "d1dbe0b402deb339",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -211,8 +211,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -229,7 +228,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "00221c4667656b0b",
+  "active": "d1dbe0b402deb339",
   "lastOpenFiles": [
     "采购/采购.md",
     "采购/常用仓库编号.md",
