@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "采购/采购.md",
+                "file": "常用语法和算法/算法/每日一练/2-30.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "采购/采购.md",
+                "file": "常用语法和算法/算法/每日一练/2-30.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "采购/采购.md"
+                "file": "常用语法和算法/算法/每日一练/2-30.md"
               }
             }
           },
@@ -229,10 +229,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "450d284921c152d8",
+  "active": "801c4a5148d3fb5c",
   "lastOpenFiles": [
-    "采购/常用仓库编号.md",
     "采购/采购.md",
+    "采购/常用仓库编号.md",
     "每日八股文.md",
     "学习/金融/常见理论/生产要素（Factors of Production）.md",
     "学习/金融/常见理论/边际成本（Marginal Cost）.md",
