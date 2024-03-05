@@ -10,6 +10,10 @@ Ctrl + G 查看关系图谱
 Ctrl + k 使用模板生成一篇新的笔记
 Ctrl + B 加粗
 
+rime
+	Ctrl+Shift+3 切换标点符号显示类型（中英）
+	在default.yaml文件中修改
+
 tab  缩进4个单元格归类为子类
 
 ## ==插件功能:==

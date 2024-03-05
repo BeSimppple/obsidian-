@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "采购/采购.md",
+                "file": "obsidian相关/Obsidian快捷键.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ev",
+                "query": "快捷键",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -110,7 +110,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -130,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "采购/采购.md",
+                "file": "obsidian相关/Obsidian快捷键.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "采购/采购.md",
+                "file": "obsidian相关/Obsidian快捷键.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "采购/采购.md"
+                "file": "obsidian相关/Obsidian快捷键.md"
               }
             }
           },
@@ -231,9 +232,12 @@
   },
   "active": "450d284921c152d8",
   "lastOpenFiles": [
-    "常用语法和算法/算法/每日一练/2-30.md",
-    "采购/采购.md",
     "采购/常用仓库编号.md",
+    "obsidian相关/Obsidian快捷键.md",
+    "采购/wps操作/常用快捷键.md",
+    "软件(原理,部署,特点)/Idea/常用配置.md",
+    "采购/采购.md",
+    "常用语法和算法/算法/每日一练/2-30.md",
     "每日八股文.md",
     "学习/金融/常见理论/生产要素（Factors of Production）.md",
     "学习/金融/常见理论/边际成本（Marginal Cost）.md",
@@ -258,9 +262,6 @@
     "常用语法和算法/算法/算法基础概念/时间复杂度和空间复杂度.md",
     "采购/wps操作/常用函数.md",
     "采购/wps操作/常用操作.md",
-    "采购/wps操作/常见问题.md",
-    "IT/常用概念.md",
-    "采购/在造中车型.md",
     "常用语法和算法/算法/每日一练",
     "开店/赚钱",
     "采购/Office操作",
