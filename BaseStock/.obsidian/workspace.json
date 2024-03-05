@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用语法和算法/算法/每日一练/2-30.md",
+                "file": "采购/采购.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用语法和算法/算法/每日一练/2-30.md",
+                "file": "采购/采购.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用语法和算法/算法/每日一练/2-30.md"
+                "file": "采购/采购.md"
               }
             }
           },
@@ -229,8 +229,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "801c4a5148d3fb5c",
+  "active": "450d284921c152d8",
   "lastOpenFiles": [
+    "常用语法和算法/算法/每日一练/2-30.md",
     "采购/采购.md",
     "采购/常用仓库编号.md",
     "每日八股文.md",
@@ -242,7 +243,6 @@
     "学习/金融/常见理论/帕累托最优(Pareto Efficiency).md",
     "学习/金融/常见理论/外部性.md",
     "学习/金融/常见理论/科斯定理（Coase Theorem）.md",
-    "常用语法和算法/算法/每日一练/2-30.md",
     "常用语法和算法/算法/每日一练/2-29.md",
     "学习/金融/金融常用名词概念.md",
     "学习/金融/公司的盈利点和未来方向.md",
