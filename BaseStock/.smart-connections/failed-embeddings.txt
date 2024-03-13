@@ -137,6 +137,7 @@ obsidian相关/Obsidian快捷键.md
 采购/Office操作/Excel常用符号及算法.md
 采购/Office操作/Excel常用符号及算法.md#**符号**
 采购/Office操作/Excel常用符号及算法.md#**算法**
+采购/T100操作/T100内核.md
 采购/wps操作/两表数据做关联.md
 采购/wps操作/冻结窗格.md
 采购/wps操作/常用函数.md
