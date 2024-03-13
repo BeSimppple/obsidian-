@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "采购/采购.md",
+                "file": "采购/T100操作/T100内核.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "采购/采购.md",
+                "file": "采购/T100操作/T100内核.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "采购/采购.md",
+                "file": "采购/T100操作/T100内核.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "采购/采购.md"
+                "file": "采购/T100操作/T100内核.md"
               }
             }
           },
@@ -229,11 +229,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "1f334917673b79e9",
+  "active": "00221c4667656b0b",
   "lastOpenFiles": [
+    "采购/采购.md",
+    "采购/T100操作/T100内核.md",
+    "采购/T100操作",
     "采购/wps操作/常用函数.md",
     "采购/wps操作/常用操作.md",
-    "采购/采购.md",
     "IT/MySQL/数据库优化(相关概念).md",
     "IT/MySQL/数据库概念.md",
     "采购/Office操作/Excel常用符号及算法.md",
@@ -257,7 +259,6 @@
     "学习/金融/公司的盈利点和未来方向.md",
     "学习/金融/金融基本概念.md",
     "学习/金融/金融相关法律.md",
-    "学习/金融/美股注意事项.md",
     "学习/金融/常见理论",
     "Excalidraw",
     "常用语法和算法/算法/固定技巧算法",
@@ -276,7 +277,6 @@
     "obsidian相关/Picture/tmp1705562578641_采购流程_image_12.png",
     "obsidian相关/Picture/tmp1705564456225_采购流程_image_13.png",
     "采购",
-    "学习/金融/经商定位",
     "未命名.canvas"
   ]
 }
