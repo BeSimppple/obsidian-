@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络工程/计算机硬件系统/机器语言(1代到5代).md",
+                "file": "采购/采购.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "编程语言",
+                "query": "采购",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网络工程/计算机硬件系统/机器语言(1代到5代).md",
+                "file": "采购/采购.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网络工程/计算机硬件系统/机器语言(1代到5代).md",
+                "file": "采购/采购.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网络工程/计算机硬件系统/机器语言(1代到5代).md"
+                "file": "采购/采购.md"
               }
             }
           },
@@ -232,6 +232,7 @@
   },
   "active": "00221c4667656b0b",
   "lastOpenFiles": [
+    "网络工程/计算机硬件系统/机器语言(1代到5代).md",
     "采购/T100操作/T100内核.md",
     "采购/采购.md",
     "采购/T100操作",
@@ -259,7 +260,6 @@
     "学习/金融/金融常用名词概念.md",
     "学习/金融/公司的盈利点和未来方向.md",
     "学习/金融/金融基本概念.md",
-    "学习/金融/金融相关法律.md",
     "学习/金融/常见理论",
     "Excalidraw",
     "常用语法和算法/算法/固定技巧算法",
