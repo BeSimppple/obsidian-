@@ -200,7 +200,7 @@
             }
           },
           {
-            "id": "1f334917673b79e9",
+            "id": "062a6c1e61ce16f9",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -212,8 +212,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,7 +229,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "00221c4667656b0b",
+  "active": "062a6c1e61ce16f9",
   "lastOpenFiles": [
     "网络工程/计算机硬件系统/机器语言(1代到5代).md",
     "采购/T100操作/T100内核.md",
