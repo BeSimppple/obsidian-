@@ -14,7 +14,8 @@ Ctrl+Shift+Alt+=  展开所有
 Ctrl+Shift+Alt+-   闭合所有
 
 rime
-	Ctrl+Shift+3 切换标点符号显示类型（中英）
+	Ctrl+Shift+3 切换标点符号显示类型（中英）、
+	Ctrl+~  切换
 	在default.yaml文件中修改
 
 tab  缩进4个单元格归类为子类
