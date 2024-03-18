@@ -10,6 +10,9 @@ Ctrl + G 查看关系图谱
 Ctrl + k 使用模板生成一篇新的笔记
 Ctrl + B 加粗
 
+Ctrl+Shift+Alt+=  展开所有
+Ctrl+Shift+Alt+-   闭合所有
+
 rime
 	Ctrl+Shift+3 切换标点符号显示类型（中英）
 	在default.yaml文件中修改
