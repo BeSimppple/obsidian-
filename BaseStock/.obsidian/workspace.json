@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian相关/Obsidian快捷键.md",
+                "file": "采购/常用仓库编号.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,8 +122,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -143,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian相关/Obsidian快捷键.md",
+                "file": "采购/wps操作/常见问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian相关/Obsidian快捷键.md",
+                "file": "采购/wps操作/常见问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian相关/Obsidian快捷键.md"
+                "file": "采购/wps操作/常见问题.md"
               }
             }
           },
@@ -242,13 +241,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "00221c4667656b0b",
+  "active": "b508c96be504a8a4",
   "lastOpenFiles": [
+    "采购/常用仓库编号.md",
     "采购/在农村怎么混.md",
     "采购/采购.md",
+    "obsidian相关/Obsidian快捷键.md",
     "采购/wps操作/常用函数.md",
     "采购/wps操作/常见问题.md",
-    "obsidian相关/Obsidian快捷键.md",
     "采购/wps操作/常用快捷键.md",
     "常用语法和算法/算法/每日一练/2-30.md",
     "IT/MySQL/数据库优化(相关概念).md",
@@ -267,7 +267,6 @@
     "采购/T100操作",
     "IT/MySQL/数据库概念.md",
     "采购/在造中车型.md",
-    "采购/常用仓库编号.md",
     "软件(原理,部署,特点)/Idea/常用配置.md",
     "学习/金融/常见理论/生产要素（Factors of Production）.md",
     "学习/金融/常见理论/边际成本（Marginal Cost）.md",
