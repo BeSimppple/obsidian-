@@ -121,6 +121,7 @@ obsidian相关/Obsidian快捷键.md
 软件(原理,部署,特点)/Idea/IDEA快捷键.md#熟悉快捷键
 软件(原理,部署,特点)/Idea/IDEA插件.md
 软件(原理,部署,特点)/JDK/Spring AOT.md
+软件(原理,部署,特点)/Linux/Linux网络.md
 软件(原理,部署,特点)/Mysql/Mysql快捷键.md
 软件(原理,部署,特点)/Mysql/SQL语法.md
 软件(原理,部署,特点)/Redis/Redis原理.md#Redis高可用:
