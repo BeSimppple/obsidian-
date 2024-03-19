@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "采购/常用仓库编号.md",
+                "file": "采购/采购.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -97,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "idea快",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -122,8 +122,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -143,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件(原理,部署,特点)/Idea/IDEA快捷键.md",
+                "file": "采购/采购.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件(原理,部署,特点)/Idea/IDEA快捷键.md",
+                "file": "采购/采购.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件(原理,部署,特点)/Idea/IDEA快捷键.md"
+                "file": "采购/采购.md"
               }
             }
           },
@@ -242,11 +241,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b508c96be504a8a4",
+  "active": "00221c4667656b0b",
   "lastOpenFiles": [
+    "采购/常用仓库编号.md",
+    "软件(原理,部署,特点)/Idea/IDEA快捷键.md",
     "obsidian相关/Obsidian快捷键.md",
     "采购/wps操作/常见问题.md",
-    "采购/常用仓库编号.md",
     "采购/在农村怎么混.md",
     "采购/采购.md",
     "采购/wps操作/常用函数.md",
@@ -270,7 +270,6 @@
     "采购/在造中车型.md",
     "软件(原理,部署,特点)/Idea/常用配置.md",
     "学习/金融/常见理论/生产要素（Factors of Production）.md",
-    "学习/金融/常见理论/边际成本（Marginal Cost）.md",
     "学习/金融/常见理论/未命名",
     "学习/金融/常见理论",
     "Excalidraw",
