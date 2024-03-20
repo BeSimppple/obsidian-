@@ -13,7 +13,10 @@ Ctrl + B 加粗
 Ctrl+Shift+Alt+=  展开所有
 Ctrl+Shift+Alt+-   闭合所有
 
-rime
+**MouseWheel imgine zoom**(插件)
+	Alt+鼠标滚轮  调整图片大小
+
+**rime**
 	Ctrl+Shift+3 切换标点符号显示类型（中英）、
 	Ctrl+~  切换
 	在default.yaml文件中修改
