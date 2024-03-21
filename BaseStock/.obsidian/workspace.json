@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "采购/采购.md",
+                "file": "每日八股文.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "采购/采购.md",
+                "file": "每日八股文.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "采购/采购.md"
+                "file": "每日八股文.md"
               }
             }
           },
@@ -223,7 +223,7 @@
             }
           },
           {
-            "id": "84f936aa43899668",
+            "id": "ffe7d12a6196e0c3",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -235,7 +235,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -252,7 +253,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "84f936aa43899668",
+  "active": "ffe7d12a6196e0c3",
   "lastOpenFiles": [
     "软件(原理,部署,特点)/Linux/Linux网络.md",
     "obsidian相关/Picture/Linux网络_image_3.png",
