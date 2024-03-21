@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "每日八股文.md",
+                "file": "采购/采购.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "每日八股文.md",
+                "file": "采购/采购.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "每日八股文.md"
+                "file": "采购/采购.md"
               }
             }
           },
@@ -253,11 +253,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ffe7d12a6196e0c3",
+  "active": "12666e399d4efe1c",
   "lastOpenFiles": [
+    "每日八股文.md",
     "软件(原理,部署,特点)/Linux/Linux网络.md",
     "obsidian相关/Picture/Linux网络_image_3.png",
-    "每日八股文.md",
     "obsidian相关/Picture/Linux网络_image_2.png",
     "IT/MySQL/数据库优化(相关概念).md",
     "采购/采购.md",
