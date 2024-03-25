@@ -33,4 +33,11 @@ VMnet0是桥接模式(默认不生成)
 2：要求虚拟机配置静态的ip、且必须和真实交换机在同一网段
 3：如果宿主机从A局域网迁移到B局域网，那么虚拟机的ip必须重新设置（缺点）
 
-![[Linux网络_image_3.png]]
+**几个坑!!!!!**
+![[Linux网络_image_3.png|375]]
+这个服务通过cmd  service.msc打开查看是否开启(可能因为windows自带的hyper-v冲突而自动关闭了)!!!!
+![[Linux网络_image_4.png]]
+第三点:
+vi /etc/sysconfig/network-scirpts/ifcfg-网卡名称(ens33)
+修改bootproto=static  修改为静态协议
+nmtui修改ip地址和网关和dns
