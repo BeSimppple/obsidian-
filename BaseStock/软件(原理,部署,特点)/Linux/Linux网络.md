@@ -34,22 +34,25 @@ VMnet0是桥接模式(默认不生成)
 3：如果宿主机从A局域网迁移到B局域网，那么虚拟机的ip必须重新设置（缺点）
 
 **几个坑!!!!!**
-第一点:
+**第一点:**
 ![[Linux网络_image_3.png|375]]
-第二点:
+**第二点:**
 这个服务通过cmd  service.msc打开查看是否开启(可能因为windows自带的hyper-v冲突而自动关闭了)!!!!
 ![[Linux网络_image_4.png]]
-第三点:
+**第三点:**
 vi /etc/sysconfig/network-scirpts/ifcfg-网卡名称(ens33)
 修改bootproto=static  修改为静态协议
 NETMASK=255.255.255.0
 nmtui修改ip地址和网关和dns
-第四点:
+**第四点:**
 通过iptables -L查看防火墙的input是否是access允许流量通过
-第五点:
+**第五点:**
 虚拟机设置中是否使用的nat模式连接
-第六点:
+**第六点:**
 systemctl status firewalld.service  
 检查防火墙是否active状态,如果是则关闭
 systemctl disable firewalld.service  停用
 systemctl stop firewalld.service   关闭
+**第七点:**
+![[Linux网络_image_5.png|400]]
+虚拟机的适配器的ip地址前三位的字段必须和虚拟机的为同一字段192.168.234.xxx
