@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -155,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "采购/采购.md",
+                "file": "软件(原理,部署,特点)/Linux/Linux网络.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "采购/采购.md",
+                "file": "软件(原理,部署,特点)/Linux/Linux网络.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "采购/采购.md"
+                "file": "软件(原理,部署,特点)/Linux/Linux网络.md"
               }
             }
           },
@@ -254,8 +254,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "9eb6eaa36a542622",
+  "active": "00221c4667656b0b",
   "lastOpenFiles": [
+    "网络工程/网络通信/基础知识/常见协议.md",
+    "采购/采购.md",
     "网络工程/网络通信/基础知识/常见网络参数解释.md",
     "软件(原理,部署,特点)/Linux/Linux网络.md",
     "obsidian相关/Picture/Linux网络_image_4.png",
@@ -265,8 +267,6 @@
     "软件(原理,部署,特点)/项目部署/所需软件.md",
     "网络工程/网络通信/软路由.md",
     "采购/制造业常用名词.md",
-    "网络工程/网络通信/基础知识/常见协议.md",
-    "采购/采购.md",
     "软件(原理,部署,特点)/Idea/IDEA快捷键.md",
     "每日八股文.md",
     "常用语法和算法/算法/每日一练/2-30.md",
