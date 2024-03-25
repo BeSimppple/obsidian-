@@ -68,7 +68,7 @@
             }
           },
           {
-            "id": "12666e399d4efe1c",
+            "id": "9eb6eaa36a542622",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -253,22 +253,26 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "cd6739bf9c107448",
+  "active": "9eb6eaa36a542622",
   "lastOpenFiles": [
     "每日八股文.md",
+    "常用语法和算法/算法/每日一练/2-30.md",
+    "软件(原理,部署,特点)/Idea/IDEA快捷键.md",
+    "软件(原理,部署,特点)/Linux/常见名词.md",
+    "学习/事和人/事.md",
+    "学习/事和人/人.md",
+    "学习/学习方法.md",
+    "学习/事和人",
+    "采购/采购.md",
     "软件(原理,部署,特点)/Linux/Linux网络.md",
     "obsidian相关/Picture/Linux网络_image_3.png",
     "obsidian相关/Picture/Linux网络_image_2.png",
     "IT/MySQL/数据库优化(相关概念).md",
-    "采购/采购.md",
     "obsidian相关/Obsidian快捷键.md",
-    "软件(原理,部署,特点)/Idea/IDEA快捷键.md",
     "obsidian相关/Picture/Pasted image 20240320112816.png",
-    "常用语法和算法/算法/每日一练/2-30.md",
     "obsidian相关/Picture/Linux网络_image_1.png",
     "软件(原理,部署,特点)/Linux/Linux快捷键.md",
     "软件(原理,部署,特点)/Linux/Linux.md",
-    "软件(原理,部署,特点)/Linux/常见名词.md",
     "采购/常用仓库编号.md",
     "采购/wps操作/常见问题.md",
     "采购/在农村怎么混.md",
@@ -282,8 +286,6 @@
     "采购/wps操作/条件格式(重要,创建规则).md",
     "采购/wps操作/两表数据做关联.md",
     "采购/wps操作/常用理论.md",
-    "采购/wps操作/跨表计算.md",
-    "网络工程/计算机硬件系统/机器语言(1代到5代).md",
     "采购/T100操作",
     "学习/金融/常见理论/未命名",
     "学习/金融/常见理论",
@@ -299,7 +301,6 @@
     "obsidian相关/Picture/tmp1683530470900_常用算法_image_2.png",
     "obsidian相关/Picture/tmp1683523256117_每日八股文(2)_image_2.png",
     "obsidian相关/Picture/tmp1688694585813_JVM_image_2.png",
-    "采购",
     "未命名.canvas"
   ]
 }
